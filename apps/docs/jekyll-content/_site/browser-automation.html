@@ -173,7 +173,100 @@
         <div class="span8">
          <h1 id="browser_automation">Browser Automation</h1>
 
-<p>TODO: Write me</p>
+<h3 id="cucumber_is_not_a_browser_automation_tool_but_it_works_well_with_browser_automation_tools_such_as_selenium_webdriver">Cucumber is <em>not</em> a Browser Automation tool, but it <em>works well</em> with Browser Automation tools such as <a href="http://docs.seleniumhq.org/projects/webdriver/">Selenium Webdriver</a></h3>
+
+<p>To illustrate this, let’s convert the <a href="http://docs.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example">Selenium-Webdriver by Example tutorial</a> to use Cucumber.</p>
+
+<p>We can express the example as the following Scenario:</p>
+<div class='highlight'><pre><code class='gherkin'><span class='k'>Scenario:</span><span class='nf'> Page title should show search term</span>
+<span class='k'>	Given </span><span class='nf'>I visit Google</span>
+<span class='nf'>	</span><span class='k'>When </span><span class='nf'>I search for Cheese!</span>
+<span class='nf'>	</span><span class='k'>Then </span><span class='nf'>the page title starts with cheese</span>
+</code></pre></div>
+<p>Here are the accompanying Step Definitions:</p>
+<ul class='nav nav-tabs'>
+  <li><a class='java' data-toggle='tab' href='#defs-java'><div>&nbsp;</div></a></li>
+</ul><div class='tab-content'>
+  <div class='tab-pane' id='defs-java'>
+
+<div class='highlight'><pre><code class='java'><span class='kn'>package</span> <span class='n'>com</span><span class='o'>.</span><span class='na'>example</span><span class='o'>;</span>
+
+<span class='kd'>public</span> <span class='kd'>class</span> <span class='nc'>ExampleSteps</span> <span class='o'>{</span>
+    <span class='kd'>private</span> <span class='n'>WebDriver</span> <span class='n'>driver</span><span class='o'>;</span>
+
+    <span class='nd'>@Before</span>
+    <span class='kd'>public</span> <span class='kt'>void</span> <span class='nf'>setup</span><span class='o'>()</span> <span class='o'>{</span>
+        <span class='c1'>// Create a new instance of the Firefox driver</span>
+        <span class='c1'>// Notice that the remainder of the code relies on the interface,</span>
+        <span class='c1'>// not the implementation.</span>
+        <span class='n'>driver</span> <span class='o'>=</span> <span class='k'>new</span> <span class='n'>FirefoxDriver</span><span class='o'>();</span>
+    <span class='o'>}</span>
+
+    <span class='nd'>@Given</span><span class='o'>(</span><span class='s'>&quot;^I visit Google$&quot;</span><span class='o'>)</span>
+    <span class='kd'>public</span> <span class='kt'>void</span> <span class='nf'>I_visit_google</span><span class='o'>()</span> <span class='o'>{</span>
+        <span class='n'>driver</span><span class='o'>.</span><span class='na'>get</span><span class='o'>(</span><span class='s'>&quot;http://www.google.com&quot;</span><span class='o'>);</span>
+    <span class='o'>}</span>
+
+    <span class='nd'>@When</span><span class='o'>(</span><span class='s'>&quot;^I search for Cheese!$&quot;</span><span class='o'>)</span>
+    <span class='kd'>public</span> <span class='kt'>void</span> <span class='nf'>search_for_cheese</span><span class='o'>()</span> <span class='o'>{</span>
+        <span class='n'>WebElement</span> <span class='n'>element</span> <span class='o'>=</span> <span class='n'>driver</span><span class='o'>.</span><span class='na'>findElement</span><span class='o'>(</span><span class='n'>By</span><span class='o'>.</span><span class='na'>name</span><span class='o'>(</span><span class='s'>&quot;q&quot;</span><span class='o'>));</span>
+        <span class='c1'>// Enter something to search for</span>
+        <span class='n'>element</span><span class='o'>.</span><span class='na'>sendKeys</span><span class='o'>(</span><span class='s'>&quot;Cheese!&quot;</span><span class='o'>);</span>
+        <span class='c1'>// Now submit the form. WebDriver will find the form for us from the element</span>
+        <span class='n'>element</span><span class='o'>.</span><span class='na'>submit</span><span class='o'>();</span>
+    <span class='o'>}</span>
+
+    <span class='nd'>@Then</span><span class='o'>(</span><span class='s'>&quot;^the page title starts with cheese$&quot;</span><span class='o'>)</span>
+    <span class='kd'>public</span> <span class='kt'>void</span> <span class='nf'>checkTitle</span><span class='o'>()</span> <span class='o'>{</span>
+        <span class='c1'>// Google&#39;s search is rendered dynamically with JavaScript.</span>
+        <span class='c1'>// Wait for the page to load, timeout after 10 seconds</span>
+        <span class='o'>(</span><span class='k'>new</span> <span class='n'>WebDriverWait</span><span class='o'>(</span><span class='n'>driver</span><span class='o'>,</span> <span class='mi'>10</span><span class='o'>)).</span><span class='na'>until</span><span class='o'>(</span><span class='k'>new</span> <span class='n'>ExpectedCondition</span><span class='o'>&lt;</span><span class='n'>Boolean</span><span class='o'>&gt;()</span> <span class='o'>{</span>
+            <span class='kd'>public</span> <span class='n'>Boolean</span> <span class='nf'>apply</span><span class='o'>(</span><span class='n'>WebDriver</span> <span class='n'>d</span><span class='o'>)</span> <span class='o'>{</span>
+                <span class='k'>return</span> <span class='n'>d</span><span class='o'>.</span><span class='na'>getTitle</span><span class='o'>().</span><span class='na'>toLowerCase</span><span class='o'>().</span><span class='na'>startsWith</span><span class='o'>(</span><span class='s'>&quot;cheese&quot;</span><span class='o'>);</span>
+            <span class='o'>}</span>
+        <span class='o'>});</span>
+        <span class='n'>assertThat</span><span class='o'>(</span><span class='n'>driver</span><span class='o'>.</span><span class='na'>getTitle</span><span class='o'>(),</span> <span class='n'>startsWith</span><span class='o'>(</span><span class='s'>&quot;cheese&quot;</span><span class='o'>));</span>
+        <span class='c1'>// Should see: &quot;cheese! - Google Search&quot;</span>
+    <span class='o'>}</span>
+
+    <span class='nd'>@After</span><span class='o'>()</span>
+    <span class='kd'>public</span> <span class='kt'>void</span> <span class='nf'>teardown</span><span class='o'>()</span> <span class='o'>{</span>
+        <span class='n'>driver</span><span class='o'>.</span><span class='na'>quit</span><span class='o'>();</span>
+    <span class='o'>}</span>
+<span class='o'>}</span>
+</code></pre></div>
+
+</div>
+</div>
+<h2 id="other_tools_and_frameworks">Other tools and frameworks</h2>
+
+<p>Other browser testing tools which work with the various language flavours of Cucumber include:</p>
+
+<ul>
+<li><a href="https://github.com/jnicklas/capybara">Capybara</a> (Ruby Acceptance test framework for web applications)</li>
+
+<li><a href="http://zombie.labnotes.org/">Zombie.js</a> (Javascript headless browser)</li>
+
+<li><a href="https://github.com/WaterfallEngineering/SpookyJS">SpookyJS</a> (Javascript headless browser using CasperJS)</li>
+</ul>
+
+<h2 id="tips_and_tricks">Tips and Tricks</h2>
+
+<h3 id="reusing_the_browser_window">Re-using the browser window</h3>
+
+<p>Closing and re-opening the browser window between your tests will slow them down. To re-use them you can use the <a href="https://github.com/cucumber/cucumber-jvm/blob/master/examples/java-webbit-websockets-selenium/src/test/java/cucumber/examples/java/websockets/SharedDriver.java">SharedDriver</a> wrapper rather than calling Webdriver directly.</p>
+
+<h3 id="embedding_screenshots">Embedding Screenshots</h3>
+
+<p>See the <a href="reports.html#embedding_screenshots">example code for embedding screenshots</a>.</p>
+
+<h2 id="example_projects">Example Projects</h2>
+
+<ul>
+<li><a href="https://github.com/cucumber/cucumber-jvm/tree/master/examples/java-webbit-websockets-selenium">java-webbit-websockets-selenium</a></li>
+
+<li><a href="https://github.com/guardian/frontend/tree/master/integration-tests">Guardian Frontend integration tests</a></li>
+</ul>
         </div>
       </div>
     </div>
