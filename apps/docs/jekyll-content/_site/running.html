@@ -195,7 +195,48 @@
 
 <h3 id="command_line">Command Line</h3>
 
-<p>TODO</p>
+<p>This is only mildly complicated due to the need to specify a classpath etc.</p>
+
+<p>In short, use the following script:</p>
+<div class='highlight'><pre><code class='bash'><span class='nv'>CLASSPATH</span><span class='o'>=</span>lib/*
+<span class='nv'>CLASSPATH</span><span class='o'>=</span><span class='nv'>$CLASSPATH</span>:classes
+<span class='nv'>CLASSPATH</span><span class='o'>=</span><span class='nv'>$CLASSPATH</span>:test-classes
+
+java <span class='se'>\</span>
+    -classpath <span class='nv'>$CLASSPATH</span> <span class='se'>\</span>
+    cucumber.api.cli.Main <span class='se'>\</span>
+    --glue foldername <span class='se'>\ </span><span class='c'># the foldername containing compiled glue code</span>
+    path/to/feature/folder
+</code></pre></div>
+<p>In this example, the directory structure looks like so (slightly modified from the Cucumber-JVM “Hello World” example):</p>
+
+<pre><code>
+lib/
+    cucumber-core.jar
+    cucumber-java.jar
+    cucumber-jvm-deps.jar
+    gherkin.jar
+src/
+    main/java/skeleton/Belly.java
+    test/
+         java/skeleton/Stepdefs.java
+         resources/cucumber.properties
+         resources/skeleton/belly.feature
+</code></pre>
+
+<p>The sources are compiled into two folders: target/classes for the actual code, and target/test-classes for step definitions known as “glue code”. This then explains the classpath settings in the script above:</p>
+
+<ol>
+<li>The lib folder containing the Cucumber jars.</li>
+
+<li>The compiled source code.</li>
+
+<li>The compiled glue code.</li>
+</ol>
+
+<p>…and also the argument to ’–glue’.</p>
+
+<p>Running the above script should (if everything works correctly) run your features.</p>
 
 <h3 id="junit">JUnit</h3>
 
@@ -229,7 +270,26 @@
 
 <h3 id="ant">Ant</h3>
 
-<p>TODO</p>
+<p>Apart from the usual classpath/compile/clean targets, to actually run Cucumber-JVM you will need the following xml. Note that the ‘compile-test’ target compiles the test classes which include the glue code for steps etc. It uses the same directory structure as the Command-line example above.</p>
+<div class='highlight'><pre><code class='xml'>    <span class='nt'>&lt;target</span> <span class='na'>name=</span><span class='s'>&quot;runcukes&quot;</span> <span class='na'>depends=</span><span class='s'>&quot;compile-test&quot;</span><span class='nt'>&gt;</span>
+        <span class='nt'>&lt;java</span> <span class='na'>classname=</span><span class='s'>&quot;cucumber.api.cli.Main&quot;</span> <span class='na'>fork=</span><span class='s'>&quot;true&quot;</span>
+            <span class='na'>failonerror=</span><span class='s'>&quot;false&quot;</span> <span class='na'>resultproperty=</span><span class='s'>&quot;cucumber.exitstatus&quot;</span><span class='nt'>&gt;</span>
+            <span class='nt'>&lt;classpath</span> <span class='na'>refid=</span><span class='s'>&quot;classpath&quot;</span><span class='nt'>/&gt;</span>
+            <span class='nt'>&lt;arg</span> <span class='na'>value=</span><span class='s'>&quot;--glue&quot;</span><span class='nt'>/&gt;</span>
+            <span class='nt'>&lt;arg</span> <span class='na'>value=</span><span class='s'>&quot;skeleton&quot;</span><span class='nt'>/&gt;</span>
+            <span class='nt'>&lt;arg</span> <span class='na'>value=</span><span class='s'>&quot;src/test/resources&quot;</span><span class='nt'>/&gt;</span>
+        <span class='nt'>&lt;/java&gt;</span>
+
+        <span class='nt'>&lt;fail</span> <span class='na'>message=</span><span class='s'>&quot;Cucumber failed&quot;</span><span class='nt'>&gt;</span>
+            <span class='nt'>&lt;condition&gt;</span>
+                <span class='nt'>&lt;not&gt;</span>
+                    <span class='nt'>&lt;equals</span> <span class='na'>arg1=</span><span class='s'>&quot;${cucumber.exitstatus}&quot;</span> <span class='na'>arg2=</span><span class='s'>&quot;0&quot;</span><span class='nt'>/&gt;</span>
+                <span class='nt'>&lt;/not&gt;</span>
+            <span class='nt'>&lt;/condition&gt;</span>
+        <span class='nt'>&lt;/fail&gt;</span>
+    <span class='nt'>&lt;/target&gt;</span>
+</code></pre></div>
+<p>Simply run <code>ant runcukes</code> to run the tests.</p>
 
 <h3 id="gradle">Gradle</h3>
 
