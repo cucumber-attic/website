@@ -8,11 +8,12 @@ Install Ruby. Then:
     bundle install
     bundle exec rackup
 
-Point a browser to http://localhost:9292
+Point a browser to `http://localhost:9292`
 
 ## Modify or add content
 
-You can modify or add [slim](http://slim-lang.com/) files in `views`.
+You can modify or add [slim](http://slim-lang.com/) or
+[Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) files in `views`.
 Modified files are picked up instantly if you refresh the browser.
 The server must be restarted if you add new files.
 
