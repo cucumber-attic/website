@@ -1,23 +1,40 @@
 require 'sinatra'
 require 'slim'
+require 'tilt/redcarpet'
+require 'pygments'
 
 set :root, File.expand_path(File.dirname(__FILE__) + '/..')
 
-# Automatically set up routes for all views
+class HTMLwithPygments < Redcarpet::Render::HTML
+  def block_code(code, language)
+    Pygments.highlight(code, lexer: language)
+  end
+end
 
-view_ext = '.slim'
-views = Dir["#{settings.views}/**/*#{view_ext}"]
-  .map { |file| file[settings.views.length...-view_ext.length] }
-  .reject { |view| view =~ /layout$/ }
+set :markdown, :renderer => HTMLwithPygments, :fenced_code_blocks => true
+
+# Automatically set up routes for all views
+engines = {'.md' => :markdown, '.slim' => :slim}
+
+views = Dir["#{settings.views}/**/*{#{engines.keys.join(',')}}"]
+  .map { |file|
+    ext = File.extname(file)
+    {
+      path: file[settings.views.length...-ext.length],
+      ext: ext
+    }
+  }
+  .reject { |view|
+    view[:path] =~ /layout$/
+  }
 
 views.each do |view|
-  puts view
-  get view do
-    slim view.to_sym
+  get view[:path] do
+    self.send(engines[view[:ext]], view[:path].to_sym)
   end
-  if view == '/index'
+  if view[:path] == '/index'
     get '/' do
-      slim view.to_sym
+      self.send(engines[view[:ext]], view[:path].to_sym)
     end
   end
 end
