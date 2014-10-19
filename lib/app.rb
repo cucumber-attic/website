@@ -11,7 +11,7 @@ class HTMLwithPygments < Redcarpet::Render::HTML
   end
 end
 
-set :markdown, :renderer => HTMLwithPygments, :fenced_code_blocks => true
+set :markdown, :renderer => HTMLwithPygments, :fenced_code_blocks => true, :layout_engine => :slim
 
 # Automatically set up routes for all views
 engines = {'.md' => :markdown, '.slim' => :slim}
