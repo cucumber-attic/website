@@ -1,0 +1,40 @@
+body.reference .lang-curl, body.reference .lang-java, body.reference .lang-php, body.reference .lang-python, body.reference .lang-ruby, body.reference .lang-go, body.reference .lang-node {
+    display: none
+}
+
+body.reference.curl .lang-curl, body.reference.java .lang-java, body.reference.php .lang-php, body.reference.python .lang-python, body.reference.ruby .lang-ruby, body.reference.go .lang-go, body.reference.node .lang-node {
+    display: inline
+}
+
+body.reference .prompt:after {
+    content: '$ ';
+    color: #777
+}
+
+body.reference.curl .prompt:after {
+    content: '$ '
+}
+
+body.reference.ruby .prompt:after {
+    content: '>> '
+}
+
+body.reference.python .prompt:after {
+    content: '>>> '
+}
+
+body.reference.php .prompt:after {
+    content: 'php > '
+}
+
+body.reference.java .prompt:after {
+    content: ''
+}
+
+body.reference.node .prompt:after {
+    content: ''
+}
+
+body.reference.go .prompt:after {
+    content: ''
+}
