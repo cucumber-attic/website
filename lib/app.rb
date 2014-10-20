@@ -12,7 +12,8 @@ class HTMLwithPygments < Redcarpet::Render::HTML
   end
 
   def block_code(code, language)
-    Pygments.highlight(code, lexer: language)
+    html = Pygments.highlight(code, lexer: language)
+    html.gsub(/<div class="highlight">/, %Q{<div class="highlight #{language}">})
   end
 
   def postprocess(doc)
@@ -20,7 +21,7 @@ class HTMLwithPygments < Redcarpet::Render::HTML
     lines = doc.split("\n")
     header_prefix = %Q{\n<div class="topic">\n  <div class="topic-section">\n    <div class="topic-description">\n}
     lines.each do |line|
-      if line =~ /^<div class="highlight">/ && wrap_code
+      if line =~ /^<div class="highlight (ruby|java|javascript)">/ && wrap_code
         line.prepend(%Q{\n  </div>\n  <div class="topic-example">\n})
         wrap_code = false
       end

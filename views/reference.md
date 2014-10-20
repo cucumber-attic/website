@@ -4,6 +4,11 @@ bla bla
 
 ## One
 
+```gherkin
+# Doesn't get pushed to the right!
+Given I have 42 cukes in my belly
+```
+
 Let's look at a Ruby example:
 
 ```ruby
