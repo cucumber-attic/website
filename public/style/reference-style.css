@@ -31,7 +31,7 @@ body.reference {
     -ms-box-shadow: #0f131a -1px 0 0, rgba(0, 0, 0, 0.05) 1px 0 2px inset;
     -o-box-shadow: #0f131a -1px 0 0, rgba(0, 0, 0, 0.05) 1px 0 2px inset;
     box-shadow: #0f131a -1px 0 0, rgba(0, 0, 0, 0.05) 1px 0 2px inset;
-    background-color: #292e33;
+    background-color: #2d2d2d;
     margin-left: 50%;
     position: relative
 }
