@@ -1,0 +1,16 @@
+{
+  "name": "cucumber.pro",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "3.0.3",
+    "jquery": "2.0.3",
+    "magnific-popup": "0.9.9",
+    "ladda": "~0.9.2",
+    "jquery-cookie": "~1.4.1"
+  }
+}

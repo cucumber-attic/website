@@ -1,3 +1,3 @@
 task :default do
-  puts 'noop'
+  sh 'bundle exec rspec'
 end

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="cucumber, gherkin, testing, bdd, atdd, sbe, specification by example, requirements">
+<meta name="description" content="Cucumber Pro. Collaborative Specifications.">
+<meta name="author" content="Cucumber Limited">
+<meta name="copyright" content="Cucumber Limited">
+<link rel="alternate" type="application/rss+xml" title="Cucumber Pro" href="http://localhost:4000/feed.xml">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43811306-1', 'cucumber.pro');
+  ga('send', 'pageview');
+</script>
+
+<title>
+  
+    Cucumber Pro is late &middot; Cucumber Pro
+  
+</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+
+  </head>
+  <body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Cucumber Pro</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/school.html">School</a>
+        </li>
+        <li>
+          <a href="/training.html">Training</a>
+        </li>
+        <li>
+          <a href="/support.html">Support</a>
+        </li>
+      <li>
+          <a href="/blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="http://cukes.info">Open Source</a>
+        </li>
+      </ul>
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://app.cucumber.pro/login">Log in</a></li>
+      </ul>
+      -->
+    </nav>
+  </div>
+</header>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 js-one-column" role="main">
+
+      <h2>Cucumber Pro is late</h2>
+      <p class="meta">22 Apr 2014</p>
+
+      
+      <div class="post">
+        <div class="meta">
+          <img src="https://www.gravatar.com/avatar/cdf378de2284d8acf137122e541caa28?s=40">
+          <span class="author">Matt Wynne</span>
+        </div>
+        <p>When we launched our founder plans in November 2013 we said our goal was a
+public release in Q1 2014. We&#39;re now in the beginning of Q2. So why haven&#39;t we
+launched yet?</p>
+
+<p>We&#39;ve had about 100 users kicking the tires of Cucumber Pro for the last few
+months, and they have given us lots of great feedback. Our plan was to use this
+feedback to prioritise, and work steadily towards a public release.</p>
+
+<p>We&#39;re lot closer to that goal than we were in the beginning of the year, but
+progress has been slower than we&#39;d have liked.</p>
+
+<p>Why? Well, that&#39;s what this post is about. We&#39;ve made some mistakes, learned
+from them, and we&#39;d like to share those lessons with you.</p>
+
+<p>A few weeks ago we lost our first customer. He had been there since our very
+first founder plan sign-ups, and when he asked for a refund it was a real
+wake-up call.</p>
+
+<p>We realised we had let our early users down: Cucumber Pro hasn&#39;t improved much
+in our users&#39; eyes because we&#39;d been focussing too much of our effort on
+mundane stuff that the users don&#39;t see.</p>
+
+<p>Nothing matters more to us than making our users happy. To avoid making the
+same mistake again we decided on two new rules for our team:</p>
+
+<ul>
+<li>The team never works on more than two things simultaneously.</li>
+<li>At least one of the things being worked on must yield direct benefit to users.</li>
+</ul>
+
+<p>So what have we been doing all this time?</p>
+
+<h3>New payment and access control system</h3>
+
+<p>The first subscription plans we sold had a completely manual process both for payment
+and for granting users access to the system.</p>
+
+<p>For all the hype about <a href="http://ibuildmvps.com/blog/the-concierge-minimum-viable-product-maximizes-customer-learning">concierge MVPs</a> we wasted an inordinate amount of time keeping track of this stuff by hand. We needed to improve it.</p>
+
+<p>It turns out that integrating with a payments provider, even one as slick as
+<a href="https://stripe.com">Stripe</a> is a lot of fiddly work.</p>
+
+<p>That work is mostly behind us now, and the great news for you is that we&#39;ll be using this new payments system to release a new batch of plans very soon. Promise!</p>
+
+<h3>Appliance installation</h3>
+
+<p>About half of the companies that have expressed interest in Cucumber Pro want
+to install it on their own server for privacy reasons.</p>
+
+<p>We spent a lot of time experimenting with different ways to package and distribute the
+appliance in a way that will make it easy to upgrade the appliance immediately when
+we release new features or bug fixes.</p>
+
+<h3>Checking Facebook</h3>
+
+<p>Just kidding.</p>
+
+<h3>Open Source work</h3>
+
+<p>Part of <a href="http://localhost:4000/blog/2014/04/16/cucumber-limited.html">Cucumber Limited&#39;s business plan</a>
+is to spend more time on the Cucumber community (the open source). Lately we have
+worked a lot on:</p>
+
+<ul>
+<li>Cucumber-Ruby 2.0</li>
+<li>Cucumber-JVM</li>
+<li>Gherkin3 - a new and improved parser for Cucumber</li>
+<li>Cucumber.js</li>
+</ul>
+
+<p>All good stuff, but it still doesn&#39;t add any shiny new features to Cucumber Pro.</p>
+
+<h3> Running a business</h3>
+
+<p>Cucumber Limited is not a startup in the traditional sense. We <a href="http://modelviewculture.com/pieces/five-reasons-not-to-raise-venture-capital">haven&#39;t sought
+any VC
+funding</a>
+and aim to bootstrap the business instead.</p>
+
+<p>There is a lot of boring stuff to be done in any company. In a bootstrapped
+business like Cucumber Limited this duty falls on the founders:</p>
+
+<ul>
+<li>Register the company with authorities</li>
+<li>Register for VAT</li>
+<li>Open a bank account</li>
+<li>Use lawyers to set up a shareholders agreement between the founders</li>
+<li>Sales and marketing</li>
+</ul>
+
+<p>Talking of sales and marketing, did I mention that we&#39;re <a href="http://kickstartacademy.io/courses/bdd-kickstart">running a training
+course</a> in London next week?</p>
+
+<h3>Training and conferences</h3>
+
+<p><a href="http://localhost:4000/training.html">Training and consulting</a> is a key part of our
+<a href="http://localhost:4000/2014/04/16/cucumber-limited.html">business plan</a> we&#39;ve
+delivered several private training classes in the past few months.</p>
+
+<p>We also co-organised <a href="https://cucumber.pro/cukeup/">CukeUp!</a>, which took a fair
+amount of time.</p>
+
+<h2>Going forward</h2>
+
+<p>With a lot of this dull stuff out of the way, and our new rules in place, our
+existing users will see new and improved features much more frequently than
+before.</p>
+
+<p>Right now the two things we&#39;re working on are a gorgeous new design, and
+publishing results.</p>
+
+<p>Public availability is right around the corner. We&#39;ll be offering a free trial
+for everyone and open source projects will enjoy unlimited free access.</p>
+
+      </div>
+
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'cucumberpro';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+
+
+    </div>
+  </div>
+</div>
+
+
+    <footer class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-center">Copyright © Cucumber Ltd 2014 - <a href="/press.html">Press</a></p>
+      <p class="text-center">
+        <a href="tel:+442087206842">+44 20 8720 6842 (Europe)</a> |
+        <a href="tel:+18444144961">1-844-414-4961 (USA)</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/main.js"></script>
+
+  </body>
+</html>

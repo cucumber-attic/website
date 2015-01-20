@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cucumber Pro</title>
+    <description>Cucumber Pro. Collaborative Specifications.</description>
+    <link>http://localhost:4000</link>
+    <author>Cucumber Limited</author>
+    <copyright>Cucumber Limited</copyright>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
+      <item>
+        <title>Matt Wynne interviewed by TestTalks</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://joecolantonio.com/testtalks/wp-content/uploads/2015/01/MattWynnePostIMages-300x169.jpg&quot; style=&quot;float:right; padding: 10px; width:500px&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I had the pleasure recently of being &lt;a href=&quot;http://joecolantonio.com/testtalks/35matt-wynne-bdd-and-the-cucumber-book/&quot;&gt;interviewed by Joe Colantonio for the TestTalks podcast.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We talked about acceptance testing, the difference between scrum and agile, and how to get developers interested in doing BDD or TDD. It&amp;#39;s a great chance to hear my opinions about how Cucumber is intended to be used!&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;http://traffic.libsyn.com/testtalks/ttMattWynneCucumberBDD35.mp3&quot;&gt;download the episode here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jan 2015 12:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2015/01/13/matt-on-test-talks.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/01/13/matt-on-test-talks.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Cucumber School</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/school.html&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/cukeup-2014/CukeUp-7903.jpg&quot; style=&quot;float:right; padding: 10px;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve taught hundreds of people to use Cucumber and BDD in our &lt;a href=&quot;http://localhost:4000/training.html&quot;&gt;training workshops&lt;/a&gt;, but
+we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#39;s why we&amp;#39;ve launched our online training programme:&lt;br&gt;
+&lt;img src=&quot;http://localhost:4000/images/cucumber-school.png&quot; width=&quot;300px&quot;&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Cucumber School is in beta. I&amp;#39;ll be honest about what that means: We haven&amp;#39;t finished filming all of the content yet.&lt;/p&gt;
+
+&lt;p&gt;So what are we doing opening up for business already? Well, we believe wholeheartedly in that old adage &lt;a href=&quot;http://www.catb.org/%7Eesr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html&quot;&gt;&lt;em&gt;release early, release often. And listen to your customers.&lt;/em&gt;&lt;/a&gt; We don&amp;#39;t want to hide ourselves in the basement for weeks fiddling with video editors. We want to get started, working with you to make sure the course meets your needs.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re confident in &lt;a href=&quot;http://localhost:4000/school.html#content&quot;&gt;our syllabus&lt;/a&gt; and &lt;a href=&quot;/school.html#method&quot;&gt;our method&lt;/a&gt;, but this will be the first time we&amp;#39;ve ever tried to teach this stuff to people without being in the same room. I find that a bit scary, but the feedback
+&lt;a href=&quot;mailto:hello@cucumber.pro?subject=Cucumber School&quot;&gt;we have received&lt;/a&gt; so far at has been all positive.&lt;/p&gt;
+
+&lt;p&gt;So join us on our journey! Since you&amp;#39;ll have to wait for content - we&amp;#39;re committing to publishing a new lesson every two weeks - we&amp;#39;re offering anyone who &lt;a href=&quot;http://localhost:4000/school.html#buy&quot;&gt;signs up now a 25% discount&lt;/a&gt; off the full price.&lt;/p&gt;
+
+&lt;p&gt;Of course this is all part of our &lt;a href=&quot;http://localhost:4000/blog/2014/04/16/cucumber-limited.html&quot;&gt;business plan&lt;/a&gt; to bootstrap our little company and keep Cucumber&amp;#39;s open-source products free and healthy. So if you need another reason to sign up, do it to feel good about supporting an open-source company. We&amp;#39;ll all appreciate it!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Nov 2014 12:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2014/11/18/cucumber-school.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/11/18/cucumber-school.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>CukeUp! 2015 call for thoughts</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/cukeup-2014/CukeUp-7672.jpg&quot; style=&quot;float:right; width:50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://skillsmatter.com/conferences/6332-cukeup-2015&quot;&gt;CukeUp 2015&lt;/a&gt; will be held at the Skills Matter eXchange in London on Thursday March 26th-27th 2015.&lt;/p&gt;
+
+&lt;p&gt;The call for papers will open soon, but first we&amp;#39;re opening a call for &lt;em&gt;thoughts&lt;/em&gt;. We want to hear your thoughts about what would make the next CukeUp the best.&lt;/p&gt;
+
+&lt;p&gt;What themes are dominant for you right now in how we make software? What&amp;#39;s getting you excited? Who would you love to see speak or run a workshop at CukeUp, and on what topic?&lt;/p&gt;
+
+&lt;p&gt;Don&amp;#39;t worry about rambling, incoherent nonsense. We want to hear all your ideas!&lt;/p&gt;
+
+&lt;p&gt;Please write in the comments, or &lt;a href=&quot;mailto:cukeup@skillsmatter.com&quot;&gt;email the team&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Nov 2014 12:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2014/11/13/cukeup-call-for-thoughts.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/11/13/cukeup-call-for-thoughts.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Divergent and Convergent thinking in BDD</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/divergent-convergent-thinking.png&quot; style=&quot;float:right; width:50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;http://www.goodreads.com/book/show/313765.A_Guide_for_the_Perplexed&quot;&gt;E. F. Schumacher&lt;/a&gt;, there are only two kinds of problems in the world:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;divergent problems&lt;/li&gt;
+&lt;li&gt;convergent problems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Choosing a new car is a convergent problem. You only need one new car. There are lots of options, and the solution is to whittle down those options until you&amp;#39;ve found one that meets your needs. Once you&amp;#39;re there, problem solved.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;ve never bough a car before, you&amp;#39;ll need to research all the different options available. You might also want to consider alternative modes of transport - why do you even need a car? Could you make do with a bicycle or public transport? This is an example of divergent thinking&lt;/p&gt;
+
+&lt;p&gt;Notice how I need both types of thinking at the appropriate stage: First I generate options with divergent thinking, then I narrow them down with convergent thinking. If I apply the divergent mindset to the problem for too long, I would become overwhelmed by choices, and might never actually solve my problem. If I approached the problem with a convergent mindset from the beginning, I might miss out on considering valuable alternatives.&lt;/p&gt;
+
+&lt;p&gt;On final day of &lt;a href=&quot;https://skillsmatter.com/conferences/1881-cukeup-nyc-2014#program&quot;&gt;CukeUp NYC&lt;/a&gt; this year, &lt;a href=&quot;http://www.virtual-genius.com/&quot;&gt;Paul Rayner&lt;/a&gt; ran an excellent morning workshop that focussed on using BDD to explore and discover hidden requirements. In the afternoon, &lt;a href=&quot;http://blog.gdinwiddie.com/&quot;&gt;George Dinwiddie&lt;/a&gt; and I ran a session on distilling the essence of scenarios.&lt;/p&gt;
+
+&lt;p&gt;What struck me was how these two sessions perfectly encompassed these two modes of thought, and how both are neccesary to do BDD.&lt;/p&gt;
+
+&lt;h3&gt;Exploration by Example&lt;/h3&gt;
+
+&lt;p&gt;First, with your divergent mindset, you collaboratively explore the problem domain with concrete examples. You&amp;#39;re trying to discover as much as you can about your assumptions and lack of knowledge: your ignorance. Being very concrete is vital at this stage: who the user is, what they&amp;#39;re doing at the time, even how old they are, or whether they&amp;#39;re in a hurry. These kinds of details can all help you to visualise the scenario, and that in turn helps you to see other scenarios.&lt;/p&gt;
+
+&lt;p&gt;At this stage, Liz&amp;#39;s &lt;a href=&quot;http://lizkeogh.com/2011/09/22/conversational-patterns-in-bdd/&quot;&gt;context and outcome questions&lt;/a&gt; can also help to discover new scenarios:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Is there any other context which, when this event happens, will produce a different outcome?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can also find missing details in the existing scenarios:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Given this context, when this event happens, is there another outcome that&amp;#39;s important? Something we missed, perhaps?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At this stage, I&amp;#39;ll most likely be working with pieces of paper or a whiteboard, trying to keep the process very lightweight and let the ideas flow.&lt;/p&gt;
+
+&lt;h3&gt;Converge on a specification&lt;/h3&gt;
+
+&lt;p&gt;Once you have one or more very concrete examples, and you&amp;#39;ve decided you want to implement the behaviour they describe, you switch into the convergent mindset. Now your task is to find the most concise way to describe this behaviour without losing its essence. Why? Being concise is important for long-term value. A scenario with too much detail can be hard to change and brittle, but also confusing for the reader. Details that once helped you to imagine yourself in the user&amp;#39;s shoes now become distracting clutter.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s time to look for rules that underly the examples you&amp;#39;ve been discussing, and to find the best choice of words to describe your understanding of the problem domain.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s also time to choose whether each example needs to remain documented in Gherkin, or whether it would be better moved down the pyramid to a unit test.&lt;/p&gt;
+
+&lt;h3&gt;Both modes matter&lt;/h3&gt;
+
+&lt;p&gt;I need both modes of thought to do BDD: divergent thinking to explore the problem and discover scenarios, then convergent thinking to turn those examples into an executable specification.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Oct 2014 11:32:59 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/10/21/the-two-modes-of-thought-you-need-for-bdd.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/10/21/the-two-modes-of-thought-you-need-for-bdd.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Cucumber Ruby 2.0.0.beta.3 Released</title>
+        <description>&lt;p&gt;I&amp;#39;ve just released the third beta for Cucumber 2.0. The most significant regressions fixed are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calling &lt;code&gt;scenario.failed?&lt;/code&gt; in an After hook&lt;/li&gt;
+&lt;li&gt;The DataTable API (&lt;code&gt;diff!&lt;/code&gt; and friends)&lt;/li&gt;
+&lt;li&gt;Windows support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These were the only significant bugs we&amp;#39;re aware of, so please give it a try and let us know your feedback.&lt;/p&gt;
+
+&lt;p&gt;Once again, please ask anyone who writes tools and plugins you use that depend on Cucumber to test out this release. We&amp;#39;re trying hard to make 2.0 completely backwards compatible with 1.0, but we need feedback to know what we&amp;#39;ve missed.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;d like to help fix any of those issues, I&amp;#39;d also really appreciate it. Just ping @mattwynne on the GitHub ticket of your choice and I&amp;#39;ll be glad to give you some &lt;a href=&quot;http://blog.mattwynne.net/2012/03/31/free-bdd-coaching/&quot;&gt;free BDD coaching&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/09/14/cucumber-2-beta-3.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/09/14/cucumber-2-beta-3.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Cucumber Ruby 1.3.17 Released</title>
+        <description>&lt;p&gt;I&amp;#39;ve just released Cucumber 1.3.17. This releases a couple of changes to the formatters that Bjorn Rasmusson has been working on to allow embedding of images in JSON and HTML reports, as well as proper support for Scenario Outlines in the JSON formatter. If you&amp;#39;re using the excellent free &lt;a href=&quot;http://www.masterthought.net/section/cucumber-reporting&quot;&gt;cucumber-reporting&lt;/a&gt; tools you&amp;#39;ll appreciate this.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m hoping this is the last release in the 1.x line. We&amp;#39;re closing down on the last remaining bugfixes for Cucumber 2.0, and I expect a third beta to be out very soon.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Sep 2014 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/09/13/cucumber-1-3-17.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/09/13/cucumber-1-3-17.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>When Cucumbers Go Bad</title>
+        <description>&lt;p&gt;Cucumber is a simple tool. It takes phrases written in plain language, finds snippets of code that match those phrases, runs them, and tells you whether they threw an error.&lt;/p&gt;
+
+&lt;p&gt;How you organise the code that Cucumber finds, is up to you.&lt;/p&gt;
+
+&lt;p&gt;What you get that code to do, is up to you.&lt;/p&gt;
+
+&lt;p&gt;If your Cucumber suite is slow, or hard to maintain, that&amp;#39;s because the code you&amp;#39;ve asked Cucumber to run is too slow, or too complex.&lt;/p&gt;
+
+&lt;p&gt;If your plain language sentences are boring or awkward to read, that&amp;#39;s the complexity in your underlying code creeping out.&lt;/p&gt;
+
+&lt;p&gt;You can get past this. In my &lt;a href=&quot;https://skillsmatter.com/skillscasts/4984-post-bdd-team&quot;&gt;talk at CukeUp&lt;/a&gt; this year, I described how most teams who adopt BDD hit a stage of disillusionment, where they question whether their Cucumber tests are giving them enough value.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s natural to blame a tool for the discomfort you experience when you use it. Instead, I suggest you use that discomfort to help you see those deeper issues. These issues can be difficult to address, but tackling them will give you a great deal of benefit.&lt;/p&gt;
+
+&lt;p&gt;We wrote about this at length in the chapter &amp;quot;When Cucumbers Go Bad&amp;quot; in &lt;a href=&quot;https://pragprog.com/book/hwcuc/the-cucumber-book&quot;&gt;The Cucumber Book&lt;/a&gt;, but here are a few quick tips:&lt;/p&gt;
+
+&lt;h2&gt;Acceptance Tests Don&amp;#39;t Have to Be End-to-End Tests&lt;/h2&gt;
+
+&lt;p&gt;Just because you&amp;#39;re using Cucumber, doesn&amp;#39;t mean you have to run an end-to-end test. Cucumber is for documenting behaviour that non-technical people care about. If you know that behaviour is implemented in a single class in your application, then why fire up a browser? You can hit that class directly.&lt;/p&gt;
+
+&lt;p&gt;Connecting your tests as close as possible to where the behaviour is implemented is something you&amp;#39;ll never regret.&lt;/p&gt;
+
+&lt;p&gt;This is where it becomes important to pick the same flavour of Cucumber as your application code is written in. If you&amp;#39;re using Cucumber-Ruby to test a PHP app, you&amp;#39;re shit out of luck. Cucumber comes in flavours for almost every programming language under the sun - &lt;a href=&quot;https://github.com/cucumber/cucumber-jvm&quot;&gt;Java&lt;/a&gt;, &lt;a href=&quot;https://github.com/cucumber/cucumber&quot;&gt;Ruby&lt;/a&gt;, &lt;a href=&quot;https://github.com/cucumber/cucumber-js&quot;&gt;JavaScript&lt;/a&gt;, &lt;a href=&quot;https://github.com/cucumber/cucumber-cpp&quot;&gt;C++&lt;/a&gt;, &lt;a href=&quot;https://github.com/behat/behat&quot;&gt;PHP&lt;/a&gt;, &lt;a href=&quot;https://github.com/techtalk/SpecFlow/&quot;&gt;C#&lt;/a&gt;, &lt;a href=&quot;https://github.com/flashquartermaster/Cuke4AS3&quot;&gt;ActionScript&lt;/a&gt; and &lt;a href=&quot;https://github.com/cucumber/cucumber-lua&quot;&gt;Lua&lt;/a&gt; to name but a few.&lt;/p&gt;
+
+&lt;p&gt;Why write acceptance tests that hit your classes? Why not just write unit tests? Good question! That brings me to my next point...&lt;/p&gt;
+
+&lt;h2&gt;Too many scenarios? Maybe you have a trust issue&lt;/h2&gt;
+
+&lt;p&gt;Writing Cucumber scenarios together is a great way to build a team&amp;#39;s share understanding of the problem domain. When you have a scenario written, and everyone agrees you want that behaviour, it&amp;#39;s time to ask an important question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What&amp;#39;s the best way to test this scenario?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If the technical perspective says that you can test this behaviour with a fast unit test, yet the business folks want it to remain as a Cucumber scenario, you have three options:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Suck it up, and write another end-to-end test&lt;/li&gt;
+&lt;li&gt;Wire up an acceptance test that connects directly to your domain model (see above)&lt;/li&gt;
+&lt;li&gt;Convince the business folks to trust you, and write it as a unit test&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Option 3 is what really excellent teams do.&lt;/p&gt;
+
+&lt;p&gt;Do your team want to be really excellent?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Like this post? You can &lt;a href=&quot;https://cucumber.pro/training.html&quot;&gt;hire Matt&lt;/a&gt; to coach or train your team, or join us on one of our upcoming &lt;a href=&quot;http://kickstartacademy.io/courses/bdd-kickstart&quot;&gt;public courses&lt;/a&gt;. &lt;a href=&quot;mailto:hello@cucumber.pro?subject=Private%20Cucumber%20training&quot;&gt;Get in touch&lt;/a&gt; anytime to discuss your needs.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Sep 2014 13:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/09/10/when-cucumbers-go-bad.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/09/10/when-cucumbers-go-bad.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Brand new Autocomplete for Cucumber Pro</title>
+        <description>&lt;p&gt;Cucumber Pro has had autocompletion for a while now. Several of our users have told us that it&amp;#39;s a useful feature, but that it &lt;a href=&quot;https://cucumber.pro/blog/2014/01/25/a-sneak-peek-at-cucumber-pro.html&quot;&gt;required too much setup&lt;/a&gt; and wasn&amp;#39;t very accurate.&lt;/p&gt;
+
+&lt;p&gt;So we redesigned it from scratch. Now there is &lt;em&gt;no&lt;/em&gt; setup whatsoever[1]. The suggestions you get when you type are much better than before.&lt;/p&gt;
+
+&lt;iframe class=&quot;wistia_embed&quot; name=&quot;wistia_embed&quot; src=&quot;http://fast.wistia.net/embed/iframe/otyzmtbfqt?canonicalUrl=https%3A%2F%2Fcucumber.wistia.com%2Fmedias%2Fotyzmtbfqt&amp;canonicalTitle=autocomplete%20redesigned%20-%20cucumber&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;480&quot; height=&quot;318&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Just open a Feature file in Cucumber Pro, start typing a step and see the autocomplete show up with suggestions automatically. Use UP/DOWN keys to navigate, press ENTER/RETURN to choose a step or press ESC to dismiss the autocomplete.&lt;/p&gt;
+
+&lt;p&gt;Every time you save changes to your features into source control, we’ll automatically refresh the autocomplete with your latest steps.&lt;/p&gt;
+
+&lt;p&gt;Because the new autocomplete works with pure Gherkin, it works with all the flavours of Cucumber projects: JVM, Ruby, JavaScript, SpecFlow for C# and Behat for PHP. If you&amp;#39;re using JBehave with Gherkin, that should even work too.&lt;/p&gt;
+
+&lt;p&gt;[1] If you previously set up &lt;code&gt;.cucumber/stepdefs.json&lt;/code&gt; you can remove it - it&amp;#39;s not used anymore.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Sep 2014 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/09/05/new-autocomplete-for-cucumber-pro.html</link>
+        <author>aslak@cucumber.pro (Aslak Hellesøy)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/09/05/new-autocomplete-for-cucumber-pro.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>BDD training in Berlin</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/berlin-2014.png&quot; style=&quot;float:right; width:50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;BDD - like any other practice - is not a &lt;em&gt;best practice&lt;/em&gt;. It&amp;#39;s a practice that may
+work well in certain contexts, and not so well in other contexts.&lt;/p&gt;
+
+&lt;p&gt;Before you go ahead and try to implement BDD you should determine whether your context
+is one of the contexts where BDD is known to work.&lt;/p&gt;
+
+&lt;p&gt;Liz Keogh is one of the first (and best) pioneers of BDD. In recent
+years she has been promoting &lt;a href=&quot;http://en.wikipedia.org/wiki/Cynefin&quot;&gt;Cynefin&lt;/a&gt; as a framework
+that helps teams determine when BDD is a suitable technique, and when it&amp;#39;s not.&lt;/p&gt;
+
+&lt;p&gt;In Liz&amp;#39; experience, BDD works best with complicated - and to some degree - complex domains.&lt;/p&gt;
+
+&lt;p&gt;We have teamed up with Liz to create a course that combines her material with ours.
+We&amp;#39;ll be teaching this for the first time in Berlin 22-24 October.
+Day 1 will cover BDD with Cynefin with focus on collaboration and examples.
+Day 2 and 3 will be technical, with focus on Cucumber (Java and Ruby).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kickstartacademy.io/courses/bdd-kickstart&quot;&gt;Get your ticket today!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Sep 2014 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/09/02/bdd-training-in-berlin.html</link>
+        <author>aslak@cucumber.pro (Aslak Hellesøy)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/09/02/bdd-training-in-berlin.html</guid>
+      </item>
+    
+      
+      <item>
+        <title>Cucumber Ruby 2.0.0.beta.2 Released</title>
+        <description>&lt;p&gt;I&amp;#39;ve just released a second beta for Cucumber 2.0. This fixes some bugs with the first beta which affected any project using Capybara, plus a couple of other issues.&lt;/p&gt;
+
+&lt;p&gt;As I write this, there are still &lt;a href=&quot;https://github.com/cucumber/cucumber/issues?q=is%3Aopen+is%3Aissue+milestone%3A2.0&quot;&gt;21 known issues&lt;/a&gt; with this release, but don&amp;#39;t let that put you off taking it for a spin! Most of these are minor issues, and we really need your feedback to help get it ready for full release.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d especially like anyone who writes tools and plugins that depend on Cucumber to test out this release. We&amp;#39;re trying hard to make 2.0 completely backwards compatible with 1.0, but we need feedback to know what we&amp;#39;ve missed.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;d like to help fix any of those issues, I&amp;#39;d also really appreciate it. Just ping @mattwynne on the GitHub ticket of your choice and I&amp;#39;ll be glad to give you some &lt;a href=&quot;http://blog.mattwynne.net/2012/03/31/free-bdd-coaching/&quot;&gt;free BDD coaching&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2014/08/29/cucumber-2-beta-2.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">http://localhost:4000/blog/2014/08/29/cucumber-2-beta-2.html</guid>
+      </item>
+    
+  </channel>
+</rss>

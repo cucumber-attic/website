@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="cucumber, gherkin, testing, bdd, atdd, sbe, specification by example, requirements">
+<meta name="description" content="Cucumber Pro. Collaborative Specifications.">
+<meta name="author" content="Cucumber Limited">
+<meta name="copyright" content="Cucumber Limited">
+<link rel="alternate" type="application/rss+xml" title="Cucumber Pro" href="http://localhost:4000/feed.xml">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43811306-1', 'cucumber.pro');
+  ga('send', 'pageview');
+</script>
+
+<title>
+  
+    A sneak peek at Cucumber Pro &middot; Cucumber Pro
+  
+</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+
+  </head>
+  <body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Cucumber Pro</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/school.html">School</a>
+        </li>
+        <li>
+          <a href="/training.html">Training</a>
+        </li>
+        <li>
+          <a href="/support.html">Support</a>
+        </li>
+      <li>
+          <a href="/blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="http://cukes.info">Open Source</a>
+        </li>
+      </ul>
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://app.cucumber.pro/login">Log in</a></li>
+      </ul>
+      -->
+    </nav>
+  </div>
+</header>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 js-one-column" role="main">
+
+      <h2>A sneak peek at Cucumber Pro</h2>
+      <p class="meta">25 Jan 2014</p>
+
+      
+      <div class="post">
+        <div class="meta">
+          <img src="https://www.gravatar.com/avatar/0be0e4aa42aacd9a8a95c792de273ca7?s=40">
+          <span class="author">Aslak Hellesøy</span>
+        </div>
+        <p>Cucumber Pro opened the door ajar for a select few <a href="http://localhost:4000/plans">founder customers</a> a little over a month ago. Let&#39;s take a look at what we have so far:</p>
+
+<h2>GitHub, Bitbucket and Subversion</h2>
+
+<p>Cucumber Pro lets you open and save executable specifications from GitHub.com, Bitbucket.org or Subversion repositories available on the Internet.</p>
+
+<p>Adding a repository is easy - just paste the URL to your repository.</p>
+
+<iframe src="//fast.wistia.net/embed/iframe/dargnvqmvw" allowtransparency="true" frameborder="1" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="388"></iframe>
+
+<h2>Type with others</h2>
+
+<p>Cucumber Pro has a simple text editor where you and other team members can edit executable specifications simultaneously from different computers or tablets.</p>
+
+<p>This lets business analysts, testers and programmers collaborate and form a shared understanding of how the software should behave.</p>
+
+<iframe src="//fast.wistia.net/embed/iframe/r8yroculvy" allowtransparency="true" frameborder="1" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="388"></iframe>
+
+<h2>Autocomplete</h2>
+
+<p>As the number of executable specifications grow, teams build a library of <a href="http://cukes.info/step-definitions.html">step definitions</a> that can be reused.</p>
+
+<p>However, remembering the exact wording of step definitions is hard. This is why Cucumber Pro suggests them for you as you type.</p>
+
+<iframe src="//fast.wistia.net/embed/iframe/2tim8lubal" allowtransparency="true" frameborder="1" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="388"></iframe>
+
+<p>In order to enable autocomplete you must tell Cucumber to generate a <code>.cucumber/.stepdefs.json</code> file in the root of your repository.</p>
+
+<h3>Cucumber-Ruby</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">cucumber --dotcucumber .cucumber
+</code></pre></div>
+<h3>Cucumber-JVM</h3>
+
+<p>Using the JUnit Runner:</p>
+<div class="highlight"><pre><code class="java language-java" data-lang="java"><span class="nd">@CucumberOptions</span><span class="o">(</span><span class="n">dotcucumber</span> <span class="o">=</span> <span class="s">&quot;.cucumber&quot;</span><span class="o">)</span>
+</code></pre></div>
+<p>Using the Command Line Runner:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">java cucumber.api.cli.Main --dotcucumber .cucumber
+</code></pre></div>
+<h3>Cucumber-JS</h3>
+
+<p>Coming soon!</p>
+
+<h2>Dirty files</h2>
+
+<p>Cucumber Pro automatically stores every keystroke so you don&#39;t lose your changes, but it doesn&#39;t automatically save files to your source control system.</p>
+
+<p>To remind you about edited files that need to be saved, Cucumber Pro displays these &quot;dirty&quot; files as red.</p>
+
+<p>When you save the file the red goes away and your file ends up in your source control.</p>
+
+<p><img src="http://localhost:4000/images/blog/dirty-files.png" alt="Dirty files"></p>
+
+<h2>Branches</h2>
+
+<p>Many teams like to use feature branches when working on new features, and Cucumber Pro lets you choose what branch you want to work on simply by selecting the branch from a select box.</p>
+
+<h2>Multilingual</h2>
+
+<p>You can use over 40 different languages with Cucumber Pro. Want Chinese?</p>
+
+<div class="highlight"><pre><code class="gherkin"><span class="c"># language: zh-CN</span><span class="nf"></span>
+<span class="k">功能:</span><span class="nf">加法</span>
+<span class="nf">  为了避免一些愚蠢的错误</span>
+<span class="nf">  作为一个数学白痴</span>
+<span class="nf">  我希望有人告诉我数字相加的结果</span>
+
+<span class="nf">  </span><span class="k">场景:</span><span class="nf"> 两个数相加</span>
+<span class="k">    假如</span><span class="nf">我已经在计算器里输入</span><span class="s">6</span><span class="nf"></span>
+<span class="nf">    </span><span class="k">而且</span><span class="nf">我已经在计算器里输入</span><span class="s">7</span><span class="nf"></span>
+<span class="nf">    </span><span class="k">当</span><span class="nf">我按相加按钮</span>
+<span class="nf">    </span><span class="k">那么</span><span class="nf">我应该在屏幕上看到的结果是</span><span class="s">13</span><span class="nf"></span>
+</code></pre></div>
+
+<p>Ou plutôt le Français?</p>
+
+<div class="highlight"><pre><code class="gherkin"><span class="c"># language: fr</span><span class="nf"></span>
+<span class="k">Fonctionnalité:</span><span class="nf"> Addition</span>
+<span class="nf">  Afin de financer mon bonus avec l&#39;argent des pigeons</span>
+<span class="nf">  En tant que trader</span>
+<span class="nf">  Je souhaite pouvoir additionner 2 chiffres</span>
+
+<span class="nf">  </span><span class="k">Plan du Scénario:</span><span class="nf"> Addition de produits dérivés</span>
+<span class="k">    Soit </span><span class="nf">une calculatrice</span>
+<span class="nf">    </span><span class="k">Etant donné </span><span class="nf">qu&#39;on tape </span><span class="nv">&lt;a&gt;</span><span class="nf"></span>
+<span class="nf">    </span><span class="k">Et </span><span class="nf">qu&#39;on tape </span><span class="nv">&lt;b&gt;</span><span class="nf"></span>
+<span class="nf">    </span><span class="k">Lorsqu&#39;</span><span class="nf">on tape additionner</span>
+<span class="nf">    </span><span class="k">Alors </span><span class="nf">le résultat doit être </span><span class="nv">&lt;somme&gt;</span><span class="nf"></span>
+
+<span class="nf">  </span><span class="k">Exemples:</span>
+<span class="k">    |</span><span class="nv"> a</span><span class="k"> |</span><span class="nv"> b</span><span class="k"> |</span><span class="nv"> somme</span><span class="k"> |</span><span class="nf"></span>
+<span class="k">    |</span><span class="s"> 2</span><span class="k"> |</span><span class="s"> 2</span><span class="k"> |</span><span class="s"> 4</span><span class="k">     |</span><span class="nf"></span>
+<span class="k">    |</span><span class="s"> 2</span><span class="k"> |</span><span class="s"> 3</span><span class="k"> |</span><span class="s"> 5</span><span class="k">     |</span>
+</code></pre></div>
+
+<h2>What&#39;s coming</h2>
+
+<p>Our main focus during the beta period is to polish the collaboration and source control features.</p>
+
+<p>The next major functionality we&#39;ll be working on is results and reports. Cucumber Features are <em>executable</em>, so wouldn&#39;t it be nice to see the results of executed features?</p>
+
+<p>You&#39;ll soon be able to publish results and screenshots from Cucumber to Cucumber Pro, and share reports with everyone on your team.</p>
+
+<p>Stay tuned!</p>
+
+<hr>
+
+<h4>Update 14th Jan 2014</h4>
+
+<p>Corrected path to <code>stepdefs.json</code> file used for autocomplete thanks to comments from Joseph Salyer.</p>
+
+      </div>
+
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'cucumberpro';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+
+
+    </div>
+  </div>
+</div>
+
+
+    <footer class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-center">Copyright © Cucumber Ltd 2014 - <a href="/press.html">Press</a></p>
+      <p class="text-center">
+        <a href="tel:+442087206842">+44 20 8720 6842 (Europe)</a> |
+        <a href="tel:+18444144961">1-844-414-4961 (USA)</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/main.js"></script>
+
+  </body>
+</html>

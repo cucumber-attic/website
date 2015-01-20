@@ -1,0 +1,189 @@
+body {
+  padding-top: @navbar-height;
+}
+
+img.pull-left {
+  margin-right: 10px;
+}
+
+img.img-thumbnail {
+  margin-bottom: 12px;
+}
+
+header {
+  padding-bottom: 0 !important;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+p.promise {
+  font-size: 70%;
+  text-shadow:none;
+}
+
+@media (max-width: @screen-md) {
+  header .headline {
+    padding: 30px 0;
+  }
+
+  header h1.logotype {
+    font-size: 50px !important;
+    padding-top: 80px;
+    display: block;
+  }
+
+  header h2.sublogotype {
+    font-size: 20px !important;
+    margin-top: 0;
+  }
+
+  header h1 img.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98px;
+    height: 98px;
+  }
+
+  .form input, .form button {
+    font-size: 12px;
+    height:inherit;
+  }
+
+  p { margin-top: 16px; }
+}
+
+@media (min-width: @screen-md) {
+  p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .alert p {
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+  }
+}
+
+.header-image {
+  background: rgb(169,3,41); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(109,0,25,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+  height: auto;
+	display: block;
+	width: 100%;
+	text-align: center;
+  padding: 2em 0;
+  color:white;
+  text-shadow:0px 2px 2px black;
+}
+
+.headline {
+	padding: 20px 0;
+}
+
+.headline .logotype {
+  margin: 0;
+  line-height: 1em;
+}
+
+.headline > .container > h1 {
+	font-size: 130px;
+}
+
+.headline > .container > h2 {
+	font-size: 77px;
+}
+
+.featurette-divider {
+	margin: 80px 0;
+}
+.featurette {
+	overflow: hidden;
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.headline > .container > h2 {font-size: 63px;}
+.featurette-divider {margin: 50px 0;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 35px;}
+
+}
+
+@media (max-width: 991px) {
+
+.headline > .container > h1 {font-size: 105px;}
+.headline > .container > h2 {font-size: 50px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-image {max-width: 50%;}
+.featurette-image.pull-left {margin-right: 10px;}
+.featurette-image.pull-right {margin-left: 10px;}
+.featurette-heading {font-size: 30px;}
+
+}
+
+@media (max-width: 768px) {
+
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+
+}
+
+
+@media (max-width: 668px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.headline > .container > h2 {font-size: 32px;}
+.featurette-divider {margin: 30px 0;}
+
+}
+
+@media (max-width: 640px) {
+
+.headline {padding: 75px 0 25px 0;}
+.headline > .container > h1 {font-size: 60px;}
+.headline > .container > h2 {font-size: 30px;}
+
+}
+
+@media (max-width: 375px) {
+
+.featurette-divider {margin: 10px 0;}
+.featurette-image {max-width: 100%;}
+.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
+.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+
+}

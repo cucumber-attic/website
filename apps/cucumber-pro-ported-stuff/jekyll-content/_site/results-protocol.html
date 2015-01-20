@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="cucumber, gherkin, testing, bdd, atdd, sbe, specification by example, requirements">
+<meta name="description" content="Cucumber Pro. Collaborative Specifications.">
+<meta name="author" content="Cucumber Limited">
+<meta name="copyright" content="Cucumber Limited">
+<link rel="alternate" type="application/rss+xml" title="Cucumber Pro" href="http://localhost:4000/feed.xml">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43811306-1', 'cucumber.pro');
+  ga('send', 'pageview');
+</script>
+
+<title>
+  
+     &middot; Cucumber Pro
+  
+</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+
+  </head>
+  <body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Cucumber Pro</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/school.html">School</a>
+        </li>
+        <li>
+          <a href="/training.html">Training</a>
+        </li>
+        <li>
+          <a href="/support.html">Support</a>
+        </li>
+      <li>
+          <a href="/blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="http://cukes.info">Open Source</a>
+        </li>
+      </ul>
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://app.cucumber.pro/login">Log in</a></li>
+      </ul>
+      -->
+    </nav>
+  </div>
+</header>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 js-one-column" role="main">
+      <h2>The Cucumber Pro results protocol</h2>
+
+<p>Cucumber Pro receives results over a WebSocket connection. The protocol is designed
+to be agnostic about Cucumber. Think of it as a way to attach metadata to a line
+in a file in a repo - for a particular revision.</p>
+
+<p>There are currently 2 implementations:</p>
+
+<ul>
+<li><a href="https://github.com/cucumber-ltd/cucumber-pro-ruby">cucumber-pro-ruby</a></li>
+<li><a href="https://github.com/cucumber-ltd/cucumber-pro-jvm">cucumber-pro-jvm</a></li>
+</ul>
+
+<h3>Establish a connection</h3>
+
+<p>To establish a connection you need the auth token for a Cucumber Pro user. We have
+a test user that can be used to store results for open source projects. The connection URL is:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">wss://results.cucumber.pro/ws?token=dbe1d91b213836a5966a877aceb63b04
+</code></pre></div>
+<p>In practice you&#39;d use your own personal Cucumber Pro token.</p>
+
+<h3>Initiate the session</h3>
+
+<p>After a connection has been established, send a header message to identify the repository,
+revision and branch. The <code>group</code> property is a unique ID - typically a random hex string.</p>
+<div class="highlight"><pre><code class="json language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&quot;repo_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/foo/bar.git&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;rev&quot;</span><span class="p">:</span> <span class="s2">&quot;560fc319ca77deaa2eea6bfa3d82a6f17ae924b3&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;branch&quot;</span><span class="p">:</span> <span class="s2">&quot;master&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;group&quot;</span><span class="p">:</span> <span class="s2">&quot;4e590fc71cbe2395b7a492a7e8244050ea76f9f6&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;info&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&quot;os&quot;</span><span class="p">:</span> <span class="s2">&quot;Linux 3.13.0-29-generic (amd64)&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;os_user&quot;</span><span class="p">:</span> <span class="s2">&quot;ubuntu&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;client_version&quot;</span><span class="p">:</span> <span class="s2">&quot;cucumber-pro-jvm 1.0.9&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;tool_version&quot;</span><span class="p">:</span> <span class="s2">&quot;cucumber-jvm 1.1.8&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;platform_version&quot;</span><span class="p">:</span> <span class="s2">&quot;Java 1.7.0_55 (Oracle Corporation)&quot;</span><span class="p">,</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The <code>info</code> property holds information about the machine. Here is an example:</p>
+
+<h3>Store results</h3>
+
+<p>As mentioned above, results are just a tuple <code>path, location, mime_type, body</code>.</p>
+
+<p>Example:</p>
+<div class="highlight"><pre><code class="json language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;hello/world.feature&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;location&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="nt">&quot;mime_type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/vnd.cucumber.test-case-result+json&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;body&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;passed&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The <code>path</code> field is the path from the root of the repository.
+The <code>location</code> filed is just the 1-indexed line number.
+The Cucumber-specific parts here is the <code>mime_type</code> and the <code>body</code>. The <code>status</code> property in <code>body</code> can be one of
+<code>passed, skipped, pending, undefined, failed</code>.</p>
+
+<p>Behat has the concept of &quot;suites&quot;, which means a scenario can be run several times in the same run,
+but in a different configuration, for example running via &quot;ui&quot; or &quot;domain&quot;. This can be stored in
+the <code>body</code> field as <code>suite</code>.</p>
+
+<p>Later, if we want to store e.g. Robot framework results we&#39;d define a new mime type and possibly a different
+body schema.</p>
+
+<h3>Replies</h3>
+
+<p>For each message sent by the client to the server, the server will send one back to the client.
+The client can send messages back-to-back - it doesn&#39;t have to wait for an ack message before sending a
+new message.</p>
+
+<p>The client should however look at each received message and if it has an <code>error</code> property, throw
+an exception using that property&#39;s value as the error message. This is important so that the
+client fails if something went wrong on the server.</p>
+
+<p>The client should hang around until it has received as many messages as it has received.</p>
+
+<h3>Screenshots and blobs</h3>
+
+<p>The protocol for storing metadata where the body is a blob (such as an image) is
+to send two messages where the first one is a regular metadata JSON message
+<em>without</em> the body field set.</p>
+
+<p>When the <code>body</code> field is not set, Cucumber Pro&#39;s results service expects the next message
+to be a <em>binary</em> message.</p>
+
+<h3>Closing the connection</h3>
+
+<p>When the client has sent all the results, just close the connection.</p>
+
+<h3>Getting the data out</h3>
+
+<p>TBA - we haven&#39;t finalised this API yet - currently only the Cucumber Pro webapp knows
+how to do this.</p>
+
+    </div>
+  </div>
+</div>
+
+
+    <footer class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-center">Copyright © Cucumber Ltd 2014 - <a href="/press.html">Press</a></p>
+      <p class="text-center">
+        <a href="tel:+442087206842">+44 20 8720 6842 (Europe)</a> |
+        <a href="tel:+18444144961">1-844-414-4961 (USA)</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/main.js"></script>
+
+  </body>
+</html>
