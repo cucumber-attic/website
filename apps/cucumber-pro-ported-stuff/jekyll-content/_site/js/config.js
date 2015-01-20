@@ -1,4 +1,4 @@
 window.stripeConfig = {
-  publishableKey: 'pk_test_T7q42yPvLMoONCvPdngMOsJr',
-  chargeUrl: 'http://localhost:9292/subscriptions'
+  publishableKey: 'pk_live_CM7KruXBBpWbcX4YezpjncEm',
+  chargeUrl: 'https://customers.cucumber.pro/subscriptions'
 }
