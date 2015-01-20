@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Install Cucumber-JVM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/stylesheets/pygments/TomorrowNightEightiesStyle.css" rel="stylesheet">
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="/stylesheets/styles.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/"><img alt="Cucumber Logo" src="/images/cucumber64x64.png" height="24" width="24"></a>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              
+                
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+                        
+                          <li><a href="/platforms.html">Platforms</a></li>
+                        
+                      
+                        
+                          <li class="divider"></li>
+                        
+                      
+                        
+                          <li><a href="/install-cucumber-jvm.html">Install Cucumber-JVM</a></li>
+                        
+                      
+                        
+                          <li><a href="/install-cucumber-ruby.html">Install Cucumber-Ruby</a></li>
+                        
+                      
+                        
+                          <li><a href="/install-cucumber-rails.html">Install Cucumber-Rails</a></li>
+                        
+                      
+                        
+                          <li><a href="/install-cucumber-js.html">Install Cucumber-JavaScript</a></li>
+                        
+                      
+                    </ul>
+                  </li>
+                
+              
+                
+                  
+                  
+                  <li class="">
+                    <a href="/running.html">Running</a>
+                  </li>
+                
+              
+                
+                  
+                  
+                  <li class="">
+                    <a href="/gherkin.html">Gherkin</a>
+                  </li>
+                
+              
+                
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+                        
+                          <li><a href="/api-overview.html">API Overview</a></li>
+                        
+                      
+                        
+                          <li><a href="/glue-code.html">Glue Code</a></li>
+                        
+                      
+                        
+                          <li><a href="/step-definitions.html">Step Definitions</a></li>
+                        
+                      
+                        
+                          <li><a href="/hooks.html">Hooks</a></li>
+                        
+                      
+                        
+                          <li><a href="/reports.html">Reports</a></li>
+                        
+                      
+                        
+                          <li class="divider"></li>
+                          <li class="nav-header">Cucumber-JVM</li>
+                        
+                      
+                        
+                          <li><a href="/dependency-injection.html">Dependency Injection</a></li>
+                        
+                      
+                    </ul>
+                  </li>
+                
+              
+                
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn more <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+                        
+                          <li><a href="/browser-automation.html">Browser Automation</a></li>
+                        
+                      
+                        
+                          <li><a href="/reports.html">Reports</a></li>
+                        
+                      
+                        
+                          <li><a href="/databases.html">Databases</a></li>
+                        
+                      
+                    </ul>
+                  </li>
+                
+              
+                
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ecosystem <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      
+                        
+                          <li><a href="/community-help.html">Community Help</a></li>
+                        
+                      
+                        
+                          <li><a href="/source-code.html">Source code</a></li>
+                        
+                      
+                        
+                          <li><a href="/editors-and-ides.html">Editors and IDEs</a></li>
+                        
+                      
+                    </ul>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+         <h1 id="install_cucumberjvm">Install Cucumber-JVM</h1>
+
+<p>Cucumber-JVM consists of several modules (jars) that you can download from the <a href="http://repo1.maven.org/maven2/info/cukes/">public maven repo</a>.</p>
+
+<p>If you like living dangerously you can also get SNAPSHOT builds from the <a href="https://oss.sonatype.org/content/repositories/snapshots/info/cukes/">sonatype snapshot repo</a>.</p>
+<div class='highlight'><pre><code class='xml'><span class='nt'>&lt;repository&gt;</span>
+  <span class='nt'>&lt;id&gt;</span>sonatype-snapshots<span class='nt'>&lt;/id&gt;</span>
+  <span class='nt'>&lt;url&gt;</span>https://oss.sonatype.org/content/repositories/snapshots<span class='nt'>&lt;/url&gt;</span>
+  <span class='nt'>&lt;snapshots&gt;</span>
+    <span class='nt'>&lt;enabled&gt;</span>true<span class='nt'>&lt;/enabled&gt;</span>
+  <span class='nt'>&lt;/snapshots&gt;</span>		
+<span class='nt'>&lt;/repository&gt;</span>
+</code></pre></div>
+<p>You will always need the <code>cucumber-core</code> module, which contains the main logic for parsing and executing your Gherkin feature files.</p>
+
+<p>If you’re wondering what the latest Cucumber-JVM release is, check out the <a href="https://github.com/cucumber/cucumber-jvm/tags">tags on Github</a>.</p>
+
+<p>The easiest is to grab the jars you need with <a href="#maven">Maven</a> or <a href="#ant">Ant</a></p>
+
+<h3 id="programming_language_modules">Programming Language modules</h3>
+
+<p>In addition to <code>cucumber-core</code> you will also need a programming language-specific module, depending on what programming language you are using. The available programming language modules are:</p>
+<table><thead><tr><th>Language/Platform</th><th>Jar file</th></tr></thead><tbody><tr><td style="text-align: left;">Java</td><td style="text-align: left;"><code>cucumber-java</code></td></tr>
+<tr><td style="text-align: left;">Clojure</td><td style="text-align: left;"><code>cucumber-clojure</code></td></tr>
+<tr><td style="text-align: left;">Groovy</td><td style="text-align: left;"><code>cucumber-groovy</code></td></tr>
+<tr><td style="text-align: left;">Ioke</td><td style="text-align: left;"><code>cucumber-ioke</code></td></tr>
+<tr><td style="text-align: left;">JavaScript (Rhino interpreter)</td><td style="text-align: left;"><code>cucumber-rhino</code></td></tr>
+<tr><td style="text-align: left;">Python (Jython interpreter)</td><td style="text-align: left;"><code>cucumber-jython</code></td></tr>
+<tr><td style="text-align: left;">Ruby (JRuby interpreter)</td><td style="text-align: left;"><code>cucumber-jruby</code></td></tr>
+<tr><td style="text-align: left;">Scala</td><td style="text-align: left;"><code>cucumber-scala</code></td></tr>
+<tr><td style="text-align: left;">Android</td><td style="text-align: left;"><code>cucumber-android</code></td></tr>
+</tbody></table>
+<h3 id="dependency_injection_modules_for_cucumberjava">Dependency Injection modules for cucumber-java</h3>
+
+<p>If your programming language is Java you will be writing glue code (<a href="/step-definitions.html">Step Definitions</a> and <a href="/hooks.html">Hooks</a>) in plain old Java classes. Cucumber will create a new instance of each of your glue code classes before each <a href="/gherkin.html#scenario">Scenario</a>. If all of your glue code classes have an empty constructor you don’t need anything else. However, most projects will benefit from a <a href="/dependency-injection">Dependency Injection</a> module to organize your code better.</p>
+
+<p>The available Dependency Injection modules are:</p>
+<table><thead><tr><th>Dependency Injection Container</th><th>Jar file</th></tr></thead><tbody><tr><td style="text-align: left;">PicoContainer</td><td style="text-align: left;"><code>cucumber-picocontainer</code></td></tr>
+<tr><td style="text-align: left;">Guice</td><td style="text-align: left;"><code>cucumber-guice</code></td></tr>
+<tr><td style="text-align: left;">OpenEJB</td><td style="text-align: left;"><code>cucumber-openejb</code></td></tr>
+<tr><td style="text-align: left;">Spring</td><td style="text-align: left;"><code>cucumber-spring</code></td></tr>
+<tr><td style="text-align: left;">Weld</td><td style="text-align: left;"><code>cucumber-weld</code></td></tr>
+<tr><td style="text-align: left;">Needle</td><td style="text-align: left;"><code>cucumber-needle</code></td></tr>
+</tbody></table>
+<h2 id="runners">Runners</h2>
+
+<p>There are several ways to run Gherkin Features with Cucumber-JVM:</p>
+<table><thead><tr><th>Runner</th><th>Jar file</th></tr></thead><tbody><tr><td style="text-align: left;">Command Line Interface</td><td style="text-align: left;"><code>cucumber-core</code></td></tr>
+<tr><td style="text-align: left;">JUnit Runner</td><td style="text-align: left;"><code>cucumber-junit</code></td></tr>
+<tr><td style="text-align: left;">Android Runner</td><td style="text-align: left;"><code>cucumber-android</code></td></tr>
+</tbody></table>
+<p>The JUnit Runner lets you run Cucumber from any tool that understands JUnit. This includes IDEs (such ash IntelliJ or Eclipse) and build tools (such as Ant, Maven or Gradle).</p>
+
+<p>Any build tool can execute command line programs (Cucumber’s Command Line Interface), so if you prefer this way to run your features you don’t need the <code>cucumber-junit</code> module.</p>
+
+<p>This should help you pick the 2 or 3 modules you need. Let’s install them:</p>
+
+<h3 id="manual_download">Manual download</h3>
+
+<p>You can browse your way to the modules you need in the <a href="https://oss.sonatype.org/content/repositories/releases/info/cukes/">Sonatype</a> repository. Or you can search for them in <a href="https://search.maven.org/">Maven Central</a>.</p>
+
+<h2 id="maven">Maven</h2>
+
+<p>Installing the various <code>cucumber-*</code> modules in a Maven project is just a matter of adding them to your <code>pom.xml</code> file. Here is the minimal recommended setup:</p>
+<div class='highlight'><pre><code class='xml'><span class='nt'>&lt;dependencies&gt;</span>
+    <span class='nt'>&lt;dependency&gt;</span>
+        <span class='nt'>&lt;groupId&gt;</span>info.cukes<span class='nt'>&lt;/groupId&gt;</span>
+        <span class='nt'>&lt;artifactId&gt;</span>cucumber-picocontainer<span class='nt'>&lt;/artifactId&gt;</span>
+        <span class='nt'>&lt;version&gt;</span>1.1.5<span class='nt'>&lt;/version&gt;</span>
+        <span class='nt'>&lt;scope&gt;</span>test<span class='nt'>&lt;/scope&gt;</span>
+    <span class='nt'>&lt;/dependency&gt;</span>
+    <span class='nt'>&lt;dependency&gt;</span>
+        <span class='nt'>&lt;groupId&gt;</span>info.cukes<span class='nt'>&lt;/groupId&gt;</span>
+        <span class='nt'>&lt;artifactId&gt;</span>cucumber-junit<span class='nt'>&lt;/artifactId&gt;</span>
+        <span class='nt'>&lt;version&gt;</span>1.1.5<span class='nt'>&lt;/version&gt;</span>
+        <span class='nt'>&lt;scope&gt;</span>test<span class='nt'>&lt;/scope&gt;</span>
+    <span class='nt'>&lt;/dependency&gt;</span>
+    <span class='nt'>&lt;dependency&gt;</span>
+        <span class='nt'>&lt;groupId&gt;</span>junit<span class='nt'>&lt;/groupId&gt;</span>
+        <span class='nt'>&lt;artifactId&gt;</span>junit<span class='nt'>&lt;/artifactId&gt;</span>
+        <span class='nt'>&lt;version&gt;</span>4.11<span class='nt'>&lt;/version&gt;</span>
+        <span class='nt'>&lt;scope&gt;</span>test<span class='nt'>&lt;/scope&gt;</span>
+    <span class='nt'>&lt;/dependency&gt;</span>
+<span class='nt'>&lt;/dependencies&gt;</span>
+</code></pre></div>
+<p>You don’t have to explicitly add a dependency on <code>cucumber-core</code> as all the other packages depend on it.</p>
+
+<h2 id="ant">Ant</h2>
+
+<p>Take a look at the cucumber-java-skeleton <a href="https://github.com/cucumber/cucumber-java-skeleton/blob/master/build.xml">build.xml</a> file.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <a href="https://github.com/cucumber/website/edit/master/apps/docs//install-cucumber-jvm.md">Edit this page</a>
+      </div>
+    </footer>
+
+    <script src="/javascripts/jquery-1.8.1.min.js"></script>
+    <script src="/javascripts/bootstrap-2.3.1.min.js"></script>
+    <script src="/javascripts/bootstrap-tab-memory.js"></script>
+  </body>
+</html>
