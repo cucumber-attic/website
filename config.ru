@@ -11,6 +11,7 @@ if ENV['ROLLBAR_ACCESS_TOKEN']
 end
 
 use LegacyCukesInfo::App
+use CucumberEclipse::App
 use Docs::App
 use CucumberProPortedStuff::App
 run CucumberProPortedStuff::NotFound
