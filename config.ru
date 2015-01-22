@@ -1,9 +1,16 @@
+require 'rollbar'
+
 Dir['apps/*'].each do |path|
   require_relative path + '/app'
 end
 
-use LegacyCukesInfo::App
-use CucumberProPortedStuff::App
-use Docs::App
+if ENV['ROLLBAR_ACCESS_TOKEN']
+  Rollbar.configure do |config|
+    config.access_token = ENV['ROLLBAR_ACCESS_TOKEN']
+  end
+end
 
-run proc { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
+use LegacyCukesInfo::App
+use Docs::App
+use CucumberProPortedStuff::App
+run CucumberProPortedStuff::NotFound
