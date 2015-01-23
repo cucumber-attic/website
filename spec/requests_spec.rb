@@ -34,6 +34,18 @@ describe "integration testing" do
       expect(last_response.status).to eq 301
       expect(last_response.location).to eq "http://www.rubydoc.info/github/cucumber/cucumber/Cucumber/Configuration.html"
     end
+
+    it "redirects all jvm api traffic to cucumber.github.io" do
+      get "/api/cucumber/jvm/"
+      expect(last_response.status).to eq 301
+      expect(last_response.location).to eq "http://cucumber.github.io/api/cucumber/jvm/"
+    end
+
+    it "redirect all gherkin api traffic to cucumber.github.io" do
+      get "/api/gherkin/"
+      expect(last_response.status).to eq 301
+      expect(last_response.location).to eq "http://cucumber.github.io/api/gherkin/"
+    end
   end
 end
 
