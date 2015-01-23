@@ -46,6 +46,7 @@ GEM
       rack (>= 0.9.1)
     rack-reverse-proxy (0.4.4)
       rack (>= 1.0.0)
+    rack-rewrite (1.5.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rb-fsevent (0.9.4)
@@ -85,6 +86,7 @@ DEPENDENCIES
   puma
   rack-contrib
   rack-reverse-proxy
+  rack-rewrite
   rack-test
   rollbar
   rspec

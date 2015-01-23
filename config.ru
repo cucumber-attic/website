@@ -10,6 +10,7 @@ if ENV['ROLLBAR_ACCESS_TOKEN']
   end
 end
 
+use Api::App
 use LegacyCukesInfo::App
 use CucumberEclipse::App
 use Docs::App
