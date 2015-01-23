@@ -174,7 +174,7 @@
          <h1 id="install_cucumberrails">Install Cucumber-Rails</h1>
 
 <p>Cucumber-Rails is a generator that will generate and modify files in a Rails project so it can be used with Cucumber. Before you can use the generator, add the gem to your project’s Gemfile as follows:</p>
-<div class='highlight'><pre><code class='ruby'><span class='n'>group</span> <span class='ss'>:test</span> <span class='k'>do</span>
+<div class='highlight'><pre><code class='ruby'><span class='n'>group</span> <span class='ss'>:test</span><span class='p'>,</span> <span class='ss'>:development</span> <span class='k'>do</span>
   <span class='n'>gem</span> <span class='s1'>&#39;cucumber-rails&#39;</span><span class='p'>,</span> <span class='ss'>:require</span> <span class='o'>=&gt;</span> <span class='kp'>false</span>
   <span class='c1'># database_cleaner is not required, but highly recommended</span>
   <span class='n'>gem</span> <span class='s1'>&#39;database_cleaner&#39;</span>
@@ -184,7 +184,7 @@
 <div class='highlight'><pre><code class='text'>bundle install
 </code></pre></div>
 <p>Learn about the various options:</p>
-<div class='highlight'><pre><code class='text'>rails generate cucumber:install --help
+<div class='highlight'><pre><code class='text'>cucumber --help
 </code></pre></div>
 <p>Finally, bootstrap your Rails app, for example:</p>
 <div class='highlight'><pre><code class='text'>rails generate cucumber:install
