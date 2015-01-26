@@ -2,7 +2,7 @@ require 'rollbar'
 require 'rack/contrib/try_static'
 require 'rack/contrib/not_found'
 
-module CucumberProPortedStuff
+module Modern
   module App
     def self.new(app)
       config = {
