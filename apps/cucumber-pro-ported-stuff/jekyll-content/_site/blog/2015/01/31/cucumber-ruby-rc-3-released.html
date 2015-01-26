@@ -21,7 +21,7 @@
 
 <title>
   
-    Brand new Autocomplete for Cucumber Pro &middot; Cucumber
+    Cucumber 2.0 RC 1 Released &middot; Cucumber
   
 </title>
 
@@ -74,28 +74,28 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1 js-one-column" role="main">
 
-      <h2>Brand new Autocomplete for Cucumber Pro</h2>
-      <p class="meta">05 Sep 2014</p>
+      <h2>Cucumber 2.0 RC 1 Released</h2>
+      <p class="meta">31 Jan 2015</p>
 
       
       <div class="post">
         <div class="meta">
-          <img src="https://www.gravatar.com/avatar/0be0e4aa42aacd9a8a95c792de273ca7?s=40">
-          <span class="author">Aslak Hellesøy</span>
+          <img src="https://www.gravatar.com/avatar/cdf378de2284d8acf137122e541caa28?s=40">
+          <span class="author">Matt Wynne</span>
         </div>
-        <p>Cucumber Pro has had autocompletion for a while now. Several of our users have told us that it&#39;s a useful feature, but that it <a href="https://cucumber.pro/blog/2014/01/25/a-sneak-peek-at-cucumber-pro.html">required too much setup</a> and wasn&#39;t very accurate.</p>
+        <p>On Friday <a href="http://tooky.co.uk/">Tooky</a> and I pushed the first released candidate for Cucumber 2.0 to RubyGems. Containing a big batch of fixes that have been 
+building up over the past few weeks.</p>
 
-<p>So we redesigned it from scratch. Now there is <em>no</em> setup whatsoever[1]. The suggestions you get when you type are much better than before.</p>
+<p>We quickly did some testing of our own, found a couple of issues, and had an RC3 out by the end of the afternoon.</p>
 
-<iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/otyzmtbfqt?canonicalUrl=https%3A%2F%2Fcucumber.wistia.com%2Fmedias%2Fotyzmtbfqt&canonicalTitle=autocomplete%20redesigned%20-%20cucumber" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="318"></iframe>
+<p>We&#39;re aware of <a href="https://github.com/cucumber/cucumber/issues?q=is%3Aopen+is%3Aissue+milestone%3A2.0">a few small issues</a>, but we believe this release should work for most people, and be almost 100% backwards compatible.</p>
 
-<p>Just open a Feature file in Cucumber Pro, start typing a step and see the autocomplete show up with suggestions automatically. Use UP/DOWN keys to navigate, press ENTER/RETURN to choose a step or press ESC to dismiss the autocomplete.</p>
+<p>However, as we&#39;ve said before, there have been huge internal changes for this release, so we need your help to test it. Please update your gemfile like so:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">gem &#39;cucumber&#39;, &#39;~&gt; 2.0.0.rc.3&#39;
+</code></pre></div>
+<p>...and then run <code>bundle update cucumber</code> to upgrade. If you have any problems, we&#39;ll be happy to help if you raise an issue on GitHub.</p>
 
-<p>Every time you save changes to your features into source control, we’ll automatically refresh the autocomplete with your latest steps.</p>
-
-<p>Because the new autocomplete works with pure Gherkin, it works with all the flavours of Cucumber projects: JVM, Ruby, JavaScript, SpecFlow for C# and Behat for PHP. If you&#39;re using JBehave with Gherkin, that should even work too.</p>
-
-<p>[1] If you previously set up <code>.cucumber/stepdefs.json</code> you can remove it - it&#39;s not used anymore.</p>
+<p>If you have any time to dive in and help solve the remaining issues, that would also be great!</p>
 
       </div>
 

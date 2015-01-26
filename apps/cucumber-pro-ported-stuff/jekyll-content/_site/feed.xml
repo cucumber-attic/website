@@ -10,6 +10,29 @@
     
       
       <item>
+        <title>Cucumber 2.0 RC 1 Released</title>
+        <description>&lt;p&gt;On Friday &lt;a href=&quot;http://tooky.co.uk/&quot;&gt;Tooky&lt;/a&gt; and I pushed the first released candidate for Cucumber 2.0 to RubyGems. Containing a big batch of fixes that have been 
+building up over the past few weeks.&lt;/p&gt;
+
+&lt;p&gt;We quickly did some testing of our own, found a couple of issues, and had an RC3 out by the end of the afternoon.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re aware of &lt;a href=&quot;https://github.com/cucumber/cucumber/issues?q=is%3Aopen+is%3Aissue+milestone%3A2.0&quot;&gt;a few small issues&lt;/a&gt;, but we believe this release should work for most people, and be almost 100% backwards compatible.&lt;/p&gt;
+
+&lt;p&gt;However, as we&amp;#39;ve said before, there have been huge internal changes for this release, so we need your help to test it. Please update your gemfile like so:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;gem &amp;#39;cucumber&amp;#39;, &amp;#39;~&amp;gt; 2.0.0.rc.3&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;...and then run &lt;code&gt;bundle update cucumber&lt;/code&gt; to upgrade. If you have any problems, we&amp;#39;ll be happy to help if you raise an issue on GitHub.&lt;/p&gt;
+
+&lt;p&gt;If you have any time to dive in and help solve the remaining issues, that would also be great!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+        <link>https://cucumber-website.herokuapp.com/blog/2015/01/31/cucumber-ruby-rc-3-released.html</link>
+        <author>matt@cucumber.pro (Matt Wynne)</author>
+        <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2015/01/31/cucumber-ruby-rc-3-released.html</guid>
+      </item>
+    
+      
+      <item>
         <title>Matt Wynne interviewed by TestTalks</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://joecolantonio.com/testtalks/wp-content/uploads/2015/01/MattWynnePostIMages-300x169.jpg&quot; style=&quot;float:right; padding: 10px; width:500px&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -279,23 +302,6 @@ Day 2 and 3 will be technical, with focus on Cucumber (Java and Ruby).&lt;/p&gt;
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/02/bdd-training-in-berlin.html</link>
         <author>aslak@cucumber.pro (Aslak Hellesøy)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/02/bdd-training-in-berlin.html</guid>
-      </item>
-    
-      
-      <item>
-        <title>Cucumber Ruby 2.0.0.beta.2 Released</title>
-        <description>&lt;p&gt;I&amp;#39;ve just released a second beta for Cucumber 2.0. This fixes some bugs with the first beta which affected any project using Capybara, plus a couple of other issues.&lt;/p&gt;
-
-&lt;p&gt;As I write this, there are still &lt;a href=&quot;https://github.com/cucumber/cucumber/issues?q=is%3Aopen+is%3Aissue+milestone%3A2.0&quot;&gt;21 known issues&lt;/a&gt; with this release, but don&amp;#39;t let that put you off taking it for a spin! Most of these are minor issues, and we really need your feedback to help get it ready for full release.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;d especially like anyone who writes tools and plugins that depend on Cucumber to test out this release. We&amp;#39;re trying hard to make 2.0 completely backwards compatible with 1.0, but we need feedback to know what we&amp;#39;ve missed.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;#39;d like to help fix any of those issues, I&amp;#39;d also really appreciate it. Just ping @mattwynne on the GitHub ticket of your choice and I&amp;#39;ll be glad to give you some &lt;a href=&quot;http://blog.mattwynne.net/2012/03/31/free-bdd-coaching/&quot;&gt;free BDD coaching&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Aug 2014 01:00:00 +0100</pubDate>
-        <link>https://cucumber-website.herokuapp.com/blog/2014/08/29/cucumber-2-beta-2.html</link>
-        <author>matt@cucumber.pro (Matt Wynne)</author>
-        <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/08/29/cucumber-2-beta-2.html</guid>
       </item>
     
   </channel>
