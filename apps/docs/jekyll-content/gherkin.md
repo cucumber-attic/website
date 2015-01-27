@@ -52,7 +52,6 @@ Cucumber divides a feature file into Feature, Scenario and Steps. lets discuss e
           As a {{Registered User}}
           I want to {{implement xyz functionality}}
       - Untill cucumber encounters another keyword like Scenario or Scenario Outline etc, all text will be considered in keyword Features' scope.
-      - A Feature can contain multiple Scenarios. 
 
 ###### Scenario:
       - Each Feature file may have multiple scenarios.
@@ -60,24 +59,15 @@ Cucumber divides a feature file into Feature, Scenario and Steps. lets discuss e
       - Line that follwos Keyword Scenario is Scenario Title.
       - Scenario Title is used in Test Reports but is optional.
       - Each Scenario can be considered as a Test Case.
-      - Scenario can contain multiple Steps.
 
 ###### Steps:
-      - Each Scenario contain Steps.
-      - Step can be considered as Test Steps.
-      - Steps are as following: Given, When, Then, And, But
+      Each Scenario contain multiple Steps and these are equvivalent to Test Steps.Given, When, Then, And, But are different types of steps available.
 
 ###### Given:
-      - Similar to Pre Conditions of the use cases.
-      - Given Steps put the system in known state which is necessary for the user action( followed in next step) 
-      - Avoid talking about user interaction in Given Steps.
-      - Example: Given User is on login Page
+      Given Steps put the system in known state which is necessary for the user action( followed in next step). These are similar to Pre Conditions of the use cases. 
 
 ###### When:
-      - The purpose of When steps is to describe the user action.
-      - Example: When user clicks Login Button
+      The purpose of When steps is to describe the user action.
 
-###### Then:
-      - The purpose of Then steps is to observe expected outcomes. 
-      - The observations should be related to the business value/benefit in your feature description.
-      - Example: Then user is on Home Page
+###### Then: 
+      The purpose of Then steps is to observe expected outcomes. The observations should be related to the business value/benefit in your feature description.
