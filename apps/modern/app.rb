@@ -2,6 +2,8 @@ require 'rollbar'
 require 'rack/contrib/try_static'
 require 'rack/contrib/not_found'
 
+IGNORED_NOT_FOUND_PATHS = /^\/(maven|netbeans)/
+
 module Modern
   module App
     def self.new(app)
@@ -19,7 +21,8 @@ module Modern
   length = content.size.to_s
 
   NotFound = proc do |env|
-    Rollbar.warning("Not found: #{env['PATH_INFO']}", env)
+    path_info = env['PATH_INFO']
+    Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
     [404, {'Content-Type' => 'text/html', 'Content-Length' => length}, [content]]
   end
 
