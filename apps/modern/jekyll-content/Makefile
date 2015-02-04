@@ -8,6 +8,7 @@ css/style.css: assets/css/style.less \
 	assets/css/pricing.less \
 	assets/css/pygments.less \
 	assets/css/variables.less \
+	css/community-nav.css \
 	bower_components/magnific-popup/dist/magnific-popup.css \
 	bower_components/ladda/dist/ladda.min.css
 

@@ -1,6 +1,5 @@
-body {
-  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Lobster);
+@import url("/css/community-nav.css");
 
 /* tabs */
 

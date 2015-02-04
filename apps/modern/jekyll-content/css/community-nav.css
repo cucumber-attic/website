@@ -1,0 +1,75 @@
+.community-nav {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+  background: #00A818;
+  font-weight: normal;
+}
+
+.community-nav nav {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.community-nav a {
+  color: #fff;
+  font-weight: normal;
+  display: inline-block;
+  /*margin: 0 30px 0 0;*/
+  padding: 15px 15px;
+}
+
+.community-nav a.active, .community-nav a:hover {
+  background: #fff;
+  color: #00A818;
+}
+
+.community-nav.blog {
+  background: #65696B;
+}
+
+.community-nav.blog a.active, .community-nav.blog a:hover {
+  color: #65696B;
+}
+
+.community-nav.school {
+  background: #FF7F00;
+}
+
+.community-nav.school a.active, .community-nav.school a:hover {
+  color: #FF7F00;
+}
+
+.community-nav.training {
+  background: #004FFF;
+}
+
+.community-nav.training a.active, .community-nav.training a:hover {
+  color: #004FFF;
+}
+
+.community-nav.support {
+  background: #3D24AF;
+}
+
+.community-nav.support a.active, .community-nav.support a:hover {
+  color: #3D24AF;
+}
+
+@media (min-width: 768px) {
+  .community-nav nav {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .community-nav nav {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .community-nav nav {
+    width: 1170px;
+  }
+}

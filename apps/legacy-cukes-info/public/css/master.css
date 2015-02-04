@@ -1,4 +1,5 @@
 /* Contains master styles for main layout, typography and page styles */
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Lobster);
 
 /*------------------------------------------------------------------------------------
   @group Global Reset
@@ -85,51 +86,9 @@ ul#nav, #content .inner, #footer, #subcontent .inner{
 ------------------------------------------------------------------------------------*/
 
 #header{
-  height:230px;
-  background:url(../images/cuke_logo.png) 50% 60px no-repeat #fff;
+  height:260px;
+  background:url(../images/cuke_logo.png) 50% 86px no-repeat #fff;
 }
-
-.navigation{
-  height:45px;
-  border-bottom:1px solid #e0e0e0;
-}
-
-ul#nav li{
-  list-style-type:none;
-  float:left;
-  margin:0 0 0 10px;
-  padding:6px 0 0 0;
-  width:130px;
-  line-height:1.2;
-  border-top:3px solid #fff;
-}
-ul#nav li:first-child{ margin-left:0; }
-ul#nav li:hover{
-  border-top-color:#164B2B;
-}
-ul#nav li.selected{
-  border-top-color:#000;
-}
-ul#nav li h4{
-  margin:0;
-  font-size:1em;
-  text-transform:uppercase;
-}
-ul#nav li h4 a{
-  display:block;
-  color: #164B2B;
-}
-ul#nav li p{
-  margin:0;
-  font-size:0.7em;
-}
-ul#nav li p a{
-  display:block;
-  color: #5CAD35;
-  font-weight:normal;
-}
-ul#nav li:hover p a{ color:#164B2B; }
-ul#nav li.selected p a{ color:#999; }
 
 #header h2#logo, #header p.title{ display:none; }
 

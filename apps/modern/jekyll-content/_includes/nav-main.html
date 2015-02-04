@@ -1,29 +1,10 @@
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="/" class="navbar-brand">Home</a>
-    </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li{% if page.slug == "school" %} class="active"{% endif %}>
-          <a href="/school.html">School</a>
-        </li>
-        <li{% if page.slug == "training" %} class="active"{% endif %}>
-          <a href="/training.html">Training</a>
-        </li>
-        <li{% if page.slug == "support" %} class="active"{% endif %}>
-          <a href="/support.html">Support</a>
-        </li>
-      <li{% if page.slug == "blog" %} class="active"{% endif %}>
-          <a href="/blog.html">Blog</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<div class="community-nav {{ page.slug }}">
+  <nav role='nav'>
+    <a href='/platforms'>Docs</a>
+    <a {% if page.slug == "blog" %} class="active"{% endif %} href='/blog'>Blog</a>
+    <a {% if page.slug == "school" %} class="active"{% endif %} href='/school'>School</a>
+    <a {% if page.slug == "training" %} class="active"{% endif %} href='/training'>Training</a>
+    <a href='https://cucumber.pro'>Cucumber Pro</a>
+    <a {% if page.slug == "support" %} class="active"{% endif %} href='/support'>Support</a>
+  </nav>
+</div>
