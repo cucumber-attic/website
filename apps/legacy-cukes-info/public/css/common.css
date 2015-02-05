@@ -5,14 +5,14 @@
 ------------------------------------------------------------------------------------*/
 
 body{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:1em;
   line-height:1.5;
   color: #164B2B;
 }
 
 a{
-  color: #5CAD35;
+  color: #00A818;
   font-weight:bold;
   text-decoration:none;
 }

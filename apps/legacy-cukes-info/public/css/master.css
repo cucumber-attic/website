@@ -1,5 +1,5 @@
 /* Contains master styles for main layout, typography and page styles */
-@import url(https://fonts.googleapis.com/css?family=Lato:300|Lobster);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700|Lobster);
 
 /*------------------------------------------------------------------------------------
   @group Global Reset
@@ -48,7 +48,8 @@ ul#nav, #content .inner, #footer, #subcontent .inner{
 #content{
   padding:10px 0 20px 0;
   overflow:hidden;
-  background: #C5D88A;
+  background: #C4E982;
+  /*background: #B9DF75;*/
 }
 
 #subcontent{
@@ -86,12 +87,17 @@ ul#nav, #content .inner, #footer, #subcontent .inner{
 ------------------------------------------------------------------------------------*/
 
 #header{
-  height:260px;
-  background:url(../images/cuke_logo.png) 50% 86px no-repeat #fff;
+  height: 355px;
+  background:url(/images/cucumber-logo.svg) 50% 100px no-repeat #fff;
+  background-size: 600px;
 }
 
-#header h2#logo, #header p.title{ display:none; }
-
+#header .title {
+  text-align: center;
+  margin: 220px 0 0;
+  font-size: 22px;
+  font-style: italic;
+}
 /* @end */
 
 /*------------------------------------------------------------------------------------
