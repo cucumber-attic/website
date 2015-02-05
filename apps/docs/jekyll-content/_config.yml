@@ -39,10 +39,6 @@ navigation:
     url: /reports.html
   - text: Databases
     url: /databases.html
-- text: Ecosystem
-  dropdown:
-  - text: Community Help
-    url: /community-help.html
 
 
 pygments: true
