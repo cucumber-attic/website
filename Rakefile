@@ -1,4 +1,4 @@
-task default: [:jekyll, :spec]
+task default: [:jekyll, :spec, :assert_git_clean]
 
 task :spec do
   sh 'bundle exec rspec'
@@ -14,4 +14,8 @@ task :jekyll do
       end
     end
   end
+end
+
+task :assert_git_clean do
+  sh %{test -z "$(git status --porcelain)"}
 end
