@@ -43,10 +43,6 @@ navigation:
   dropdown:
   - text: Community Help
     url: /community-help.html
-  - text: Source code
-    url: /source-code.html
-  - text: Editors and IDEs
-    url: /editors-and-ides.html
 
 
 pygments: true

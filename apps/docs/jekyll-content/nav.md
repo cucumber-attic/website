@@ -77,4 +77,3 @@
 ** Videos
 ** Conference Talks
 ** Courses/Training
-
