@@ -4,12 +4,10 @@ assets-watch:
 
 css/style.css: assets/css/style.less \
 	assets/css/layout.less \
-	assets/css/magnific-popup.less \
 	assets/css/pricing.less \
 	assets/css/pygments.less \
 	assets/css/variables.less \
 	css/community-nav.css \
-	bower_components/magnific-popup/dist/magnific-popup.css \
 	bower_components/ladda/dist/ladda.min.css
 
 ifdef NOCOMPRESS
@@ -22,10 +20,6 @@ endif
 js/main.js: bower_components/jquery/jquery.js \
 	bower_components/jquery-cookie/jquery.cookie.js \
 	bower_components/bootstrap/dist/js/bootstrap.js \
-	bower_components/magnific-popup/dist/jquery.magnific-popup.js \
-	assets/js/buy-button.js \
-	assets/js/campaign-pricing.js \
-	assets/js/magnific-popup-trigger.js \
 	assets/js/one-column-img-responsive.js \
 	bower_components/ladda/js/spin.js \
 	bower_components/ladda/js/ladda.js
