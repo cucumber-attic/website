@@ -6,7 +6,7 @@ date:   2015-01-13 12:00:00
 categories: blog
 ---
 
-<img src="http://joecolantonio.com/testtalks/wp-content/uploads/2015/01/MattWynnePostIMages-300x169.jpg" style="float:right; padding: 10px; width:500px"></a>
+<img src="/images/blog/matt-testtalks-interview.jpg" style="float:right; padding: 10px; width:500px">
 
 I had the pleasure recently of being <a href="http://joecolantonio.com/testtalks/35matt-wynne-bdd-and-the-cucumber-book/">interviewed by Joe Colantonio for the TestTalks podcast.</a>
 
