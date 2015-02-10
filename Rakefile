@@ -17,5 +17,5 @@ task :jekyll do
 end
 
 task :assert_git_clean do
-  sh %{test -z "$(git status --porcelain)"}
+  sh %{test -z "$(git status --porcelain)" || (echo "\nYou need to run rake jekyll and check in your changes!\n" && exit 1)}
 end
