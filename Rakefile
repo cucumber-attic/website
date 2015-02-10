@@ -10,7 +10,7 @@ task :jekyll do
     if File.exists?(jekyll_content_path)
       puts "Detected jekyll app in #{app_path}"
       Dir.chdir(jekyll_content_path) do
-        sh 'jekyll build'
+        sh 'TZ=utc jekyll build'
       end
     end
   end
