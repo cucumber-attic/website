@@ -6,7 +6,8 @@ css/style.css: assets/css/style.less \
 	assets/css/layout.less \
 	assets/css/pricing.less \
 	assets/css/pygments.less \
-	assets/css/variables.less \
+	assets/css/home.less \
+	assets/css/fonts.less \
 	css/community-nav.css \
 	bower_components/ladda/dist/ladda.min.css
 
@@ -29,14 +30,8 @@ else
 	node_modules/.bin/uglifyjs $^ --output $@
 endif
 
-assets/css/variables.less: bower_components/bootstrap/less/variables.less
-	cp bower_components/bootstrap/less/variables.less $@
-
 bower:
 	node_modules/.bin/bower install
-
-#   Modify Bootstrap to point to our own (modified) copy of variables.less. Perl is more cross platform than sed.
-	perl -i -pe's|"variables.less"|"../../../assets/css/variables.less"|' bower_components/bootstrap/less/bootstrap.less
 
 test:
 	bundle exec cucumber

@@ -25,7 +25,7 @@ building up over the past few weeks.&lt;/p&gt;
 
 &lt;p&gt;If you have any time to dive in and help solve the remaining issues, that would also be great!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 +0100</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2015/01/31/cucumber-ruby-rc-3-released.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2015/01/31/cucumber-ruby-rc-3-released.html</guid>
@@ -42,7 +42,7 @@ building up over the past few weeks.&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href=&quot;http://traffic.libsyn.com/testtalks/ttMattWynneCucumberBDD35.mp3&quot;&gt;download the episode here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Jan 2015 12:00:00 +0000</pubDate>
+        <pubDate>Tue, 13 Jan 2015 13:00:00 +0100</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2015/01/13/matt-on-test-talks.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2015/01/13/matt-on-test-talks.html</guid>
@@ -71,7 +71,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;Of course this is all part of our &lt;a href=&quot;https://cucumber-website.herokuapp.com/blog/2014/04/16/cucumber-limited.html&quot;&gt;business plan&lt;/a&gt; to bootstrap our little company and keep Cucumber&amp;#39;s open-source products free and healthy. So if you need another reason to sign up, do it to feel good about supporting an open-source company. We&amp;#39;ll all appreciate it!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 18 Nov 2014 12:00:00 +0000</pubDate>
+        <pubDate>Tue, 18 Nov 2014 13:00:00 +0100</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/11/18/cucumber-school.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/11/18/cucumber-school.html</guid>
@@ -92,7 +92,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;Please write in the comments, or &lt;a href=&quot;mailto:cukeup@skillsmatter.com&quot;&gt;email the team&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Nov 2014 12:00:00 +0000</pubDate>
+        <pubDate>Thu, 13 Nov 2014 13:00:00 +0100</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/11/13/cukeup-call-for-thoughts.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/11/13/cukeup-call-for-thoughts.html</guid>
@@ -150,7 +150,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;I need both modes of thought to do BDD: divergent thinking to explore the problem and discover scenarios, then convergent thinking to turn those examples into an executable specification.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 21 Oct 2014 10:32:59 +0000</pubDate>
+        <pubDate>Tue, 21 Oct 2014 12:32:59 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/10/21/the-two-modes-of-thought-you-need-for-bdd.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/10/21/the-two-modes-of-thought-you-need-for-bdd.html</guid>
@@ -173,7 +173,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#39;d like to help fix any of those issues, I&amp;#39;d also really appreciate it. Just ping @mattwynne on the GitHub ticket of your choice and I&amp;#39;ll be glad to give you some &lt;a href=&quot;http://blog.mattwynne.net/2012/03/31/free-bdd-coaching/&quot;&gt;free BDD coaching&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2014 02:00:00 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/14/cucumber-2-beta-3.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/14/cucumber-2-beta-3.html</guid>
@@ -186,7 +186,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;m hoping this is the last release in the 1.x line. We&amp;#39;re closing down on the last remaining bugfixes for Cucumber 2.0, and I expect a third beta to be out very soon.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 13 Sep 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 13 Sep 2014 02:00:00 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/13/cucumber-1-3-17.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/13/cucumber-1-3-17.html</guid>
@@ -245,7 +245,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;Like this post? You can &lt;a href=&quot;https://cucumber.pro/training.html&quot;&gt;hire Matt&lt;/a&gt; to coach or train your team, or join us on one of our upcoming &lt;a href=&quot;http://kickstartacademy.io/courses/bdd-kickstart&quot;&gt;public courses&lt;/a&gt;. &lt;a href=&quot;mailto:hello@cucumber.pro?subject=Private%20Cucumber%20training&quot;&gt;Get in touch&lt;/a&gt; anytime to discuss your needs.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Sep 2014 12:00:00 +0000</pubDate>
+        <pubDate>Wed, 10 Sep 2014 14:00:00 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/10/when-cucumbers-go-bad.html</link>
         <author>matt@cucumber.pro (Matt Wynne)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/10/when-cucumbers-go-bad.html</guid>
@@ -268,7 +268,7 @@ we know it&amp;#39;s not always easy to get to a class in person.&lt;/p&gt;
 
 &lt;p&gt;[1] If you previously set up &lt;code&gt;.cucumber/stepdefs.json&lt;/code&gt; you can remove it - it&amp;#39;s not used anymore.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 05 Sep 2014 02:00:00 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/05/new-autocomplete-for-cucumber-pro.html</link>
         <author>aslak@cucumber.pro (Aslak Hellesøy)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/05/new-autocomplete-for-cucumber-pro.html</guid>
@@ -298,7 +298,7 @@ Day 2 and 3 will be technical, with focus on Cucumber (Java and Ruby).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://kickstartacademy.io/courses/bdd-kickstart&quot;&gt;Get your ticket today!&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 02 Sep 2014 02:00:00 +0200</pubDate>
         <link>https://cucumber-website.herokuapp.com/blog/2014/09/02/bdd-training-in-berlin.html</link>
         <author>aslak@cucumber.pro (Aslak Hellesøy)</author>
         <guid isPermaLink="true">https://cucumber-website.herokuapp.com/blog/2014/09/02/bdd-training-in-berlin.html</guid>
