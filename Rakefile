@@ -1,4 +1,4 @@
-task default: [:jekyll, :spec, :assert_git_clean]
+task default: [:jekyll, :spec]
 
 task :spec do
   sh 'bundle exec rspec'
