@@ -21,7 +21,7 @@ module Dynamic
       '.html'   => :liquid
     }
 
-    INCLUDES = Dir["#{views}/_includes/*"]
+    TIMESTAMPED_FILES = Dir["#{views}/_includes/*"] + [__FILE__]
 
     Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
       ext = File.extname(file)
@@ -31,7 +31,7 @@ module Dynamic
 
       path = template == 'index' ? '/' : "/#{template}"
       get path do
-        timestamps = (INCLUDES + [file]).map {|f| File.mtime(f)}
+        timestamps = (TIMESTAMPED_FILES + [file]).map {|f| File.mtime(f)}
         last_modified timestamps.max
 
         locals = deep_merge_hashes(CONFIG, front_matter(file))
@@ -56,7 +56,7 @@ module Dynamic
       end
 
       def edit_url(template_path)
-        "https://github.com/cucumber/website/edit/master/apps/dynamic/views/#{template_path}"
+        "#{CONFIG['site']['edit_url']}/#{template_path}"
       end
     end
 
