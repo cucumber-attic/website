@@ -1,18 +1,26 @@
-<!DOCTYPE html>
-<html><body>
-<ul>
-<li>
-<a href="#this-is-a-h1">This is a H1</a><ul><li><a href="#thats-a-h2">That's a H2</a></li></ul>
-</li>
-<li><a href="#another-h1">Another H1</a></li>
-</ul>
-<section><h1 class="header">
-<a id="this-is-a-h1" class="reference-anchor" href="#this-is-a-h1" aria-hidden="true"><span class="reference-link"></span></a>This is a H1</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9" role="main">
+      <section><h1 class="header">
+<a id="this-is-a-h1" href="#this-is-a-h1"></a>This is a H1</h1>
 <p>Hello</p></section>
 <section><h2 class="header">
-<a id="thats-a-h2" class="reference-anchor" href="#thats-a-h2" aria-hidden="true"><span class="reference-link"></span></a>That's a H2</h2>
+<a id="thats-a-h2" href="#thats-a-h2"></a>That's a H2</h2>
 <p>World</p></section>
 <section><h1 class="header">
-<a id="another-h1" class="reference-anchor" href="#another-h1" aria-hidden="true"><span class="reference-link"></span></a>Another H1</h1>
+<a id="another-h1" href="#another-h1"></a>Another H1</h1>
 <p>Hello</p></section>
-</body></html>
+
+    </div>
+    <div class="col-md-3" role="complementary">
+      <nav id="side-nav" class="affix">
+        <ul class="nav nav-stacked">
+<li role="presentation">
+<a href="#this-is-a-h1">This is a H1</a><ul class="nav"><li role="presentation"><a href="#thats-a-h2">That's a H2</a></li></ul>
+</li>
+<li role="presentation"><a href="#another-h1">Another H1</a></li>
+</ul>
+      </nav>
+    </div>
+  </div>
+</div>

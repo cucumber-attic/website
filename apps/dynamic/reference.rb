@@ -17,18 +17,31 @@ module Cucumber
     def postprocess(html)
       doc = Nokogiri::HTML("<!DOCTYPE html>\n<html><body>#{html}</body></html>")
 
-      wrap_headers(doc)
-      create_anchors(doc)
-      nav_links = create_nav_links(doc)
+      wrap_headers_and_contents_in_sections(doc)
+      create_anchors_with_ids(doc)
 
-      doc.css('body').first.children.first.add_previous_sibling(nav_links)
+      nav_body = create_nav_body_with_links_to_anchors(doc)
+      body = doc.css('body').first.children.to_s
 
-      doc.to_s
+      result = <<-HTML
+<div class="container">
+  <div class="row">
+    <div class="col-md-9" role="main">
+      #{body}
+    </div>
+    <div class="col-md-3" role="complementary">
+      <nav id="side-nav" class="affix">
+        #{nav_body}
+      </nav>
+    </div>
+  </div>
+</div>
+HTML
     end
 
     private
 
-    def wrap_headers(doc)
+    def wrap_headers_and_contents_in_sections(doc)
       doc.css('.header').map do |node|
         parent = doc.create_element('section')
         node.add_previous_sibling(parent)
@@ -44,18 +57,18 @@ module Cucumber
       end
     end
 
-    def create_anchors(doc)
+    def create_anchors_with_ids(doc)
       doc.css('.header').map do |node|
         anchor = anchorify(node.text)
-        anchor_tag = %Q{<a id="#{anchor}" class="reference-anchor" href="##{anchor}" aria-hidden="true"><span class="reference-link"></span></a>}
+        anchor_tag = %Q{<a id="#{anchor}" href="##{anchor}"></a>}
         node.prepend_child(anchor_tag)
       end
     end
 
     # Creates a nav (nested ul) with links to headers
-    def create_nav_links(doc)
-      result = doc.create_element('ul')
-      ul = result
+    def create_nav_body_with_links_to_anchors(doc)
+      ul = doc.parse(%Q{<ul class="nav nav-stacked">}).first
+
       li = nil
       last_level = 1
       doc.css('.header').map do |node|
@@ -64,7 +77,7 @@ module Cucumber
         delta = level-last_level
         if delta > 0
           delta.times do
-            ul = doc.create_element('ul')
+            ul = doc.parse(%Q{<ul class="nav">}).first
             li.add_child(ul)
           end
         end
@@ -77,10 +90,11 @@ module Cucumber
         last_level = level
 
         # TODO: Escape node.text
-        li = doc.parse(%Q{<li><a href="##{anchor}">#{node.text}</a></li>"}).first
+        li = doc.parse(%Q{<li role="presentation"><a href="##{anchor}">#{node.text}</a></li>"}).first
         ul.add_child(li)
       end
-      result
+
+      ul
     end
 
     def anchorify(string)
