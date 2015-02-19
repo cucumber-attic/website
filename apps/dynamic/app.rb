@@ -21,6 +21,8 @@ module Dynamic
       '.html'   => :liquid
     }
 
+    INCLUDES = Dir["#{views}/_includes/*"] + Dir["#{views}/*layout*"]
+
     Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
       ext = File.extname(file)
       template = file[views.length+1...-ext.length]
@@ -29,6 +31,9 @@ module Dynamic
       if !(template =~ /layout$/)
         path = template == 'index' ? '/' : "/#{template}"
         get path do
+          timestamps = (INCLUDES + [file]).map {|f| File.mtime(f)}
+          last_modified timestamps.max
+
           locals = deep_merge_hashes(CONFIG, front_matter(file))
           locals[:locals] = locals # So slim can pass locals to _includes
           options = {
@@ -38,6 +43,10 @@ module Dynamic
           self.send(engines[ext], template_proc(file), options, locals)
         end
       end
+    end
+
+    before do
+      cache_control :public
     end
 
     helpers do
