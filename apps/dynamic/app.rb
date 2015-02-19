@@ -1,9 +1,9 @@
+require 'yaml'
 require 'slim'
 require 'redcarpet'
 require 'liquid'
 require 'tilt'
-require 'sinatra'
-require 'yaml'
+require 'sinatra/base'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 

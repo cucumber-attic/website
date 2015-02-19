@@ -16,6 +16,14 @@ javascript:
   ga('create', 'UA-43811306-1', 'cukes.info');
   ga('send', 'pageview');
 
+  $(document).ready(function () {
+    console.log('READY');
+    $('body').scrollspy({ target: '#side-nav' })
+    $('#side-nav').on('activate.bs.scrollspy', function (e) {
+      console.log('SPY', e.target);
+    });
+  });
+
 title
   - if title == "Cucumber"
     = title
@@ -23,7 +31,12 @@ title
     = title
     | &middot;
     | Cucumber
+
 link href="/css/style.css" rel="stylesheet" /
+css:
+  body {
+    position: relative;
+  }
 
 link href="/favicon.png" rel="icon" type="image/png" /
 link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /
