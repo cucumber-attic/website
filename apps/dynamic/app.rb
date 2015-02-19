@@ -11,7 +11,7 @@ Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 # Support several template engines: Markdown, Slim and HTML with Liquid
 module Dynamic
   class App < Sinatra::Application
-    set :root,          File.expand_path(File.dirname(__FILE__))
+    set :root,          File.dirname(__FILE__)
     set :public_folder, Proc.new { File.join(root, 'static') }
     set :views,         Proc.new { File.join(root, 'views') }
 
@@ -21,17 +21,28 @@ module Dynamic
       '.html'   => :liquid
     }
 
-    Dir["#{settings.views}/**/*{#{engines.keys.join(',')}}"].each do |file|
+    Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
       ext = File.extname(file)
-      template = file[settings.views.length...-ext.length]
+      template = file[views.length+1...-ext.length]
+      next if template =~ /^_includes/
 
       if !(template =~ /layout$/)
-        path = template == '/index' ? '/' : template
+        path = template == 'index' ? '/' : "/#{template}"
         get path do
-          options = { layout_engine: :slim }
           locals = deep_merge_hashes(CONFIG, front_matter(file))
+          locals[:locals] = locals # So slim can pass locals to _includes
+          options = {
+            layout_engine: :slim,
+            layout: locals['layout'] ? locals['layout'].to_sym : :layout
+          }
           self.send(engines[ext], template_proc(file), options, locals)
         end
+      end
+    end
+
+    helpers do
+      def nav_class(slug, name)
+        slug == name ? 'active' : nil
       end
     end
 
