@@ -1,5 +1,6 @@
 require 'rack/test'
 
+ENV['RACK_ENV'] = 'test'
 APP = Rack::Builder.parse_file('config.ru').first
 
 describe "integration testing" do
@@ -13,7 +14,10 @@ describe "integration testing" do
     "/",
     "/training",
     "/school",
-    "/blog"
+    "/blog",
+    "/dynamic-liquid",
+    "/dynamic-markdown",
+    "/dynamic-slim"
   ].each do |path|
     it "returns #{path} with a non-failure code" do
       get path
@@ -47,5 +51,24 @@ describe "integration testing" do
       expect(last_response.location).to eq "http://cucumber.github.io/api/gherkin/"
     end
   end
-end
 
+  describe "Dynamic app" do
+    it "renders a liquid page with layout" do
+      get "/dynamic-liquid"
+      expect(last_response.body).to include('This is from layout.slim')
+      expect(last_response.body).to include('<p>Dynamic: https://cukes.info</p>')
+    end
+
+    it "renders a markdown page with layout" do
+      get "/dynamic-markdown"
+      expect(last_response.body).to include('This is from layout.slim')
+      expect(last_response.body).to include('<h2>This is Markdown</h2>')
+    end
+
+    it "renders a slim page with layout" do
+      get "/dynamic-slim"
+      expect(last_response.body).to include('This is from layout.slim')
+      expect(last_response.body).to match(/<h2>\s*This is Slim\s*<\/h2>/)
+    end
+  end
+end

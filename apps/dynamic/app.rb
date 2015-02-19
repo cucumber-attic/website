@@ -1,0 +1,86 @@
+require 'slim'
+require 'redcarpet'
+require 'liquid'
+require 'tilt'
+require 'sinatra'
+require 'yaml'
+
+Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
+
+# Sinatra app that displays a Jekyll app dynamically
+# Support several template engines: Markdown, Slim and HTML with Liquid
+module Dynamic
+  class App < Sinatra::Application
+    set :root,          File.expand_path(File.dirname(__FILE__))
+    set :public_folder, Proc.new { File.join(root, 'static') }
+    set :views,         Proc.new { File.join(root, 'views') }
+
+    engines = {
+      '.md'     => :markdown,
+      '.slim'   => :slim,
+      '.html'   => :liquid
+    }
+
+    Dir["#{settings.views}/**/*{#{engines.keys.join(',')}}"].each do |file|
+      ext = File.extname(file)
+      template = file[settings.views.length...-ext.length]
+
+      if !(template =~ /layout$/)
+        path = template == '/index' ? '/' : template
+        get path do
+          options = { layout_engine: :slim }
+          locals = deep_merge_hashes(CONFIG, front_matter(file))
+          self.send(engines[ext], template_proc(file), options, locals)
+        end
+      end
+    end
+
+    private
+
+    CONFIG = {
+      'site' => YAML.load_file(File.join(root, "_config.#{ENV['RACK_ENV']}.yml"))
+    }
+
+    # Lifted from Jekyll::Document
+    YAML_FRONT_MATTER_REGEXP = /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
+
+    def front_matter(file)
+      if has_yaml_header?(file)
+        YAML.load_file(file)
+      else
+        {}
+      end
+    end
+
+    def template_proc(file)
+      Proc.new do |template|
+        content = File.read(file)
+        # $' is what follows the match - AKA $POSTMATCH
+        content =~ YAML_FRONT_MATTER_REGEXP ? $' : content
+      end
+    end
+
+    def has_yaml_header?(file)
+      !!(File.open(file, 'rb') { |f| f.read(5) } =~ /\A---\r?\n/)
+    end
+
+    # Lifted from
+    # http://gemjack.com/gems/tartan-0.1.1/classes/Hash.html
+    #
+    # Thanks to whoever made it.
+    def deep_merge_hashes(master_hash, other_hash)
+      target = master_hash.dup
+
+      other_hash.each_key do |key|
+        if other_hash[key].is_a? Hash and target[key].is_a? Hash
+          target[key] = Utils.deep_merge_hashes(target[key], other_hash[key])
+          next
+        end
+
+        target[key] = other_hash[key]
+      end
+
+      target
+    end
+  end
+end

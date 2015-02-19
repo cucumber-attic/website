@@ -93,6 +93,7 @@ PLATFORMS
 DEPENDENCIES
   foreman
   jekyll
+  liquid (= 2.5.5)
   puma
   rack-contrib
   rack-reverse-proxy
