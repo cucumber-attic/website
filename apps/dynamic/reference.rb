@@ -67,7 +67,7 @@ HTML
 
     # Creates a nav (nested ul) with links to headers
     def create_nav_body_with_links_to_anchors(doc)
-      ul = doc.parse(%Q{<ul class="nav nav-stacked">}).first
+      ul = doc.parse(%Q{<ul class="nav nav-pills nav-stacked">}).first
 
       li = nil
       last_level = 1
@@ -77,7 +77,7 @@ HTML
         delta = level-last_level
         if delta > 0
           delta.times do
-            ul = doc.parse(%Q{<ul class="nav">}).first
+            ul = doc.parse(%Q{<ul class="nav nav-pills nav-stacked">}).first
             li.add_child(ul)
           end
         end
