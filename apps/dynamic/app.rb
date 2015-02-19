@@ -21,27 +21,26 @@ module Dynamic
       '.html'   => :liquid
     }
 
-    INCLUDES = Dir["#{views}/_includes/*"] + Dir["#{views}/*layout*"]
+    INCLUDES = Dir["#{views}/_includes/*"]
 
     Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
       ext = File.extname(file)
       template = file[views.length+1...-ext.length]
       next if template =~ /^_includes/
 
-      if !(template =~ /layout$/)
-        path = template == 'index' ? '/' : "/#{template}"
-        get path do
-          timestamps = (INCLUDES + [file]).map {|f| File.mtime(f)}
-          last_modified timestamps.max
+      path = template == 'index' ? '/' : "/#{template}"
+      get path do
+        timestamps = (INCLUDES + [file]).map {|f| File.mtime(f)}
+        last_modified timestamps.max
 
-          locals = deep_merge_hashes(CONFIG, front_matter(file))
-          locals[:locals] = locals # So slim can pass locals to _includes
-          options = {
-            layout_engine: :slim,
-            layout: locals['layout'] ? locals['layout'].to_sym : :layout
-          }
-          self.send(engines[ext], template_proc(file), options, locals)
-        end
+        locals = deep_merge_hashes(CONFIG, front_matter(file))
+        locals[:locals] = locals # So slim can pass locals to _includes
+        layout = locals['layout'] || 'layout'
+        options = {
+          layout_engine: :slim,
+          layout: "_includes/#{layout}".to_sym
+        }
+        self.send(engines[ext], template_proc(file), options, locals)
       end
     end
 
