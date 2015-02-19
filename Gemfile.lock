@@ -32,7 +32,10 @@ GEM
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     maruku (0.7.0)
+    mini_portile (0.6.2)
     multi_json (1.10.1)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
@@ -51,7 +54,6 @@ GEM
     rack-rewrite (1.5.1)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -94,12 +96,13 @@ DEPENDENCIES
   foreman
   jekyll
   liquid (= 2.5.5)
+  nokogiri (= 1.6.6.2)
   puma
+  pygments.rb (= 0.5.4)
   rack-contrib
   rack-reverse-proxy
   rack-rewrite
   rack-test
-  rake
   redcarpet (= 2.3.0)
   rollbar
   rspec

@@ -1,5 +1,6 @@
 require 'redcarpet'
 require 'pygments'
+require 'nokogiri'
 
 module Cucumber
   class Reference < Redcarpet::Render::HTML
