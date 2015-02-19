@@ -6,8 +6,17 @@ footer.container
         a href="/press.html"  Press
       p.text-center
         a href="tel:+442087206842" +44 20 8720 6842 (Europe)
-        | \
+      p.text-center
         a href="tel:+18444144961" 1-844-414-4961 (USA)
+      p.text-center#js-edit style="display:none"
+        a href=(edit_url(locals['template_path'])) Edit this page
+        javascript:
+          document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            if (evt.ctrlKey && evt.keyCode == 69 /* e */) {
+              document.getElementById('js-edit').style.display = 'block';
+            }
+          };
 
 script src="/js/config.js"
 script src="/js/main.js"

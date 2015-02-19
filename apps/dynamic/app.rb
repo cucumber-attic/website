@@ -25,6 +25,7 @@ module Dynamic
 
     Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
       ext = File.extname(file)
+      template_path = file[views.length+1..-1]
       template = file[views.length+1...-ext.length]
       next if template =~ /^_includes/
 
@@ -34,7 +35,8 @@ module Dynamic
         last_modified timestamps.max
 
         locals = deep_merge_hashes(CONFIG, front_matter(file))
-        locals[:locals] = locals # So slim can pass locals to _includes
+        locals['locals'] = locals # So slim can pass locals to _includes
+        locals['template_path'] = template_path
         layout = locals['layout'] || 'layout'
         options = {
           layout_engine: :slim,
@@ -51,6 +53,10 @@ module Dynamic
     helpers do
       def nav_class(slug, name)
         slug == name ? 'active' : nil
+      end
+
+      def edit_url(template_path)
+        "https://github.com/cucumber/website/edit/master/apps/dynamic/views/#{template_path}"
       end
     end
 
