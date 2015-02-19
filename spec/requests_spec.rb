@@ -14,7 +14,8 @@ describe "integration testing" do
     "/",
     "/training",
     "/school",
-    "/blog"
+    "/blog",
+    "/reference"
   ].each do |path|
     it "returns #{path} with a non-failure code" do
       get path

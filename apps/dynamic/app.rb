@@ -42,7 +42,13 @@ module Dynamic
           layout_engine: :slim,
           layout: "_includes/#{layout}".to_sym
         }
-        self.send(engines[ext], template_proc(file), options, locals)
+        engine = engines[ext]
+        if engine == :markdown
+          # This causes a warning in Slim, but I can't see a way around it
+          options[:renderer] = constantize(locals['renderer']) if locals['renderer']
+          options[:fenced_code_blocks] = true
+        end
+        self.send(engine, template_proc(file), options, locals)
       end
     end
 
@@ -106,6 +112,14 @@ module Dynamic
       end
 
       target
+    end
+
+    def constantize(class_name)
+      unless /\A(?:::)?([A-Z]\w*(?:::[A-Z]\w*)*)\z/ =~ class_name
+        raise NameError, "#{class_name.inspect} is not a valid constant name!"
+      end
+
+      Object.module_eval("::#{$1}", __FILE__, __LINE__)
     end
   end
 end
