@@ -15,6 +15,7 @@ gem 'rack-reverse-proxy'
 gem 'rack-rewrite'
 
 group :development do
+  gem 'rake'
   gem 'foreman'
 end
 
