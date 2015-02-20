@@ -17,7 +17,7 @@ module Dynamic
         @current = down
         @stack.push(@current)
       elsif level < @level
-        @stack.pop
+        (@level - level).times { @stack.pop }
         @current = @stack.last
         @current.push(e)
       elsif level == @level

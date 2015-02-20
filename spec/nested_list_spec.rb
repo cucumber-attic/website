@@ -41,6 +41,15 @@ module Dynamic
       expect(l.nested).to eq [:a, [:b, [:c]]]
     end
 
+    it "nests two levels down and all the way up" do
+      l = NestedList.new
+      l.add(0, :a)
+      l.add(1, :b)
+      l.add(2, :c)
+      l.add(0, :d)
+      expect(l.nested).to eq [:a, [:b, [:c]], :d]
+    end
+
     it "works with a complex tree" do
       l = NestedList.new
       l.add(0, :a)
