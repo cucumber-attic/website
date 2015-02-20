@@ -6,7 +6,12 @@ require_relative 'ul_builder'
 module Dynamic
   class Reference < Redcarpet::Render::HTML
     def block_code(code, language)
-      Pygments.highlight(code, lexer: language)
+      code = Pygments.highlight(code, lexer: language)
+      if language == 'gherkin'
+        code
+      else
+        %Q{<div class="programming #{language}">#{code}</div>}
+      end
     end
 
     def header(text, header_level)

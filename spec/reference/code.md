@@ -4,3 +4,7 @@
 def hello
 end
 ```
+
+```gherkin
+Feature: Hello
+```
