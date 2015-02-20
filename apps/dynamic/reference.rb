@@ -44,7 +44,7 @@ HTML
         end
       end
 
-      ul = '<ul class="nav nav-pills nav-stacked" role="tablist">'
+      ul = '<ul class="nav nav-stacked" role="tablist">'
       nested_list_builder = UlBuilder.new(tree.nested, ul) do |item|
         %Q{<li role="presentation"><a href="#{item[:href]}">#{item[:text]}</a>}
       end

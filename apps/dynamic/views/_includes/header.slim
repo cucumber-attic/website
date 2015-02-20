@@ -17,11 +17,7 @@ javascript:
   ga('send', 'pageview');
 
   $(document).ready(function () {
-    console.log('READY');
     $('body').scrollspy({ target: '#side-nav' })
-    $('#side-nav').on('activate.bs.scrollspy', function (e) {
-      console.log('SPY', e.target);
-    });
   });
 
 title
@@ -38,5 +34,26 @@ css:
     position: relative;
   }
 
+  #side-nav .active > a {
+    font-weight: bold;
+  }
+
+  #side-nav .nav .nav > li > a {
+    padding-left: 40px !important;
+  }
+
+  #side-nav .nav .nav .nav > li > a {
+    padding-left: 80px !important;
+  }
+
+  /* hide all (inactive) nested lists */
+  #side-nav .nav .nav {
+      display: none;
+  }
+
+  /* show active nested lists */
+  #side-nav .nav > .active > .nav {
+      display: block;
+  }
 link href="/favicon.png" rel="icon" type="image/png" /
 link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /
