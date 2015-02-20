@@ -1,8 +1,9 @@
 require 'redcarpet'
 require 'pygments'
-require 'nokogiri'
+require_relative 'nested_list'
+require_relative 'ul_builder'
 
-module Cucumber
+module Dynamic
   class Reference < Redcarpet::Render::HTML
     def block_code(code, language)
       Pygments.highlight(code, lexer: language)
@@ -13,20 +14,17 @@ module Cucumber
     end
 
     def postprocess(html)
-      doc = Nokogiri::HTML("<!DOCTYPE html>\n<html><body>#{html}</body></html>")
-
-      nav_body = create_nav_body_with_links_to_anchors(doc)
-      body = doc.css('body').first.children.to_s
+      nav_body = create_nav_body_with_links_to_anchors(html)
 
       result = <<-HTML
 <div class="container">
   <div class="row">
     <div class="col-md-9" role="main">
-      #{body}
+#{html}
     </div>
     <div class="col-md-3" role="complementary">
       <nav id="side-nav" class="affix">
-        #{nav_body}
+#{nav_body}
       </nav>
     </div>
   </div>
@@ -36,36 +34,21 @@ HTML
 
     private
 
-    # Creates a nav (nested ul) with links to headers
-    def create_nav_body_with_links_to_anchors(doc)
-      ul = doc.parse(%Q{<ul class="nav nav-pills nav-stacked" role="tablist">}).first
-
-      li = nil
-      last_level = 1
-      doc.css('.header').map do |node|
-        level = node.name[1..-1].to_i
-        delta = level-last_level
-        if delta > 0
-          delta.times do
-            ul = doc.parse(%Q{<ul class="nav nav-pills nav-stacked">}).first
-            li.add_child(ul)
-          end
+    def create_nav_body_with_links_to_anchors(html)
+      tree = NestedList.new
+      html.split(/\n/).each do |line|
+        if line =~ /<h(\d) id="([^"]+)" class="header">([^<]+)<\/h\d>/
+          level = $1.to_i - 1
+          item = {href: "##{$2}", text: $3}
+          tree.add(level, item)
         end
-        if delta < 0
-          delta.abs.times do
-            ul = ul.parent.parent
-          end
-        end
-
-        last_level = level
-
-        # TODO: Escape node.text
-        anchor = node['id']
-        li = doc.parse(%Q{<li role="presentation"><a href="##{anchor}">#{node.text}</a></li>"}).first
-        ul.add_child(li)
       end
 
-      ul
+      ul = '<ul class="nav nav-pills nav-stacked" role="tablist">'
+      nested_list_builder = UlBuilder.new(tree.nested, ul) do |item|
+        %Q{<li role="presentation"><a href="#{item[:href]}">#{item[:text]}</a>}
+      end
+      nested_list_builder.build
     end
 
     def anchorify(string)

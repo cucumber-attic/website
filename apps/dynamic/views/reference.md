@@ -1,7 +1,7 @@
 ---
 title: Reference
 slug: reference
-renderer: Cucumber::Reference
+renderer: Dynamic::Reference
 ---
 # Gherkin
 

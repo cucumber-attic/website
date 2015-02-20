@@ -1,8 +1,7 @@
 require_relative '../apps/dynamic/reference'
-require 'nokogiri'
 require 'redcarpet'
 
-module Cucumber
+module Dynamic
   describe Reference do
     Dir["#{File.dirname(__FILE__)}/reference/*.md"].each do |md_file|
       it "renders #{md_file}" do
@@ -14,7 +13,7 @@ module Cucumber
     end
 
     def to_html(markdown)
-      renderer = Redcarpet::Markdown.new(Cucumber::Reference.new, fenced_code_blocks: true)
+      renderer = Redcarpet::Markdown.new(Dynamic::Reference.new, fenced_code_blocks: true)
       renderer.render(markdown)
     end
   end
