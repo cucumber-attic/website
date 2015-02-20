@@ -36,7 +36,7 @@ javascript:
     var ignoreSlickEvents = false;
     $('.carousel').slick({
       autoplay: false,
-      adaptiveHeight: false
+      adaptiveHeight: true
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
       if(nextSlide == currentSlide) return;
       var method;
@@ -49,5 +49,16 @@ javascript:
       ignoreSlickEvents = true;
       $('.carousel').slick(method);
       ignoreSlickEvents = false;
+    });
+
+    $('.carousel-control').append('<span data-slide="0">Ruby</span>');
+    $('.carousel-control').append('<span data-slide="1">Java</span>');
+    $('.carousel-control').append('<span data-slide="2">JavaScript</span>');
+    $('.carousel-control').append('<span data-slide="3">Python</span>');
+    // Carousel control
+    $('.carousel-control span').click(function (e) {
+      var slide = parseInt(e.target.dataset.slide);
+      console.log(slide);
+      $('.carousel').slick('slickGoTo', slide);
     });
   });

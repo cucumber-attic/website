@@ -37,12 +37,35 @@ css:
 
   /* hide all (inactive) nested lists */
   #side-nav .nav .nav {
-      display: none;
+    display: none;
   }
 
   /* show active nested lists */
   #side-nav .nav > .active > .nav {
-      display: block;
+    display: block;
+  }
+
+  .carousel-container {
+    position: relative;
+  }
+
+  .carousel-control {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    z-index: 2;
+    background: rgba(0,0,0,.75);
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+  }
+
+  .carousel-control span {
+    cursor: pointer;
+    padding: 5px;
   }
 link href="/favicon.png" rel="icon" type="image/png" /
 link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /

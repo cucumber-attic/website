@@ -10,7 +10,7 @@ module Dynamic
       if language == 'gherkin'
         code
       else
-        %Q{<div class="programming #{language}">#{code}</div>}
+        %Q{<div class="carousel-slide">#{code}</div>}
       end
     end
 
@@ -19,8 +19,8 @@ module Dynamic
     end
 
     def postprocess(html)
-      html.gsub!('<p>[carousel]</p>', '<div class="carousel">')
-      html.gsub!('<p>[/carousel]</p>', '</div>')
+      html.gsub!('<p>[carousel]</p>', '<div class="carousel-container"><div class="carousel-control"></div><div class="carousel">')
+      html.gsub!('<p>[/carousel]</p>', '</div></div>')
       nav_body = create_nav_body_with_links_to_anchors(html)
 
       result = <<-HTML

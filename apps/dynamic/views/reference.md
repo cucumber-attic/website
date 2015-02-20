@@ -48,6 +48,10 @@ public void hello() {
 console.log('hello');
 ```
 
+```python
+print 'hello'
+```
+
 [/carousel]
 
 And some more...
@@ -71,6 +75,10 @@ public void hi() {
 console.log('hi');
 ```
 
+```python
+print 'hi'
+```
+
 [/carousel]
 
 And even more...
@@ -92,6 +100,10 @@ public void yo() {
 
 ```javascript
 console.log('yo');
+```
+
+```python
+print 'yo'
 ```
 
 [/carousel]
