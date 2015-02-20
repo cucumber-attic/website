@@ -36,9 +36,12 @@ javascript:
     var ignoreSlickEvents = false;
     $('.carousel').slick({
       autoplay: false,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      draggable: false,
+      swipe: true
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
       if(nextSlide == currentSlide) return;
+      // TODO: Be smarter about transitioning when user clicks the control.
       var method;
       if (nextSlide == 0) {
         method = currentSlide == 1 ? 'slickPrev' : 'slickNext';
@@ -58,7 +61,6 @@ javascript:
     // Carousel control
     $('.carousel-control span').click(function (e) {
       var slide = parseInt(e.target.dataset.slide);
-      console.log(slide);
       $('.carousel').slick('slickGoTo', slide);
     });
   });
