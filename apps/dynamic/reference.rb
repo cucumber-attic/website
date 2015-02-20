@@ -19,6 +19,8 @@ module Dynamic
     end
 
     def postprocess(html)
+      html.gsub!('<p>[carousel]</p>', '<div class="carousel">')
+      html.gsub!('<p>[/carousel]</p>', '</div>')
       nav_body = create_nav_body_with_links_to_anchors(html)
 
       result = <<-HTML

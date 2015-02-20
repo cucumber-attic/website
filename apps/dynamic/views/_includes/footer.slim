@@ -20,3 +20,34 @@ footer.container
 
 script src="/js/config.js"
 script src="/js/main.js"
+script src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"
+javascript:
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43811306-1', 'cukes.info');
+  ga('send', 'pageview');
+
+  $(document).ready(function () {
+    $('body').scrollspy({ target: '#side-nav' });
+
+    // Code carousels
+    var ignoreSlickEvents = false;
+    $('.carousel').slick({
+      autoplay: false,
+      adaptiveHeight: false
+    }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+      if(nextSlide == currentSlide) return;
+      var method;
+      if (nextSlide == 0) {
+        method = currentSlide == 1 ? 'slickPrev' : 'slickNext';
+      } else {
+        method = (nextSlide - currentSlide == 1) ? 'slickNext' : 'slickPrev';
+      }
+      if(ignoreSlickEvents) return;
+      ignoreSlickEvents = true;
+      $('.carousel').slick(method);
+      ignoreSlickEvents = false;
+    });
+  });
