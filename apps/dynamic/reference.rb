@@ -5,6 +5,12 @@ require_relative 'ul_builder'
 
 module Dynamic
   class Reference < Redcarpet::Render::HTML
+    def preprocess(md)
+      check_carousel_languages(md)
+      md
+    end
+
+
     def block_code(code, language)
       code = Pygments.highlight(code, lexer: language)
       if language == 'gherkin'
@@ -40,6 +46,17 @@ HTML
     end
 
     private
+
+    def check_carousel_languages(md)
+      carousels = md.split('[carousel]')[1..-1].map do |c|
+        c.split('[/carousel]')[0]
+      end
+      languages = carousels.map do |c|
+        c.split(/\n/).map { |l| l =~ /^```(\w+)/ ? $1 : nil }.compact
+      end
+      unique_languages = languages.uniq
+      raise "Inconsistent carousel languages: #{languages.inspect}" if unique_languages.length > 1
+    end
 
     def create_nav_body_with_links_to_anchors(html)
       tree = NestedList.new

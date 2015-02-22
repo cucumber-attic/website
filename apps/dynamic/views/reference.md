@@ -163,7 +163,7 @@ And even more...
 
 ```ruby
 def yo
-puts "yo"
+  puts "yo"
 end
 ```
 

@@ -1,6 +1,6 @@
 # This is a H1
 
-[examples]
+[carousel]
 
 ```ruby
 def hello
@@ -14,7 +14,7 @@ public void hello() {
 }
 ```
 
-[/examples]
+[/carousel]
 
 ```gherkin
 Feature: Hello
