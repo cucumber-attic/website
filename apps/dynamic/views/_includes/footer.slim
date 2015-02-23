@@ -33,7 +33,7 @@ javascript:
     $('body').scrollspy({ target: '#side-nav' });
 
     // Code carousels
-    var ignoreSlickEvents = false;
+    var ignoreCarouselEvents = false;
     $('.carousel').slick({
       autoplay: false,
       adaptiveHeight: true,
@@ -41,13 +41,16 @@ javascript:
       swipe: true
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
       if(nextSlide == currentSlide) return;
-      ignoreSlickEvents = true;
+      ignoreCarouselEvents = true;
       $('.carousel').slick('slickGoTo', nextSlide);
-      ignoreSlickEvents = false;
+      ignoreCarouselEvents = false;
+
+      var language = $(".slide-link[data-slide="+ nextSlide +"]").first().text();
+      $('.current-slide').text(language);
     });
 
     // Carousel control
-    $('.carousel-control .slide-link').click(function (e) {
+    $('.slide-link').click(function (e) {
       var slide = parseInt(e.target.dataset.slide);
       if ($('.carousel').slick('slickCurrentSlide') == slide) return;
       $('.carousel').slick('slickGoTo', slide);

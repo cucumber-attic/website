@@ -54,13 +54,24 @@ HTML
     end
 
     def carouselify(html)
-      slide_links = @carousel_languages.each_with_index.map do |language, slide|
-        %Q{<span class="slide-link" data-slide="#{slide}">#{language}</span>}
-      end.join
-      carousel_control = %Q{<div class="carousel-control">#{slide_links}</div>}
       html
         .gsub('<p>[carousel]</p>', %Q{<div class="carousel-container">#{carousel_control}<div class="carousel">})
         .gsub('<p>[/carousel]</p>', '</div></div>')
+    end
+
+    def carousel_control
+      lis = @carousel_languages.each_with_index.map do |language, slide|
+        %Q{<li class="slide-link" data-slide="#{slide}">#{language}</li>}
+      end.join
+<<-HTML
+<div class="dropdown">
+  <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="current-slide">#{@carousel_languages[0]}</span>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">#{lis}</ul>
+</div>
+HTML
     end
 
     def create_nav_body_with_links_to_anchors(html)
