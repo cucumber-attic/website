@@ -12,12 +12,7 @@ module Dynamic
 
 
     def block_code(code, language)
-      code = Pygments.highlight(code, lexer: language)
-      if language == 'gherkin'
-        code
-      else
-        %Q{<div class="carousel-slide">#{code}</div>}
-      end
+      Pygments.highlight(code, lexer: language)
     end
 
     def header(text, header_level)
