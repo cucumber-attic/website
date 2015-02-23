@@ -38,7 +38,8 @@ javascript:
       autoplay: false,
       adaptiveHeight: true,
       draggable: false,
-      swipe: true
+      swipe: true,
+      focusOnSelect: true
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
       if(nextSlide == currentSlide) return;
       ignoreCarouselEvents = true;

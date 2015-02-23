@@ -61,7 +61,7 @@ HTML
 
     def carousel_control
       lis = @carousel_languages.each_with_index.map do |language, slide|
-        %Q{<li class="slide-link" data-slide="#{slide}">#{language}</li>}
+        %Q{<li role="menuitem" class="slide-link" data-slide="#{slide}">#{language}</li>}
       end.join
 <<-HTML
 <div class="dropdown">
