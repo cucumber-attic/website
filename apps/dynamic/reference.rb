@@ -6,7 +6,7 @@ require_relative 'ul_builder'
 module Dynamic
   class Reference < Redcarpet::Render::HTML
     def preprocess(md)
-      check_carousel_languages(md)
+      @carousel_languages = carousel_languages(md)
       md
     end
 
@@ -20,8 +20,7 @@ module Dynamic
     end
 
     def postprocess(html)
-      html.gsub!('<p>[carousel]</p>', '<div class="carousel-container"><div class="carousel-control"></div><div class="carousel">')
-      html.gsub!('<p>[/carousel]</p>', '</div></div>')
+      html = carouselify(html)
       nav_body = create_nav_body_with_links_to_anchors(html)
 
       result = <<-HTML
@@ -42,7 +41,7 @@ HTML
 
     private
 
-    def check_carousel_languages(md)
+    def carousel_languages(md)
       carousels = md.split('[carousel]')[1..-1].map do |c|
         c.split('[/carousel]')[0]
       end
@@ -51,6 +50,17 @@ HTML
       end
       unique_languages = languages.uniq
       raise "Inconsistent carousel languages: #{languages.inspect}" if unique_languages.length > 1
+      unique_languages[0] || []
+    end
+
+    def carouselify(html)
+      slide_links = @carousel_languages.each_with_index.map do |language, slide|
+        %Q{<span class="slide-link" data-slide="#{slide}">#{language}</span>}
+      end.join
+      carousel_control = %Q{<div class="carousel-control">#{slide_links}</div>}
+      html
+        .gsub('<p>[carousel]</p>', %Q{<div class="carousel-container">#{carousel_control}<div class="carousel">})
+        .gsub('<p>[/carousel]</p>', '</div></div>')
     end
 
     def create_nav_body_with_links_to_anchors(html)

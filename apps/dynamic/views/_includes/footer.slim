@@ -41,26 +41,15 @@ javascript:
       swipe: true
     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
       if(nextSlide == currentSlide) return;
-      // TODO: Be smarter about transitioning when user clicks the control.
-      var method;
-      if (nextSlide == 0) {
-        method = currentSlide == 1 ? 'slickPrev' : 'slickNext';
-      } else {
-        method = (nextSlide - currentSlide == 1) ? 'slickNext' : 'slickPrev';
-      }
-      if(ignoreSlickEvents) return;
       ignoreSlickEvents = true;
-      $('.carousel').slick(method);
+      $('.carousel').slick('slickGoTo', nextSlide);
       ignoreSlickEvents = false;
     });
 
-    $('.carousel-control').append('<span data-slide="0">Ruby</span>');
-    $('.carousel-control').append('<span data-slide="1">Java</span>');
-    $('.carousel-control').append('<span data-slide="2">JavaScript</span>');
-    $('.carousel-control').append('<span data-slide="3">Python</span>');
     // Carousel control
-    $('.carousel-control span').click(function (e) {
+    $('.carousel-control .slide-link').click(function (e) {
       var slide = parseInt(e.target.dataset.slide);
+      if ($('.carousel').slick('slickCurrentSlide') == slide) return;
       $('.carousel').slick('slickGoTo', slide);
     });
   });
