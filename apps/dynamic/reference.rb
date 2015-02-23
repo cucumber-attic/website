@@ -26,13 +26,13 @@ module Dynamic
       result = <<-HTML
 <div class="container">
   <div class="row">
-    <div class="col-md-9" role="main">
-#{html}
-    </div>
     <div class="col-md-3" role="complementary">
       <nav id="side-nav" class="affix">
 #{nav_body}
       </nav>
+    </div>
+    <div class="col-md-9" role="main">
+#{html}
     </div>
   </div>
 </div>
