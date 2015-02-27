@@ -32,6 +32,8 @@ module Dynamic
         '/bower_components/slick-carousel/slick/slick.css'
       ]
       css_compression :simple
+
+      serve '/images', from: 'assets/images'
     }
 
     engines = {
