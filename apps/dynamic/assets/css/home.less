@@ -1,14 +1,16 @@
 .home-header {
   height: 250px;
-  background:url(/images/cucumber-logo.svg) 50% 0 no-repeat #fff;
   background-size: 600px;
   margin-bottom: 0;
   border: 0;
+  & > img {
+    margin: 0 auto 30px;
+  }
   h1 {
     text-align: center;
     font-style: italic;
     font-size: 22px;
-    padding: 180px 0 0;
+    padding: 0 0 0;
   }
 }
 
@@ -36,6 +38,14 @@
     }
     footer {
       margin: 20px 0 40px;
+    }
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .home-header {
+    & > img {
+      width: 80%;
     }
   }
 }
