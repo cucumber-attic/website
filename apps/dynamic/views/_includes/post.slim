@@ -1,0 +1,25 @@
+doctype html
+html lang="en"
+  head
+    == slim '_includes/header'.to_sym, locals: locals
+  body
+    a.bddk-ribbon href="http://kickstartacademy.io/courses/bdd-kickstart"
+      img alt=("BDD Kickstart San Francisco") src="/images/promo-ribbon.png" /
+
+    == slim '_includes/nav-main'.to_sym, locals: locals
+
+    div.container
+      div.row
+        div.col-md-10.col-md-offset-1.js-one-column role="main"
+
+          h2= locals['title']
+          p.meta= locals['date'].strftime('%-d %b %Y')
+
+          div.post
+            div.meta
+              img src="https://www.gravatar.com/avatar/#{locals['site']['authors'][locals['author']]['gravatar']}?s=40"
+              span.author= locals['site']['authors'][locals['author']]['display_name']
+            == yield
+          == erb '_includes/disqus'.to_sym
+
+    == slim '_includes/footer'.to_sym, locals: locals

@@ -1,4 +1,5 @@
 require 'rack/test'
+require 'nokogiri'
 
 ENV['RACK_ENV'] = 'test'
 APP = Rack::Builder.parse_file('config.ru').first
@@ -15,11 +16,13 @@ describe "integration testing" do
     "/training",
     "/school",
     "/blog",
-    "/reference"
+    "/reference",
+    "/css/style.css"
   ].each do |path|
     it "returns #{path} with a non-failure code" do
       get path
       expect(last_response).to be_ok
+      expect(last_response.headers['Content-Length'].to_i).to be > 0
     end
   end
 
@@ -27,6 +30,27 @@ describe "integration testing" do
     it "returns a 404" do
       get "/missing"
       expect(last_response.status).to eq 404
+    end
+  end
+
+  describe "blog" do
+    it "renders blog pages just like any other page" do
+      get '/blog/2015/01/31/cucumber-ruby-rc-3-released-tmp'
+      expect(last_response).to be_ok
+    end
+  end
+
+  describe "rss feed" do
+    it "exists" do
+      get "/feed.xml"
+      expect(last_response).to be_ok
+      expect(last_response.headers['Content-Type']).to eq 'application/xml'
+    end
+
+    it "has 10 entries" do
+      get "/feed.xml"
+      feed = Nokogiri::XML(last_response.body)
+      expect(feed.xpath('//rss/channel/item').length).to eq 10
     end
   end
 
