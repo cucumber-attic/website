@@ -28,18 +28,18 @@ module Dynamic
       serve '/bower_components', from: 'bower_components'
 
       css :main, '/css/style.css', [
-        '/bower_components/slick-carousel/slick/slick.css',
+        '/css/main.css',
         '/bower_components/slick-carousel/slick/slick-theme.css',
-        '/css/main.css'
+        '/bower_components/slick-carousel/slick/slick.css'
       ]
       css_compression :simple
 
       serve '/js', from: 'assets/js'
       js :main, '/js/main.js', [
         '/bower_components/jquery/dist/jquery.js',
+        '/bower_components/bootstrap/dist/js/bootstrap.min.js',
         '/bower_components/slick-carousel/slick/slick.js',
-        '/bower_components/bootstrap/dist/js/bootstrap.js',
-        '/js/*.js',
+        '/js/*.js'
       ]
       js_compression :jsmin
 
