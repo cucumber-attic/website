@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.3'
+ruby '2.1.5'
 
 gem 'sinatra', '1.4.5'
 gem 'sinatra-assetpack', '0.3.3', :require => 'sinatra/assetpack'
