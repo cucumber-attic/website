@@ -1,7 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300|Lobster);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700);
 @import url("/css/community-nav.css");
 @import url("/css/ribbon.css");
 
+body {
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
 /* tabs */
 
 .nav-tabs li a {

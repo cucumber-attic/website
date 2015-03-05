@@ -1,15 +1,32 @@
 .bddk-ribbon {
-	z-index: 10000;
-	position: fixed;
-	top: 0;
-	right: 0;
-	border: 0;
-	opacity: .9;
+	display: block;
+	text-align: center;
+	background: #00A818;
+	color: #fff;
+	letter-spacing: 1px;
+	transform: rotate(45deg);
+	padding: 15px 100px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+	font-size: 14px;
+	strong {
+		font-size: 16px;
+		display: block;
+	}
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+  z-index: 10000;
+  position: fixed;
+  top: 40px;
+  right: -125px;
+  border: 0;
+  opacity: .9;
 }
 
 @media (max-width: 992px) {
-	.bddk-ribbon {
-		width: 153px;
-		height: 153px;
-	}
+  .bddk-ribbon {
+    width: 153px;
+    height: 153px;
+  }
 }
