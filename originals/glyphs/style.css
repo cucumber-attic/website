@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'cucumber-glyphs';
+	src:url('fonts/cucumber-glyphs.eot?-c13xsl');
+	src:url('fonts/cucumber-glyphs.eot?#iefix-c13xsl') format('embedded-opentype'),
+		url('fonts/cucumber-glyphs.woff?-c13xsl') format('woff'),
+		url('fonts/cucumber-glyphs.ttf?-c13xsl') format('truetype'),
+		url('fonts/cucumber-glyphs.svg?-c13xsl#cucumber-glyphs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="glyph-"], [class*=" glyph-"] {
+	font-family: 'cucumber-glyphs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyph-video:before {
+	content: "\e601";
+}
+
+.glyph-learn:before {
+	content: "\e602";
+}
+
+.glyph-correction:before {
+	content: "\e603";
+}
+
+.glyph-choose-language:before {
+	content: "\e605";
+}
+
+.glyph-syllabus:before {
+	content: "\e606";
+}
+
+.glyph-cucumber-mark:before {
+	content: "\e600";
+}
+
