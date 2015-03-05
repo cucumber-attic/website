@@ -1,22 +1,15 @@
-footer.container
+footer.container-fluid.main-footer
   .row
     .col-lg-12
       p.text-center
-        | Copyright © Cucumber Ltd 2014 -
+        | Copyright © Cucumber Ltd 2014-2015 &#8209;
         a href="/press.html"  Press
       p.text-center
         a href="tel:+442087206842" +44 20 8720 6842 (Europe)
       p.text-center
         a href="tel:+18444144961" 1-844-414-4961 (USA)
-      p.text-center#js-edit style="display:none"
+      p.text-center#js-edit
         a href=(edit_url(locals['template_path'])) Edit this page
-        javascript:
-          document.onkeydown = function(evt) {
-            evt = evt || window.event;
-            if (evt.ctrlKey && evt.keyCode == 69 /* e */) {
-              document.getElementById('js-edit').style.display = 'block';
-            }
-          };
 
 script src="/js/main.js"
 script src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"
@@ -27,33 +20,3 @@ javascript:
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-6729167-1', 'auto');
   ga('send', 'pageview');
-
-  $(document).ready(function () {
-    $('body').scrollspy({ target: '#side-nav' });
-
-    // Code carousels
-    var ignoreCarouselEvents = false;
-    $('.carousel').slick({
-      autoplay: false,
-      arrows: false,
-      adaptiveHeight: true,
-      draggable: false,
-      swipe: true,
-      focusOnSelect: true
-    }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-      if(nextSlide == currentSlide) return;
-      ignoreCarouselEvents = true;
-      $('.carousel').slick('slickGoTo', nextSlide);
-      ignoreCarouselEvents = false;
-
-      var language = $(".slide-link[data-slide="+ nextSlide +"]").first().text();
-      $('.current-slide').text(language);
-    });
-
-    // Carousel control
-    $('.slide-link').click(function (e) {
-      var slide = parseInt(e.target.dataset.slide);
-      if ($('.carousel').slick('slickCurrentSlide') == slide) return;
-      $('.carousel').slick('slickGoTo', slide);
-    });
-  });
