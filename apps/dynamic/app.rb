@@ -34,7 +34,12 @@ module Dynamic
       css_compression :simple
 
       serve '/js', from: 'assets/js'
-      js :main, '/js/main-dynamic.js', ['/js/*.js']
+      js :main, '/js/main.js', [
+        '/bower_components/jquery/dist/jquery.js',
+        '/bower_components/slick-carousel/slick/slick.js',
+        '/bower_components/bootstrap/dist/js/bootstrap.js',
+        '/js/*.js',
+      ]
       js_compression :jsmin
 
       serve '/images', from: 'assets/images'
