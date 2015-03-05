@@ -28,8 +28,9 @@ module Dynamic
       serve '/bower_components', from: 'bower_components'
 
       css :main, '/css/style.css', [
-        '/css/main.css',
-        '/bower_components/slick-carousel/slick/slick.css'
+        '/bower_components/slick-carousel/slick/slick.css',
+        '/bower_components/slick-carousel/slick/slick-theme.css',
+        '/css/main.css'
       ]
       css_compression :simple
 
