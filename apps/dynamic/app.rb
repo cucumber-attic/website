@@ -27,11 +27,8 @@ module Dynamic
 
       serve '/bower_components', from: 'bower_components'
 
-      css :main, '/css/style.css', [
-        '/css/main.css',
-        '/bower_components/slick-carousel/slick/slick-theme.css',
-        '/bower_components/slick-carousel/slick/slick.css'
-      ]
+      # We're listing the other files in main.less rather than here
+      css :main, '/css/style.css', ['/css/main.css']
       css_compression :simple
 
       serve '/js', from: 'assets/js'
