@@ -65,7 +65,7 @@ module Dynamic
         date_path = locals['date'].to_s.gsub('-', '/')
         segments.insert(1, date_path)
       end
-      "/#{segments.join('/')}"
+      "/#{segments.join('/')}.?:format?"
     end
 
     Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
