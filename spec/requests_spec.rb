@@ -54,6 +54,13 @@ describe "integration testing" do
     end
   end
 
+  context "when the request has an .html extension" do
+    it "works" do
+      get "/school.html"
+      expect(last_response).to be_ok
+    end
+  end
+
   describe "redirects" do
     it "redirects all ruby api traffic to rubydoc.info" do
       get "/api/cucumber/ruby/yardoc/Cucumber/Configuration.html"
