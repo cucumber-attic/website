@@ -19,70 +19,48 @@ script#inspectletjs type="text/javascript"
         .intro-message
           image.img-responsive alt=("BDD Kickstart") src="/images/cucumber-school-white.png"
             br/
-            h2 Online Cucumber &amp; BDD training
+            h2 Become a Cucumber expert at your own pace
             a class="btn-school-buy" href="#buy"
-              | Buy now
+              | Take the class now
             a class="btn-school-watch wistia-popover[height=388,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/28wgwhs36p?popover=true"
               span.glyphicon.glyphicon-play
-              | Watch first episode for free
+              | Watch first lesson for free
 .content-section-b
   .container
-    .row
-      .col-md-12
-        p.text-center
-          | Looking for
-          a<> href="/training"
-            strong> on-site
-            | training courses
-          | instead?
+    .row.school-benefits
+      .col-md-4.col-sm-12
+        .panel.panel-default
+          .panel-heading
+            span.glyph-video
+          .panel-body
+            h2 1. Watch
+            | Each lesson introduces new techniques and concepts through a video you can download.
 
+      .col-md-4.col-sm-12
+        .panel.panel-default
+          .panel-heading
+            span.glyph-correction
+          .panel-body
+            h2 2. Practice
+            | You’ll be given exercises to try out.
+
+      .col-md-4.col-sm-12
+        .panel.panel-default
+          .panel-heading
+            span.glyph-learn
+          .panel-body
+            h2 3. Reflect
+            | We’ll ask you a series of thought-provoking questions that will deepen your understanding of the topic.
+
+.content-section-b.school-intro
+  .container
     .row
-      .col-md-12
-        .text-center
-          h2 Cucumber will change how you develop software forever.
-          p.lead
-            |  Our online training takes you from novice to intermediate, letting you set the pace.
-        .row.school-benefits
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-cucumber-mark
-              .panel-body Learn Cucumber from the ground up
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-learn
-              .panel-body Develop the individual skills you need to make BDD work for your team
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-choose-language
-              .panel-body Choose a course tailored to your preferred language: Ruby, Java or JavaScript
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-syllabus
-              .panel-body
-                | Use our
-                a<> href="#content"  proven syllabus
-                | taught to hundreds of people on our
-                a< href="/training.html"  in-house courses
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-video
-              .panel-body Download DRM-free videos and materials so you can revisit when and where suits you
-          .col-md-4.col-sm-6
-            .panel.panel-default
-              .panel-heading
-                 span.glyph-correction
-              .panel-body
-                | With
-                strong<> Cucumber School Plus
-                | get your exercises corrected by the Cucumber team!
-          p.text-center
-            a.btn-school-buy href="#buy" type="button"
-              | Buy now
+      p.col-md-12.lead.text-center
+        | Learn Cucumber from the ground up and develop the individual skills you need to make BDD work for your team. Cucumber School is based on our
+        a<> href="#content" proven syllabus
+        | taught to hundreds of people on our
+        a< href="/training.html" in-house courses
+        |.
 .content-section-a
   .container
     .row
@@ -104,18 +82,102 @@ script#inspectletjs type="text/javascript"
         p Plus many more pro tips directly from the Cucumber core team&hellip;
       .col-md-4
         img.img-responsive alt="" src="/images/cukeup-2014/CukeUp-7418.jpg" /
-a name="content"
-.content-section-b
+
+.content-section-b#buy
+  .container.pricing.pricing-inline
+    .row
+      .col-md-12
+        h2 Basic or Plus?
+      p.col-md-6 <strong>Cucumber School Basic</strong> gives you access to all lesson materials, including our answers to the questions and some exercices to <strong>correct your work by yourself</strong>.
+      p.col-md-6 With <strong>Cucumber School Plus</strong>, you get the chance to send your answers and <strong>get them corrected by <a href="#instructors">the instructors</a></strong>.
+    .row
+      .col-md-6
+        ul.list-unstyled.price-table
+          li
+            h1 Cucumber School
+            h2 Basic
+          li 11 video lessons
+          li Code examples tailored to your preferred language
+          li Exercises in each lesson
+          li.info Exercise answers included
+          li Download all materials DRM-free*
+          li.price
+            del> $199
+            | $149
+            .discount
+              | Your early bird discount:
+              strong< 25%
+          li.buy-action
+            .row
+              .col-md-12
+                p
+                  strong Pick your language:
+            .row
+              p.col-md-4
+                a.btn.btn-success href="https://transactions.sendowl.com/packages/6740/0C29AD73/add_to_cart" rel="nofollow" Ruby
+
+              p.col-md-4
+                a.btn.btn-success href="https://transactions.sendowl.com/packages/6744/A8BA874A/add_to_cart" rel="nofollow" Java
+
+              p.col-md-4
+                a.typeform-share.btn.btn-success data-mode="1" href="https://cucumber.typeform.com/to/cZHDbY?plan=Basic" target="_blank" JavaScript
+
+      .col-md-6
+        ul.list-unstyled.price-table
+          li
+            h1 Cucumber School
+            h2 Plus
+          li 11 video lessons
+          li Code examples tailored to your preferred language
+          li Exercises in each lesson
+          li.info
+            | Exercise correction and coaching by the
+            a< href="#instructors" Cucumber team
+          li Download all materials DRM-free*
+          li.price
+            del> $499
+            | $375
+            .discount
+              | Your early bird discount:
+              strong< 25%
+          li.buy-action
+            .row
+              .col-md-12
+                p
+                  strong Pick your language:
+            .row
+              p.col-md-4
+                a.btn.btn-success href="https://transactions.sendowl.com/packages/8597/44CEE280/add_to_cart" rel="nofollow" Ruby
+
+              p.col-md-4
+                a.btn.btn-success href="https://transactions.sendowl.com/packages/8596/BD359F1A/add_to_cart" rel="nofollow" Java
+
+              p.col-md-4
+                a.typeform-share.btn.btn-success data-mode="1" href="https://cucumber.typeform.com/to/cZHDbY?plan=Plus" target="_blank" JavaScript
+    .row
+      .col-md-4.col-md-offset-4.notes
+        p
+          | * Each license is for a single person and is non-transferrable.
+          a<> href=("mailto:hello@cucumber.pro?subject=Cucumber online training licenses")  Contact us
+          | if you have special licensing requirements.
+
   .container
     .row
+      .col-md-12
+        p.text-center
+          | Looking for
+          a<> href="/training"
+            strong> on-site
+            | training courses
+          | instead?
+
+.content-section-a
+  .container#content
+    .row
       h2 Course content
-      .alert.alert-warning
-        p
-          | Cucumber School consists of 11 lessons. It is currently being produced and new lessons are released approximatively every two weeks.
-        p
-          | If you buy the course before all lessons are released you'll enjoy a hefty early bird
-          strong< 25% discount
+
       p Each lesson is comprised of a short video (8-15 minutes), a set of practice exercises and reflection questions.
+
       table.table.table-condensed.table-striped
         thead
           tr
@@ -189,115 +251,7 @@ a name="content"
             td Automate the web from Cucumber.
             td
               abbr title=("to be done")  TBD
-  a name="buy"
-  .container
-    .row
-      .container.pricing.pricing-inline
-        .row
-          .col-md-6
-            ul.list-unstyled.price-table
-              li
-                h1 Cucumber School
-                h2 Basic
-              li 11 video lessons
-              li Code examples
-              li Exercises in each lesson
-              li.info Exercise answers included
-              li Download all materials DRM-free*
-              li.buy-action.ruby
-                .row
-                  .col-md-6.text-right
-                    span.flavour Ruby
-                  .col-md-6.text-left
-                    a.btn.btn-success href="https://transactions.sendowl.com/packages/6740/0C29AD73/add_to_cart" rel="nofollow"
-                      del $199
-                      | $149
-              li.buy-action.java
-                .row
-                  .col-md-6.text-right
-                    span.flavour Java
-                  .col-md-6.text-left
-                    a.btn.btn-success href="https://transactions.sendowl.com/packages/6744/A8BA874A/add_to_cart" rel="nofollow"
-                      del $199
-                      | $149
-              li.buy-action.javascript
-                .row
-                  .col-md-6.text-right
-                    span.flavour JavaScript
-                  .col-md-6.text-left
-                    a.typeform-share.btn.btn-success data-mode="1" href="https://cucumber.typeform.com/to/cZHDbY?plan=Basic" target="_blank"
-                      del $199
-                      | $149
-          .col-md-6
-            ul.list-unstyled.price-table
-              li
-                h1 Cucumber School
-                h2 Plus
-              li 11 video lessons
-              li Code examples
-              li Exercises in each lesson
-              li.info Exercise correction and coaching by the Cucumber team
-              li Download all materials DRM-free*
-              li.buy-action.ruby
-                .row
-                  .col-md-6.text-right
-                    span.flavour Ruby
-                  .col-md-6.text-left
-                    a.btn.btn-success href="https://transactions.sendowl.com/packages/8597/44CEE280/add_to_cart" rel="nofollow"
-                      del $499
-                      | $375
-              li.buy-action.java
-                .row
-                  .col-md-6.text-right
-                    span.flavour Java
-                  .col-md-6.text-left
-                    a.btn.btn-success href="https://transactions.sendowl.com/packages/8596/BD359F1A/add_to_cart" rel="nofollow"
-                      del $499
-                      | $375
-              li.buy-action.javascript
-                .row
-                  .col-md-6.text-right
-                    span.flavour JavaScript
-                  .col-md-6.text-left
-                    a.typeform-share.btn.btn-success data-mode="1" href="https://cucumber.typeform.com/to/cZHDbY?plan=Plus" target="_blank"
-                      del $499
-                      | $375
-        .row
-          .col-md-4.col-md-offset-4.notes
-            | * Each license is for a single person and is non-transferrable.
-            a<> href=("mailto:hello@cucumber.pro?subject=Cucumber online training licenses")  Contact us
-            | if you have special licensing requirements.
-a name="method"
-.content-section-a
-  .container
-    .row
-      .col-lg-12
-        h2.section-heading How does it work?
-        p.lead
-          | We’ve taught hundreds of people how to use BDD and Cucumber in our
-          a<> href="https://cucumber.pro/training.html"  in-house courses
-          | We know that practice and reflection are key to learning, so each lesson works like this:
-        .container
-          .row
-            .col-lg-4
-              img.img-responsive alt="" src="/images/school/watch-video.png" /
-            .col-lg-8
-              h4 Watch the video
-              p Each lesson introduces a new technique or concept with a short video.
-          .row &nbsp;
-          .row
-            .col-lg-4
-              img.img-responsive alt="" src="/images/school/practice.png" /
-            .col-lg-8
-              h4 Practice the techniques
-              p You’ll be given exercises to try out.
-          .row &nbsp;
-          .row
-            .col-lg-4
-              img.img-responsive alt="" src="/images/school/reflect.png" /
-            .col-lg-8
-              h4 Reflect
-              p We’ll ask you a series of thought-provoking questions that will deepen your understanding of the topic.
+
 .content-section-b
   .container
     .row
