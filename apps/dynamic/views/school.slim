@@ -3,6 +3,15 @@ title: Cucumber School - Online training
 slug: school
 ---
 
+script#inspectletjs type="text/javascript"
+  | window.__insp = window.__insp || [];
+  | __insp.push(['wid', #{ENV['INSPECTLET_WID']}]);
+  | (function() {
+  | function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+  | if (window.attachEvent) window.attachEvent('onload', __ldinsp);
+  | else window.addEventListener('load', __ldinsp, false);
+  | })();
+
 .intro-header-school
   .container
     .row
@@ -318,6 +327,7 @@ a name="method"
         h4 Julien Biezemans
         p
           | Creator and lead for Cucumber.js, Julien hosts the Cucumber for JavaScript course.
+
 script src="https://transactions.sendowl.com/assets/sendowl.js" type="text/javascript"
 script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"
 javascript:
