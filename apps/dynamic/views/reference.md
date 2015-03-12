@@ -5,57 +5,224 @@ renderer: Dynamic::Reference
 ---
 # Gherkin
 
-This is some ruby code:
+Cucumber executes your `.feature` files, and those files contain executable specifications
+written in a language called Gherkin.
 
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
+Gherkin is plain-text English (or one of 60+ other languages) with a little extra structure.
+Gherkin is designed to be easy to learn by non-programmers, yet structured enough to
+allow concise description of examples to illustrate business rules in most real-world
+domains.
+
+Here is a sample Gherkin document:
+
+```gherkin
+Feature: Refund item
+
+  Scenario: Jeff returns a faulty microwave
+    Given Jeff has bought a microwave for $100
+    And he has a receipt
+    When he returns the microwave
+    Then Jeff should be refunded $100
 ```
 
-## Scenarios
+In Gherkin, each line that isn't blank has start with a Gherkin *keyword*,
+followed by any text you like. The main keywords are:
 
-Bla bla
+* `Feature`
+* `Scenario`
+* `Given `, `When `, `Then ` (Steps)
+* `Background`
+* `Scenario Outline`
+* `Examples`
 
-### Moar
+There are a few extra keywords as well:
 
-Hello!
+* `"""` (Doc Strings)
+* `|` (Data Tables)
+* `@` (Tags)
+* `#` (Comments)
+
+## Descriptions
+
+Some parts of Gherkin documents do not have to start with a keywords.
+
+On the lines following a `Feature`, `Scenario`, `Scenario Outline` or `Examples`
+you can write anything you like, as long as it isn't a keyword.
+
+## Feature
+
+A `.feature` file is supposed to describe a single feature of the system - or a
+particular aspect of a feature. It's just a way to provide a high-level description
+of a software feature, and to group related scenarios.
+
+A feature has three basic elements --- the `Feature:` keyword, a *name* (on the same line)
+and an optional (but highly recommended) *description* that can span multiple lines.
+
+Cucumber does not care about the name or the description --- the purpose is simply
+to provide a place where you can document important aspects of the feature, such
+as a brief explanation and a list of business rules (general acceptance criteria).
+
+Here is an example:
+
+```gherkin
+Feature: Refund item
+
+  Sales assistants should be able to refund customers' purchases.
+  This is required by the law, and is also essential in order to
+  keep customers happy.
+
+  Rules:
+  - Customer must present proof of purchase
+  - Purchase must be less than 30 days ago
+```
+
+In addition to a *name* and a *description*, features contain a list of [scenarios](#scenario)
+or [scenario outlines](#scenario-outline).
+
+## Scenario
+
+A scenario is a *concrete example* that *illustrates* a business rule. It consists of
+a list of [steps](#steps).
+
+You can have as many steps as you like, but we recommend you keep the number at 3-5 per scenario.
+If they become longer than that they lose their expressive power as specification and documentation.
+
+In addition to being a specification and documentasion, a scenario is also a *test*.
+As a whole, your scenarios are an *executable specification* of the system.
+
+Scenarios follow the same pattern:
+
+* Describe an initial context
+* Describe an event
+* Describe an expected outcome
+
+This is done with steps.
 
 ## Steps
 
-This is some ruby code:
+A step typically starts with `Given `, `When ` or `Then `. If there are multiple `Given ` or `When `
+steps underneath each other, you can use `And ` or `But `. Cucumber does not differentiate between
+the keywords, but choosing the right one is important for the readability of the scenario as a whole.
 
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
+### Given
+
+`Given ` steps are used to describe the initial context of the system --- the *scene* of the scenario.
+It is typically something that happened in the *past*.
+
+When Cucumber executes a `Given ` step it will configure the system to be in a well-defined state,
+such as creating and configuring objects or adding data to the test database.
+
+It's ok to have several `Given ` steps (just use `And ` or `But ` for number 2 and upwards to make it more readable).
+
+### When
+
+`When ` steps are used to describe an event, or an *action*. This can be a person interacting with the
+system, or it can be an event triggered by another system.
+
+It's strongly recommended you only have a single `When ` step per scenario. If you feel compelled to add more
+it's usually a sign that you should split the scenario up in multiple scenarios.
+
+### Then
+
+`Then ` steps are used to describe an *expected* outcome, or result.
+
+The [step definition](#step-definitons) of a `When ` step should use an *assertion* to
+compare the *actual* outcome (what the system actually does) to the *expected* outcome
+(what the step says the system is supposed to do).
+
+## Background
+
+Occasionally you'll find yourself repeating the same `Given ` steps in all of the scenarios
+in a feature file. Since it is repeated in every scenario it is an indication that those steps
+are not *essential* to describe the scenarios, they are *incidental details*.
+
+You can literally move such `Given ` steps to the background by grouping them under a
+`Background` section before the first scenario:
+
+```gherkin
+Background:
+  Given a $100 microwave was sold on 2015-11-03
+  And today is 2015-11-18
 ```
 
-## Doc Strings
+## Scenario Outline
+
+When you have a complex business rule with severable variable inputs or outputs
+you might end up creating several scenarios that only differ by their values.
+
+Let's take an example from [feed planning for cattle and sheep](http://www.nutrientmanagement.org/assets/12028):
+
+```gherkin
+Scenario: feeding a small suckler cow
+  Given the cow weighs 450 kg
+  When we calculate the feeding requirements
+  Then the energy should be 26500 MJ
+  And the protein should be 215 kg  
+
+Scenario: feeding a small suckler cow
+  Given the cow weighs 500 kg
+  When we calculate the feeding requirements
+  Then the energy should be 29500 MJ
+  And the protein should be 245 kg
+
+# There are 2 more examples - I'm already bored
+```
+
+If there are many examples, this becomes tedious. We can simplify it with a Scenario Outline:
+
+```gherkin
+Scenario Outline: feeding a suckler cow
+  Given the cow is <size>
+  And the cow weighs <weight> kg
+  When we calculate the feeding requirements
+  Then the energy should be <energy> MJ
+  And the protein should be <protein> kg  
+
+  Examples:
+    | weight | energy | protein |
+    |    450 |  26500 |     215 |
+    |    500 |  29500 |     245 |
+    |    575 |  31500 |     255 |
+    |    600 |  37000 |     305 |
+```
+
+This is much easier to read.
+
+Variables in the Scenario Outline steps are marked up with `<` and `>`.
+
+### Examples
+
+A Scenario Outline is always followed by one or more `Examples` sections, which
+are a container for a table.
+
+The table must have a header row corresponding to the variables in the Scenario
+Outline steps.
+
+Each of the rows below will create a new Scenario, filling in the variable values.
+
+### Scenario Outlines and UI
+
+Automating Scenario Outlines using UI automation such as Selenium WebDriver is
+considered a bad practice.
+
+The only good reason to use Scenario Outlines is to validate the implementation of
+business rule that behaves differently based on several input parameters.
+
+Validating a business rule through a UI is slow, and when there is a failure it is
+difficult to pinpoint where the error is.
+
+The automation code for Scenario Outlines should communicate directly with the business
+rule implementation, going through as few layers as possible. This is fast, and
+errors become easy to fix.
+
+## Step Arguments
+
+In some cases you might want to pass a larger chunk of text or a table of data to
+a step --- something that doesn't fit on a single line.
+
+For this purpose Gherkin has [Doc Strings](#doc-strings) and [Data Tables](#data-tables).
+
+### Doc Strings
 
 Doc Strings are handy for specifying a larger piece of text. This is inspired from
 Python's [Docstring](http://www.python.org/dev/peps/pep-0257/) syntax.
@@ -67,13 +234,15 @@ lines of their own:
 Given a blog post named "Random" with Markdown body
   """
   Some Title, Eh?
-  ==============
+  ===============
   Here is the first paragraph of my blog post. Lorem ipsum dolor sit amet,
   consectetur adipiscing elit.
   """
 ```
 
-In your [Step Definition](#step-definitions), there’s no need to find this text and match it in your pattern. It will automatically be passed as the last parameter in the step definition.
+In your [Step Definition](#step-definitions), there’s no need to find this text
+and match it in your pattern. It will automatically be passed as the last parameter
+in the step definition.
 
 Indentation of the opening `"""` is unimportant, although common practice is two
 spaces in from the enclosing step. The indentation inside the triple quotes,
@@ -87,62 +256,53 @@ Data Tables are handy for specifying a larger piece of data:
 
 ```gherkin
 Given the following users exist:
-  | name   | email               | twitter        |
-  | Aslak  | aslak@cucumber.pro  | aslak_hellesoy |
-  | Julien | julien@cucumber.pro | jbpros         |
-  | Matt   | matt@cucumber.pro   | mattwynne      |
+  | name   | email               | twitter         |
+  | Aslak  | aslak@cucumber.pro  | @aslak_hellesoy |
+  | Julien | julien@cucumber.pro | @jbpros         |
+  | Matt   | matt@cucumber.pro   | @mattwynne      |
 ```
 
-Just like Doc Strings, they will be passed to the Step Definition as the last argument.
-The type of this argument will be `DataTable` - see the API docs.
+Just like [Doc Strings](#doc-strings), Data Tables will be passed to the
+[Step Definition](#step-definitions) as the last argument.
 
-## Background
-
-This is some ruby code:
-
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
-```
+The type of this argument will be `DataTable`. See the API docs for more details
+about how to access the rows and cells.
 
 ## Tags
 
-This is some ruby code:
+Tags is a way to group Scenarios. You can place as many tags above `Feature`,
+`Scenario`, `Scenario Outline` or `Examples` keywords.
 
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
-```
+Tags are inherited from parent elements. For example, if you place a tag above
+a `Feature`, all scenarios in that feature will get that tag.
+
+Similarly, if you place a tag above a `Scenario Outline` or `Examples` keyword,
+all scenarios derived from examples rows will inherit the tags.
+
+You can tell Cucumber to only run scenarios with certain tags, or to exclude
+scenarios with certain tags.
+
+See [configuration](#) for more details.
+
+Cucumber can perform different operations before and after each scenario based
+on what tags are present on a scenario.
+
+See [tagged hooks](#tagged-hooks) for more details.
+
+## Comments
+
+Gherkin provides lots of places to document your features and scenarios.
+The preferred place is [descriptions](#descriptions). Choosing good names
+is also useful.
+
+If none of these places suit you, you can start a line with a `#` to tell Cucumber
+that the remainder of the line is a comment, and shouldn't be executed.
 
 # Cucumber API
 
-Bla bla bla
+Cucumber doesn't know how to execute your scenarios. It needs [step-definitions](#step-definitions)
+to execute Gherkin steps, and optionally [hooks](#hooks) to start and stop the system
+before and after each scenario.
 
 ## Step Definitions
 
