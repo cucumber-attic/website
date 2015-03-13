@@ -1,7 +1,7 @@
-.bddk-ribbon {
+.ribbon(@color) {
   display: block;
   text-align: center;
-  background: #00A818;
+  background: @color;
   color: #fff;
   letter-spacing: 1px;
   transform: rotate(45deg);
@@ -22,4 +22,8 @@
   right: -125px;
   border: 0;
   opacity: .9;
+}
+
+.ribbon-green {
+  .ribbon(#00A818);
 }
