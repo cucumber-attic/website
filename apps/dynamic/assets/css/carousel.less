@@ -1,0 +1,21 @@
+.carousel-container {
+  position: relative;
+
+  .dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .slide-link {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 600px) {
+    .carousel-control {
+      visibility: hidden;
+      display: none;
+    }
+  }
+}
