@@ -1,0 +1,23 @@
+#side-nav {
+  .active > a {
+    font-weight: bold;
+  }
+
+  .nav .nav > li > a {
+    padding-left: 40px !important;
+  }
+
+  .nav .nav .nav > li > a {
+    padding-left: 80px !important;
+  }
+
+  /* hide all (inactive) nested lists */
+  .nav .nav {
+    display: none;
+  }
+
+  /* show active nested lists */
+  .nav > .active > .nav {
+    display: block;
+  }
+}
