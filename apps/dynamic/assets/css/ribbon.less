@@ -1,7 +1,6 @@
-.ribbon(@color) {
+.ribbon {
   display: block;
   text-align: center;
-  background: @color;
   color: #fff;
   letter-spacing: 1px;
   transform: rotate(45deg);
@@ -24,6 +23,9 @@
   opacity: .9;
 }
 
-.ribbon-green {
-  .ribbon(#00A818);
+@media screen and (max-width: 600px) {
+  .ribbon {
+    visibility: hidden;
+    display: none;
+  }
 }
