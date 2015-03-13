@@ -27,7 +27,7 @@ module Dynamic
 <div class="container">
   <div class="row">
     <div class="col-md-3" role="complementary">
-      <nav id="side-nav" class="affix">
+      <nav id="side-nav" class="affix hidden-sm hidden-xs">
 #{nav_body}
       </nav>
     </div>
