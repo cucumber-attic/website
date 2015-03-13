@@ -409,68 +409,38 @@ default, as there is no type information.
 
 Cucumber does not differentiate between the five step keywords `Given`, `When`, `Then`, `And` and `But`.
 
+### Simple Arguments
+
+TODO
+
+### Argument Transformations
+
+TODO
+
+### Doc String Argument
+
+TODO
+
+### Data Table Argument
+
+TODO
+
+#### Diff comparison
+
+TODO
+
+#### Data Table Transformation
+
+TODO
+
 ## Hooks
 
-This is some ruby code:
-
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
-```
+TODO
 
 ### Tagged Hooks
 
-This is some ruby code:
-
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
-```
+TODO
 
 # Command line
 
-This is some ruby code:
-
-```ruby
-def hello
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-  puts "您好"
-end
-```
+TODO
