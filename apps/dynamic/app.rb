@@ -6,7 +6,7 @@ require 'tilt'
 require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'less'
-require_relative 'utils'
+require_relative 'page'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 
@@ -14,8 +14,6 @@ Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 # Support several template engines: Markdown, Slim and HTML with Liquid
 module Dynamic
   class App < Sinatra::Application
-    extend Utils
-
     set :root,  File.dirname(__FILE__)
     set :views, Proc.new { File.join(root, 'views') }
 
@@ -43,68 +41,45 @@ module Dynamic
       serve '/images', from: 'assets/images'
     }
 
-    engines = {
-      '.md'     => :markdown,
-      '.slim'   => :slim,
-      '.html'   => :liquid
-    }
-    TIMESTAMPED_FILES = Dir["#{views}/_includes/*"] + [__FILE__]
-
     CONFIG = {
       'site' => YAML.load_file(File.join(root, "_config.#{ENV['RACK_ENV']}.yml"))
     }
 
-    def self.path_for(template, locals)
-      return '/' if template == 'index'
+    pages = Page.all(CONFIG, views)
 
-      segments = template.split('/')
-      if segments[0] == 'blog'
-        date_path = locals['date'].to_s.gsub('-', '/')
-        segments.insert(1, date_path)
-      end
-      "/#{segments.join('/')}.?:format?"
+    CONFIG['site']['posts'] = pages.select(&:post?).sort do |a, b|
+      b.date <=> a.date
     end
 
-    Dir["#{views}/**/*{#{engines.keys.join(',')}}"].each do |file|
-      ext = File.extname(file)
-      template_path = file[views.length+1..-1]
-      template = file[views.length+1...-ext.length]
-      next if template =~ /^_includes/
+    pages.each do |page|
+      next unless page.primary?
 
-      locals = deep_merge_hashes(CONFIG, front_matter(file))
-      locals['locals'] = locals # So slim can pass locals to _includes
-      locals['template_path'] = template_path
-      layout = locals['layout'] || 'layout'
+      get page.path do
+        headers.merge!(page.headers)
 
-      template_proc = Proc.new do |template|
-        content_after_yaml_header(file)
-      end
-
-      renderer = constantize(locals['renderer']) if locals['renderer']
-
-      get path_for(template, locals) do
-        timestamps = (TIMESTAMPED_FILES + [file]).map {|f| File.mtime(f)}
+        timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
         last_modified timestamps.max
 
-        engine = engines[ext]
-
-        # Don't move options outside the `get` block. It will get
-        # clobbered after the 1st request (!?)
         options = {
           layout_engine: :slim,
-          layout: "_includes/#{layout}".to_sym
+          layout: "_includes/#{page.layout}".to_sym
         }
-        if engine == :markdown
+        if page.engine == :markdown
           # This causes a warning in Slim, but I can't see a way around it
-          options[:renderer] = renderer
+          options[:renderer] = page.renderer
           options[:fenced_code_blocks] = true
         end
-        self.send(engine, template_proc, options, locals)
+        self.send(page.engine, page.template_proc, options, page.locals)
       end
     end
 
     before do
       cache_control :public
+    end
+
+    before /(.*)\.html/ do
+      url = params[:captures][0]
+      redirect to(url), 301
     end
 
     helpers do

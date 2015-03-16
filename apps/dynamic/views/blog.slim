@@ -1,0 +1,15 @@
+---
+title: Blog
+nav: 'blog'
+---
+
+.container
+  .row
+    .col-lg-12
+      h1 The Cucumber Blog
+      ul
+        - site['posts'].each do |post|
+          li
+            = post.date.strftime("%d %b %Y")
+            '  »
+            a< href=post.path = post.title

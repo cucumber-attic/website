@@ -1,26 +1,5 @@
 module Dynamic
   module Utils
-    def front_matter(file)
-      if has_yaml_header?(file)
-        YAML.load_file(file)
-      else
-        {}
-      end
-    end
-
-    def has_yaml_header?(file)
-      !!(File.open(file, 'rb') { |f| f.read(5) } =~ /\A---\r?\n/)
-    end
-
-    # Lifted from Jekyll::Document
-    YAML_FRONT_MATTER_REGEXP = /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
-
-    def content_after_yaml_header(file)
-      content = File.read(file)
-      # $' is what follows the match - AKA $POSTMATCH
-      content =~ YAML_FRONT_MATTER_REGEXP ? $' : content
-    end
-
     # Lifted from
     # http://gemjack.com/gems/tartan-0.1.1/classes/Hash.html
     #

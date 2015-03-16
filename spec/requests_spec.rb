@@ -35,7 +35,7 @@ describe "integration testing" do
 
   describe "blog" do
     it "renders blog pages just like any other page" do
-      get '/blog/2015/01/31/cucumber-ruby-rc-3-released-tmp'
+      get '/blog/2015/01/31/cucumber-ruby-rc-3-released'
       expect(last_response).to be_ok
     end
   end
@@ -44,7 +44,7 @@ describe "integration testing" do
     it "exists" do
       get "/feed.xml"
       expect(last_response).to be_ok
-      expect(last_response.headers['Content-Type']).to eq 'application/xml'
+      expect(last_response.headers['Content-Type']).to eq 'application/rss+xml'
     end
 
     it "has 10 entries" do
@@ -55,9 +55,12 @@ describe "integration testing" do
   end
 
   context "when the request has an .html extension" do
-    it "works" do
+    it "redirects to resource without .html extension" do
       get "/school.html"
+      expect(last_response.status).to eq(301)
+      follow_redirect!
       expect(last_response).to be_ok
+      expect(last_request.path).to eq('/school')
     end
   end
 

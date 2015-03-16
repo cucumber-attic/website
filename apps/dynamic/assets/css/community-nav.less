@@ -2,69 +2,69 @@
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
-  background: #00A818;
+  background: @green;
   font-weight: normal;
-}
 
-.community-nav * {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-.community-nav nav {
-  width: 1170px;
-  margin: 0 auto;
-}
+  nav {
+    width: 1170px;
+    margin: 0 auto;
+  }
 
-.community-nav a {
-  color: #fff;
-  font-weight: normal;
-  display: inline-block;
-  padding: 15px;
-  vertical-align: top;
-}
+  a {
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: top;
+  }
 
-.community-nav a.active, .community-nav a:hover {
-  background: #fff;
-  color: #00A818;
-}
+  a.mark {
+    padding: 15px 25px;
+    background: url('/images/cucumber-mark-white.svg') center center no-repeat;
+    width: 27px;
+    height: 55px;
+  }
 
-.community-nav a.mark {
-  padding: 15px 25px;
-  background: url('/images/cucumber-mark-white.svg') center center no-repeat;
-  width: 27px;
-  height: 55px;
+  a.active, a:hover {
+    background: #fff;
+    color: @green;
+  }
 }
 
 .community-nav.blog {
-  background: #65696B;
-}
-
-.community-nav.blog a.active, .community-nav.blog a:hover {
-  color: #65696B;
-}
-
-.community-nav.school, .community-nav.school-thank-you {
-  background: #FF7F00;
+  background: @gray;
 
   a.active, a:hover {
-    color: #FF7F00;
+    color: @gray;
+  }
+}
+
+.community-nav.school {
+  background: @orange;
+
+  a.active, a:hover {
+    color: @orange;
   }
 }
 
 .community-nav.training {
-  background: #004FFF;
-}
+  background: @blue;
 
-.community-nav.training a.active, .community-nav.training a:hover {
-  color: #004FFF;
+  a.active, a:hover {
+    color: @blue;
+  }
 }
 
 .community-nav.support {
-  background: #3D24AF;
-}
+  background: @purple;
 
-.community-nav.support a.active, .community-nav.support a:hover {
-  color: #3D24AF;
+  a.active, a:hover {
+    color: @purple;
+  }
 }
 
 @media (min-width: 768px) {
