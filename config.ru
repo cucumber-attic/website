@@ -16,5 +16,4 @@ use LegacyCukesInfo::App
 use CucumberEclipse::App
 use Dynamic::App
 use Docs::App
-use Modern::App
 run Modern::NotFound
