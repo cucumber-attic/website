@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title:  "BDD training in Berlin"
 date:   2014-09-02 00:00:00
-categories: blog
+nav: blog
 ---
 
 <img src="{{ site.url }}/images/blog/berlin-2014.png" style="float:right; width:50%">

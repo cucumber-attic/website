@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Visualise your Product Backlog with The Story Readiness Board"
 date:   2014-03-23 12:00:00
-categories: blog
+nav: blog
 ---
 
 There are lots of names for the conversations we have to prepare user stories for development. Some people hold _Three Amigos_ or _Specification Workshops_, some hold _Planning Poker_ or _Backlog Grooming_ sessions. Whatever you call this work, essentially you're trying to answer two questions:

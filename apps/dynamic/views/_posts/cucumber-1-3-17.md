@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber Ruby 1.3.17 Released"
 date:   2014-09-13 00:00:00
-categories: blog
+nav: blog
 ---
 I've just released Cucumber 1.3.17. This releases a couple of changes to the formatters that Bjorn Rasmusson has been working on to allow embedding of images in JSON and HTML reports, as well as proper support for Scenario Outlines in the JSON formatter. If you're using the excellent free [cucumber-reporting](http://www.masterthought.net/section/cucumber-reporting) tools you'll appreciate this.
 

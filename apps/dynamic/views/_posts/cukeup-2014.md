@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "CukeUp! London, 3-4 April 2014"
 date:   2014-01-28 12:00:00
-categories: blog
+nav: blog
 ---
 
 Cucumber has had its own conference since 2010. This year, based on your feedback, we've expanded CukeUp to two days packed with talks and workshops.

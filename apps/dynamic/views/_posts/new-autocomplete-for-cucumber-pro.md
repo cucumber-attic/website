@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title:  "Brand new Autocomplete for Cucumber Pro"
 date:   2014-09-05 00:00:00
-categories: blog
+nav: blog
 ---
 Cucumber Pro has had autocompletion for a while now. Several of our users have told us that it's a useful feature, but that it [required too much setup](https://cucumber.pro/blog/2014/01/25/a-sneak-peek-at-cucumber-pro.html) and wasn't very accurate.
 

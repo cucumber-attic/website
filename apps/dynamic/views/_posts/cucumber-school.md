@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber School"
 date:   2014-11-18 12:00:00
-categories: blog
+nav: blog
 ---
 
 <a href="/school.html"><img src="{{ site.url }}/images/cukeup-2014/CukeUp-7903.jpg" style="float:right; padding: 10px;"></a>

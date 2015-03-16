@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title: "How Cucumber Pro Works"
 date:   2014-04-15 12:00:00
-categories: blog
+nav: blog
 ---
 
 Cucumber Pro is accessed via a regular browser or tablet. When you log in you will be presented with a list of your projects. If you don't have any projects you can add one by specifying the URL to a source control repository on GitHub, Bitbucket or Subversion.

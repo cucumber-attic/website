@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Divergent and Convergent thinking in BDD"
 date:   2014-10-21 10:32:59
-categories: blog
+nav: blog
 ---
 
 <img src="{{ site.url }}/images/blog/divergent-convergent-thinking.png" style="float:right; width:50%">

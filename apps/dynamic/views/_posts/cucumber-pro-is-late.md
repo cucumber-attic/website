@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber Pro is late"
 date:   2014-04-22 10:30:00
-categories: blog
+nav: blog
 ---
 
 When we launched our founder plans in November 2013 we said our goal was a

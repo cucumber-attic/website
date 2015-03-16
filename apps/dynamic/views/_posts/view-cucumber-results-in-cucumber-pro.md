@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title:  "View Cucumber Results in Cucumber Pro"
 date:   2014-05-23 01:00:00
-categories: blog
+nav: blog
 ---
 
 We're very excited to announce a higly anticipated feature to all of our beta testers.

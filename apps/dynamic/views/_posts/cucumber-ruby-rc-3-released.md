@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber 2.0 RC 1 Released"
 date:   2015-01-31 00:00:00
-categories: blog
+nav: blog
 ---
 
 On Friday [Tooky](http://tooky.co.uk/) and I pushed the first released candidate for Cucumber 2.0 to RubyGems. Containing a big batch of fixes that have been

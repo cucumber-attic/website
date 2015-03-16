@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title: "Cucumber Limited: Our Business Plan"
 date:   2014-04-16 12:00:00
-categories: blog
+nav: blog
 ---
 
 At CukeUp London the 3rd of April I gave a presentation of Cucumber Ltd - the company Matt, Julien and I have started. You can see the presentation [here](https://skillsmatter.com/skillscasts/4420-aslak-hellesoy-4420). This post explains why we started the company, and how it will benefit you.

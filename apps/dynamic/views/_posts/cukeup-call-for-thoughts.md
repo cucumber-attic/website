@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "CukeUp! 2015 call for thoughts"
 date:   2014-11-13 12:00:00
-categories: blog
+nav: blog
 ---
 
 <img src="{{ site.url }}/images/cukeup-2014/CukeUp-7672.jpg" style="float:right; width:50%">

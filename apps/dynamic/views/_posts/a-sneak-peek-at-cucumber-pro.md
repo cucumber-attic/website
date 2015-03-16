@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title:  "A sneak peek at Cucumber Pro"
 date:   2014-01-25 10:32:59
-categories: blog
+nav: blog
 ---
 
 Cucumber Pro opened the door ajar for a select few [founder customers]({{ site.url }}/plans) a little over a month ago. Let's take a look at what we have so far:

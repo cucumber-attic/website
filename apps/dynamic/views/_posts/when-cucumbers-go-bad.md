@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  When Cucumbers Go Bad
 date:   2014-09-10 12:00:00
-categories: blog
+nav: blog
 ---
 
 Cucumber is a simple tool. It takes phrases written in plain language, finds snippets of code that match those phrases, runs them, and tells you whether they threw an error.

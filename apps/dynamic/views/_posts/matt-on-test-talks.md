@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Matt Wynne interviewed by TestTalks"
 date:   2015-01-13 12:00:00
-categories: blog
+nav: blog
 ---
 
 <img src="/images/blog/matt-testtalks-interview.jpg" style="float:right; padding: 10px; width:500px">

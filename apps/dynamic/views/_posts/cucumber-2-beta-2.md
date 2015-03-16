@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber Ruby 2.0.0.beta.2 Released"
 date:   2014-08-29 00:00:00
-categories: blog
+nav: blog
 ---
 I've just released a second beta for Cucumber 2.0. This fixes some bugs with the first beta which affected any project using Capybara, plus a couple of other issues.
 

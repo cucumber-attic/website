@@ -3,7 +3,7 @@ layout: post
 author: aslak
 title:  "The world's most misunderstood collaboration tool"
 date:   2014-03-03 12:00:00
-categories: blog
+nav: blog
 ---
 
 Cucumber reached a million downloads in the first three years and 5 million downloads 3 years later.

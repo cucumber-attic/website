@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "London OSS hack night 30th June"
 date:   2014-06-23 00:00:00
-categories: blog
+nav: blog
 ---
 <img src="/images/matt-julien-hacking.jpg" style="float:right; width:50%">
 

@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "Cucumber Ruby 2.0.0.beta.3 Released"
 date:   2014-09-14 00:00:00
-categories: blog
+nav: blog
 ---
 I've just released the third beta for Cucumber 2.0. The most significant regressions fixed are:
 

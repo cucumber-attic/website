@@ -7,10 +7,9 @@ require_relative 'utils'
 module Dynamic
   class Page
     ENGINES = {
-      '.md'     => :markdown,
-      '.slim'   => :slim,
-      '.html'   => :liquid,
-      '.xml'    => :liquid
+      '.md'   => :markdown,
+      '.slim' => :slim,
+      '.xml'  => :liquid
     }
 
     class << self
@@ -50,18 +49,22 @@ module Dynamic
       end
     end
 
-    def renderer
-      constantize(@locals['renderer']) if @locals['renderer']
-    end
-
-    def template_proc
-      Proc.new do |template|
-        content_after_yaml_header
+    def render(sinatra)
+      options = {
+        layout_engine: :slim,
+        layout: "_includes/#{layout}".to_sym
+      }
+      if engine == :markdown
+        # This causes a warning in Slim, but I can't see a way around it
+        options[:renderer] = renderer
+        options[:fenced_code_blocks] = true
       end
-    end
 
-    def layout
-      @locals['layout'] || 'layout'
+      template_proc = Proc.new do |template|
+        content
+      end
+
+      sinatra.send(engine, template_proc, options, locals)
     end
 
     # Called when generating feed.xml
@@ -92,9 +95,9 @@ module Dynamic
     end
 
     def content
-      redcarpet = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new, fenced_code_blocks: true)
-      liquid_processed_markdown = Liquid::Template.parse(source).render(@config)
-      redcarpet.render(liquid_processed_markdown)
+      Liquid::Template.parse(source).render(locals)
+      # redcarpet = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new, fenced_code_blocks: true)
+      # redcarpet.render(liquid_processed_markdown)
     end
 
     def timestamp
@@ -143,5 +146,14 @@ module Dynamic
     def source
       @source ||= content_after_yaml_header
     end
+
+    def renderer
+      constantize(locals['renderer']) if locals['renderer']
+    end
+
+    def layout
+      locals['layout'] || 'layout'
+    end
+
   end
 end

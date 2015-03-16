@@ -3,7 +3,7 @@ layout: post
 author: matt
 title:  "CukeUp! New York is Back"
 date:   2014-06-23 00:00:00
-categories: blog
+nav: blog
 ---
 
 <img src="/images/cukeup-london-2014-collaboration.jpg" style="float:right; width:50%">

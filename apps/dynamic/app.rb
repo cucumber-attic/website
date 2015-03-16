@@ -60,16 +60,7 @@ module Dynamic
         timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
         last_modified timestamps.max
 
-        options = {
-          layout_engine: :slim,
-          layout: "_includes/#{page.layout}".to_sym
-        }
-        if page.engine == :markdown
-          # This causes a warning in Slim, but I can't see a way around it
-          options[:renderer] = page.renderer
-          options[:fenced_code_blocks] = true
-        end
-        self.send(page.engine, page.template_proc, options, page.locals)
+        page.render(self)
       end
     end
 
