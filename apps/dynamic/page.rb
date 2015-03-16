@@ -9,7 +9,7 @@ module Dynamic
     ENGINES = {
       '.md'   => :markdown,
       '.slim' => :slim,
-      '.xml'  => :liquid
+      '.xml'  => :erb
     }
 
     class << self
@@ -49,10 +49,10 @@ module Dynamic
       end
     end
 
-    def render(sinatra)
+    def render(sinatra, layout=layout, encode=false)
       options = {
         layout_engine: :slim,
-        layout: "_includes/#{layout}".to_sym
+        layout: layout ? "_includes/#{layout}".to_sym : nil
       }
       if engine == :markdown
         # This causes a warning in Slim, but I can't see a way around it
@@ -65,17 +65,6 @@ module Dynamic
       end
 
       sinatra.send(engine, template_proc, options, locals)
-    end
-
-    # Called when generating feed.xml
-    def to_liquid
-      {
-        'title'   => title,
-        'author'  => author,
-        'content' => HTMLEntities.new.encode(content),
-        'url'     => url,
-        'date'    => date
-      }
     end
 
     def title

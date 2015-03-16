@@ -7,6 +7,7 @@ require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'less'
 require_relative 'page'
+require_relative 'config'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 
@@ -41,9 +42,8 @@ module Dynamic
       serve '/images', from: 'assets/images'
     }
 
-    CONFIG = {
-      'site' => YAML.load_file(File.join(root, "_config.#{ENV['RACK_ENV']}.yml"))
-    }
+    extend Config
+    CONFIG = load_config(ENV['RACK_ENV'])
 
     pages = Page.all(CONFIG, views)
 
@@ -58,7 +58,7 @@ module Dynamic
         headers.merge!(page.headers)
 
         timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
-        last_modified timestamps.max
+        last_modified timestamps.max if ENV['RACK_ENV'] == 'production'
 
         page.render(self)
       end

@@ -1,14 +1,14 @@
 require 'yaml'
 require_relative '../apps/dynamic/page'
+require_relative '../apps/dynamic/config'
 
 module Dynamic
   describe Page do
     root = File.expand_path(File.join(File.dirname(__FILE__), "/../apps/dynamic"))
     views = File.join(root, 'views')
 
-    config = {
-      'site' => YAML.load_file(File.join(root, "_config.test.yml"))
-    }
+    extend Config
+    config = load_config('test')
 
     describe "as regular page" do
       it "has an url" do
