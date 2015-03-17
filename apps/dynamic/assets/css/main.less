@@ -1,6 +1,5 @@
 @import "../../bower_components/bootstrap/less/bootstrap.less";
-@import "bootstrap-overrides.less";
-@import "brand-colors.less";
+@import "colors.less";
 @import "btn.less";
 @import "fonts.less";
 @import "text-align.less";
@@ -28,7 +27,7 @@
 .intro-header-training, .intro-header-school {
 	padding-top: 0; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 0;
-	color: @lightgray;
+	color: @brand-lightgray;
 	text-align: center;
 }
 
@@ -56,12 +55,10 @@
 .intro-message h1 {
 	margin: 0;
 	font-size: 90px;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .intro-message h2 {
 	font-size: 30px;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: @screen-sm) {
@@ -82,9 +79,6 @@
   }
 }
 
-.intro-message > h3 {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
 .content-section-a {
 	background-color: #f8f8f8;
 	padding: 50px 0;
