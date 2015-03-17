@@ -10,18 +10,34 @@
 
 // Secondary colours
 @brand-gray:          #65696B;
-@brand-lightgray:     #EFEFEF;
+@brand-gray-lighter:  #EFEFEF;
 
-@brand-lightgreen:    #39B54A;
-@brand-lightestgreen: #CEF257;
+@brand-green-light:   #39B54A;
+@brand-green-lighter: #CEF257;
 
 @brand-blue:          #004FFF;
-@brand-lightblue:     #337DFF;
+@brand-blue-light:    #337DFF;
 
-// Bootstrap Overrides
+// Bootstrap Overrides - mostly in variables.less
 
-@code-bg:     @body-bg;
-@code-color:  @brand-black;
+@gray-base:           @brand-black;
+@gray-darker:         lighten(@gray-base, 20%);
+@gray-dark:           lighten(@gray-base, 40%);
+@gray:                lighten(@gray-base, 60%);
+@gray-light:          lighten(@gray-base, 80%);
+@gray-lighter:        lighten(@gray-base, 88%);
+
+@brand-primary:       @brand-green;
+@brand-success:       @brand-green;
+@brand-info:          @brand-blue;
+@brand-warning:       @brand-orange;
+@brand-danger:        @brand-red;
+
+@code-bg:             @body-bg;
+@text-color:          @brand-black;
+@code-color:          @brand-black;
+@link-color:          @brand-blue;
+@link-hover-color:    @brand-purple;
 
 // Background Classes
 
