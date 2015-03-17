@@ -129,11 +129,11 @@ module Dynamic
     end
 
     def fm
-      @fm ||= front_matter
+      front_matter
     end
 
     def source
-      @source ||= content_after_yaml_header
+      content_after_yaml_header
     end
 
     def renderer

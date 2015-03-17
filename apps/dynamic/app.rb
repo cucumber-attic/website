@@ -59,8 +59,9 @@ module Dynamic
         headers.merge!(page.headers)
 
         timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
-        last_modified timestamps.max if ENV['RACK_ENV'] == 'production'
+        last_modified timestamps.max
 
+puts "RENDERING #{page.path}"
         page.render(self)
       end
     end
