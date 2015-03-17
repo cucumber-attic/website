@@ -51,14 +51,14 @@ you can write anything you like, as long as it isn't a keyword.
 
 ## Feature
 
-A `.feature` file is supposed to describe a single feature of the system - or a
+A `.feature` file is supposed to describe a single feature of the system, or a
 particular aspect of a feature. It's just a way to provide a high-level description
 of a software feature, and to group related scenarios.
 
-A feature has three basic elements --- the `Feature:` keyword, a *name* (on the same line)
+A feature has three basic elements---the `Feature:` keyword, a *name* (on the same line)
 and an optional (but highly recommended) *description* that can span multiple lines.
 
-Cucumber does not care about the name or the description --- the purpose is simply
+Cucumber does not care about the name or the description---the purpose is simply
 to provide a place where you can document important aspects of the feature, such
 as a brief explanation and a list of business rules (general acceptance criteria).
 
@@ -76,8 +76,8 @@ Feature: Refund item
   - Purchase must be less than 30 days ago
 ```
 
-In addition to a *name* and a *description*, features contain a list of [scenarios](#scenario)
-or [scenario outlines](#scenario-outline).
+In addition to a *name* and a *description*, features contain a list of [Scenarios](#scenario)
+or [Scenario Outlines](#scenario-outline), and an optional [Background](#background).
 
 ## Scenario
 
@@ -106,7 +106,7 @@ the keywords, but choosing the right one is important for the readability of the
 
 ### Given
 
-`Given ` steps are used to describe the initial context of the system --- the *scene* of the scenario.
+`Given ` steps are used to describe the initial context of the system---the *scene* of the scenario.
 It is typically something that happened in the *past*.
 
 When Cucumber executes a `Given ` step it will configure the system to be in a well-defined state,
@@ -172,8 +172,7 @@ If there are many examples, this becomes tedious. We can simplify it with a Scen
 
 ```gherkin
 Scenario Outline: feeding a suckler cow
-  Given the cow is <size>
-  And the cow weighs <weight> kg
+  Given the cow weighs <weight> kg
   When we calculate the feeding requirements
   Then the energy should be <energy> MJ
   And the protein should be <protein> kg  
@@ -192,7 +191,7 @@ Variables in the Scenario Outline steps are marked up with `<` and `>`.
 
 ### Examples
 
-A Scenario Outline is always followed by one or more `Examples` sections, which
+A `Scenario Outline` section is always followed by one or more `Examples` sections, which
 are a container for a table.
 
 The table must have a header row corresponding to the variables in the Scenario
@@ -213,12 +212,12 @@ difficult to pinpoint where the error is.
 
 The automation code for Scenario Outlines should communicate directly with the business
 rule implementation, going through as few layers as possible. This is fast, and
-errors become easy to fix.
+errors become easy to diagnose fix.
 
 ## Step Arguments
 
 In some cases you might want to pass a larger chunk of text or a table of data to
-a step --- something that doesn't fit on a single line.
+a step---something that doesn't fit on a single line.
 
 For this purpose Gherkin has [Doc Strings](#doc-strings) and [Data Tables](#data-tables).
 

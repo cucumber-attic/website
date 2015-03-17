@@ -54,17 +54,23 @@ module Dynamic
         layout_engine: :slim,
         layout: layout ? "_includes/#{layout}".to_sym : nil
       }
+
       if engine == :markdown
         # This causes a warning in Slim, but I can't see a way around it
         options[:renderer] = renderer
         options[:fenced_code_blocks] = true
+
+        template_proc = Proc.new do |template|
+          content
+        end
+      else
+        template_proc = Proc.new do |template|
+          content
+        end
       end
 
-      template_proc = Proc.new do |template|
-        content
-      end
-
-      sinatra.send(engine, template_proc, options, locals)
+      html = sinatra.send(engine, template_proc, options, locals)
+      html.gsub('---', '&#8212;') # em-dash
     end
 
     def title
