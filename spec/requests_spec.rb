@@ -16,7 +16,7 @@ describe "integration testing" do
     "/training",
     "/school",
     "/blog",
-    "/reference",
+    "/docs/reference",
     "/css/style.css",
     "/fonts/cucumber-glyphs.eot",
     "/bdd-kickstart.pdf",

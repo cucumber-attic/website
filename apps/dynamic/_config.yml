@@ -18,3 +18,6 @@ authors:
     display_name: Julien Biezemans
     email: julien@cucumber.pro
     gravatar: 07193608fb3c70b2a9449d6cafd6d31a
+
+versions:
+  cucumber_jvm: 1.2.2

@@ -1,6 +1,6 @@
 ---
 title: Reference
-slug: reference
+nav: docs
 renderer: Dynamic::Reference
 ---
 # Gherkin

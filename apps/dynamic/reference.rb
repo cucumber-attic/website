@@ -11,7 +11,11 @@ module Dynamic
     end
 
     def block_code(code, language)
-      Pygments.highlight(code, lexer: language)
+      if language
+        Pygments.highlight(code, lexer: language)
+      else
+        %Q{<div class="highlight shell"><pre>#{code}</pre></div>}
+      end
     end
 
     def header(text, header_level)
