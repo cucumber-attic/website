@@ -9,7 +9,7 @@ Cucumber Pro has had autocompletion for a while now. Several of our users have t
 
 So we redesigned it from scratch. Now there is *no* setup whatsoever[1]. The suggestions you get when you type are much better than before.
 
-<iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/otyzmtbfqt?canonicalUrl=https%3A%2F%2Fcucumber.wistia.com%2Fmedias%2Fotyzmtbfqt&canonicalTitle=autocomplete%20redesigned%20-%20cucumber" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="318"></iframe>
+<iframe class="wistia_embed" name="wistia_embed" src="//fast.wistia.net/embed/iframe/otyzmtbfqt?canonicalUrl=https%3A%2F%2Fcucumber.wistia.com%2Fmedias%2Fotyzmtbfqt&canonicalTitle=autocomplete%20redesigned%20-%20cucumber" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="318"></iframe>
 
 Just open a Feature file in Cucumber Pro, start typing a step and see the autocomplete show up with suggestions automatically. Use UP/DOWN keys to navigate, press ENTER/RETURN to choose a step or press ESC to dismiss the autocomplete.
 
