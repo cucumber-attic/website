@@ -45,7 +45,7 @@ Each Cucumber implementation has different installation instructions.
   </tr>
   <tr>
     <td><img src="/images/platforms/js.png"></td>
-    <td><a href="/docs/reference/jvm#javascript">JavaScript (using Cucumber-JVM and Rhino)</a></td>
+    <td><a href="/docs/reference/jvm#rhino-javascript">JavaScript (using Cucumber-JVM and Rhino)</a></td>
   </tr>
   <tr>
     <td><img src="/images/platforms/clojure.png"></td>
@@ -96,7 +96,7 @@ Each Cucumber implementation has different installation instructions.
   </tr>
   <tr>
     <td><img src="/images/platforms/spring.png"></td>
-    <td><a href="/docs/reference/rails">Spring Framework</a></td>
+    <td><a href="/docs/reference/spring">Spring Framework</a></td>
   </tr>
   <tr>
     <td><img src="/images/platforms/watir.png"></td>

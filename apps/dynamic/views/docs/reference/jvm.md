@@ -116,6 +116,17 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
+# Rhino JavaScript
+
+```xml
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-rhino</artifactId>
+    <version>{{ site.versions.cucumber_jvm }}</version>
+    <scope>test</scope>
+</dependency>
+```
+
 # Gosu
 
 ```xml
