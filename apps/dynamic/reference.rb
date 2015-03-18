@@ -77,11 +77,13 @@ HTML
 HTML
     end
 
+    # Creates a nested ul/li nav for h2,h3,h4,h5 elements. The h1 at the top of the
+    # doc is not part of the nav.
     def create_nav_body_with_links_to_anchors(html)
       tree = NestedList.new
       html.split(/\n/).each do |line|
-        if line =~ /<h(\d) id="([^"]+)" class="header">([^<]+)<\/h\d>/
-          level = $1.to_i - 1
+        if line =~ /<h([2-5]) id="([^"]+)" class="header">([^<]+)<\/h\d>/
+          level = $1.to_i - 2
           item = {href: "##{$2}", text: $3}
           tree.add(level, item)
         end

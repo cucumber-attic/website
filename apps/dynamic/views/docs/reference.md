@@ -3,7 +3,12 @@ title: Reference
 nav: docs
 renderer: Dynamic::Reference
 ---
-# Gherkin
+
+# Reference
+
+This is the general reference for Cucumber.
+
+## Gherkin
 
 Cucumber executes your `.feature` files, and those files contain executable specifications
 written in a language called Gherkin.
@@ -42,14 +47,7 @@ There are a few extra keywords as well:
 * `@` (Tags)
 * `#` (Comments)
 
-## Descriptions
-
-Some parts of Gherkin documents do not have to start with a keywords.
-
-On the lines following a `Feature`, `Scenario`, `Scenario Outline` or `Examples`
-you can write anything you like, as long as it isn't a keyword.
-
-## Feature
+### Feature
 
 A `.feature` file is supposed to describe a single feature of the system, or a
 particular aspect of a feature. It's just a way to provide a high-level description
@@ -79,7 +77,14 @@ Feature: Refund item
 In addition to a *name* and a *description*, features contain a list of [Scenarios](#scenario)
 or [Scenario Outlines](#scenario-outline), and an optional [Background](#background).
 
-## Scenario
+### Descriptions
+
+Some parts of Gherkin documents do not have to start with a keywords.
+
+On the lines following a `Feature`, `Scenario`, `Scenario Outline` or `Examples`
+you can write anything you like, as long as it isn't a keyword.
+
+### Scenario
 
 A scenario is a *concrete example* that *illustrates* a business rule. It consists of
 a list of [steps](#steps).
@@ -98,13 +103,13 @@ Scenarios follow the same pattern:
 
 This is done with steps.
 
-## Steps
+### Steps
 
 A step typically starts with `Given `, `When ` or `Then `. If there are multiple `Given ` or `When `
 steps underneath each other, you can use `And ` or `But `. Cucumber does not differentiate between
 the keywords, but choosing the right one is important for the readability of the scenario as a whole.
 
-### Given
+#### Given
 
 `Given ` steps are used to describe the initial context of the system---the *scene* of the scenario.
 It is typically something that happened in the *past*.
@@ -114,7 +119,7 @@ such as creating and configuring objects or adding data to the test database.
 
 It's ok to have several `Given ` steps (just use `And ` or `But ` for number 2 and upwards to make it more readable).
 
-### When
+#### When
 
 `When ` steps are used to describe an event, or an *action*. This can be a person interacting with the
 system, or it can be an event triggered by another system.
@@ -122,7 +127,7 @@ system, or it can be an event triggered by another system.
 It's strongly recommended you only have a single `When ` step per scenario. If you feel compelled to add more
 it's usually a sign that you should split the scenario up in multiple scenarios.
 
-### Then
+#### Then
 
 `Then ` steps are used to describe an *expected* outcome, or result.
 
@@ -130,7 +135,7 @@ The [step definition](#step-definitons) of a `When ` step should use an *asserti
 compare the *actual* outcome (what the system actually does) to the *expected* outcome
 (what the step says the system is supposed to do).
 
-## Background
+### Background
 
 Occasionally you'll find yourself repeating the same `Given ` steps in all of the scenarios
 in a feature file. Since it is repeated in every scenario it is an indication that those steps
@@ -145,7 +150,7 @@ Background:
   And today is 2015-11-18
 ```
 
-## Scenario Outline
+### Scenario Outline
 
 When you have a complex business rule with severable variable inputs or outputs
 you might end up creating several scenarios that only differ by their values.
@@ -189,7 +194,7 @@ This is much easier to read.
 
 Variables in the Scenario Outline steps are marked up with `<` and `>`.
 
-### Examples
+#### Examples
 
 A `Scenario Outline` section is always followed by one or more `Examples` sections, which
 are a container for a table.
@@ -199,7 +204,7 @@ Outline steps.
 
 Each of the rows below will create a new Scenario, filling in the variable values.
 
-### Scenario Outlines and UI
+#### Scenario Outlines and UI
 
 Automating Scenario Outlines using UI automation such as Selenium WebDriver is
 considered a bad practice.
@@ -214,14 +219,14 @@ The automation code for Scenario Outlines should communicate directly with the b
 rule implementation, going through as few layers as possible. This is fast, and
 errors become easy to diagnose fix.
 
-## Step Arguments
+### Step Arguments
 
 In some cases you might want to pass a larger chunk of text or a table of data to
 a step---something that doesn't fit on a single line.
 
 For this purpose Gherkin has [Doc Strings](#doc-strings) and [Data Tables](#data-tables).
 
-### Doc Strings
+#### Doc Strings
 
 Doc Strings are handy for specifying a larger piece of text. This is inspired from
 Python's [Docstring](http://www.python.org/dev/peps/pep-0257/) syntax.
@@ -249,7 +254,7 @@ however, _is_ significant. Each line of the Doc String will be de-indented accor
 to the opening `"""`. Indentation beyond the column of the opening `"""` will
 therefore be preserved.
 
-## Data Tables
+### Data Tables
 
 Data Tables are handy for specifying a larger piece of data:
 
@@ -267,7 +272,7 @@ Just like [Doc Strings](#doc-strings), Data Tables will be passed to the
 The type of this argument will be `DataTable`. See the API docs for more details
 about how to access the rows and cells.
 
-## Tags
+### Tags
 
 Tags is a way to group Scenarios. You can place as many tags above `Feature`,
 `Scenario`, `Scenario Outline` or `Examples` keywords.
@@ -288,7 +293,7 @@ on what tags are present on a scenario.
 
 See [tagged hooks](#tagged-hooks) for more details.
 
-## Comments
+### Comments
 
 Gherkin provides lots of places to document your features and scenarios.
 The preferred place is [descriptions](#descriptions). Choosing good names
@@ -297,13 +302,10 @@ is also useful.
 If none of these places suit you, you can start a line with a `#` to tell Cucumber
 that the remainder of the line is a comment, and shouldn't be executed.
 
-# Cucumber API
-
-Cucumber doesn't know how to execute your scenarios. It needs [step-definitions](#step-definitions)
-to execute Gherkin steps, and optionally [hooks](#hooks) to start and stop the system
-before and after each scenario.
-
 ## Step Definitions
+
+Cucumber doesn't know how to execute your scenarios out-of-the-box. It needs _Step Definitions_
+to translate plain text Gherkin steps into actions that will interact with the system.
 
 When Cucumber executes a [Step](#steps) in a [Scenario](/#scenario) it will look for a matching _Step Definition_ to execute.
 

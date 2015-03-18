@@ -1,15 +1,15 @@
-# First H1
+# First H1 (not part of nav)
 
 Hello
 
-## First H2
+## First H2 (part of nav)
 
 World
 
-## First H3
+### First H3
 
 World
 
-# Second H1
+## Second H2
 
 Hello
