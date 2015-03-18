@@ -8,6 +8,11 @@ renderer: Dynamic::Reference
 
 Cucumber-JVM is a Cucumber implementation for the most popular JVM languages.
 
+This document is the reference for features that are specific to Cucumber-JVM.
+
+Please see the [general reference](/docs/reference) for features that are
+common to all Cucumber implementations.
+
 ## Installation
 
 There is no setup program for Cucumber-JVM - just a few jar files to download.
