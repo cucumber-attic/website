@@ -1,5 +1,5 @@
 ---
-title: JavaScript
+title: C++
 nav: docs
 renderer: Dynamic::Reference
 ---
