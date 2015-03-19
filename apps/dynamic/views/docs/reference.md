@@ -645,8 +645,8 @@ public void do_the_deed() {
 
 ## Browser Automation
 
-See [state](/docs/reference/browser-automation).
+See [Browser Automation](/docs/reference/browser-automation).
 
 ## Databases and State
 
-See [state](/docs/reference/state).
+See [State](/docs/reference/state).
