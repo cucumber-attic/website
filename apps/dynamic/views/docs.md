@@ -95,8 +95,12 @@ Each Cucumber implementation has different installation instructions.
     <td><a href="/docs/reference/selenium">Selenium</a></td>
   </tr>
   <tr>
+    <td><img src="/images/platforms/pico.png"></td>
+    <td><a href="/docs/reference/java-di#picocontainer">PicoContainer</a></td>
+  </tr>
+  <tr>
     <td><img src="/images/platforms/spring.png"></td>
-    <td><a href="/docs/reference/spring">Spring Framework</a></td>
+    <td><a href="/docs/reference/java-di#spring">Spring Framework</a></td>
   </tr>
   <tr>
     <td><img src="/images/platforms/watir.png"></td>

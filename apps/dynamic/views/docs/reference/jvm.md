@@ -15,9 +15,20 @@ common to all Cucumber implementations.
 
 ## Installation
 
-There is no setup program for Cucumber-JVM - just a few jar files to download.
-All jar files are available in the Central Maven repository. The
-language-specific sections below describe what jars you need.
+Cucumber-JVM consists of several modules (jars) that you can download from the [public maven repo](http://repo1.maven.org/maven2/info/cukes/).
+There is no "setup" program for Cucumber-JVM---just jar files.
+
+If you like living dangerously you can also get `SNAPSHOT` builds from the [sonatype snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/info/cukes/).
+
+```xml
+<repository>
+  <id>sonatype-snapshots</id>
+  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+```
 
 ## Running
 
@@ -64,9 +75,11 @@ java cucumber.api.cli.Main --help
 IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE:
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/help/cucumber.html)
-* [CucumEclipse](https://github.com/cucumber/cucumber-eclipse)
+* [Cucumber-Eclipse](https://github.com/cucumber/cucumber-eclipse)
 
-# Java
+## Java
+
+### {java-}Dependency
 
 ```xml
 <dependency>
@@ -77,7 +90,94 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Groovy
+Or, if you want to use Java 8 lambdas:
+
+```xml
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>{{ site.versions.cucumber_jvm }}</version>
+    <scope>test</scope>
+</dependency>
+```
+
+### Step Definitions
+
+Java Step Definitions are defined in a regular class. It doesn't need to extend
+or implement anything. There is a Java 8 lambda API and a Java 6/7 method API:
+styles:
+
+#### Java 8 lambdas
+
+```java
+package foo;
+
+import cucumber.api.java8.En;
+
+public class MyStepdefs implements En {
+    public MyStepdefs() {
+        Given("I have (\\d+) cukes in my belly", (Integer cukes) -> {
+            System.out.format("Cukes: %n\n", cukes);
+        });
+    }
+}
+```
+
+#### Java 6/7 methods
+
+```java
+package foo;
+
+public class MyStepdefs {
+    @Given("I have (\\d+) cukes in my belly")
+    public void I_have_cukes_in_my_belly(int cukes) {
+        System.out.format("Cukes: %n\n", cukes);
+    }
+}
+```
+
+#### One-dimensional lists
+
+The simplest way to pass a `List<String>` to a step definition is to use commas:
+
+```gherkin
+Given the following animals: cow, horse, sheep
+```
+
+Simply declare the argument as a `List<String>`:
+
+```java
+@Given("the following animals: (.*)")
+public void the_following_animals(List<String> animals) {
+}
+```
+
+See the [@Delimiter](#) annotation for details about how to define a delimiter different than `,`.
+
+If you prefer to use a [Data Table](/docs/reference#data-table) to define a list you can do that too:
+
+```gherkin
+Given the following animals:
+  | cow   |
+  | horse |
+  | sheep |
+```
+
+Simply declare the argument as a `List<String>` (but do not define a capture group in the pattern):
+
+```java
+@Given("the following animals:")
+public void the_following_animals(List<String> animals) {
+}
+```
+
+In this case, the `DataTable` is automatically flattened to a `List<String>`
+by Cucumber (using `DataTable.asList(String.class)`) before invoking the step
+definition.
+
+## Groovy
+
+### {groovy-}Dependency
 
 ```xml
 <dependency>
@@ -88,7 +188,9 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Scala
+## Scala
+
+### {scala-}Dependency
 
 ```xml
 <dependency>
@@ -99,7 +201,9 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Clojure
+## Clojure
+
+### {clojure-}Dependency
 
 ```xml
 <dependency>
@@ -110,7 +214,9 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Jython
+## Jython
+
+### {jython-}Dependency
 
 ```xml
 <dependency>
@@ -121,7 +227,22 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Rhino JavaScript
+## JRuby
+
+### {jruby-}Dependency
+
+```xml
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-jruby</artifactId>
+    <version>{{ site.versions.cucumber_jvm }}</version>
+    <scope>test</scope>
+</dependency>
+```
+
+## Rhino JavaScript
+
+### {rhino-}Dependency
 
 ```xml
 <dependency>
@@ -132,7 +253,9 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 </dependency>
 ```
 
-# Gosu
+## Gosu
+
+### {gosu-}Dependency
 
 ```xml
 <dependency>

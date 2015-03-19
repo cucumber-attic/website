@@ -18,8 +18,27 @@ module Dynamic
       end
     end
 
+    # If the same header text exists in multiple places in the document,
+    # a unique anchor prefix can be specified:
+    #
+    #    ## {something-unique}The text
     def header(text, header_level)
-      %Q{<h#{header_level} id="#{anchorify(text)}" class="header">#{text}</h#{header_level}>}
+      prefix = ""
+      if text =~ /^\{([^\{]+)\}(.*)/
+        prefix = $1
+        text = $2
+      end
+      anchor = "#{prefix}#{anchorify(text)}"
+
+      ensure_unique(anchor)
+
+      %Q{<h#{header_level} id="#{anchor}" class="header">#{text}</h#{header_level}>\n}
+    end
+
+    def ensure_unique(anchor)
+      @used_anchors ||= []
+      raise "Duplicate anchor: '#{anchor}'. Prefix Markdown header title with {something-unique}" if @used_anchors.index(anchor)
+      @used_anchors << anchor
     end
 
     def postprocess(html)
@@ -82,7 +101,7 @@ HTML
     def create_nav_body_with_links_to_anchors(html)
       tree = NestedList.new
       html.split(/\n/).each do |line|
-        if line =~ /<h([2-5]) id="([^"]+)" class="header">([^<]+)<\/h\d>/
+        if line =~ /<h([2-5]) id="([^"]+)" class="header">([^<]+)<\/h[2-5]>/
           level = $1.to_i - 2
           item = {href: "##{$2}", text: $3}
           tree.add(level, item)
