@@ -12,7 +12,6 @@ if ENV['ROLLBAR_ACCESS_TOKEN']
 end
 
 use Api::App
-use LegacyCukesInfo::App
 use CucumberEclipse::App
 use Dynamic::App
 run Modern::NotFound
