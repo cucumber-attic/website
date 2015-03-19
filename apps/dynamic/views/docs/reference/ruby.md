@@ -6,7 +6,7 @@ renderer: Dynamic::Reference
 
 # Ruby/JRuby
 
-Note: If you are using [Ruby on Rails](http://rubyonrails.org/), see [Install Cucumber-Rails](/install-cucumber-rails.html).
+Note: If you are using Ruby on Rails, see the [Cucumber-Rails](/docs/reference/rails) reference.
 
 ## Installation
 
