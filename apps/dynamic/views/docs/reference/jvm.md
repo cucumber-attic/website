@@ -79,7 +79,7 @@ To use the JUnit runner you need to add the following dependencies:
 ### CLI Runner
 
 The Command-Line Interface Runner (CLI Runner) is an executable Java class that
-can be run from the command-line, or from any build tool such as Gradle or Ant. 
+can be run from the command-line, or from any build tool such as Gradle or Ant.
 
 ```
 java cucumber.api.cli.Main
@@ -106,13 +106,14 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 ```xml
 <dependency>
     <groupId>info.cukes</groupId>
-    <artifactId>cucumber-java</artifactId>
+    <artifactId>cucumber-java8</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-Or, if you want to use Java 8 lambdas:
+Or, if you are on Java 6 or Java 7 or (or on Java 8 but prefer to use annotated methods
+for Step Definitions):
 
 ```xml
 <dependency>
@@ -136,6 +137,9 @@ styles:
 
 #### Java 8 lambdas
 
+If you're using the `cucumber-java8` module you can define [Step Definitions](/docs/reference#step-definitions)
+using lambdas:
+
 ```java
 package foo;
 
@@ -151,6 +155,8 @@ public class MyStepdefs implements En {
 ```
 
 #### Java 6/7 methods
+
+With Java 6 and 7 you can define Step Definitions as annotated methods:
 
 ```java
 package foo;

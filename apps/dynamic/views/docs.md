@@ -11,7 +11,7 @@ their own installation procedure and platform-specific functionality.
 
 ## Reference
 
-The features that are common to all Cucumner implementations are documented in
+The features that are common to all Cucumber implementations are documented in
 the [reference](/docs/reference) manual.
 
 ## Installation
