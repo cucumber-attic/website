@@ -4,16 +4,13 @@
   line-height: 1.42857143;
   background: @brand-green;
   font-weight: normal;
-
   * {
     box-sizing: border-box;
   }
-
   nav {
     width: 1170px;
     margin: 0 auto;
   }
-
   a {
     color: @body-bg;
     font-weight: normal;
@@ -21,49 +18,55 @@
     padding: 15px;
     vertical-align: top;
   }
-
-  a.mark {
-    padding: 15px 25px;
-    background: url('/images/cucumber-mark-white.svg') center center no-repeat;
-    width: 27px;
-    height: 55px;
-  }
-
   a.active, a:hover {
-    background: @body-bg;
+    background-color: @body-bg;
     color: @brand-green;
   }
-}
+  &.blog {
+    background-color: @brand-gray;
 
-.community-nav.blog {
-  background: @brand-gray;
+    a.active, a:hover {
+      color: @brand-gray;
+    }
+  }
+  &.school {
+    background-color: @brand-orange;
 
-  a.active, a:hover {
-    color: @brand-gray;
+    a.active, a:hover {
+      color: @brand-orange;
+    }
+  }
+  &.training {
+    background-color: @brand-blue;
+
+    a.active, a:hover {
+      color: @brand-blue;
+    }
+  }
+  &.support {
+    background-color: @brand-purple;
+
+    a.active, a:hover {
+      color: @brand-purple;
+    }
+  }
+  .mark {
+    padding: 15px 25px;
+    background: transparent url('/images/cucumber-mark-white.svg') center center no-repeat;
+    width: 27px;
+    height: 55px;
+    &:hover {
+      background-color: transparent;
+    }
   }
 }
 
-.community-nav.school {
-  background: @brand-orange;
-
-  a.active, a:hover {
-    color: @brand-orange;
-  }
-}
-
-.community-nav.training {
-  background: @brand-blue;
-
-  a.active, a:hover {
-    color: @brand-blue;
-  }
-}
-
-.community-nav.support {
-  background: @brand-purple;
-
-  a.active, a:hover {
-    color: @brand-purple;
+@media (max-width: 768px) {
+  .community-nav nav {
+    width: 100%;
+    .mark ~ a + a + a + a + a {
+      display: none;
+    }
   }
 }
 
