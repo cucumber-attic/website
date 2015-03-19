@@ -8,4 +8,4 @@ renderer: Dynamic::Reference
 
 Behat is the official Cucumber implementation for PHP.
 
-The official Cucumber implementation is called [Behat](http://behat.org).
+The docs are currently at [behat.org](http://behat.org).
