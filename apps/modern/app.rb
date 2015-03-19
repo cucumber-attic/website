@@ -8,7 +8,7 @@ module Modern
     path_info = env['PATH_INFO']
     Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
     content = "404 NOT FOUND"
-    [404, {'Content-Type' => 'text/html', 'Content-Length' => content.length}, [content]]
+    [404, {'Content-Type' => 'text/html', 'Content-Length' => content.length.to_s}, [content]]
   end
 
 end
