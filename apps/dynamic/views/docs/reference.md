@@ -338,6 +338,18 @@ public void I_have_cukes_in_my_belly(int cukes) {
 }
 ```
 
+```php
+<?php
+/**
+ * @Given /^I have (\d+) cukes in my belly"$/
+ */
+public function iHaveCukesInMyBelly($cukes)
+{
+    print "Cukes: {$cukes}";
+}
+?>
+```
+
 ```groovy
 Given(~'^I have (\\d+) cukes in my belly') { int cukes ->
   println "Cukes: " + cukes
@@ -532,6 +544,10 @@ public void embedScreenshot(Scenario scenario) {
 }
 ```
 
+```php
+// TODO
+```
+
 ```groovy
 // TODO
 ```
@@ -599,6 +615,10 @@ public void do_the_deed() {
     scenario.write("This goes into the report");
     System.out.println("This goes to STDOUT, but not into the report");
 }
+```
+
+```php
+// TODO
 ```
 
 ```groovy
