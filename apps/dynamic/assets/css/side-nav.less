@@ -1,6 +1,13 @@
 #side-nav {
+  border-top: 5px solid @brand-green-lighter;
+  a {
+    color: @brand-black;
+    &:hover { color: @brand-green-light; }
+    &:focus, &:active { color: @brand-green-lighter; }
+  }
   .active > a {
     font-weight: bold;
+    color: @brand-green;
   }
 
   .nav .nav > li > a {
