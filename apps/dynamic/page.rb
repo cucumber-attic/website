@@ -9,7 +9,8 @@ module Dynamic
     ENGINES = {
       '.md'   => :markdown,
       '.slim' => :slim,
-      '.xml'  => :erb
+      '.xml'  => :erb,
+      '.erb'  => :erb
     }
 
     class << self
