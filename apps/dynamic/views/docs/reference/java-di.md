@@ -16,7 +16,7 @@ state between Step Definitions.
 
 The available Dependency Injection modules are:
 
-* [PicoContainer](#picocontainer) (The recommended one if your app doesn't use another container)
+* [PicoContainer](#picocontainer) (The recommended one if your app doesn't use another DI container)
 * [Spring](#spring)
 * [Guice](#guice)
 * [OpenEJB](#openejb)
@@ -30,7 +30,7 @@ The available Dependency Injection modules are:
 ```xml
 <dependency>
     <groupId>info.cukes</groupId>
-    <artifactId>cucumber-scala</artifactId>
+    <artifactId>cucumber-picocontainer</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
 </dependency>
