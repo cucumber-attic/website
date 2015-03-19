@@ -6,9 +6,7 @@ renderer: Dynamic::Reference
 
 # Ruby on Rails
 
-Docs are currently on [GitHub].
-
-[Cucumber-Rails]((https://github.com/cucumber/cucumber-rails)) is a generator that
+[Cucumber-Rails](https://github.com/cucumber/cucumber-rails) is a generator that
 generates and modifies files in a Rails project so it can be used with Cucumber.
 
 ## Installation
