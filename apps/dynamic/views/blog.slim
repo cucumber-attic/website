@@ -5,11 +5,10 @@ nav: 'blog'
 
 .container
   .row
-    .col-lg-12
+    .col-md-10.col-md-offset-1
       h1 The Cucumber Blog
-      ul
+      ul.blog-list
         - site['posts'].each do |post|
           li
-            = post.date.strftime("%d %b %Y")
-            '  »
+            span.date= post.date.strftime("%b %d, %Y")
             a< href=post.path = post.title

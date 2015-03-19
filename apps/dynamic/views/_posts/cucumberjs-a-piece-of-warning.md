@@ -3,7 +3,7 @@ layout: post
 author: julien
 title:  "Cucumber.js - A Piece of Warning"
 date:   2015-03-17 21:27:00
-categories: blog
+nav: blog
 ---
 
 Cucumber.js is getting more and more popular. This is not only a boost to my ego, but I think it's a good thing for everyone who builds JavaScript apps.
