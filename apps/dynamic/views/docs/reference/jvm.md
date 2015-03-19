@@ -32,13 +32,14 @@ If you like living dangerously you can also get `SNAPSHOT` builds from the [sona
 
 ## Running
 
-There are three main ways to run scenarios with Cucumber-JVM:
+There are several ways to run scenarios with Cucumber-JVM:
 
-* JUnit runner
-* Main class
+* [JUnit Runner](#junit-runner)
+* [CLI Runner](#cli-runner)
+* [Android Runner](/docs/reference/android#runner)
 * Third party runners
 
-### JUnit runner
+### JUnit Runner
 
 The JUnit runner uses the JUnit framework to run Cucumber. All you need is a single
 empty class with an annotation:
@@ -57,7 +58,28 @@ public class RunCukesTest {
 You can run this test in the same way you run your other JUnit tests, using
 your IDE or your build tool (for example `mvn test`).
 
-### Main class
+To use the JUnit runner you need to add the following dependencies:
+
+```xml
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>{{ site.versions.cucumber_jvm }}</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+```
+
+### CLI Runner
+
+The Command-Line Interface Runner (CLI Runner) is an executable Java class that
+can be run from the command-line, or from any build tool such as Gradle or Ant. 
 
 ```
 java cucumber.api.cli.Main
@@ -100,6 +122,11 @@ Or, if you want to use Java 8 lambdas:
     <scope>test</scope>
 </dependency>
 ```
+
+While it's not required, we strongly recommend you include one of the
+[Dependency Injection](/docs/reference/java-di) modules as well. This allows
+you to share stare between [Step Definitions](/docs/reference#step-definitions)
+without resorting to static variables (a common source of flickering scenarios).
 
 ### Step Definitions
 

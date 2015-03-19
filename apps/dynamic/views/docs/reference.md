@@ -6,7 +6,8 @@ renderer: Dynamic::Reference
 
 # Reference
 
-This is the general reference for Cucumber.
+This is the general reference for all Cucumber implementations. Please refer to
+the [documentation overview](/docs) for links to platform-speific documentation.
 
 ## Gherkin
 
@@ -442,6 +443,210 @@ TODO
 
 TODO
 
-# Command line
+## Command line
 
 TODO
+
+## Reports
+
+Cucumber can report results in several different formats, using _formatter plugins_. The available formatters plugins are:
+
+* [Pretty](#pretty)
+* [HTML](#html)
+* [JSON](#json)
+* [Progress](#progress)
+* [Usage](#usage)
+* [JUnit](#junit)
+* [Rerun](#rerun)
+
+Note that some Cucumber implementations might not provide all of these formatter plugins,
+and some implementations might provide additional ones.
+
+### Pretty
+
+Prints the [Gherkin](/docs/reference#gherkin) source to `STDOUT` along with additional colours and stack traces for errors.
+
+### HTML
+
+Generates a HTML file, suitable for publishing.
+
+### JSON
+
+Generates a JSON file, suitable for post-processing to generate custom reports.
+
+### Progress
+
+This report prints results to STDOUT, on character at a time. It looks like this:
+
+```
+....F--U.......
+```
+
+### Usage
+
+Prints statistics to `STDOUT`. Programmers may find it useful to find slow or unused Step Definitions.
+
+### JUnit
+
+Generates XML files just like [Apache Ant](https://ant.apache.org/)’s [junitreport](https://ant.apache.org/manual/Tasks/junitreport.html) task.
+This XML format is understood by most [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) servers,
+who will use it to generate visual reports.
+
+### Rerun
+
+This report generates a file that lists the location of failed Scenarios. This can be picked up by subsequent Cucumber runs, allowing only previously failed Scenarios to be rerun. Programmers may find this useful while fixing broken scenarios, especially if running all scenarios is time-consuming.
+
+## Report attachments
+
+Programmers can embed text, images and even video into reports via an API that is available in [Step Definitions](#step-definitions)
+and [Hooks](#hooks).
+
+This can make it easier to diagnose failures. Some [reports](#reports) will ignore embedded data while others will include it.
+
+### Screenshots
+
+The recommended approach is to embed images in an [After Hook](#after) if the Scenario fails:
+
+[carousel]
+
+```ruby
+# This example assumes the use of Capybara with Selenium WebDriver
+After do |scenario|
+  if(scenario.failed?)
+    page.driver.browser.save_screenshot("html-report/#{scenario.__id__}.png")
+    embed("#{scenario.__id__}.png", "image/png", "SCREENSHOT")
+  end
+end
+```
+
+```java
+// This example assumes the use of Selenium WebDriver
+@After
+public void embedScreenshot(Scenario scenario) {
+    try {
+        byte[] screenshot = webDriver.getScreenshotAs(OutputType.BYTES);
+        scenario.embed(screenshot, "image/png");
+    } catch (WebDriverException somePlatformsDontSupportScreenshots) {
+        System.err.println(somePlatformsDontSupportScreenshots.getMessage());
+    }
+}
+```
+
+```groovy
+// TODO
+```
+
+```javascript
+// TODO
+```
+
+```clojure
+; TODO
+```
+
+```cpp
+// TODO
+```
+
+```csharp
+// TODO
+```
+
+```fsharp
+// TODO
+```
+
+```lua
+-- TODO
+```
+
+```python
+# TODO
+```
+
+```scala
+// TODO
+```
+
+```tcl
+# TODO
+```
+
+[/carousel]
+
+### Text
+
+Text can be embedded into the report from both [Step Definitions](#step-definitions)
+and [Hooks](#hooks):
+
+[carousel]
+
+```ruby
+When /I do the deed/ do
+  puts 'This goes into the report'
+  Kernel.puts 'This goes to STDOUT, but not into the report'
+end
+```
+
+```java
+@Before
+public void keepScenario(Scenario scenario) {
+    this.scenario = scenario;
+}
+
+@When("I do the deed")
+public void do_the_deed() {
+    scenario.write("This goes into the report");
+    System.out.println("This goes to STDOUT, but not into the report");
+}
+```
+
+```groovy
+// TODO
+```
+
+```javascript
+// TODO
+```
+
+```clojure
+; TODO
+```
+
+```cpp
+// TODO
+```
+
+```csharp
+// TODO
+```
+
+```fsharp
+// TODO
+```
+
+```lua
+-- TODO
+```
+
+```python
+# TODO
+```
+
+```scala
+// TODO
+```
+
+```tcl
+# TODO
+```
+
+[/carousel]
+
+## Browser Automation
+
+See [state](/docs/reference/browser-automation).
+
+## Databases and State
+
+See [state](/docs/reference/state).

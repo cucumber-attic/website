@@ -5,19 +5,20 @@ renderer: Dynamic::Reference
 ---
 # Documentation Overview
 
-Cucumber supports over a dozen different software platforms.
+Cucumber supports over a dozen different software platforms. Every Cucumber
+implementation provides the same overall functionality, but they also have
+their own installation procedure and platform-specific functionality.
 
-The features that are common to all platforms are documented in
-the [general reference manual](/docs/reference).
+## Reference
 
-# Platforms
-
-Each platform supported by Cucumber is documented separately.
+The features that are common to all Cucumner implementations are documented in
+the [reference](/docs/reference) manual.
 
 ## Installation
 
 Use the table below to find the Cucumber implementation that works for you.
-Each Cucumber implementation has different installation instructions.
+
+Here you will find platform-specific installation instructions and documentation.
 
 ## Cucumber implementations
 
@@ -92,7 +93,7 @@ Each Cucumber implementation has different installation instructions.
   </tr>
   <tr>
     <td><img src="/images/platforms/selenium.png"></td>
-    <td><a href="/docs/reference/selenium">Selenium</a></td>
+    <td><a href="/docs/reference/browser-automation#selenium">Selenium</a></td>
   </tr>
   <tr>
     <td><img src="/images/platforms/pico.png"></td>
@@ -104,7 +105,7 @@ Each Cucumber implementation has different installation instructions.
   </tr>
   <tr>
     <td><img src="/images/platforms/watir.png"></td>
-    <td><a href="/docs/reference/watir">Watir</a></td>
+    <td><a href="/docs/reference/browser-automation#watir">Watir</a></td>
   </tr>
   </tbody>
 </table>
