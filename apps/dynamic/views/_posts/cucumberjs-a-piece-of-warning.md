@@ -38,3 +38,7 @@ Find out more about BDD:
 * [Behaviour-Driven Development annotated slides](http://www.slideshare.net/lunivore/behavior-driven-development-11754474) by Liz Keogh;
 * [Conversational patterns in BDD](http://lizkeogh.com/2011/09/22/conversational-patterns-in-bdd/) by Liz Keogh;
 * [Introducing deliberate discovery](http://dannorth.net/2010/08/30/introducing-deliberate-discovery/) by Dan North.
+
+*EDIT: [Seb Rose](https://twitter.com/sebrose) suggested the following additional link to Chris Matts's blog archives that contain a wealth of deep background information around the genesis and evolution of BDD and related concepts:</quote>*
+
+* [Agile Business Coach blog archives](http://abc.truemesh.com/archives/2004_11.html) by Chris Matts.
