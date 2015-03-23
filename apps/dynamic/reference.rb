@@ -32,7 +32,7 @@ module Dynamic
 
       ensure_unique(anchor)
 
-      %Q{<h#{header_level} id="#{anchor}" class="header">#{text}</h#{header_level}>\n}
+      %Q{<h#{header_level} id="#{anchor}" class="header" data-swiftype-name="title" data-swiftype-type="string">#{text}</h#{header_level}>\n}
     end
 
     def ensure_unique(anchor)
@@ -101,7 +101,7 @@ HTML
     def create_nav_body_with_links_to_anchors(html)
       tree = NestedList.new
       html.split(/\n/).each do |line|
-        if line =~ /<h([2-5]) id="([^"]+)" class="header">([^<]+)<\/h[2-5]>/
+        if line =~ /<h([2-5]) id="([^"]+)" [^>]+>([^<]+)<\/h[2-5]>/
           level = $1.to_i - 2
           item = {href: "##{$2}", text: $3}
           tree.add(level, item)
