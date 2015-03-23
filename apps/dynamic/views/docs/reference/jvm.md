@@ -13,6 +13,19 @@ This document is the reference for features that are specific to Cucumber-JVM.
 Please see the [general reference](/docs/reference) for features that are
 common to all Cucumber implementations.
 
+## Languages
+
+Cucumber-JVM supports the following JVM languages:
+
+* [Java](#java)
+* [Groovy](#groovy)
+* [Scala](#scala)
+* [Clojure](#clojure)
+* [Jython](#jythin)
+* [JRuby](#jruby)
+* [Rhino JavaScript](#rhino-javascript)
+* [Gosu](#gosu)
+
 ## Installation
 
 Cucumber-JVM consists of several modules (jars) that you can download from the [public maven repo](http://repo1.maven.org/maven2/info/cukes/).
