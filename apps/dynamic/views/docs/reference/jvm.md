@@ -1,5 +1,5 @@
 ---
-title: JavaScript
+title: Cucumber JVM
 nav: docs
 renderer: Dynamic::Reference
 ---
