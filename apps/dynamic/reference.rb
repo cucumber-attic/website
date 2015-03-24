@@ -1,44 +1,12 @@
-require 'redcarpet'
-require 'pygments'
+require_relative 'redcarpet_renderer'
 require_relative 'nested_list'
 require_relative 'ul_builder'
 
 module Dynamic
-  class Reference < Redcarpet::Render::HTML
+  class Reference < RedcarpetRenderer
     def preprocess(md)
       @carousel_languages = carousel_languages(md)
       md
-    end
-
-    def block_code(code, language)
-      if language
-        Pygments.highlight(code, lexer: language)
-      else
-        %Q{<div class="highlight shell"><pre>#{code}</pre></div>}
-      end
-    end
-
-    # If the same header text exists in multiple places in the document,
-    # a unique anchor prefix can be specified:
-    #
-    #    ## {something-unique}The text
-    def header(text, header_level)
-      prefix = ""
-      if text =~ /^\{([^\{]+)\}(.*)/
-        prefix = $1
-        text = $2
-      end
-      anchor = "#{prefix}#{anchorify(text)}"
-
-      ensure_unique(anchor)
-
-      %Q{<h#{header_level} id="#{anchor}" class="header" data-swiftype-name="title" data-swiftype-type="string">#{text}</h#{header_level}>\n}
-    end
-
-    def ensure_unique(anchor)
-      @used_anchors ||= []
-      raise "Duplicate anchor: '#{anchor}'. Prefix Markdown header title with {something-unique}" if @used_anchors.index(anchor)
-      @used_anchors << anchor
     end
 
     def postprocess(html)
@@ -113,15 +81,6 @@ HTML
         %Q{<li role="presentation"><a href="#{item[:href]}">#{item[:text]}</a>}
       end
       nested_list_builder.build
-    end
-
-    def anchorify(string)
-      string
-      .gsub(/[']+/, '')
-      .gsub(/\W+/, ' ')
-      .strip
-      .downcase
-      .gsub(' ', '-')
     end
   end
 end

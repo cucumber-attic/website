@@ -3,6 +3,7 @@ require 'redcarpet'
 require 'liquid'
 require 'htmlentities'
 require_relative 'utils'
+require_relative 'redcarpet_renderer'
 
 module Dynamic
   class Page
