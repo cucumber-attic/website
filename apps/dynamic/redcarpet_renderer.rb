@@ -1,5 +1,6 @@
 require 'redcarpet'
 require 'pygments'
+require 'cgi'
 
 module Dynamic
   class RedcarpetRenderer < Redcarpet::Render::HTML
@@ -7,7 +8,7 @@ module Dynamic
       if language
         Pygments.highlight(code, lexer: language)
       else
-        %Q{<div class="highlight shell"><pre>#{code}</pre></div>}
+        %Q{<div class="highlight shell"><pre>#{CGI::escapeHTML(code)}</pre></div>}
       end
     end
 

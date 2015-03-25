@@ -50,7 +50,7 @@ There are several ways to run scenarios with Cucumber-JVM:
 * [JUnit Runner](#junit-runner)
 * [CLI Runner](#cli-runner)
 * [Android Runner](/docs/reference/android#runner)
-* Third party runners
+* [Third party runners](#third-party-runners)
 
 ### JUnit Runner
 
@@ -111,6 +111,100 @@ IntelliJ IDEA and Eclipse have plugins that can run scenarios from within an IDE
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/help/cucumber.html)
 * [Cucumber-Eclipse](https://github.com/cucumber/cucumber-eclipse)
+
+Please refer to the documentation for the third party runner for details about how
+to pass configuration options to Cucumber.
+
+## Configuration
+
+Cucumber has a set of configuration options that can be passed to each runner.
+Configuration options can be passed to the [CLI Runner](#cli-runner) on the command-line.
+For example:
+
+```
+java cucumber.api.cli.Main --version
+```
+
+The [JUnit Runner](#junit-runner) and [Android Runner](#android-runner) can also pick
+up configuration options defined via the `@CucumberOptions` annotation. For example, if
+ you want to tell Cucumber to use the two formatter plugins `pretty`
+and `html`, you would specify it like this:
+
+```java
+package mypackage;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(plugin = {"pretty", "html:target/cucumber"})
+public class RunCukesTest {
+}
+```
+
+Configuration options can also be overridden and passed to *any* of the runners via the `cucumber.options`
+Java system property. For example, if you are using Maven and want to run a subset of scenarios tagged
+with `@smoke`:
+
+```
+mvn test -Dcucumber.options="--tags @smoke"
+```
+
+### List all options
+
+To print out all the available configuration options, simply pass the `--help` option.
+For example:
+
+```
+mvn test -Dcucumber.options="--help"
+```
+
+will print out:
+
+```
+Usage: java cucumber.api.cli.Main [options] [[[FILE|DIR][:LINE[:LINE]*] ]+ | @FILE ]
+
+Options:
+
+  -g, --glue PATH                        Where glue code (step definitions, hooks
+                                         and plugins) are loaded from.
+  -p, --plugin PLUGIN[:PATH_OR_URL]      Register a plugin.
+                                         Built-in formatter PLUGIN types: junit,
+                                         html, pretty, progress, json, usage, rerun,
+                                         testng. Built-in summary PLUGIN types:
+                                         default_summary, null_summary. PLUGIN can
+                                         also be a fully qualified class name, allowing
+                                         registration of 3rd party plugins.
+  -f, --format FORMAT[:PATH_OR_URL]      Deprecated. Use --plugin instead.
+  -t, --tags TAG_EXPRESSION              Only run scenarios tagged with tags matching
+                                         TAG_EXPRESSION.
+  -n, --name REGEXP                      Only run scenarios whose names match REGEXP.
+  -d, --[no-]-dry-run                    Skip execution of glue code.
+  -m, --[no-]-monochrome                 Don't colour terminal output.
+  -s, --[no-]-strict                     Treat undefined and pending steps as errors.
+      --snippets [underscore|camelcase]  Naming convention for generated snippets.
+                                         Defaults to underscore.
+  -v, --version                          Print version.
+  -h, --help                             You're looking at it.
+  --i18n LANG                            List keywords for in a particular language
+                                         Run with "--i18n help" to see all languages
+
+Feature path examples:
+  <path>                                 Load the files with the extension ".feature"
+                                         for the directory <path>
+                                         and its sub directories.
+  <path>/<name>.feature                  Load the feature file <path>/<name>.feature
+                                         from the file system.
+  classpath:<path>/<name>.feature        Load the feature file <path>/<name>.feature
+                                         from the classpath.
+  <path>/<name>.feature:3:9              Load the scenarios on line 3 and line 9 in
+                                         the file <path>/<name>.feature.
+  @<path>/<file>                         Parse <path>/<file> for feature paths generated
+                                         by the rerun formatter.
+```
+
+Some of the runners provide additional mechanisms for passing options to Cucumber.
 
 ## Java
 
