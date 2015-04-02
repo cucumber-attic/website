@@ -1,0 +1,11 @@
+---
+layout: post
+author: matt
+title:  "Would you like to see CukeUp! Come to Australia?"
+date:   2014-04-02 12:00:00
+nav: blog
+---
+
+We're considering bringing our popular CukeUp conference to Australia. If you like the idea of a conference dedicated to the Cucumber, BDD and the agile community of the Asia-Pacific region, please [fill out this survey](https://skurlow.typeform.com/to/gzVqI2) and let us know more.
+
+<a role="button" class="btn btn-success" href="https://skurlow.typeform.com/to/gzVqI2">Take the CukeUp AU survey now!</a>
