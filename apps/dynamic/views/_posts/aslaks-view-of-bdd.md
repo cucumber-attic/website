@@ -36,7 +36,7 @@ My BDD thinking is mostly influenced by the following people:
 * Gojko Adzic - Brought BDD to the business folks and coined "Specification by Example"
 * Matt Wynne - Example mapping - a technique to break stories into examples
 * David Chelimsky - Hugely influential with his pioneering work on RSpec
-* Konstantin Kudryashev - Modelling by Example - bringing BDD closer to DDD
+* Konstantin Kudryashov - Modelling by Example - bringing BDD closer to DDD
 
 BDD needs a description that makes sense to management. What's in it for them?
 Why should they hire people who know BDD? Why should they try this out?
