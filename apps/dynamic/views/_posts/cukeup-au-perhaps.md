@@ -1,7 +1,7 @@
 ---
 layout: post
 author: matt
-title:  "Would you like to see CukeUp! Come to Australia?"
+title:  "Would you like to see a CukeUp Australia Conference?"
 date:   2015-04-02 12:00:00
 nav: blog
 ---
