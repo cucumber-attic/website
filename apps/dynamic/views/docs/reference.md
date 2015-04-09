@@ -7,7 +7,7 @@ renderer: Dynamic::Reference
 # Reference
 
 This is the general reference for all Cucumber implementations. Please refer to
-the [documentation overview](/docs) for links to platform-speific documentation.
+the [documentation overview](/docs) for links to platform-specific documentation.
 
 ## Gherkin
 
@@ -93,7 +93,7 @@ a list of [steps](#steps).
 You can have as many steps as you like, but we recommend you keep the number at 3-5 per scenario.
 If they become longer than that they lose their expressive power as specification and documentation.
 
-In addition to being a specification and documentasion, a scenario is also a *test*.
+In addition to being a specification and documentation, a scenario is also a *test*.
 As a whole, your scenarios are an *executable specification* of the system.
 
 Scenarios follow the same pattern:
@@ -132,7 +132,7 @@ it's usually a sign that you should split the scenario up in multiple scenarios.
 
 `Then ` steps are used to describe an *expected* outcome, or result.
 
-The [step definition](#step-definitons) of a `When ` step should use an *assertion* to
+The [step definition](#step-definitions) of a `Then ` step should use an *assertion* to
 compare the *actual* outcome (what the system actually does) to the *expected* outcome
 (what the step says the system is supposed to do).
 
