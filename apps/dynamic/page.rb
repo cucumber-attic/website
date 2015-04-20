@@ -11,7 +11,8 @@ module Dynamic
       '.md'   => :markdown,
       '.slim' => :slim,
       '.xml'  => :erb,
-      '.erb'  => :erb
+      '.erb'  => :erb,
+      '.adoc' => :asciidoc
     }
 
     class << self

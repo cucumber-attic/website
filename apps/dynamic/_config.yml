@@ -18,6 +18,10 @@ authors:
     display_name: Julien Biezemans
     email: julien@cucumber.pro
     gravatar: 07193608fb3c70b2a9449d6cafd6d31a
+  paul:
+    display_name: Paul Rayner
+    email: paul@virtual-genius.com
+    gravatar: 4ce180eb1538932a4cc5b14c9eb0e83b
 
 versions:
   cucumber_jvm: 1.2.2

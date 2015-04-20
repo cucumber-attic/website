@@ -1,5 +1,17 @@
-img.pull-left {
+.img-pull-left() {
   margin-right: 10px;
+}
+
+.img-pull-right() {
+  margin-left: 10px;
+}
+
+img.pull-left {
+  .img-pull-left();
+}
+
+img.pull-right {
+  .img-pull-right();
 }
 
 img.img-thumbnail {
