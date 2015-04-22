@@ -1,0 +1,26 @@
+---
+layout: no-layout
+headers:
+  Content-Type: application/rss+xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cucumber Events</title>
+    <description>Upcoming conferences, meetups, training and speaking events from the Cucumber team</description>
+    <link>{{ site.url }}/events</link>
+    <author>{{ site.author | xml_escape }}</author>
+    <copyright>{{ site.copyright | xml_escape }}</copyright>
+    <atom:link href="{{ site.url }}/events.xml" rel="self" type="application/rss+xml" />
+    <% site['events'][0..9].each do |event| %>
+      <item>
+        <title><%= event.title %></title>
+        <link><%= event.url %></link>
+        <description><%= HTMLEntities.new.encode(event.render(self, nil, true)) %></description>
+        <pubDate><%= event.date.strftime("%a, %d %b %Y %H:%M:%S %z") %></pubDate>
+        <author>{{ site.email }} ({{ site.author }})</author>
+        <guid isPermaLink="true"><%= event.url %></guid>
+      </item>
+    <% end %>
+  </channel>
+</rss>

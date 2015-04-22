@@ -1,0 +1,18 @@
+doctype html
+html lang="en"
+  head
+    == slim '_includes/header'.to_sym, locals: locals
+  body
+    == slim '_includes/ribbon'.to_sym, locals: locals
+    == slim '_includes/nav-main'.to_sym, locals: locals
+
+    div.container
+      div.row
+        div.col-md-10.col-md-offset-1.js-one-column.event role="main"
+
+          h2= locals['title']
+
+          == yield
+
+    == slim '_includes/footer'.to_sym, locals: locals
+    == js :main

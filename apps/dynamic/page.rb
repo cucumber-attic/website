@@ -45,6 +45,7 @@ module Dynamic
     def path
       return '/' if @template_name == 'index'
       return '/feed.xml' if @template_name == 'feed'
+      return '/events-feed.xml' if @template_name == 'events-feed'
       if post?
         "/blog/#{date.strftime('%Y/%m/%d')}/#{@template_name.split('/')[-1]}"
       else
@@ -59,19 +60,13 @@ module Dynamic
       }
 
       if engine == :markdown
-        # This causes a warning in Slim, but I can't see a way around it
+        # This causes a warning in Slim, because when we render the layouts it 
+        # will be given the same set of options, but we need it for the markdown.
         options[:renderer] = renderer
         options[:fenced_code_blocks] = true
-
-        template_proc = Proc.new do |template|
-          content
-        end
-      else
-        template_proc = Proc.new do |template|
-          content
-        end
       end
 
+      template_proc = Proc.new { |template| content }
       html = sinatra.send(engine, template_proc, options, locals)
       html.gsub('---', '&#8212;') # em-dash
     end
@@ -108,6 +103,10 @@ module Dynamic
 
     def post?
       @template_name =~ /^_posts\//
+    end
+
+    def event?
+      @template_name =~ /^events\//
     end
 
     def primary?

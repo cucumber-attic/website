@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.5'
 
-gem 'sinatra', '1.4.5'
+gem 'sinatra', '1.4.6'
 gem 'sinatra-assetpack', '0.3.3', :require => 'sinatra/assetpack'
 gem 'less', '2.6.0'
 gem 'therubyracer', '0.12.1'

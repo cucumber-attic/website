@@ -40,19 +40,35 @@ describe "integration testing" do
       get '/blog/2015/01/31/cucumber-ruby-rc-3-released'
       expect(last_response).to be_ok
     end
+
+    describe "rss feed" do
+      it "exists" do
+        get "/feed.xml"
+        expect(last_response).to be_ok
+        expect(last_response.headers['Content-Type']).to eq 'application/rss+xml'
+      end
+
+      it "has 10 entries" do
+        get "/feed.xml"
+        feed = Nokogiri::XML(last_response.body)
+        expect(feed.xpath('//rss/channel/item').length).to eq 10
+      end
+    end
   end
 
-  describe "rss feed" do
-    it "exists" do
-      get "/feed.xml"
-      expect(last_response).to be_ok
-      expect(last_response.headers['Content-Type']).to eq 'application/rss+xml'
-    end
+  describe "events" do
+    describe "rss feed" do
+      it "exists" do
+        get "/events-feed.xml"
+        expect(last_response).to be_ok
+        expect(last_response.headers['Content-Type']).to eq 'application/rss+xml'
+      end
 
-    it "has 10 entries" do
-      get "/feed.xml"
-      feed = Nokogiri::XML(last_response.body)
-      expect(feed.xpath('//rss/channel/item').length).to eq 10
+      it "has at least 1 entry" do
+        get "/events-feed.xml"
+        feed = Nokogiri::XML(last_response.body)
+        expect(feed.xpath('//rss/channel/item').length).to be > 0
+      end
     end
   end
 

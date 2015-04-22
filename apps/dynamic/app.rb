@@ -10,6 +10,7 @@ require_relative 'page'
 require_relative 'config'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
+Slim::Engine.disable_option_validator!
 
 # Sinatra app that displays a Jekyll app dynamically.
 #
@@ -32,6 +33,8 @@ Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 module Dynamic
   class App < Sinatra::Application
     set :root,  File.dirname(__FILE__)
+
+    # TODO: do we need these? Won't they be inferred from the root anyway?
     set :public_folder, Proc.new { File.join(root, 'public') }
     set :views, Proc.new { File.join(root, 'views') }
 
@@ -66,6 +69,10 @@ module Dynamic
 
     CONFIG['site']['posts'] = pages.select(&:post?).sort do |a, b|
       b.date <=> a.date
+    end
+
+    CONFIG['site']['events'] = pages.select(&:event?).sort do |a, b|
+      b.start_time <=> a.start_time
     end
 
     pages.each do |page|

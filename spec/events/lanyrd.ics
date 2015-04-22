@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lanyrd.com//Lanyrd//EN
+X-ORIGINAL-URL:http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
+X-WR-CALNAME;CHARSET=utf-8:Cucumber and BDD Events
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:BDD Kickstart San Francisco
+LOCATION;CHARSET=utf-8:Sauce Labs\, 539 Bryant Street #303 San Francisco\, CA 94107 USA\, 94107
+URL:http://lanyrd.com/2015/bdd-kickstart-san-francisco/
+UID:bbf17a9ff7fa28c427aac86fbc45604d48e6051e
+DESCRIPTION:Three-day course on Behaviour-Driven Development\n\nhttp://lanyrd.com/cdcbdg
+DTSTART;VALUE=DATE:20150421
+DTEND;VALUE=DATE:20150424
+GEO:37.7802468;-122.3967115
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:CukeUp Australia
+LOCATION;CHARSET=utf-8:Sydney\, Australia
+URL:http://lanyrd.com/2015/cukeup-australia-2015/
+UID:b337ee5afe0273b48315067914c75e30fcd5227c
+DESCRIPTION:For the first time ever\, CukeUp is coming to the Asia-Pacific region\n\nhttp://lanyrd.com/cfkrgp
+DTSTART;VALUE=DATE:20151203
+DTEND;VALUE=DATE:20151205
+END:VEVENT
