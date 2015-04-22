@@ -4,6 +4,8 @@ author: Cucumber Limited
 copyright: Cucumber Limited
 edit_url: https://github.com/cucumber/website/edit/master/apps/dynamic/views
 
+show_ribbon: false
+
 # Blog
 authors:
   aslak:
