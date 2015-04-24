@@ -12,12 +12,12 @@ cacheable: false
         | Discover meetups, conferences and trainings where you can meet like-minded Cucumber and BDD practitioners.
 
       .row
-        .col-md-6
+        .col-md-8
           ul.date-list
             - site['events'].each do |event|
               li.event
                 span.date= event.dtstart.strftime("%b %d, %Y")
                 a.summary< href=event.url = event.summary
 
-        .col-md-6
+        .col-md-4
           a.btn.btn-success href="/add-events" Add your own event
