@@ -1,7 +1,7 @@
 ---
 title: SpecFlow
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # SpecFlow

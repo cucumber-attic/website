@@ -1,7 +1,7 @@
 ---
 title: Documentation
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 # Documentation Overview
 

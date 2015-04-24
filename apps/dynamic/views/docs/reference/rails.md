@@ -1,7 +1,7 @@
 ---
 title: Ruby on Rails
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Ruby on Rails

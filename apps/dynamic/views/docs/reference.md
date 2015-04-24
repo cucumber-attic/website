@@ -1,7 +1,7 @@
 ---
 title: Reference
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Reference

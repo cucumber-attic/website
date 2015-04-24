@@ -4,7 +4,7 @@ author:   aslak
 title:    "Aslak's view of BDD"
 date:     2015-03-27 12:00:00
 nav:      blog
-renderer: Dynamic::RedcarpetRenderer
+renderer: Cucumber::Website::RedcarpetRenderer
 ---
 
 It's been 11 years since Dan introduced BDD to me while we were working together

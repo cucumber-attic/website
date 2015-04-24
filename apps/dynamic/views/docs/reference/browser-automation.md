@@ -1,7 +1,7 @@
 ---
 title: Browser Automation
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Browser Automation

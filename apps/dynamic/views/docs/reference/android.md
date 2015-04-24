@@ -1,7 +1,7 @@
 ---
 title: Android
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Android

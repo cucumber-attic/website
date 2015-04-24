@@ -1,7 +1,7 @@
 ---
 title: Tcl
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Tcl

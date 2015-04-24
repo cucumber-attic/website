@@ -1,7 +1,7 @@
 ---
 title: Ruby/JRuby
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Ruby/JRuby

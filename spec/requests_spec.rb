@@ -1,5 +1,6 @@
 require 'rack/test'
 require 'nokogiri'
+require 'cucumber/website/calendar'
 
 ENV['RACK_ENV'] = 'test'
 APP = Rack::Builder.parse_file('config.ru').first
@@ -65,6 +66,10 @@ describe "integration testing" do
       end
 
       it "has at least 1 entry" do
+        ical = File.dirname(__FILE__) + '/events/lanyrd.ics'
+        Cucumber::Website::App::CONFIG['site']['events'] =
+          Cucumber::Website::Events.new(event_pages=[], calendars=[Cucumber::Website::FakeCalendar.new(IO.read(ical))])
+
         get "/events-feed.xml"
         feed = Nokogiri::XML(last_response.body)
         expect(feed.xpath('//rss/channel/item').length).to be > 0

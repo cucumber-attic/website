@@ -1,0 +1,310 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:http://www.meetup.com/agiletesting/events/ical/
+X-WR-CALNAME:Events - Agile Testing
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150428T090000
+DTEND;TZID=Europe/London:20150429T180000
+STATUS:CONFIRMED
+SUMMARY:Test Management Summit
+DESCRIPTION:Agile Testing\nTuesday\, April 28 at 9:00 AM\n\nRegister on t
+ he TMF site. The 2015 Annual Test Management Summit will take place on T
+ uesday 28th and Wednesday 29th April 2015 at the conference centr...\n\n
+ Details: http://www.meetup.com/agiletesting/events/221680672/
+CLASS:PUBLIC
+CREATED:20150407T170134Z
+GEO:51.50;-0.14
+LOCATION:Balls Brothers  (Minster Court Mincing Lane Greater London EC3R 
+ 7P\, London\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221680672/
+LAST-MODIFIED:20150407T170523Z
+UID:event_221680672@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150429T180000
+DTEND;TZID=Europe/London:20150429T210000
+STATUS:CONFIRMED
+SUMMARY:London #TesterGathering - 29th April - The Shooting Star
+DESCRIPTION:Agile Testing\nWednesday\, April 29 at 6:00 PM\n\nThe April L
+ ondon #TesterGathering will be on the 29th April at The Shooting Star.  
+  Address:  125-129 Middlesex St\, London E1 7JF   The plan:  We have...\
+ n\nDetails: http://www.meetup.com/agiletesting/events/220602735/
+CLASS:PUBLIC
+CREATED:20150218T161047Z
+GEO:51.50;-0.14
+LOCATION:The Shooting Star (125-129 Middlesex St\, London E1 7JF\, United
+  Kingdom)
+URL:http://www.meetup.com/agiletesting/events/220602735/
+LAST-MODIFIED:20150415T122538Z
+UID:event_220602735@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150507T183000
+DTEND;TZID=Europe/London:20150507T220000
+STATUS:CONFIRMED
+SUMMARY:Tester evening in Stevenage
+DESCRIPTION:Agile Testing\nThursday\, May 7 at 6:30 PM\n\nWe are holding 
+ free tester evening in Business & Technology Centre in Stevenage. This i
+ s great opportunity for testers to network and hear two great s...\n\nDe
+ tails: http://www.meetup.com/agiletesting/events/221892233/
+CLASS:PUBLIC
+CREATED:20150416T175433Z
+GEO:51.50;-0.14
+LOCATION:Business and Technology Centre (Bessemer Dr\, SG1 2DX\, Stevenag
+ e\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221892233/
+LAST-MODIFIED:20150420T113718Z
+UID:event_221892233@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150511T200000
+DTEND;TZID=Europe/London:20150511T230000
+STATUS:CONFIRMED
+SUMMARY:Black Ops Testing Webinar\, Operation Mailman 11th May 2015
+DESCRIPTION:Agile Testing\nMonday\, May 11 at 8:00 PM\n\nOn Monday May 11
+ th 2015\, at 20:00 UK time\, the Black Ops Team will initiate a free onl
+ ine webinar. You can join us. For this webinar we will have test...\n\nD
+ etails: http://www.meetup.com/agiletesting/events/222019488/
+CLASS:PUBLIC
+CREATED:20150422T141541Z
+GEO:51.50;-0.14
+URL:http://www.meetup.com/agiletesting/events/222019488/
+LAST-MODIFIED:20150422T142413Z
+UID:event_222019488@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150518T090000
+DTEND;TZID=Europe/London:20150519T170000
+STATUS:CONFIRMED
+SUMMARY:Mindful Exploratory Testing @ Belgium Testing Days
+DESCRIPTION:Agile Testing\nMonday\, May 18 at 9:00 AM\n\nI'm running a wo
+ rkshop 'Mindful Exploratory Testing' at Belgium Testing Days\, come alon
+ g if you can.  Getting your head around Exploratory Testing  Ex...\n\nDe
+ tails: http://www.meetup.com/agiletesting/events/221524039/
+CLASS:PUBLIC
+CREATED:20150331T144134Z
+GEO:51.50;-0.14
+LOCATION:Thon Hotel Brussels City Centre (Avenue du boulevard 17\, 1210 S
+ int-joost-ten-node\, Brussels\, Belgium)
+URL:http://www.meetup.com/agiletesting/events/221524039/
+LAST-MODIFIED:20150331T144433Z
+UID:event_221524039@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150518T090000
+DTEND;TZID=Europe/London:20150520T173000
+STATUS:CONFIRMED
+SUMMARY:Belgium Testing Days
+DESCRIPTION:Agile Testing\nMonday\, May 18 at 9:00 AM\n\nThe leading even
+ t host in Europe where leadership\, management and strategy converge. Th
+ e hottest issues in the industry are included covering agile te...\n\nDe
+ tails: http://www.meetup.com/agiletesting/events/221524644/
+CLASS:PUBLIC
+CREATED:20150331T151130Z
+GEO:51.50;-0.14
+LOCATION:Thon Hotel Brussels City Centre (Avenue du boulevard 17\, 1210 S
+ int-joost-ten-node\, Brussels\, Belgium)
+URL:http://www.meetup.com/agiletesting/events/221524644/
+LAST-MODIFIED:20150331T151214Z
+UID:event_221524644@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150521T180000
+DTEND;TZID=Europe/London:20150521T210000
+STATUS:CONFIRMED
+SUMMARY:London #TesterGathering - 21st May - The Shooting Star
+DESCRIPTION:Agile Testing\nThursday\, May 21 at 6:00 PM\n\nThe May London
+  #TesterGathering will be on the 21st May at The Shooting Star. Address:
+   125-129 Middlesex St\, London E1 7JF The plan:  We have a room ...\n\n
+ Details: http://www.meetup.com/agiletesting/events/221968228/
+CLASS:PUBLIC
+CREATED:20150420T121432Z
+GEO:51.50;-0.14
+LOCATION:The Shooting Star (125-129 Middlesex St\, London E1 7JF\, United
+  Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221968228/
+LAST-MODIFIED:20150422T143314Z
+UID:event_221968228@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150601T080000
+DTEND;TZID=Europe/London:20150601T110000
+STATUS:CONFIRMED
+SUMMARY:MongoDB World 2015 in NYC
+DESCRIPTION:Agile Testing\nMonday\, June 1 at 8:00 AM\n\nHi all\,  Excite
+ d to announce that MongoDB World is June 1-2 at the Sheraton New York. W
+ e would love to see members of the Agile Testing community in a...\n\nDe
+ tails: http://www.meetup.com/agiletesting/events/221237020/
+CLASS:PUBLIC
+CREATED:20150318T164307Z
+GEO:51.50;-0.14
+LOCATION:Sheraton New York Times Square Hotel (811 7th Avenue 53rd St\, N
+ ew York\, NY\, USA)
+URL:http://www.meetup.com/agiletesting/events/221237020/
+LAST-MODIFIED:20150318T170642Z
+UID:event_221237020@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150604T083000
+DTEND;TZID=Europe/London:20150605T180000
+STATUS:CONFIRMED
+SUMMARY:London Tester Gathering Workshops 2015
+DESCRIPTION:Agile Testing\nThursday\, June 4 at 8:30 AM\n\nLondon Tester 
+ Gathering Workshops 2015 Come along to discover and learn the latest pra
+ ctices and techniques in testing. At the end of these two intens...\n\nD
+ etails: http://www.meetup.com/agiletesting/events/214514052/
+CLASS:PUBLIC
+CREATED:20141020T091508Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/214514052/
+LAST-MODIFIED:20150412T215018Z
+UID:event_214514052@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150604T083000
+DTEND;TZID=Europe/London:20150604T113000
+STATUS:CONFIRMED
+SUMMARY:Visual Creativity: Using Sketchnotes & Mindmaps to aid testing @ 
+ #ltgworkshops
+DESCRIPTION:Agile Testing\nThursday\, June 4 at 8:30 AM\n\nJoin Christina
+  Ohanian and Dan Ashby for 'Visual Creativity: Using Sketchnotes and Min
+ dmaps to aid your agile testing' at the London Tester Gathering ...\n\nD
+ etails: http://www.meetup.com/agiletesting/events/221798549/
+CLASS:PUBLIC
+CREATED:20150412T214658Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221798549/
+LAST-MODIFIED:20150412T214658Z
+UID:event_221798549@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150604T083000
+DTEND;TZID=Europe/London:20150604T113000
+STATUS:CONFIRMED
+SUMMARY:Hooking Docker Into Selenium @ #ltgworkshops
+DESCRIPTION:Agile Testing\nThursday\, June 4 at 8:30 AM\n\nJoin Mark Coll
+ in for his workshop at the London Tester Gathering Workshops Hooking Doc
+ ker Into SeleniumMark Collin One of the constant pains we come a...\n\nD
+ etails: http://www.meetup.com/agiletesting/events/221797090/
+CLASS:PUBLIC
+CREATED:20150412T203043Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221797090/
+LAST-MODIFIED:20150412T203432Z
+UID:event_221797090@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150604T180000
+DTEND;TZID=Europe/London:20150604T210000
+STATUS:CONFIRMED
+SUMMARY:London #TesterGathering - 4th June - The Shooting Star
+DESCRIPTION:Agile Testing\nThursday\, June 4 at 6:00 PM\n\nThe June Londo
+ n #TesterGathering will be on the 4th June at The Shooting Star.   Addre
+ ss:  125-129 Middlesex St\, London E1 7JF   The plan:  We have a ...\n\n
+ Details: http://www.meetup.com/agiletesting/events/220247384/
+CLASS:PUBLIC
+CREATED:20150202T121605Z
+GEO:51.50;-0.14
+LOCATION:The Shooting Star (125-129 Middlesex St\, London E1 7JF\, United
+  Kingdom)
+URL:http://www.meetup.com/agiletesting/events/220247384/
+LAST-MODIFIED:20150202T121605Z
+UID:event_220247384@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150604T203000
+DTEND;TZID=Europe/London:20150604T233000
+STATUS:CONFIRMED
+SUMMARY:Fast Feedback Loops & Fun with Ruby @ #ltgworkshops
+DESCRIPTION:Agile Testing\nThursday\, June 4 at 8:30 PM\n\nJoin Stephan K
+ amper for his workshop at the London Tester Gathering Workshops.  Fast F
+ eedback Loops & Fun with Ruby @ #ltgworkshopsStephan Kämper  Rub...\n\nD
+ etails: http://www.meetup.com/agiletesting/events/221796874/
+CLASS:PUBLIC
+CREATED:20150412T202155Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221796874/
+LAST-MODIFIED:20150412T203108Z
+UID:event_221796874@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150605T083000
+DTEND;TZID=Europe/London:20150605T113000
+STATUS:CONFIRMED
+SUMMARY:Understanding and testing RESTful Web services  @ #ltgworkshops
+DESCRIPTION:Agile Testing\nFriday\, June 5 at 8:30 AM\n\nJoin Mark Winter
+ ingham for his workshop at the London Tester Gathering Workshops RESTful
+  software architecture is becoming more and more popular as a ...\n\nDet
+ ails: http://www.meetup.com/agiletesting/events/221839221/
+CLASS:PUBLIC
+CREATED:20150414T162806Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221839221/
+LAST-MODIFIED:20150414T162806Z
+UID:event_221839221@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150423T132538Z
+DTSTART;TZID=Europe/London:20150605T083000
+DTEND;TZID=Europe/London:20150605T113000
+STATUS:CONFIRMED
+SUMMARY:In-Depth Mobile Automation With Appium @ #ltgworkshops
+DESCRIPTION:Agile Testing\nFriday\, June 5 at 8:30 AM\n\nJoin Jonathan Li
+ pps for his workshop at the London Tester Gathering Workshops  Appium is
+  the world’s most popular open-source cross-platform mobile au...\n\nDet
+ ails: http://www.meetup.com/agiletesting/events/221839273/
+CLASS:PUBLIC
+CREATED:20150414T163003Z
+GEO:51.50;-0.14
+LOCATION:Skills Matter (The Skills Matter eXchange\, 116-120 Goswell Road
+ \, London EC1V7DP\, United Kingdom)
+URL:http://www.meetup.com/agiletesting/events/221839273/
+LAST-MODIFIED:20150415T100405Z
+UID:event_221839273@meetup.com
+END:VEVENT
+END:VCALENDAR

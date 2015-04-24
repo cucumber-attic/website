@@ -11,13 +11,12 @@ headers:
     <link>{{ site.url }}/events</link>
     <author>{{ site.author | xml_escape }}</author>
     <copyright>{{ site.copyright | xml_escape }}</copyright>
-    <atom:link href="{{ site.url }}/events.xml" rel="self" type="application/rss+xml" />
-    <% site['events'][0..9].each do |event| %>
+    <atom:link href="{{ site.url }}/events-feed.xml" rel="self" type="application/rss+xml" />
+    <% site['events'].to_a[0..9].each do |event| %>
       <item>
-        <title><%= event.title %></title>
+        <title><%= HTMLEntities.new.encode(event.summary) %></title>
         <link><%= event.url %></link>
-        <description><%= HTMLEntities.new.encode(event.render(self, nil, true)) %></description>
-        <pubDate><%= event.date.strftime("%a, %d %b %Y %H:%M:%S %z") %></pubDate>
+        <description><%= HTMLEntities.new.encode(event.description) %></description>
         <author>{{ site.email }} ({{ site.author }})</author>
         <guid isPermaLink="true"><%= event.url %></guid>
       </item>

@@ -1,7 +1,7 @@
 ---
 title: Dependency Injection
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Dependency Injection

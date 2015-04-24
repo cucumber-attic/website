@@ -1,6 +1,7 @@
 ---
 title: Events
 nav: 'events'
+cacheable: false
 ---
 
 .container
@@ -9,8 +10,14 @@ nav: 'events'
       h1 Upcoming Events
       p
         | Discover meetups, conferences and trainings where you can meet like-minded Cucumber and BDD practitioners.
-      ul.blog-list
-        - site['events'].each do |event|
-          li
-            span.date= event.date.strftime("%b %d, %Y")
-            a< href=event.path = event.title
+
+      .row
+        .col-md-6
+          ul.date-list
+            - site['events'].each do |event|
+              li.event
+                span.date= event.dtstart.strftime("%b %d, %Y")
+                a.summary< href=event.url = event.summary
+
+        .col-md-6
+          a.btn.btn-success href="/add-events" Add your own event

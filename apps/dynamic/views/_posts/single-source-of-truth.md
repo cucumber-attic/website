@@ -4,7 +4,7 @@ author:   aslak
 title:    "Are you doing BDD? Or are you just using Cucumber?"
 date:     2015-03-24 12:00:00
 nav:      blog
-renderer: Dynamic::RedcarpetRenderer
+renderer: Cucumber::Website::RedcarpetRenderer
 ---
 
 Is your team using Cucumber like this?

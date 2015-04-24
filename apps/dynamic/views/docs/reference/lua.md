@@ -1,7 +1,7 @@
 ---
 title: Lua
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Lua

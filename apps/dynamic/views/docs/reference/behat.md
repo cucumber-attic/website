@@ -1,7 +1,7 @@
 ---
 title: Behat
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Behat

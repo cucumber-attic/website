@@ -6,8 +6,11 @@ require 'tilt'
 require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'less'
-require_relative 'page'
-require_relative 'config'
+require 'cucumber/website/page'
+require 'cucumber/website/config'
+require 'cucumber/website/calendar'
+require 'cucumber/website/events'
+require 'cucumber/website/reference'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
@@ -30,8 +33,10 @@ Slim::Engine.disable_option_validator!
 # * Use [carousel] to create a carousel of code samples for different languages
 # * Use {} in headers to create unique anchors when there are clashes
 #
-module Dynamic
+module Cucumber
+module Website
   class App < Sinatra::Application
+
     set :root,  File.dirname(__FILE__)
 
     # TODO: do we need these? Won't they be inferred from the root anyway?
@@ -71,8 +76,13 @@ module Dynamic
       b.date <=> a.date
     end
 
-    CONFIG['site']['events'] = pages.select(&:event?).sort do |a, b|
-      b.start_time <=> a.start_time
+    calendar_logger = Logger.new($stderr)
+    calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
+    events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
+    CONFIG['site']['events'] = events
+
+    configure(:development, :production) do
+      events.start(CONFIG['site']['calendar_refresh_interval'])
     end
 
     pages.each do |page|
@@ -81,8 +91,10 @@ module Dynamic
       get page.path do
         headers.merge!(page.headers)
 
-        timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
-        last_modified timestamps.max
+        if page.cacheable?
+          timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
+          last_modified timestamps.max
+        end
 
         page.render(self)
       end
@@ -107,4 +119,5 @@ module Dynamic
       end
     end
   end
+end
 end

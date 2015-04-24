@@ -17,6 +17,9 @@ gem 'rack-contrib'
 gem 'rollbar'
 gem 'rack-reverse-proxy'
 gem 'rack-rewrite'
+gem 'icalendar'
+# TODO: Need this to get timezone support with icalendar
+#gem 'activesupport'
 
 group :development do
   gem 'rake'
@@ -25,6 +28,8 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'rack-test'
   gem 'nokogiri', '1.6.6.2'
+  gem 'cucumber'
+  gem 'chronic'
+  gem 'capybara'
 end

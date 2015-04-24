@@ -1,6 +1,6 @@
-require_relative '../apps/dynamic/nested_list'
+require 'cucumber/website/nested_list'
 
-module Dynamic
+module Cucumber::Website
   describe NestedList do
     it "builds a flat list" do
       l = NestedList.new

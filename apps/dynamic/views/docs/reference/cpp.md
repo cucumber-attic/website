@@ -1,7 +1,7 @@
 ---
 title: C++
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # C++

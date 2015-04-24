@@ -1,7 +1,7 @@
 ---
 title: Posting Rules
 nav: support
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Posting Rules

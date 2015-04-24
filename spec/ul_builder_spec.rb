@@ -1,6 +1,6 @@
-require_relative '../apps/dynamic/ul_builder'
+require 'cucumber/website/ul_builder'
 
-module Dynamic
+module Cucumber::Website
   describe UlBuilder do
     it "builds a flat list" do
       b = UlBuilder.new([

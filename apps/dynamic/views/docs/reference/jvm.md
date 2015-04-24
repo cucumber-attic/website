@@ -1,7 +1,7 @@
 ---
 title: Cucumber JVM
 nav: docs
-renderer: Dynamic::Reference
+renderer: Cucumber::Website::Reference
 ---
 
 # Cucumber-JVM
