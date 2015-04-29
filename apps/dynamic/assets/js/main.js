@@ -1,4 +1,4 @@
-//= require ../../bower_components/jquery/dist/jquery
-//= require ../../bower_components/bootstrap/dist/js/bootstrap.min
-//= require ../../bower_components/slick-carousel/slick/slick
+//= require jquery
+//= require bootstrap
+//= require slick-carousel
 //= require_tree .

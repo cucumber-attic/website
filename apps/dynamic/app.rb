@@ -5,6 +5,8 @@ require 'liquid'
 require 'tilt'
 require 'sinatra/base'
 require 'sinatra/asset_pipeline'
+require 'sprockets-less'
+require 'sprockets-helpers'
 require 'less'
 require 'sass'
 require 'uglifier'
@@ -46,9 +48,9 @@ module Website
     set :views, Proc.new { File.join(root, 'views') }
 
     set :assets_precompile, %w(main.js main.css *.png *.jpg *.svg *.eot *.ttf *.woff *.woff2)
-    set :assets_prefix, %w(assets bower_components)
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
+
     register Sinatra::AssetPipeline
     AutoprefixerRails.install(sprockets)
 
@@ -95,6 +97,8 @@ module Website
     end
 
     helpers do
+      include Sprockets::Helpers
+
       def nav_class(slug, name)
         slug == name ? 'active' : nil
       end
