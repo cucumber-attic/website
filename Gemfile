@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 gem 'sinatra', '1.4.6'
-gem 'sinatra-assetpack', '0.3.3', :require => 'sinatra/assetpack'
+gem 'sinatra-asset-pipeline', '0.7.0'
 gem 'less', '2.6.0'
+gem 'uglifier', '2.7.1'
 gem 'therubyracer', '0.12.1'
 gem 'redcarpet', '2.3.0' # TODO: Update to 3.2.2 when all is dynamic
 gem 'slim', '3.0.2'

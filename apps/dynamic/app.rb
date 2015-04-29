@@ -4,8 +4,10 @@ require 'redcarpet'
 require 'liquid'
 require 'tilt'
 require 'sinatra/base'
-require 'sinatra/assetpack'
+require 'sinatra/asset_pipeline'
 require 'less'
+require 'sass'
+require 'uglifier'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
 require 'cucumber/website/calendar'
@@ -36,36 +38,17 @@ Slim::Engine.disable_option_validator!
 module Cucumber
 module Website
   class App < Sinatra::Application
-
     set :root,  File.dirname(__FILE__)
 
     # TODO: do we need these? Won't they be inferred from the root anyway?
     set :public_folder, Proc.new { File.join(root, 'public') }
     set :views, Proc.new { File.join(root, 'views') }
 
-    register Sinatra::AssetPack
-    assets {
-      css_dir = 'assets/css'
-      serve '/css', from: css_dir
-      Less.paths << File.join(App.root, css_dir)
-
-      serve '/bower_components', from: 'bower_components'
-
-      # We're listing the other files in main.less rather than here
-      css :main, '/css/style.css', ['/css/main.css']
-      css_compression :simple
-
-      serve '/js', from: 'assets/js'
-      js :main, '/js/main.js', [
-        '/bower_components/jquery/dist/jquery.js',
-        '/bower_components/bootstrap/dist/js/bootstrap.min.js',
-        '/bower_components/slick-carousel/slick/slick.js',
-        '/js/*.js'
-      ]
-      js_compression :jsmin
-
-      serve '/images', from: 'assets/images'
-    }
+    set :assets_precompile, %w(main.js main.css *.png *.jpg *.svg *.eot *.ttf *.woff)
+    set :assets_prefix, %w(assets bower_components)
+    set :assets_css_compressor, :sass
+    set :assets_js_compressor, :uglifier
+    register Sinatra::AssetPipeline
 
     extend Config
     CONFIG = load_config(ENV['RACK_ENV'])

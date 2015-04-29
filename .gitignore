@@ -1,3 +1,4 @@
 .DS_Store
 .bundle
 vendor
+apps/dynamic/public/assets

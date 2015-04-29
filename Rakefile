@@ -1,3 +1,8 @@
+$: << File.dirname(__FILE__) + '/lib'
+
+require 'sinatra/asset_pipeline/task'
+require './apps/dynamic/app'
+
 task default: [:spec, :cucumber, :backup_events]
 
 task :spec do
@@ -19,3 +24,5 @@ task :backup_events do
     File.open(file_name, 'w') { |io| io.write(open(url).read) }
   end
 end
+
+Sinatra::AssetPipeline::Task.define! Cucumber::Website::App

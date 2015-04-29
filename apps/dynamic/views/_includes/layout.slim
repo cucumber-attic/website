@@ -9,4 +9,4 @@ html lang="en"
     == yield
 
     == slim '_includes/footer'.to_sym, locals: locals
-    == js :main
+    == javascript_tag 'main'

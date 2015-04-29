@@ -24,3 +24,11 @@ We decided not to use rack-jekyll as it didn't seem to be able to handle mountin
 
 Please see [The Cucumber Brand](https://github.com/cucumber-ltd/brand/blob/master/Cucumber_Brand_V1.0.pdf) for
 details about fonts and colours.
+
+## Production
+
+Assets need to be precompiled for production. Heroku will take care of
+it but you might want to try it locally:
+
+    RACK_ENV=production bundle exec rake assets:precompile
+    RACK_ENV=production bundle exec foreman start
