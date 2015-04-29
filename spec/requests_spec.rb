@@ -18,7 +18,7 @@ describe "integration testing" do
     "/school",
     "/blog",
     "/docs/reference",
-    "/css/style.css",
+    "/assets/main.css",
     "/fonts/cucumber-glyphs.eot",
     "/bdd-kickstart.pdf",
   ].each do |path|
