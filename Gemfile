@@ -3,6 +3,7 @@ ruby '2.1.5'
 
 gem 'sinatra', '1.4.6'
 gem 'sinatra-asset-pipeline', '0.7.0'
+gem 'autoprefixer-rails', '5.1.11'
 gem 'less', '2.6.0'
 gem 'uglifier', '2.7.1'
 gem 'therubyracer', '0.12.1'

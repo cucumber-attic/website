@@ -8,6 +8,7 @@ require 'sinatra/asset_pipeline'
 require 'less'
 require 'sass'
 require 'uglifier'
+require 'autoprefixer-rails'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
 require 'cucumber/website/calendar'
@@ -49,6 +50,7 @@ module Website
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
     register Sinatra::AssetPipeline
+    AutoprefixerRails.install(sprockets)
 
     extend Config
     CONFIG = load_config(ENV['RACK_ENV'])
