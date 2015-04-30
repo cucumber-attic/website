@@ -13,5 +13,4 @@ end
 
 use Api::App
 use CucumberEclipse::App
-use Cucumber::Website::App
-run Modern::NotFound
+run Cucumber::Website::App

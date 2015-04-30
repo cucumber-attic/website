@@ -1,0 +1,52 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8" /
+    meta content="IE=edge" http-equiv="X-UA-Compatible" /
+    meta content="width=device-width, initial-scale=1" name="viewport" /
+    meta content="cucumber, gherkin, testing, bdd, tdd, atdd, sbe, specification by example, requirements" name="keywords" /
+    link href="/images/favicon.png" rel="icon" type="image/png" /
+    
+    title Not found | Cucumber
+    
+    scss:
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic&subset=latin);
+      body { font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; background: #EFEFEF; color: #65696B; }
+      .not-found { position: relative; max-width: 728px; margin: 100px auto 0; padding: 0 20px; }
+      h1 { font-size: 100px; line-height: 1; margin: 0; }
+      h2 { font-size: 28px; width: 400px; }
+      a { color: #00a818; }
+      .contact { color: #999;}
+      .links { padding: 0; margin: 0;}
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li { padding: 1px 0; }
+        a { text-decoration: none; }
+        a:hover { text-decoration: underline; }
+      }
+      img { position: absolute; bottom: 40px; right: 0; width: 70%; }
+  body
+    .not-found
+      a href="/"
+        img src="/images/cucumber-logo.svg"
+      h1 Not found
+      h2 We can't seem to find the page you're looking for.
+      p.contact Error code: 404 - If you think this is a mistake, please <a href="mailto:support@cucumber.pro">contact us</a>.
+      p.links Here are some links to help you find your way:
+      ul
+        li
+          a href="/" Home
+        li
+          a href="/docs" Docs
+        li
+          a href="/blog" Blog
+        li
+          a href="/events" Events
+        li
+          a href="/school" School
+        li
+          a href="/training" Training
+        li
+          a href="/support" Support

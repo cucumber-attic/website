@@ -10,6 +10,7 @@ require 'sprockets-helpers'
 require 'less'
 require 'sass'
 require 'uglifier'
+require 'rollbar'
 require 'autoprefixer-rails'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
@@ -19,6 +20,7 @@ require 'cucumber/website/reference'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
+IGNORED_NOT_FOUND_PATHS = /^\/(maven|netbeans)/
 
 # Sinatra app that displays a Jekyll app dynamically.
 #
@@ -106,6 +108,13 @@ module Website
       def edit_url(template_path)
         "#{CONFIG['site']['edit_url']}/#{template_path}"
       end
+    end
+
+    not_found do
+      path_info = env['PATH_INFO']
+      Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
+      status 404
+      slim :not_found
     end
   end
 end
