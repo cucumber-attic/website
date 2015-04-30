@@ -1,99 +1,66 @@
 .community-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10001;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   background: @brand-green;
   font-weight: normal;
-  * {
-    box-sizing: border-box;
-  }
-  nav {
-    width: 1170px;
-    margin: 0 auto;
-  }
-  input {
-    margin: 11px;
-    padding: 3px;
-    border: none;
-  }
-  a {
+  border: none;
+  .navbar-nav > li > a {
     color: @body-bg;
-    font-weight: normal;
-    display: inline-block;
-    padding: 15px;
-    vertical-align: top;
-  }
-  a.active, a:hover {
-    background-color: @body-bg;
-    color: @brand-green;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    &.active, &:hover {
+      background-color: @body-bg;
+      color: @brand-green;
+      text-decoration: underline;
+    }
   }
   &.blog {
     background-color: @brand-gray;
-
-    a.active, a:hover {
-      color: @brand-gray;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: @brand-gray;
+      }
     }
   }
   &.school {
     background-color: @brand-orange;
-
-    a.active, a:hover {
-      color: @brand-orange;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: @brand-orange;
+      }
     }
   }
   &.training {
     background-color: @brand-blue;
-
-    a.active, a:hover {
-      color: @brand-blue;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: @brand-blue;
+      }
     }
   }
   &.support {
     background-color: @brand-purple;
 
-    a.active, a:hover {
-      color: @brand-purple;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: @brand-purple;
+      }
     }
   }
-  .mark {
-    padding: 15px 25px;
-    background: transparent url('/images/cucumber-mark-white.svg') center center no-repeat;
-    width: 27px;
+  .navbar-brand {
     height: 55px;
-    &:hover {
-      background-color: transparent;
+  }
+  .navbar-toggle {
+    border-color: white;
+    .icon-bar { background-color: white; }
+    &:hover, &:focus {
+      background: white;
+      .icon-bar { background-color: @brand-green; }
     }
   }
-}
 
-@media (max-width: 768px) {
-  .community-nav nav {
-    width: 100%;
-    a { padding: 15px 10px; }
-    .mark ~ a + a + a + a + a {
-      display: none;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .community-nav nav {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .community-nav nav {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .community-nav nav {
-    width: 1170px;
+  @media (min-width: @screen-sm-min) {
+    .navbar-brand { height: 50px; }
   }
 }
