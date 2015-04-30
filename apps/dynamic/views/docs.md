@@ -104,7 +104,7 @@ Here you will find platform-specific installation instructions and documentation
     <td><a href="/docs/reference/java-di#spring">Spring Framework</a></td>
   </tr>
   <tr>
-    <td><img src="/images/platforms/watir.png"></td>
+    <td><img src="/images/platforms/watir.gif"></td>
     <td><a href="/docs/reference/browser-automation#watir">Watir</a></td>
   </tr>
   </tbody>
