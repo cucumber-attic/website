@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  $('body').scrollspy({ target: '#side-nav' });
-
   // Code carousels
   var ignoreCarouselEvents = false;
   $('.carousel').slick({
