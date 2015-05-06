@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lanyrd.com//Lanyrd//EN
+X-ORIGINAL-URL:http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
+X-WR-CALNAME;CHARSET=utf-8:Cucumber and BDD Events
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:Developing with SpecFlow
+LOCATION;CHARSET=utf-8:Vienna\, Austria
+URL:http://lanyrd.com/2015/specflow/
+UID:e8f3e6e0d3cc541c7f32f8f08793816b08741083
+DESCRIPTION:A session with the creator of SpecFlow on implementing Specification by Example on the .NET platform.\n\nhttp://lanyrd.com/cfkycf
+DTSTART;VALUE=DATE:20150720
+DTEND;VALUE=DATE:20150723
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:Developing with SpecFlow
+LOCATION;CHARSET=utf-8:Budapest\, Hungary
+URL:http://lanyrd.com/2015/specflow-2-september/
+UID:ab094703fb39299b773b512ca6e33986284cd5c6
+DESCRIPTION:A session with the creator of SpecFlow on implementing Specification by Example on the .NET platform.\n\nhttp://lanyrd.com/cfkycp
+DTSTART;VALUE=DATE:20150928
+DTEND;VALUE=DATE:20151001
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:CukeUp NYC (exact dates still to be decided)
+LOCATION;CHARSET=utf-8:New York\, United States
+URL:http://lanyrd.com/2015/cucumberbdd/
+UID:b337ee5afe0273b48315067914c75e30fcd5227c
+DESCRIPTION:A conference about BDD and Cucumber\n\nhttp://lanyrd.com/cfktxy
+DTSTART;VALUE=DATE:20150928
+DTEND;VALUE=DATE:20151003
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:Developing with SpecFlow
+LOCATION;CHARSET=utf-8:Vienna\, Austria
+URL:http://lanyrd.com/2015/specflow-2/
+UID:153adf527511fb7398159ed36bf121837571a5f1
+DESCRIPTION:A session with the creator of SpecFlow on implementing Specification by Example on the .NET platform.\n\nhttp://lanyrd.com/cfkyck
+DTSTART;VALUE=DATE:20151019
+DTEND;VALUE=DATE:20151022
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:CukeUp Australia
+LOCATION;CHARSET=utf-8:Sydney\, Australia
+URL:http://lanyrd.com/2015/cukeup-australia-2015/
+UID:f3eaaf80b064f17a1e433c7adc1927ce188604c3
+DESCRIPTION:For the first time ever\, CukeUp is coming to the Asia-Pacific region - Nov/Dec - Exact Date TBC!\n\nhttp://lanyrd.com/cfkrgp
+DTSTART;VALUE=DATE:20151203
+DTEND;VALUE=DATE:20151205
+END:VEVENT
+END:VCALENDAR
