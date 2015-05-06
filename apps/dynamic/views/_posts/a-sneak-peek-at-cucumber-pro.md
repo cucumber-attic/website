@@ -76,41 +76,37 @@ Many teams like to use feature branches when working on new features, and Cucumb
 
 You can use over 40 different languages with Cucumber Pro. Want Chinese?
 
-{% highlight gherkin %}
-# language: zh-CN
-功能:加法
-  为了避免一些愚蠢的错误
-  作为一个数学白痴
-  我希望有人告诉我数字相加的结果
+    # language: zh-CN
+    功能:加法
+      为了避免一些愚蠢的错误
+      作为一个数学白痴
+      我希望有人告诉我数字相加的结果
 
-  场景: 两个数相加
-    假如我已经在计算器里输入6
-    而且我已经在计算器里输入7
-    当我按相加按钮
-    那么我应该在屏幕上看到的结果是13
-{% endhighlight %}
+      场景: 两个数相加
+        假如我已经在计算器里输入6
+        而且我已经在计算器里输入7
+        当我按相加按钮
+        那么我应该在屏幕上看到的结果是13
 
 Ou plutôt le Français?
 
-{% highlight gherkin %}
-# language: fr
-Fonctionnalité: Addition
-  Afin de financer mon bonus avec l'argent des pigeons
-  En tant que trader
-  Je souhaite pouvoir additionner 2 chiffres
+    # language: fr
+    Fonctionnalité: Addition
+      Afin de financer mon bonus avec l'argent des pigeons
+      En tant que trader
+      Je souhaite pouvoir additionner 2 chiffres
 
-  Plan du Scénario: Addition de produits dérivés
-    Soit une calculatrice
-    Etant donné qu'on tape <a>
-    Et qu'on tape <b>
-    Lorsqu'on tape additionner
-    Alors le résultat doit être <somme>
+      Plan du Scénario: Addition de produits dérivés
+        Soit une calculatrice
+        Etant donné qu'on tape <a>
+        Et qu'on tape <b>
+        Lorsqu'on tape additionner
+        Alors le résultat doit être <somme>
 
-  Exemples:
-    | a | b | somme |
-    | 2 | 2 | 4     |
-    | 2 | 3 | 5     |
-{% endhighlight %}
+      Exemples:
+        | a | b | somme |
+        | 2 | 2 | 4     |
+        | 2 | 3 | 5     |
 
 ## What's coming
 
