@@ -10,14 +10,15 @@ cacheable: false
       h1 Upcoming Events
       p
         | Discover meetups, conferences and trainings where you can meet like-minded Cucumber and BDD practitioners.
+      p
+        a.btn.btn-success href="/add-events" Add your own event
 
-      .row
-        .col-md-8
-          ul.date-list
-            - site['events'].each do |event|
-              li.event
-                span.date= event.dtstart.strftime("%b %d, %Y")
-                a.summary< href=event.url = event.summary
-
-        .col-md-4
-          a.btn.btn-success href="/add-events" Add your own event
+      table.table
+        - site['events'].each do |event|
+          tr
+            td
+              span.date= event.dtstart.strftime("%b %d, %Y")
+            td
+              a.summary< href=event.url = event.summary
+              br
+              span.location= event.location

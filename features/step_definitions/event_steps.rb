@@ -10,5 +10,5 @@ When(/^I list the upcoming events$/) do
 end
 
 Then(/^I see "([^"]*)" session in the list of events$/) do |expected_event_summary|
-  expect(page).to have_css('.event .summary', text: expected_event_summary)
+  expect(page).to have_css('.summary', text: expected_event_summary)
 end
