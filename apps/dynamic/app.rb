@@ -11,6 +11,7 @@ require 'less'
 require 'sass'
 require 'uglifier'
 require 'rollbar'
+require 'rollbar/middleware/sinatra'
 require 'autoprefixer-rails'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
@@ -53,6 +54,7 @@ module Website
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
 
+    use Rollbar::Middleware::Sinatra
     register Sinatra::AssetPipeline
     AutoprefixerRails.install(sprockets)
 
