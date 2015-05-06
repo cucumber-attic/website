@@ -7,19 +7,20 @@
 @brand-green:         #00A818;
 @brand-purple:        #3E10AF;
 @brand-black:         #1B1D1E;
+@brand-gray:          #65696B;
+@brand-blue:          #004FFF;
 
 // Secondary colours
-@brand-gray:          #65696B;
-@brand-gray-lighter:  #EFEFEF;
 
+@brand-gray-lighter:  #EFEFEF;
 @brand-green-light:   #39B54A;
 @brand-green-lighter: #CEF257;
-
-@brand-blue:          #004FFF;
 @brand-blue-light:    #337DFF;
 
-// Bootstrap Overrides - mostly in variables.less
+// Additional colours - derived from guidelines
+@brand-blue-dark:     darken(@brand-blue, 8%);
 
+// Bootstrap Overrides - mostly in variables.less
 @gray-base:           @brand-black;
 @gray-darker:         lighten(@gray-base, 20%);
 @gray-dark:           lighten(@gray-base, 40%);
@@ -34,7 +35,7 @@
 @brand-danger:        @brand-red;
 
 @text-color:          @brand-black;
-@link-color:          @brand-blue;
+@link-color:          @brand-blue-dark;
 @link-hover-color:    @brand-purple;
 
 @code-color:          @brand-black;

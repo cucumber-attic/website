@@ -15,6 +15,17 @@
       text-decoration: underline;
     }
   }
+  .navbar-brand {
+    height: 55px;
+  }
+  .navbar-toggle {
+    border-color: white;
+    .icon-bar { background-color: white; }
+    &:hover, &:focus {
+      background: white;
+      .icon-bar { background-color: @brand-gray; }
+    }
+  }
   &.blog {
     background-color: @brand-gray;
     .navbar-nav > li > a {
@@ -39,6 +50,15 @@
       }
     }
   }
+  &.pro {
+    background-color: @brand-black;
+
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: @brand-black;
+      }
+    }
+  }
   &.support {
     background-color: @brand-purple;
 
@@ -46,17 +66,6 @@
       &.active, &:hover {
         color: @brand-purple;
       }
-    }
-  }
-  .navbar-brand {
-    height: 55px;
-  }
-  .navbar-toggle {
-    border-color: white;
-    .icon-bar { background-color: white; }
-    &:hover, &:focus {
-      background: white;
-      .icon-bar { background-color: @brand-green; }
     }
   }
 
