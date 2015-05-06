@@ -9,7 +9,7 @@ link href=(site['url'] + '/feed.xml') rel="alternate" title="Cucumber News" type
 link href=(site['url'] + '/events-feed.xml') rel="alternate" title="Cucumber Events" type="application/rss+xml" /
 
 title
-  - if title == "Cucumber"
+  - if ["Cucumber", "Cucumber Pro"].include? title
     = title
   - else
     = title
