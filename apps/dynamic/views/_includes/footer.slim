@@ -2,6 +2,9 @@ footer.container-fluid.main-footer
   .col-lg-12
     p.text-center
       | Copyright © Cucumber Ltd 2014-2015
+      - if locals['press_url']
+        span<> -
+        a href=(locals['press_url']) Press
     p.text-center
       a href="tel:+442087206842" +44 20 8720 6842 (Europe)
     p.text-center
