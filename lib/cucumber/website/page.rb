@@ -148,7 +148,7 @@ module Cucumber
       end
 
       def renderer
-        constantize(locals['renderer']) if locals['renderer']
+        locals['renderer'] ? constantize(locals['renderer']) : RedcarpetRenderer
       end
 
       def layout
