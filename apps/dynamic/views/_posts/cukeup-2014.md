@@ -8,7 +8,7 @@ nav: blog
 
 Cucumber has had its own conference since 2010. This year, based on your feedback, we've expanded CukeUp to two days packed with talks and workshops.
 
-<a role="button" class="btn btn-success" href="https://cucumber.pro/cukeup">Find out more</a>
+<a role="button" class="btn btn-success" href="https://cucumber.io/cukeup">Find out more</a>
 
 The Cucumber community is constantly growing, and this year we welcome two new official members - [Behat/PHP](http://behat.org/) and [SpecFlow/.NET](http://www.specflow.org/).
 
@@ -22,7 +22,7 @@ CukeUp isn’t just for geeks. Product owners, testers and business analysts are
 
 That’s why we’ve added a full day of hands-on workshops. The workshops will allow you to get into depth about the aspects of BDD and Specification by Example that interest you the most.
 
-<a role="button" class="btn btn-success" href="https://cucumber.pro/cukeup">Register now</a>
+<a role="button" class="btn btn-success" href="https://cucumber.io/cukeup">Register now</a>
 
 ## Call for papers
 

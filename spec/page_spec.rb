@@ -28,7 +28,7 @@ module Cucumber::Website
 
       it "has a url" do
         page = Page.new(config, File.join(views, 'school.slim'), views)
-        expect(page.url).to eq("https://cukes.info/school")
+        expect(page.url).to eq("https://cucumber.io/school")
       end
     end
 
@@ -40,7 +40,7 @@ module Cucumber::Website
       end
 
       it "has a url" do
-        expect(page.url).to eq("https://cukes.info/blog/2015/01/13/matt-on-test-talks")
+        expect(page.url).to eq("https://cucumber.io/blog/2015/01/13/matt-on-test-talks")
       end
     end
 

@@ -23,7 +23,7 @@ correctly. Just make sure you have committed and pushed all your changes before 
 run Cucumber with this formatter.
 
 You will need a special token to authenticate agains Cucumber Pro. Just email us at
-<a href="mailto:hello@cucumber.pro">hello@cucumber.pro</a> and tell us your GitHub
+<a href="mailto:hello@cucumber.io">hello@cucumber.io</a> and tell us your GitHub
 or Bitbucket user name and we'll send you the token. Later you will be able to get
 this token from the webapp.
 

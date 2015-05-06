@@ -20,7 +20,7 @@ Cucumber School is in beta. I'll be honest about what that means: We haven't fin
 So what are we doing opening up for business already? Well, we believe wholeheartedly in that old adage [*release early, release often. And listen to your customers.*](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html) We don't want to hide ourselves in the basement for weeks fiddling with video editors. We want to get started, working with you to make sure the course meets your needs.
 
 We're confident in [our syllabus]({{ site.url }}/school.html#content) and [our method](/school.html#method), but this will be the first time we've ever tried to teach this stuff to people without being in the same room. I find that a bit scary, but the feedback
-<a href="mailto:hello@cucumber.pro?subject=Cucumber School">we have received</a> so far at has been all positive.
+<a href="mailto:hello@cucumber.io?subject=Cucumber School">we have received</a> so far at has been all positive.
 
 So join us on our journey! Since you'll have to wait for content - we're committing to publishing a new lesson every two weeks - we're offering anyone who [signs up now a 25% discount]({{ site.url }}/school.html#buy) off the full price.
 

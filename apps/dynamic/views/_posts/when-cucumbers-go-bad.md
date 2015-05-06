@@ -50,4 +50,4 @@ Do your team want to be really excellent?
 
 ----
 
-Like this post? You can [hire Matt](https://cucumber.pro/training.html) to coach or train your team, or join us on one of our upcoming [public courses](http://kickstartacademy.io/courses/bdd-kickstart). [Get in touch](mailto:hello@cucumber.pro?subject=Private%20Cucumber%20training) anytime to discuss your needs.
+Like this post? You can [hire Matt](https://cucumber.io/training) to coach or train your team, or join us on one of our upcoming [public courses](http://kickstartacademy.io/courses/bdd-kickstart). [Get in touch](mailto:hello@cucumber.io?subject=Private%20Cucumber%20training) anytime to discuss your needs.

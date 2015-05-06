@@ -99,7 +99,7 @@ course](http://kickstartacademy.io/courses/bdd-kickstart) in London next week?
 [business plan]({{ site.url }}/2014/04/16/cucumber-limited.html) we've
 delivered several private training classes in the past few months.
 
-We also co-organised [CukeUp!](https://cucumber.pro/cukeup/), which took a fair
+We also co-organised [CukeUp!](https://cucumber.io/cukeup/), which took a fair
 amount of time.
 
 ## Going forward

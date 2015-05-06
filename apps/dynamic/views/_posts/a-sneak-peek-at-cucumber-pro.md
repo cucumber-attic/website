@@ -26,7 +26,7 @@ This lets business analysts, testers and programmers collaborate and form a shar
 
 ## Autocomplete
 
-As the number of executable specifications grow, teams build a library of [step definitions](http://cukes.info/step-definitions.html) that can be reused.
+As the number of executable specifications grow, teams build a library of [step definitions](http://cucumber.io/step-definitions.html) that can be reused.
 
 However, remembering the exact wording of step definitions is hard. This is why Cucumber Pro suggests them for you as you type.
 

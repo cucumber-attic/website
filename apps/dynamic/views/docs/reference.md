@@ -163,7 +163,7 @@ Scenario: feeding a small suckler cow
   Given the cow weighs 450 kg
   When we calculate the feeding requirements
   Then the energy should be 26500 MJ
-  And the protein should be 215 kg  
+  And the protein should be 215 kg
 
 Scenario: feeding a small suckler cow
   Given the cow weighs 500 kg
@@ -181,7 +181,7 @@ Scenario Outline: feeding a suckler cow
   Given the cow weighs <weight> kg
   When we calculate the feeding requirements
   Then the energy should be <energy> MJ
-  And the protein should be <protein> kg  
+  And the protein should be <protein> kg
 
   Examples:
     | weight | energy | protein |
@@ -262,9 +262,9 @@ Data Tables are handy for specifying a larger piece of data:
 ```gherkin
 Given the following users exist:
   | name   | email               | twitter         |
-  | Aslak  | aslak@cucumber.pro  | @aslak_hellesoy |
-  | Julien | julien@cucumber.pro | @jbpros         |
-  | Matt   | matt@cucumber.pro   | @mattwynne      |
+  | Aslak  | aslak@cucumber.io  | @aslak_hellesoy |
+  | Julien | julien@cucumber.io | @jbpros         |
+  | Matt   | matt@cucumber.io   | @mattwynne      |
 ```
 
 Just like [Doc Strings](#doc-strings), Data Tables will be passed to the

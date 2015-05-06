@@ -18,7 +18,7 @@ module Cucumber::Website
       events.sync
 
       cukeup_australia = events.to_a[1]
-      expect(cukeup_australia.url.to_s).to eq('https://cukes.info/events/cukeup-australia-2015')
+      expect(cukeup_australia.url.to_s).to eq('https://cucumber.io/events/cukeup-australia-2015')
       expect(cukeup_australia.url.class).to eq(Icalendar::Values::Uri)
     end
 

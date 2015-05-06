@@ -10,15 +10,15 @@ show_ribbon: false
 authors:
   aslak:
     display_name: Aslak Hellesøy
-    email: aslak@cucumber.pro
+    email: aslak@cucumber.io
     gravatar: 0be0e4aa42aacd9a8a95c792de273ca7
   matt:
     display_name: Matt Wynne
-    email: matt@cucumber.pro
+    email: matt@cucumber.io
     gravatar: cdf378de2284d8acf137122e541caa28
   julien:
     display_name: Julien Biezemans
-    email: julien@cucumber.pro
+    email: julien@cucumber.io
     gravatar: 07193608fb3c70b2a9449d6cafd6d31a
   paul:
     display_name: Paul Rayner
