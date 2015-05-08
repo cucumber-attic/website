@@ -9,7 +9,7 @@ renderer: Cucumber::Website::Reference
 Cucumber is not a Browser Automation tool, but it works well with Browser
 Automation tools such as:
 
-* [Selenium Webdriver](http://docs.seleniumhq.org/projects/webdriver/).
+* [Selenium Webdriver](http://docs.seleniumhq.org/projects/webdriver/)
 * [Watir](http://watir.com/)
 
 ## Selenium WebDriver
