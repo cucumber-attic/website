@@ -10,7 +10,7 @@ Cucumber is not a Browser Automation tool, but it works well with Browser
 Automation tools such as:
 
 * [Selenium Webdriver](http://docs.seleniumhq.org/projects/webdriver/)
-* [Capybara](http://jnicklas.github.io/capybara/)
+* [Capybara](https://jnicklas.github.io/capybara/)
 * [Watir](http://watir.com/)
 
 ## Selenium WebDriver
