@@ -39,6 +39,7 @@ HTML
         languages = carousels.map do |c|
           c.split(/\n/).map { |l| l =~ /^```(\w+)/ ? $1 : nil }.compact
         end
+        languages.reject! {|l| l.empty?} # Allows ``` without language in a carousel (for shell code)
         unique_languages = languages.uniq
         raise "Inconsistent carousel languages: #{languages.inspect}" if unique_languages.length > 1
         unique_languages[0] || []

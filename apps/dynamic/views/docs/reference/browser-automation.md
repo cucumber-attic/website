@@ -20,9 +20,9 @@ We can express the example as the following Scenario:
 
 ```gherkin
 Scenario: Finding some cheese
-	Given I am on the Google search page
-	When I search for "Cheese!"
-	Then the page title should start with "cheese"
+  Given I am on the Google search page
+  When I search for "Cheese!"
+  Then the page title should start with "cheese"
 ```
 
 Here are the accompanying Step Definitions:
@@ -41,7 +41,7 @@ public class ExampleSteps {
 
     @Given("^I am on the Google search page$")
     public void I_visit_google() {
-      driver.get("https://www.google.com");
+        driver.get("https://www.google.com");
     }
 
     @When("^I search for \"(.*)\"$")
@@ -58,9 +58,9 @@ public class ExampleSteps {
         // Google's search is rendered dynamically with JavaScript.
         // Wait for the page to load, timeout after 10 seconds
         (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
-            public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase().startsWith("cheese");
-            }
+          public Boolean apply(WebDriver d) {
+          return d.getTitle().toLowerCase().startsWith("cheese");
+          }
         });
         assertThat(driver.getTitle(), startsWith("cheese"));
         // Should see: "cheese! - Google Search"
@@ -73,46 +73,6 @@ public class ExampleSteps {
 }
 ```
 
-```groovy
-// TODO! See the Java example for now.
-```
-
-```javascript
-// TODO! See the Java example for now.
-```
-
-```clojure
-; TODO! See the Java example for now.
-```
-
-```cpp
-// TODO! See the Java example for now.
-```
-
-```csharp
-// TODO! See the Java example for now.
-```
-
-```fsharp
-// TODO! See the Java example for now.
-```
-
-```lua
--- TODO! See the Java example for now.
-```
-
-```python
-# TODO! See the Java example for now.
-```
-
-```scala
-// TODO! See the Java example for now.
-```
-
-```tcl
-# TODO! See the Java example for now.
-```
-
 [/carousel]
 
 ## Watir
@@ -120,6 +80,55 @@ public class ExampleSteps {
 TODO
 
 ## Tips and Tricks
+
+### Multiple Browsers
+
+Cucumber can run your scenarios with different browsers. Simply select the browser
+to use based on a configuration property that is loaded at runtime:
+
+[carousel]
+
+```ruby
+Capybara.register_driver :selenium do |app|
+  browser = (ENV['browser'] || 'firefox').to_sym
+  Capybara::Selenium::Driver.new(app, :browser => browser)
+end
+```
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebDriverFactory {
+    public static WebDriver createWebDriver() {
+        String webdriver = System.getProperty("browser", "firefox");
+        switch(webdriver) {
+            case "firefox":
+                return new FirefoxDriver();
+            case "chrome":
+                return new ChromeDriver();
+            default:
+                throw new RuntimeException("Unsupported webdriver: " + webdriver);
+        }
+    }
+}
+```
+[/carousel]
+
+Then, simply define the browser property when you run Cucumber:
+
+[carousel]
+
+```
+browser=chrome cucumber
+```
+
+```
+mvn test -Dbrowser=chrome
+```
+
+[/carousel]
 
 ### Re-using the browser window
 
