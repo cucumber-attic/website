@@ -517,16 +517,17 @@ previous run will be run again. This can reduce time spent fixing a bug when run
 scenarios is time-consuming.
 
 If you are looking for a way to automatically rerun non-deterministic, or _flickering_ scenarios
-in the same Cucumber run, the rerun formatter will not help you. It's meant to be used
-in a workflow where your scenarios are deterministic, and where you make a change (for the better)
-to your scenarios or your system between each Cucumber run.
+in the same Cucumber run, the rerun report will not help you. It's meant to be used
+in a workflow where your scenarios are failing deterministically, and where you change
+scenarios or the system to make them pass between each Cucumber run.
 
 If you have non-deterministic scenarios you have a deeper problem that Cucumber can't solve.
-You have to determine the root cause of the non-determinism, and address it yourself.
+You have to determine the root cause of the non-determinism, and address that yourself.
 
 ## Report attachments
 
-Programmers can embed text, images and even video into reports via an API that is available in [Step Definitions](#step-definitions)
+Text, images and even video can be embedded into certain reports via an API that is
+available in [Step Definitions](#step-definitions)
 and [Hooks](#hooks).
 
 This can make it easier to diagnose failures. Some [reports](#reports) will ignore embedded data while others will include it.
