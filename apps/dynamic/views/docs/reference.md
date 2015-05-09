@@ -506,7 +506,23 @@ who will use it to generate visual reports.
 
 ### Rerun
 
-This report generates a file that lists the location of failed Scenarios. This can be picked up by subsequent Cucumber runs, allowing only previously failed Scenarios to be rerun. Programmers may find this useful while fixing broken scenarios, especially if running all scenarios is time-consuming.
+The rerun report is a file that lists the location of failed Scenarios. This can be picked up by subsequent Cucumber runs:
+
+```
+cucumber @rerun.txt
+```
+
+This is useful while fixing broken scenarios, as only the scenarios that failed in the
+previous run will be run again. This can reduce time spent fixing a bug when running all
+scenarios is time-consuming.
+
+If you are looking for a way to automatically rerun non-deterministic, or _flickering_ scenarios
+in the same Cucumber run, the rerun formatter will not help you. It's meant to be used
+in a workflow where your scenarios are deterministic, and where you make a change (for the better)
+to your scenarios or your system between each Cucumber run.
+
+If you have non-deterministic scenarios you have a deeper problem that Cucumber can't solve.
+You have to determine the root cause of the non-determinism, and address it yourself.
 
 ## Report attachments
 
