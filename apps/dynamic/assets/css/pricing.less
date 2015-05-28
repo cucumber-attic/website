@@ -48,7 +48,7 @@
     del {
       font-size: 18px;
       opacity: .8;
-      font-weight: normal;
+      font-weight: @font-weight-normal;
     }
   }
 
@@ -62,7 +62,7 @@
 
   .discount {
     font-size: 14px;
-    font-weight: normal;
+    font-weight: @font-weight-normal;
   }
 
   .language-logo(@image) {
@@ -79,7 +79,7 @@
 
   &.buy-action {
     .btn {
-      font-weight: bold;
+      font-weight: @font-weight-bold;
       font-size: 20px;
       background: @brand-orange;
       border: none;
@@ -122,6 +122,6 @@
 }
 
 .price-table li.sold-out {
-  font-weight: bold;
+  font-weight: @font-weight-bold;
   color: darkred;
 }
