@@ -24,6 +24,10 @@ authors:
     display_name: Paul Rayner
     email: paul@virtual-genius.com
     gravatar: 4ce180eb1538932a4cc5b14c9eb0e83b
+  theo:
+    display_name: Theo England
+    email: theo@cucumber.io
+    gravatar: 3c0add79465e37e2d8514628829fb097
 
 versions:
   cucumber_jvm: 1.2.2
