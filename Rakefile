@@ -1,4 +1,5 @@
 $: << File.dirname(__FILE__) + '/lib'
+ENV["RACK_ENV"] ||= "development"
 
 require 'sinatra/asset_pipeline/task'
 require './apps/dynamic/app'

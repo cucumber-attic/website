@@ -1,4 +1,5 @@
 $: << File.dirname(__FILE__) + '/lib'
+ENV['RACK_ENV'] ||= "development"
 
 Dir['apps/*'].each do |path|
   require_relative path + '/app'

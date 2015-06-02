@@ -7,6 +7,7 @@ module Cucumber
       include Utils
 
       def load_config(env)
+        raise "Environment not defined" unless env
         config = {
           'site' => YAML.load_file(File.dirname(__FILE__) + "/../../../apps/dynamic/_config.yml")
         }
