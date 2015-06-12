@@ -31,7 +31,14 @@ Cucumber-JVM supports the following JVM languages:
 Cucumber-JVM consists of several modules (jars) that you can download from the [public maven repo](http://repo1.maven.org/maven2/info/cukes/).
 There is no "setup" program for Cucumber-JVM---just jar files.
 
-If you like living dangerously you can also get `SNAPSHOT` builds from the [sonatype snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/info/cukes/).
+What jar files to add to your project classpath depends on what programming language you are using. If you
+are using Java, you may want to add one of the jars for [dependency injection](/docs/reference/java-di) as well.
+
+### Snapshot releases
+
+If you want to take advantage of functionality that has been committed to the git master branch, but hasn't been released to the public maven repo yet, you can use `SNAPSHOT` builds from the [sonatype snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/info/cukes/).
+
+Just add the following to your `pom.xml`:
 
 ```xml
 <repository>
@@ -43,7 +50,18 @@ If you like living dangerously you can also get `SNAPSHOT` builds from the [sona
 </repository>
 ```
 
-## Running
+Then add a dependency to the snapshot version, for example:
+
+```xml
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>{{ site.versions.cucumber_jvm }}-SNAPSHOT</version>
+    <scope>test</scope>
+</dependency>
+```
+
+## Running Cucumber
 
 There are several ways to run scenarios with Cucumber-JVM:
 
@@ -151,7 +169,7 @@ with `@smoke`:
 mvn test -Dcucumber.options="--tags @smoke"
 ```
 
-### List all options
+### List configuration options
 
 To print out all the available configuration options, simply pass the `--help` option.
 For example:
