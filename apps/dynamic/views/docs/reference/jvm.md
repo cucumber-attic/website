@@ -42,11 +42,11 @@ Just add the following to your `pom.xml`:
 
 ```xml
 <repository>
-  <id>sonatype-snapshots</id>
-  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
+    <id>sonatype-snapshots</id>
+    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    <snapshots>
+        <enabled>true</enabled>
+    </snapshots>
 </repository>
 ```
 
