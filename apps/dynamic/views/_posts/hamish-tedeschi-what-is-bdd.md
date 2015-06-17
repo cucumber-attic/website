@@ -6,7 +6,7 @@ date:     2015-06-18 09:00:00
 nav:      blog
 ---
 
-![hamish photo](https://cloud.githubusercontent.com/assets/12295926/8060928/daf3d858-0ebf-11e5-8bd0-0a0cc6e21b85.jpg)
+<img src="{{ site.url }}/images/blog/hamish.jpg" style="float:right; width:50%">
 
 
 *This is a guest post by Hamish Tedeschi, Managing Director of [Magentys](http://magentys.io/). Hamish is also a co-organiser of CukeUp! AU, coming to Sydney at the end of 2015. [Click here](https://cucumber.io/events/cukeup-australia-2015) for more details on CukeUp! AU.*
