@@ -28,6 +28,10 @@ authors:
     display_name: Theo England
     email: theo@cucumber.io
     gravatar: 3c0add79465e37e2d8514628829fb097
+  hamish:
+    display_name: Hamish Tedeschi
+    email: hamish@cucumber.io
+    gravatar: 491881c44e5dbb6b9a7594b5b653df49
 
 versions:
   cucumber_jvm: 1.2.2
