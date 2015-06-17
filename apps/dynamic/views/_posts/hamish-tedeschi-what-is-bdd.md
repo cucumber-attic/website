@@ -6,11 +6,12 @@ date:     2015-06-18 09:00:00
 nav:      blog
 ---
 
-<img src="{{ site.url }}/images/blog/hamish.jpg" style="float:right; width:50%">
 
 
 *This is a guest post by Hamish Tedeschi, Managing Director of [Magentys](http://magentys.io/). Hamish is also a co-organiser of CukeUp! AU, coming to Sydney at the end of 2015. [Click here](https://cucumber.io/events/cukeup-australia-2015) for more details on CukeUp! AU.*
 ***
+
+<img src="{{ site.url }}/images/blog/hamish.jpg" style="float:right; width:50%">
 
 2 successful days at [YOW! West](http://west.yowconference.com.au/) have just come to a close - my first YOW! conference, but definitely not my last. I made some new friends and also learnt quite a bit - time to learn some Clojure, I think! The theme of the two days was, without doubt, microservices, but that also seemed to be surrounded by another theme of collaboration and building the right thing. This seems to be a constant recurring theme in all conferences and companies I visit. How do we build the right thing in the face of misunderstandings, miscommunications and mistakes? It is THE most difficult thing... Coding is the easy part, that is just implementation detail. Too often we get hung up on the technology stack or the tools we may be going to use to achieve the job, when it seems using post-it notes can add more value than the alternatives. Don't get me wrong, I'm a big proponent of BDD, especially when done well, as I have seen the benefits first hand. But it seems we keep getting BDD wrong, even when we talk about it at these conferences or try to deliver a project using it.
 
