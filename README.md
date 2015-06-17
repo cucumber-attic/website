@@ -32,3 +32,16 @@ it but you might want to try it locally:
 
     RACK_ENV=production bundle exec rake assets:precompile
     RACK_ENV=production bundle exec foreman start
+    
+###How to add a blog post
+
+* Go to https://github.com/cucumber/website/tree/master/apps/dynamic/views/_posts.  
+* Open a previous blog post for reference and for the format header (new tab)  
+* On the toolbar, click the '+' button.  
+* Name new file with hyphens and ending with .md  
+* C&P previous post format header into new file  
+* Adjust format according to new post  
+* C&P blog post markdown  
+* Change to preview to see live changes  
+* Once ready, update description and commit.  
+* Watch build status to check if it has been post
