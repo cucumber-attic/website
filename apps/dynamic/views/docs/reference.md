@@ -36,7 +36,7 @@ followed by any text you like. The main keywords are:
 
 * `Feature`
 * `Scenario`
-* `Given `, `When `, `Then ` (Steps)
+* `Given `, `When `, `Then `, `And `, `But `  (Steps)
 * `Background`
 * `Scenario Outline`
 * `Examples`
