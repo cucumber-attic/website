@@ -165,7 +165,7 @@ Scenario: feeding a small suckler cow
   Then the energy should be 26500 MJ
   And the protein should be 215 kg
 
-Scenario: feeding a small suckler cow
+Scenario: feeding a medium suckler cow
   Given the cow weighs 500 kg
   When we calculate the feeding requirements
   Then the energy should be 29500 MJ
