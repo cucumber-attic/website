@@ -30,8 +30,8 @@ module Cucumber::Website
 
       cukeup_australia_page = event_pages.find {|page| page.title == 'CukeUp Australia'}
       expect(cukeup_australia_page).to_not be_nil
-      expect(cukeup_australia_page.dtstart.strftime('%Y%m%d')).to eq('20151203')
-      expect(cukeup_australia_page.dtend.strftime('%Y%m%d')).to eq('20151204')
+      expect(cukeup_australia_page.dtstart.strftime('%Y%m%d')).to eq('20151119')
+      expect(cukeup_australia_page.dtend.strftime('%Y%m%d')).to eq('20151120')
     end
 
     it "updates after the ical feed changes" do
