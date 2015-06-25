@@ -63,9 +63,9 @@ module Website
 
     pages = Page.all(CONFIG, views)
 
-    CONFIG['site']['posts'] = pages.select(&:post?).sort do |a, b|
-      b.date <=> a.date
-    end
+    CONFIG['site']['posts'] =
+      pages.select(&:post?).select { |page| page.date < Time.now }
+      .sort { |a, b| b.date <=> a.date }
 
     calendar_logger = Logger.new($stderr)
     calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
