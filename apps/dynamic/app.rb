@@ -112,6 +112,11 @@ module Website
       end
     end
 
+    error 500 do
+      status 500
+      slim :error
+    end
+
     not_found do
       path_info = env['PATH_INFO']
       Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
