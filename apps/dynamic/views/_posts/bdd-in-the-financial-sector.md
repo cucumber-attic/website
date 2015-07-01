@@ -13,7 +13,7 @@ nav:      blog
 
 This article was first published for the Excelian Spark Magazine. You can find the original on their [website](excelian.com/blog/behaviour-driven-development-bdd-in-the-finance-sector/). 
 
-![enter image description here](https://cucumber.io/images/blog/bad-project.png)
+![Bad Project, Swing image](https://cucumber.io/images/blog/bad-project.png)
 
 ###Introduction
 
