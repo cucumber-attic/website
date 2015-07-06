@@ -8,7 +8,7 @@ nav:      blog
 
 
 
-*This is a guest post by Hamish Tedeschi, Managing Director of [Magentys](http://magentys.io/). Hamish is also a co-organiser of CukeUp! AU, coming to Sydney at the end of 2015. [Click here](https://cucumber.io/events/cukeup-australia-2015) for more details on CukeUp! AU.*
+*This is a guest post by Hamish Tedeschi, Managing Director of [MagenTys] Australia(http://magentys.io/). Hamish is also a co-organiser of CukeUp! AU, coming to Sydney at the end of 2015. [Click here](https://cucumber.io/events/cukeup-australia-2015) for more details on CukeUp! AU.*
 ***
 
 <img src="{{ site.url }}/images/blog/hamish.jpg" style="float:right; width:50%">
