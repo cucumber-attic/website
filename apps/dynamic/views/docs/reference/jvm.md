@@ -61,6 +61,8 @@ Then add a dependency to the snapshot version, for example:
 </dependency>
 ```
 
+You can find the current snapshot version number [here](https://github.com/cucumber/cucumber-jvm/blob/master/pom.xml).
+
 ## Running Cucumber
 
 There are several ways to run scenarios with Cucumber-JVM:
