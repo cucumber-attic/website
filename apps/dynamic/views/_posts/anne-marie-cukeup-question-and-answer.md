@@ -11,7 +11,7 @@ nav:      blog
 *In the build up to our first CukeUp! in Australia we'll be running a series of Q&A sessions with our speakers. First up our keynote, Anne-Marie Charrett. Anne-Marie is an experienced tester and currently works at Tyro Payments in Sydney. We caught up to discuss her views on Behaviour-Driven Development and what folks can expect from her first [CukeUp!](https://cucumber.io/events/cukeup-australia-2015) appearance.*
 ***
 
-<img src="https://cucumber.io/images/blog/amcharrett-2.jpg" style="float:right; width:50%">
+<img src="https://cucumber.io/images/blog/charrett-300.jpg" style="float:right; width:50%">
 
 
 **You are a self confessed Context Driven Tester. How does that fit in with working in a BDD world/environment and are there any challenges?**
