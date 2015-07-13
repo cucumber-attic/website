@@ -16,22 +16,22 @@ nav:      blog
 
 **You are a self confessed Context Driven Tester. How does that fit in with working in a BDD world/environment and are there any challenges?**
 
-BDD is a method of development (not testing) whose output happens to supply automated checks. So it's a bit like trying to compare apples and oranges. The problem comes when the assumption that BDD is a testing approach and it's used to attempt to solve testing challenges. Testing can be supplemented by BDD but its not a replacement too it.
+BDD is a method of development (not testing) whose output happens to supply automated checks. So it's a bit like trying to compare apples and oranges. The problem comes when the assumption that BDD is a testing approach and it's used to attempt to solve testing challenges. Testing can be supplemented by BDD but its not a replacement to it.
 
-A Context Driven Tester is one that understands nuance. We're naturally allergic to words like 'best practice'. The folks who created & developed BDD know it's more a philosophy than a best practice and that it's not suitable for all circumstances. . Unfortunately many who decide to use BDD to  'automate testing' don't have that level of understanding.
+A Context Driven Tester is one that understands nuance. We're naturally allergic to words like "best practice". The folks who created & developed BDD know it's more a philosophy than a best practice and that it's not suitable for all circumstances.. Unfortunately many who decide to use BDD to  "automate testing" don't have that level of understanding.
 
 
-**At CukeUp! AU your keynote talk is titled 'When your testing is in a pickle'. What do you want attendees to take away from your session?**
+**At CukeUp! AU your keynote talk is titled "When your testing is in a pickle". What do you want attendees to take away from your session?**
 
 Prescott’s Pickle Principle dictates: "Cucumbers get more pickled than brine gets cucumbered." (Jerry Weinberg),  meaning when we introduce a foreign object into an environment, the foreign object tends to be more impacted than the culture it lives in. We often look to automation (our cucumber) to solve our testing problem, but we forget the environment (the brine) in which automation lives.
 
 What does your brine look like? Is automation a silver bullet solution to a deeper problem that exists? Exactly what problem are you attempting to solve? Better quality? Faster throughput? Without some strategic thinking your "cucumber" may end up bloated with your brine remaining much the same. Is that what you want? This keynote looks at what it takes to develop a testing strategy that allows automation to support your testing strategy as opposed to defining it.
 
-**You are also founder of Speak Easy, an initiative to bring greater diversity to technology conferences. We're stoked that CukeUp! is a partner this year. How does Speak Easy work?**
+**You are also founder of [Speak Easy](http://speakeas.ie/), an initiative to bring greater diversity to technology conferences. We're stoked that CukeUp! is a partner this year. How does Speak Easy work?**
 
-Speak Easy is a non profit initiative created by myself and Fiona Charles to help mentor testers in becoming speakers. If you are a tester that wants to speak (or thinks you want to speak) all you need to do is sign up at http://speakeas.ie. We will allocate a mentor to you who will help you develop your speaking ideas, write abstracts and prepare your content. If you are a new speaker that wants to speak at CukeUp! signup to Speak Easy today!
+Speak Easy is a non profit initiative created by myself and Fiona Charles to help mentor testers in becoming speakers. If you are a tester that wants to speak (or thinks you want to speak) all you need to do is sign up [here](http://speakeas.ie/). We will allocate a mentor to you who will help you develop your speaking ideas, write abstracts and prepare your content. If you are a new speaker that wants to speak at CukeUp! signup to Speak Easy today!
 
-**You recently wrote a piece ‘Nice girls don't get the keynote’ in which you urge your readers to be more open to ask for keynotes. Where do you think responsibility lies regarding a lack of diversity at conferences generally?**
+**You recently wrote a piece "Nice girls don't get the keynote" in which you urge your readers to be more open to ask for keynotes. Where do you think responsibility lies regarding a lack of diversity at conferences generally?**
 
 Hey! I'm a context driven tester remember? There's not silver bullet answer here, of course responsibility lies with all of us.  That means, testers have to be courageous enough to put themselves forward, Mentors need to help grow talent and conferences need to support initiatives like Speak Easy. We've been blessed with great voluntary support so far and the conferences have really embraced this concept. What's missing though is a lack of organisational sponsorship to help fund our initiative. If we could hire someone to support our work that would really contribute to the success of this initiative.
 
@@ -49,7 +49,7 @@ People often attempt BDD in the belief that its a test automation process. It's 
 
 **You're a lecturer, consultant, engineering lead, and founder of Speak Easy. How do you split your days?**
 
-Hermione lent me her 'time turner' allowing me to increase the number of hours in the day. Seriously, what can I say? I'm a compulsive humanitarian.
+Hermione lent me her "time turner" allowing me to increase the number of hours in the day. Seriously, what can I say? I'm a compulsive humanitarian.
 
 ***
 *Anne-Marie will be speaking at Australia's first CukeUp! this November. For full details on the conference, head to our [website](https://cucumber.io/events/cukeup-australia-2015).*
