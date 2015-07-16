@@ -31,7 +31,7 @@ Feature: Refund item
     Then Jeff should be refunded $100
 ```
 
-In Gherkin, each line that isn't blank has start with a Gherkin *keyword*,
+In Gherkin, each line that isn't blank has to start with a Gherkin *keyword*,
 followed by any text you like. The main keywords are:
 
 * `Feature`
