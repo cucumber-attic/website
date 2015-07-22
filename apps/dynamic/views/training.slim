@@ -40,11 +40,11 @@ nav: training
         h2.section-heading Public courses
         p.lead
           | We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.
-        p
-          a.btn-brand-blue href="http://kickstartacademy.io/dates/bdd-san-francisco-usa" type="button"  Learn more and book tickets
+        / p
+        /   a.btn-brand-blue href="http://kickstartacademy.io/dates/bdd-san-francisco-usa" type="button"  Learn more and book tickets
         p.lead
           | Cucumber Ltd can arrange public training classes in Europe and the USA.
-          a<> href=("mailto:sales@cucumber.io?subject=Public BDD/Cucumber Training") Let us know
+          a<> href=("mailto:sales@cucumber.io?subject=Public BDD/Cucumber Training") onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Public Training');" Let us know
           | if you want to arrange a class in your city!
 .content-section-a
   .container
@@ -81,7 +81,7 @@ nav: training
         p.lead
           | Write automated tests for your existing code, with our expert guidance.
           | We'll show you advanced techniques for systems that are hard to test.
-        a.btn-brand-blue href=("mailto:sales@cucumber.io?subject=In-house BDD/Cucumber training")  Enquire Now
+        a.btn-brand-blue href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');" Enquire Now
       .col-lg-5.col-lg-offset-2.col-sm-6
         img.img-responsive alt="" src="/images/cukeup-2014/CukeUp-7451.jpg" /
 .content-section-b
