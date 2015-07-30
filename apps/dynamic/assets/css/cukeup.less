@@ -261,10 +261,50 @@ body {
   p {
     color: @color-dark;
     font-weight: 400;
+    line-height: 1.5;
   }
 
   &.three img {
     margin-left: 8px;
+  }
+}
+
+#description {
+  .wrap {
+    display: flex;
+    border-top: 1px dashed @color-gray;
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+  p {
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  a {
+    color: @color-deep;
+  }
+  strong { font-weight: 400; }
+
+  .intro {
+    width: 50%;
+    padding-right: 40px;
+    .teaser {
+      font-weight: 400;
+    }
+  }
+
+  .illustration {
+    margin: 0;
+    figcaption { font-size: 13px; }
+    img { width: 100%; }
+  }
+
+  .more {
+    width: 50%;
+    padding-left: 40px;
   }
 }
 
