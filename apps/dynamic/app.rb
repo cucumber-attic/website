@@ -50,7 +50,7 @@ module Website
     set :public_folder, Proc.new { File.join(root, 'public') }
     set :views, Proc.new { File.join(root, 'views') }
 
-    set :assets_precompile, %w(main.js main.css *.png *.jpg *.svg *.eot *.ttf *.woff *.woff2)
+    set :assets_precompile, %w(main.js main.css cukeup.js cukeup.css *.png *.jpg *.svg *.eot *.ttf *.woff *.woff2)
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
 
