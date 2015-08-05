@@ -7,107 +7,292 @@ dtstart: 2015-11-19 00:00:00
 dtend: 2015-11-20 00:00:00
 ---
 
-p
-  '
-    Sydney,
-  / span.date {{dtstart | date: "%b %-d"}} - {{dtend | date: "%b %-d"}} {{dtstart | date: "%Y"}}
-  span.date November 19th-20th
+- register_url = "https://ti.to/cukeupau/cukeup-au-nov-2015"
+- cfp_url = "https://cucumber.typeform.com/to/ljEhzN"
 
-.row
-  .col-md-8
-    p
-      '
-       CukeUp! is Sydney's first Behaviour-Driven Development focused conference for developers, testers, BAs, and product owners. Since 2011 we've been hosting CukeUp! in London and New York. Now we move to Sydney. The format has evolved slightly, with more workshops and speakers, but the fundamentals haven't changed. 
+header#leaderboard
+  .wrap
+    .event
+      .event-details
+        h3
+          strong> 19 & 20
+          abbr> title="November" Nov
+          | 2015
+        p Sydney, Australia
+      hgroup
+        h1
+          img.logo src="/images/cukeup/logos/cukeup.svg"
+        h2 A progressive conference for testers, developers and product owners who think differently
+      nav.main
+        ul
+          li
+            a href="#featured" Topics
+          li.hidden
+            a href="#schedule" Schedule
+          li
+            a href=cfp_url Submit your proposal
 
-    p
-      '
-       CukeUp! is the antidote to the front-facing conference. It is more of an ideas festival. A place that encourages everybody to contribute, not just those with a lapel mic and speaker badge. It resembles more of a party rather than a monolith conference. We host in old factories and prisons, not hotels or stuffy function rooms. 
+    .cta
+      a.button.register href=register_url Register now
 
-    p
-      '
-        And like any good party, you'll be exhausted after. 
+    .cta.hidden # TODO
+      | or
 
-    p
-      '
-        You'll have a new set of ideas to bring back to the office. Ideas that can be channeled to make a meaningful         difference in how you deliver software.
+      form.form-inline.js-ajaxchimp action="//cukes.us10.list-manage.com/subscribe/post?u=68b8acc491477423651de1ae7&amp;id=dbe40fa5cd" method="POST" target="_blank"
+        .form-group
+          input.form-control placeholder="Your email" type="email" name="EMAIL"/
+          / Spam protection
+          div style=("position: absolute; left: -5000px;")
+            input name="b_68b8acc491477423651de1ae7_dbe40fa5cd" tabindex="-1" type="text" value="" /
+        button.btn.btn-primary< type="submit" Sign up for CukeUp! news
 
-.row
-  .col-md-8
-    h2 Do you want to attend?
-    p
-      <a class="btn btn-primary" href="https://ti.to/cukeupau/cukeup-au-nov-2015">Tickets are now on sale!</a>
-    p
-      '
-        For those that are quick, we have a small batch of tickets at $400 for both days. This batch expires on July 31st, so book now! This is a fantastic opportunity to
-        learn about BDD alongside your peers and world leading experts.
+    ul.speakers
+      li
+        figure
+          figcaption Matt Wynne, Founder of Cucumber Ltd, author of The Cucumber Book
+          img src="/images/cukeup/speakers/matt-wynne.jpg" alt="Matt Wynne"
+      li
+        figure
+          figcaption Anne-Marie Charrett, Lead Test Engineer at Tyro
+          img src="/images/cukeup/speakers/anne-marie-charrett.jpg" alt="Anne-Marie Charrett"
+      li
+        figure
+          figcaption John Smart, Author of BDD in Action
+          img src="/images/cukeup/speakers/john-smart.jpg" alt="John Smart"
+      li
+        figure
+          figcaption Alister Scott, Lead Software Quality Engineer at Dominos
+          img src="/images/cukeup/speakers/alister-scott.jpg" alt="Alister Scott"
 
-    h2 Just curious?
-
-    form.form-inline.js-ajaxchimp action="//cukes.us10.list-manage.com/subscribe/post?u=68b8acc491477423651de1ae7&amp;id=dbe40fa5cd" method="POST" target="_blank"
-      .form-group
-        input.form-control placeholder="Your email" type="email" name="EMAIL"/
-        / Spam protection
-        div style=("position: absolute; left: -5000px;")
-          input name="b_68b8acc491477423651de1ae7_dbe40fa5cd" tabindex="-1" type="text" value="" /
-      button.btn.btn-primary< type="submit" Stay up-to-date with CukeUp! AU news
-
-  .col-md-4
-    img.img-responsive src="{{ site.url }}/images/events/4756831209_34f5b00324_z.jpg"
-    h6.small Reflections of Sydney by <a href="https://www.flickr.com/photos/dexxus/4756831209">Paul Bica</a>
-
-
-h2 CukeUp isn’t just for geeks - Here's the format
-
-.row
-  .col-md-8
-    p
-      '
-        In the 5 years that CukeUp has been running in London and NYC, we have had a diverse group of speakers and attendees: <strong>Product owners, business analysts, testers and programmers</strong>.
-        You are all fundamental to making BDD work, and our programme will reflect that.
-
-    p
-      '
-        Over both days, the format will switch from short talks to two-hour long workshops.
-        The workshops are designed to allow you to dive into specific aspects of BDD and Specification by Example that interest you the most.
-        Team up with fellow devs, testers, and BAs and work through problems together!
-
-  .col-md-4
-    img.img-responsive src="{{ site.url }}{{ image }}"
-
-h2 What is BDD?
-
-p
-  '
-    BDD is a set of practices that enables teams to produce more valuable software with fewer bugs.
-    It helps communicate requirements with more precision, discover defects early and produce software that remains maintainable over time.
-    At CukeUp! this year, learn tips and tricks from the world's leading BDD experts and practitioners, and share war stories with fellow BDD enthusiasts.
+    .cta
+      a.button.register href=cfp_url Submit your session
 
 
-h2 Speakers
+section#featured
+  .wrap
+    .feature.one
+      h1 Why?
+      figure
+        img src="/images/cukeup/icons/cup.png" alt=""
+      p CukeUp is small and friendly. You'll be inspired by great speakers one minute, then sitting next to them in a fun, hands-on workshop the next. We work hard to create a great atmosphere where ideas can flourish.
 
-p
-  '
-    We're chuffed to announce a few of the speakers that will be sharing their experience and expertise at CukeUp! AU.
+    .feature.two
+      h1 What?
+      figure
+        img src="/images/cukeup/icons/hands-on.png" alt=""
+      p A two-day conference in Sydney for people who care about building better software. Cucumber helps teams to collaborate. CukeUp brings those people together to educate and inspire one another.
 
-ul
-  li Matt Wynne (<a href="https://twitter.com/mattwynne">@mattwynne</a>) - Founder of Cucumber Ltd, author of The Cucumber Book
-  li Anne-Marie Charrett (<a href="https://twitter.com/charrett">@charrett</a>) Lead Test Engineer at Tyro
-  li John Smart (<a href="https://twitter.com/wakaleo">@wakaleo</a>) - Author of BDD in Action
-  li Alister Scott (<a href="https://twitter.com/watirmelon">@watirmelon</a>) Lead Software Quality Engineer at Dominos
+    .feature.three
+      h1 How?
+      figure
+        img src="/images/cukeup/icons/cucumber-slices.png" alt=""
+      p Each day has a beginning, a middle, and an end. People learn in different ways, so we mix things up, with 90-minute workshops sandwiched inbetween punchy 25-minute talks. You're never bored.
+section#whatis
+  .wrap
+    h2 Behaviour-Driven Development
 
-h2 Do you want to speak?
+    p BDD is a set of practices that enables teams to produce more valuable software with fewer bugs. It helps communicate requirements with more precision, discover defects early and produce software that remains maintainable over time.
 
-p
-  '
-    Great! The call for proposals has now opened:
-    <a href="https://cucumber.typeform.com/to/ljEhzN">submit your talk or workshop</a> now.
-    <strong>We’ll be closing the call for proposals on August 9th, so hurry!</strong>
-    We're proud to be partnering with Speak Easy, an initative to encourage new speakers to submit as well as bring greater diversity and depth to our line-up.
+    p CukeUp is a conference for anyone who wants to get better at BDD.
 
+section#venue
+  .wrap
+    h1 The Venue
+    p We believe that being in an inspiring space helps to inspire great ideas.
 
-h2 Do you want to sponsor?
+    p We host in old factories and prisons, not hotels or stuffy function rooms.
 
-p
-  '
-    If your business is looking to associate with great software practices and want to connect to a cross section of developers, testers, and BAs - get in touch!
-    Email us at <a href="mailto:cukeup-au@cucumber.io">cukeup-au@cucumber.io</a> to learn more about our tailored packages.
+    figure.illustration
+      img src="/images/events/cellblock-theatre-sydney.png"
+      figcaption
+        | Cell Block Theatre, Sydney
+
+    p For CukeUp Australia, we've chosen the National Art School's Cell Block Theatre in Sydney.
+
+    p Located in the heart of Darlinghurst, you're only a few minutes walk from the CBD, surrounded by great coffee shops and restaruants.
+
+section#schedule
+  header
+    .wrap
+      h1 Sydney 19 & 20 November 2015
+
+      .cta
+        a.button.register href=register_url Register now
+
+      / .venue
+      /   figure
+      /     img src="/images/cukeup/logos/sm-logo.png" alt="Skillsmatter logo"
+
+  .content.hidden
+    .wrap
+      .pannable
+        table
+          thead
+            tr.days
+              th colspan="13" Thursday 3 April
+              th colspan="13" Friday 4 April
+            tr.time
+              // Day one
+              td 08:30
+              td 09:00
+              td 10:00
+              td 10:15
+              td 11:00
+              td 11:15
+              td 12:00
+              td 12:45
+              td 13:30
+              td 14:15
+              td 14:30
+              td 15:15
+              td 16:00
+
+              // Day two
+              td 08:30
+              td 09:00
+              td 10:00
+              td 10:15
+              td 11:00
+              td 11:15
+              td 12:00
+              td 12:45
+              td 13:30
+              td 14:15
+              td 14:30
+              td 15:15
+              td 16:00
+
+          tbody
+            tr.track-name.one
+              th colspan="26" Track one
+            tr.track-programme.one
+              td
+                | Keynote: Opening
+                small Aslak Hellesoy
+              td
+              td
+                | Break
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+
+            tr.track-name.two
+              th colspan="26" Track two
+            tr.track-programme.two
+              td
+                | Keynote: Opening
+                small Aslak Hellesoy
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+
+            tr.track-name.three
+              th colspan="26" Track three
+            tr.track-programme.three
+              td
+                | Keynote: Opening
+                small Aslak Hellesoy
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+              td
+
+section#previous
+  .wrap
+    h1 Previous Years
+    p In the 5 years that CukeUp has been running in London and NYC, we've had a diverse group of speakers and attendees: <strong>Product owners, business analysts, testers and programmers</strong>. You are all fundamental to making BDD work, and our programme reflects that.
+
+    p Here are some of our favourite talks from previous years.
+
+    figure.illustration
+      a< href="https://vimeo.com/39660655" target="_blank"
+        img src="/images/events/matt.png"
+      figcaption
+        | Matt Wynne - Refuctoring your cukes
+
+    figure.illustration
+      a< href="https://skillsmatter.com/skillscasts/6228-illustrating-scenarios" target="_blank"
+        img src="/images/events/ulrika.png"
+      figcaption
+        | Ulrika Malmgren - Illustrating scenarios
+
+    figure.illustration
+      a< href="https://skillsmatter.com/skillscasts/6176-building-better-teams-and-the-real-business-value-of-bdd" target="_blank"
+        img src="/images/events/jo.jpg"
+      figcaption
+        | J​o Wickremasinghe - Building better teams and the real business value of BDD
+
+section#sponsors
+  .wrap
+    h1 Do you want to sponsor?
+    p If your business is looking to associate with great software practices and want to connect to a cross section of developers, testers, and BAs - get in touch! Email us at <a href="cukeup-au@cucumber.io">cukeup-au@cucumber.io</a> to learn more about our tailored packages.
+    / ul
+      / li
+      /   figure
+      /     img src="" alt=""
+      / li
+      /   figure
+      /     img src="" alt=""
