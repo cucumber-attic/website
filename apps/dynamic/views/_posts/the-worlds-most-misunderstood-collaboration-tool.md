@@ -90,8 +90,6 @@ Programmers and testers are comfortable with development tools. Most business an
 
 This is part of the reason why I co-founded Cucumber Ltd and our flagship product, [Cucumber Pro](https://cucumber.io/pro). Our goal is to provide a collaboration tool for Cucumber that is as easy to use as a word processor or social networking website.
 
-We also offer [training via Kickstart Academy](http://kickstartacademy.io/courses/bdd-kickstart) for teams who want to learn how to apply BDD and Specification by Example.
-
-[![Kickstart Academy]({{ site.url }}/images/blog/kickstart-academy.png)](http://kickstartacademy.io/courses/bdd-kickstart)
+We also offer [training](https://cucumber.io/training) for teams who want to learn how to apply BDD and Specification by Example.
 
 I am very excited about the future of Cucumber. I hope more teams will start to use it the way it was intended to be used.
