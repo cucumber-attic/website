@@ -31,6 +31,17 @@ header#leaderboard
     .cta
       a.button.register href=register_url Register now
 
+    .cta.hidden # TODO
+      | or
+
+      form.form-inline.js-ajaxchimp action="//cukes.us10.list-manage.com/subscribe/post?u=68b8acc491477423651de1ae7&amp;id=dbe40fa5cd" method="POST" target="_blank"
+        .form-group
+          input.form-control placeholder="Your email" type="email" name="EMAIL"/
+          / Spam protection
+          div style=("position: absolute; left: -5000px;")
+            input name="b_68b8acc491477423651de1ae7_dbe40fa5cd" tabindex="-1" type="text" value="" /
+        button.btn.btn-primary< type="submit" Sign up for CukeUp! news
+
     ul.speakers
       li
         figure
