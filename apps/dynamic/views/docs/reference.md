@@ -125,8 +125,8 @@ It's ok to have several `Given ` steps (just use `And ` or `But ` for number 2 a
 `When ` steps are used to describe an event, or an *action*. This can be a person interacting with the
 system, or it can be an event triggered by another system.
 
-It's strongly recommended you only have a single `When ` step per scenario. If you feel compelled to add more
-it's usually a sign that you should split the scenario up in multiple scenarios.
+It's strongly recommended you only have a single `When ` step per scenario. If you feel compelled to
+add more it's usually a sign that you should split the scenario up in multiple scenarios.
 
 #### Then
 
@@ -275,8 +275,9 @@ about how to access the rows and cells.
 
 ### Tags
 
-Tags is a way to group Scenarios. You can place as many tags above `Feature`,
-`Scenario`, `Scenario Outline` or `Examples` keywords.
+Tags are a way to group Scenarios. They are `@`-prefixed strings and you can place
+as many tags as you like above `Feature`, `Scenario`, `Scenario Outline` or
+`Examples` keywords. Space character are invalid in tags and may separate them.
 
 Tags are inherited from parent elements. For example, if you place a tag above
 a `Feature`, all scenarios in that feature will get that tag.
