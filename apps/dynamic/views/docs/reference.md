@@ -31,7 +31,7 @@ Feature: Refund item
     Then Jeff should be refunded $100
 ```
 
-In Gherkin, each line that isn't blank has start with a Gherkin *keyword*,
+In Gherkin, each line that isn't blank has to start with a Gherkin *keyword*,
 followed by any text you like. The main keywords are:
 
 * `Feature`
@@ -80,10 +80,10 @@ or [Scenario Outlines](#scenario-outline), and an optional [Background](#backgro
 
 ### Descriptions
 
-Some parts of Gherkin documents do not have to start with a keywords.
+Some parts of Gherkin documents do not have to start with a keyword.
 
 On the lines following a `Feature`, `Scenario`, `Scenario Outline` or `Examples`
-you can write anything you like, as long as it isn't a keyword.
+you can write anything you like, as long as no line starts witha key a keyword.
 
 ### Scenario
 
