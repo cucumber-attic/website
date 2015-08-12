@@ -22,7 +22,11 @@ task :backup_events do
   config['site']['calendars'].each do |url|
     file_name = "event-backup/#{Time.now.strftime('%Y%m%d')}-#{url.gsub(/[:\/]/, '-')}"
     file_name += '.ics' unless file_name =~ /\.ics/
-    File.open(file_name, 'w') { |io| io.write(open(url).read) }
+    begin
+      File.open(file_name, 'w') { |io| io.write(open(url).read) }
+    rescue OpenURI::HTTPError => e
+      STDERR.puts "\e[31m****** #{url}: #{e.message} ******\e[0m\n"
+    end
   end
 end
 
