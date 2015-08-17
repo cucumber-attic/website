@@ -47,7 +47,7 @@ module Cucumber::Website
     describe "as event" do
       it "has a title" do
         page = Page.new(config, File.join(views, 'events/cukeup-australia-2015.slim'), views)
-        expect(page.title).to eq("cukeup-australia-2015")
+        expect(page.title).to eq("CukeUp! Australia")
       end
     end
   end
