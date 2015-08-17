@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "Alister Scott - CukeUp! AU Q&A"
-date:     2015-08-12 09:00:00
+date:     2015-08-18 09:00:00
 nav:      blog
 ---
 
