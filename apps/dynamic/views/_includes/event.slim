@@ -1,13 +1,15 @@
 doctype html
 html lang="en"
   head
-    == slim '_includes/header'.to_sym, locals: locals
-    == stylesheet_tag 'cukeup', media: 'screen'
-  body
-    == slim '_includes/ribbon'.to_sym, locals: locals
-    == slim '_includes/nav-main'.to_sym, locals: locals
+    meta charset="utf-8"
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1" name="viewport"
 
+    title= title
+    link href="/images/favicon.png" rel="icon" type="image/png"
+    == stylesheet_tag 'cukeup', media: 'screen'
+
+  body
     == yield
 
-    == slim '_includes/footer'.to_sym, locals: locals
-    == javascript_tag 'main'
+    == javascript_tag 'cukeup'
