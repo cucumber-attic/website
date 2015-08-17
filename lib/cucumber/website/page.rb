@@ -53,7 +53,7 @@ module Cucumber
           @front_matter[$1] = args[0]
         else
           @front_matter.fetch(name.to_s) do
-            raise NoMethodError, name, caller
+            raise NoMethodError, name, [@file] + caller
           end
         end
       end
