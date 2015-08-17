@@ -27,7 +27,7 @@ Without giving away the whole talk, what are the benefits Domino's have seen sin
 
 **TE:** What turned your head when it came to progressive ideas around cross-functional teams and collaboration?
 
-**AS:** I’ve been thinking about this stuff for a number of years, and cross-functional teams, despite popular belief, pre-date things like the agile manifesto. The thing that really turned my head were the Spotify Engineering Culture videos as these show a very adaptive, flexible way of scaling software delivery without having traditional silos. Those two videos are a must watch as far as I am concerned.
+**AS:** I’ve been thinking about this stuff for a number of years, and cross-functional teams, despite popular belief, pre-date things like the agile manifesto. The thing that really turned my head were the Spotify Engineering Culture videos as these show a very adaptive, flexible way of scaling software delivery without having traditional silos. Those [two](https://vimeo.com/85490944) [videos](https://vimeo.com/94950270) are a must watch as far as I am concerned.
 
 **TE:** You recently wrote that the key to quality software is peer reviews and automated tests. How does that manifest itself at Domino's? What can other teams learn from your experiences?
 
