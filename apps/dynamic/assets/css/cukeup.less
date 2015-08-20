@@ -119,9 +119,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    hgroup { text-align: center; width: 50%; }
-
     h1 {
+      width: 50%;
+      text-align: center;
       margin: 0 0 40px;
       font-family: 'Lobster', cursive;
       font-size: 3.8em;
@@ -145,12 +145,15 @@ body {
         }
       }
     }
+  }
 
-    h2 {
-      color: @color-light;
-      font-weight: 300;
-      font-size: 1.8em;
-    }
+  h2 {
+    width: 70%;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: @color-light;
+    font-weight: 300;
+    font-size: 1.8em;
   }
 
   .cta {
@@ -172,6 +175,17 @@ body {
       &:hover {
         background: @color-white;
         color: @color-deep;
+      }
+    }
+  }
+
+  .cta-slim {
+    margin-bottom: 20px;
+    text-align: center;
+    .button {
+      color: @color-white;
+      &:hover {
+        color: @color-light;
       }
     }
   }
@@ -261,7 +275,7 @@ body {
 
   p {
     color: @color-dark;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5;
   }
 
@@ -279,10 +293,11 @@ body {
 }
 
 #cfp {
+  padding: 2em 0;
   background: @color-light;
   color: @color-dark;
-  .wrap { padding: 20px 0; text-align: center; }
-  h2 { font-weight: 400; }
+  h1 { font-weight: 400; text-transform: uppercase; font-size: 16px; color: @color-gray; }
+  a { color: @color-gray; }
   p { font-weight: 300; line-height: 1.5; }
 }
 
@@ -290,6 +305,9 @@ body {
   .wrap { padding: 20px 0; text-align: center; }
   h2 { font-weight: 400; }
   p { font-weight: 300; line-height: 1.5; }
+  img {
+    width: 90%;
+  }
 }
 
 #previous {
@@ -298,40 +316,14 @@ body {
   .wrap { padding: 20px 0; text-align: center; }
   h2 { font-weight: 400; }
   p { font-weight: 300; line-height: 1.5; }
-}
-
-
-#description {
-  .wrap {
-    display: flex;
-    padding: 20px 0;
-  }
-  h1 {
-    font-weight: 400;
-  }
-  p {
-    font-weight: 300;
-    line-height: 1.5;
-  }
-  a {
-    color: @color-deep;
-  }
-  strong { font-weight: 400; }
-  .intro {
-    width: 50%;
-    padding-right: 40px;
-    .teaser {
-      font-weight: 400;
-    }
-  }
+  .columns { display: flex; flex-wrap: wrap;
+  justify-content: space-between; }
   .illustration {
-    margin: 0;
-    figcaption { font-size: 13px; }
-    img { width: 100%; }
-  }
-  .more {
-    width: 50%;
-    padding-left: 40px;
+    width: 30%;
+    margin: 10px 0;
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -542,19 +534,20 @@ body {
 
 @media all and (max-width: 768px) {
   #leaderboard {
-    .event hgroup, .event-details, nav.main {
+    .event h1, .event-details, nav.main {
       width: 100%;
     }
+    nav.main li {margin: 0 30px;}
     .event h1 .logo {
       width: 90%;
     }
-  }
-  #description .wrap {
-    flex-direction: column;
-    .intro, .more {
-      margin: 0;
-      padding: 0;
+    h2 {
       width: 100%;
+      font-size: 1.4em;
+      line-height: 1.3;
     }
+  }
+  #previous .illustration {
+    width: 100%;
   }
 }
