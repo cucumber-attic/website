@@ -3,28 +3,98 @@ title: Online training - Cucumber School
 nav: school
 ---
 
-script#inspectletjs type="text/javascript"
-  | window.__insp = window.__insp || [];
-  | __insp.push(['wid', #{ENV['INSPECTLET_WID']}]);
-  | (function() {
-  | function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-  | if (window.attachEvent) window.attachEvent('onload', __ldinsp);
-  | else window.addEventListener('load', __ldinsp, false);
-  | })();
-
 .intro-header-school
   .container
     .row
       .col-lg-12
         .intro-message
           image.img-responsive alt=("Cucumber School") src="/images/cucumber-school-white.png"
-            br/
-            h2 Become a Cucumber expert at your own pace
-            a class="btn-school-buy" href="#buy"
-              | Take the class now
-            a class="btn-school-watch wistia-popover[height=388,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/28wgwhs36p?popover=true"
-              span.glyphicon.glyphicon-play
-              | Watch first lesson for free
+          br/
+          h2 Become a Cucumber expert at your own pace
+          a class="btn-school-buy" href="#buy"
+            | Buy it now
+          a class="btn-school-watch wistia-popover[height=388,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/28wgwhs36p?popover=true"
+            span.glyphicon.glyphicon-play
+            | Watch first lesson for free
+
+.content-section-a
+  .container#content
+    .row
+      .col-lg-12
+        .table-responsive
+          table.table
+            tbody
+              tr
+                td
+                  a class="wistia-popover[height=388,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/28wgwhs36p?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/92301d0e72812f0352d71a2bccb016601201acff.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Give me an example (8 min)
+                  div Learn how to gather examples for Cucumber through conversations with your stakeholders.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/6z6l6y9ug7?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/cef4ff8f940889b8f89967460e7c66f81809ceef.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Your first scenario (13 min)
+                  div Write and run your first Cucumber scenario.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/0mljdp6vcl?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/709fe24a2c3e972b1ec1569d3da16327826b63f5.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Matching Steps (16 min)
+                  div Learn just enough regular expressions to write great scenarios.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/r38xbt3frm?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/144f3d68ca79dbd8450e3dcbea51d251b437d270.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Cleaning up (17 min)
+                  div Learn how to refactor your Cucumber scenarios and step definitions to make them maintainable over time.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/eo08imbnst?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/43de862c310c9fa77e964721152b54cc36570d1a.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Loops (17 min)
+                  div Learn how create more expressive Cucumber scenarios with more advanced Gherkin syntax.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/ak70cwzwmh?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/3fb8645792a6892dac49daa31b5d09d98005d140.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Configuring Cucumber (11 min)
+                  div Learn how to use tags, the command line options, plugins and more.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/ce2xasog2t?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/9ad49aefdd24c636bf4fb766636f9a03fd9c0b8a.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Details (18 min)
+                  div Learn about the different language styles, levels of details and abstraction in your scenarios.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/kqj8vhqwcj?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/648874df6a23963a4cab7b75db84da0288d65cb3.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Problems and Solutions (15 min)
+                  div Learn about Example Mapping, Support Code and Modelling by Example.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/bplesncrbs?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/5a9b5b8b58710cdd30b232b1638382277b7691fc.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Acceptance Tests vs Unit tests (25 min)
+                  div In which we discover missing unit tests and learn the relative benefits of acceptance tests and unit tests.
+              tr
+                td
+                  a class="wistia-popover[height=360,playerColor=ff7f00,width=640]" href="//fast.wistia.net/embed/iframe/drc3vyi71g?popover=true"
+                    img alt="" src="https://embed-ssl.wistia.com/deliveries/b6ed734d35dc8bccb170bee5a1dd214db832226f.jpg?image_play_button=true&image_play_button_color=ff7f00e0&image_crop_resized=240x135" /
+                td
+                  h4 Web Automation with Selenium (31 min)
+                  div Automate the web from Cucumber. Learn about the test pyramid and the benefits of hexagonal architecture.
+
 .content-section-b
   .container
     .row.school-benefits
@@ -109,14 +179,11 @@ script#inspectletjs type="text/javascript"
                 p
                   strong Pick your language:
             .row
-              p.col-md-4
+              p.col-md-6
                 a.btn-brand-orange href="https://transactions.sendowl.com/packages/6740/0C29AD73/add_to_cart" rel="nofollow" Ruby
 
-              p.col-md-4
+              p.col-md-6
                 a.btn-brand-orange href="https://transactions.sendowl.com/packages/6744/A8BA874A/add_to_cart" rel="nofollow" Java
-
-              p.col-md-4
-                a.btn-brand-orange.typeform-share data-mode="1" href="https://cucumber.typeform.com/to/cZHDbY?plan=Basic" target="_blank" onclick="ga('send', 'event', 'Pre-orders', 'Request', 'Javascript school');" JavaScript
 
     .row
       .col-md-4.col-md-offset-4.notes
@@ -134,90 +201,6 @@ script#inspectletjs type="text/javascript"
             strong> on-site
             | training courses
           | instead?
-
-.content-section-a
-  .container#content
-    .row
-      h2 Course content
-
-      p Each lesson is comprised of a short video (10-15 minutes), a set of practice exercises and reflection questions.
-
-      .table-responsive
-        table.table.table-condensed.table-striped
-          thead
-            tr
-              th colspan="3"  Lesson
-          tbody
-            tr
-              td 1.
-              td Give me an example
-              td Learn how to gather examples for Cucumber through conversations with your stakeholders.
-            tr
-              td 2.
-              td Your first scenario
-              td Write and run your first Cucumber scenario.
-            tr
-              td 3.
-              td Matching Steps
-              td Learn just enough regular expressions to write great scenarios.
-            tr
-              td 4.
-              td Cleaning up
-              td Learn how to refactor your Cucumber scenarios and step definitions to make them maintainable over time.
-            tr
-              td 5.
-              td Loops
-              td Learn how create more expressive Cucumber scenarios with more advanced Gherkin syntax.
-            tr
-              td 6.
-              td Configuring Cucumber
-              td Learn how to use tags, the command line options, plugins and more.
-            tr
-              td 7.
-              td Details
-              td Learn about the different language styles, levels of details and abstraction in your scenarios.
-            tr
-              td 8.
-              td Problems and Solutions
-              td Learn about Example Mapping, Support Code and Modelling by Example.
-            tr
-              td 9+10.
-              td Acceptance Tests vs Unit tests
-              td In which we discover missing unit tests and learn the relative benefits of acceptance tests and unit tests.
-            tr
-              td 11+12
-              td Web Automation with Selenium
-              td Automate the web from Cucumber. Learn about the test pyramid and the benefits of hexagonal architecture.
-
-.content-section-b
-  .container
-    .row
-      .col-lg-12
-        a name="instructors"
-        h2.section-heading Who are the instructors?
-        p.lead
-          | This course is designed by the team behind Cucumber. We want to change the way your team build software.
-    .row.text-center.school-instructors
-      .col-lg-3.col-lg-offset-1
-        p.lead
-          img.img-responsive alt="Aslak" src="/images/headshots/aslak.jpg" /
-        h4 Aslak Hellesøy
-        p
-          | Creator of Cucumber and lead for Cucumber-JVM, Aslak writes the Cucumber for Java course.
-      .col-lg-3.col-lg-offset-1
-        p.lead
-          img.img-responsive alt="Matt" src="/images/headshots/matt.jpg" /
-        h4 Matt Wynne
-        p
-          | Co-author of
-          a<> href="http://the-cucumber-book.com"  The Cucumber Book
-          | Matt is your narrator for Cucumber School.
-      .col-lg-3.col-lg-offset-1
-        p.lead
-          img.img-responsive alt="Julien" src="/images/headshots/julien.jpg" /
-        h4 Julien Biezemans
-        p
-          | Creator and lead for Cucumber.js, Julien writes the Cucumber for JavaScript course.
 
 script src="https://transactions.sendowl.com/assets/sendowl.js" type="text/javascript"
 script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"
