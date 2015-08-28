@@ -301,6 +301,27 @@ body {
   p { font-weight: 300; line-height: 1.5; }
 }
 
+#quotes {
+  background: @color-light;
+  color: @color-dark;
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .quote {
+    margin: 20px 0 30px;
+    blockquote {
+      margin: 0;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    figcaption { text-align: right; }
+    width: 30%;
+  }
+}
+
 #venue {
   .wrap { padding: 20px 0; text-align: center; }
   h2 { font-weight: 400; }
@@ -548,6 +569,10 @@ body {
     }
   }
   #previous .illustration {
+    width: 100%;
+  }
+
+  #quotes .quote {
     width: 100%;
   }
 }
