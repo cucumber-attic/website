@@ -398,77 +398,51 @@ body {
 
   .content {
     background: @color-dark;
+    color: @color-white;
     padding: 30px 0;
     overflow: scroll;
   }
+}
 
-  table {
-    .days {
-      text-align: left;
-      color: @color-light;
-      font-family: 'Roboto';
-      font-size: 1.6em;
-    }
-
-    .time {
-      color: @color-white;
-      font-size: 0.8em;
-      td { padding: 1em 0; }
-    }
-
-    .track-name {
-      text-align: left;
-      text-transform: uppercase;
-      font-size: 0.8em;
-
-      th { font-weight: 400; padding: .5em 0; }
-
-      &.one { color: @color-track-one; }
-
-      &.two {
-        color: @color-track-two;
-        th { padding-top: 4em; }
-      }
-
-      &.three {
-        color: @color-track-three;
-        th { padding-top: 4em; }
-      }
-    }
-
-    .track-programme {
-      color: @color-white;
-
-      td {
-        vertical-align: top;
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 1.4em;
-        padding: .4em;
-        min-width: 199px;
-        max-width: 199px;
-
-        small {
-          display: block;
-          font-family: 'Roboto';
-          font-weight: 400;
-          font-size: .6em;
-        }
-      }
-
-      &.one {
-        background-image: repeating-linear-gradient(45deg, @color-track-one 0px, @color-track-one 10px, transparent 10px, transparent 20px, @color-track-one 20px);
-      }
-
-      &.two {
-        background-image: repeating-linear-gradient(45deg, @color-track-two 0px, @color-track-two 10px, transparent 10px, transparent 20px, @color-track-two 20px);
-      }
-
-      &.three {
-        background-image: repeating-linear-gradient(45deg, @color-track-three 0px, @color-track-three 10px, transparent 10px, transparent 20px, @color-track-three 20px);
-      }
+.schedule {
+  .date { text-align: center; color: @color-light; }
+}
+.schedule-list {
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  .schedule-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .time {
+    position: relative;
+    padding: 10px 0;
+    text-align: right;
+    width: 360px;
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      right: -51px;
+      top: 12px;
+      height: 18px;
+      width: 18px;
+      border-radius: 9px;
+      background: @color-dark;
+      border: 3px solid @color-white;
     }
   }
+  .talk, .break, .workshops {
+    width: 400px;
+    padding: 10px 0 10px 40px;
+    margin-left: 40px;
+    border-left: 4px solid @color-white;
+  }
+  .break { color: rgba(255,255,255,.6) }
+  .speaker { font-size: 16px; color: @color-light; }
 }
 
 #sponsors {
