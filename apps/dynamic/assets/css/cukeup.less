@@ -327,7 +327,8 @@ body {
   h2 { font-weight: 400; }
   p { font-weight: 300; line-height: 1.5; }
   img {
-    width: 90%;
+    max-width: 100%;
+    max-height: 360px;
   }
 }
 
@@ -421,7 +422,7 @@ body {
     position: relative;
     padding: 10px 0;
     text-align: right;
-    width: 360px;
+    width: 34%;
     &:after {
       display: block;
       content: '';
@@ -436,11 +437,12 @@ body {
     }
   }
   .talk, .break, .workshops {
-    width: 400px;
+    width: 36%;
     padding: 10px 0 10px 40px;
     margin-left: 40px;
     border-left: 4px solid @color-white;
   }
+  .workshop { margin: 16px 0 0; font-size: 16px; }
   .break { color: rgba(255,255,255,.6) }
   .speaker { font-size: 16px; color: @color-light; }
 }
@@ -548,5 +550,12 @@ body {
 
   #quotes .quote {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .schedule-list {
+    .time { font-size: 14px; width: 26%; }
+    .talk, .break, .workshops { font-size: 14px; width: 56%; }
   }
 }
