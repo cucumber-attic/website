@@ -57,8 +57,7 @@ body {
     }
 
     li {
-      display: inline-block;
-      margin: 0 0 0 30px;
+      text-align: right;
     }
 
     a {
@@ -349,54 +348,42 @@ body {
   }
 }
 
-#schedule {
-  header {
-    background: @color-light;
-    padding: 30px 0;
-    .wrap {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
+.ctr {
+  background: @color-light;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 0;
+  }
+  h1 {
+    color: @color-dark;
+    font-size: 3em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  .button {
+    margin: 5px 0;
+    background: @color-white;
+    border: 2px solid @color-white;
+    color: @color-deep;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.8em;
+    padding: 10px 60px;
 
-    h1 {
-      color: @color-dark;
-      text-align: left;
-      font-size: 3em;
-      font-family: 'Roboto';
-      font-weight: 500;
-      margin: 0;
-    }
-
-    .venue {
-      position: absolute;
-      left: 0;
-      top: 0;
-
-      img { height: 60px; }
-    }
-
-    .cta {
-      .button {
-        display: inline-block;
-        background: @color-white;
-        border: 2px solid @color-white;
-        color: @color-deep;
-        font-family: 'Roboto';
-        font-weight: 700;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 1.8em;
-        padding: 10px 60px;
-
-        &:hover {
-          background: @color-deep;
-          color: @color-white;
-        }
-      }
+    &:hover {
+      background: @color-deep;
+      color: @color-white;
     }
   }
+}
 
+#schedule {
   .content {
     background: @color-dark;
     color: @color-white;
@@ -534,7 +521,7 @@ body {
     .event h1, .event-details, nav.main {
       width: 100%;
     }
-    nav.main li {margin: 0 30px;}
+    nav.main li {margin: 0 30px; text-align: center;}
     .event h1 .logo {
       width: 90%;
     }
@@ -547,13 +534,9 @@ body {
   #previous .illustration {
     width: 100%;
   }
-
   #quotes .quote {
     width: 100%;
   }
-}
-
-@media all and (max-width: 480px) {
   .schedule-list {
     .time { font-size: 14px; width: 26%; }
     .talk, .break, .workshops { font-size: 14px; width: 56%; }
