@@ -389,7 +389,6 @@ body {
     background: @color-dark;
     color: @color-white;
     padding: 30px 0;
-    overflow: scroll;
   }
 }
 
@@ -576,14 +575,22 @@ body {
 
 @media all and (max-width: 420px) {
   .wrap { width: 90%; }
+  .schedule .date { text-align: left; }
+  .schedule-item { flex-direction: column; }
   .schedule-list {
     .time {
+      width: 80%;
+      border-left: 4px solid @color-white;
+      margin-left: 20px;
+      padding-left: 20px;
+      text-align: left;
       &:after {
         top: 9px;
-        right: -31px;
+        left: -11px;
       }
     }
     .talk, .break, .workshops {
+      width: 80%;
       margin-left: 20px;
       padding-left: 20px;
     }
