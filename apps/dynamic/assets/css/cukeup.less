@@ -396,6 +396,7 @@ body {
 .schedule {
   .date { text-align: center; color: @color-light; }
 }
+
 .schedule-list {
   font-weight: 300;
   font-size: 20px;
@@ -405,6 +406,22 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    &.openable {
+      .talk, .workshops {
+        cursor: pointer;
+      }
+      &:hover {
+        .time:after {
+          background-color: @color-white;
+        }
+      }
+      &.open {
+        .synopsis { display: block; }
+        .time:after {
+          animation: glow 1.5s infinite;
+        }
+      }
+    }
   }
   .time {
     position: relative;
@@ -432,7 +449,17 @@ body {
   }
   .workshop { margin: 16px 0 0; font-size: 16px; }
   .break { color: rgba(255,255,255,.6) }
-  .speaker { font-size: 16px; color: @color-light; }
+  .speaker { font-size: 16px; color: @color-light; margin: 4px 0 0; }
+  .synopsis { display: none; font-size: 14px; line-height: 1.5; margin: 14px 0 0; opacity: .8; }
+}
+
+@keyframes glow {
+  0%, 100% {
+    background-color: @color-white;
+  }
+  40% {
+    background-color: @color-dark;
+  }
 }
 
 #sponsors {
@@ -542,5 +569,6 @@ body {
     .time { font-size: 14px; width: 26%; }
     .talk, .break, .workshops { font-size: 14px; width: 56%; }
     .workshop { font-size: 14px; margin: 14px 0 0; }
+    .synopsis { font-size: 12px; line-height: 1.5; margin: 12px 0 0; }
   }
 }
