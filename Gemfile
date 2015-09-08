@@ -11,7 +11,7 @@ gem 'therubyracer', '0.12.1'
 gem 'redcarpet', '2.3.0' # TODO: Update to 3.2.2 when all is dynamic
 gem 'slim', '3.0.2'
 gem 'htmlentities', '4.3.3'
-gem 'liquid', '2.5.5' # TODO: Update to 3.0.1 when all is dynamic
+gem 'liquid', '3.0.6'
 gem 'pygments.rb', '0.5.4' # TODO: Update to 0.6.2 when all is dynamic
 gem 'asciidoctor', '1.5.2'
 gem 'puma'
