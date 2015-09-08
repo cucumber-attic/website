@@ -1,0 +1,42 @@
+@import "brand-variables";
+@import "types";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  .type-body();
+}
+
+section {
+  margin: 0 24px;
+}
+
+h1 {
+  .type-display3();
+}
+
+h2 {
+  .type-display2();
+}
+
+h3 {
+  .type-display1();
+}
+
+h4 {
+  .type-title();
+}
+
+h5 {
+  .type-subtitle();
+}
+
+h6 {
+  .type-subtitle();
+}
