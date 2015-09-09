@@ -65,9 +65,9 @@ GEM
       mini_portile (~> 0.6.0)
     posix-spawn (0.3.11)
     puma (2.13.4)
-    pygments.rb (0.5.4)
+    pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.1.0)
+      yajl-ruby (~> 1.2.0)
     rack (1.6.4)
     rack-contrib (1.4.0)
       git-version-bump (~> 0.15)
@@ -83,7 +83,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
-    redcarpet (2.3.0)
+    redcarpet (3.3.2)
     ref (2.0.0)
     rollbar (2.2.1)
     rspec (3.3.0)
@@ -139,7 +139,7 @@ GEM
       json (>= 1.8.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
-    yajl-ruby (1.1.0)
+    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
@@ -158,12 +158,12 @@ DEPENDENCIES
   liquid (= 3.0.6)
   nokogiri (= 1.6.6.2)
   puma
-  pygments.rb (= 0.5.4)
+  pygments.rb (= 0.6.3)
   rack-contrib
   rack-reverse-proxy
   rack-rewrite
   rake
-  redcarpet (= 2.3.0)
+  redcarpet (= 3.3.2)
   rollbar
   rspec
   sinatra (= 1.4.6)
