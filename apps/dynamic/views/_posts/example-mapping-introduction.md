@@ -10,10 +10,11 @@ Before you pull a user story into development, you need to have a [conversation
 to clarify and
 confirm](<http://ronjeffries.com/xprog/articles/expcardconversationconfirmation/>)
 the acceptance criteria. So many agile teams struggle with this conversation:
-it’s unstructured, takes too long, it gets boring, and so they don’t do it
-regularly or consistently, or at all. This post outlines a simple, low-tech
-method I've discovered for making the conversation short and powerfully
-productive. With this one weird trick.
+it’s unstructured, takes too long, gets boring, with the result that they don’t
+do it regularly or consistently, or just give up on it entirely.
+
+This post outlines a simple, low-tech method I've discovered for making the
+conversation short and powerfully productive. With this one weird trick.
 
 I call it [Example Mapping](<https://twitter.com/search?q=%23ExampleMapping>).
 
@@ -41,9 +42,8 @@ yet for a long time my skill at running a discovery workshop was at the
 *unconcious competence* stage: I knew how to do it, but I couldn't seem to
 explain it very effectively to anyone else.
 
-A couple of years ago I stumbled across this technique, and have been teaching
-it to people ever since. It seems popular and useful, so I want to share it with
-you.
+A couple of years ago I discovered this technique, and have been teaching it to
+people ever since. It seems popular and useful, so I want to share it with you.
 
 What is Example Mapping?
 ------------------------
@@ -62,7 +62,7 @@ be captured too:
 -   new *user stories* we discovered or sliced out of scope
 
 In example mapping, we use a pack of 4-coloured index cards to capture these
-different artifacts during the conversation.
+different artifacts while the conversation happens.
 
 **TODO: picture of 4 x cards with example, rule, question, story written on
 them.**
@@ -184,7 +184,7 @@ maybe you need to do some user research, or a spike.
 
 Instead of letting everyone share their *opinion* about what they think the
 outcome should be, simply capture the question and move on. Congratulations!
-You’ve just turned an *unknown unknown *into a *known unknown*. That’s great
+You’ve just turned an *unknown unknown* into a *known unknown*. That’s great
 progress.
 
 Who should come to an Example Mapping session?
