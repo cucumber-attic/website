@@ -4,15 +4,9 @@ require 'redcarpet'
 require 'liquid'
 require 'tilt'
 require 'sinatra/base'
-require 'sinatra/asset_pipeline'
-require 'sprockets-less'
 require 'sprockets-helpers'
-require 'less'
-require 'sass'
-require 'uglifier'
 require 'rollbar'
 require 'rollbar/middleware/sinatra'
-require 'autoprefixer-rails'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
 require 'cucumber/website/calendar'
@@ -46,17 +40,7 @@ module Website
   class App < Sinatra::Application
     set :root,  File.dirname(__FILE__)
 
-    # TODO: do we need these? Won't they be inferred from the root anyway?
-    set :public_folder, Proc.new { File.join(root, 'public') }
-    set :views, Proc.new { File.join(root, 'views') }
-
-    set :assets_precompile, %w(main.js main.css cukeup.js cukeup.css *.png *.jpg *.svg *.eot *.ttf *.woff *.woff2)
-    set :assets_css_compressor, :sass
-    set :assets_js_compressor, :uglifier
-
     use Rollbar::Middleware::Sinatra
-    register Sinatra::AssetPipeline
-    AutoprefixerRails.install(sprockets)
 
     extend Config
     CONFIG = load_config(ENV['RACK_ENV'])
@@ -89,10 +73,6 @@ module Website
 
         page.render(self)
       end
-    end
-
-    before do
-      cache_control :public
     end
 
     before /(.*)\.html/ do

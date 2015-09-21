@@ -14,4 +14,5 @@ end
 
 use Api::App
 use CucumberEclipse::App
+use Cucumber::Website::Static::App
 run Cucumber::Website::App
