@@ -30,6 +30,8 @@ module Cucumber
             # matching_event_page.dtend   = event.dtend
           end
         end
+
+        self
       end
 
       def start(calendar_refresh_interval)

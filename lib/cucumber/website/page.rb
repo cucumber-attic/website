@@ -156,5 +156,23 @@ module Cucumber
       end
 
     end
+
+    class FakePage
+      attr_reader :frontmatter
+      attr_accessor :title
+
+      def initialize(frontmatter)
+        @frontmatter = frontmatter
+      end
+
+      def ical_url
+        frontmatter.fetch(:ical_url)
+      end
+
+      def url
+        frontmatter.fetch(:url)
+      end
+    end
+
   end
 end

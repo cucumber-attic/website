@@ -22,15 +22,13 @@ Feature: Event listing
   We'll have an iCal feed that people can consume.
 
   Scenario: Show event from Lanyrd that has no custom event page
-    Given an event "Matt's Agile 2015 Session" on Lanyrd starting 1 week from now
+    Given a future event "Matt's Agile 2015 Session" on Lanyrd
     When I list the upcoming events
     Then I see "Matt's Agile 2015 Session" session in the list of events
     And I can access the Lanyrd page from the list of events
 
   Scenario: Show event that's on Lanyrd and has a custom event page
-    Given an event "BDD analysis London 2015" on Lanyrd starting 1 week from now
-    And a custom event page with attributes:
-      | ical_url | https://lanyrd.com/bdd-analysis-london-2015 |
+    Given a future event "BDD analysis London 2015" on Lanyrd with a custom page
     When I list the upcoming events
     Then I see "BDD analysis London 2015" session in the list of events
     And I can access the custom page from the list of events

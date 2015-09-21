@@ -1,8 +1,14 @@
 require 'chronic'
 
-Given(/^an event "([^"]*)" on Lanyrd starting (.+)$/) do |event_summary, start_time_description|
-  start_time = Chronic.parse(start_time_description)
+Given(/^a future event "([^"]*)" on Lanyrd$/) do |event_summary|
+  start_time = Chronic.parse('1 week from now')
   create_event start_time: start_time, summary: event_summary
+end
+
+Given(/^a future event "([^"]*)" on Lanyrd with a custom page$/) do |event_summary|
+  start_time = Chronic.parse('1 week from now')
+  create_event start_time: start_time, summary: event_summary, ical_url: 'http://lanyrd.com/2015/cucumberbdd/'
+  create_event_page ical_url: 'http://lanyrd.com/2015/cucumberbdd/', url: '/events/bdd-analysis-london-2015'
 end
 
 When(/^I list the upcoming events$/) do
@@ -17,11 +23,6 @@ Then(/^I can access the Lanyrd page from the list of events$/) do
   expect(page).to have_css("a[href='#{the_ical_event.url}']")
 end
 
-Given(/^a custom event page with attributes:$/) do |table|
-  # table is a Cucumber::Core::Ast::DataTable
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
 Then(/^I can access the custom page from the list of events$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(page).to have_css("a[href$='#{the_custom_page.url}']")
 end
