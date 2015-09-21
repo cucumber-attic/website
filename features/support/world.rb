@@ -1,6 +1,12 @@
 require 'cucumber/website/calendar'
 
 module World
+
+  def the_ical_event
+    expect(@ical_feed.events.length).to eql 1
+    @ical_feed.events.first
+  end
+
   def create_event(attributes)
     ical_data = <<-ICAL
 BEGIN:VCALENDAR
@@ -21,8 +27,9 @@ DTEND;VALUE=DATE:20150424
 GEO:37.7802468;-122.3967115
 END:VEVENT
     ICAL
+    @ical_feed = Cucumber::Website::FakeCalendar.new(ical_data)
     Cucumber::Website::App::CONFIG['site']['events'] =
-      Cucumber::Website::Events.new(event_pages=[], calendars=[Cucumber::Website::FakeCalendar.new(ical_data)])
+      Cucumber::Website::Events.new(event_pages=[], calendars=[@ical_feed])
   end
 end
 

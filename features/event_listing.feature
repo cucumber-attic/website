@@ -25,5 +25,16 @@ Feature: Event listing
     Given an event "Matt's Agile 2015 Session" on Lanyrd starting 1 week from now
     When I list the upcoming events
     Then I see "Matt's Agile 2015 Session" session in the list of events
+    And I can access the Lanyrd page from the list of events
 
   Scenario: Show event that's on Lanyrd and has a custom event page
+    Given an event "BDD analysis London 2015" on Lanyrd starting 1 week from now
+    And a custom event page with attributes:
+      | ical_url | https://lanyrd.com/bdd-analysis-london-2015 |
+    When I list the upcoming events
+    Then I see "BDD analysis London 2015" session in the list of events
+    And I can access the custom page from the list of events
+
+  Scenario: Event has a custom page but is not yet on Lanyrd
+
+  Scenario: Show featured event(s)
