@@ -1,9 +1,6 @@
 $: << File.dirname(__FILE__) + '/lib'
 ENV["RACK_ENV"] ||= "development"
 
-require 'sinatra/asset_pipeline/task'
-require './apps/dynamic/app'
-
 task default: [:spec, :cucumber, :backup_events]
 
 task :spec do
@@ -30,4 +27,6 @@ task :backup_events do
   end
 end
 
-Sinatra::AssetPipeline::Task.define! Cucumber::Website::App
+require 'sinatra/asset_pipeline/task'
+require './apps/static/app'
+Sinatra::AssetPipeline::Task.define! Cucumber::Website::Static::App
