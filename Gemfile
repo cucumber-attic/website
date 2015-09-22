@@ -27,6 +27,7 @@ gem 'icalendar'
 group :development do
   gem 'rake'
   gem 'foreman'
+  gem 'launchy'
 end
 
 group :test do

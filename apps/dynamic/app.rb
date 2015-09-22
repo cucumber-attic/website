@@ -37,72 +37,84 @@ IGNORED_NOT_FOUND_PATHS = /^\/(maven|netbeans)/
 #
 module Cucumber
 module Website
-  class App < Sinatra::Application
-    set :root,  File.dirname(__FILE__)
 
-    use Rollbar::Middleware::Sinatra
+  def self.make_app(pages)
+    Class.new(Sinatra::Application) do
 
-    extend Config
-    CONFIG = load_config(ENV['RACK_ENV'])
+      set :root,  File.dirname(__FILE__)
 
-    pages = Page.all(CONFIG, views)
+      use Rollbar::Middleware::Sinatra
 
-    CONFIG['site']['posts'] =
-      pages.select(&:post?).select { |page| page.date < Time.now }
-      .sort { |a, b| b.date <=> a.date }
+      configure(:development, :production) do
+        CONFIG['site']['events'].start(CONFIG['site']['calendar_refresh_interval'])
+      end
 
-    calendar_logger = Logger.new($stderr)
-    calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-    events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
-    CONFIG['site']['events'] = events
+      configure :test do
+        enable :raise_errors
+        disable :show_exceptions, :logging
+      end
 
-    configure(:development, :production) do
-      events.start(CONFIG['site']['calendar_refresh_interval'])
-    end
+      pages.each do |page|
+        next unless page.primary?
 
-    pages.each do |page|
-      next unless page.primary?
+        get page.path do
+          headers.merge!(page.headers)
 
-      get page.path do
-        headers.merge!(page.headers)
+          if page.cacheable?
+            timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
+            last_modified timestamps.max
+          end
 
-        if page.cacheable?
-          timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
-          last_modified timestamps.max
+          page.render(self)
+        end
+      end
+
+      before /(.*)\.html/ do
+        url = params[:captures][0]
+        redirect to(url), 301
+      end
+
+      helpers do
+        include Sprockets::Helpers
+
+        def nav_class(slug, name)
+          slug == name ? 'active' : nil
         end
 
-        page.render(self)
+        def edit_url template_path
+          "#{CONFIG['site']['edit_url']}/#{template_path}"
+        end
       end
-    end
+      #
+      # error 500 do
+      #   status 500
+      #   slim :error
+      # end
 
-    before /(.*)\.html/ do
-      url = params[:captures][0]
-      redirect to(url), 301
-    end
-
-    helpers do
-      include Sprockets::Helpers
-
-      def nav_class(slug, name)
-        slug == name ? 'active' : nil
+      not_found do
+        path_info = env['PATH_INFO']
+        Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
+        status 404
+        slim :not_found
       end
-
-      def edit_url(template_path)
-        "#{CONFIG['site']['edit_url']}/#{template_path}"
-      end
-    end
-
-    error 500 do
-      status 500
-      slim :error
-    end
-
-    not_found do
-      path_info = env['PATH_INFO']
-      Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
-      status 404
-      slim :not_found
     end
   end
+
+  extend Config
+  CONFIG = load_config(ENV['RACK_ENV'])
+
+  views_path = File.dirname(__FILE__) + "/views"
+  pages = Page.all(CONFIG, views_path)
+
+  CONFIG['site']['posts'] =
+    pages.select(&:post?).select { |page| page.date < Time.now }
+    .sort { |a, b| b.date <=> a.date }
+
+  calendar_logger = Logger.new($stderr)
+  calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
+  events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
+  CONFIG['site']['events'] = events
+
+  App = make_app(pages)
 end
 end

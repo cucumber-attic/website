@@ -39,9 +39,17 @@ END:VEVENT
     site_config['events'] = Cucumber::Website::Events.new(event_pages=[], calendars)
   end
 
-  def create_event_page(frontmatter = {})
-    custom_pages << Cucumber::Website::FakePage.new(frontmatter)
+  def create_event_page(front_matter)
+    default_front_matter = {
+      timestamp: Chronic.parse('1 week ago'),
+      body: "<h1>#{front_matter.fetch(:title)}</h1>"
+    }
+    custom_pages << Cucumber::Website::FakeEventPage.new(default_front_matter.merge(front_matter))
     site_config['events'] = Cucumber::Website::Events.new(custom_pages, calendars).sync
+    Capybara.app = Cucumber::Website.make_app(custom_pages + [
+        Cucumber::Website::Page.new(Cucumber::Website::CONFIG, '/Users/matt/projects/cucumber-website/apps/dynamic/views/events.slim', '/Users/matt/projects/cucumber-website/apps/dynamic/views')
+      ]
+    )
   end
 
   def slugify(string)
@@ -49,6 +57,7 @@ END:VEVENT
   end
 
   private
+
     def calendars
       @calendars ||= []
     end
@@ -58,7 +67,7 @@ END:VEVENT
     end
 
     def site_config
-      Cucumber::Website::App::CONFIG['site']
+      Cucumber::Website::CONFIG['site']
     end
 end
 

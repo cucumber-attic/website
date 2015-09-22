@@ -7,7 +7,35 @@ require_relative 'redcarpet_renderer'
 
 module Cucumber
   module Website
-    class Page
+
+    class BasePage
+      def initialize(front_matter)
+        @front_matter = front_matter
+      end
+
+      def headers
+        @front_matter.fetch('headers') { {} }
+      end
+
+      def cacheable?
+        @front_matter.fetch('cacheable') { true }
+      end
+
+      def method_missing(name, *args)
+        if name.to_s =~ /(.*)=$/
+          @front_matter[$1] = args[0]
+        else
+          # key could be a string or a symbol - try both
+          @front_matter.fetch(name.to_s) do
+            @front_matter.fetch(name.to_sym) do
+              raise NoMethodError, name, caller
+            end
+          end
+        end
+      end
+    end
+
+    class Page < BasePage
       ENGINES = {
         '.md'   => :markdown,
         '.slim' => :slim,
@@ -48,14 +76,30 @@ module Cucumber
         @front_matter['title'] ||= @template_name.split('/')[-1]
       end
 
-      def method_missing(name, *args)
-        if name.to_s =~ /(.*)=$/
-          @front_matter[$1] = args[0]
-        else
-          @front_matter.fetch(name.to_s) do
-            raise NoMethodError, name, [@file] + caller
-          end
+      def render(sinatra, layout=layout, encode=false)
+        options = {
+          layout_engine: :slim,
+          layout: layout ? "_includes/#{layout}".to_sym : nil
+        }
+
+        if engine == :markdown
+          # This causes a warning in Slim, because when we render the layouts it
+          # will be given the same set of options, but we need it for the markdown.
+          options[:renderer] = renderer
+          options[:fenced_code_blocks] = true
         end
+
+        template_proc = Proc.new { |template| content }
+        html = sinatra.send(engine, template_proc, options, locals)
+        html.gsub('---', '&#8212;') # em-dash
+      end
+
+      def renderer
+        locals['renderer'] ? constantize(locals['renderer']) : RedcarpetRenderer
+      end
+
+      def layout
+        locals['layout'] || 'layout'
       end
 
       def locals
@@ -76,28 +120,6 @@ module Cucumber
         end
       end
 
-      def render(sinatra, layout=layout, encode=false)
-        options = {
-          layout_engine: :slim,
-          layout: layout ? "_includes/#{layout}".to_sym : nil
-        }
-
-        if engine == :markdown
-          # This causes a warning in Slim, because when we render the layouts it
-          # will be given the same set of options, but we need it for the markdown.
-          options[:renderer] = renderer
-          options[:fenced_code_blocks] = true
-        end
-
-        template_proc = Proc.new { |template| content }
-        html = sinatra.send(engine, template_proc, options, locals)
-        html.gsub('---', '&#8212;') # em-dash
-      end
-
-      def cacheable?
-        @front_matter.fetch('cacheable') { true }
-      end
-
       def url
         "#{@config['site']['url']}#{path}"
       end
@@ -110,10 +132,6 @@ module Cucumber
 
       def timestamp
         File.mtime(@file)
-      end
-
-      def headers
-        @front_matter['headers'] || {}
       end
 
       def post?
@@ -147,30 +165,28 @@ module Cucumber
         content_after_yaml_header
       end
 
-      def renderer
-        locals['renderer'] ? constantize(locals['renderer']) : RedcarpetRenderer
-      end
-
-      def layout
-        locals['layout'] || 'layout'
-      end
-
     end
 
-    class FakePage
-      attr_reader :frontmatter
-      attr_accessor :title
+    class FakeEventPage < BasePage
 
-      def initialize(frontmatter)
-        @frontmatter = frontmatter
+      def post?
+        false
       end
 
-      def ical_url
-        frontmatter.fetch(:ical_url)
+      def event?
+        true
       end
 
-      def url
-        frontmatter.fetch(:url)
+      def primary?
+        true
+      end
+
+      def path
+        url
+      end
+
+      def render(sinatra_app)
+        body
       end
     end
 

@@ -16,9 +16,7 @@ module Cucumber
       def sync
         @events = nil
         each do |event|
-          matching_event_page = @event_pages.find do |event_page|
-            event_page.ical_url == event.url.to_s
-          end
+          matching_event_page = @event_pages.find { |page| page.ical_url == event.url.to_s }
 
           if matching_event_page
             event.url = Icalendar::Values::Uri.new(matching_event_page.url)

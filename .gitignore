@@ -1,3 +1,4 @@
 .DS_Store
 .bundle
 apps/dynamic/public/assets
+capybara*.html
