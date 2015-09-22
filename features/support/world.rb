@@ -46,8 +46,12 @@ END:VEVENT
     }
     custom_pages << Cucumber::Website::FakeEventPage.new(default_front_matter.merge(front_matter))
     site_config['events'] = Cucumber::Website::Events.new(custom_pages, calendars).sync
+    views_path = File.join(File.dirname(__FILE__), '..', '..', 'apps', 'dynamic', 'views')
     Capybara.app = Cucumber::Website.make_app(custom_pages + [
-        Cucumber::Website::Page.new(Cucumber::Website::CONFIG, '/Users/matt/projects/cucumber-website/apps/dynamic/views/events.slim', '/Users/matt/projects/cucumber-website/apps/dynamic/views')
+        Cucumber::Website::Page.new(Cucumber::Website::CONFIG,
+          File.join(views_path, 'events.slim'),
+          views_path
+        )
       ]
     )
   end
