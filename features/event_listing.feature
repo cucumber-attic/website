@@ -34,5 +34,9 @@ Feature: Event listing
     And I can access the custom page from the list of events
 
   Scenario: Event has a custom page but is not yet on Lanyrd
+    Given a future event "BDD Kickstart Denver 2016" with a custom page but not on Lanyrd
+    When I list the upcoming events
+    Then I cannot see "BDD Kickstart Denver 2016" session in the list of events
+    But I can access the event's custom page by its URL
 
   Scenario: Show featured event(s)

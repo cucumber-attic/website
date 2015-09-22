@@ -3,13 +3,14 @@ require 'cucumber/website/calendar'
 module World
 
   def the_ical_event
-    expect(@ical_feed.events.length).to eql 1
-    @ical_feed.events.first
+    expect(calendars.length).to eq 1
+    expect(calendars.first.events.length).to eq 1
+    calendars.first.events.first
   end
 
   def the_custom_page
-    expect(@custom_pages.length).to eql 1
-    @custom_pages.first
+    expect(custom_pages.length).to eq 1
+    custom_pages.first
   end
 
   def create_event(attributes)
@@ -23,7 +24,7 @@ X-WR-CALNAME;CHARSET=utf-8:Cucumber and BDD Events
 METHOD:PUBLISH
 X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VEVENT
-SUMMARY;CHARSET=utf-8:#{attributes[:summary]}
+SUMMARY;CHARSET=utf-8:#{attributes[:title]}
 LOCATION;CHARSET=utf-8:Sauce Labs\, 539 Bryant Street #303 San Francisco\, CA 94107 USA\, 94107
 URL:#{url}
 UID:bbf17a9ff7fa28c427aac86fbc45604d48e6051e
@@ -33,17 +34,28 @@ DTEND;VALUE=DATE:20150424
 GEO:37.7802468;-122.3967115
 END:VEVENT
     ICAL
-    @ical_feed = Cucumber::Website::FakeCalendar.new(ical_data)
-    site_config['events'] = Cucumber::Website::Events.new(event_pages=[], calendars=[@ical_feed])
+
+    calendars << Cucumber::Website::FakeCalendar.new(ical_data)
+    site_config['events'] = Cucumber::Website::Events.new(event_pages=[], calendars)
   end
 
   def create_event_page(frontmatter = {})
-    @custom_pages ||= []
-    @custom_pages << Cucumber::Website::FakePage.new(frontmatter)
-    site_config['events'] = Cucumber::Website::Events.new(event_pages=@custom_pages, calendars=[@ical_feed]).sync
+    custom_pages << Cucumber::Website::FakePage.new(frontmatter)
+    site_config['events'] = Cucumber::Website::Events.new(custom_pages, calendars).sync
+  end
+
+  def slugify(string)
+    string.gsub(' ', '-').downcase
   end
 
   private
+    def calendars
+      @calendars ||= []
+    end
+
+    def custom_pages
+      @custom_pages ||= []
+    end
 
     def site_config
       Cucumber::Website::App::CONFIG['site']
