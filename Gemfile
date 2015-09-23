@@ -21,6 +21,7 @@ gem 'rack-reverse-proxy'
 gem 'rack-contrib'
 gem 'rack-rewrite'
 gem 'icalendar'
+gem 'newrelic_rpm'
 # TODO: Need this to get timezone support with icalendar
 #gem 'activesupport'
 

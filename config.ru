@@ -12,6 +12,8 @@ if ENV['ROLLBAR_ACCESS_TOKEN']
   end
 end
 
+require 'newrelic_rpm'
+
 use Api::App
 use CucumberEclipse::App
 use Cucumber::Website::Static::App
