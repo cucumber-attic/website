@@ -92,8 +92,6 @@ module Website
       end
 
       not_found do
-        path_info = env['PATH_INFO']
-        Rollbar.warning("Not found: #{path_info}", env) unless path_info.match(IGNORED_NOT_FOUND_PATHS)
         status 404
         slim :not_found
       end
