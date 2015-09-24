@@ -15,7 +15,6 @@ require 'cucumber/website/reference'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
-IGNORED_NOT_FOUND_PATHS = /^\/(maven|netbeans)/
 
 # Sinatra app that displays a Jekyll app dynamically.
 #
