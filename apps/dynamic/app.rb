@@ -85,11 +85,11 @@ module Website
           "#{CONFIG['site']['edit_url']}/#{template_path}"
         end
       end
-      #
-      # error 500 do
-      #   status 500
-      #   slim :error
-      # end
+
+      error 500 do
+        status 500
+        slim :error
+      end
 
       not_found do
         path_info = env['PATH_INFO']
