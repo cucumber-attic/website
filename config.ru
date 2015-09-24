@@ -9,6 +9,7 @@ if ENV['ROLLBAR_ACCESS_TOKEN']
   require 'rollbar'
   Rollbar.configure do |config|
     config.access_token = ENV['ROLLBAR_ACCESS_TOKEN']
+    config.exception_level_filters.merge!('Sinatra::NotFound' => 'ignore')
   end
 end
 
