@@ -1,0 +1,15 @@
+.imageblock.left {
+  float: left;
+
+  img {
+    @include img-pull-left();
+  }
+}
+
+.imageblock.right {
+  float: right;
+
+  img {
+    @include img-pull-right();
+  }
+}

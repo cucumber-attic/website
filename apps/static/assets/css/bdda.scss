@@ -1,0 +1,67 @@
+.bdda-hero {
+  background: url(/images/training/bdd-analysis-hero.jpg) top center no-repeat;
+  background-size: cover;
+  .container {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+}
+
+.bdda-hero-title {
+  margin-top: 100px;
+}
+
+.bdda-overview {
+  .separator {
+    width: 18%;
+    margin: 20px auto;
+    border-bottom: 3px solid #FF607C;
+  }
+}
+
+.bdda-benefits {
+  margin: 50px 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.bdda-trainers {
+  color: #fff;
+  background: #0E3FC6;
+}
+
+.bdda-policy {
+  padding: 30px 0 15px 0;
+  background: $brand-gray-lighter;
+}
+
+.bdda-cta {
+  padding: 20px 0;
+  background: #FF1245;
+  color: white;
+}
+
+.btn-hollow-white {
+  font-weight: 400;
+  display: inline-block;
+  color: white;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  &:hover, &:focus {
+    background: white;
+    color: #FF1245;
+    text-decoration: none;
+  }
+}
+
+.bdda-quotes {
+  blockquote {
+    border: 0;
+  }
+  footer {
+    color: $brand-gray;
+  }
+}

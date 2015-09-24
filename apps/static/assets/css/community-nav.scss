@@ -1,0 +1,75 @@
+.community-nav {
+  font-size: 18px;
+  line-height: 1.42857143;
+  background: $brand-green;
+  font-weight: $font-weight-normal;
+  border: none;
+  .navbar-nav > li > a {
+    color: $body-bg;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    &.active, &:hover {
+      background-color: $body-bg;
+      color: $brand-green;
+      text-decoration: underline;
+    }
+  }
+  .navbar-brand {
+    height: 57px;
+    padding: 11px 15px;
+  }
+  .navbar-toggle {
+    border-color: white;
+    .icon-bar { background-color: white; }
+    &:hover, &:focus {
+      background: white;
+      .icon-bar { background-color: $brand-gray; }
+    }
+  }
+  &.blog {
+    background-color: $brand-gray;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: $brand-gray;
+      }
+    }
+  }
+  &.school {
+    background-color: $brand-orange;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: $brand-orange;
+      }
+    }
+  }
+  &.training {
+    background-color: $brand-blue;
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: $brand-blue;
+      }
+    }
+  }
+  &.pro {
+    background-color: $brand-black;
+
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: $brand-black;
+      }
+    }
+  }
+  &.support {
+    background-color: $brand-purple;
+
+    .navbar-nav > li > a {
+      &.active, &:hover {
+        color: $brand-purple;
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .navbar-brand { height: 50px; }
+  }
+}

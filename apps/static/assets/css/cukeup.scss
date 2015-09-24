@@ -1,0 +1,606 @@
+@import "normalize.css/normalize.css";
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,500italic,300italic,400&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,cyrillic,vietnamese);
+
+/* Variables */
+$color-white: #fff;
+$color-gray: #646464;
+$color-light: #FFDA00;
+$color-dark: #2F4219;
+$color-deep: #1A260D;
+$color-filter: #213608;
+$color-track-one: rgba(123, 152, 46, .65);
+$color-track-two: rgba(204, 199, 128, .65);
+$color-track-three: rgba(186, 126, 73, .65);
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto'
+}
+
+.wrap {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#leaderboard {
+  background: $color-dark url(/images/cukeup/header-bg.jpg) top center no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .wrap { padding: 30px 0; }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $color-filter;
+    opacity: .8;
+  }
+
+  nav.main {
+    width: 25%;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      text-align: right;
+    }
+
+    a {
+      color: $color-white;
+      text-transform: lowercase;
+      text-decoration: none;
+      line-height: 3.2;
+      vertical-align: baseline;
+      &:hover {
+        color: $color-light;
+      }
+    }
+  }
+
+  .event-details {
+    color: $color-light;
+    font-family: 'Roboto';
+    width: 25%;
+
+    h3 {
+      font-size: 2.2em;
+      margin: 0;
+      strong { color: $color-white; }
+    }
+
+    abbr {
+      border-bottom: none;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin: .3em 0 0;
+      font-weight: 300;
+    }
+  }
+
+  .presented-by {
+    text-align: center;
+    color: $color-white;
+    font-family: 'Roboto';
+    margin-bottom: 80px;
+
+    h4 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 1.6em;
+    }
+
+    small {
+      display: block;
+      font-size: .6em;
+    }
+  }
+
+  .event {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h1 {
+      width: 50%;
+      text-align: center;
+      margin: 0 0 40px;
+      font-family: 'Lobster', cursive;
+      font-size: 3.8em;
+      font-weight: normal;
+      color: $color-white;
+
+      .logo {
+        display: inline-block;
+        position: relative;
+        width: 70%;
+
+        &:after {
+          display: block;
+          content: '';
+          position: absolute;
+          top: -42px;
+          right: -74px;
+          width: 65px;
+          height: 62px;
+          background: url(/images/cukeup/logos/cucumber.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  h2 {
+    width: 70%;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: $color-light;
+    font-weight: 300;
+    font-size: 1.8em;
+  }
+
+  .cta {
+    text-align: center;
+    margin: 0 0 40px;
+
+    .button {
+      display: inline-block;
+      background: none;
+      border: 2px solid $color-white;
+      color: $color-white;
+      font-family: 'Roboto';
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.8em;
+      padding: 10px 60px;
+
+      &:hover {
+        background: $color-white;
+        color: $color-deep;
+      }
+    }
+  }
+
+  .cta-slim {
+    margin-bottom: 20px;
+    text-align: center;
+    .button {
+      color: $color-white;
+      &:hover {
+        color: $color-light;
+      }
+    }
+  }
+
+  .speakers {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+      background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+      background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    }
+
+    li {
+      display: inline-block;
+      color: $color-white;
+      margin: 0 2%;
+      padding: 30px 0 0;
+      width: 100px;
+
+      figure {
+        margin: 0;
+      }
+
+      figcaption {
+        color: $color-white;
+        font-size: 14px;
+        margin: 0;
+        padding: 3px;
+        opacity: 0;
+        width: 200px;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: -50px;
+        background: rgba(0,0,0,.4);
+        border-radius: 3px;
+      }
+
+      &:hover {
+        figcaption { opacity: 1; }
+      }
+
+      img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+#featured {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.feature {
+  width: 280px;
+  margin: 0 3%;
+  display: inline-block;
+  vertical-align: top;
+
+  h1 {
+    font-family: 'Roboto';
+    font-size: 1.6em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-gray;
+  }
+
+  figure img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  p {
+    color: $color-dark;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  &.three img {
+    margin-left: 8px;
+  }
+}
+
+#whatis {
+  background: $color-gray;
+  color: $color-white;
+  .wrap { padding: 20px 0; text-align: center; }
+  h2 { font-weight: 400; }
+  p { font-weight: 300; line-height: 1.5; }
+}
+
+#cfp {
+  padding: 2em 0;
+  background: $color-light;
+  color: $color-dark;
+  h1 { font-weight: 400; text-transform: uppercase; font-size: 16px; color: $color-gray; }
+  a { color: $color-gray; }
+  p { font-weight: 300; line-height: 1.5; }
+}
+
+#quotes {
+  background: $color-light;
+  color: $color-dark;
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .quote {
+    margin: 20px 0 30px;
+    blockquote {
+      margin: 0;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    figcaption { text-align: right; }
+    width: 30%;
+  }
+}
+
+#venue {
+  .wrap { padding: 20px 0; text-align: center; }
+  h2 { font-weight: 400; }
+  p { font-weight: 300; line-height: 1.5; }
+  img {
+    max-width: 100%;
+    max-height: 360px;
+  }
+}
+
+#previous {
+  background: $color-gray;
+  color: $color-white;
+  .wrap { padding: 20px 0; text-align: center; }
+  h2 { font-weight: 400; }
+  p { font-weight: 300; line-height: 1.5; }
+  .columns { display: flex; flex-wrap: wrap;
+  justify-content: space-between; }
+  .illustration {
+    width: 30%;
+    margin: 10px 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.ctr {
+  background: $color-light;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 0;
+  }
+  h1 {
+    color: $color-dark;
+    font-size: 3em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  .button {
+    margin: 5px 0;
+    background: $color-white;
+    border: 2px solid $color-white;
+    color: $color-deep;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.8em;
+    padding: 10px 60px;
+
+    &:hover {
+      background: $color-deep;
+      color: $color-white;
+    }
+  }
+}
+
+#schedule {
+  .content {
+    background: $color-dark;
+    color: $color-white;
+    padding: 30px 0;
+  }
+}
+
+.schedule {
+  .date { text-align: center; color: $color-light; }
+}
+
+.schedule-list {
+  font-weight: 300;
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  .schedule-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    &.openable {
+      .talk, .workshops {
+        cursor: pointer;
+      }
+      &:hover {
+        .time:after {
+          background-color: $color-white;
+        }
+      }
+      &.open {
+        .synopsis { display: block; }
+        .time:after {
+          animation: glow 1.5s infinite;
+        }
+      }
+    }
+  }
+  .time {
+    position: relative;
+    padding: 10px 0;
+    text-align: right;
+    width: 34%;
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      right: -51px;
+      top: 12px;
+      height: 18px;
+      width: 18px;
+      border-radius: 9px;
+      background: $color-dark;
+      border: 3px solid $color-white;
+    }
+  }
+  .talk, .break, .workshops {
+    width: 36%;
+    padding: 10px 0 10px 40px;
+    margin-left: 40px;
+    border-left: 4px solid $color-white;
+  }
+  .workshop { margin: 16px 0 0; font-size: 16px; }
+  .break { color: rgba(255,255,255,.6) }
+  .speaker { font-size: 16px; color: $color-light; margin: 4px 0 0; }
+  .synopsis { display: none; font-size: 14px; line-height: 1.5; margin: 14px 0 0; opacity: .8; }
+  .synopsis ul { padding: 0 0 0 20px; }
+}
+
+@keyframes glow {
+  0%, 100% {
+    background-color: $color-white;
+  }
+  40% {
+    background-color: $color-dark;
+  }
+}
+
+#sponsors {
+  padding: 2em 0;
+  h1 { font-weight: 400; text-transform: uppercase; font-size: 16px; color: $color-gray; }
+  p { font-weight: 300; }
+  a { color: $color-gray; }
+  ul { list-style: none; padding: 0; margin: 0; text-align: center; }
+  li { display: inline-block; width: 160px; margin: 2%; }
+  img { width: 160px; height: 60px; }
+}
+
+#footer {
+  background: $color-deep;
+  color: $color-white;
+  padding: 30px 0 30px;
+  .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; }
+
+  .col {
+    font-family: 'Roboto';
+    vertical-align: top;
+
+    h2 { font-size: 1.2em; text-transform: uppercase; font-weight: 500; }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 0 0 .3em;
+      word-spacing: .15em;
+
+      a {
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover { color: $color-light; }
+      }
+    }
+  }
+
+  .sponsor {
+    h1 {
+      font-family: 'Roboto', cursive;
+      font-weight: normal;
+      font-size: 3.8em;
+      line-height: 1;
+      margin: 0;
+
+      img {
+        width: 280px;
+      }
+
+      a {
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
+
+    p {
+      font-size: 0.8em;
+      opacity: .6;
+    }
+  }
+
+  .handle {
+    opacity: .6;
+    font-weight: 300;
+  }
+
+  .copyright {
+    width: 100%;
+    font-size: 0.8em;
+    opacity: .6;
+    text-align: center;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media all and (max-width: 768px) {
+  #leaderboard {
+    .event h1, .event-details, nav.main {
+      width: 100%;
+    }
+    nav.main li {margin: 0 30px; text-align: center;}
+    .event h1 .logo {
+      width: 90%;
+    }
+    h2 {
+      width: 100%;
+      font-size: 1.4em;
+      line-height: 1.3;
+    }
+  }
+  #previous .illustration {
+    width: 100%;
+  }
+  #quotes .quote {
+    width: 100%;
+  }
+  .schedule-list {
+    .time { font-size: 14px; width: 28%; }
+    .talk, .break, .workshops { font-size: 14px; width: 56%; }
+    .workshop { font-size: 14px; margin: 14px 0 0; }
+    .synopsis { font-size: 12px; line-height: 1.5; margin: 12px 0 0; }
+  }
+}
+
+@media all and (max-width: 420px) {
+  .ctr {
+    h1 {
+      font-size: 2.2em;
+    }
+    .button {
+      font-size: 1.4em;
+    }
+  }
+  .wrap { width: 90%; }
+  .schedule .date { text-align: left; }
+  .schedule-item { flex-direction: column; }
+  .schedule-list {
+    .time {
+      width: 80%;
+      border-left: 4px solid $color-white;
+      margin-left: 20px;
+      padding-left: 20px;
+      text-align: left;
+      &:after {
+        top: 9px;
+        left: -11px;
+      }
+    }
+    .talk, .break, .workshops {
+      width: 80%;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+  }
+}

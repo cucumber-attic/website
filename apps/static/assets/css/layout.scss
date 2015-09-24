@@ -1,0 +1,69 @@
+body {
+  padding-top: 57px;
+  font-weight: $body-font-weight;
+}
+
+header {
+  padding-bottom: 0 !important;
+}
+
+@mixin img-pull-left()
+{
+  margin-right: 10px;
+}
+
+@mixin img-pull-right()
+{
+  margin-left: 10px;
+}
+
+img.pull-left {
+  @include img-pull-left();
+}
+
+img.pull-right {
+  @include img-pull-right();
+}
+
+img.img-thumbnail {
+  margin-bottom: 12px;
+}
+
+p.promise {
+  font-size: 70%;
+  text-shadow:none;
+}
+
+#js-edit {
+  display: none;
+}
+
+.main-footer {
+	padding: 30px 0;
+  background: #262b2c;
+  color: #aeaeae;
+  a {
+    color: #dedede;
+    &:hover {
+      color: #dedede;
+    }
+  }
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: $screen-md) {
+  .form input, .form button {
+    font-size: 12px;
+    height:inherit;
+  }
+
+  .alert p {
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .container { margin: 0 15px; }
+}
