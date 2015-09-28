@@ -6,15 +6,15 @@ title: Introducing Example Mapping
 author: matt
 ---
 
-Before you pull a user story into development, you need to have a [conversation
-to clarify and
+Before you pull a user story into development, it’s crucial to have a
+[conversation to clarify and
 confirm](<http://ronjeffries.com/xprog/articles/expcardconversationconfirmation/>)
 the acceptance criteria. So many agile teams struggle with this conversation:
 it’s unstructured, takes too long, gets boring, with the result that they don’t
 do it regularly or consistently, or just give up on it entirely.
 
 This post outlines a simple, low-tech method I've discovered for making the
-conversation short and powerfully productive. With this one weird trick.
+conversation short and powerfully productive.
 
 I call it [Example Mapping](<https://twitter.com/search?q=%23ExampleMapping>).
 
@@ -39,11 +39,12 @@ I've been facilitating discovery workshops since I first started using BDD back
 in 2008 at [Songkick]. Since then, I've [gone on to
 teach](<http://cucumber.io/training>) hundreds of people about these practices,
 yet for a long time my skill at running a discovery workshop was at the
-*unconcious competence* stage: I knew how to do it, but I couldn't seem to
-explain it very effectively to anyone else.
+*unconcious competence* stage: I knew how to do it myself, but I struggled to
+fully explain what I knew to anyone else.
 
-A couple of years ago I discovered this technique, and have been teaching it to
-people ever since. It seems popular and useful, so I want to share it with you.
+A couple of years ago I discovered example mapping during a training workshop in
+St. Louis, MO, and have been teaching it to people ever since. It seems popular
+and useful, so I want to share it with you.
 
 What is Example Mapping?
 ------------------------
@@ -62,7 +63,7 @@ be captured too:
 -   new *user stories* we discovered or sliced out of scope
 
 In example mapping, we use a pack of 4-coloured index cards to capture these
-different artifacts while the conversation happens.
+different artefacts while the conversation happens.
 
 **TODO: picture of 4 x cards with example, rule, question, story written on
 them.**
