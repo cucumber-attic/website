@@ -1,18 +1,57 @@
-footer.container-fluid.main-footer
-  .col-lg-12
-    p.text-center
-      | Copyright © Cucumber Ltd 2014-2015
-      - if locals['press_url']
-        span<> -
-        a href=(locals['press_url']) Press
-    p.text-center
-      a href="tel:+442087206842" +44 20 8720 6842 (Europe)
-    p.text-center
-      a href="tel:+18444144961" 1-844-414-4961 (USA)
-    p.text-center
-      <a href="https://plus.google.com/116902988985414518476" rel="publisher">Google+</a>
-    p.text-center#js-edit
-      a href=(edit_url(locals['template_path'])) Edit this page
+footer.main-footer
+  .container
+    .row
+      .col-md-2
+        h1.main-footer-title Links
+        ul.list-unstyled
+          li
+            a href="/docs" Docs
+          li
+            a href="/school" School
+          li
+            a href="/training" Training
+          li
+            a href="/pro" Cucumber Pro
+          li
+            a href="/support" Support
+      .col-md-2
+        h1.main-footer-title Community
+        ul.list-unstyled
+          li
+            a href="https://twitter.com/cucumberbdd" Twitter
+          li
+            a href="/blog" Blog
+          li
+            a href="/events" Events
+          li
+            a href="/support" Contact us
+          li
+            a href="/code-of-conduct" Code of Conduct
+          li
+            a href="https://plus.google.com/116902988985414518476" rel="publisher" Google+
+      .col-md-4
+        h1.main-footer-title Tweet
+        .main-footer-tweet
+          / TODO: Put latest tweet here
+      .col-md-4
+        .main-footer-company.text-right
+          img src="/images/cukeup/logos/cucumber-ltd.svg" alt="Cucumber Ltd' logo" title="Cucumber Ltd"
+          p The company behind Cucumber & Cucumber Pro.
+        p.main-footer-phones.text-right
+          a> href="tel:+442087206842" +44 20 8720 6842 (Europe)
+          ||
+          a< href="tel:+18444144961" 1-844-414-4961 (USA)
+    .row
+      .col-md-12
+        p.main-footer-copyright.text-center
+          | © Cucumber Limited. All rights reserved.
+          - if locals['press_url']
+            span<> -
+            a href=(locals['press_url']) Press
+
+      / TODO: Move this to main nav
+      / p.text-center#js-edit
+      /   a href=(edit_url(locals['template_path'])) Edit this page
 
 - if ENV['RACK_ENV'] == 'production'
   == slim '_includes/google_analytics'.to_sym
