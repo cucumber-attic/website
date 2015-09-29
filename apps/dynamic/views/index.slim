@@ -52,9 +52,29 @@ section.cucumber-bdd
 
 section.community
   .container
-    .community-avatars
-      - site['community'].recent_contributors.each do |contributor|
-        img src=contributor.avatar_url alt=contributor.username
+    .row
+      .community-download.text-center.col-md-4
+        .number 40,000
+        p download this week
+      .col-md-8
+        .row
+          .community-contributions.col-md-6
+            p Some contributions
+          .community-meet.col-md-6
+            h1 Meet our community
+            p Over 3,000 Cucumber users are part of the daily discussions on our mailing list.
+            a href="" Subscribe to the mailing list →
+        .row
+          .community-contributors.text-center.col-md-3
+            .number 1,300
+            p contributors
+          .community-avatars.col-md-6
+            .row
+              - site['community'].recent_contributors.each do |contributor|
+                img src=contributor.avatar_url alt=contributor.username
+          .community-languages.text-center.col-md-3
+            .number 10
+            p languages
 
 section.company
   .container
