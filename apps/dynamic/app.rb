@@ -113,7 +113,12 @@ module Website
   events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
   CONFIG['site']['events'] = events
 
-  CONFIG['site']['community'] = Cucumber::Website::CommunityLoader.new.call
+  contributors = [
+    Cucumber::Website::Core::Contributor.with(username: "aslakhellesoy", avatar_url: "https://avatars.githubusercontent.com/u/1000"),
+    Cucumber::Website::Core::Contributor.with(username: "mattwynne", avatar_url: "https://avatars.githubusercontent.com/u/19260"),
+    Cucumber::Website::Core::Contributor.with(username: "charlierudolph", avatar_url: "https://avatars.githubusercontent.com/u/1676758")
+  ]
+  CONFIG['site']['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
 
   App = make_app(pages)
 end

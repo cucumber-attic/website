@@ -56,6 +56,13 @@ END:VEVENT
     )
   end
 
+  def create_contributor(attributes = {})
+    default_attributes = {
+      avatar_url: "https://avatars.githubusercontent.com/u/#{attributes['username'].hash}"
+    }
+    Cucumber::Website::Core::Contributor.with(attributes.merge(default_attributes))
+  end
+
   def slugify(string)
     string.gsub(' ', '-').downcase
   end
