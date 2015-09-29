@@ -12,6 +12,7 @@ require 'cucumber/website/config'
 require 'cucumber/website/calendar'
 require 'cucumber/website/events'
 require 'cucumber/website/reference'
+require 'cucumber/website/community'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
@@ -111,6 +112,8 @@ module Website
   calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
   events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
   CONFIG['site']['events'] = events
+
+  CONFIG['site']['community'] = Cucumber::Website::CommunityLoader.new.call
 
   App = make_app(pages)
 end

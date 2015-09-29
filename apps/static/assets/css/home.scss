@@ -75,6 +75,17 @@
   font-weight: 300;
 }
 
+.cucumber-bdd {
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: $brand-green-light;
+    strong {
+      font-weight: 400;
+    }
+  }
+}
+
 .company {
   margin: 100px 0;
   color: $brand-gray;

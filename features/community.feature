@@ -4,12 +4,15 @@ Feature: Community
   Scenario: See GitHub contributors
     Given the number of recent contributors to display is 3
     And the most recent actors on Cucumber's GitHub organization are:
-      | aslakhellsoy   |
+      | aslakhellesoy  |
       | mattwynne      |
       | mattwynne      |
       | charlierudolph |
+      | romaingweb     |
     When I view the homepage
     Then I see these avatars:
-      | aslakhellsoy   |
+      | aslakhellesoy  |
       | mattwynne      |
       | charlierudolph |
+
+  Scenario: See GitHub issue comments
