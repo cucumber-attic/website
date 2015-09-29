@@ -9,42 +9,37 @@ author: matt
 Before you pull a user story into development, it’s crucial to have a
 [conversation to clarify and
 confirm](<http://ronjeffries.com/xprog/articles/expcardconversationconfirmation/>)
-the acceptance criteria. So many agile teams struggle with this conversation:
-it’s unstructured, takes too long, gets boring, with the result that they don’t
-do it regularly or consistently, or just give up on it entirely.
+the acceptance criteria. Some people do this during their [backlog
+grooming](<http://scrummethodology.com/scrum-backlog-grooming/>) or [planning
+poker](<https://www.mountaingoatsoftware.com/agile/planning-poker>) sessions.
+Many teams have a specific [three
+amgios](<http://www.velocitypartners.net/blog/2014/02/11/the-3-amigos-in-agile-teams/>)
+meeting, [specification
+workshop](<http://gojko.net/2008/11/12/specification-workshops-an-agile-way-to-get-better-requirements/>)
+or [discovery
+workshop](<http://dannorth.net/2010/08/30/introducing-deliberate-discovery/>).
+
+I’ve met so many agile teams who struggle with this conversation: it’s
+unstructured, takes too long, gets boring, with the result that they don’t do it
+regularly or consistently, or they just give up on it entirely.
 
 This post outlines a simple, low-tech method I've discovered for making the
 conversation short and powerfully productive.
 
 I call it [Example Mapping](<https://twitter.com/search?q=%23ExampleMapping>).
 
-The conversation itself has many names: for some people it happens during their
-[backlog grooming](<http://scrummethodology.com/scrum-backlog-grooming/>) or
-[planning poker](<https://www.mountaingoatsoftware.com/agile/planning-poker>)
-sessions. Many teams have a specific [three
-amgios](<http://www.velocitypartners.net/blog/2014/02/11/the-3-amigos-in-agile-teams/>)
-meeting, or [specification
-workshop](<http://gojko.net/2008/11/12/specification-workshops-an-agile-way-to-get-better-requirements/>).
-I prefer Dan North’s term, [discovery
-workshop](<http://dannorth.net/2010/08/30/introducing-deliberate-discovery/>),
-which explicitly calls out its main purpose: to discover all the stuff you
-didn’t know you didn’t know.
-
-Anyway.
-
-Example Mapping is a tool you can use in any of these forums to give structure
-to this important conversation and efficiently capture its outputs.
+![](<../../../static/public/images/blog/example-mapping/title.jpg>)
 
 I've been facilitating discovery workshops since I first started using BDD back
-in 2008 at [Songkick]. Since then, I've [gone on to
+in 2008 at [Songkick](<http://www.songkick.com/>). Since then, I've [gone on to
 teach](<http://cucumber.io/training>) hundreds of people about these practices,
 yet for a long time my skill at running a discovery workshop was at the
 *unconcious competence* stage: I knew how to do it myself, but I struggled to
 fully explain what I knew to anyone else.
 
-A couple of years ago I discovered example mapping during a training workshop in
-St. Louis, MO, and have been teaching it to people ever since. It seems popular
-and useful, so I want to share it with you.
+A couple of years ago, during a training workshop in St. Louis, MO, I figured it
+out and have been teaching it to people ever since. It seems popular and useful,
+so I want to share it with you.
 
 What is Example Mapping?
 ------------------------
@@ -62,68 +57,55 @@ be captured too:
 
 -   new *user stories* we discovered or sliced out of scope
 
-In example mapping, we use a pack of 4-coloured index cards to capture these
-different artefacts while the conversation happens.
+![](<../../../static/public/images/blog/example-mapping/4-cards.jpg>)
 
-**TODO: picture of 4 x cards with example, rule, question, story written on
-them.**
+In example mapping, we use a pack of 4-coloured index cards to capture these
+different artefacts while the conversation happens. As we talk, a map emerges on
+the table in front of us that reflects back our current understanding of the
+story.
+
+![](<../../../static/public/images/blog/example-mapping/map.jpg>)
 
 We start by writing the **story** under discussion on a **yellow** card and
 placing it at the top of the table.
-
-TODO: picture
 
 Next, we write each of the acceptance criteria, or **rules** that we already
 know on a **blue** card and placing those across the table beneath the yellow
 story card.
 
-TODO: picture
-
 For each rule, we may need one or more **examples** to illustrate it. We write
 those on a **green** card and place them under the relevant rule.
-
-TODO: picture
 
 As we discuss these examples, we may uncover **questions** that nobody in the
 room can answer. We capture those on a **red** card and move on with the
 conversation.
 
-TODO: picture
-
 And so, as the conversation flows, we quickly build up a visual representation
 on the table in front of us that reflects back our current understanding of the
-story.
+story:
 
-TODO: picture
+-   A table covered in red, question, cards tells us that we still have a lot to
+    learn about this story.
 
-A table covered in red, question, cards tells us that we still have a lot to
-learn about this story.
+-   A table covered in blue, rule, cards tells us that this story is big and
+    complicated. Perhaps we can slice it? Take another yellow card and stick the
+    sliced story on the backlog.
 
-TODO: picture
-
-A table covered in blue, rule, cards tells us that this story is big and
-complicated. Perhaps we can slice it?
-
-TODO: picture
-
-A rule with many examples might be over-complex. Are there multiple rules at
-play that need to be teased apart?
-
-TODO: picture
+-   A rule with many examples might be over-complex. Are there multiple rules at
+    play that need to be teased apart?
 
 You’ll find that some rules are so obvious you don’t need examples at all. It’s
 clear from the conversation that everyone understands the rule, and you can move
 on without forcing yourselves to grind out Given / When / Then like
 BDD-brainwashed automatons.
 
-TODO: picture
+And that’s it. I told you it was simple! A small group of amigos should be able
+to map out a well-understood, well-sized story in **about 25 minutes**.
 
-And that’s it. I told you it was simple! A small group of 3-4 amigos should be
-able to map out a well-understood, well-sized story in under half an hour. If
-you can’t, either you’re still getting the hang of this, the story is too big,
-or it still has too much uncertainty in it. Listen to that, and either try and
-slice the story, or let the product person go off and do some homework before
-you re-map the story at a later date.
+If you can’t, either you’re still getting the hang of this, the story is too
+big, or it still has too much uncertainty in it. Listen to that, and either try
+and slice the story, or let the product person go off and do some homework
+before you re-map the story at a later date.
 
 What do we mean by example?
 ---------------------------
@@ -139,14 +121,16 @@ It’s easy to see why people make this mistake: the apparent purpose is to take
 user story, which already has some pre-defined *acceptance criteria*, and come
 up with *examples* that can be turned into *acceptance tests*.
 
-TODO: drawing
-
 I think the true purpose, however, is to reach a *shared understanding* of what
 it will take for the story to be done. You can move much more quickly towards
 this goal by staying low-tech.
 
 Instead, just try to capture a list of *rough examples*, using the *friends
-episode* naming convention:
+episode* naming convention.
+
+![](<../../../static/public/images/blog/example-mapping/friends.jpg>)
+
+For example:
 
 -   The one where the customer forgot his receipt
 
@@ -154,23 +138,14 @@ episode* naming convention:
 
 -   The one where the product was bought 15 days ago
 
-**TODO: put these on cards**
-
 Sometimes, when uncertainty lurks, you’ll instinctively want to be more concrete
 than this. You still don't need to resort to the rigid structure of *Given When
 Then*:
 
--   Product was bought at 12:00 on the 1st May
-
--   Customer returns the item at 1pm on the 15th May
-
--   =\> Refund can be processed
-
-**TODO: put this on a card**
+![](<../../../static/public/images/blog/example-mapping/no-gherkin.jpg>)
 
 When the outcome (Then) is unclear, you don’t have an example, you have a
-question. *What should happen if the customer forgot his receipt? Good
-question!*
+question.
 
 Why capturing questions is awesome
 ----------------------------------
@@ -179,9 +154,12 @@ Many people tell me that just this one aspect of example mapping has transformed
 their discovery workshops from dull ramble-athons into snappy productive
 mind-melds.
 
-Whenever a conversation is going round in circles, it’s because you don’t have
-enough information. Probabably someone is missing fromt the conversation, but
-maybe you need to do some user research, or a spike.
+![](<../../../static/public/images/blog/example-mapping/question.jpg>)
+
+Whenever a conversation like this is going round in circles, it’s because you
+don’t have enough information. Probabably someone is missing from the
+conversation, or maybe you need to do some user research, or a
+[spike](<http://www.extremeprogramming.org/rules/spike.html>).
 
 Instead of letting everyone share their *opinion* about what they think the
 outcome should be, simply capture the question and move on. Congratulations!
@@ -191,7 +169,11 @@ progress.
 Who should come to an Example Mapping session?
 ----------------------------------------------
 
-….
+The bare minimum is your three amigos: a developer, a tester and a product
+person. By all means invite your operations, user experience people or whoever
+else is relevant to the story being discussed. Anyone likely to help you
+discover new questions, or to turn questions into decisions during the
+conversation will be useful.
 
 While you’re learning this technique, it can help to have someone in the formal
 role of facilitator, whose job it is to make sure everything that’s being said
@@ -199,22 +181,52 @@ is being captured on a card. Examples and questions fly around the room quickly,
 and it takes discipline to capture them on the table so you can see what you’re
 talking about.
 
+What do I do with the cards when we’re finished?
+------------------------------------------------
+
+Here’s what we did at Songkick:
+
+After the discussion, I’d pick up the cards, find a pair, and write up a Gherkin
+feature file. I’d list out the rules at the top of the feature, along with any
+other interesting stuff I’d learned during the conversation. If there were any
+remaining questions, I’d list those too. I’d use each of the green examples
+cards as the names of my scenarios.
+
+Then, I might flesh out some of the scenarios with their Given / When / Then
+steps. Not all of them, but the ones I was curious about, or felt there might be
+some uncertainty around.
+
+Finally, I’d copy and paste the contents of feature file into an email, and send
+it round the people from the discovery workshop for feedback.
+
 How often should I run Example Mapping sessions?
 ------------------------------------------------
 
-When to write Gherkin during the session
-----------------------------------------
+My recommendation, based on what I’ve seen work for several teams in practice,
+is to run them frequently: daily or every other day. Just pick one story and
+give it 25 minutes of attention, then go back to work. Trying to do more in a
+big batch will just drain your energy.
 
 My team is distributed and we can't use cards. What do we do?
 -------------------------------------------------------------
 
-How Example Mapping Fits into Your Process
-------------------------------------------
+I’ve seen innovative hacks on this already: some people use bullet lists in a
+shared Google doc, I’ve seen people using a spreadsheet with coloured cells to
+represent the cards. The key is to keep it quick and easy to work with, so you
+can focus on the conversation.
 
-At Songkick, I would sit down around a table with the Product Owner, UX
-Designer, and perhaps one of the other developers, and we'd talk through
-different examples of what the software might do once the story was implemented.
-I'd take notes by using index cards to represent each example we came up with,
-laying them out in front of us on the table. Some of the cards would end up
-being torn up as we realised they were beyond the scope of that story, and the
-rest I would take away and write up as Gherkin.
+Some final tips
+---------------
+
+It’s important to clearly understand the distinction between [rules and
+examples](<http://lizkeogh.com/2011/06/20/acceptance-criteria-vs-scenarios/>)
+before you can make use of Example Mapping. I have a great exercise for teaching
+this that I’ll share in a future post.
+
+Remember that the whole purpose of this conversation is to **discover the stuff
+you don’t already know**. So there are no stupid questions. Have some fun and
+really explore the problem.
+
+You’ll find that rules make natural fault lines for slicing your story. Try to
+feel comfortable deferring as much as possible, so that you can focus on solving
+the core of the problem. You can add more sophistication (and complexity) later.
