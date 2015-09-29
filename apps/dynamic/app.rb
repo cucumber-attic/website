@@ -12,7 +12,7 @@ require 'cucumber/website/config'
 require 'cucumber/website/calendar'
 require 'cucumber/website/events'
 require 'cucumber/website/reference'
-require 'cucumber/website/community'
+require 'cucumber/website/core/entities'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
