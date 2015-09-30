@@ -39,7 +39,7 @@ Slim::Engine.disable_option_validator!
 module Cucumber
 module Website
 
-  def self.make_app(pages, site)
+  def self.make_app(site)
     Class.new(Sinatra::Application) do
 
       set :root, File.dirname(__FILE__)
@@ -49,8 +49,9 @@ module Website
         use Rollbar::Middleware::Sinatra
       end
 
-      configure :production do
-        CONFIG['events'].start(CONFIG['calendar_refresh_interval'])
+      # TODO: This decision isn't a concern of the web app. Where to?
+      if site.config['calendar_refresh_interval']
+        site.events.start(site.config['calendar_refresh_interval'])
       end
 
       configure :test do
@@ -58,14 +59,14 @@ module Website
         disable :show_exceptions, :logging
       end
 
-      pages.each do |page|
+      site.pages.each do |page|
         next unless page.primary?
 
         get page.path do
           headers.merge!(page.headers)
 
           if page.cacheable?
-            timestamps = pages.map(&:timestamp) + [File.mtime(__FILE__)]
+            timestamps = site.pages.map(&:timestamp) + [File.mtime(__FILE__)]
             last_modified timestamps.max
           end
 
@@ -121,6 +122,6 @@ module Website
   ]
   CONFIG['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
 
-  App = make_app(pages, site)
+  App = make_app(site)
 end
 end

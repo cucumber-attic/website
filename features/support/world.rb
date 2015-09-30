@@ -62,12 +62,12 @@ END:VEVENT
 
   private
     def reload_app
-      Capybara.app = Cucumber::Website.make_app(pages, site)
+      Capybara.app = Cucumber::Website.make_app(site)
       self
     end
 
     def site
-      @site ||= Cucumber::Website::Core::Site.new(site_config, custom_pages, calendars)
+      @site ||= Cucumber::Website::Core::Site.new(site_config, pages, calendars)
     end
 
     def calendars

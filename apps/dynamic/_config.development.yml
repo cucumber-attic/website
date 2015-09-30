@@ -1,6 +1,6 @@
 url: http://localhost:5000
 
-calendar_refresh_interval: 3
+calendar_refresh_interval: 60
 calendars:
   - http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
   - http://www.meetup.com/BDDLondon/events/ical/
