@@ -1,0 +1,323 @@
+# Logfile created on 2015-09-30 06:40:01 +0100 by logger.rb/44203
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] ERROR : No application name configured.
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] ERROR : value set for app_name in the development 
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] ERROR : environment.
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Installing Net instrumentation
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Finished instrumentation
+[09/30/15 06:40:01 +0100 MattBook-Air.local (63289)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] ERROR : No application name configured.
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] ERROR : value set for app_name in the development 
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] ERROR : environment.
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Installing Net instrumentation
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Finished instrumentation
+[09/30/15 06:44:06 +0100 MattBook-Air.local (63400)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] ERROR : No application name configured.
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] ERROR : value set for app_name in the development 
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] ERROR : environment.
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Installing Net instrumentation
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Finished instrumentation
+[09/30/15 06:44:46 +0100 MattBook-Air.local (63435)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] ERROR : No application name configured.
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] ERROR : value set for app_name in the development 
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] ERROR : environment.
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Installing Net instrumentation
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Finished instrumentation
+[09/30/15 06:45:11 +0100 MattBook-Air.local (63464)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] ERROR : No application name configured.
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] ERROR : value set for app_name in the development 
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] ERROR : environment.
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Installing Net instrumentation
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Finished instrumentation
+[09/30/15 06:46:01 +0100 MattBook-Air.local (63486)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] ERROR : No application name configured.
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] ERROR : value set for app_name in the development 
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] ERROR : environment.
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Installing Net instrumentation
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Finished instrumentation
+[09/30/15 06:46:48 +0100 MattBook-Air.local (63515)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] ERROR : No application name configured.
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] ERROR : value set for app_name in the development 
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] ERROR : environment.
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Installing Net instrumentation
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Finished instrumentation
+[09/30/15 06:48:17 +0100 MattBook-Air.local (63558)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] ERROR : No application name configured.
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] ERROR : value set for app_name in the development 
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] ERROR : environment.
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Installing Net instrumentation
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Installing Sinatra instrumentation
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Installing deferred Rack instrumentation
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Finished instrumentation
+[09/30/15 06:49:08 +0100 MattBook-Air.local (63608)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] ERROR : No application name configured.
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] ERROR : value set for app_name in the development 
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] ERROR : environment.
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Installing Net instrumentation
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Finished instrumentation
+[09/30/15 07:11:50 +0100 MattBook-Air.local (64043)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] ERROR : No application name configured.
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] ERROR : value set for app_name in the development 
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] ERROR : environment.
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Installing Net instrumentation
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Finished instrumentation
+[09/30/15 07:27:30 +0100 MattBook-Air.local (64676)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] ERROR : No application name configured.
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] ERROR : value set for app_name in the development 
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] ERROR : environment.
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Installing Net instrumentation
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Finished instrumentation
+[09/30/15 07:28:22 +0100 MattBook-Air.local (64716)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] ERROR : No application name configured.
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] ERROR : value set for app_name in the development 
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] ERROR : environment.
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Installing Net instrumentation
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Finished instrumentation
+[09/30/15 07:29:28 +0100 MattBook-Air.local (64923)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] ERROR : No application name configured.
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] ERROR : value set for app_name in the development 
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] ERROR : environment.
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Installing Net instrumentation
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Finished instrumentation
+[09/30/15 07:30:30 +0100 MattBook-Air.local (65002)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] ERROR : No application name configured.
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] ERROR : value set for app_name in the development 
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] ERROR : environment.
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Installing Net instrumentation
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Finished instrumentation
+[09/30/15 07:30:55 +0100 MattBook-Air.local (65023)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] ERROR : No application name configured.
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] ERROR : value set for app_name in the development 
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] ERROR : environment.
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Installing Net instrumentation
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Finished instrumentation
+[09/30/15 07:31:20 +0100 MattBook-Air.local (65036)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] ERROR : No application name configured.
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] ERROR : value set for app_name in the development 
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] ERROR : environment.
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Installing Net instrumentation
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Finished instrumentation
+[09/30/15 07:34:39 +0100 MattBook-Air.local (65088)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] ERROR : No application name configured.
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] ERROR : value set for app_name in the development 
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] ERROR : environment.
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Installing Net instrumentation
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Finished instrumentation
+[09/30/15 07:34:46 +0100 MattBook-Air.local (65105)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] ERROR : No application name configured.
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] ERROR : value set for app_name in the development 
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] ERROR : environment.
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Installing Net instrumentation
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Finished instrumentation
+[09/30/15 07:35:03 +0100 MattBook-Air.local (65124)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] ERROR : No application name configured.
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] ERROR : value set for app_name in the development 
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] ERROR : environment.
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Installing Net instrumentation
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Finished instrumentation
+[09/30/15 07:35:40 +0100 MattBook-Air.local (65151)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] ERROR : No application name configured.
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] ERROR : value set for app_name in the development 
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] ERROR : environment.
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Installing Net instrumentation
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Finished instrumentation
+[09/30/15 07:36:02 +0100 MattBook-Air.local (65172)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] ERROR : No application name configured.
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] ERROR : value set for app_name in the development 
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] ERROR : environment.
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Installing Net instrumentation
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Finished instrumentation
+[09/30/15 07:36:33 +0100 MattBook-Air.local (65199)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] ERROR : No application name configured.
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] ERROR : value set for app_name in the development 
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] ERROR : environment.
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Installing Net instrumentation
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Finished instrumentation
+[09/30/15 07:37:25 +0100 MattBook-Air.local (65229)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Reading configuration from config/newrelic.yml (/Users/matt/projects/cucumber-website)
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] ERROR : No application name configured.
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] ERROR : The Agent cannot start without at least one. Please check your 
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] ERROR : value set for app_name in the development 
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] ERROR : environment.
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Installing Net instrumentation
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Installing Sinatra instrumentation
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Installing deferred Rack instrumentation
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Installing Rack::Builder middleware instrumentation
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Finished instrumentation
+[09/30/15 07:37:55 +0100 MattBook-Air.local (65250)] INFO : Doing deferred dependency-detection before Rack startup

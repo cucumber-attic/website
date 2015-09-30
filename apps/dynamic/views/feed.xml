@@ -6,14 +6,14 @@ headers:
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <author>{{ site.author | xml_escape }}</author>
-    <copyright>{{ site.copyright | xml_escape }}</copyright>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <% site['posts'][0..9].each do |post|
-      author = site['authors'][post.author]
+    <title>{{ config['name'] | xml_escape }}</title>
+    <description>{{ config['description'] | xml_escape }}</description>
+    <link>{{ config['url'] }}</link>
+    <author>{{ config['author'] | xml_escape }}</author>
+    <copyright>{{ config['copyright'] | xml_escape }}</copyright>
+    <atom:link href="{{ config['url'] }}/feed.xml" rel="self" type="application/rss+xml" />
+    <% site.posts[0..9].each do |post|
+      author = config['authors'][post.author]
     %>
       <item>
         <title><%= post.title %></title>

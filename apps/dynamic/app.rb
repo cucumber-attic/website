@@ -13,6 +13,7 @@ require 'cucumber/website/calendar'
 require 'cucumber/website/events'
 require 'cucumber/website/reference'
 require 'cucumber/website/core/entities'
+require 'cucumber/website/core/site'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
@@ -38,15 +39,18 @@ Slim::Engine.disable_option_validator!
 module Cucumber
 module Website
 
-  def self.make_app(pages)
+  def self.make_app(pages, site)
     Class.new(Sinatra::Application) do
 
-      set :root,  File.dirname(__FILE__)
+      set :root, File.dirname(__FILE__)
+      set :site, site
 
-      use Rollbar::Middleware::Sinatra
+      configure :production do
+        use Rollbar::Middleware::Sinatra
+      end
 
-      configure(:development, :production) do
-        CONFIG['site']['events'].start(CONFIG['site']['calendar_refresh_interval'])
+      configure :production do
+        CONFIG['events'].start(CONFIG['calendar_refresh_interval'])
       end
 
       configure :test do
@@ -86,9 +90,11 @@ module Website
         end
       end
 
-      error 500 do
-        status 500
-        slim :error
+      configure :development, :production do
+        error 500 do
+          status 500
+          slim :error
+        end
       end
 
       not_found do
@@ -100,26 +106,23 @@ module Website
 
   extend Config
   CONFIG = load_config(ENV['RACK_ENV'])
+  site = Core::Site.new(CONFIG)
 
   views_path = File.dirname(__FILE__) + "/views"
-  pages = Page.all(CONFIG, views_path)
-
-  CONFIG['site']['posts'] =
-    pages.select(&:post?).select { |page| page.date < Time.now }
-    .sort { |a, b| b.date <=> a.date }
+  pages = Page.all(CONFIG, views_path, site)
 
   calendar_logger = Logger.new($stderr)
-  calendars = CONFIG['site']['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
+  calendars = CONFIG['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
   events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
-  CONFIG['site']['events'] = events
+  CONFIG['events'] = events
 
   contributors = [
     Cucumber::Website::Core::Contributor.with(username: "aslakhellesoy", avatar_url: "https://avatars.githubusercontent.com/u/1000"),
     Cucumber::Website::Core::Contributor.with(username: "mattwynne", avatar_url: "https://avatars.githubusercontent.com/u/19260"),
     Cucumber::Website::Core::Contributor.with(username: "charlierudolph", avatar_url: "https://avatars.githubusercontent.com/u/1676758")
   ]
-  CONFIG['site']['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
+  CONFIG['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
 
-  App = make_app(pages)
+  App = make_app(pages, site)
 end
 end

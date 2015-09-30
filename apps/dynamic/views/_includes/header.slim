@@ -2,11 +2,11 @@ meta charset="utf-8" /
 meta content="IE=edge" http-equiv="X-UA-Compatible" /
 meta content="width=device-width, initial-scale=1" name="viewport" /
 meta content="cucumber, gherkin, testing, bdd, tdd, atdd, sbe, specification by example, requirements" name="keywords" /
-meta content=(site['description']) name="description" /
-meta content=(site['author']) name="author" /
-meta content=(site['copyright']) name="copyright" /
-link href=(site['url'] + '/feed.xml') rel="alternate" title="Cucumber News" type="application/rss+xml" /
-link href=(site['url'] + '/events-feed.xml') rel="alternate" title="Cucumber Events" type="application/rss+xml" /
+meta content=(config['description']) name="description" /
+meta content=(config['author']) name="author" /
+meta content=(config['copyright']) name="copyright" /
+link href=(config['url'] + '/feed.xml') rel="alternate" title="Cucumber News" type="application/rss+xml" /
+link href=(config['url'] + '/events-feed.xml') rel="alternate" title="Cucumber Events" type="application/rss+xml" /
 
 title
   - if ["Cucumber", "Cucumber Pro"].include? title

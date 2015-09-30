@@ -1,4 +1,5 @@
 require 'cucumber/website/calendar'
+require 'cucumber/website/core/site'
 
 module World
 
@@ -47,13 +48,16 @@ END:VEVENT
     custom_pages << Cucumber::Website::FakeEventPage.new(default_front_matter.merge(front_matter))
     site_config['events'] = Cucumber::Website::Events.new(custom_pages, calendars).sync
     views_path = File.join(File.dirname(__FILE__), '..', '..', 'apps', 'dynamic', 'views')
-    Capybara.app = Cucumber::Website.make_app(custom_pages + [
+    site = Cucumber::Website::Core::Site.new(site_config)
+    pages = custom_pages + [
         Cucumber::Website::Page.new(Cucumber::Website::CONFIG,
           File.join(views_path, 'events.slim'),
-          views_path
+          views_path,
+          site
         )
       ]
-    )
+    site = Cucumber::Website::Core::Site.new(Cucumber::Website::CONFIG)
+    Capybara.app = Cucumber::Website.make_app(pages, site)
   end
 
   def create_contributor(attributes = {})
@@ -78,7 +82,7 @@ END:VEVENT
     end
 
     def site_config
-      Cucumber::Website::CONFIG['site']
+      Cucumber::Website::CONFIG
     end
 end
 

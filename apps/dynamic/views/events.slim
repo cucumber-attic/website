@@ -14,7 +14,7 @@ cacheable: false
         a.btn.btn-success href="/add-events" Add your own event
 
       table.table
-        - site['events'].each do |event|
+        - config['events'].each do |event|
           tr
             td
               span.date= event.dtstart.strftime("%b %d, %Y")

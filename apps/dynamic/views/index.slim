@@ -70,7 +70,7 @@ section.community
             p contributors
           .community-avatars.col-md-6
             .row
-              - site['community'].recent_contributors.each do |contributor|
+              - config['community'].recent_contributors.each do |contributor|
                 img src=contributor.avatar_url alt=contributor.username
           .community-languages.text-center.col-md-3
             .number 10

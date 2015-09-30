@@ -67,7 +67,7 @@ describe "integration testing" do
 
       it "has at least 1 entry" do
         ical = File.dirname(__FILE__) + '/events/lanyrd.ics'
-        Cucumber::Website::CONFIG['site']['events'] =
+        Cucumber::Website::CONFIG['events'] =
           Cucumber::Website::Events.new(event_pages=[], calendars=[Cucumber::Website::FakeCalendar.new(IO.read(ical))])
 
         get "/events-feed.xml"

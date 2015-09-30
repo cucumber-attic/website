@@ -8,14 +8,8 @@ module Cucumber
 
       def load_config(env)
         raise "Environment not defined" unless env
-        config = {
-          'site' => YAML.load_file(File.dirname(__FILE__) + "/../../../apps/dynamic/_config.yml")
-        }
-
-        env_config = {
-          'site' => YAML.load_file(File.dirname(__FILE__) + "/../../../apps/dynamic/_config.#{env}.yml")
-        }
-
+        config = YAML.load_file(File.dirname(__FILE__) + "/../../../apps/dynamic/_config.yml")
+        env_config = YAML.load_file(File.dirname(__FILE__) + "/../../../apps/dynamic/_config.#{env}.yml")
         deep_merge_hashes(config, env_config)
       end
     end

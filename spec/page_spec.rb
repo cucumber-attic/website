@@ -10,15 +10,17 @@ module Cucumber::Website
     extend Config
     config = load_config('test')
 
+    let(:site) { double }
+
     it "exposes frontmatter as attributes" do
       template_path = File.dirname(__FILE__) + '/fixtures/some_page.md'
-      page = Page.new(config, template_path, views)
+      page = Page.new(config, template_path, views, site)
       expect(page.arbitrary_frontmatter_attribute).to eq 'arbitrary frontmatter value'
     end
 
     it "can set attribute on page" do
       template_path = File.dirname(__FILE__) + '/fixtures/some_page.md'
-      page = Page.new(config, template_path, views)
+      page = Page.new(config, template_path, views, site)
       page.new_attribute = 'yo'
       expect(page.new_attribute).to eq 'yo'
     end
@@ -27,13 +29,13 @@ module Cucumber::Website
       let(:page) { Page.new(config, File.join(views, 'school.slim'), views) }
 
       it "has a url" do
-        page = Page.new(config, File.join(views, 'school.slim'), views)
+        page = Page.new(config, File.join(views, 'school.slim'), views, site)
         expect(page.url).to eq("https://cucumber.io/school")
       end
     end
 
     describe "as blog post" do
-      let(:page) { Page.new(config, File.join(views, '_posts/matt-on-test-talks.md'), views) }
+      let(:page) { Page.new(config, File.join(views, '_posts/matt-on-test-talks.md'), views, site) }
 
       it "has a title" do
         expect(page.title).to eq("Matt Wynne interviewed by TestTalks")
@@ -46,7 +48,7 @@ module Cucumber::Website
 
     describe "as event" do
       it "has a title" do
-        page = Page.new(config, File.join(views, 'events/cukeup-australia-2015.slim'), views)
+        page = Page.new(config, File.join(views, 'events/cukeup-australia-2015.slim'), views, site)
         expect(page.title).to eq("CukeUp! Australia")
       end
     end

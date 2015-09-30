@@ -45,10 +45,10 @@ module Cucumber
       }
 
       class << self
-        def all(config, views_dir)
+        def all(config, views_dir, site)
           views_glob = "#{views_dir}/**/*{#{ENGINES.keys.join(',')}}"
           Dir[views_glob].map do |file|
-            Page.new(config, file, views_dir)
+            Page.new(config, file, views_dir, site)
           end
         end
       end
@@ -57,9 +57,10 @@ module Cucumber
 
       attr_reader :engine
 
-      def initialize(config, file, views_dir)
+      def initialize(config, file, views_dir, site)
         @config        = config
         @file          = file
+        @site          = site
 
         @front_matter = if has_yaml_header?
           YAML.load_file(@file)
@@ -103,9 +104,11 @@ module Cucumber
       end
 
       def locals
-        locals = deep_merge_hashes(@config, @front_matter)
+        locals = @front_matter
         locals['locals'] = locals # So slim can pass locals to _includes
         locals['template_path'] = @template_path
+        locals['site'] = @site
+        locals['config'] = @config
         locals
       end
 
@@ -121,7 +124,7 @@ module Cucumber
       end
 
       def url
-        "#{@config['site']['url']}#{path}"
+        "#{@config['url']}#{path}"
       end
 
       def content
