@@ -9,8 +9,7 @@ module Cucumber::Website
 
     let(:config) { load_config('test') }
     let(:views_dir) { File.dirname(__FILE__) + '/../apps/dynamic/views' }
-    let(:event_pages) { Page.all(config, views_dir, site).select(&:event?) }
-    let(:site) { double }
+    let(:event_pages) { Page.all(config, views_dir).select(&:event?) }
     let(:lanyrd) { ical = IO.read(File.dirname(__FILE__) + '/events/lanyrd.ics') }
     let(:bdd_london) { ical = IO.read(File.dirname(__FILE__) + '/events/bdd-london.ics') }
 

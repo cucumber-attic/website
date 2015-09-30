@@ -45,10 +45,10 @@ module Cucumber
       }
 
       class << self
-        def all(config, views_dir, site)
+        def all(config, views_dir)
           views_glob = "#{views_dir}/**/*{#{ENGINES.keys.join(',')}}"
           Dir[views_glob].map do |file|
-            Page.new(config, file, views_dir, site)
+            Page.new(config, file, views_dir)
           end
         end
       end
@@ -57,10 +57,9 @@ module Cucumber
 
       attr_reader :engine
 
-      def initialize(config, file, views_dir, site)
+      def initialize(config, file, views_dir)
         @config        = config
         @file          = file
-        @site          = site
 
         @front_matter = if has_yaml_header?
           YAML.load_file(@file)
@@ -90,6 +89,9 @@ module Cucumber
           options[:fenced_code_blocks] = true
         end
 
+        locals['site'] = sinatra.settings.site
+        locals['locals'] = locals # So slim can pass locals to _includes
+
         template_proc = Proc.new { |template| content }
         html = sinatra.send(engine, template_proc, options, locals)
         html.gsub('---', '&#8212;') # em-dash
@@ -105,9 +107,7 @@ module Cucumber
 
       def locals
         locals = @front_matter
-        locals['locals'] = locals # So slim can pass locals to _includes
         locals['template_path'] = @template_path
-        locals['site'] = @site
         locals['config'] = @config
         locals
       end

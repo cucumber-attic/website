@@ -106,10 +106,10 @@ module Website
 
   extend Config
   CONFIG = load_config(ENV['RACK_ENV'])
-  site = Core::Site.new(CONFIG)
 
   views_path = File.dirname(__FILE__) + "/views"
-  pages = Page.all(CONFIG, views_path, site)
+  pages = Page.all(CONFIG, views_path)
+  site = Core::Site.new(CONFIG, pages)
 
   calendar_logger = Logger.new($stderr)
   calendars = CONFIG['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
