@@ -109,12 +109,10 @@ module Website
 
   views_path = File.dirname(__FILE__) + "/views"
   pages = Page.all(CONFIG, views_path)
-  site = Core::Site.new(CONFIG, pages)
 
   calendar_logger = Logger.new($stderr)
   calendars = CONFIG['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-  events = Cucumber::Website::Events.new(pages.select(&:event?), calendars)
-  CONFIG['events'] = events
+  site = Core::Site.new(CONFIG, pages, calendars)
 
   contributors = [
     Cucumber::Website::Core::Contributor.with(username: "aslakhellesoy", avatar_url: "https://avatars.githubusercontent.com/u/1000"),

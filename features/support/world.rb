@@ -37,7 +37,7 @@ END:VEVENT
     ICAL
 
     calendars << Cucumber::Website::FakeCalendar.new(ical_data)
-    site_config['events'] = Cucumber::Website::Events.new(event_pages=[], calendars)
+    reload_app
   end
 
   def create_event_page(front_matter)
@@ -46,16 +46,7 @@ END:VEVENT
       body: "<h1>#{front_matter.fetch(:title)}</h1>"
     }
     custom_pages << Cucumber::Website::FakeEventPage.new(default_front_matter.merge(front_matter))
-    site_config['events'] = Cucumber::Website::Events.new(custom_pages, calendars).sync
-    views_path = File.join(File.dirname(__FILE__), '..', '..', 'apps', 'dynamic', 'views')
-    pages = custom_pages + [
-        Cucumber::Website::Page.new(Cucumber::Website::CONFIG,
-          File.join(views_path, 'events.slim'),
-          views_path
-        )
-      ]
-    site = Cucumber::Website::Core::Site.new(site_config, pages)
-    Capybara.app = Cucumber::Website.make_app(pages, site)
+    reload_app
   end
 
   def create_contributor(attributes = {})
@@ -70,17 +61,39 @@ END:VEVENT
   end
 
   private
+    def reload_app
+      Capybara.app = Cucumber::Website.make_app(pages, site)
+      self
+    end
+
+    def site
+      @site ||= Cucumber::Website::Core::Site.new(site_config, custom_pages, calendars)
+    end
 
     def calendars
       @calendars ||= []
     end
 
+    def pages
+      template_pages + custom_pages
+    end
+
+    # pages added during a test scenario
     def custom_pages
       @custom_pages ||= []
     end
 
+    # hard-coded pages from our views directory
+    def template_pages
+      Cucumber::Website::Page.all(site_config, views_path)
+    end
+
     def site_config
       Cucumber::Website::CONFIG
+    end
+
+    def views_path
+      File.join(File.dirname(__FILE__), '..', '..', 'apps', 'dynamic', 'views')
     end
 end
 
