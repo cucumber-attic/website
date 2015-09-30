@@ -87,7 +87,7 @@ module Website
         end
 
         def edit_url template_path
-          "#{CONFIG['site']['edit_url']}/#{template_path}"
+          "#{settings.site.config['edit_url']}/#{template_path}"
         end
       end
 
@@ -105,22 +105,21 @@ module Website
     end
   end
 
-  extend Config
-  CONFIG = load_config(ENV['RACK_ENV'])
+  config = Config.new(ENV['RACK_ENV'])
 
   views_path = File.dirname(__FILE__) + "/views"
-  pages = Page.all(CONFIG, views_path)
+  pages = Page.all(config, views_path)
 
   calendar_logger = Logger.new($stderr)
-  calendars = CONFIG['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-  site = Core::Site.new(CONFIG, pages, calendars)
+  calendars = config['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
+  site = Core::Site.new(config, pages, calendars)
 
   contributors = [
     Cucumber::Website::Core::Contributor.with(username: "aslakhellesoy", avatar_url: "https://avatars.githubusercontent.com/u/1000"),
     Cucumber::Website::Core::Contributor.with(username: "mattwynne", avatar_url: "https://avatars.githubusercontent.com/u/19260"),
     Cucumber::Website::Core::Contributor.with(username: "charlierudolph", avatar_url: "https://avatars.githubusercontent.com/u/1676758")
   ]
-  CONFIG['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
+  config['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
 
   App = make_app(site)
 end

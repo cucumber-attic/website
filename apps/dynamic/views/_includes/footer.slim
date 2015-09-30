@@ -50,8 +50,8 @@ footer.main-footer
             a href=(locals['press_url']) Press
 
       / TODO: Move this to main nav
-      / p.text-center#js-edit
-      /   a href=(edit_url(locals['template_path'])) Edit this page
+      p.text-center#js-edit
+        a href=(edit_url(locals['template_path'])) Edit this page
 
 - if ENV['RACK_ENV'] == 'production'
   == slim '_includes/google_analytics'.to_sym

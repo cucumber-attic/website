@@ -12,7 +12,7 @@ headers:
     <author>{{ config['author'] | xml_escape }}</author>
     <copyright>{{ config['copyright'] | xml_escape }}</copyright>
     <atom:link href="{{ config['url'] }}/events-feed.xml" rel="self" type="application/rss+xml" />
-    <% config['events'].to_a[0..9].each do |event| %>
+    <% site.events.to_a[0..9].each do |event| %>
       <item>
         <title><%= HTMLEntities.new.encode(event.summary) %></title>
         <link><%= event.url %></link>

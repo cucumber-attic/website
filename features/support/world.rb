@@ -89,7 +89,7 @@ END:VEVENT
     end
 
     def site_config
-      Cucumber::Website::CONFIG
+      Cucumber::Website::Config.new('test')
     end
 
     def views_path
