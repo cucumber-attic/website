@@ -14,8 +14,7 @@ end
 task :backup_events do
   require 'open-uri'
   require_relative 'lib/cucumber/website/config'
-  extend Cucumber::Website::Config
-  config = load_config('development')
+  config = Cucumber::Website::Config.new('development')
   config['calendars'].each do |url|
     file_name = "event-backup/#{Time.now.strftime('%Y%m%d')}-#{url.gsub(/[:\/]/, '-')}"
     file_name += '.ics' unless file_name =~ /\.ics/
