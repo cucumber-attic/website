@@ -70,7 +70,7 @@ describe "integration testing" do
         calendars = [ Cucumber::Website::FakeCalendar.new(IO.read(ical)) ]
         site = Cucumber::Website::App.settings.site
         Cucumber::Website::App.settings.site = 
-          Cucumber::Website::Core::Site.new(site.config, site.pages, calendars)
+          Cucumber::Website::App.settings.site.with(calendars: calendars)
         get "/events-feed.xml"
         feed = Nokogiri::XML(last_response.body)
         expect(feed.xpath('//rss/channel/item').length).to be > 0
