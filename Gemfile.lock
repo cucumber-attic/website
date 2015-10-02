@@ -65,7 +65,7 @@ GEM
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     posix-spawn (0.3.11)
-    puma (2.13.4)
+    puma (2.14.0)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
@@ -170,3 +170,6 @@ DEPENDENCIES
   slim (= 3.0.2)
   therubyracer (= 0.12.1)
   uglifier (= 2.7.1)
+
+BUNDLED WITH
+   1.10.6
