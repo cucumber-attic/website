@@ -197,7 +197,7 @@
 }
 
 .company {
-  margin: 100px 0;
+  margin: 100px 0 0px;
   color: $brand-gray;
   h1 {
     font-weight: 300;
@@ -266,6 +266,84 @@
       font-weight: 500;
     }
   }
+}
+
+.newsletter {
+  background: $brand-gray-lighter;
+  padding: 50px 0;
+}
+
+.newsletter-form {
+  h2 {
+    margin: 0 0 10px;
+    color: $brand-gray;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: $brand-gray;
+    @include placeholder {
+      color: $brand-gray;
+    }
+  }
+
+  button {
+    background: $brand-green-light;
+    font-size: 20px;
+    line-height: 1;
+    padding: 16px 48px;
+    color: white;
+    &:hover {
+      background: $brand-green;
+      color: white;
+    }
+  }
+}
+
+.companies {
+  padding: 50px 0;
+  h2 {
+    margin: 0 0 30px;
+    color: $brand-gray;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: .6;
+  }
+}
+
+.companies-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.companies-logo {
+  img {
+    height: 60px;
+  }
+}
+
+.simple-separator {
+  background: $brand-gray-lighter;
+  margin: 50px 0;
+  height: 1px;
+}
+
+.rainbow-separator {
+  margin: 0;
+  height: 5px;
+  background-color: $brand-green-light;
+  border-top: 5px solid $brand-green;
+  border-bottom: 5px solid $brand-green-lighter;
 }
 
 @media (max-width: $screen-sm) {
