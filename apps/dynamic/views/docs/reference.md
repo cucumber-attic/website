@@ -229,7 +229,7 @@ For this purpose Gherkin has [Doc Strings](#doc-strings) and [Data Tables](#data
 
 #### Doc Strings
 
-Doc Strings are handy for specifying a larger piece of text. This is inspired from
+Doc Strings are handy for passing a larger piece of text to a step definition. The syntax is inspired from
 Python's [Docstring](http://www.python.org/dev/peps/pep-0257/) syntax.
 
 The text should be offset by delimiters consisting of three double-quote marks on
@@ -257,7 +257,7 @@ therefore be preserved.
 
 ### Data Tables
 
-Data Tables are handy for specifying a larger piece of data:
+Data Tables are handy for passing a list of values to a step definition:
 
 ```gherkin
 Given the following users exist:
