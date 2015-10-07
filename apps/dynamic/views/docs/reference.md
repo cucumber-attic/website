@@ -255,7 +255,7 @@ however, _is_ significant. Each line of the Doc String will be de-indented accor
 to the opening `"""`. Indentation beyond the column of the opening `"""` will
 therefore be preserved.
 
-### Data Tables
+#### Data Tables
 
 Data Tables are handy for passing a list of values to a step definition:
 
