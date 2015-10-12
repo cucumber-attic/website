@@ -75,6 +75,32 @@ p.promise {
   }
 }
 
+.main-footer-newsletter {
+  margin: 0 0 10px;
+  input {
+    width: 200px;
+    vertical-align: top;
+    height: 36px;
+    padding: 6px 10px;
+    background: $brand-black;
+    border: 1px solid white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+  }
+  button {
+    vertical-align: top;
+    height: 36px;
+    padding: 6px 12px;
+    border: 1px solid white;
+    background: white;
+    color: $brand-black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: 500;
+  }
+}
+
 .main-footer-phones {
   font-size: 13px;
   font-weight: 300;
