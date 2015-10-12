@@ -51,6 +51,22 @@
   background: $brand-green-light;
 }
 
+.props-prop {
+  position: relative;
+  & + .props-prop {
+    &:before {
+      position: absolute;
+      top: 175px;
+      left: -25px;
+      display: block;
+      content: "";
+      background: url('/images/home/plus.svg');
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
 .props-title {
   font-size: 24px;
   margin: 0 0 30px;
@@ -352,6 +368,17 @@
   background-color: $brand-green-light;
   border-top: 5px solid $brand-green;
   border-bottom: 5px solid $brand-green-lighter;
+}
+
+@media (max-width: $screen-md) {
+  .props-prop {
+    & + .props-prop {
+      &:before {
+        position: static;
+        margin: 20px auto;
+      }
+    }
+  }
 }
 
 @media (max-width: $screen-sm) {
