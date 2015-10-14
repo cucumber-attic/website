@@ -6,6 +6,19 @@ html lang="en"
     == slim '_includes/ribbon'.to_sym, locals: locals
     == slim '_includes/nav-main'.to_sym, locals: locals
 
+    - if locals['hero']
+      .jumbotron.bdda-hero(style="background: url(#{image}); background-size: cover;")
+        .container
+          .bdda-hero-title.text-center
+            h1== title
+            p.text-uppercase== hero['subtitle']
+          p.text-center
+            a.btn-brand-blue href="#{hero['cta']['link']}"== hero['cta']['message']
+          p.text-center
+            == hero['dates']
+            - if locals['location']
+              a href="#{location['url']}"== location['name']
+    
     div.container
       div.row
         div.col-md-10.col-md-offset-1.js-one-column role="main"
