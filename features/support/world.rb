@@ -1,5 +1,6 @@
 require 'cucumber/website/calendar'
 require 'cucumber/website/core/site'
+require 'cucumber/website/git_hub/fake'
 
 module Cucumber
   module Website
@@ -74,7 +75,7 @@ END:VEVENT
         end
 
         def git_hub
-          @github ||= FakeGitHub.new
+          @github ||= GitHub::Fake.new
         end
 
         def pages
