@@ -1,7 +1,14 @@
+require 'values'
+require 'cucumber/website/core/community'
+
 module Cucumber
   module Website
     module Core
-      class Site < Value.new(:config, :pages, :calendars)
+      class Site < Value.new(:config, :pages, :calendars, :git_hub)
+
+        def community
+          Community.with(config: config, contributors: git_hub.events.map(&:contributor).uniq)
+        end
 
         def posts
           pages.

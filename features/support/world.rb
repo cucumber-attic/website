@@ -4,6 +4,10 @@ require 'cucumber/website/core/site'
 module Cucumber
   module Website
     module World
+      def visit(path)
+        Capybara.app = Website.make_app(site)
+        super
+      end
 
       def the_ical_event
         expect(calendars.length).to eq 1
@@ -39,7 +43,6 @@ END:VEVENT
         ICAL
 
         calendars << FakeCalendar.new(ical_data)
-        reload_app
       end
 
       def create_event_page(front_matter)
@@ -48,7 +51,6 @@ END:VEVENT
           body: "<h1>#{front_matter.fetch(:title)}</h1>"
         }
         custom_pages << FakeEventPage.new(default_front_matter.merge(front_matter))
-        reload_app
       end
 
       def create_contributor(attributes = {})
@@ -63,17 +65,16 @@ END:VEVENT
       end
 
       private
-        def reload_app
-          Capybara.app = Website.make_app(site)
-          self
-        end
-
         def site
-          @site ||= Core::Site.new(site_config, pages, calendars)
+          @site ||= Core::Site.new(config, pages, calendars, git_hub)
         end
 
         def calendars
           @calendars ||= []
+        end
+
+        def git_hub
+          @github ||= FakeGitHub.new
         end
 
         def pages
@@ -87,11 +88,11 @@ END:VEVENT
 
         # hard-coded pages from our views directory
         def template_pages
-          Page.all(site_config, views_path)
+          Page.all(config, views_path)
         end
 
-        def site_config
-          Config.new('test')
+        def config
+          @config ||= Config.new('test')
         end
 
         def views_path

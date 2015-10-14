@@ -21,6 +21,7 @@ gem 'rack-rewrite'
 gem 'icalendar'
 gem 'newrelic_rpm'
 gem 'values'
+gem 'octokit', '~> 4.0'
 # TODO: Need this to get timezone support with icalendar
 #gem 'activesupport'
 

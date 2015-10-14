@@ -187,6 +187,7 @@
   flex-direction: column;
   justify-content: center;
   height: 160px;
+  width: 160px;
   background: $brand-gray;
   color: white;
 }
@@ -213,6 +214,7 @@
   height: 160px;
   .row {
     display: flex;
+    flex-wrap: wrap;
   }
   img {
     height: 80px;

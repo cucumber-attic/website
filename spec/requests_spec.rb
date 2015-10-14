@@ -22,7 +22,7 @@ describe "integration testing" do
     "/fonts/cucumber-glyphs.eot",
     "/bdd-kickstart.pdf",
   ].each do |path|
-    it "returns #{path} with a non-failure code" do
+    it "GET '#{path}' responds with a non-failure code" do
       get path
       expect(last_response).to be_ok
       expect(last_response.headers['Content-Length'].to_i).to be > 0
@@ -69,7 +69,7 @@ describe "integration testing" do
         ical = File.dirname(__FILE__) + '/events/lanyrd.ics'
         calendars = [ Cucumber::Website::FakeCalendar.new(IO.read(ical)) ]
         site = Cucumber::Website::App.settings.site
-        Cucumber::Website::App.settings.site = 
+        Cucumber::Website::App.settings.site =
           Cucumber::Website::App.settings.site.with(calendars: calendars)
         get "/events-feed.xml"
         feed = Nokogiri::XML(last_response.body)

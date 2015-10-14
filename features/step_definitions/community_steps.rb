@@ -1,13 +1,16 @@
 Given(/^the number of recent contributors to display is (\d+)$/) do |max|
-  @max_recent_contributors = max.to_i
+  config['community']['max_recent_contributors'] = max.to_i
 end
 
 Given(/^the most recent actors on Cucumber's GitHub organization are:$/) do |contributor_usernames|
+
   contributors = contributor_usernames.raw.flatten.map do |username|
     create_contributor(username: username)
   end
 
-  site_config['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: @max_recent_contributors)
+  git_hub.events = contributors.map { |contributor|
+    Cucumber::Website::Core::GitHubEvent.with contributor: contributor
+  }
 end
 
 When(/^I view the homepage$/) do

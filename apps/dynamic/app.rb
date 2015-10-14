@@ -12,8 +12,9 @@ require 'cucumber/website/config'
 require 'cucumber/website/calendar'
 require 'cucumber/website/events'
 require 'cucumber/website/reference'
-require 'cucumber/website/core/entities'
+require 'cucumber/website/core/community'
 require 'cucumber/website/core/site'
+require 'cucumber/website/git_hub'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
@@ -112,14 +113,8 @@ module Website
 
   calendar_logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-  site = Core::Site.new(config, pages, calendars)
-
-  contributors = [
-    Cucumber::Website::Core::Contributor.with(username: "aslakhellesoy", avatar_url: "https://avatars.githubusercontent.com/u/1000"),
-    Cucumber::Website::Core::Contributor.with(username: "mattwynne", avatar_url: "https://avatars.githubusercontent.com/u/19260"),
-    Cucumber::Website::Core::Contributor.with(username: "charlierudolph", avatar_url: "https://avatars.githubusercontent.com/u/1676758")
-  ]
-  config['community'] = Cucumber::Website::Core::Community.with(contributors: contributors, max_recent_contributors: 10)
+  github = GitHub.new(config)
+  site = Core::Site.new(config, pages, calendars, github)
 
   App = make_app(site)
 end
