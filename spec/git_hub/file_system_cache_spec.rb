@@ -5,7 +5,7 @@ module Cucumber::Website
     describe FileSystemCache do
       let(:api) { double("API") }
       let(:cache) { FileSystemCache.new(api) }
-      let(:some_events) { double }
+      let(:some_events) { "Some events" }
 
       context "when the cache is empty" do
         before { cache.flush }
@@ -42,13 +42,13 @@ module Cucumber::Website
         context "another instance" do
           let(:another_cache) { FileSystemCache.new(api) }
 
-          it "returns the value from the cache" do
-            expect(another_cache.events).to eq some_events
-          end
-
           it "does not call the API" do
             expect(api).to_not receive(:events)
             another_cache.events
+          end
+
+          it "returns the value from the cache" do
+            expect(another_cache.events).to eq some_events
           end
         end
       end
