@@ -11,7 +11,12 @@ module Cucumber::Website
       let(:cache) { FileSystemCache.new(api, config) }
       let(:some_events) do
         [
-          Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avatar/123', username: 'Charlie'))]
+          Cucumber::Website::Core::GitHubEvent.with(
+            contributor: Cucumber::Website::Core::Contributor.with(
+              avatar_url: 'https://github.com/avatar/123',
+              username: 'Charlie')
+          )
+        ]
       end
 
       context "when the cache is empty" do
