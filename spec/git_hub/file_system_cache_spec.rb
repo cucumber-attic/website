@@ -8,7 +8,7 @@ module Cucumber::Website
       let(:api) { double("API") }
       let(:cache) { FileSystemCache.new(api) }
       let(:some_events) do
-        [Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avartar/123', username: 'Charlie'))]
+        [Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avatar/123', username: 'Charlie'))]
       end
 
       context "when the cache is empty" do
@@ -25,7 +25,9 @@ module Cucumber::Website
         end
 
         it "returns the cached API response on subsequent calls" do
-
+          expect(api).to receive(:events).at_most(:once)
+          cache.events
+          cache.events
         end
       end
 
@@ -41,7 +43,9 @@ module Cucumber::Website
           cache.events
         end
 
-        it "returns the value from the cache"
+        it "returns the value from the cache" do
+          expect(cache.events).to eq some_events
+        end
 
         context "another instance" do
           let(:another_cache) { FileSystemCache.new(api) }
