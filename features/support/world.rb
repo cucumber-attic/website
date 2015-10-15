@@ -76,7 +76,7 @@ END:VEVENT
         end
 
         def git_hub
-          @github ||= GitHub::FileSystemCache.new(GitHub::Fake.new)
+          @github ||= GitHub::Fake.new
         end
 
         def pages

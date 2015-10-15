@@ -1,12 +1,14 @@
 require 'cucumber/website/git_hub/file_system_cache'
 require 'cucumber/website/core/git_hub_event'
 require 'cucumber/website/core/contributor'
+require 'cucumber/website/config'
 
 module Cucumber::Website
   module GitHub
     describe FileSystemCache do
       let(:api) { double("API") }
-      let(:cache) { FileSystemCache.new(api) }
+      let(:config) { Config.new('test') }
+      let(:cache) { FileSystemCache.new(api, config) }
       let(:some_events) do
         [Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avatar/123', username: 'Charlie'))]
       end
@@ -48,7 +50,7 @@ module Cucumber::Website
         end
 
         context "another instance" do
-          let(:another_cache) { FileSystemCache.new(api) }
+          let(:another_cache) { FileSystemCache.new(api, config) }
 
           it "does not call the API" do
             expect(api).to_not receive(:events)
@@ -62,6 +64,13 @@ module Cucumber::Website
       end
 
       context "when the cache is outdated" do
+        before do
+          allow(api).to receive(:events).ordered.and_return some_events
+          cache.flush
+          cache.events
+          File.mtime cache.send(:cache_path), mtime: Time.now - (config['git_hub']['cache_refresh_interval'] + 1)
+        end
+
         it "calls the API"
         it "returns the latest API response on subsequent calls"
       end

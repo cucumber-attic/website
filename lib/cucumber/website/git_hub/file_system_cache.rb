@@ -1,12 +1,13 @@
 require 'yaml'
+require 'pathname'
 
 module Cucumber
   module Website
     module GitHub
       class FileSystemCache
-        def initialize(api)
+        def initialize(api, config)
           @api = api
-          @cache_path = 'cache/git_hub'
+          @cache_path = Pathname.new("cache/git_hub/#{config['env']}.yaml")
         end
 
         def flush
@@ -18,15 +19,14 @@ module Cucumber
           YAML::load(File.read(cache_path))
         end
 
-        def events=(events)
-          api.events = events
-        end
-
         attr_reader :api, :cache_path
         private :api, :cache_path
 
+        private
+
         def update_cache_if_needed
           unless cache_exist?
+            cache_path.dirname.mkpath
             File.open(cache_path, 'w+') do |file|
               file.write(YAML::dump(api.events))
             end

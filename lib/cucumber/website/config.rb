@@ -14,7 +14,7 @@ module Cucumber
           raise "Environment not defined" unless env
           config = load_yaml(ROOT_PATH + "/_config.yml")
           env_config = load_yaml(ROOT_PATH + "/_config.#{env}.yml")
-          deep_merge_hashes(config, env_config)
+          deep_merge_hashes(config, env_config).merge('env' => env)
         end
 
         def load_yaml(path)

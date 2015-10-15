@@ -114,7 +114,7 @@ module Website
 
   calendar_logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-  github = GitHub::FileSystemCache.new(GitHub::API.new(config))
+  github = GitHub::FileSystemCache.new(GitHub::API.new(config), config)
   site = Core::Site.new(config, pages, calendars, github)
 
   App = make_app(site)

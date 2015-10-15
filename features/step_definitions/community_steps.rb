@@ -1,6 +1,5 @@
 Given(/^the number of recent contributors to display is (\d+)$/) do |max|
   config['community']['max_recent_contributors'] = max.to_i
-  git_hub.flush
 end
 
 Given(/^the most recent actors on Cucumber's GitHub organization are:$/) do |contributor_usernames|
