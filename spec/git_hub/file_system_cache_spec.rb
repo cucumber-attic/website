@@ -1,11 +1,15 @@
 require 'cucumber/website/git_hub/file_system_cache'
+require 'cucumber/website/core/git_hub_event'
+require 'cucumber/website/core/contributor'
 
 module Cucumber::Website
   module GitHub
     describe FileSystemCache do
       let(:api) { double("API") }
       let(:cache) { FileSystemCache.new(api) }
-      let(:some_events) { "Some events" }
+      let(:some_events) do
+        [Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avartar/123', username: 'Charlie'))]
+      end
 
       context "when the cache is empty" do
         before { cache.flush }
