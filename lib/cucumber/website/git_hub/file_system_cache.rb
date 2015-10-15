@@ -18,6 +18,10 @@ module Cucumber
           YAML::load(File.read(cache_path))
         end
 
+        def events=(events)
+          api.events = events
+        end
+
         attr_reader :api, :cache_path
         private :api, :cache_path
 

@@ -22,13 +22,6 @@ module Cucumber
           }
         end
       end
-
-
-      # Fake GitHub API
-
-      class FakeGitHub
-        attr_accessor :events
-      end
     end
 
   end

@@ -15,6 +15,7 @@ require 'cucumber/website/reference'
 require 'cucumber/website/core/community'
 require 'cucumber/website/core/site'
 require 'cucumber/website/git_hub/api'
+require 'cucumber/website/git_hub/file_system_cache'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
@@ -113,7 +114,7 @@ module Website
 
   calendar_logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Cucumber::Website::Calendar.new(url, calendar_logger) }
-  github = GitHub::API.new(config)
+  github = GitHub::FileSystemCache.new(GitHub::API.new(config))
   site = Core::Site.new(config, pages, calendars, github)
 
   App = make_app(site)
