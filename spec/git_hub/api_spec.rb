@@ -6,7 +6,7 @@ module Cucumber::Website
     describe API do
       let(:config) { Config.new('test') }
       before do
-        skip("Please set GIT_HUB_TOKEN to run this test") unless config['git_hub_token']
+        skip("Please set GIT_HUB_TOKEN to run this test") unless config['git_hub']['token']
       end
 
       it "fetches events" do

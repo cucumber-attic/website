@@ -70,11 +70,26 @@ module Cucumber::Website
         before do
           cache.flush
           cache.events
-          File.mtime cache.send(:cache_path), mtime: Time.now - (config['git_hub']['cache_refresh_interval'] + 1)
+          outdated_mtime = Time.now - config['git_hub']['cache_refresh_interval'] - 1
+          FileUtils.touch cache.send(:cache_path), mtime: outdated_mtime
         end
 
-        it "calls the API"
-        it "returns the latest API response on subsequent calls"
+        it "calls the API" do
+          expect(api).to receive(:events)
+          cache.events
+        end
+
+        it "returns the latest API response on subsequent calls" do
+          some_other_events = [
+            Cucumber::Website::Core::GitHubEvent.with(
+              contributor: Cucumber::Website::Core::Contributor.with(
+                avatar_url: 'https://github.com/avatar/456',
+                username: 'Dave')
+            )
+          ]
+          allow(api).to receive(:events).and_return(some_other_events)
+          expect(cache.events).to eq some_other_events
+        end
       end
     end
   end
