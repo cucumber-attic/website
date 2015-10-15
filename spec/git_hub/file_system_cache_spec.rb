@@ -6,23 +6,22 @@ require 'cucumber/website/config'
 module Cucumber::Website
   module GitHub
     describe FileSystemCache do
-      let(:api) { double("API") }
+      let(:api) { double("API", events: some_events) }
       let(:config) { Config.new('test') }
       let(:cache) { FileSystemCache.new(api, config) }
       let(:some_events) do
-        [Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avatar/123', username: 'Charlie'))]
+        [
+          Cucumber::Website::Core::GitHubEvent.with(contributor: Cucumber::Website::Core::Contributor.with(avatar_url: 'https://github.com/avatar/123', username: 'Charlie'))]
       end
 
       context "when the cache is empty" do
         before { cache.flush }
 
         it "forwards calls the API" do
-          expect(api).to receive(:events).and_return some_events
           cache.events
         end
 
         it "returns the API response when called for the first time" do
-          allow(api).to receive(:events).and_return some_events
           expect(cache.events).to eq some_events
         end
 
@@ -35,7 +34,6 @@ module Cucumber::Website
 
       context "when the cache has been recently populated" do
         before do
-          allow(api).to receive(:events).ordered.and_return some_events
           cache.flush
           cache.events
         end
@@ -65,7 +63,6 @@ module Cucumber::Website
 
       context "when the cache is outdated" do
         before do
-          allow(api).to receive(:events).ordered.and_return some_events
           cache.flush
           cache.events
           File.mtime cache.send(:cache_path), mtime: Time.now - (config['git_hub']['cache_refresh_interval'] + 1)
