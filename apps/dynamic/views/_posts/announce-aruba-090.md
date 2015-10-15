@@ -1,7 +1,7 @@
 ---
 layout: post
 author: dennis
-title:  [ANN] Aruba 0.9.0 released
+title:  "[ANN] Aruba 0.9.0 released"
 date:   2015-08-25 19:26:00
 nav: blog
 ---

@@ -32,6 +32,10 @@ authors:
     display_name: Hamish Tedeschi
     email: hamish@cucumber.io
     gravatar: 491881c44e5dbb6b9a7594b5b653df49
+  dennis:
+    display_name: Dennis Günnewig
+    email: dev@fedux.org
+    gravatar: 9f112ca52563131ea3855a10db79f1b3
 
 versions:
   cucumber_jvm: 1.2.3
