@@ -20,7 +20,7 @@ module Cucumber
         private :api, :cache_path
 
         def update_cache_if_needed
-          if !cache_exist? || File.zero?(cache_path)
+          unless cache_exist?
             File.open(cache_path, "w+") do |file|
               file.write(api.events)
             end
