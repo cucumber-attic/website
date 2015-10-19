@@ -2,13 +2,13 @@
 title: BDD Kickstart, Perth 2015
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
-  dates: November 4th - 5th.
+  dates: December 14th-15th
   cta:
     link: https://ti.to/cucumber/bdd-london-november-2015
     message: Book now
 location:
-  url: https://maps.google.com/maps?z=12&t=m&q=loc:51.524064+-0.07706499999994776
-  name: ustwo offices, London
+  url: https://www.google.com/maps/place/Tech+Hub/@-31.9463752,115.8603497,17z/data=!3m1!4b1!4m2!3m1!1s0x2a32bad0678a550b:0xc9bf48edd34ca859
+  name: Tech Hub, Perth
 layout: one-column
 nav: events
 ical_url:
@@ -19,18 +19,58 @@ dtend: 2015-12-15 00:00:00
 
 # BDD Kickstart - 2 day BDD training.
 
-Pellentesque non quam sagittis, malesuada ipsum mollis, tempor velit. Integer nec enim et nibh vulputate malesuada. Sed lacus libero, commodo aliquam bibendum eu, dignissim vel velit. Mauris vehicula lorem tortor, at dapibus lorem congue in. Suspendisse potenti. Integer pharetra, libero non porttitor dictum, elit odio gravida dolor, a dapibus ligula ante in tellus. Nulla facilisi. Sed elementum maximus consectetur. Phasellus elementum mollis lacinia. Maecenas sit amet ornare enim. Vivamus condimentum nunc ut pulvinar facilisis.
+BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will the fundamental technical and non-technical skills required for your team to start. 
 
-Fusce suscipit vel nisi vel pharetra. Suspendisse nibh nibh, iaculis in maximus at, tincidunt ac lectus. Curabitur consequat vulputate lacinia. Nullam risus enim, cursus at mauris eget, facilisis ultrices enim. Duis nec erat in ligula imperdiet cursus.
+You will be taught by Paul Rayner, a Perth native with 25 years of hands-on software development experience. Paul is a seasoned software design coach and mentor, helping teams ignite their agile design and testing skills via DDD and BDD. To help facilitate the course we have entrusted Hamish Tedeschi, an accomplished BDD expert and coach. Hamish is MD of Magentys and organiser of CukeUp! AU. 
 
-## Second title.
+Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
-Fusce suscipit vel nisi vel pharetra. Suspendisse nibh nibh, iaculis in maximus at, tincidunt ac lectus. Curabitur consequat vulputate lacinia. Nullam risus enim, cursus at mauris eget, facilisis ultrices enim. Duis nec erat in ligula imperdiet cursus.
 
-1. First item
-2. Second item
-3. Third item
+##Day 1 - BDD Fundamentals
 
-* Point one
-* Point two
-* Point three
+The first day is applicable to "the whole team".  (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
+
+Day 1 will give a thorough introduction to BDD, which is the process that Cucumber supports. There is no automation on this day; the focus is on analysis and collaboration techniques.
+
+We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
+
+###Learning outcomes:
+
+* The fundamental principles and practices of BDD
+* The importance of Rules and Examples
+* Translating examples into Gherkin - Cucumber’s format for executable specifications
+* Conversation patterns for discovering edge cases
+* The importance of a ubiquitous language for problems and solutions
+* Using Example Mapping and Discovery Workshops to achieve shared understanding
+* Roles and responsibilities on a BDD team
+
+
+##Day 2 - BDD with Cucumber 
+
+This day is a solid introduction to test-driven development (TDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
+
+Non-technical people are welcome to stick around for this day, but they may find things start to get beyond their comfort zone.
+
+###Learning outcomes:
+* Installing Cucumber and setting up your development environment
+* The TDD / BDD cycle
+* Writing your first scenario
+* Writing step definitions
+* Using parameters in step definitions
+* Techniques to keep your test code clean
+* Backgrounds, Tags, Tables, Scenario Outlines and other Gherkin tricks
+* Domain modelling by Example
+* Costs & benefits of working test-first
+
+
+
+
+
+
+
+
+
+  
+
+
+
