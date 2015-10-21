@@ -21,7 +21,7 @@ dtend: 2015-12-15 00:00:00
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will the fundamental technical and non-technical skills required for your team to start.
 
-You will be taught by Paul Rayner, a Perth native with 25 years of hands-on software development experience. Paul is a seasoned software design coach and mentor, helping teams ignite their agile design and testing skills via DDD and BDD. To help facilitate the course we have entrusted Hamish Tedeschi, an accomplished BDD expert and coach. Hamish is MD of Magentys and organiser of CukeUp! AU.
+You will be taught by Paul Rayner, a Perth native with 25 years of hands-on software development experience. Paul is a seasoned software design coach and mentor, helping teams ignite their agile design and testing skills via DDD and BDD. To help facilitate the course we have entrusted Hamish Tedeschi, an accomplished BDD expert and coach. Hamish is MD of MagenTys and organiser of CukeUp! AU.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
