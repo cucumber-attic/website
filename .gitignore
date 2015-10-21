@@ -3,3 +3,4 @@
 apps/dynamic/public/assets
 capybara*.html
 .sass-cache
+log/
