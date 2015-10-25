@@ -261,7 +261,7 @@ Data Tables are handy for passing a list of values to a step definition:
 
 ```gherkin
 Given the following users exist:
-  | name   | email               | twitter         |
+  | name   | email              | twitter         |
   | Aslak  | aslak@cucumber.io  | @aslak_hellesoy |
   | Julien | julien@cucumber.io | @jbpros         |
   | Matt   | matt@cucumber.io   | @mattwynne      |
