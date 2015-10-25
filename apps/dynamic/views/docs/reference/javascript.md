@@ -21,19 +21,8 @@ Install globally with:
 npm install -g cucumber
 ```
 
-You may also define Cucumber.js as a development dependency of your application
-by including it in your `package.json` file.
-
-```json
-{
-  "devDependencies": {
-    "cucumber": "latest"
-  }
-}
-```
-
-Then install with:
+Install as a development dependency of your application with:
 
 ```
-npm install --dev
+npm install --save-dev cucumber
 ```
