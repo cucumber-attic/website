@@ -67,7 +67,7 @@ module Website
         get page.path do
           headers.merge!(page.headers)
 
-          if page.cacheable?
+          if page.cacheable? && settings.environment != :development
             timestamps = site.pages.map(&:timestamp) + [File.mtime(__FILE__)]
             last_modified timestamps.max
           end
