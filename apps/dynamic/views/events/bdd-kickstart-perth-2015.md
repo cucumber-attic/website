@@ -11,7 +11,7 @@ location:
   name: Tech Hub, Perth
 layout: one-column
 nav: events
-ical_url:https://cucumber.io/events/bdd-kickstart-perth-2015
+ical_url: http://lanyrd.com/2015/bdd-kickstart-perth/
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2015-12-14 00:00:00
 dtend: 2015-12-15 00:00:00
