@@ -5,6 +5,7 @@ require 'cucumber/website/core/contributor'
 module Cucumber
   module Website
     module GitHub
+
       class API
         def initialize(config)
           @gh = Octokit::Client.new({ access_token: config['git_hub']['token'] })
