@@ -4,6 +4,10 @@ module Cucumber
 
       class Fake
         attr_accessor :events
+
+        def methods
+          [:events]
+        end
       end
     end
 
