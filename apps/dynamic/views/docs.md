@@ -12,7 +12,13 @@ their own installation procedure and platform-specific functionality.
 ## Reference
 
 The features that are common to all Cucumber implementations are documented in
-the [reference](/docs/reference) manual.
+the [reference](/docs/reference) manual. If you're looking for a reference
+implementation of "cucumber" using the latest
+["gherkin"-parser](https://github.com/cucumber/gherkin3), have a look at
+[microcuke](https://github.com/cucumber/microcuke). It's a tiny reference
+implementation in about 500 SLOC that can be ported to a new language in a day or
+two. Assuming there is a Gherkin3 port as well, which takes another 2-4 days to
+port.
 
 ## Installation
 
