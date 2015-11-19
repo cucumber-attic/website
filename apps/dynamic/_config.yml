@@ -36,6 +36,10 @@ authors:
     display_name: Dennis Günnewig
     email: dev@fedux.org
     gravatar: 9f112ca52563131ea3855a10db79f1b3
+  tooky:
+    display_name: Steve Tooke
+    email: tooky@cucumber.io
+    gravatar: cb98700ec5151a02c191a62cb0d17005
 
 versions:
   cucumber_jvm: 1.2.3
