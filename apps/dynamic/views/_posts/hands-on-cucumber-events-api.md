@@ -2,13 +2,13 @@
 layout: post
 author: tooky
 title:  "Hands-on with the Cucumber Ruby Events API"
-date:   2015-09-14 00:00:00
-nav: blog
+date:   2015-11-20 09:00:00
+nav:    blog
 ---
 
 [Cucumber Ruby 2.1][cuke-2.1] introduces the new [Events API][events] &mdash; a simple way to find out what's happening while Cucumber runs your features. Events are read-only and simplify the process of writing formatters, and other output tools.
 
-I'll illustate how to use the API with a worked example that streams Cucumber test results to a browser in real-time.
+I'll illustrate how to use the API with a worked example that streams Cucumber test results to a browser in real-time.
 
 ## Can you give me an example?
 
