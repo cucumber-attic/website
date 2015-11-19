@@ -106,5 +106,14 @@ describe "integration testing" do
       expect(last_response.status).to eq 301
       expect(last_response.location).to eq "http://cucumber.github.io/api/gherkin/"
     end
+
+    it "redirects the podcast to soundcloud" do
+      get "/podcast/feed.xml"
+      expect(last_response.status).to eq 302
+      expect(last_response.location).to eq "http://feeds.soundcloud.com/users/soundcloud:users:181591133/sounds.rss"
+    end
+  end
+
+  describe "rewrites" do
   end
 end
