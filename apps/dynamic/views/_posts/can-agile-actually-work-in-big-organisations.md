@@ -12,8 +12,8 @@ In this podcast, we debate "scaling agile" and how large organisations can make 
 
 We're fortunate to have two experienced large-scale agile coaches in Em Campbell-Pretty and Terry Yin. They're joined by Cucumber regulars, Matt Wynne, Hamish Tedeschi and our host Steve Tooke.
 
-Terry Yin - https://sg.linkedin.com/in/terryyin
-Em Campbell-Pretty - https://au.linkedin.com/in/ejcampbellpretty
+Terry Yin - [Linkedin](https://sg.linkedin.com/in/terryyin)
+Em Campbell-Pretty - [Linkedin](https://au.linkedin.com/in/ejcampbellpretty)
 
 Follow us on Twitter - [@cucumberbdd](https://twitter.com/cucumberbdd)
 
