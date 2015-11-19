@@ -1,10 +1,18 @@
+---
+layout:   post
+author:   theo
+title:    "Scaling Agile - Cucumber Podcast"
+date:     2015-11-19 09:00:00
+nav:      blog
+---
+
 Many large organisations find implementing agile processes tricky. After all, doesn't agile rely on self-organisation, devolved decision making, and flexibility? How can you keep hold of a sense of togetherness when you bring in process management and steering committees?
 
 In this podcast, we debate "scaling agile" and how large organisations can make it work.
 
 We're fortunate to have two experienced large-scale agile coaches in Em Campbell-Pretty and Terry Yin. They're joined by Cucumber regulars, Matt Wynne, Hamish Tedeschi and our host Steve Tooke.
 
-Terry Yin  - https://sg.linkedin.com/in/terryyin
+Terry Yin - https://sg.linkedin.com/in/terryyin
 Em Campbell-Pretty - https://au.linkedin.com/in/ejcampbellpretty
 
 Follow us on Twitter - [@cucumberbdd](https://twitter.com/cucumberbdd)
