@@ -1,6 +1,6 @@
 require 'rack-rewrite'
 
-module Api
+module Redirects
   class App < Rack::Rewrite
     def initialize(app)
       super do
