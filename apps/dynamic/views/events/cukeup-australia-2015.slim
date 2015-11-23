@@ -32,7 +32,7 @@ header#leaderboard
     h2 A progressive conference for testers, developers and product owners who think differently
 
     .cta
-      a.button.register href=register_url Register now
+      a.button.register href=register_url SOLD OUT! - WAITING LIST
 
     .cta.hidden # TODO
       | or
@@ -101,7 +101,7 @@ section#whatis
 section.ctr
   .wrap
     h1 Sydney 19 & 20 November 2015
-    a.button.register href=register_url Register now
+    a.button.register href=register_url SOLD OUT! WAITING LIST
 
 section#schedule
   .content
@@ -118,8 +118,10 @@ section#schedule
           li.schedule-item
             .time 09:15 - 09:45
             .talk
-              | Keynote: When your testing is in a pickle
-              .speaker Anne-Marie Charrett
+              | Keynote: Building Quality Into the Process, not the Product
+              .speaker Sharon Robson
+              .synopsis
+                p Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.
           li.schedule-item
             .time 09:45 - 10:00
             .break Break
@@ -209,7 +211,7 @@ section#schedule
             .time 16:00 - 16:30
             .talk
               | BDD is Dead. Long Live BDD.
-              .speaker Lilly Ryan
+              .speaker Lilly Ryan and Jaksha Shah
               .synopsis
                 p Behaviour Driven Development has been touted for many years now as the one and only way to develop tested (and testable) software. However, we have found that this approach is not a “one size fits all” solution, and can fail teams in many cases. Nasty test retrofits, scope creep, and additional bottlenecks are all ways in which BDD can throw your beloved project under the bus, without improving the quality of your work one iota.
                 p What, then, is the future of BDD? Taking the time to assess the behaviour of a team itself can often drive the way that team does development, so by moving our view of BDD from development practice to team working practice, we can help teams mature in a way that works for them - and for their end product. We would like to take you on this journey with us by providing some insights into ways that we have seen BDD pass and fail in different teams.
@@ -228,10 +230,8 @@ section#schedule
           li.schedule-item.openable
             .time 09:15 - 09:45
             .talk
-              | Keynote: Building Quality Into the Process, not the Product
-              .speaker Sharon Robson
-              .synopsis
-                p Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.
+              | Keynote: When your testing is in a pickle
+              .speaker Anne-Marie Charrett
           li.schedule-item
             .time 09:45 - 10:00
             .break Break
@@ -251,7 +251,7 @@ section#schedule
               | Workshops
               .workshop
                 | Fun. Frustration. Agile 101.
-                .speaker Elise Aplin
+                .speaker Elise Aplin and Jaksha Shah
                 .synopsis
                   p Every year Thoughtworks trains hundreds of graduate recruits in the principles of Agile software development. While a vast amount of this training involves working in simulated projects we also throw in a healthy dose of collaborative games to drive home the pain of late integration, unknown requirements and unclear quality standards. In this session we will use our experience as trainers at ThoughtWorks University to put you through your Agile paces. At the end of the session you will have ideas on how to run your own workshops to introduce Agile practices to complete newbies. Expect a healthy dose of fun, frustration and edification.
               .workshop
@@ -354,6 +354,9 @@ section#venue
 
     p Located in the heart of Darlinghurst, you're only a few minutes walk from the CBD, surrounded by great coffee shops and restaruants.
 
+    p
+      a href="https://www.google.com.au/maps/place/Cell+Block+Theatre/@-33.8798198,151.2163353,17z/data=!3m1!4b1!4m2!3m1!1s0x6b12ae10ecc75093:0x50d5f9a43f7255f" View location on a map
+
 section#previous
   .wrap
     h1 Previous Years
@@ -380,19 +383,37 @@ section#previous
 section.ctr
   .wrap
     h1 Sydney 19 & 20 November 2015
-    a.button.register href=register_url Register now
+    a.button.register href=register_url SOLD OUT! - WAITING LIST
 
 section#sponsors
   .wrap
-    h1 Do you want to sponsor?
-    p If your business is looking to associate with great software practices and want to connect to a cross section of developers, testers, and BAs - get in touch! Email us at <a href="mailto:cukeup-au@cucumber.io">cukeup-au@cucumber.io</a> to learn more about our tailored packages.
-    / ul
-      / li
-      /   figure
-      /     img src="" alt=""
-      / li
-      /   figure
-      /     img src="" alt=""
+    h1 Organisers
+    ul
+      li
+        a href="https://cucumber.io"
+          img src="/images/cucumber-logo.svg" alt="Cucumber"
+      li
+        a href="http://magentys.io"
+          img src="/images/cukeup/logos/magentys.svg" alt="MagenTys"
+    h1 Gold sponsors
+    ul
+      li
+        a href="http://www.suncorp.com.au"
+          img src="/images/cukeup/logos/suncorp.jpg" alt="Suncorp"
+      li
+        a href="https://www.openbet.com"
+          img src="/images/cukeup/logos/openbet.jpg" alt="OpenBet"
+      li
+        a href="http://elabor8.com.au"
+          img src="/images/cukeup/logos/elabor8.svg" alt="elabor8"
+    h1 Bronze sponsors
+    ul
+      li
+        a href="https://ustwo.com"
+          img src="/images/cukeup/logos/ustwo.svg" alt="ustwo"
+      li
+        a href="https://www.thoughtworks.com"
+          img src="/images/cukeup/logos/thoughtworks.svg" alt="Thoughtworks"
 
 footer#footer
   .wrap

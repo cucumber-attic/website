@@ -472,12 +472,11 @@ body {
 
 #sponsors {
   padding: 2em 0;
+  text-align: center;
   h1 { font-weight: 400; text-transform: uppercase; font-size: 16px; color: $color-gray; }
-  p { font-weight: 300; }
-  a { color: $color-gray; }
   ul { list-style: none; padding: 0; margin: 0; text-align: center; }
-  li { display: inline-block; width: 160px; margin: 2%; }
-  img { width: 160px; height: 60px; }
+  li { display: inline-block; margin: 2%; }
+  img { height: 60px; }
 }
 
 #footer {
