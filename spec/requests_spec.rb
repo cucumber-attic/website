@@ -21,7 +21,7 @@ describe "integration testing" do
     "/assets/main.css",
     "/fonts/cucumber-glyphs.eot",
     "/bdd-kickstart.pdf",
-    "/events/bdd-kickstart-perth-2015",
+    "/events/bdd-analysis-london-2015",
   ].each do |path|
     it "returns #{path} with a non-failure code" do
       get path
