@@ -109,7 +109,7 @@ section.community
             p contributors
           .community-avatars.col-md-6
             - site.community.recent_contributors.each do |contributor|
-              img.img-responsive src=contributor.avatar_url alt=contributor.username
+              img.img-responsive src=contributor.avatar_url alt=contributor.username title=contributor.username
           .community-languages.text-center.col-md-3
             .number 10
             p languages
