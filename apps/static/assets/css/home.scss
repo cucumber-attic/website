@@ -93,6 +93,15 @@
   text-align: center;
 }
 
+.props-language-list {
+  list-style: none;
+  margin: 20px 0 0;
+  li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+  }
+}
+
 .props-summary-title {
   margin: 0 0 10px;
   font-size: 32px;
