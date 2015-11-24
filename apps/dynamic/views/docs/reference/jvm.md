@@ -253,7 +253,7 @@ for Step Definitions):
 
 While it's not required, we strongly recommend you include one of the
 [Dependency Injection](/docs/reference/java-di) modules as well. This allows
-you to share stare between [Step Definitions](/docs/reference#step-definitions)
+you to share state between [Step Definitions](/docs/reference#step-definitions)
 without resorting to static variables (a common source of flickering scenarios).
 
 ### Step Definitions
