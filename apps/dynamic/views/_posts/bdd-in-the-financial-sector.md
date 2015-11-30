@@ -8,7 +8,7 @@ nav:      blog
 
 *Quicker delivery and less rework with Executable Specifications*
 
-This article was first published for the Excelian Spark Magazine. You can find the original on their [website](excelian.com/blog/behaviour-driven-development-bdd-in-the-finance-sector/).
+This article was first published for the Excelian Spark Magazine. You can find the original on their [website](http://www.excelian.com/blog/behaviour-driven-development-bdd-in-the-finance-sector).
 
 ![Bad Project, Swing image](https://cucumber.io/images/blog/bad-project.png)
 
