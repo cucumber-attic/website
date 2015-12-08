@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: 2015-12-06 12:00:00
+date: 2015-12-08 12:00:00
 title: Introducing Example Mapping
 author: matt
 ---
