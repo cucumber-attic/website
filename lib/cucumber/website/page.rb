@@ -146,6 +146,10 @@ module Cucumber
         !(@template_name =~ /^_includes\//)
       end
 
+      def date
+        Time.parse(super.to_s)
+      end
+
     private
 
       def has_yaml_header?

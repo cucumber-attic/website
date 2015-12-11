@@ -42,6 +42,10 @@ module Cucumber::Website
       it "has a url" do
         expect(page.url).to eq("https://cucumber.io/blog/2015/01/13/matt-on-test-talks")
       end
+
+      it "has a date" do
+        expect(page.date).to be_a(Time)
+      end
     end
 
     describe "as event" do
