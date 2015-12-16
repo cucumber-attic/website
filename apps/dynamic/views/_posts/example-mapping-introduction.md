@@ -24,7 +24,7 @@ Concrete _examples_ are a tremendous way to help us explore the problem domain, 
 * _questions_ about scenarios where nobody in the conversations knows what the right outcome is. Or _assumptions_ we're making in order to progress.
 * new _user stories_ we discovered or sliced and deferred out of scope.
 
-Example Mapping uses a [pack of 4-coloured index cards](http://www.theofficesuppliessupermarket.com/p/concord-record-card-smooth-152x102mm-assorted-ref-16199-pack-100?gclid=CPnqxe_1y8kCFUKeGwodHX8Caw) and some pens to capture these different types of information as the conversation unfolds. As we talk, we capture them on index cards, and arrange them in a map:
+Example Mapping uses a [pack of 4-coloured index cards](http://www.staples.com/Staples-Assorted-Color-Index-Cards/product_SS1037669) and some pens to capture these different types of information as the conversation unfolds. As we talk, we capture them on index cards, and arrange them in a map:
 
 <img src="{{ site.url }}/images/blog/example-mapping/map.png" style="width: 100%">
 
