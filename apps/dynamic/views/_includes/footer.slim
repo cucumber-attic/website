@@ -37,8 +37,12 @@ footer.main-footer
         .main-footer-company.text-right
           img src="/images/cukeup/logos/cucumber-ltd.svg" alt="Cucumber Ltd' logo" title="Cucumber Ltd"
           p The company behind Cucumber & Cucumber Pro.
-        form.main-footer-newsletter.text-right
-          input type="email" placeholder="Stay informed!"
+        / TODO: replace the CukeUp AU id with the newsletter id
+        form.main-footer-newsletter.text-right action="//cukes.us10.list-manage.com/subscribe/post?u=68b8acc491477423651de1ae7&amp;id=dbe40fa5cd" method="POST" target="_blank"
+          / Spam protection
+          div style="position: absolute; left: -5000px;"
+            input name="b_68b8acc491477423651de1ae7_dbe40fa5cd" tabindex="-1" type="text" value=""
+          input type="email" name="EMAIL" placeholder="Stay informed!"
           button Subscribe
         p.main-footer-phones.text-right
           a> href="tel:+442087206842" +44 20 8720 6842 (Europe)
