@@ -2,7 +2,7 @@
 layout: post
 author: tooky
 title: "The mob rules, ok?"
-date:   2015-12-16 16:00:00
+date:   2015-12-21 09:00:00
 nav:    blog
 ---
 During the last 6 weeks or so, I've had the pleasure to be working on [Cucumber
