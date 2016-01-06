@@ -18,7 +18,7 @@ If you have a story of closer collaboration, a new technique or tool that has re
 
 CukeUp! prides itself on being a friendly and welcoming event. If you haven’t spoken at a conference before, this is a great place to start. 
 
-Email us if you have an idea for a talk but want some feedback before you submit. 
+[Email us](mailto:cukeup-london@cucumber.io) if you have an idea for a talk but want some feedback before you submit. 
 
 More details on the submission process can be found on the [CukeUp! website](https://skillsmatter.com/conferences/7606-cukeup-2016#get_involved). 
 
