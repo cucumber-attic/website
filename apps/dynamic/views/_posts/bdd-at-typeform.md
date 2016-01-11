@@ -6,9 +6,9 @@ date:     2016-01-11 09:00:00
 nav:      blog
 ---
 
-![Matt with the Typeform team, Aida Manna (Left) and Gloria Hornero (Right)](https://cucumber.io/images/blog/typeform-aida-matt-gloria.png)
-
 *There's no point in hiding it, we think Typeform make awesome surveys. At Cucumber we use their forms for all our customer feedback. It's always a bonus when you work with a team that are building a product that you love.* 
+
+![Typeform](https://cucumber.io/images/blog/typeform-logo.png)
 
 *Summer 2015, [Matt Wynne](https://twitter.com/mattwynne) headed to Barcelona to help the Typeform team practice Behaviour-Driven Development effectively and implement some core techniques to bridge the communication gap between technical and non-technical teams.* 
 
@@ -42,6 +42,8 @@ We are highly focused on automated testing, we don’t like spending time writin
 **Aida:** Well, more or less. When I joined Typeform there was an automated regression test developed using Cucumber + Watir with Ruby, which was run in Jenkins. The previous QA worked hard in defining good acceptance criteria for the stories and his idea was to use those as a base for automation. The problem was that he didn't have enough time.
 
 **Gloria:** I joined a month after Aida and I could see she had done an outstanding job. During the recruitment process she explained what the current situation was and what improvements she deemed important to apply. The previous QAs didn't work alongside the developers; in fact, the QA department had a different board and process! Luckily, by the time I arrived, Aida had already fixed that. She was working alongside the development team and testing tasks were included in the development process.
+
+![Matt with the Typeform team, Aida Manna (Left) and Gloria Hornero (Right)](https://cucumber.io/images/blog/typeform-aida-matt-gloria.png)
  
 **Matt:** What do you think is driving that change? What did the team experience that convinced them this was a good idea?
 
