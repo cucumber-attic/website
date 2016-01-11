@@ -22,7 +22,7 @@ Matt Wynne - Beyond BDD
 ----------
 
 
-John Smart - Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour Driven Development
+John Smart - Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour-Driven Development
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_renbl5qqug" style="height:180px;width:320px">&nbsp;</div>
 
 
