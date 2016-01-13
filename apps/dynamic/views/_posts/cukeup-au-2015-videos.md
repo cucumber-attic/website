@@ -20,18 +20,26 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
 <div class="row">
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_gm0tmurbxn" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_gm0tmurbxn popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <h5>
-      Beyond BDD
+      <a href="https://cucumber.wistia.com/medias/gm0tmurbxn">Beyond BDD</a>
       <small>Matt Wynne</small>
     </h5>
   </div>
 
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_renbl5qqug" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_renbl5qqug popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <article>
       <h5>
-        Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour-Driven Development
+        <a href="https://cucumber.wistia.com/medias/renbl5qqug">Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour-Driven Development</a>
         <small>John Smart</small>
       </h5>
 
@@ -44,9 +52,13 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </div>
 
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_8hdvgeu8bi" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_8hdvgeu8bi popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <h5>
-      Building Quality Into the Process, not the Product
+      <a href="https://cucumber.wistia.com/medias/8hdvgeu8bi">Building Quality Into the Process, not the Product</a>
       <small>Sharon Robson</small>
     </h5>
     
@@ -57,10 +69,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
 <div class="row">
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_iu69hux7bp" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_iu69hux7bp popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <article>
       <h5>
-        BDD is Dead. Long Live BDD.
+        <a href="https://cucumber.wistia.com/medias/iu69hux7bp">BDD is Dead. Long Live BDD.</a>
         <small>Lilly Ryan & Jaksha Shah</small>
       </h5>
 
@@ -71,10 +87,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </div>
 
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_6yzuy2jc37" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_6yzuy2jc37 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <article>
       <h5>
-        The 10 Do’s and 500* Don’ts of Automated Acceptance Testing
+        <a href="https://cucumber.wistia.com/medias/6yzuy2jc37">The 10 Do’s and 500* Don’ts of Automated Acceptance Testing</a>
         <small>Alister Scott</small>
       </h5>
 
@@ -85,9 +105,13 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </div>
 
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_hvexk06vn0" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_hvexk06vn0 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <h5>
-      When your testing is in a pickle
+      <a href="https://cucumber.wistia.com/medias/hvexk06vn0">When your testing is in a pickle</a>
       <small>Anne Marie Charrett</small>
     </h5>
   <p>Prescott’s Pickle Principle: "Cucumbers get more pickled than brine gets cucumbered." No matter what automation you use, cucumber (if you use it for testing), selenium, ultimately good test design helps you decide what to automate and what NOT to automate. What makes good test design? This principle is about ethics and autonomy.  It tells us that it can be challenging to preserve independent thinking when you deal with a large and important client.  Recent corporate scandals show that even legal counselscan get "pickled" in the corporate "brine."<p>
@@ -96,10 +120,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
 <div class="row">
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_lgdgfp702o" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_lgdgfp702o popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <article>
       <h5>
-        An evolution of BDD and co-creation within a cross-functional team
+        <a href="https://cucumber.wistia.com/medias/lgdgfp702o">An evolution of BDD and co-creation within a cross-functional team</a>
         <small>Adam Taylor</small>
       </h5>
 
@@ -114,10 +142,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </div>
 
   <div class="media-video col-md-4">
-    <div class="wistia_embed wistia_async_1oe7tl4cqv" style="height:180px;width:320px">&nbsp;</div>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_1oe7tl4cqv popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
+      </div>
+    </div>
     <article>
       <h5>
-        “BDD and Testing are getting Divorced” - It will be messy, but better for the kids in the long run
+        <a href="https://cucumber.wistia.com/medias/1oe7tl4cqv">“BDD and Testing are getting Divorced” - It will be messy, but better for the kids in the long run</a>
         <small>Hamish Tedeschi</small>
       </h5>
 
