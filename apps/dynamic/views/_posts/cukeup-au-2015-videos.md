@@ -29,6 +29,9 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
       <a href="https://cucumber.wistia.com/medias/gm0tmurbxn">Beyond BDD</a>
       <small>Matt Wynne</small>
     </h5>
+    <p>BDD might just be software development nirvana. But what lies beyond? What happens when a team get really, really good at BDD? Can you get so good you don't need it anymore? Let's find out.</p>
+
+<p>Leading BDD expert and co-author of 'The Cucumber Book', Matt Wynne, will explore how a team evolves as they learn BDD. You’ll recognise pain-points you’ve felt yourself, discover the ones in your future, and get inspired about how far your team could get.</p>
   </div>
 
   <div class="media-video col-md-4">
