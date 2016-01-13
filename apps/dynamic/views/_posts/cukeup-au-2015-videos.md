@@ -25,13 +25,16 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
         <span class="wistia_embed wistia_async_gm0tmurbxn popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
       </div>
     </div>
-    <h5>
-      <a href="https://cucumber.wistia.com/medias/gm0tmurbxn">Beyond BDD</a>
-      <small>Matt Wynne</small>
-    </h5>
-    <p>BDD might just be software development nirvana. But what lies beyond? What happens when a team get really, really good at BDD? Can you get so good you don't need it anymore? Let's find out.</p>
+    <article>
+      <h5>
+        <a href="https://cucumber.wistia.com/medias/gm0tmurbxn">Beyond BDD</a>
+        <small>Matt Wynne</small>
+      </h5>
 
-<p>Leading BDD expert and co-author of 'The Cucumber Book', Matt Wynne, will explore how a team evolves as they learn BDD. You’ll recognise pain-points you’ve felt yourself, discover the ones in your future, and get inspired about how far your team could get.</p>
+      <p>BDD might just be software development nirvana. But what lies beyond? What happens when a team get really, really good at BDD? Can you get so good you don't need it anymore? Let's find out.</p>
+
+      <p>Leading BDD expert and co-author of 'The Cucumber Book', Matt Wynne, will explore how a team evolves as they learn BDD. You’ll recognise pain-points you’ve felt yourself, discover the ones in your future, and get inspired about how far your team could get.</p>
+    </article>
   </div>
 
   <div class="media-video col-md-4">
@@ -60,13 +63,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
         <span class="wistia_embed wistia_async_8hdvgeu8bi popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
       </div>
     </div>
-    <h5>
-      <a href="https://cucumber.wistia.com/medias/8hdvgeu8bi">Building Quality Into the Process, not the Product</a>
-      <small>Sharon Robson</small>
-    </h5>
-    
-    <p>Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.<p>
+    <article>
+      <h5>
+        <a href="https://cucumber.wistia.com/medias/8hdvgeu8bi">Building Quality Into the Process, not the Product</a>
+        <small>Sharon Robson</small>
+      </h5>
 
+      <p>Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.</p>
+    </article>
   </div>
 </div>
 
@@ -103,7 +107,9 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
       <p>Automated acceptance tests/executable specifications are a key part of sustainable software delivery, but most teams struggle to implement these in an efficient, productive way without hindering velocity. Alister will share a few ways to move towards successful automated acceptance testing, and many traps of automated acceptance testing, so you achieve business confidence of every commit in a continuous delivery environment.</p>
 
-      <p><em>\*Note: talk may or may not include 500 don’ts.</em></p>
+      <p><small><em>
+        \*Note: talk may or may not include 500 don’ts.
+      </em></small></p>
     </article>
   </div>
 
@@ -113,11 +119,14 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
         <span class="wistia_embed wistia_async_hvexk06vn0 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span>
       </div>
     </div>
-    <h5>
-      <a href="https://cucumber.wistia.com/medias/hvexk06vn0">When your testing is in a pickle</a>
-      <small>Anne Marie Charrett</small>
-    </h5>
-  <p>Prescott’s Pickle Principle: "Cucumbers get more pickled than brine gets cucumbered." No matter what automation you use, cucumber (if you use it for testing), selenium, ultimately good test design helps you decide what to automate and what NOT to automate. What makes good test design? This principle is about ethics and autonomy.  It tells us that it can be challenging to preserve independent thinking when you deal with a large and important client.  Recent corporate scandals show that even legal counselscan get "pickled" in the corporate "brine."<p>
+    <article>
+      <h5>
+        <a href="https://cucumber.wistia.com/medias/hvexk06vn0">When your testing is in a pickle</a>
+        <small>Anne Marie Charrett</small>
+      </h5>
+
+      <p>Prescott’s Pickle Principle: "Cucumbers get more pickled than brine gets cucumbered." No matter what automation you use, cucumber (if you use it for testing), selenium, ultimately good test design helps you decide what to automate and what NOT to automate. What makes good test design? This principle is about ethics and autonomy.  It tells us that it can be challenging to preserve independent thinking when you deal with a large and important client.  Recent corporate scandals show that even legal counselscan get "pickled" in the corporate "brine."</p>
+    </article>
   </div>
 </div>
 
