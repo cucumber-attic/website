@@ -49,6 +49,9 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
       Building Quality Into the Process, not the Product
       <small>Sharon Robson</small>
     </h5>
+    
+    <p>Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.<p>
+
   </div>
 </div>
 
@@ -87,6 +90,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
       When your testing is in a pickle
       <small>Anne Marie Charrett</small>
     </h5>
+  <p>Prescott’s Pickle Principle: "Cucumbers get more pickled than brine gets cucumbered." No matter what automation you use, cucumber (if you use it for testing), selenium, ultimately good test design helps you decide what to automate and what NOT to automate. What makes good test design? This principle is about ethics and autonomy.  It tells us that it can be challenging to preserve independent thinking when you deal with a large and important client.  Recent corporate scandals show that even legal counselscan get "pickled" in the corporate "brine."<p>
   </div>
 </div>
 
