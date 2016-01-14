@@ -13,8 +13,11 @@ module Cucumber
         end
       end
 
+      # Makes sure all headers are rendered with an anchor, so they can be easily
+      # linked to.
+      #
       # If the same header text exists in multiple places in the document,
-      # a unique anchor prefix can be specified:
+      # a unique anchor prefix can be specified in the Markdown:
       #
       #    ## {something-unique}The text
       def header(text, header_level)
