@@ -14,7 +14,7 @@ html lang="en"
 
           div
             div.meta
-              img src="https://www.gravatar.com/avatar/#{locals['site']['authors'][locals['author']]['gravatar']}?s=40"
+              img.pull-left src="https://www.gravatar.com/avatar/#{locals['site']['authors'][locals['author']]['gravatar']}?s=40"
               span.author= locals['site']['authors'][locals['author']]['display_name']
               span.date= locals['date'].strftime('%b %-d, %Y')
             == yield
