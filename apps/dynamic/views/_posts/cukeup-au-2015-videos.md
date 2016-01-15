@@ -18,7 +18,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
 <p><strong>Without further ado:</strong></p>
 
-<div class="media-video row">
+<div id="matt-wynne" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -29,7 +29,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/gm0tmurbxn">Beyond BDD</a>
+      <a href="#matt-wynne">Beyond BDD</a>
       <small>Matt Wynne</small>
     </h5>
 
@@ -39,7 +39,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="row media-video">
+<div id="john-smart" class="row media-video">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -50,7 +50,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/renbl5qqug">Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour-Driven Development</a>
+      <a href="#john-smart">Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour-Driven Development</a>
       <small>John Smart</small>
     </h5>
 
@@ -62,7 +62,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="row media-video">
+<div id="sharon-robson" class="row media-video">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -73,7 +73,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/8hdvgeu8bi">Building Quality Into the Process, not the Product</a>
+      <a href="#sharon-robson">Building Quality Into the Process, not the Product</a>
       <small>Sharon Robson</small>
     </h5>
 
@@ -81,7 +81,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="media-video row">
+<div id="lilly-ryan-jaksha-shah" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -92,7 +92,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/iu69hux7bp">BDD is Dead. Long Live BDD.</a>
+      <a href="#lilly-ryan-jaksha-shah">BDD is Dead. Long Live BDD.</a>
       <small>Lilly Ryan & Jaksha Shah</small>
     </h5>
 
@@ -102,7 +102,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="media-video row">
+<div id="alister-scott" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -113,7 +113,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/6yzuy2jc37">The 10 Do’s and 500* Don’ts of Automated Acceptance Testing</a>
+      <a href="#alister-scott">The 10 Do’s and 500* Don’ts of Automated Acceptance Testing</a>
       <small>Alister Scott</small>
     </h5>
 
@@ -123,7 +123,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="media-video row">
+<div id="anne-marie-charrett" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -134,7 +134,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/hvexk06vn0">When your testing is in a pickle</a>
+      <a href="#anne-marie-charrett">When your testing is in a pickle</a>
       <small>Anne Marie Charrett</small>
     </h5>
 
@@ -142,7 +142,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="media-video row">
+<div id="adam-taylor" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -153,7 +153,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/lgdgfp702o">An evolution of BDD and co-creation within a cross-functional team</a>
+      <a href="#adam-taylor">An evolution of BDD and co-creation within a cross-functional team</a>
       <small>Adam Taylor</small>
     </h5>
 
@@ -167,7 +167,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
   </article>
 </div>
 
-<div class="media-video row">
+<div id="hamish-tedeschi" class="media-video row">
   <div class="col-md-4">
     <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
       <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -178,7 +178,7 @@ If you're in Europe, the next CukeUp! is just around the corner. [Tickets are no
 
   <article class="col-md-8">
     <h5>
-      <a href="https://cucumber.wistia.com/medias/1oe7tl4cqv">“BDD and Testing are getting Divorced” - It will be messy, but better for the kids in the long run</a>
+      <a href="#hamish-tedeschi">“BDD and Testing are getting Divorced” - It will be messy, but better for the kids in the long run</a>
       <small>Hamish Tedeschi</small>
     </h5>
 
