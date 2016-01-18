@@ -14,8 +14,8 @@ html lang="en"
 
           div
             div.meta
-              img.pull-left src="https://www.gravatar.com/avatar/#{locals['site']['authors'][locals['author']]['gravatar']}?s=40"
-              span.author= locals['site']['authors'][locals['author']]['display_name']
+              img.pull-left src="https://www.gravatar.com/avatar/#{config['authors'][locals['author']]['gravatar']}?s=40"
+              span.author= config['authors'][locals['author']]['display_name']
               span.date= locals['date'].strftime('%b %-d, %Y')
             == yield
           == erb '_includes/disqus'.to_sym
