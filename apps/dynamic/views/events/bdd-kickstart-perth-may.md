@@ -4,7 +4,7 @@ hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: May 12th-13th 2016
   cta:
-    link: https://ti.to/cukeupau/bdd-kickstart-training
+    link: https://ti.to/cukeupau/bdd-kickstart-perth
     message: Book now
 location:
   url: https://www.google.com/maps/place/Tech+Hub/@-31.9463752,115.8603497,17z/data=!3m1!4b1!4m2!3m1!1s0x2a32bad0678a550b:0xc9bf48edd34ca859
