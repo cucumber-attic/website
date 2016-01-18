@@ -12,9 +12,11 @@ nav:      blog
   <div class="embed-responsive-item wistia_embed wistia_async_jw69vh3djb">&nbsp;</div>
 </div>
 
-<p class="post-intro">Here are the talks from <strong>CukeUp! AU 2015</strong>. The conference played host to some great presentations and there should be something of value for everyone in here.</p>
+<p class="post-intro"> Hiya! Here are the talks from <strong>CukeUp! AU 2015</strong>. The conference played host to some great presentations and there should be something of value for everyone in here.</p>
 
-If you're in Europe, the next CukeUp! is just around the corner. [Tickets are now sale.](https://skillsmatter.com/conferences/7606-cukeup-2016) for CukeUp! London, this April.
+If you live in Europe, the next CukeUp! is just around the corner. [Tickets are now sale.](https://skillsmatter.com/conferences/7606-cukeup-2016) for CukeUp! London, this April.
+
+We're also running [BDD Kickstart](https://cucumber.io/events/bdd-kickstart-perth-may) in Perth, Australia in May. Find all our [upcoming events on our website](https://cucumber.io/events).
 
 <p><strong>Without further ado:</strong></p>
 
