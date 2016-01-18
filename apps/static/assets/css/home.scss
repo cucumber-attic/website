@@ -53,6 +53,9 @@
 
 .props-prop {
   position: relative;
+  a {
+    text-decoration: none;
+  }
   & + .props-prop {
     &:before {
       position: absolute;
