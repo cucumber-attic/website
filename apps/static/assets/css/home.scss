@@ -18,9 +18,13 @@
 }
 
 .announcement-text {
+  display: none;
   margin: 20px 0 0;
   font-size: 20px;
   color: $brand-gray;
+  &.active {
+    display: block;
+  }
   a {
     font-weight: 500;
     color: $brand-gray;
