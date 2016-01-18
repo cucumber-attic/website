@@ -106,7 +106,12 @@ module Cucumber
       end
 
       def locals
-        locals = @front_matter
+        locals = deep_merge_hashes(@config, @front_matter)
+        locals['locals'] = locals # So slim can pass locals to _includes
+        # TODO: only for posts, when we have a subtype for that
+        if @front_matter.key?('date')
+          locals['date'] = date # because sometimes it can be a string
+        end
         locals['template_path'] = @template_path
         locals['config'] = @config
         locals
@@ -147,6 +152,10 @@ module Cucumber
 
       def primary?
         !(@template_name =~ /^_includes\//)
+      end
+
+      def date
+        Time.parse(super.to_s)
       end
 
     private

@@ -230,6 +230,9 @@ Some of the runners provide additional mechanisms for passing options to Cucumbe
 
 ### {java-}Dependency
 
+If you are going to use the lambda expressions API to write the Step
+Definitions, you need:
+
 ```xml
 <dependency>
     <groupId>info.cukes</groupId>
@@ -239,8 +242,7 @@ Some of the runners provide additional mechanisms for passing options to Cucumbe
 </dependency>
 ```
 
-Or, if you are on Java 6 or Java 7 or (or on Java 8 but prefer to use annotated methods
-for Step Definitions):
+Otherwise, to write them using annotated methods, you need:
 
 ```xml
 <dependency>
@@ -253,18 +255,18 @@ for Step Definitions):
 
 While it's not required, we strongly recommend you include one of the
 [Dependency Injection](/docs/reference/java-di) modules as well. This allows
-you to share stare between [Step Definitions](/docs/reference#step-definitions)
+you to share state between [Step Definitions](/docs/reference#step-definitions)
 without resorting to static variables (a common source of flickering scenarios).
 
 ### Step Definitions
 
-Java Step Definitions are defined in a regular class. It doesn't need to extend
-or implement anything. There is a Java 8 lambda API and a Java 6/7 method API:
-styles:
+Java Step Definitions are written in regular classes which don't need to extend
+or implement anything. They can be written either using lambda expressions or 
+method annotations:
 
-#### Java 8 lambdas
+#### Lambda Expressions (Java 8)
 
-If you're using the `cucumber-java8` module you can define [Step Definitions](/docs/reference#step-definitions)
+If you use the `cucumber-java8` module, you can write the [Step Definitions](/docs/reference#step-definitions)
 using lambdas:
 
 ```java
@@ -281,9 +283,9 @@ public class MyStepdefs implements En {
 }
 ```
 
-#### Java 6/7 methods
+#### Annotated methods (Java 6 and onwards)
 
-With Java 6 and 7 you can define Step Definitions as annotated methods:
+If you use the `cucumber-java` module, you can write them using annotated methods:
 
 ```java
 package foo;

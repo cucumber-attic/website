@@ -67,6 +67,7 @@ module Website
         get page.path do
           headers.merge!(page.headers)
 
+          # TODO: this is insuficient for some pages. e.g. the blog index page, where it needs to check the mtime of each page rendered in the index. We should delegate this logic to the page class and have subtypes for different types of page.
           if page.cacheable? && settings.environment != :development
             timestamps = site.pages.map(&:timestamp) + [File.mtime(__FILE__)]
             last_modified timestamps.max

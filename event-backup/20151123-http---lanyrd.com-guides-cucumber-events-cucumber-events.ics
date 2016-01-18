@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lanyrd.com//Lanyrd//EN
+X-ORIGINAL-URL:http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
+X-WR-CALNAME;CHARSET=utf-8:Cucumber and BDD Events
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:CukeUp! Australia
+LOCATION;CHARSET=utf-8:Sydney\, Australia
+URL:http://lanyrd.com/2015/cukeup-australia-2015/
+UID:f3eaaf80b064f17a1e433c7adc1927ce188604c3
+DESCRIPTION:For the first time ever\, CukeUp is coming to the Asia-Pacific region - Nov/Dec - Exact Date TBC!\n\nhttp://lanyrd.com/cfkrgp
+DTSTART;VALUE=DATE:20151119
+DTEND;VALUE=DATE:20151121
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:BDD Kickstart Training
+LOCATION;CHARSET=utf-8:Xebia\, Laapersveld 17
+URL:http://lanyrd.com/2015/bdd-kickstart-training/
+UID:a771612ddb828d19c3955a297367691e51fd0947
+DESCRIPTION:Our final European BDD training of 2015\n\nhttp://lanyrd.com/cfxddx
+DTSTART;VALUE=DATE:20151214
+DTEND;VALUE=DATE:20151216
+GEO:52.2115875434;5.18414284956
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:[CANCELLED] BDD Kickstart - Perth
+LOCATION;CHARSET=utf-8:Tech Hub\, 4 Money Street\, Perth\, WA 6000
+URL:http://lanyrd.com/2015/bdd-kickstart-perth/
+UID:0241a4f14b3a71f05e077d3bb3eb6696e35539f4
+DESCRIPTION:BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber.\n\nhttp://lanyrd.com/cfwddr
+DTSTART;VALUE=DATE:20151214
+DTEND;VALUE=DATE:20151216
+GEO:-31.9463797501;115.8625384
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;CHARSET=utf-8:CukeUp Denver (Date TBC)
+LOCATION;CHARSET=utf-8:Denver\, United States
+URL:http://lanyrd.com/2016/cukeup-denver-date-tbc/
+UID:3bde64c4ed4e9986d9f4ec0fb7c4f9e0e9afeef3
+DESCRIPTION:A progressive conference for devs\, testers\, BAs and product owners\n\nhttp://lanyrd.com/cfktxy
+DTSTART;VALUE=DATE:20160601
+DTEND;VALUE=DATE:20160603
+END:VEVENT
+END:VCALENDAR
