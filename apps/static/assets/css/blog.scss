@@ -24,3 +24,21 @@
     }
   }
 }
+
+.post-intro {
+  margin-top: 20px;
+  font-size: 19px;
+  color: $gray-dark;
+}
+
+.media-video {
+  h5 {
+    margin-top: 5px;
+    small {
+      display: block;
+      font-size: 14px;
+      margin: 5px 0 0;
+      color: $gray-dark;
+    }
+  }
+}
