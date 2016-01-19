@@ -30,7 +30,7 @@ module Cucumber
 
         ensure_unique(anchor)
 
-        %Q{<h#{header_level} id="#{anchor}" class="header" data-swiftype-name="title" data-swiftype-type="string">#{text}</h#{header_level}>\n}
+        %Q{<a name="#{anchor}"></a><h#{header_level} class="header" data-swiftype-name="title" data-swiftype-type="string">#{text}</h#{header_level}>\n}
       end
 
       def ensure_unique(anchor)

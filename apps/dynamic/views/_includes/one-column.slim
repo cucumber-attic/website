@@ -7,7 +7,7 @@ html lang="en"
     == slim '_includes/nav-main'.to_sym, locals: locals
 
     - if locals['hero']
-      .jumbotron.bdda-hero(style="background: url(#{image}); background-size: cover;")
+      .jumbotron.bdda-hero(style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(#{image});")
         .container
           .bdda-hero-title.text-center
             h1== title
@@ -17,7 +17,7 @@ html lang="en"
           p.text-center
             == hero['dates']
             - if locals['location']
-              a href="#{location['url']}"== location['name']
+              a< href="#{location['url']}"== location['name']
     
     div.container
       div.row
