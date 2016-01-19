@@ -397,6 +397,8 @@
 
 .companies-logo {
   img {
+    opacity: .6;
+    filter: grayscale(100%);
     height: 60px;
   }
 }
