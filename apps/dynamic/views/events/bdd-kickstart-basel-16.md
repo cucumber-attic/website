@@ -21,7 +21,7 @@ dtend: 2016-04-05 00:00:00
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will the fundamental technical and non-technical skills required for your team to start.
 
-You will be taught by Matt Wynne and Gáspár Nagy. 
+You will be taught by Matt Wynne and Gáspár Nagy.
 
 Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was as invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of The Cucumber Book, Behaviour-Driven Development for Developers and Testers and a co-founder of Cucumber Ltd, the company behind Cucumber.
 
@@ -65,4 +65,3 @@ Non-technical people are welcome to stick around for this day, but they may find
 * Backgrounds, Tags, Tables, Scenario Outlines and other Gherkin tricks
 * Domain modelling by Example
 * Costs & benefits of working test-first
-
