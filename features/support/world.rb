@@ -1,7 +1,7 @@
 require 'cucumber/website/calendar'
 require 'cucumber/website/core/site'
 require 'cucumber/website/git_hub/fake'
-require 'cucumber/website/git_hub/file_system_cache'
+require 'cucumber/website/cache'
 
 module Cucumber
   module Website
