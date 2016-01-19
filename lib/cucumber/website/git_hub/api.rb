@@ -9,6 +9,7 @@ module Cucumber
       class API
         def initialize(config)
           @gh = Octokit::Client.new({ access_token: config['git_hub']['token'] })
+          @logger = Logger.new($stderr)
         end
 
         def events
@@ -21,6 +22,10 @@ module Cucumber
               })
             })
           }
+        rescue Octokit::NotFound => e
+          @logger.debug(e.message)
+          @logger.info("Stop fetching GitHub Events, they won't be refreshed")
+          []
         end
       end
     end

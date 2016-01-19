@@ -1,6 +1,5 @@
 url: https://cucumber.io
 
-calendar_refresh_interval: 300
 calendars:
   - http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
   - http://www.meetup.com/BDDLondon/events/ical/
