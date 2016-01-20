@@ -6,6 +6,16 @@ ENV['RACK_ENV'] = 'test'
 APP = Rack::Builder.parse_file('config.ru').first
 
 describe "integration testing" do
+  # TODO: There is a moment when the cache is not ready, which breaks these tests and will make the production server to throw a 500 for a few seconds after each deploy.
+
+  before(:all) do
+    FileUtils.cp(File.dirname(__FILE__) + '/fixtures/git_hub_cache.yaml', File.dirname(__FILE__) + '/../cache/test/git_hub.yaml')
+  end
+
+  after(:all) do
+    FileUtils.rm(File.dirname(__FILE__) + '/../cache/test/git_hub.yaml')
+  end
+
   include Rack::Test::Methods
 
   def app

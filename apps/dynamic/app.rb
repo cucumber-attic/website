@@ -13,30 +13,12 @@ require 'cucumber/website/events'
 require 'cucumber/website/reference'
 require 'cucumber/website/core/community'
 require 'cucumber/website/core/site'
-require 'cucumber/website/git_hub/api'
+require 'cucumber/website/git_hub'
 require 'cucumber/website/cache'
 
 Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
 Slim::Engine.disable_option_validator!
 
-# Sinatra app that displays a Jekyll app dynamically.
-#
-# Why? A couple of reasons:
-#
-# * We have special requirements for the generated docs. Seemed easier to go the dynamic route.
-# * We want to have some dynamic content as well as "static".
-#
-# Supports several template engines: Markdown, Slim and Erb.
-# All templates are pre-processed with Liquid.
-#
-# Markdown can be used to generate reference documentation. Features include:
-#
-# * Automatic generation of nested left nav based on Markdown headers
-# * Uses Bootstrap scroll spy to collapse/expand nav items
-# * Mini-smartypants. --- gets converted to an emdash
-# * Use [carousel] to create a carousel of code samples for different languages
-# * Use {} in headers to create unique anchors when there are clashes
-#
 module Cucumber
 module Website
 
@@ -115,7 +97,7 @@ module Website
   logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Calendar.new(url, logger) }
 
-  git_hub = Cache.wrap(GitHub::API.new(config), 'git_hub', config, logger)
+  git_hub = Cache.wrap(GitHub.for(config), 'git_hub', config, logger)
   site = Core::Site.new(config, pages, calendars, git_hub)
 
   App = make_app(site)

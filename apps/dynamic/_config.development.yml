@@ -4,3 +4,6 @@ calendar_refresh_interval: 60
 calendars:
   - http://lanyrd.com/guides/cucumber-events/cucumber-events.ics
   - http://www.meetup.com/BDDLondon/events/ical/
+
+git_hub:
+  cache_refresh_interval: 1000

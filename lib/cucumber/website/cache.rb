@@ -7,7 +7,9 @@ module Cucumber
       def self.wrap(api, name, config, logger)
         path = Path.new(name, config['env'])
         store = FileSystemStore.new(path)
-        start_updating store, api, logger, config[name]['cache_refresh_interval']
+        if config[name]['cache_refresh_interval']
+          start_updating store, api, logger, config[name]['cache_refresh_interval']
+        end
         store
       end
 
