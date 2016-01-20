@@ -10,9 +10,9 @@ nav:      blog
 
 ![Typeform](https://cucumber.io/images/blog/typeform-logo.png)
 
-*Summer 2015, [Matt Wynne](https://twitter.com/mattwynne) headed to Barcelona to help the Typeform team practice Behaviour-Driven Development effectively and implement some core techniques to bridge the communication gap between technical and non-technical teams.* 
+*Late last Summer [Matt Wynne](https://twitter.com/mattwynne) headed to Barcelona to help the Typeform team practice Behaviour-Driven Development effectively and implement some core techniques to bridge the communication gap between tech and business teams.* 
 
-*Matt caught up with Aida Manna (left) and Gloria Hornero (right) about their recent progress and how other teams can take pointers from their approach. Here's the conversation.*
+*Matt caught up with Aida Manna and Gloria Hornero from the Typeform team and asked how other teams can take pointers from their approach. Here's the conversation.*
 
 **Matt Wynne**: Hello! Can you both tell me a bit about yourselves and what your roles are at Typeform?
 
