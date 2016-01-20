@@ -8,11 +8,11 @@ headers:
   <channel>
     <title>Cucumber Events</title>
     <description>Upcoming conferences, meetups, training and speaking events from the Cucumber team</description>
-    <link>{{ site.url }}/events</link>
-    <author>{{ site.author | xml_escape }}</author>
-    <copyright>{{ site.copyright | xml_escape }}</copyright>
-    <atom:link href="{{ site.url }}/events-feed.xml" rel="self" type="application/rss+xml" />
-    <% site['events'].to_a[0..9].each do |event| %>
+    <link>{{ config['url'] }}/events</link>
+    <author>{{ config['author'] | xml_escape }}</author>
+    <copyright>{{ config['copyright'] | xml_escape }}</copyright>
+    <atom:link href="{{ config['url'] }}/events-feed.xml" rel="self" type="application/rss+xml" />
+    <% site.events.to_a[0..9].each do |event| %>
       <item>
         <title><%= HTMLEntities.new.encode(event.summary) %></title>
         <link><%= event.url %></link>

@@ -2,170 +2,248 @@
 title: Cucumber
 ---
 
-.page-header.home-header
-  img.img-responsive alt="Cucumber logo" src="images/cucumber-logo.svg" /
+.home-header.text-center
+  img.img-responsive alt="Cucumber's logo" src="images/cucumber-logo.svg"
   h1 title="Cucumber"
     | Simple, human collaboration
 
-.container-fluid.home-content
+section.announcement.announcement-js
+  .container
+    .announcement-text.text-center.active
+      a> href="http://www.canoo.com/trainings-events/behavior-driven-development" Next event:
+      | BDD Kickstart - Basel, Switzerland - 4 & 5 April 2016
+    .announcement-text.text-center
+      a> href="https://skillsmatter.com/conferences/7606-cukeup-2016" Next event:
+      | CukeUp! London - 14 & 15 April 2016
+    .announcement-text.text-center
+      a> href="/events/bdd-kickstart-perth-may" Next event:
+      | BDD Kickstart - Perth, Australia - 13 & 14 May 2016
+    .announcement-bullets.text-center
+      span.bullet.active
+      span.bullet
+      span.bullet
+
+section.props
   .container
     .row
-      .col-md-4.col-sm-6.col-xs-12
-        h1 1. Describe behaviour in plain text
-        img.img-responsive alt="Feature" src="images/front-page/feature.png" /
-      .col-md-4.col-sm-6.col-xs-12
-        h1 2. Write a step definition in Ruby
-        img.img-responsive alt=("Calculator Steps") src="images/front-page/calculator_steps.png" /
-      .col-md-4.col-sm-6.col-xs-12
-        h1 3. Run and watch it fail
-        img.img-responsive alt=("Failing output") src="images/front-page/failing.png" /
-      .col-md-4.col-sm-6.col-xs-12
-        h1 4. Write code to make the step pass
-        img.img-responsive alt="Feature" src="images/front-page/calculator.png" /
-      .col-md-4.col-sm-6.col-xs-12
-        h1 5. Run again and see the step pass
-        img.img-responsive alt=("Pending output") src="images/front-page/pending.png" /
-      .col-md-4.col-sm-6.col-xs-12
-        h1 6. Repeat 2-5 until green like a cuke
-        img.img-responsive alt=("Passing output") src="images/front-page/passing.png" /
-      .col-md-12.col-sm-12.col-xs-12
-        h1 7. Repeat 1-6 until the money runs out
+      .col-md-4.props-prop
+        a href="#why"
+          h2.props-title.text-center An open-source tool for executable specifications
+          figure.props-figure
+            img src="/images/home/text-editor.svg"
+          ul.props-language-list
+            li
+              img alt="Ruby" src="/images/languages/ruby.svg"
+            li
+              img alt="Java" src="/images/languages/java.svg"
+            li
+              img alt="JavaScript" src="/images/languages/javascript.svg"
+            li
+              img alt="C#" src="/images/languages/c-sharp.svg"
+            li
+              img alt="PHP" src="/images/languages/php.svg"
+      .col-md-4.props-prop
+        a href="#community"
+          h2.props-title.text-center A vibrant community
+          figure.props-figure
+            img src="/images/home/community.svg"
+      .col-md-4.props-prop
+        a href="#company"
+          h2.props-title.text-center An ingenious company
+          figure.props-figure
+            img src="/images/home/ingenious-company.svg"
+    .row
+      .col-md-12
+        .props-summary.text-center
+          h1.props-summary-title The perfect ecosystem to build software that matters
+          a href="#how" Learn more →
+
+section.cucumber-bdd
+  .container
+    article.text-center.cucumber-bdd-cucumber#why
+      h1 Cucumber makes your team <strong>amazing</strong>
+      p.lead
+        | At a glance, Cucumber might just look like another tool for running automated tests.
+        br
+        strong
+          | But it’s more than that.
+    .row
+      .cucumber-bdd-benefit.col-md-5
+        h2 A single source of truth
+        p
+          | Cucumber merges specification and test documentation into one cohesive whole.
+      .cucumber-bdd-benefit.col-md-5.col-md-offset-2
+        h2 Living documentation
+        p
+          | Because they're automatically tested by Cucumber, your specifications
+            are always bang up-to-date.
+      .cucumber-bdd-benefit.col-md-5
+        h2 Focus on the customer
+        p
+          | Business and IT don't always understand each other. Cucumber's
+            <em> executable specifications</em> encourage
+            closer collaboration, helping teams keep the business goal in 
+            mind at all times.
+      .cucumber-bdd-benefit.col-md-5.col-md-offset-2
+        h2 Less rework
+        p
+          | When automated testing is this much fun, teams can easily protect themselves from
+            costly regressions.
+    .row
+      .cucumber-bdd-benefit.col-md-8.col-md-offset-2
+        img.img-responsive src="/images/home/cucumber-awesome.jpg" alt="Cucumber is awesome"
+    
+    hr.simple-separator
+
+    .row
+      .col-md-6
+        article.cucumber-bdd-bdd#how
+          h1.text-right <small>Cucumber is for</small> Behaviour-Driven Development
+          figure
+            img.img-responsive src="/images/home/bdd-cycle.png" alt="BDD cycle illustration"
+            figcaption Illustration by Paul Rayner (Thanks!)
+      .col-md-offset-1.col-md-5
+        .cucumber-bdd-bdd
+          p
+            | First, the developers, testers and business folks explore the problem
+              domain, and collaborate to produce concrete examples that describe
+              the behaviour they want.
+          p
+            | Sometimes that discussion is hard, because it throws up all the
+              misunderstandings and assumptions you’d normally discover
+              much later on.
+          p
+            | But that's a good thing.
+          p
+            | Next, the team use Cucumber to run those examples as automated
+              acceptance tests.
+          p
+            | As the team work on the solution, Cucumber tells you which examples
+              are implemented and working, and warns you about the ones that aren’t.
+          p
+            | Before you know it, you have one document that’s both the specification
+              and the tests for your software.
+
+section.community#community
+  .container
+    .row
+      .community-download.text-center.col-md-4
+        .number 120,000
+        p downloads this week
+      .col-md-8
         .row
-          p.col-md-4
-            | Cucumber lets software development teams describe how software should behave in plain text. The text is written in a
-            a<> href="http://www.martinfowler.com/bliki/BusinessReadableDSL.html"  business-readable domain-specific language
-            | and serves as documentation, automated tests and development-aid - all rolled into one format.
-          p.col-md-4
-            | Cucumber works with Ruby, Java, .NET, Flex or web applications written in any language. It has been translated to over 40 spoken languages.
-          p.col-md-4
-            | Cucumber also supports more succinct tests in tables - similar to what
-            a<> href="http://fit.c2.com/"
-            span.caps<> FIT
-            | does. Dig around in the examples and documentation to learn more about Cucumber tables.
-.container
-  .row
-    .col-md-8.col-sm-8.col-xs-12
-      h1#upcoming-events Upcoming events
-      .row.well
-        .col-md-7
-          h2 BDD Analysis, London
-          p <strong>With Matt Wynne and George Dinwiddie</strong>
-          p <small><strong>November 4th - 5th.</strong> ustwo offices, London</small>
-          h6.text-uppercase Executable Specifications with Discovery Workshops and Example Mapping.
-          p BDD Analysis is a 2-day training in the analysis and collaboration aspects of Behaviour-Driven Development (BDD). It is a non-technical training for BAs, POs, developers and testers who want to learn how to create better executable specifications and living documentation.
-          p If your organisation is only using Cucumber for test automation, this training will equip you with the skills you need to start using it for executable specifications and living documentation as well.
-          p.text-center
-            a.btn.btn-success href="https://ti.to/cucumber/bdd-london-november-2015" Book now
-            a.btn.btn-link href="/events/bdd-analysis-london-2015" Learn more
-        .col-md-5
-          a href="/events/bdd-analysis-london-2015"
-            img.img-responsive src="/images/training/bdd-analysis-cover.jpg"
-      h1 Background and Credits
-      p
-        | Cucumber is Aslak Hellesøy's rewrite of RSpec's "Story runner", which was originally written by Dan North. (Which again was a rewrite of his first implementation - RBehave. RBehave was his Ruby port of JBehave). Early versions of the RSpec "Story Runner"
-          required that stories be written in Ruby. Seeing how much this sucked David Chelimsky added
-        a<> href="http://blog.davidchelimsky.net/blog/2007/10/21/story-runner-in-plain-english/"  plain text
-        | support with contributions from half a dozen other people.
-      p
-        | In April 2008, Aslak Hellesøy started the Cucumber project to address the internal design flaws and usability problems of the RSpec Story Runner (Yes - Cucumber also has warts on the inside).
-        a<> href="http://blog.josephwilk.net/"  Joseph Wilk
-        | and
-        a<> href="http://benmabey.com"  Ben Mabey
-        | joined as regular contributors when Cucumber was just a little Gherkin.
-        a<> href="http://blog.mattwynne.net/"  Matt Wynne
-        | joined the Cucumber team in September 2009 after.
-        a<> href="http://twitter.com/lifeinzembla"  Mike Sassak
-        | and
-        a<> href="http://twitter.com/algorhythms"  Gregory Hnatiuk
-        | joined in October 2009 after their great work on a faster parser for Cucumber. In addition to the core team
-        a<> href="http://pastie.org/460907"
-        | over 2000 developers have contributed patches, bugfixes, tears and joy.
-      p
-        | Cucumber's plain text DSL (
-        a href="https://github.com/cucumber/gherkin" Gherkin
-        | ) somehow came out from the Agile community, mostly based on distillations made by
-        a< href="http://dannorth.net/"  Dan North
-        | ,
-        a< href="http://abc.truemesh.com/"  Chris Matts
-        | ,
-        a< href="http://sirenian.livejournal.com/"  Liz Keogh
-        | ,
-        a< href="http://blog.davidchelimsky.net/"  David Chelimsky
-        | , and dozens of people on the RSpec and Cucumber mailing lists. And
-        a< href="http://aslakhellesoy.com" Aslak.
-    .col-md-4.col-sm-4.col-xs-12.testimonials
-      h1 Testimonials
-      blockquote
-        p “A major contributory factor to the success of the BBC's digital Olympics was the use of Cucumber to collaboratively specify requirements, guide development, drive automated tests and describe the system.”
-        footer Aidy Lewis, Test Discipline Lead BBC Future Media - News and Knowledge
-      blockquote
-        p “My attention-span is short so I may be forgetting something but I think Cucumber could be the most important piece of software released in 2008 for Ruby-based developers.”
-        footer
-          a href="http://drnicwilliams.com/2008/10/31/newgem-100-all-thanks-to-cucumber/"  Dr Nic
-      blockquote
-        p “If you're looking for a higher level of abstraction in your tests, it's definitely worth checking out.”
-        footer
-          a href="http://www.rubyinside.com/cucumber-the-latest-in-ruby-testing-1342.html"  Mike Gunderloy on Ruby Inside
-      blockquote
-        p “I finally looked into cucumber last week and immediately loved it.  Within a couple hours I had several features written for an existing application. By the end of the next day, our whole team was writing cucumber features, and enjoying it!  Cucumber seems to have brought back an excitement to testing that I haven't felt for a while (since my first few weeks with RSpec).”
-        footer
-          a href="http://www.ruby-forum.com/topic/166392#730725"  Brandon Keepers
-      blockquote
-        p
-          | “Seeing what you guys are doing is just over-the-top cool.
-          span.caps BDD
-          | is great, Domain Driven Design is great. Stuff I wish I knew 20 years ago.”
-        footer
-          a href="http://www.nabble.com/cucumber-docs-tt20370423.html#a20372905"  Tim Walker
-      blockquote
-        p “I started using Cucumber yesterday and it was really easy.”
-        footer
-          a href="http://barkingiguana.com/2008/11/11/getting-started-with-story-driven-development-for-rails-with-cucumber"  Craig Webster
-      blockquote
-        p “Cucumber allows you to write feature documentation in Plain Text. It means you could sit with your Client or Business Analyst to write down the features to be build on your application.”
-        footer
-          a href="http://advent2008.hackruby.com/past/2008/12/4/cool_as_a_cucumber/"  Lakshan Perera's Ruby Advent 2008
-      blockquote
-        p
-          | “Cucumber is fast becoming the standard for acceptance testing in Rails. Cucumber is a
-          span.caps BDD
-          | tool for specification of application features and user scenarios in plain text. It's powered by Ruby, supports over 20 spoken languages, and integrates with other testing platforms.”
-        footer
-          a href="http://github.com/blog/258-github-rebase-7"  Nick Quaranto, GitHub Featured project December 2008
-      blockquote
-        p
-          | “God
-          span.caps DAMN I
-          | want a
-          span.caps BDD
-          | tool for Python that runs as well as cucumber 0.0003 or whatever it's called does already. Dammit.”
-        footer
-          a href="http://twitter.com/Vaguery/statuses/1098306887"  Bill Tozier
-      blockquote
-        p “Continuous Integration Blueprints: How to Build an Army of Killer Robots With Hudson and Cucumber.”
-        footer
-          a href="http://www.softwarebloat.com/2008/11/19/continuous-integration-blueprints-how-to-build-an-army-of-killer-robots-with-hudson-and-cucumber/"  Robert Boyd
-  .row
-    .col-md-12
-      h1 Books
+          / .community-contributions.col-md-6
+          /   p Some contributions
+          .community-meet.col-md-12
+            h1 Meet our community
+            p Over 3,000 Cucumber users are part of the daily discussions on our mailing list.
+            a href="https://groups.google.com/forum/#!forum/cukes" Subscribe to the mailing list →
+        .row
+          .community-contributors.text-center.col-md-3
+            .number 1,300
+            p contributors
+          .community-avatars.col-md-6
+            - site.community.recent_contributors.each do |contributor|
+              img.img-responsive src=contributor.avatar_url alt=contributor.username title=contributor.username
+          .community-languages.text-center.col-md-3
+            .number 10
+            p languages
+
+section.company#company
+  .container
+    .row
+      .col-md-5
+        p.company-lead.text-center
+          | We're on a mission to unite the business and technology-facing sides 
+          | of software organisations. We
+          a href="/training"  teach practices
+          |  and
+          a href="/pro"  build tools
+          |  that foster mutual understanding and respect, saving your team
+          |  time and money.
+        p.company-lead.text-center
+          | We're software practitioners with decades of experience using
+          |  agile &amp; lean techniques who love to share what we've learned.
+        p.company-lead.text-center
+          | If you're looking for expert advice from a supportive team, you've 
+          |  come to the right place.
+        h2 Something to read?
+        article.company-book
+          .row
+            .col-md-4
+              a href="http://pragprog.com/book/hwcuc/the-cucumber-book"
+                img.img-responsive alt="The Cucumber Book: Behaviour-Driven Development for Testers and Developers" src="/images/books/cucumber-book.jpg" width="200" height="240"
+            .col-md-8
+              p
+                | The authoritative Cucumber guide, with examples in Ruby. Written by Matt Wynne and Aslak Hellesøy.
+        article.company-book
+          .row
+            .col-md-8
+              p The Cucumber for Java Book has the same great advice about how to deliver rock-solid applications collaboratively, but with all code examples completely rewritten for Java. New chapters cover features unique to the Java version of Cucumber.
+            .col-md-4
+              a href="https://pragprog.com/book/srjcuc/the-cucumber-for-java-book"
+                img.img-responsive alt="The Cucumber for Java book" src="/images/books/cucumber-java-book.jpg" width="200" height="240"
+        article.company-book
+          .row
+            .col-md-4
+              a href="http://pragprog.com/book/dhwcr/cucumber-recipes"
+                img.img-responsive alt="Cucumber Recipes: Automate Anything with BDD Tools and Techniques" src="/images/books/cucumber-recipes-book.jpg" width="200" height="240"
+            .col-md-8
+              p Forty practical recipes covering testing on desktop, web, mobile, and server applications across a variety of platforms.
+      .col-md-offset-1.col-md-6
+        h1.text-left The company behind Cucumber
+        figure.company-team
+          img.img-responsive src="/images/home/team.jpg" alt="Cucumber founders"
+        h2 Cucumber School
+        p Learning on your own? Try our online course where you can learn all the benefits of BDD and Cucumber at your own pace.
+        a.company-link href="/school" Join the first lesson for free →
+        h2 In-house training and coaching
+        p We'll come to your premises and teach your teams the skills they need to make your agile adoption a success.
+        a.company-link href="https://cucumber.typeform.com/to/gUEP2E?"
+          | Let's talk →
+
+section.companies
+  .container
+    h2.text-center Already trusted by these amazing companies
+    ul.companies-list.list-unstyled
+      li.companies-logo
+        img.img-responsive src="/images/home/partners/openbet.png" alt="OpenBet"
+      li.companies-logo
+        img.img-responsive src="/images/home/partners/typeform.png" alt="Typeform"
+
+section.testimonials
+  .container
+    .row
+      .col-md-6
+        .row
+          .col-md-2
+            img.img-circle src="/images/home/gilles-philippart.png" alt="Gilles Philippart"
+          .col-md-10
+            blockquote
+              p “BDD is at the heart of our development practices, in a broad way. Not only developers are involved but also testers, business analysts, etc. It is also a key element in our agile transformation process and is what made it possible for us to truly do continuous delivery.”
+              footer Gilles Philippart, SGCIB, Société Générale
+      .col-md-6
+        .row
+          .col-md-2
+            img.img-circle src="/images/home/kushang-gajjar.png" alt="Kushang Gajjar"
+          .col-md-10
+            blockquote
+              p “Our team has been doing Scrum and applying agile principles before but BDD made things more much concrete and practical. Cucumber helped and still helps a lot to get into the BDD process.”
+              footer Kushang Gajjar, Paypal
+
+section.newsletter
+  .container
+    / TODO: replace the CukeUp AU id with the newsletter id
+    form.newsletter-form action="//cukes.us10.list-manage.com/subscribe/post?u=68b8acc491477423651de1ae7&amp;id=dbe40fa5cd" method="POST" target="_blank"
       .row
-        .col-md-4
-          article.text-center
-            a href="https://pragprog.com/book/srjcuc/the-cucumber-for-java-book"
-              img.img-thumbnail.img-responsive alt=("The Cucumber for Java book") height="240" src="images/books/cucumber-java-book.jpg" width="200" /
-            p.text-left
-              | The Cucumber for Java Book has the same great advice about how to deliver rock-solid applications collaboratively, but with all code completely rewritten in Java. New chapters cover features unique to the Java version of Cucumber, and reflect insights from the Cucumber team since the original book was published.
-        .col-md-4
-          article.text-center
-            a href="http://pragprog.com/book/hwcuc/the-cucumber-book"
-              img.img-thumbnail.img-responsive alt=("The Cucumber Book: Behaviour-Driven Development for Testers and Developers") height="240" src="images/books/cucumber-book.jpg" width="200" /
-            p.text-left
-              | The authoritative Cucumber guide. Written by core team member
-              a<> href="http://blog.mattwynne.net/"  Matt Wynne
-              | and Cucumber creator
-              a<> href="http://aslakhellesoy.com/"  Aslak Hellesøy
-        .col-md-4
-          article.text-center
-            a href="http://pragprog.com/book/dhwcr/cucumber-recipes"
-              img.img-thumbnail.img-responsive alt=("Cucumber Recipes: Automate Anything with BDD Tools and Techniques") height="240" src="images/books/cucumber-recipes-book.jpg" width="200" /
-            p.text-left Forty practical recipes covering testing on desktop, web, mobile, and server applications across a variety of platforms.
+        .col-md-10
+          h2 Subscribe to our monthly newsletter
+          input type="email" name="EMAIL" placeholder="Enter your email and stay informed about new events, products and what we are up to."
+          / Spam protection
+          div style="position: absolute; left: -5000px;"
+            input name="b_68b8acc491477423651de1ae7_dbe40fa5cd" tabindex="-1" type="text" value=""
+
+        .col-md-2.text-right
+          button.btn.btn-newsletter Subscribe
+
+hr.rainbow-separator

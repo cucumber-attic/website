@@ -89,6 +89,9 @@ module Cucumber
           options[:fenced_code_blocks] = true
         end
 
+        locals['site'] = sinatra.settings.site
+        locals['locals'] = locals # So slim can pass locals to _includes
+
         template_proc = Proc.new { |template| content }
         html = sinatra.send(engine, template_proc, options, locals)
         html.gsub('---', '&#8212;') # em-dash
@@ -103,13 +106,13 @@ module Cucumber
       end
 
       def locals
-        locals = deep_merge_hashes(@config, @front_matter)
-        locals['locals'] = locals # So slim can pass locals to _includes
+        locals = @front_matter
         # TODO: only for posts, when we have a subtype for that
         if @front_matter.key?('date')
           locals['date'] = date # because sometimes it can be a string
         end
         locals['template_path'] = @template_path
+        locals['config'] = @config
         locals
       end
 
@@ -125,7 +128,7 @@ module Cucumber
       end
 
       def url
-        "#{@config['site']['url']}#{path}"
+        "#{@config['url']}#{path}"
       end
 
       def content

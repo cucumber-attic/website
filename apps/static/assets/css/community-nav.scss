@@ -1,7 +1,7 @@
 .community-nav {
   font-size: 18px;
   line-height: 1.42857143;
-  background: $brand-green;
+  background: $brand-green-light;
   font-weight: $font-weight-normal;
   border: none;
   .navbar-nav > li > a {
@@ -10,7 +10,7 @@
     padding-bottom: 16px;
     &.active, &:hover {
       background-color: $body-bg;
-      color: $brand-green;
+      color: $brand-green-light;
       text-decoration: underline;
     }
   }

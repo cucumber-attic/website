@@ -23,7 +23,7 @@ describe "integration testing" do
     "/bdd-kickstart.pdf",
     "/events/bdd-analysis-london-2015",
   ].each do |path|
-    it "returns #{path} with a non-failure code" do
+    it "GET '#{path}' responds with a non-failure code" do
       get path
       expect(last_response).to be_ok
       expect(last_response.headers['Content-Length'].to_i).to be > 0
@@ -68,9 +68,10 @@ describe "integration testing" do
 
       it "has at least 1 entry" do
         ical = File.dirname(__FILE__) + '/events/lanyrd.ics'
-        Cucumber::Website::CONFIG['site']['events'] =
-          Cucumber::Website::Events.new(event_pages=[], calendars=[Cucumber::Website::FakeCalendar.new(IO.read(ical))])
-
+        calendars = [ Cucumber::Website::FakeCalendar.new(IO.read(ical)) ]
+        site = Cucumber::Website::App.settings.site
+        Cucumber::Website::App.settings.site =
+          Cucumber::Website::App.settings.site.with(calendars: calendars)
         get "/events-feed.xml"
         feed = Nokogiri::XML(last_response.body)
         expect(feed.xpath('//rss/channel/item').length).to be > 0

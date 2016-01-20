@@ -7,8 +7,7 @@ module Cucumber::Website
     root = File.expand_path(File.join(File.dirname(__FILE__), "/../apps/dynamic"))
     views = File.join(root, 'views')
 
-    extend Config
-    config = load_config('test')
+    config = Config.new('test')
 
     it "exposes frontmatter as attributes" do
       template_path = File.dirname(__FILE__) + '/fixtures/some_page.md'

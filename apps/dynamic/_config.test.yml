@@ -3,3 +3,5 @@ url: https://cucumber.io
 calendars:
   - spec/events/lanyrd.ics
   - spec/events/bdd-london.ics
+
+test: <%= ENV['TEST'] %>
