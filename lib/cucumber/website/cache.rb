@@ -6,7 +6,7 @@ module Cucumber
 
       def self.wrap(api, name, config, logger)
         path = Path.new(name, config['env'])
-        store = FileSystemStore.new(path)
+        store = FileSystemStore.new(path, config[name]['cache_defaults'] || {})
         if config[name]['cache_refresh_interval']
           start_updating store, api, logger, config[name]['cache_refresh_interval']
         end
@@ -62,17 +62,23 @@ module Cucumber
           @paths_with_at_exit_hooks_registered << path
         end
 
-        def initialize(path)
+        def initialize(path, default_data)
+          raise ArgumentError unless default_data.is_a?(Hash)
           @cache_path = Pathname.new(path)
+          @default_data = default_data
         end
 
         def to_s
           @cache_path.to_s
         end
 
+        def to_ary
+          # FYI: somebody wants this method when we run the tests, we don't know who or why.
+        end
+
         def set(key, value)
           data = read
-          data[key] = value
+          data[key.to_s] = value
           write(data)
           self
         end
@@ -80,7 +86,7 @@ module Cucumber
         def lock
           lock_path.dirname.mkpath unless lock_path.dirname.exist?
           FileUtils.touch lock_path
-          self.class.register_at_exit_hook(path) do
+          self.class.register_at_exit_hook(lock_path) do
             lock_path.delete if lock_path.exist?
           end
           self
@@ -91,7 +97,10 @@ module Cucumber
         end
 
         def method_missing(key)
-          read[key]
+          if !read.key?(key.to_s) && read == @default_data
+            raise("Unable to find key '#{key}' in default cache. Please set this in your configuration.")
+          end
+          read[key.to_s]
         end
 
         private
@@ -101,7 +110,7 @@ module Cucumber
         end
 
         def read
-          return {} unless @cache_path.exist?
+          return @default_data unless @cache_path.exist?
           YAML::load(File.read(@cache_path))
         end
 

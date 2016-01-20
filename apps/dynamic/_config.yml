@@ -7,6 +7,8 @@ show_ribbon: false
 
 git_hub:
   token: <%= ENV['GIT_HUB_TOKEN'] %>
+  cache_defaults:
+    events: []
 
 # Blog
 authors:
