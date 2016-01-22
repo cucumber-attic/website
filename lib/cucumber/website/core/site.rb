@@ -6,6 +6,10 @@ module Cucumber
     module Core
       class Site < Value.new(:config, :pages, :calendars, :git_hub)
 
+        def to_liquid
+          config
+        end
+
         def community
           Community.with(config: config, contributors: git_hub.events.map(&:contributor).uniq)
         end
