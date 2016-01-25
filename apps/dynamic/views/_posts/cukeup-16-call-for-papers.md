@@ -8,7 +8,7 @@ nav:      blog
 
 [CukeUp! London](https://skillsmatter.com/conferences/7606-cukeup-2016) is taking place at [CodeNode](https://skillsmatter.com/conferences/7606-cukeup-2016) on April 14th-15th 2016.
 
-Our Call for Papers is now open. 
+[Our Call for Papers is now open.](https://skillsmatter.com/conferences/7606-cukeup-2016#get_involved) 
 
 <img src="https://cucumber.io/images/blog/cukeup-shot.jpg" style="float:right; width:50%">
 
