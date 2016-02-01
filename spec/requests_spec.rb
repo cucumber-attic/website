@@ -113,6 +113,14 @@ describe "integration testing" do
       expect(last_response.status).to eq 302
       expect(last_response.location).to eq "http://feeds.soundcloud.com/users/soundcloud:users:181591133/sounds.rss"
     end
+
+    %w(ah jb mw sr st).each do |initials|
+      it "redirects '#{initials}' to homepage to track incoming from business cards" do
+        get "/#{initials}"
+        expect(last_response.status).to eq 303
+        expect(last_response.location).to eq('/')
+      end
+    end
   end
 
   describe "rewrites" do
