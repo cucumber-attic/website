@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "What makes a great product owner? - Cucumber Podcast"
-date:     2016-01-26 09:00:00
+date:     2016-02-01 09:00:00
 nav:      blog
 ---
 
