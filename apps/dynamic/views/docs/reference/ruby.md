@@ -24,6 +24,22 @@ group :test do
 end
 ```
 
+Then initialize a features directory:
+
+```
+cucumber --init
+```
+
 ## Running
 
-TODO
+To see the full list of options:
+
+```
+cucumber --help
+```
+
+Otherwise, to run all features:
+
+```
+cucumber
+```
