@@ -4,7 +4,7 @@ hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: April 4th-5th 2016
   cta:
-    link: http://www.canoo.com/trainings-events/behavior-driven-development/
+    link: https://ti.to/cucumber/bdd-kickstart-basel
     message: Book now
 location:
   url: https://www.google.co.uk/maps/place/Canoo+Engineering+AG/@47.5516519,7.5911662,15z/data=!4m2!3m1!1s0x0:0xcc0a77c7fa1e9a75?sa=X&ved=0ahUKEwjbjKflmrPKAhXKthQKHdV5Ba4Q_BIIZzAK
