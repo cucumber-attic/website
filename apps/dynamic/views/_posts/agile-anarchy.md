@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "Agile Anarchy? - Cucumber Podcast"
+title:    "Agile Anarchy - Cucumber Podcast"
 date:     2016-02-16 12:00:00
 nav:      blog
 ---
