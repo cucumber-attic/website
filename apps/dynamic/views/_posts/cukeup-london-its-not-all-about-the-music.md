@@ -11,9 +11,9 @@ For those who enjoy music festivals, you'll know there are none bigger or better
 Well, no. It's the Rabbit Hole, West Holts, and Block 9. It's more than *just* a music festival. 
 
 
-<figure>
-![https://cucumber.io/images/blog/shangrila-block9.jpg](https://cucumber.io/images/blog/shangrila-block9.jpg)
- <figcaption>Block 9, Glastonbury Festival - [Photo credit, Ali Paul Photography](http://alipaul.com/)</figcaption> </figure>
+<figure> ![https://cucumber.io/images/blog/shangrila-block9.jpg](https://cucumber.io/images/blog/shangrila-block9.jpg)
+ <figcaption> Block 9, Glastonbury Festival - [Photo credit, Ali Paul Photography](http://alipaul.com/)</figcaption> </figure>
+
 
 If you're considering [CukeUp!](https://skillsmatter.com/conferences/7606-cukeup-2016#program) this year, we see similarities. We've got the headliners and the big names, but don't expect your highlight to be a formal session. The most valuable takeaways can be found in a conversation over lunch - or in the bar later - or even hidden in a lightning talk that caught you off guard. 
 
