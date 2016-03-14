@@ -93,7 +93,7 @@ describe "integration testing" do
     it "redirects all ruby api traffic to rubydoc.info" do
       get "/api/cucumber/ruby/yardoc/Cucumber/Configuration.html"
       expect(last_response.status).to eq 301
-      expect(last_response.location).to eq "http://www.rubydoc.info/github/cucumber/cucumber/Cucumber/Configuration.html"
+      expect(last_response.location).to eq "http://www.rubydoc.info/github/cucumber/cucumber-ruby/Cucumber/Configuration.html"
     end
 
     it "redirects all jvm api traffic to cucumber.github.io" do
