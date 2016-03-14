@@ -288,8 +288,6 @@ all scenarios derived from examples rows will inherit the tags.
 You can tell Cucumber to only run scenarios with certain tags, or to exclude
 scenarios with certain tags.
 
-See [configuration](#) for more details.
-
 Cucumber can perform different operations before and after each scenario based
 on what tags are present on a scenario.
 
