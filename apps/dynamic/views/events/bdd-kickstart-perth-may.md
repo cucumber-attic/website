@@ -19,9 +19,9 @@ dtend: 2016-05-13 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
-BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will the fundamental technical and non-technical skills required for your team to start.
+BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
 
-You will be taught by Paul Rayner, a Perth native with 25 years of hands-on software development experience. Paul is a seasoned software design coach and mentor, helping teams ignite their agile design and testing skills via DDD and BDD. To help facilitate the course we have entrusted Hamish Tedeschi, an accomplished BDD expert and coach. Hamish is MD of MagenTys and organiser of CukeUp! AU.
+Both days are led by Paul Rayner, a Perth native with 25 years of practical software development experience. Paul is a seasoned software design coach and mentor, helping teams ignite their agile design and testing skills via DDD and BDD.  Hamish Tedeschi, an accomplished BDD practitoner and coach, will be alongside Paul to facilitate. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -32,7 +32,7 @@ The first day is applicable to "the whole team".  (BAs, product owners, domain e
 
 Day 1 will give a thorough introduction to BDD, which is the process that Cucumber supports. There is no automation on this day; the focus is on analysis and collaboration techniques.
 
-We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
+We’ll teach you [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
 
 ### {day-1-}Learning outcomes
 
