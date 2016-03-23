@@ -8,7 +8,7 @@ nav:      blog
 
 Drawing is a quick and graceful way to visualise your scenarios. When discussing complexity in our system, techniques which bring a voice to each stakeholder and break down user stories should be cherished.
 
-We first heard about these ideas through Ulrika Malmgren at CukeUp! London last year. We chatted with [Ulrika Malmgren](https://twitter.com/Ulrikama) about drawing and other techniques to bring teams closer together to build certain, coherent software.
+We first heard about these ideas at [Ulrika Malmgren's talk at CukeUp! London last year](https://skillsmatter.com/skillscasts/6228-illustrating-scenarios). We chatted with [Ulrika](https://twitter.com/Ulrikama) about drawing and other techniques to bring teams closer together.
 
 Ulrika also tells us about her upcoming CukeUp! London talk, "Why Testers can be a Liability" happening next month. A talk with a contentious title is always a bonus. More information about CukeUp! can be found on the [website.](https://skillsmatter.com/conferences/7606-cukeup-2016)
 
