@@ -16,11 +16,11 @@ This post is about our journey to try and build a business around this accidenta
 
 Aslak has [already written about our business plan](https://cucumber.io/blog/2014/04/16/cucumber-limited), and nothing much has changed since then. Cucumber is getting more and more popular (we can't help it!). That means more demand for our training and consulting, and by delivering on that demand we get revenue, which then makes more time for working on the open source, which is what we love to do. Then, because we make it more awesome, it gets even more popular, and so we get this beautiful virtuous cycle.
 
-In spending so much time visiting our users in our consulting practice, we noticed that there was a need for something else, something a bit more polished than the open source tool. When you're trying to adopt BDB in an organization where there's some resistance, it needs to be really user-friendly and slick, especially for the non-technical folks. We saw an opportunity for a product that might also give us a different kind of revenue.
+In spending so much time visiting our users in our consulting practice, we noticed that there was a need for something else, something a bit more polished than the open source tool. When you're trying to adopt BDD in an organization where there's some resistance, it needs to be really user-friendly and slick, especially for the non-technical folks. We saw an opportunity for a product that might give us a different kind of revenue.
 
 ## Cucumber Pro v1
 
-We started to build Cucumber Pro in our spare time while we were traveling around the planet delivering training. At the same time we all started having young families. I had a house to renovate as well. It was exciting, but also stressful, trying to bootstrap this product on the side as well as doing all this other stuff.
+We started to build [Cucumber Pro](https://cucumber.io/pro) in our spare time while we were traveling around the planet delivering training. At the same time we all started having young families. I had a house to renovate as well. It was exciting, but also stressful, trying to bootstrap this product on the side as well as doing all this other stuff.
 
 Anyway, we built the first version of Cucumber Pro, and we got some people to start using it. But all the traveling for the training was taking a toll on our families. We saw this product as something that could save us from that, so we started to put pressure on ourselves: it really had to work.
 
@@ -36,13 +36,13 @@ During the summer of 2015 the whole company and our families met at Aslak's fami
 
 We're all extreme programmers, that's like where we all come from. So nobody needs to convince us about the benefits of pairing. In practice however, a lot of the old codebase had ended up getting built solo, people in hotel rooms and on planes and so on. So we didn't have that shared consciousness about the code. We wanted to fix that too.
 
-We strengthened the team, and resolved to reboot the product by committing the whole month of October to all just work on the product. No one was going to travel, no one was going to go and do any consulting. We had a brand new codebase, a new tech stack, and We grew the team to include Steve Tooke and Romain Gerard. All this new was a bit daunting - we had to try and figure out a way that we could work together and learn together, but still make some real progress. 
+We strengthened the team, and resolved to reboot the product by committing the whole month of October to all just work on the product. No one was going to travel, no one was going to go and do any consulting. We had a brand new codebase, a new tech stack, and we grew the team to include Steve Tooke and Romain Gerard. All this new was a bit daunting - we had to try and figure out a way that we could work together and learn together, but still make some real progress. 
 
 It was a really interesting time. It was a great opportunity for us to try something that we'd been hearing a bit about.
 
 ## The mob
 
-We decided to try mob programming. In case you don't know what it is, here's [Woody](https://twitter.com/WoodyZuill) explaining:
+We decided to try mob programming. In case you don't know what it is, here's [Woody](https://twitter.com/WoodyZuill) explaining it:
 
 > All the brilliant people work on the same thing, at the same time, in the same space and on the same computer.
 
@@ -54,9 +54,9 @@ So far, so good.
 
 We do have a bit of a challenge with mobbing, however.
 
-We're a remote team. I live up in the wilds of the Scottish Highlands, Steve is in Southampton. Aslak's in London. Julian and Romain are in Wavre, just outside Brussels. It's really hard to work on the same computer in the same space at the same time.
+We're a remote team. I live up in the wilds of the Scottish Highlands, Steve is in Southampton. Aslak's in London. Julien and Romain are in Wavre, just outside Brussels. It's really hard to work on the same computer in the same space at the same time.
 
-But we've taken the decision that we want to be able to live where we want to. There's benefits that come with being able to be in your own space, being comfortable in your surroundings, being near your family. Here's Steve working with his three-month-old daughter Primrose, making her first commit. Here's Aslak with his four-month-old daughter Aurelia. There's something really special about being in an environment where you can do that.
+But we've taken the decision that we want to be able to live where we want to. There are benefits that come with being able to be in your own space, being comfortable in your surroundings, being near your family. Here's Steve working with his three-month-old daughter Primrose, making her first commit. Here's Aslak with his four-month-old daughter Aurelia. There's something really special about being in an environment where you can do that.
 
 But, the challenges that come with being remote mean we have to find new tools to enable mobbing to work. We use Slack for team chat, Screenhero to enable multiple people to share the same computer at the same time. Everyone gets their own pointer. When it's your turn to type at the computer, you share your desktop with everybody else. So, you work in the tools that you're comfortable with. Usually we have a second screen, either a phone or a tablet or just second monitor with a Google Hangout so we are all looking at each other, talking to each other using Google Hangouts. And that's how we code everyday.
 
@@ -86,15 +86,15 @@ We have a routine where every morning we start at 8:30, that's when the mob conv
 
 So what do we do with the afternoons? Well we've got a business to run. It might be things like tweaking the website. We need to deal with email, take sales calls, write sales proposals. It's really the chance for us to work independently, to give us a break from that intensity of all sharing a computer and working together at the same time. Sometimes we'll do solo work on the product too. There'll be a refactoring that we noticed, that we're going to go and tackle. We'll create a pull request that the mob can review in the morning.
 
-That space is really important. Four hours in the morning feels about the natural amount of work that we can run at. Because the mob runs pretty fast, actually, makes a lot of decisions very quickly. And after four hours it's not exactly that the mob's run out of energy, it's more that you've run out of enough certainty, that you could actually productively continue to grind thorough problems. You need a bit of space to ponder on things, experiment with things, do a bit of divergent thinking.
+That space is really important. Four hours in the morning feels about the natural amount of work that we can run at. Because the mob runs pretty fast, actually, it makes a lot of decisions very quickly. And after four hours it's not exactly that the mob's run out of energy, it's more that you've run out of enough certainty, that you could actually productively continue to grind thorough problems. You need a bit of space to ponder on things, experiment with things, do a bit of divergent thinking.
 
 Mostly, what the mob are doing is converging. The mob are building code, working code, but that's got to be fed with sufficient good ideas that have come from that divergent thinking and I think that divergent thinking is something that you often do need to do in private. Not always, but it's definitely something that some of us need private time to do.
 
 ## Can't decide? Do both
 
-Occasionally, the mob gets stuck. There's a problem we haven't come across before, and nobody really knows what to do. How are we going to move on? Sandy Mets once told me that where conversations are going round and round in circles and it's an indicator that there's not enough information in the room. What we do at that point is something called Set-based problem solving.
+Occasionally, the mob gets stuck. There's a problem we haven't come across before, and nobody really knows what to do. How are we going to move on? Sandy Metz once told me that when conversations are going round and round in circles and it's an indicator that there's not enough information in the room. What we do at that point is something called set-based problem solving.
 
-Instead of arguing about which one is best, we'll list out all the various options, the things we need to try and find out more about. Then we'll split up into pairs or small groups, go away and spend a time-boxed period - maybe half an hour, or an hour writing some throwaway code to explore that option.
+Instead of arguing about which one is best, we'll list out all the various options, the things we need to try and find out more about. Then we'll split up into pairs or small groups, go away and spend a time-boxed period - maybe half an hour, or an hour - writing some throwaway code to explore that option.
 
 We bring the results back to the mob, and share what we've learned. And the really interesting thing about this is, every single time we've done this, none of the options that we've investigated alone are the best solution. We all bring new information into the conversation, and we end up with something better than any of the ideas we had originally.
 
@@ -102,7 +102,7 @@ I'm sure it's a really good pattern for handling conflict generally, I want to g
 
 ## Resilience
 
-The other thing that amazes me about the mob is how resilient it is. It just charges on, you can't stop it. On a small scale, suppose I have to take the phone call. I disappear for 15 minutes, I come back. The mob's been rolling on. They've been writing code - high quality code - the whole time. I can very easily just pick up what's going on now and start to contribute within a matter of minutes. Pretty amazing.
+The other thing that amazes me about the mob is how resilient it is. It just charges on, you can't stop it. On a small scale, suppose I have to take the phone call. I disappear for 15 minutes, I come back. The mob's been rolling on. They've been writing code - high quality code - the whole time. I can very easily just pick up what's going on and start to contribute within a matter of minutes. Pretty amazing.
 
 Equally, on the bigger scale, if I have to go away for a few days of training, maybe I'm in a different time zone, the mob carries on. We're swapping different people out each week to go and deliver the training courses, but the consciousness is still there and the code is still moving forward all the time. It's really powerful.
 
@@ -110,7 +110,7 @@ Im my crazy moments, I imagine building a team where there were enough people li
 
 # Symbiosis
 
-Running and growing this business is an adventure. Being a business owner and a developer at the same time is amazing. It's so good for you on both counts. Mike Feathers has [been writing recently](http://www.r7krecon.com/#!provocation/gfqa5) about the Symbiosis between code and organisation, and this is something we live and breathe every day. Most of the development team are also major shareholders in the business, so we're literally stakeholders in our own project. I wish there was a way for bigger organizations to experience this fusion of commercial and engineering perspectives.
+Running and growing this business is an adventure. Being a business owner and a developer at the same time is amazing. It's so good for you on both counts. Michael Feathers has [been writing recently](http://www.r7krecon.com/#!provocation/gfqa5) about the symbiosis between code and organisation, and this is something we live and breathe every day. Most of the development team are also major shareholders in the business, so we're literally stakeholders in our own project. I wish there was a way for bigger organizations to experience this fusion of commercial and engineering perspectives.
 
 # Play
 
