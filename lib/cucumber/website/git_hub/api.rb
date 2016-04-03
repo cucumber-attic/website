@@ -8,8 +8,7 @@ module Cucumber
 
       class API
         def initialize(config)
-          gh_token = config['git_hub']['token'] || raise("Please provide a GitHub access token")
-          @gh = Octokit::Client.new({ access_token: gh_token })
+          @config = config
         end
 
         def events
@@ -23,6 +22,15 @@ module Cucumber
             })
           }
         end
+        
+        private
+        
+        def gh
+          return @gh if @gh
+          gh_token = @config['git_hub']['token'] || raise("Please provide a GitHub access token")
+          @gh = Octokit::Client.new({ access_token: gh_token })
+        end
+
       end
     end
 
