@@ -3,7 +3,7 @@ title: Documentation
 nav: docs
 renderer: Cucumber::Website::Reference
 ---
-# Documentation Overview
+# Getting started with Cucumber
 
 Cucumber supports over a dozen different software platforms. Every Cucumber
 implementation provides the same overall functionality, but they also have
