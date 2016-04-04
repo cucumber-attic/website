@@ -12,7 +12,7 @@ module Cucumber
         end
 
         def events
-          @gh.organization_events('cucumber').map { |raw_event|
+          gh.organization_events('cucumber').map { |raw_event|
             actor = raw_event.actor
             Core::GitHubEvent.with({
               contributor: Core::Contributor.with({
@@ -22,9 +22,9 @@ module Cucumber
             })
           }
         end
-        
+
         private
-        
+
         def gh
           return @gh if @gh
           gh_token = @config['git_hub']['token'] || raise("Please provide a GitHub access token")
