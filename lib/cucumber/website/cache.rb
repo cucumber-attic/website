@@ -21,6 +21,14 @@ module Cucumber
           start_updating store, api, logger, config[name]['cache_refresh_interval']
         end
         store
+      rescue => error
+        raise error.class, %{Unable to update #{store} from #{api}: #{error.message}.
+
+If you're offline, you can use a sample cache for now:
+
+    cp -r #{path}.example #{path}
+
+}, error.backtrace
       end
 
       # Kick off the background thread that will periodically update the cache
