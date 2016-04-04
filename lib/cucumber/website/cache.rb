@@ -2,8 +2,18 @@ require 'pathname'
 
 module Cucumber
   module Website
+
+    # The code in this module is used to help us call out to third-party APIs during page rendering without 
+    # taking a performance hit, or making us vulnerable to the reliability of those APIs.
+    #
+    # When wrapped by `Cache.wrap` the API's adapter is decorated with a cache that will be automatically 
+    # updated by a thread that calls out to the third party API in the background.
+    #
+    # This should be transparent to the caller, who uses the same methods as if they were using the API's adapter
+    # directly.
     module Cache
 
+      # Factory method to build a facade over an API that will use and automatically update a cache
       def self.wrap(api, name, config, logger)
         path = Path.new(name, config['env'])
         store = FileSystemStore.new(path, config[name]['cache_defaults'] || {})
@@ -13,29 +23,31 @@ module Cucumber
         store
       end
 
+      # Kick off the background thread that will periodically update the cache
       def self.start_updating(store, api, logger, refresh_interval)
         if store.locked?
           logger.debug "Cache at #{store} already locked for updates by another process."
           return store
         end
         store.lock
-        logger.info "Starting automatic update of #{store} from #{api}"
-        update = Update.new(api, store).call
+        logger.info "Starting regular periodic update of #{store} from #{api} at #{refresh_interval} second intervals"
+        update = Update.new(api, store, logger).call
         PeriodicCall.new(update, refresh_interval, logger).start
         store
       end
 
       # Updates the store from the given API
       class Update
-        def initialize(api, store)
-          @api = api
-          @store = store
+        def initialize(api, store, logger)
+          @api, @store, @logger = api, store, logger
         end
 
         def call
+          @logger.debug "Updating #{@store} from #{@api}"
           (@api.methods - Object.methods).each do |key|
             @store.set(key, @api.send(key))
           end
+          @logger.debug "Finished update of #{@store} from #{@api}"
           self
         end
       end
@@ -52,7 +64,7 @@ module Cucumber
 
       require 'yaml'
       require 'fileutils'
-      # Stores data in a file at the given path
+      # Stores key/value data in a file at the given path
       class FileSystemStore
 
         def self.register_at_exit_hook(path, &block)
