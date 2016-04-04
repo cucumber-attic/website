@@ -16,7 +16,8 @@ module Cucumber::Website::Cache
     describe "#start" do
       it "immediately populates the store with every method on the API" do
         store = FileSystemStore.new(Path.new("periodic_update_spec", "test"), {})
-        Update.new(FakeApi.new, store).call
+        logger = double.as_null_object
+        Update.new(FakeApi.new, store, logger).call
         expect(store.a_method).to eq :a_value
         expect(store.another_method).to eq :another_value
       end
