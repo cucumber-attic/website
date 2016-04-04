@@ -20,15 +20,20 @@ module Cucumber
         if config[name]['cache_refresh_interval']
           start_updating store, api, logger, config[name]['cache_refresh_interval']
         end
-        store
       rescue => error
-        raise error.class, %{Unable to update #{store} from #{api}: #{error.message}.
-
-If you're offline, you can use a sample cache for now:
-
-    cp -r #{path}.example #{path}
-
-}, error.backtrace
+        # If the update fails when first called, we're probably a developer working offline.
+        # Attempt to fix the users's setup so things still work
+        sample = Pathname.new(path + ".example")
+        # If there's no sample cache, we're really in trouble. Give up!
+        raise if !sample.exist?
+        logger.warn "Unable to update #{store} from #{api}: #{error.message}"
+        if !Pathname.new(path).exist?
+          # Copy over the sample to use as the local cache
+          logger.info "Copying example cache from #{sample} to #{path}"
+          FileUtils.cp sample, path
+        end
+      ensure
+        store
       end
 
       # Kick off the background thread that will periodically update the cache
