@@ -11,13 +11,17 @@ The Cucumber [community forum](https://groups.google.com/group/cukes) has thousa
 In order to keep communication efficient we ask you to follow a few rules.
 If you follow these guidelines you're more likely to be heard and get a reply.
 
-## 1) Search before you ask
+## 1) Respect the code of conduct
+
+See [here for details](https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md)
+
+## 2) Search before you ask
 
 Some questions keep popping up again and again. Do yourself and everyone else a favour by
 [searching the archive](https://groups.google.com/forum/#!forum/cukes) for answers before
 you ask.
 
-## 2) Use interleaved answers
+## 3) Use interleaved answers
 
 Consider this discussion - it's not very readable:
 
@@ -39,7 +43,7 @@ So instead of "top posting", please use interleaved answers:
 
 > Because it messes up the order in which people normally read text.
 
-## 3) Prefix subjects
+## 4) Prefix subjects
 
 The Cucumber discussion forum is used to discuss many topics. To help group members quickly decide
 whether or not a post is of interest to them, please use a prefix in your subject. Here are some
@@ -49,11 +53,11 @@ examples:
 * \[Ruby\] Step Definition doesn't match my step
 * \[JS\] Has anyone used Cucumber-JS with Karma?
 
-## 4) Don't hijack threads
+## 5) Don't hijack threads
 
 If you have a question, don't reply to an existing (irrelevant) message. Start a new topic instead.
 
-## 5) Don't ask individuals
+## 6) Don't ask individuals
 
 Asking individuals might seem like a good way to get a reply, but it can have the opposite effect:
 
