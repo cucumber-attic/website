@@ -46,7 +46,7 @@ authors:
     gravatar: cb98700ec5151a02c191a62cb0d17005
 
 versions:
-  cucumber_jvm: 1.2.3
+  cucumber_jvm: 1.2.4
 
 community:
   max_recent_contributors: 10
