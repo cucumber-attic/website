@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
-    asciidoctor (1.5.2)
+    asciidoctor (1.5.4)
     autoprefixer-rails (6.3.6)
       execjs
     builder (3.2.2)
@@ -134,7 +134,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  asciidoctor (= 1.5.2)
+  asciidoctor (= 1.5.4)
   autoprefixer-rails (= 6.3.6)
   capybara
   chronic
