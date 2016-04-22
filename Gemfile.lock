@@ -46,7 +46,6 @@ GEM
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
-    libv8 (3.16.14.13)
     liquid (3.0.6)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
@@ -81,7 +80,6 @@ GEM
       rack (>= 1.0)
     rake (10.5.0)
     redcarpet (3.3.2)
-    ref (2.0.0)
     rollbar (2.7.1)
       multi_json
     rspec (3.4.0)
@@ -127,9 +125,6 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     temple (0.7.6)
-    therubyracer (0.12.1)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     tilt (1.4.1)
     uglifier (2.7.1)
@@ -169,9 +164,8 @@ DEPENDENCIES
   sinatra (= 1.4.6)
   sinatra-asset-pipeline (= 0.7.0)
   slim (= 3.0.2)
-  therubyracer (= 0.12.1)
   uglifier (= 2.7.1)
   values
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
