@@ -76,7 +76,7 @@ module Cucumber
         @front_matter['title'] ||= @template_name.split('/')[-1]
       end
 
-      def render(sinatra, layout=layout, encode=false)
+      def render(sinatra, encode=false)
         options = {
           layout_engine: :slim,
           layout: layout ? "_includes/#{layout}".to_sym : nil

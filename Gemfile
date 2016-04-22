@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.3.0'
 
 gem 'sinatra', '1.4.6'
 gem 'sinatra-asset-pipeline', '0.7.0'
