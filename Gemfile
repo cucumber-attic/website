@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
-gem 'sinatra', '1.4.6'
+gem 'sinatra', '1.4.7'
 gem 'sinatra-asset-pipeline', '0.7.0'
-gem 'autoprefixer-rails', '5.1.11'
-gem 'uglifier', '2.7.1'
-gem 'redcarpet', '3.3.2'
-gem 'slim', '3.0.2'
-gem 'htmlentities', '4.3.3'
+gem 'autoprefixer-rails', '6.3.6'
+gem 'uglifier', '3.0.0'
+gem 'redcarpet', '3.3.4'
+gem 'slim', '3.0.6'
+gem 'htmlentities', '4.3.4'
 gem 'liquid', '3.0.6'
 gem 'pygments.rb', '0.6.3'
 gem 'asciidoctor', '1.5.2'
@@ -31,7 +31,7 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'nokogiri', '1.6.6.2'
+  gem 'nokogiri', '1.6.7.2'
   gem 'cucumber'
   gem 'chronic'
   gem 'capybara'
