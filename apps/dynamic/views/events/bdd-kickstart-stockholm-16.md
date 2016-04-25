@@ -36,7 +36,9 @@ If you want this course to run, it's in your interest to help us spread the word
  - Free Cucumber t-shirt, stickers, and mug for each attendee pledge.
  - A complimentary Cucumber School licence (our interactive online training)
 
- a.btn-brand-blue href="https://ti.to/cucumber/bdd-kickstart-stockholm" Pledge your ticket!
+<p class="text-center">
+    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge your ticket!</a>
+</p>
 
 ## Day 1 - BDD Fundamentals
 
