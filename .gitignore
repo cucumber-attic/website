@@ -6,3 +6,5 @@ capybara*.html
 .sass-cache
 tags
 log/*
+.idea
+*.iml
