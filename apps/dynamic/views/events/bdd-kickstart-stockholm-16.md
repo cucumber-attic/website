@@ -37,7 +37,7 @@ If you want this course to run, it's in your interest to help us spread the word
  - A complimentary Cucumber School licence (our interactive online training)
 
 <p class="text-center">
-    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge your ticket!</a>
+    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge your ticket!</a> 
 </p>
 
 ## Day 1 - BDD Fundamentals
