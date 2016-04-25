@@ -2,7 +2,7 @@
 layout: post
 author: matt
 title:  "CukeUp! New York is Back"
-date:   2014-06-23 00:00:00
+date:   2014-06-22 00:00:00
 nav: blog
 ---
 
