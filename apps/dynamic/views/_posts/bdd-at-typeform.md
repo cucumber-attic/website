@@ -1,16 +1,16 @@
 ---
-layout:   post
-author:   theo
-title:    "BDD at Typeform"
-date:     2016-01-20 09:00:00
-nav:      blog
+layout: post
+author: theo
+title: "BDD at Typeform"
+date: 2016-01-20 09:00:00
+nav: blog
 ---
 
-*There's no point in hiding it, we think Typeform make awesome surveys. At Cucumber we use their forms for all our customer feedback. It's always a bonus when you work with a team that are building a product that you love.* 
+*There's no point in hiding it, we think Typeform make awesome surveys. At Cucumber we use their forms for all our customer feedback. It's always a bonus when you work with a team that are building a product that you love.*
 
 ![Typeform](https://cucumber.io/images/blog/typeform-logo.png)
 
-*Late last Summer [Matt Wynne](https://twitter.com/mattwynne) headed to Barcelona to help the Typeform team practice Behaviour-Driven Development effectively and implement some core techniques to bridge the communication gap between tech and business teams.* 
+*Late last Summer [Matt Wynne](https://twitter.com/mattwynne) headed to Barcelona to help the Typeform team practice Behaviour-Driven Development effectively and implement some core techniques to bridge the communication gap between tech and business teams.*
 
 *Matt caught up with Aida Manna and Gloria Hornero from the Typeform team and asked how other teams can take pointers from their approach. Here's the conversation.*
 
@@ -26,7 +26,7 @@ It’s been a bit more than a year since then and I am happy to say that we are 
 
 I consider myself really lucky because I had the opportunity to start working in a Scrum team with developers. Quality and automation tests were really important, and so was communication and the team culture.
 
-Here at Typeform I work in a Scrum team of nine developers and two QAs, including myself. Aside from the QA role I also have a Scrum Master role. As QA I am involved in the development life cycle of new features from the beginning. I work closely with the Product Owner assisting with the feature requirements, as well as writing the user stories to reduce bugs. When the development of the new feature begins, I start automating tests. This means that once the development is finished we can run the tests and perform some manual testing in order to see that everything is in place. 
+Here at Typeform I work in a Scrum team of nine developers and two QAs, including myself. Aside from the QA role I also have a Scrum Master role. As QA I am involved in the development life cycle of new features from the beginning. I work closely with the Product Owner assisting with the feature requirements, as well as writing the user stories to reduce bugs. When the development of the new feature begins, I start automating tests. This means that once the development is finished we can run the tests and perform some manual testing in order to see that everything is in place.
 
 > We improved the processes, resulting in more communication
 > between QA, development and business. Thanks to these improvements, we were able to find bugs in earlier which allowed us to deploy frequently. - Gloria, Typeform
@@ -44,7 +44,7 @@ We are highly focused on automated testing, we don’t like spending time writin
 **Gloria:** I joined a month after Aida and I could see she had done an outstanding job. During the recruitment process she explained what the current situation was and what improvements she deemed important to apply. The previous QAs didn't work alongside the developers; in fact, the QA department had a different board and process! Luckily, by the time I arrived, Aida had already fixed that. She was working alongside the development team and testing tasks were included in the development process.
 
 ![Matt with the Typeform team, Aida Manna (Left) and Gloria Hornero (Right)](https://cucumber.io/images/blog/typeform-aida-matt-gloria.png)
- 
+
 **Matt:** What do you think is driving that change? What did the team experience that convinced them this was a good idea?
 
 **Gloria:** I think that the change is driven by the desire to do things the right way, in order to avoid bugs and unneeded technical debt.
@@ -57,7 +57,7 @@ At that point we felt we were ready to take ownership of the test automation fra
 
 The scenarios were defined using an imperative style, which made them very long. We worked hard in rewriting them using a declarative style and a proper domain language. This allowed us to use our tests as live documentation, which means everyone can check them when we have doubts about product behaviour.
 
-But we didn't stop there, we are constantly improving our framework. Currently all our tests are run every night, so that when we arrive to work in the morning, we know if it’s possible to deploy or if any bugs need to be fixed first. In my opinion, this is what drove the real change and made others feel we were more agile. 
+But we didn't stop there, we are constantly improving our framework. Currently all our tests are run every night, so that when we arrive to work in the morning, we know if it’s possible to deploy or if any bugs need to be fixed first. In my opinion, this is what drove the real change and made others feel we were more agile.
 
 **Matt:** What have you both personally learned as you’ve gone through this transition?
 
@@ -67,23 +67,23 @@ But we didn't stop there, we are constantly improving our framework. Currently a
 
 **Matt:** What are you still struggling with at the moment?
 
-**Gloria:** If I had to choose a pain point, I would say that the running time of the automation suite is starting to increase too much. But we're very agile and are constantly improving the way we work. This makes us evolve as a team and allows us to face new challenges. 
+**Gloria:** If I had to choose a pain point, I would say that the running time of the automation suite is starting to increase too much. But we're very agile and are constantly improving the way we work. This makes us evolve as a team and allows us to face new challenges.
 
 **Aida:** Yes, we definitely need faster and more reliable feedback when running our tests. In order to achieve that, we have changed our testing strategy: instead of only doing UI testing, we have now started to do backend testing. For new features it is pretty easy, since our platform is now being built with testing in mind.
- 
+
 **Matt:** Product plug. We love Typeform. We use it for all our customer surveys now. Can you give us any clues what features you’re working on at the moment?
 
 **Aida:** Our biggest challenge is to provide the best user experience possible. I’m not allowed to say much, but we’re working on lots of  different ideas.
 
-**Gloria:** One of the features we’ve been working on lately is collaborative form creation and new field types. 
+**Gloria:** One of the features we’ve been working on lately is collaborative form creation and new field types.
 
 **Matt:** You're looking to hire too right? Who wouldn’t want a job in Barcelona working with you?! Where can people find out more?
 
-**Aida:** Yes, we are constantly looking for QAs and other profiles. We have the positions posted on Linkedin, Stackoverflow, Workable… and of course on our [hiring Typeform](https://jobs.typeform.com/to/e7NNgU). 
+**Aida:** Yes, we are constantly looking for QAs and other profiles. We have the positions posted on Linkedin, Stackoverflow, Workable… and of course on our [hiring Typeform](https://jobs.typeform.com/to/e7NNgU).
 
 **Gloria:** We also have a [video](https://www.youtube.com/watch?v=_I5TlsPVAq8) that showcases our company culture.
 
- 
+
 
 **Matt:** We're lucky in London to have a thriving meetup community. Does Barcelona have a similar after-hours tech scene?
 
@@ -95,5 +95,4 @@ Thanks for talking to us Aida and Gloria!
 
 Aida and Gloria will be speaking at CukeUp! London in April '16. Learn more about the conference [here](https://skillsmatter.com/conferences/7606-cukeup-2016).
 
-If you want help with implementing BDD into your business, get in touch on our very own [Typeform!](https://cucumber.typeform.com/to/gUEP2E?) 
-
+If you want help with implementing BDD into your business, get in touch on our very own [Typeform!](https://cucumber.typeform.com/to/gUEP2E?)
