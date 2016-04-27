@@ -79,7 +79,7 @@ module Cucumber
       def render(sinatra, encode=false)
         options = {
           layout_engine: :slim,
-          layout: layout ? "_includes/#{layout}".to_sym : nil
+          layout: "_includes/#{layout}".to_sym
         }
 
         if engine == :markdown
