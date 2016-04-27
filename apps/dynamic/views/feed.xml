@@ -15,7 +15,6 @@ headers:
     <% site.posts[0..9].each do |post|
       author = config['authors'][post.author]
       post.locals['layout'] = 'no-layout'
-      post.locals['cacheable'] = false
     %>
       <item>
         <title><%= post.title %></title>
