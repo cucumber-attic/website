@@ -69,8 +69,8 @@ module Website
 
   config = Config.new(ENV['RACK_ENV'])
 
-  views = File.join(File.dirname(__FILE__), "views")
-  pages = Page.all(config, views)
+  views_dir = File.join(File.dirname(__FILE__), "views")
+  pages = Page.all(config, views_dir)
 
   logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Calendar.new(url, logger) }

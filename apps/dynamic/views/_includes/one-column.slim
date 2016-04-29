@@ -1,10 +1,10 @@
 doctype html
 html lang="en"
   head
-    == slim '_includes/header'
+    == render :slim,  '_includes/header'
   body
-    == slim '_includes/ribbon'
-    == slim '_includes/nav-main'
+    == render :slim,  '_includes/ribbon'
+    == render :slim,  '_includes/nav-main'
 
     - if locals['hero']
       .jumbotron.bdda-hero(style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(#{image});")
@@ -24,4 +24,4 @@ html lang="en"
         div.col-md-10.col-md-offset-1.js-one-column role="main"
           == yield
 
-    == slim '_includes/footer'
+    == render :slim,  '_includes/footer'

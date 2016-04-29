@@ -70,9 +70,8 @@ module Website
 
     def render(site, no_layout = false)
       locals['site'] = site
-
-      template_proc = Proc.new { |template| content }
-      view_context = ViewContext.new(@views_dir, @config, locals)
+      view_context   = ViewContext.new(@views_dir, @config, locals)
+      template_proc  = Proc.new { |template| content }
 
       html = view_context.render(engine, path, template_proc)
       html.gsub('---', '&#8212;') # em-dash

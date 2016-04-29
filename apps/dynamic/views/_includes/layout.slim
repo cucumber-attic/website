@@ -1,12 +1,12 @@
 doctype html
 html lang="en"
   head
-    == slim '_includes/header'
+    == render :slim,  '_includes/header'
   body
-    == slim '_includes/ribbon'
-    == slim '_includes/nav-main'
+    == render :slim,  '_includes/ribbon'
+    == render :slim,  '_includes/nav-main'
 
     == yield
 
-    == slim '_includes/footer'
+    == render :slim,  '_includes/footer'
     == javascript_tag 'main'

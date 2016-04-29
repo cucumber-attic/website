@@ -24,12 +24,12 @@ module Website
       HTMLEntities.new.encode(html)
     end
 
-    def slim(template)
-      render(:slim, template)
+    def nav_class(slug, name)
+      slug == name ? 'active' : nil
     end
 
-    def erb(template)
-      render(:erb, template)
+    def edit_url template_path
+      "#{@config['edit_url']}/#{template_path}"
     end
 
     def render(engine, template, template_proc = nil, &block)
@@ -43,14 +43,6 @@ module Website
       template_path = File.join(@views_dir, [template, engine.to_s].join('.'))
       template = Tilt[engine].new(template_path, 1, options, &template_proc)
       template.render(self, @locals, &block)
-    end
-
-    def nav_class(slug, name)
-      slug == name ? 'active' : nil
-    end
-
-    def edit_url template_path
-      "#{@config['edit_url']}/#{template_path}"
     end
 
     private
