@@ -1,16 +1,10 @@
 require 'date'
 require 'yaml'
 require 'liquid'
-require 'slim'
-require 'sass'
-require 'tilt'
 require 'htmlentities'
-require_relative 'utils'
-require_relative 'view_context'
-require_relative 'redcarpet_renderer'
 
-Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
-Slim::Engine.disable_option_validator!
+require_relative 'view_context'
+
 
 module Cucumber
   module Website
@@ -59,8 +53,6 @@ module Cucumber
         end
       end
 
-      include Utils
-
       attr_reader :engine
 
       def initialize(config, file, views_dir)
@@ -81,25 +73,14 @@ module Cucumber
       def render(site, encode = false, no_layout = false)
         locals['site'] = site
 
-        options = {}
-
-        if engine == :markdown
-          options[:renderer] = renderer
-          options[:fenced_code_blocks] = true
-        end
-
         template_proc = Proc.new { |template| content }
         view_context = ViewContext.new(@views_dir, @config, locals)
 
-        html = view_context.render(engine, path, options, template_proc)
+        html = view_context.render(engine, path, template_proc)
         html.gsub('---', '&#8212;') # em-dash
 
         return html if no_layout
-        view_context.render(:slim, "_includes/#{layout}", options) { html }
-      end
-
-      def renderer
-        locals['renderer'] ? constantize(locals['renderer']) : RedcarpetRenderer
+        view_context.render(:slim, "_includes/#{layout}") { html }
       end
 
       def layout
