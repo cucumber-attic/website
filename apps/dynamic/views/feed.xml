@@ -17,7 +17,7 @@ headers:
     %>
       <item>
         <title><%= post.title %></title>
-        <description><%= HTMLEntities.new.encode(post.render(self, site, true, true)) %></description>
+        <description><%= HTMLEntities.new.encode(post.render(site, true, true)) %></description>
         <pubDate><%= post.date.strftime("%a, %d %b %Y %H:%M:%S %z") %></pubDate>
         <link><%= post.url %></link>
         <author><%= author['email'] %> (<%= author['display_name'] %>)</author>

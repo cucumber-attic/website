@@ -54,7 +54,7 @@ module Website
             last_modified timestamps.max
           end
 
-          page.render(self, site)
+          page.render(site)
         end
       end
 

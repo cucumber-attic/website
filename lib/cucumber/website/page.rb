@@ -78,7 +78,7 @@ module Cucumber
         @front_matter['title'] ||= @template_name.split('/')[-1]
       end
 
-      def render(sinatra, site, encode = false, no_layout = false)
+      def render(site, encode = false, no_layout = false)
         options = {
           layout_engine: :slim,
           # The no_layout flag prevents Liquid from using cached posts rendered in feed.xml
@@ -97,7 +97,6 @@ module Cucumber
         template_proc = Proc.new { |template| content }
         view_context = ViewContext.new(@views_dir, @config)
         html = Tilt[engine].new(path, 1, options, &template_proc).render(view_context, locals)
-        # html = sinatra.send(engine, template_proc, options, locals)
         html.gsub('---', '&#8212;') # em-dash
 
         return html if no_layout
