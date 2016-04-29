@@ -63,12 +63,12 @@ module Cucumber::Website
       end
 
       it "gets the XML feed" do
-        rendered_feed = page.render(site, true, true)
+        rendered_feed = page.render(site, true)
         expect(Nokogiri::XML(rendered_feed).root.name).to eq "p"
       end
 
       it "renders the same view multiple times with different layouts" do
-        page.render(site, true, true)
+        page.render(site, true)
         rendered_post = page.render(site)
         expect(Nokogiri::XML(rendered_post).root.name).to eq "html"
       end

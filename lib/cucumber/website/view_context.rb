@@ -1,5 +1,6 @@
 require 'slim'
 require 'tilt'
+require 'htmlentities'
 require 'sprockets-helpers'
 require_relative 'redcarpet_renderer'
 require_relative 'utils'
@@ -19,9 +20,9 @@ module Website
       @locals    = locals
     end
 
-    # def encode_html(html)
-    #   HTMLEntities.new.encode(html)
-    # end
+    def encode_html(html)
+      HTMLEntities.new.encode(html)
+    end
 
     def slim(template)
       render(:slim, template)
