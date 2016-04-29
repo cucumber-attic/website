@@ -14,6 +14,8 @@ module Website
     include Sprockets::Helpers
     include Utils
 
+    attr_reader :config
+
     def initialize(views_dir, config, locals)
       @views_dir = views_dir
       @config    = config
@@ -29,7 +31,7 @@ module Website
     end
 
     def edit_url template_path
-      "#{@config['edit_url']}/#{template_path}"
+      "#{config['edit_url']}/#{template_path}"
     end
 
     def render(engine, template, template_proc = nil, &block)

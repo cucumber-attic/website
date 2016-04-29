@@ -91,7 +91,6 @@ module Website
         locals['date'] = date # because sometimes it can be a string
       end
       locals['template_path'] = @template_path
-      locals['config'] = @config
       locals
     end
 
