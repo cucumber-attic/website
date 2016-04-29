@@ -87,7 +87,7 @@ module Cucumber::Website
           get '/blog/2016/04/19/mob-programming' do
             page.render(self, site)
           end
-        end.new(Cucumber::Website::App.new(Cucumber::Website::Static::App.new))
+        end.new(Cucumber::Website::App.new)
       end
 
       it "gets a blog post as HTML" do

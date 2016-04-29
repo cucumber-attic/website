@@ -1,7 +1,9 @@
 require 'date'
 require 'redcarpet'
 require 'liquid'
+require 'tilt'
 require 'htmlentities'
+require 'sprockets-helpers'
 require_relative 'utils'
 require_relative 'redcarpet_renderer'
 
@@ -57,8 +59,9 @@ module Cucumber
       attr_reader :engine
 
       def initialize(config, file, views_dir)
-        @config        = config
-        @file          = file
+        @config     = config
+        @file       = file
+        @views_dir  = views_dir
 
         @front_matter = if has_yaml_header?
           YAML.load_file(@file)
@@ -80,7 +83,7 @@ module Cucumber
           layout_engine: :slim,
           # The no_layout flag prevents Liquid from using cached posts rendered in feed.xml
           # as the template for posts rendered in the blog
-          layout: no_layout ? nil : "_includes/#{layout}".to_sym
+          layout: no_layout ? nil : "_includes/#{layout}"
         }
 
         if engine == :markdown
@@ -92,8 +95,45 @@ module Cucumber
         locals['locals'] = locals # So slim can pass locals to _includes
 
         template_proc = Proc.new { |template| content }
-        html = sinatra.send(engine, template_proc, options, locals)
+        view_context = ViewContext.new(@views_dir, @config)
+        html = Tilt[engine].new(path, 1, options, &template_proc).render(view_context, locals)
+        # html = sinatra.send(engine, template_proc, options, locals)
         html.gsub('---', '&#8212;') # em-dash
+
+        return html if no_layout
+
+        template_path = File.join(@views_dir, "_includes/#{layout}.slim")
+        layout_template = Tilt[:slim].new(template_path, 1, {})
+        layout_template.render(view_context, locals) { html }
+      end
+
+      class ViewContext
+        include Sprockets::Helpers
+
+        def initialize(views_dir, config)
+          @views_dir = views_dir
+          @config = config
+        end
+
+        def slim(template, options = {})
+          template_path = File.join(@views_dir, template.to_s + '.slim')
+          template = Tilt[:slim].new(template_path, 1, {})
+          template.render(self, options[:locals])
+        end
+
+        def erb(template, options = {})
+          template_path = File.join(@views_dir, template.to_s + '.erb')
+          template = Tilt[:erb].new(template_path, 1, {})
+          template.render(self, options[:locals])
+        end
+
+        def nav_class(slug, name)
+          slug == name ? 'active' : nil
+        end
+
+        def edit_url template_path
+          "#{@config['edit_url']}/#{template_path}"
+        end
       end
 
       def renderer
