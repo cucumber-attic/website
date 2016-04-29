@@ -7,7 +7,6 @@ require_relative 'redcarpet_renderer'
 
 module Cucumber
   module Website
-
     class BasePage
       def initialize(front_matter)
         @front_matter = front_matter
@@ -76,15 +75,15 @@ module Cucumber
         @front_matter['title'] ||= @template_name.split('/')[-1]
       end
 
-      def render(sinatra, encode=false)
+      def render(sinatra, encode = false, no_layout = false)
         options = {
           layout_engine: :slim,
-          layout: "_includes/#{layout}".to_sym
+          # The no_layout flag prevents Liquid from using cached posts rendered in feed.xml
+          # as the template for posts rendered in the blog
+          layout: no_layout ? nil : "_includes/#{layout}".to_sym
         }
 
         if engine == :markdown
-          # This causes a warning in Slim, because when we render the layouts it
-          # will be given the same set of options, but we need it for the markdown.
           options[:renderer] = renderer
           options[:fenced_code_blocks] = true
         end
@@ -133,8 +132,6 @@ module Cucumber
 
       def content
         Liquid::Template.parse(source).render(locals)
-        # redcarpet = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new, fenced_code_blocks: true)
-        # redcarpet.render(liquid_processed_markdown)
       end
 
       def timestamp
@@ -175,11 +172,10 @@ module Cucumber
       def source
         content_after_yaml_header
       end
-
     end
 
+    # Stub used for specs and scenarios
     class FakeEventPage < BasePage
-
       def post?
         false
       end
@@ -200,6 +196,5 @@ module Cucumber
         body
       end
     end
-
   end
 end

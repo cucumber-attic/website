@@ -14,11 +14,10 @@ headers:
     <atom:link href="{{ config['url'] }}/feed.xml" rel="self" type="application/rss+xml" />
     <% site.posts[0..9].each do |post|
       author = config['authors'][post.author]
-      post.locals['layout'] = 'no-layout'
     %>
       <item>
         <title><%= post.title %></title>
-        <description><%= HTMLEntities.new.encode(post.render(self, true)) %></description>
+        <description><%= HTMLEntities.new.encode(post.render(self, true, true)) %></description>
         <pubDate><%= post.date.strftime("%a, %d %b %Y %H:%M:%S %z") %></pubDate>
         <link><%= post.url %></link>
         <author><%= author['email'] %> (<%= author['display_name'] %>)</author>
