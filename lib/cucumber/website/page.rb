@@ -1,11 +1,16 @@
 require 'date'
-require 'redcarpet'
+require 'yaml'
 require 'liquid'
+require 'slim'
+require 'sass'
 require 'tilt'
 require 'htmlentities'
 require 'sprockets-helpers'
 require_relative 'utils'
 require_relative 'redcarpet_renderer'
+
+Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
+Slim::Engine.disable_option_validator!
 
 module Cucumber
   module Website

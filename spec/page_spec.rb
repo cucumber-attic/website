@@ -1,13 +1,5 @@
-require 'yaml'
-require 'rack/test'
-require 'capybara'
-require 'sprockets-helpers'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
-
-ENV['RACK_ENV'] = 'test'
-require_relative '../apps/dynamic/app'
-require_relative '../apps/static/app'
 
 module Cucumber::Website
   describe Page do
