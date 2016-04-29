@@ -1,10 +1,10 @@
 doctype html
 html lang="en"
   head
-    == slim '_includes/header'.to_sym, locals: locals
+    == slim '_includes/header'
   body
-    == slim '_includes/ribbon'.to_sym, locals: locals
-    == slim '_includes/nav-main'.to_sym, locals: locals
+    == slim '_includes/ribbon'
+    == slim '_includes/nav-main'
 
     div.container
       div.row
@@ -18,7 +18,7 @@ html lang="en"
               span.author= config['authors'][locals['author']]['display_name']
               span.date= locals['date'].strftime('%b %-d, %Y')
             == yield
-          == erb '_includes/disqus'.to_sym
+          == erb '_includes/disqus'
 
-    == slim '_includes/footer'.to_sym, locals: locals
+    == slim '_includes/footer'
     == javascript_tag 'main'

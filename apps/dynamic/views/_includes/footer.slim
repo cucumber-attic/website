@@ -62,5 +62,5 @@ footer.main-footer
         a href=(edit_url(locals['template_path'])) Edit this page
 
 - if ENV['RACK_ENV'] == 'production'
-  == slim '_includes/google_analytics'.to_sym
-  == erb '_includes/swiftype'.to_sym
+  == slim '_includes/google_analytics'
+  == erb '_includes/swiftype'
