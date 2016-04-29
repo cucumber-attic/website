@@ -1,6 +1,13 @@
 require 'yaml'
+require 'rack/test'
+require 'capybara'
+require 'sprockets-helpers'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
+
+ENV['RACK_ENV'] = 'test'
+require_relative '../apps/dynamic/app'
+require_relative '../apps/static/app'
 
 module Cucumber::Website
   describe Page do
@@ -51,6 +58,52 @@ module Cucumber::Website
       it "has a title" do
         page = Page.new(config, File.join(views, 'events/cukeup-australia-2015.slim'), views)
         expect(page.title).to eq("CukeUp! Australia")
+      end
+    end
+
+    describe "rendering" do
+      include Rack::Test::Methods
+
+      let(:app) do
+        page = Page.new(config, File.join(views, '_posts/mob-programming.md'), views)
+        site = double
+        Class.new(Sinatra::Application) do
+          set :root, views + '/..'
+
+          helpers do
+            include Sprockets::Helpers
+
+            def nav_class(slug, name)
+            end
+
+            def edit_url template_path
+            end
+          end
+
+          get '/feed.xml' do
+            page.render(self, site, true, true)
+          end
+
+          get '/blog/2016/04/19/mob-programming' do
+            page.render(self, site)
+          end
+        end.new(Cucumber::Website::App.new(Cucumber::Website::Static::App.new))
+      end
+
+      it "gets a blog post as HTML" do
+        get '/blog/2016/04/19/mob-programming'
+        expect(Nokogiri::XML(last_response.body).root.name).to eq "html"
+      end
+
+      it "gets the XML feed" do
+        get '/feed.xml'
+        expect(Nokogiri::XML(last_response.body).root.name).to eq "p"
+      end
+
+      it "renders the same view multiple times with different layouts" do
+        get '/feed.xml'
+        get '/blog/2016/04/19/mob-programming'
+        expect(Nokogiri::XML(last_response.body).root.name).to eq "html"
       end
     end
   end

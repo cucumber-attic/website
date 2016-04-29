@@ -54,7 +54,7 @@ module Website
             last_modified timestamps.max
           end
 
-          page.render(self)
+          page.render(self, site)
         end
       end
 
@@ -91,8 +91,8 @@ module Website
 
   config = Config.new(ENV['RACK_ENV'])
 
-  views_path = File.dirname(__FILE__) + "/views"
-  pages = Page.all(config, views_path)
+  views = File.join(File.dirname(__FILE__), "views")
+  pages = Page.all(config, views)
 
   logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Calendar.new(url, logger) }

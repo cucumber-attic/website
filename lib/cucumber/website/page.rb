@@ -75,7 +75,7 @@ module Cucumber
         @front_matter['title'] ||= @template_name.split('/')[-1]
       end
 
-      def render(sinatra, encode = false, no_layout = false)
+      def render(sinatra, site, encode = false, no_layout = false)
         options = {
           layout_engine: :slim,
           # The no_layout flag prevents Liquid from using cached posts rendered in feed.xml
@@ -88,7 +88,7 @@ module Cucumber
           options[:fenced_code_blocks] = true
         end
 
-        locals['site'] = sinatra.settings.site
+        locals['site'] = site
         locals['locals'] = locals # So slim can pass locals to _includes
 
         template_proc = Proc.new { |template| content }
