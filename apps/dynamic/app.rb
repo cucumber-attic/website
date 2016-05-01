@@ -1,9 +1,4 @@
-require 'yaml'
-require 'slim'
-require 'redcarpet'
-require 'liquid'
 require 'sinatra/base'
-require 'sprockets-helpers'
 require 'rollbar'
 require 'rollbar/middleware/sinatra'
 require 'cucumber/website/page'
@@ -16,15 +11,10 @@ require 'cucumber/website/core/site'
 require 'cucumber/website/git_hub'
 require 'cucumber/website/cache'
 
-Slim::Engine.set_options(pretty: ENV['RACK_ENV'] != 'production')
-Slim::Engine.disable_option_validator!
-
 module Cucumber
 module Website
-
   def self.make_app(site)
     Class.new(Sinatra::Application) do
-
       set :root, File.dirname(__FILE__)
       set :site, site
 
@@ -54,25 +44,13 @@ module Website
             last_modified timestamps.max
           end
 
-          page.render(self, site)
+          page.render(site)
         end
       end
 
       before /(.*)\.html/ do
         url = params[:captures][0]
         redirect to(url), 301
-      end
-
-      helpers do
-        include Sprockets::Helpers
-
-        def nav_class(slug, name)
-          slug == name ? 'active' : nil
-        end
-
-        def edit_url template_path
-          "#{settings.site.config['edit_url']}/#{template_path}"
-        end
       end
 
       configure :development, :production do
@@ -91,8 +69,8 @@ module Website
 
   config = Config.new(ENV['RACK_ENV'])
 
-  views = File.join(File.dirname(__FILE__), "views")
-  pages = Page.all(config, views)
+  views_dir = File.join(File.dirname(__FILE__), "views")
+  pages = Page.all(config, views_dir)
 
   logger = Logger.new($stderr)
   calendars = config['calendars'].map { |url| Calendar.new(url, logger) }
