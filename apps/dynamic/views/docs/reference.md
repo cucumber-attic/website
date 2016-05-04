@@ -487,7 +487,7 @@ Generates a JSON file, suitable for post-processing to generate custom reports.
 
 ### Progress
 
-This report prints results to STDOUT, on character at a time. It looks like this:
+This report prints results to STDOUT, one character at a time. It looks like this:
 
 ```
 ....F--U.......
