@@ -17,22 +17,25 @@ module Cucumber
       def self.wrap(api, name, config, logger)
         path = Path.new(name, config['env'])
         store = FileSystemStore.new(path, config[name]['cache_defaults'] || {})
-        if config[name]['cache_refresh_interval']
-          start_updating store, api, logger, config[name]['cache_refresh_interval']
+        begin
+          if config[name]['cache_refresh_interval']
+            start_updating store, api, logger, config[name]['cache_refresh_interval']
+          end
+        rescue RuntimeError => error
+          # If the update fails when first called, we're probably a developer working offline or without
+          # a GitHub access token.
+          #
+          # Attempt to fix the users's setup so things still work
+          sample = Pathname.new(path + ".example")
+          # If there's no sample cache, we're really in trouble. Give up!
+          raise if !sample.exist?
+          logger.warn "Unable to update #{store} from #{api}: #{error.message}"
+          if !Pathname.new(path).exist?
+            # Copy over the sample to use as the local cache
+            logger.info "Copying example cache from #{sample} to #{path}"
+            FileUtils.cp sample, path
+          end
         end
-      rescue => error
-        # If the update fails when first called, we're probably a developer working offline.
-        # Attempt to fix the users's setup so things still work
-        sample = Pathname.new(path + ".example")
-        # If there's no sample cache, we're really in trouble. Give up!
-        raise if !sample.exist?
-        logger.warn "Unable to update #{store} from #{api}: #{error.message}"
-        if !Pathname.new(path).exist?
-          # Copy over the sample to use as the local cache
-          logger.info "Copying example cache from #{sample} to #{path}"
-          FileUtils.cp sample, path
-        end
-      ensure
         store
       end
 
