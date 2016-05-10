@@ -1,4 +1,8 @@
 $: << File.dirname(__FILE__) + '/lib'
+require 'rake/tasklib'
+require 'rake/sprocketstask'
+require_relative 'apps/static/app'
+
 ENV["RACK_ENV"] ||= "development"
 
 task default: [:spec, :cucumber, :backup_events]
@@ -26,6 +30,16 @@ task :backup_events do
   end
 end
 
-require 'sinatra/asset_pipeline/task'
-require './apps/static/app'
-Sinatra::AssetPipeline::Task.define! Cucumber::Website::Static::App
+namespace :assets do
+  desc 'Precompile assets'
+  task :precompile do
+    environment = Cucumber::Website::Static::App.assets
+    manifest = Sprockets::Manifest.new(environment.index, File.join(Cucumber::Website::Static::App.assets_path, "manifesto.json"))
+    manifest.compile(Cucumber::Website::Static::App.assets_precompile)
+  end
+
+  desc "Clean assets"
+  task :clean do
+    FileUtils.rm_rf(Cucumber::Website::Static::App.assets_path)
+  end
+end

@@ -22,7 +22,9 @@ gem 'values'
 gem 'puma'
 
 # Assets
-gem 'sinatra-asset-pipeline', '0.7.0'
+gem 'sass'
+gem 'sprockets', '~> 3.0'
+gem 'sprockets-helpers'
 gem 'autoprefixer-rails', '6.3.6'
 gem 'uglifier', '3.0.0'
 

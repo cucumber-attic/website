@@ -1,10 +1,11 @@
 .DS_Store
 .bundle
 vendor/bundle
-apps/dynamic/public/assets
+apps/static/public/assets
 capybara*.html
 .sass-cache
 tags
 log/*
+tmp/*
 .idea
 *.iml
