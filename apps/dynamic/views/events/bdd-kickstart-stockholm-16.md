@@ -26,8 +26,12 @@ Discover how BDD can help your organisation by downloading our [BDD Benefits PDF
 
 ### How the ticket system works:
 
-For each public course we run, we need a minimum number of attendees to make it a valuable experience for everyone. With that in mind, we are experimenting with something slightly different for this course. Something which will benefit you. We are looking for 7 interested attendees to "pledge" to buy their ticket before May 13th. A pledge means you buy a ticket on the course, but if we don't reach our desired target by May 13th, we'll refund you, no dramas. By pledging you will be rewarded with a hefty discount and lots of Cucumber swag (see below). 
-If you want this course to run, it's in your interest to help us spread the word!
+For each public course we run, we need a minimum number of attendees to make it a valuable experience for everyone. With that in mind, we are experimenting with something slightly different for this course. Something which will benefit you. 
+
+**We are looking for 7 attendees to "pledge" to buy their ticket before May 13th.**
+
+A pledge means you buy a ticket on the course, but if we don't reach our desired target by May 13th, we'll refund you, no dramas. By pledging you will be rewarded with a hefty discount and lots of Cucumber swag (see below). 
+If you want this course to run, help us spread the word!
 
 ### The pledge deal
 
@@ -37,7 +41,7 @@ If you want this course to run, it's in your interest to help us spread the word
  - A complimentary Cucumber School licence (our interactive online training)
 
 <p class="text-center">
-    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge your ticket!</a> 
+    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge to buy your ticket!</a> 
 </p>
 
 ## Day 1 - BDD Fundamentals
