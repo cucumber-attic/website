@@ -2,7 +2,7 @@
 title: BDD Kickstart, Stockholm 2016
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
-  dates: September 2016
+  dates: September 5th-6th 2016
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-stockholm
     message: Pledge to buy your ticket!
