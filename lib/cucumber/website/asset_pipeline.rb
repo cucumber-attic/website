@@ -16,7 +16,7 @@ module Website
 
       AutoprefixerRails.install(app.assets)
 
-      app.configure :development do
+      app.configure :test, :development do
         assets.cache = Sprockets::Cache::FileStore.new('./tmp')
         app.get '/assets/*' do
           env['PATH_INFO'].sub!(%r{^/assets}, '')
