@@ -34,7 +34,7 @@ namespace :assets do
   desc 'Precompile assets'
   task :precompile do
     environment = Cucumber::Website::Static::App.assets
-    manifest = Sprockets::Manifest.new(environment.index, File.join(Cucumber::Website::Static::App.assets_path, "manifesto.json"))
+    manifest = Sprockets::Manifest.new(environment.index, File.join(Cucumber::Website::Static::App.assets_path, "manifest.json"))
     manifest.compile(Cucumber::Website::Static::App.assets_precompile)
   end
 

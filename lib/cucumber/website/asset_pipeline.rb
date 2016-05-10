@@ -35,7 +35,7 @@ module Website
         config.debug       = true if app.development?
         if app.production?
           config.digest      = true
-          config.manifest    = Sprockets::Manifest.new(assets, File.join(app.assets_path, "manifesto.json"))
+          config.manifest    = Sprockets::Manifest.new(assets, File.join(app.assets_path, "manifest.json"))
         end
       end
 
