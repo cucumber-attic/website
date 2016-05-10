@@ -23,6 +23,7 @@ gem 'puma'
 
 # Assets
 gem 'sass'
+gem 'rake'
 gem 'sprockets', '~> 3.0'
 gem 'sprockets-helpers'
 gem 'autoprefixer-rails', '6.3.6'
@@ -33,7 +34,6 @@ gem 'newrelic_rpm'
 gem 'rollbar'
 
 group :development do
-  gem 'rake'
   gem 'foreman'
   gem 'launchy'
 end
