@@ -1,5 +1,8 @@
 require 'slim'
 require 'tilt'
+require 'tilt/erb'
+require 'tilt/redcarpet'
+require 'tilt/sass'
 require 'htmlentities'
 require 'sprockets-helpers'
 require_relative 'redcarpet_renderer'
