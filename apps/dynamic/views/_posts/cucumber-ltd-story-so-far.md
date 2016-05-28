@@ -65,7 +65,21 @@ We do have a bit of a challenge with mobbing, however.
 
 We're a remote team. I live up in the wilds of the Scottish Highlands, Steve is in Southampton. Aslak's in London. Julian and Romain are in Wavre, just outside Brussels. It's really hard to work on the same computer in the same space at the same time.
 
-But we've taken the decision that we want to be able to live where we want to. There's benefits that come with being able to be in your own space, being comfortable in your surroundings, being near your family. Here's Steve working with his three-month-old daughter Primrose, making her first commit. Here's Aslak with his four-month-old daughter Aurelia. There's something really special about being in an environment where you can do that.
+But we've taken the decision that we want to be able to live where we want to. There's benefits that come with being able to be in your own space, being comfortable in your surroundings, being near your family. Here's Steve working with his three-month-old daughter Primrose:
+
+<figure>
+  <img src="/images/blog/primrose-first-commit.png">
+  <figcaption>Primrose Tooke makes her first commit</figcaption>
+</figure>
+
+Here's Aslak with his four-month-old daughter Aurelia:
+
+<figure>
+  <img src="/images/blog/aurelia-first-commit.png">
+  <figcaption>Aurelia Hellesøy joins the mob</figcaption>
+</figure>
+
+There's something really special about being in an environment where you can do that.
 
 But, the challenges that come with being remote mean we've had to find new tools to enable mobbing to work. We use Slack for team chat, Screenhero to enable multiple people to share the same computer at the same time. Everyone gets their own pointer. When it's your turn to type at the computer, you share your desktop with everybody else. So, you work in the tools that you're comfortable with. Usually we have a second screen, either a phone or a tablet or just second monitor with a Google Hangout so we are all looking at each other, talking to each other using Google Hangouts. And that's how we code everyday.
 
@@ -75,7 +89,7 @@ Something that amazes me about the mob is how resilient it is. It just charges o
 
 Equally, on the bigger scale, if I have to go away for a few days of training, maybe I'm in a different time zone, the mob carries on. We're swapping different people out each week to go and deliver the training courses, but the consciousness is still there and the code is still moving forward all the time. It's really powerful.
 
-Im my crazy moments, I imagine building a team where there were enough people living in enough timezones that the mob could just keep going 24 hours a day.
+In my crazy moments, I imagine building a team where there were enough people living in enough timezones that the mob could just keep going 24 hours a day.
 
 ##Symbiosis
 
