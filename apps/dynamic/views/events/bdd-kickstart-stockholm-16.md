@@ -5,7 +5,7 @@ hero:
   dates: September 5th-6th 2016
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-stockholm
-    message: Pledge to buy your ticket!
+    message: Buy your ticket!
 location:
   url: https://www.google.co.uk/maps/place/Stockholm,+Sweden/@59.3258414,17.707373,10z/data=!3m1!4b1!4m2!3m1!1s0x465f763119640bcb:0xa80d27d3679d7766
   name: Stockholm
@@ -23,26 +23,6 @@ BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Deve
 Both days are led by *Aslak Hellesøy*, the creator of Cucumber and world renown BDD expert and practioner. *Thomas Sundberg*, a seasoned BDD practitioner will facilitate the course alongside Aslak. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
-
-### How the ticket system works:
-
-For each public course we run, we need a minimum number of attendees to make it a valuable experience for everyone. With that in mind, we are experimenting with something slightly different for this course. Something which will benefit you. 
-
-**We are looking for 7 attendees to "pledge" to buy their ticket before May 13th.**
-
-A pledge means you buy a ticket on the course, but if we don't reach our desired target by May 13th, we'll refund you, no dramas. By pledging you will be rewarded with a hefty discount and lots of Cucumber swag (see below). 
-If you want this course to run, help us spread the word!
-
-### The pledge deal
-
- - Cost of pledge: 12000 SEK (Full price, 15000 SEK)
- - Two days of expert-led BDD and Cucumber training with the creator of Cucumber Aslak Hellesøy and Thomas Sundberg. 
- - Free Cucumber t-shirt, stickers, and mug for each attendee pledge.
- - A complimentary Cucumber School licence (our interactive online training)
-
-<p class="text-center">
-    <a class="btn-brand-blue" href="https://ti.to/cucumber/bdd-kickstart-stockholm">Pledge to buy your ticket!</a> 
-</p>
 
 ## Day 1 - BDD Fundamentals
 
