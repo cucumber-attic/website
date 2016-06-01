@@ -6,7 +6,7 @@ date:   2016-05-23 00:00:00
 nav: blog
 ---
 
-Cucumber is an open source project, and now also a company. But what kind of a company? This post, loosely based around [a talk Steve Tooke and I recently gave at QCon London](https://qconlondon.com/presentation/far-mobbing-crowd), is about the hard work, the decisions, and the fun that have gone into trying to build a sustainable business around this popular open-source project.
+Cucumber is an open source project, and now also a company. But what kind of a company? This post, loosely based around [a talk Steve Tooke and I recently gave at QCon London](https://www.infoq.com/presentations/distributed-teams-remote-collaboration), is about the hard work, the decisions, and the fun that have gone into trying to build a sustainable business around this popular open-source project.
 
 <figure>
   <img src="/images/blog/gaia-ekra-swing-may-2015.jpg">
