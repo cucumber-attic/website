@@ -41,7 +41,7 @@ During the summer of 2015 the whole company and our families met at Aslak's fami
 
 We resolved to reboot the product by committing the whole team for the whole month of October to it. No one was going to travel, no one was going to go and do any consulting. Focus.
 
-After much soul-searching, we agreed to shelve the original codebase and start with a brand new codebase, on a new tech stack. We grew the team to include Steve Tooke and Romain Gerard. All this new was daunting - we had to try and figure out a way that we could work together and learn together, but still make some real progress. 
+After much soul-searching, we agreed to shelve the original codebase and start with a brand new codebase, on a new tech stack. We grew the team to include Steve Tooke and Romain Gérard. All this new was daunting - we had to try and figure out a way that we could work together and learn together, but still make some real progress. 
 
 It was a really interesting time. It was a great opportunity for us to try something that we'd been hearing a bit about.
 
@@ -63,7 +63,7 @@ We do have a bit of a challenge with mobbing, however.
 
 ##Remote
 
-We're a remote team. I live up in the wilds of the Scottish Highlands, Steve is in Southampton. Aslak's in London. Julian and Romain are in Wavre, just outside Brussels. It's really hard to work on the same computer in the same space at the same time.
+We're a remote team. I live up in the wilds of the Scottish Highlands, Steve is in Southampton. Aslak's in London. Julien and Romain are in Wavre, just outside Brussels. It's really hard to work on the same computer in the same space at the same time.
 
 But we've taken the decision that we want to be able to live where we want to. There's benefits that come with being able to be in your own space, being comfortable in your surroundings, being near your family. Here's Steve working with his three-month-old daughter Primrose:
 
