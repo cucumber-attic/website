@@ -27,7 +27,7 @@ Aslak, Julien and I started to build this product, which we called _Cucumber Pro
 
 Anyway, we built the first version of Cucumber Pro, and we got some people to start using it. But all the traveling for the training was taking a toll on our families. We saw this product as something that could save us from that, so we started to put pressure on ourselves: it really had to work.
 
-If I'm honest, I think we also had an attitude that because we're all really experienced programmers, we could afford to cut some corners and just try to iterate fast on what the customers needed; telling ourselves we'd be able to refractor ourselves out of a mess later. Ever heard that one before? Yeah, it doesn't end well.
+If I'm honest, I think we also had an attitude that because we're all really experienced programmers, we could afford to cut some corners and just try to iterate fast on what the customers needed; telling ourselves we'd be able to refactor ourselves out of a mess later. Ever heard that one before? Yeah, it doesn't end well.
 
 In [The E-Myth Revisited](http://www.amazon.com/E-Myth-Revisited-Small-Businesses-About/dp/0887307280) Michael Gerber talks about how most people who start their own businesses discover that they are the worst boss they ever had. It started to feel a bit like that.
 
