@@ -83,7 +83,7 @@ or [Scenario Outlines](#scenario-outline), and an optional [Background](#backgro
 Some parts of Gherkin documents do not have to start with a keyword.
 
 On the lines following a `Feature`, `Scenario`, `Scenario Outline` or `Examples`
-you can write anything you like, as long as no line starts witha key a keyword.
+you can write anything you like, as long as no line starts with a key a keyword.
 
 ### Scenario
 
