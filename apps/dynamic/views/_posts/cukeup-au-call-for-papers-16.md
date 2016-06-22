@@ -1,7 +1,7 @@
 ---
 layout: post
 author: theo
-title:  "CukeUp! AU 2016 call for thoughts"
+title:  "CukeUp! AU 2016 call for papers"
 date:   2016-06-21 12:00:00
 nav: blog
 ---
@@ -18,6 +18,17 @@ For reference and inspiration, check out our talks from [last year](https://cucu
 
 If you are reading this and thinking, hey, my pal would be great for this, please share it! We want to hear from as many voices as possible - especially from women and groups normally under-represented at tech conferences. Remember you can always team up with another if you that’s more comfortable.
 
+All attendees, speakers, sponsors and volunteers at CukeUp! AU are required to agree with the following [code of conduct](https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md). Staff will enforce this throughout the event.
+
+We are also partnering with [Speak Easy](http://speaking-easy.com/be-mentored), a global initative to help new speakers from under represented groups take to the stage. You can apply for free mentorship through their site. 
+
 **Our Call for Papers ends August 5th.**
 
 Full deets on our [Call for Papers](https://cucumber.typeform.com/to/cJHTsK?source=blog) typeform.
+
+Don't hesitate to get in touch if you have any questions/concerns/comments!
+
+Team CukeUp!
+
+Special thanks to Elise Aplin, Sharon Robson, Michele Cross for joining the programme committee and helping us pick sessions.
+
