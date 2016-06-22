@@ -10,7 +10,7 @@ nav: blog
 
 [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) will be held in Sydney on November 17th-18th 2016.
 
-Submit a workshop or talk proposal to our very own progressive agile conference. We're on the lookout for fun, inspiring, and diverse sessions about building great software. Although we have a soft spot for topics around Behaviour-Driven Development, don't let us sway your thinking. We want to hear stories about teams who think differently and go against the stagnant status quo.
+[Submit a workshop or talk proposal](https://cucumber.typeform.com/to/cJHTsK?source=blog) to our very own progressive agile conference. We're on the lookout for fun, inspiring, and diverse sessions about building great software. Although we have a soft spot for topics around Behaviour-Driven Development, don't let us sway your thinking. We want to hear stories about teams who think differently and go against the stagnant status quo.
 
 This year we’re introducing lightning talk sessions too. CukeUp! AU only fits 120 bodies, and runs for just two days, so short and sweet is in our nature! If you have a topic which might not stretch to half an hour, or you’re new to the public speaking game, why not propose one of these?
 
@@ -20,7 +20,7 @@ If you are reading this and thinking, hey, my pal would be great for this, pleas
 
 All attendees, speakers, sponsors and volunteers at CukeUp! AU are required to agree with the following [code of conduct](https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md). Staff will enforce this throughout the event.
 
-We are also partnering with [Speak Easy](http://speaking-easy.com/be-mentored), a global initative to help new speakers from under represented groups take to the stage. You can apply for free mentorship through their site. 
+We are also partnering with [Speak Easy](http://speaking-easy.com/be-mentored), a global initative to help new speakers from under represented groups take to the stage at tech conferences. You can apply for free mentorship through their site. 
 
 **Our Call for Papers ends August 5th.**
 
