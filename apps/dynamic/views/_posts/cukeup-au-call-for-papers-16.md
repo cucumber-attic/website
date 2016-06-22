@@ -20,7 +20,7 @@ If you are reading this and thinking, hey, my pal would be great for this, pleas
 
 All attendees, speakers, sponsors and volunteers at CukeUp! AU are required to agree with the following [code of conduct](https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md). Staff will enforce this throughout the event.
 
-We are also partnering with [Speak Easy](http://speaking-easy.com/be-mentored), a global initative to help new speakers from under represented groups take to the stage at tech conferences. You can apply for free mentorship through their site. 
+We are also partnering with [Speak Easy](http://speaking-easy.com/be-mentored), a global initiative to help new speakers from under represented groups take to the stage at tech conferences. You can apply for free mentorship through their site. 
 
 **Our Call for Papers ends August 5th.**
 
