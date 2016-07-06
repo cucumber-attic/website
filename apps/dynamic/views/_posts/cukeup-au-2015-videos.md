@@ -14,9 +14,9 @@ nav:      blog
 
 <p class="post-intro"> Hiya! Here are the talks from <strong>CukeUp! AU 2015</strong>. The conference played host to some great presentations and there should be something of value for everyone in here.</p>
 
-If you live in Europe, the next CukeUp! is just around the corner. [Tickets are now sale.](https://skillsmatter.com/conferences/7606-cukeup-2016) for CukeUp! London, this April.
+We're running the conference in Sydney again on November 17th-18th 2016. [Tickets are now sale.](https://cucumber.io/events/cukeup-au-2016).
 
-We're also running [BDD Kickstart](https://cucumber.io/events/bdd-kickstart-perth-may) in Perth, Australia in May. Find all our [upcoming events on our website](https://cucumber.io/events).
+Find all our [upcoming events on our website](https://cucumber.io/events).
 
 <p><strong>Without further ado:</strong></p>
 
