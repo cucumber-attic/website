@@ -78,6 +78,8 @@ There’s some useful tips about this in [Matt’s Example Mapping post.](https:
 
 Adding pointless scenario descriptions
 ---------------------------------------
+<img src="{{ site.url }}/images/blog/matt-standing-cukeup-2016.jpg" style="float:right; width:50%">
+
 
 Descriptions such as “As a user, I want to check my balance, so that I know what my balance is” doesn’t give you any extra information about the user. 
 
@@ -92,9 +94,6 @@ It can be really good to write those down in the front matter as well, and check
 
 ----------
 
-Learn more about how we support large teams implement BDD and Cucumber in a safe and responsible manner through [in-house training and consulting](https://cucumber.io/training). If you're interested in having one of the core-team behind Cucumber visit your offices, [contact us](https://cucumber.typeform.com/to/gUEP2E?source=blog) for more details.
+*Learn more about how we support large teams implement BDD and Cucumber in a safe and responsible manner through [in-house training and consulting](https://cucumber.io/training). If you're interested in having one of the core-team behind Cucumber visit your offices, [contact us](https://cucumber.typeform.com/to/gUEP2E?source=blog) for more details.
 
-Part two of this blog post will be posted next month. Or you can [download the podcast on iTunes](itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635). 
-
-
-<img src="{{ site.url }}/images/blog/matt-standing-cukeup-2016.jpg" style="float:right; width:50%">
+Part two of this blog post will be posted next month. Or you can [download the podcast on iTunes](itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635).*
