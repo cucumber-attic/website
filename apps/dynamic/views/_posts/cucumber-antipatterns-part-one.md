@@ -1,7 +1,7 @@
 ---
 layout: post
 author: theo
-title:  "Cucumber anti-patterns, part one!"
+title:  "Cucumber anti-patterns (part one)"
 date:   2016-07-01 12:00:00
 nav: blog
 ---
