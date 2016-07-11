@@ -6,7 +6,7 @@ date:   2016-07-01 12:00:00
 nav: blog
 ---
 
-This post outlines our favourite Cucumber anti-patterns. There are many ways to use tool poorly and, as the core team behind Cucumber, we've picked up our fair share of bumps and bruises. Hopefully by passing on our own experiences, we can help you steer clear of the most common pitfalls. 
+This post outlines our favourite Cucumber anti-patterns. There are many ways to use tools poorly and, as the core team behind Cucumber, we've picked up our fair share of bumps and bruises. Hopefully by passing on our own experiences, we can help you steer clear of the most common pitfalls. 
 
 Along the way we'll also clarify why these patterns can be so damaging and suggest alternatives we've seen work while [training and coaching teams](https://cucumber.io/training) around the world. 
 
@@ -25,7 +25,7 @@ Let's step back a bit before we start. Why should you write your scenarios befor
 
 Yes OK, it *is* a testing tool, but first and foremost it is a tool to test your understanding of the problem domain. Only once this test passes, which means everybody agrees on what you’ve said in your Gherkin scenario, can you start implementing. 
 
-Writing the scenarios before the code encourages people with different perspectives to be involved in behaviour of the software. A product owner or a business stakeholder will read it with one perspective, a developer with another one, and a tester with a third. It makes it easier for people to figure out whether they disagree about something or whether there's uncertainty. 
+Writing the scenarios before the code encourages people with different perspectives to be involved in defining the behaviour of the software. A product owner or a business stakeholder will read it with one perspective, a developer with another one, and a tester with a third. It makes it easier for people to figure out whether they disagree about something or whether there's uncertainty. 
 
 Having that very concrete description of the example before you even start developing helps you figure out if everybody has the same understanding. 
 
