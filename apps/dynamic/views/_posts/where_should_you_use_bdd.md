@@ -1,13 +1,13 @@
 ---
 layout: post
 author: thomas
-title:  Where should you use Behaviour Driven Development, BDD?
-date:   2016-07-06 00:00:00
+title:  Where should you use Behaviour-Driven Development, BDD?
+date:   2016-07-20 00:00:00
 nav: blog
 ---
 
 When I was at the <a href="http://europeantestingconference.eu/">European Testing Conference</a> 2016 in Bucharest, 
-a colleague asked me about my thoughts on how they should use Behaviour Driven Development, BDD. I didn't get a good 
+a colleague asked me about my thoughts on how they should use Behaviour-Driven Development, BDD. I didn't get a good 
 chance to elaborate on my view so I decided that I should write this instead. 
 
 My first thought, before I heard how that team is using BDD today, was that as long as they have conversations 
@@ -150,7 +150,7 @@ I would like to thank Malin Ekholm and Theo England for proof reading.
 <ul>
     <li><a href="https://cucumber.io/">Cucumber</a> - A tool for simple, human collaboration</li>
     <li><a href="https://cucumber.io/blog/2014/03/03/the-worlds-most-misunderstood-collaboration-tool">The world's most misunderstood collaboration tool</a> - A blog post from Aslak Helles&oslash;y, the creator of Cucumber </li>
-    <li><a href="/blog/category/BDD">BDD</a> - My other posts about Behaviour Driven Development </li>
+    <li><a href="/blog/category/BDD">BDD</a> - My other posts about Behaviour-Driven Development </li>
     <li><a href="/blog/category/Cucumber">Cucmber</a> - My other posts about Cucumber</li>
     <li><a href="/about/">Thomas Sundberg</a> - The author</li>
 </ul>
