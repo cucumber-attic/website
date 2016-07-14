@@ -142,7 +142,7 @@ I would like to thank Malin Ekholm and Theo England for proof reading.
 <ul>
     <li><a href="https://cucumber.io/">Cucumber</a> - A tool for simple, human collaboration</li>
     <li><a href="https://cucumber.io/blog/2014/03/03/the-worlds-most-misunderstood-collaboration-tool">The world's most misunderstood collaboration tool</a> - A blog post from Aslak Helles&oslash;y, the creator of Cucumber </li>
-    <li><a href="/blog/category/BDD">BDD</a> - My other posts about Behaviour-Driven Development </li>
-    <li><a href="/blog/category/Cucumber">Cucmber</a> - My other posts about Cucumber</li>
-    <li><a href="/about/">Thomas Sundberg</a> - The author</li>
+    <li><a href="http://www.thinkcode.se/blog/category/BDD">BDD</a> - My other posts about Behaviour-Driven Development </li>
+    <li><a href="http://www.thinkcode.se/blog/category/Cucumber">Cucmber</a> - My other posts about Cucumber</li>
+    <li><a href="http://www.thinkcode.se/blog/about">Thomas Sundberg</a> - The author</li>
 </ul>
