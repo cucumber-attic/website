@@ -22,7 +22,7 @@ implement automation using BDD and for which parts they should use unit tests to
 My default answer <b><i>"Everywhere!"</i></b> obviously wasn't not good enough. It is especially poor advice 
 to someone who currently is learning and building experience using BDD. 
 
-A better would describe why BDD should be used in many more places than for testing an application through the user interface. 
+A better advice would describe why BDD should be used in many more places than for testing an application through the user interface. 
 
 Let me start with a reasoning around the agile testing pyramid. I'll quickly define what I mean.
 
@@ -42,11 +42,11 @@ You want fewer end-to-end tests than integration tests and most unit tests.
 An end-to-end test is a test that checks your entire application. It uses the same user interface as 
 the users and verifies that something actually works, this includes saving things in the database. 
 
-Some people think this is the only realistic way to test an application. In fact, most of the verification can be done using other seams of your application. 
+Some people think this is the only realistic way to test an application. But in fact, most of the verification can be done using other seams of your application. 
 
 End-to-end tests are typically 
 <ul>
-    <li>slow - they seconds to run</li>
+    <li>slow - they take seconds to run</li>
     <li>brittle - they often fail</li>
     <li>not scalable - it is impossible to pass through all paths in any application but the very smallest</li>
     <li>great for verifying that the most important flow through the application works</li>
@@ -56,7 +56,7 @@ Aim for a few end-to-end tests that verify the most important parts, but don't u
 
 ##What is an integration test?
 
-An integration test is a test that checks a large part of application stack. It probably doesn't go through the user inferface. 
+An integration test is a test that checks a large part of your application stack. It probably doesn't go through the user inferface. 
 It may use logic just below the UI to verify a wanted behaviour, for example saving data in your database. 
 
 Integration tests are also used to verify the application can connect to applications provided by 
