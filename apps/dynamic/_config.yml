@@ -44,6 +44,10 @@ authors:
     display_name: Steve Tooke
     email: tooky@cucumber.io
     gravatar: cb98700ec5151a02c191a62cb0d17005
+  thomas:
+    display_name: Thomas Sundberg
+    email: thomas@thinkcode.se
+    gravatar: fbaa55683cc693c2e95f63431af00ed0
 
 versions:
   cucumber_jvm: 1.2.4
