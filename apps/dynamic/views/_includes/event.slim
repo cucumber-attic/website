@@ -13,3 +13,6 @@ html lang="en"
     == yield
 
     == javascript_tag 'cukeup'
+
+    - if ENV['RACK_ENV'] == 'production'
+      == render :slim, '_includes/google_analytics'
