@@ -1,28 +1,26 @@
 ---
 layout: post
 author: thomas
-title:  Where should you use Behaviour-Driven Development, BDD?
+title:  Where should you use Behaviour-Driven Development?
 date:   2016-07-20 00:00:00
 nav: blog
 ---
+*September 5th-6th, Stockholm: Thomas Sundberg will be running a two-day [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-16) with the creator of Cucumber, Aslak Hellesøy. This course has been taught to hundreds of teams who have implemented BDD and Cucumber in a safe and effective way.*
 
 When I was at the <a href="http://europeantestingconference.eu/">European Testing Conference</a> 2016 in Bucharest, 
 a colleague asked for my thoughts on how they should use Behaviour-Driven Development (BDD). I had to run off and didn't get a chance to elaborate on my view, so I decided that I should write it down instead. 
 
-My first thought was pretty simple. As long they were talking and using BDD as a framework for understanding each other, they were on the right track. But the question was 
-more complicated than that. They were already using BDD as a communication tool, specifying
-what the application should do using conversations and 
+My first thought was pretty simple. As long they were talking, and using BDD as a framework for understanding each other, they were on the right track. They were already specifying
+what the application should do by 
 writing <a href="https://github.com/cucumber/cucumber/wiki/Gherkin">Gherkin</a> to capture the conversations. 
 
-Writing Gherkin is not the most important part here. The most important part is to have conversations to create 
-a common understanding. 
+But writing Gherkin is not the most important part here; it's about creating a common understanding. 
 
-It turned out that the actual question was about for which parts of the system I think it would be a good idea to 
-implement automation using BDD and for which parts they should use unit tests to verify basic correctness. 
-My default answer <b><i>"Everywhere!"</i></b> obviously wasn't not good enough. It is especially poor advice 
-to someone who currently is learning and building experience using BDD. 
+The real question my colleague wanted to answer was which parts of the system should they implement automation using BDD and which parts they should use unit tests to verify basic correctness. 
+My default answer <b><i>"Everywhere!"</i></b> obviously wasn't not good enough. It's especially poor advice 
+for someone currently learning and building experience using BDD. 
 
-A better advice would describe why BDD should be used in many more places than for testing an application through the user interface. 
+Better advice would describe why BDD should be used in more places than just testing an application through the user interface. 
 
 Let me start with a reasoning around the agile testing pyramid. I'll quickly define what I mean.
 
@@ -32,14 +30,14 @@ Let me start with a reasoning around the agile testing pyramid. I'll quickly def
 </figure>
 
 The agile testing pyramid tries to show you the number of tests that are appropriate at different levels. That is, 
-the proportion between end-to-end, integrated and unit tests you want to aim for. As you see, there are no numbers 
+the proportion between end-to-end, integrated and unit tests you want to aim for. There are no numbers 
 defined. Instead, relate to the width of the pyramid. 
 
-You want fewer end-to-end tests than integration tests and most unit tests. 
+Aim for less end-to-end tests and integration tests and more unit tests. 
 
 ##What is an end-to-end test?
 
-An end-to-end test is a test that checks your entire application. It uses the same user interface as 
+An end-to-end test checks your entire application. It uses the same user interface as 
 the users and verifies that something actually works, this includes saving things in the database. 
 
 Some people think this is the only realistic way to test an application. But in fact, most of the verification can be done using other seams of your application. 
@@ -56,7 +54,7 @@ Aim for a few end-to-end tests that verify the most important parts, but don't u
 
 ##What is an integration test?
 
-An integration test is a test that checks a large part of your application stack. It probably doesn't go through the user inferface. 
+An integration test checks a large part of your application stack. It probably doesn't go through the user inferface. 
 It may use logic just below the UI to verify a wanted behaviour, for example saving data in your database. 
 
 Integration tests are also used to verify the application can connect to applications provided by 
@@ -108,10 +106,10 @@ If they did we wouldn't need tools like Cucumber.
 
 ##A better balanced answer
 
-The more balanced answer would therefore be <b><i>"In all the places where the business stakeholder has any reasons 
+In answer to my friend, my answer would be: <b><i>"In all the places where the business has reason 
 to have opinions about the behaviour."</i></b> 
 
-This implies all parts of the agile testing pyramid. Possibly with different proportions. That is, some test 
+This applies to all parts of the agile testing pyramid. Possibly with different proportions. That is, some test 
 implemented using BDD as end-to-end tests. Many implemented as integration tests and some that verifies small units. 
 
 There are no hard rules here. I'm trying to give you an idea about the proportions, but as I hope you understand, 
@@ -119,7 +117,7 @@ it depends. Personally, I tend to have more integration tests implemented using 
 using BDD. The integration tests are usually faster and speed is important. Fast tests give you quicker feedback and 
 that is worth a lot. 
 
-These are arguments for testing as little as possible through the UI. Preferably nothing. Or only so much that you 
+I'd argue for testing as little as possible through the UI. Preferably nothing. Or only so much that you 
 know that the system is properly wired and starts. 
 
 ##Conclusion
@@ -136,6 +134,8 @@ the behaviour of your system if you find it useful.
 ##Acknowledgements
 
 I would like to thank Malin Ekholm and Theo England for proof reading. 
+
+Learn how to produce beautiful living documentation and automated tests with Cucumber and Behaviour-Driven Development this September. Taught by Thomas Sundberg and the creator of Cucumber, Aslak Hellesøy. Join them for our [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-16) in Stockholm, September 5th-6th.*
 
 ##References
 
