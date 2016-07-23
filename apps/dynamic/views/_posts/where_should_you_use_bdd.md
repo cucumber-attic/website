@@ -109,8 +109,10 @@ If they did we wouldn't need tools like Cucumber.
 In answer to my friend, my answer would be: <b><i>"In all the places where the business has reason 
 to have opinions about the behaviour."</i></b> 
 
-This applies to all parts of the agile testing pyramid. Possibly with different proportions. That is, some test 
-implemented using BDD as end-to-end tests. Many implemented as integration tests and some that verifies small units. 
+This means that all parts of the agile testing pyramid can be implemented using Cucumber. You can can implement 
+end-to-end tests, integration tests, and parts that could be tested using unit tests. The decision to use 
+Cucumber or a unit testing framework is depending on the cooperation with the business. If they have opinions about 
+the behaviour, then use Cucumber. If they are indifferent, use a unit testing framework.
 
 There are no hard rules here. I'm trying to give you an idea about the proportions, but as I hope you understand, 
 it depends. Personally, I tend to have more integration tests implemented using BDD than end-to-end tests implemented 
