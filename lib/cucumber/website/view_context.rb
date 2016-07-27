@@ -5,6 +5,7 @@ require 'tilt/redcarpet'
 require 'tilt/sass'
 require 'htmlentities'
 require 'sprockets-helpers'
+require 'split'
 require_relative 'redcarpet_renderer'
 require_relative 'utils'
 
@@ -16,13 +17,19 @@ module Website
   class ViewContext
     include Sprockets::Helpers
     include Utils
+    include Split::Helper
 
     attr_reader :config
 
-    def initialize(views_dir, config, locals)
+    def initialize(views_dir, config, locals, request)
       @views_dir = views_dir
       @config    = config
       @locals    = locals
+      @request   = request
+    end
+
+    def session
+      @request.session
     end
 
     def encode_html(html)

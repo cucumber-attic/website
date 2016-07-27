@@ -18,6 +18,9 @@ module Website
       set :root, File.dirname(__FILE__)
       set :site, site
 
+      # For A/B testing with splitrb
+      enable :sessions
+
       configure :production do
         use Rollbar::Middleware::Sinatra
       end
@@ -44,7 +47,7 @@ module Website
             last_modified timestamps.max
           end
 
-          page.render(site)
+          page.render(site, request)
         end
       end
 

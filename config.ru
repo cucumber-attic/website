@@ -18,4 +18,15 @@ require 'newrelic_rpm'
 use Redirects::App
 use CucumberEclipse::App
 use Cucumber::Website::Static::App
+
+require 'split/dashboard'
+
+Split::Dashboard.use Rack::Auth::Basic do |username, password|
+  username == 'admin' && password == 'password'
+end
+
+map "/abtest" do
+  use Split::Dashboard
+end
+
 run Cucumber::Website::App

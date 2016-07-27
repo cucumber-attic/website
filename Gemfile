@@ -14,6 +14,7 @@ gem 'pygments.rb', '0.6.3'
 gem 'asciidoctor', '1.5.4'
 gem 'octokit', '~> 4.0'
 gem 'icalendar'
+gem 'split', '~> 1.4.4'
 # TODO: Need this to get timezone support with icalendar
 #gem 'activesupport'
 gem 'values'
