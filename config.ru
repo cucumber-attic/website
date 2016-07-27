@@ -22,7 +22,11 @@ use Cucumber::Website::Static::App
 require 'split/dashboard'
 
 Split::Dashboard.use Rack::Auth::Basic do |username, password|
-  username == 'admin' && password == 'password'
+  username == 'admin' && password == ENV['SPLIT_DASHBOARD_PASSWORD'] || 'password'
+end
+
+Split.configure do |config|
+  config.redis_url = ENV['REDIS_URL'] || 'localhost:6379'
 end
 
 map "/abtest" do
