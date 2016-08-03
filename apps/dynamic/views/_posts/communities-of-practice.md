@@ -6,14 +6,15 @@ date:     2016-08-03 10:00:00
 nav:      blog
 ---
 
-Today we’re going to be talking about communities of practice and how they can support learning in your company . Communities of Practice are “formed by people who engage in a process of collective learning in a shared domain of human endeavor” [1] 
+Today we’re going to be talking about communities of practice and exploring how they can support learning in your company. Communities of practice are “formed by people who engage in a process of collective learning in a shared domain of human endeavor”. [1]
+
 In the organisations we work with, we encourage those with similar skill sets - testers for example - to get together with others in similar roles, who work in different departments. This wider pool of individuals can then support one another in their day-to-day work.
 
 It could therefore be said agile faces a paradox; we have all battled for smaller, cross-functional teams to improve communication and learning, but are we now losing out on the wider knowledge held in other departments?
 
 Communities of Practice is addressing this.
 
-To join us to discuss the subject we’ve invited Emily Webber [(@ewebber)](https://twitter.com/ewebber), an independent agile and lean consultant, who has recently published her book “Building Successful Communities of Practice”. This week’s host, Matt Wynne, is also joined by our podcast regulars, Arti Mathanda and Seb Rose.
+To join us to discuss the subject we’ve invited [(Emily Webber)](https://twitter.com/ewebber), an independent agile and lean consultant, who has recently published her book “Building Successful Communities of Practice”. This week’s host, [(Matt Wynne)](https://twitter.com/mattwynne), is also joined by our podcast regulars, [(Arti Mathanda)](https://twitter.com/artismarti) and [(Seb Rose)](https://twitter.com/sebrose).
 
 You can find out more about Communities of Practice and Emily’s book on her [website](emilywebber.co.uk/building-success…ctice/#more-3827)
 
