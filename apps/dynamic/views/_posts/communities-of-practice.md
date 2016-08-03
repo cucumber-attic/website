@@ -10,11 +10,11 @@ Today we’re going to be talking about communities of practice and exploring ho
 
 In the organisations we work with, we encourage those with similar skill sets - testers for example - to get together with others in similar roles, who work in different departments. This wider pool of individuals can then support one another in their day-to-day work.
 
-It could therefore be said agile faces a paradox; we have all battled for smaller, cross-functional teams to improve communication and learning, but are we now losing out on the wider knowledge held in other departments?
+It could therefore be said agile faces a paradox; we've battled for smaller, cross-functional teams to improve communication and learning, but are we forfeiting wider collaboration?
 
-Communities of Practice is addressing this.
+Communities of Practice is the fightback.
 
-To join us to discuss the subject we’ve invited [(Emily Webber)](https://twitter.com/ewebber), an independent agile and lean consultant, who has recently published her book “Building Successful Communities of Practice”. This week’s host, [(Matt Wynne)](https://twitter.com/mattwynne), is also joined by our podcast regulars, [(Arti Mathanda)](https://twitter.com/artismarti) and [(Seb Rose)](https://twitter.com/sebrose).
+To join us to discuss the subject we’ve invited [Emily Webber](https://twitter.com/ewebber), an independent agile and lean consultant, who has recently published her book “Building Successful Communities of Practice”. This week’s host, [Matt Wynne](https://twitter.com/mattwynne), is also joined by our podcast regulars, [Arti Mathanda](https://twitter.com/artismarti) and [Seb Rose](https://twitter.com/sebrose).
 
 You can find out more about Communities of Practice and Emily’s book on her [website](emilywebber.co.uk/building-success…ctice/#more-3827)
 
