@@ -16,7 +16,7 @@ Communities of Practice is the fightback.
 
 To join us to discuss the subject we’ve invited [Emily Webber](https://twitter.com/ewebber), an independent agile and lean consultant, who has recently published her book “Building Successful Communities of Practice”. This week’s host, [Matt Wynne](https://twitter.com/mattwynne), is also joined by our podcast regulars, [Arti Mathanda](https://twitter.com/artismarti) and [Seb Rose](https://twitter.com/sebrose).
 
-You can find out more about Communities of Practice and Emily’s book on her [website](emilywebber.co.uk/building-success…ctice/#more-3827)
+You can find out more about Communities of Practice and Emily’s book on her [website](http://emilywebber.co.uk/building-successful-communities-of-practice/)
 
 Let us know your own experiences and thoughts about communities of practice on [twitter @cucumberbdd](twitter.com/cucumberbdd) or in the comments below.
 
