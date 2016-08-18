@@ -6,19 +6,17 @@ title: A BDD case study. How we're building Cucumber Pro
 author: theo
 ---
 
-*Edited transcript of Aslak Hellesøy's talk "Kind of Green" at CukeUp! London 2016. [Watch the talk](https://skillsmatter.com/skillscasts/7361-keynote-kind-of-green) (log-in required). 
-
 ## BDD is like jazz
 
-One of the most famous jazz records out there is called ‘Kind of Blue’ by Miles Davis, and I’m sure you’ve all heard it. I’ll get back to why I have a jazz record to talk about Behaviour-Driven Development (BDD). These are the songs on the album; I’ll get back to each one of them in turn.
+One of the most famous jazz records out there is called ‘Kind of Blue’ by Miles Davis, and I’m sure you’ve all heard it. I’ll get back to why I have a jazz record to talk about Behaviour-Driven Development (BDD). These are the songs on the album.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/song-titles.png" style="width: 70%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/song-titles.png" style="width: 50%">
 
 There was a panel at last year's conference called [‘WTF is BDD’?](https://skillsmatter.com/skillscasts/6174-wtf-is-bdd) I didn’t go myself because I was at a different conference, but I saw the recording of the panel, and I was trying to put myself in the shoes of somebody who doesn’t know what BDD is or is just starting to learn. Having watched the whole thing, I was even more confused. It was a group of basically BDD luminaries and they couldn’t agree on a single thing. They certainly couldn’t come up with any concrete examples of what BDD is. 
 
 It was all quite, in my opinion, a disappointing discussion about how it’s important not to define what BDD is. And I agree with all of that. 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/jazz-miles-davis.png" style="float:right; width:50%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/jazz-miles-davis.png" style="width:50%">
 One of the reasons I think BDD is so great is that it is a set of principles and practices that keeps evolving; we borrow from other methodologies and new people come and go and teach us new things. So I think it’s important not to nail down what it is. But that is a problem for people who are new and are just trying to learn how to do it. 
 
 Chris Matts said one really, really smart thing that I really liked from that panel. He said ‘BDD is like jazz’ – so you can’t fully describe what it is, but you can cut a vinyl of what it is today, for this particular band or this particular group. So that’s what I’m going to do today – I’m going to give you a whirlwind tour of what BDD is like for me. This is how I practice BDD now and how I [teach BDD](https://cucumber.io/training) when I go and work with organizations who are adopting BDD.
@@ -73,7 +71,7 @@ So your tests, they start looking a bit like this.
 
 So you have all of this nice business logic sitting inside something that’s completely decoupled from external devices and services. The core business logic doesn’t know *anything* about databases or message queues or web services, because we’ve isolated them through these ports.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/ui-and-web-services.png" style="width: 50%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/ui-and-web-services-2.png" style="width: 50%">
 
 And when we want to boot up the system, we just plug in the real thing here, you can have these ports connected to adapters that go out, so this is an adapter for database, adapter for a queue, adapter for a web service. Imagine this is a port for the user interface, how the user interacts. And currently, we’ve only written a little web server here, I can display this in a browser, so you can interact with this system here, whatever it is, through this port, but you can easily imagine that somebody could write a command-line client, and use exactly the same functionality, that would just plug into the same port. And you wouldn’t have to test everything again, because you’ve already tested the business logic works; you just need to test the intersection here for this new port.
 
@@ -111,5 +109,6 @@ And this is how we do BDD in my team. We don't do it this way because we want to
 
 
 ---
+This is an edited transcript of Aslak Hellesøy's talk "Kind of Green" at CukeUp! London 2016. [Watch the talk here](https://skillsmatter.com/skillscasts/7361-keynote-kind-of-green) (log-in required). 
 
 If you want to implement BDD into your organisation to benefit from faster and more maintainable software, head to our [training page](https://cucumber.io/training) for details on how we can help.
