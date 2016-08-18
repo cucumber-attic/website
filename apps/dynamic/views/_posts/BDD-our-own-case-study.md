@@ -2,7 +2,7 @@
 layout: post
 nav: blog
 date: 2016-08-17 12:00:00
-title: A BDD Case Study: How we are building Cucumber Pro
+title: A BDD case study. How we're building Cucumber Pro
 author: theo
 ---
 
