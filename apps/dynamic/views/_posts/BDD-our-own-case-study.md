@@ -6,13 +6,13 @@ title: A BDD case study. How we're building Cucumber Pro
 author: theo
 ---
 
-*Edited transcript of Aslak Hellesøy's talk "Kind of Green" at CukeUp! London 2016.* 
+*Edited transcript of Aslak Hellesøy's talk "Kind of Green" at CukeUp! London 2016. [Watch the talk](https://skillsmatter.com/skillscasts/7361-keynote-kind-of-green) (log-in required). 
 
 ## BDD is like jazz
 
 One of the most famous jazz records out there is called ‘Kind of Blue’ by Miles Davis, and I’m sure you’ve all heard it. I’ll get back to why I have a jazz record to talk about Behaviour-Driven Development (BDD). These are the songs on the album; I’ll get back to each one of them in turn.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/song-titles.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/song-titles.png" style="width: 70%">
 
 There was a panel at last year's conference called [‘WTF is BDD’?](https://skillsmatter.com/skillscasts/6174-wtf-is-bdd) I didn’t go myself because I was at a different conference, but I saw the recording of the panel, and I was trying to put myself in the shoes of somebody who doesn’t know what BDD is or is just starting to learn. Having watched the whole thing, I was even more confused. It was a group of basically BDD luminaries and they couldn’t agree on a single thing. They certainly couldn’t come up with any concrete examples of what BDD is. 
 
@@ -23,8 +23,7 @@ One of the reasons I think BDD is so great is that it is a set of principles and
 
 Chris Matts said one really, really smart thing that I really liked from that panel. He said ‘BDD is like jazz’ – so you can’t fully describe what it is, but you can cut a vinyl of what it is today, for this particular band or this particular group. So that’s what I’m going to do today – I’m going to give you a whirlwind tour of what BDD is like for me. This is how I practice BDD now and how I [teach BDD](https://cucumber.io/training) when I go and work with organizations who are adopting BDD.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/orchestra.png" style="float:right; width:50%">
- First of all, just comparing to music, BDD is not like an orchestra where you have a conductor or a project manager or maybe a product owner who tells everyone what to do. Many software projects are like that. You have this ‘conductor’ who writes down all the requirements and just sends them out to the software development team and they try to make sense out of it. That’s not how BDD works. It’s also not something that you can do alone; it’s not a solitary activity. You can’t just download Cucumber and start doing BDD. Well, I guess maybe you can, if you’re experienced with it, but if you’re new to it, certainly that is not going to get you very far. BDD is much more of a jamming, jazzy kind of thing, where you have people improvising constantly, following some rules. There are some rules in there, but it’s different and it’s new every time. There are no notes in BDD. 
+First of all, just comparing to music, BDD is not like an orchestra where you have a conductor or a project manager or maybe a product owner who tells everyone what to do. Many software projects are like that. You have this ‘conductor’ who writes down all the requirements and just sends them out to the software development team and they try to make sense out of it. That’s not how BDD works. It’s also not something that you can do alone; it’s not a solitary activity. You can’t just download Cucumber and start doing BDD. Well, I guess maybe you can, if you’re experienced with it, but if you’re new to it, certainly that is not going to get you very far. BDD is much more of a jamming, jazzy kind of thing, where you have people improvising constantly, following some rules. There are some rules in there, but it’s different and it’s new every time. There are no notes in BDD. 
 
 <img src="{{ site.url }}/images/blog/kind-of-green-aslak/example-mapping-w-3-amigos.png" style="width: 50%">
 
@@ -36,7 +35,7 @@ Together, they have this meeting which only lasts like 25 minutes and this is wh
 
 After 25 minutes, you come up with something that might look like this – 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/index-cards" style="width: 50%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/index-cards.png" style="width: 50%">
 
 This is a real example map that we created in our company for the [product](https://cucumber.io/pro) that we’re developing, and this is for the ‘search’ feature. So this is the user story, we’ve discovered a couple of rules. One rule is that we should only index Gherkin files. The product we’re making is like a collaboration tool for Cucumber. We should only index Gherkin files; we shouldn’t index other kinds of files, like Java files and Javascript files. The search should be scoped to a project. So these are two business rules that we thought were essential in this first user’s story.
 Then we came up with some questions as we were talking about this. Should we do a fuzzy match when we search or index? What about tags in Gherkin files – do we tangle them specifically? We don’t know, so we just jot them down. And then we have examples to illustrate the rules. So the green ones are examples and the blue ones are rules.
@@ -51,12 +50,11 @@ So how do we do this? So, in the above image on the right there is a feature fil
 
 Take a look at section one in the above photo. So no hits from a Java file, we have a "Given, When, Then". I’d kinda like to write it backwards, so I would have written the "Then" first because this kind of reflects the outcome – start with the end in mind.  So, I expect to see zero hits. When do I expect to see zero hits? Well, if I search for something and that content is only in a file that I don’t want to get hits from. I flesh it out a little bit and this is where we get into what Konstantin Kudryashov - who is the author of Cucumber for PhP (Behat) - calls ‘**Modelling By Example**’. Take a look at section two. Basically, we take the sentence, a file with content, and we try to write that into code. Can you see the resemblance between the plain English sentence and the code here? It’s not one to 1:1 mapping exactly, but you’ll find most of the essential pieces – there’s a file and there’s content and there’s a path. And this is written before the actual code is written. This is still test code, this is the step definition. If we run this now, depending on if you’re using a statically typed language, this won’t even compile, if you’re using a dynamically typed language, you’ll have a failing scenario. And now you have to write some code (section 3), so you write maybe a little repo class and maybe a little file class, they don’t do anything yet, but you’ve sort of pushed some classes and some methods into your system, based on what conversation you had in three amigos meeting.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/diagram-1-db.png" style="width: 50%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/unit-tests.gif" style="width: 50%">
 
 So, this might be easy to visualise. You have a Cucumber Scenario (Gherkin and Step Definition) on the left, that will lead you to write your first class, perhaps the repo class, then the file class, then there will be some persistence somewhere, you need to store this system; our system actually reads it out of Git database, but you know traditionally people use, some kind of relational database, or maybe a document database.  We can now run this scenario and it will exercise all this code. But we don’t go through UI or anything. 
 
- <img src="{{ site.url }}/images/blog/kind-of-green-aslak/with-unit-tests-diagram.png" style="width:50%">
-If you go back to the class on the illustration above, you’ll see that they are empty, so when we flesh out the details of these? Well, that’s when I’d like to do the unit tests (see right). So as soon as I’ve discovered the outside of the system, what are the immediate methods that I need to call for my step definitions, some new methods and objects fall out of that and I fleshed that out with a unit test, using traditional Kent Beck style TDD.
+If you go back to the class on the illustration ealier, you’ll see that they are empty, so when we flesh out the details of these? Well, that’s when I’d like to do the unit tests (see above). So as soon as I’ve discovered the outside of the system, what are the immediate methods that I need to call for my step definitions, some new methods and objects fall out of that and I fleshed that out with a unit test, using traditional Kent Beck style TDD.
 
 Running this starts to become a bit slow because I have to run against the database all the time and not only is it slow, it’s also difficult, because in order for me to make the tests behave consistently each time I run them, I have to make sure that every time I run a new test, whether it’s unit test or a Cucumber scenario, I need to know exactly what’s in this database; I can’t have any leftovers from a previous test I run. I certainly can’t share this database with anyone else, because they might put stuff in it when I don’t know it and then my test will fail and I won’t know why. 
  <img src="{{ site.url }}/images/blog/kind-of-green-aslak/architecture-with-stub.png" style="width:50%">
@@ -74,8 +72,6 @@ So your tests, they start looking a bit like this.
 <img src="{{ site.url }}/images/blog/kind-of-green-aslak/ports-and-adapters-w-unit-tests.png" style="width: 50%">
 
 So you have all of this nice business logic sitting inside something that’s completely decoupled from external devices and services. The core business logic doesn’t know *anything* about databases or message queues or web services, because we’ve isolated them through these ports.
-
- 
 
 <img src="{{ site.url }}/images/blog/kind-of-green-aslak/ui-and-web-services.png" style="width: 50%">
 
@@ -103,11 +99,11 @@ So, I’m gonna try to recap a little bit. So ‘**discovery workshops**’ – 
 
 ‘**Don’t Gherkin too soon’** that’s the only one that sounds a bit like a song, isn’t it? It’s just a reminder that you shouldn’t fall for the temptation of writing down requirements in Gherkin, as like an analysis phase that the business people do before development. It’s something that you do after the discovery workshop. 
 
-BAs,**don’t be the saucier.** You know in big restaurants you have the chefs, the master chefs – they don’t go and make the sauce in the kitchen. They have minions to do that and for programming, those minions should be the developers and testers, because they know the details about how to actually write that down to the low level. The BAs will come over and taste the sauce and be like ‘yup, that’s good’ – but they don’t have to make it. 
+BAs, **don’t be the saucier.** You know in big restaurants you have the chefs, the master chefs – they don’t go and make the sauce in the kitchen. They have minions to do that and for programming, those minions should be the developers and testers, because they know the details about how to actually write that down to the low level. The BAs will come over and taste the sauce and be like ‘yup, that’s good’ – but they don’t have to make it. 
 
 **Modelling by Example** – so as soon as you have those scenarios, you can use that to drive out code that uses the same words and concepts as what the domain experts talk about, so you avoid this translation cost, between problem domain jargon and solution domain jargon. Amazing! And also, it allows you to do BDD without having to go through the UI – you get much faster feedback using direct method call. So this means that you have to use the same Cucumber implementation, same language as the code you’re writing, because the way that they interact is through function calls and method calls. If you’re writing something in .NET, you should use SpecFlow. You can’t invoke .NET objects with Cucumber for Ruby. It’s really important.
 
-**Under your UI** UI tests are the worst – they are slow, they are expensive, they are really hard to fix. 
+**Under your UI** -  UI tests are the worst – they are slow, they are expensive, they are really hard to fix. 
 
 **Ports and adapters**, that is really the enabler of how you can hook in your scenarios and unit tests at a lower level, and the contract tests finally, is what gives you the confidence to do that. 
 
