@@ -8,23 +8,27 @@ author: theo
 
 *Edited transcript of Aslak Hellesøy's talk "Kind of Green" at CukeUp! London 2016.* 
 
+## BDD is like jazz
+
 One of the most famous jazz records out there is called ‘Kind of Blue’ by Miles Davis, and I’m sure you’ve all heard it. I’ll get back to why I have a jazz record to talk about Behaviour-Driven Development (BDD). These are the songs on the album; I’ll get back to each one of them in turn.
 
 <img src="{{ site.url }}/images/blog/kind-of-green-aslak/song-titles.png" style="width: 100%">
 
-There was a panel at last year's conference called ‘WTF is BDD’? I didn’t go myself because I was at a different conference, but I saw the recording of the panel, and I was trying to put myself in the shoes of somebody who doesn’t know what BDD is or is just starting to learn. Having watched the whole thing, I was even more confused. It was a group of basically BDD luminaries and they couldn’t agree on a single thing. They certainly couldn’t come up with any concrete examples of what BDD is. 
+There was a panel at last year's conference called [‘WTF is BDD’?](https://skillsmatter.com/skillscasts/6174-wtf-is-bdd) I didn’t go myself because I was at a different conference, but I saw the recording of the panel, and I was trying to put myself in the shoes of somebody who doesn’t know what BDD is or is just starting to learn. Having watched the whole thing, I was even more confused. It was a group of basically BDD luminaries and they couldn’t agree on a single thing. They certainly couldn’t come up with any concrete examples of what BDD is. 
 
 It was all quite, in my opinion, a disappointing discussion about how it’s important not to define what BDD is. And I agree with all of that. 
 
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/jazz-miles-davis.png" style="float:right; width:50%">
 One of the reasons I think BDD is so great is that it is a set of principles and practices that keeps evolving; we borrow from other methodologies and new people come and go and teach us new things. So I think it’s important not to nail down what it is. But that is a problem for people who are new and are just trying to learn how to do it. 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/jazz-miles-davis.png" style="float:right; width:50%">
 Chris Matts said one really, really smart thing that I really liked from that panel. He said ‘BDD is like jazz’ – so you can’t fully describe what it is, but you can cut a vinyl of what it is today, for this particular band or this particular group. So that’s what I’m going to do today – I’m going to give you a whirlwind tour of what BDD is like for me. This is how I practice BDD now and how I [teach BDD](https://cucumber.io/training) when I go and work with organizations who are adopting BDD.
 
- <img src="{{ site.url }}/images/blog/kind-of-green-aslak/orchestra.png" style="float:right; width:50%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/orchestra.png" style="float:right; width:50%">
  First of all, just comparing to music, BDD is not like an orchestra where you have a conductor or a project manager or maybe a product owner who tells everyone what to do. Many software projects are like that. You have this ‘conductor’ who writes down all the requirements and just sends them out to the software development team and they try to make sense out of it. That’s not how BDD works. It’s also not something that you can do alone; it’s not a solitary activity. You can’t just download Cucumber and start doing BDD. Well, I guess maybe you can, if you’re experienced with it, but if you’re new to it, certainly that is not going to get you very far. BDD is much more of a jamming, jazzy kind of thing, where you have people improvising constantly, following some rules. There are some rules in there, but it’s different and it’s new every time. There are no notes in BDD. 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/example-mapping-w-3-amigos.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/example-mapping-w-3-amigos.png" style="width: 50%">
+
+## The album
 
 So, I would like to start with the first song of the album – **Discovery Workshop**, with [The Three Amigos](http://www.velocitypartners.net/blog/2014/02/11/the-3-amigos-in-agile-teams/). This is where everything starts. You’ve got a backlog of stories, some of them are done, some you are working on, but you take a story off the backlog and take it into a room. You bring along with you three Mexican hats, very important, and underneath those hats, you put a developer, a tester and somebody who represents a business – can be a product owner or a business analyst or a domain expert, and it doesn’t have to be three. It can be four – you can have a UX person in here, you can have somebody who’s doing DevOps, but the most important is that you have representatives from business and IT.  And from IT, you have representatives from both developers and testers. 
 
@@ -32,60 +36,68 @@ Together, they have this meeting which only lasts like 25 minutes and this is wh
 
 After 25 minutes, you come up with something that might look like this – 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/cucumber-pro-example-map.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/index-cards" style="width: 50%">
 
 This is a real example map that we created in our company for the [product](https://cucumber.io/pro) that we’re developing, and this is for the ‘search’ feature. So this is the user story, we’ve discovered a couple of rules. One rule is that we should only index Gherkin files. The product we’re making is like a collaboration tool for Cucumber. We should only index Gherkin files; we shouldn’t index other kinds of files, like Java files and Javascript files. The search should be scoped to a project. So these are two business rules that we thought were essential in this first user’s story.
 Then we came up with some questions as we were talking about this. Should we do a fuzzy match when we search or index? What about tags in Gherkin files – do we tangle them specifically? We don’t know, so we just jot them down. And then we have examples to illustrate the rules. So the green ones are examples and the blue ones are rules.
 
 So, the next thing we do now is to translate this into Gherkin. Now, this is where people do this very, very differently. And this is where I come with this little intermezzo called ‘**Don’t Gherkin too soon**’. A lot of teams – they have a business analyst or the product owner write down the Gherkin, or they write down the Gherkin in the discovery workshops. *Really bad idea*. It’s a bad idea to write it down in the workshop because it’s gonna take more than 25 minutes and then everybody’s gonna get bored and you’re gonna stop doing those really, really valuable meetings. So don’t write Gherkin in those meetings when you do Example Mapping. The other thing that’s a bad idea is to have only somebody representing the business writing down the Gherkin, putting it in JIRA and then assigning it to a developer, because then you missed out on the whole conversation. What I recommend instead is just two of the three amigos. Definitely the developer, but if you have a tester it’s really valuable to have a tester do that in pairs. I never recommend that the business people should be involved in writing the Gherkin. They should *read* it afterwards, but you’re just gonna slow everything down and bore everyone if they’re gonna write it. If they do it alone what they tend to come up with is something that doesn’t work particularly well for executable specifications. 
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/cucumber-pro-example-map.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/cucumber-pro-example-map.png" style="width: 50%">
 
 So how do we do this? So, in the above image on the right there is a feature file that results from this example map. You’ll see the user’s story of the user’s story increment ends up here in the title. And then we have the rules and the questions, which is really nothing the ‘Cucumber’ needs to execute, but it’s really useful to document it for your understanding. We can just put that in the description section in the feature file, and I’m using markdown syntax here so that you can have it nicely rendered. Each of the examples becomes a scenario. I haven’t written the "Given, When, Then" here because that’s something that we do later. You might get it down to this level in the ‘three amigos’ meeting if you really want to sit and open up a laptop, but defer the "Given, When, Then" until the developer can do that after the meeting.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/executable-specifications.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/executable-specifications.png" style="width: 50%">
 
 Take a look at section one in the above photo. So no hits from a Java file, we have a "Given, When, Then". I’d kinda like to write it backwards, so I would have written the "Then" first because this kind of reflects the outcome – start with the end in mind.  So, I expect to see zero hits. When do I expect to see zero hits? Well, if I search for something and that content is only in a file that I don’t want to get hits from. I flesh it out a little bit and this is where we get into what Konstantin Kudryashov - who is the author of Cucumber for PhP (Behat) - calls ‘**Modelling By Example**’. Take a look at section two. Basically, we take the sentence, a file with content, and we try to write that into code. Can you see the resemblance between the plain English sentence and the code here? It’s not one to 1:1 mapping exactly, but you’ll find most of the essential pieces – there’s a file and there’s content and there’s a path. And this is written before the actual code is written. This is still test code, this is the step definition. If we run this now, depending on if you’re using a statically typed language, this won’t even compile, if you’re using a dynamically typed language, you’ll have a failing scenario. And now you have to write some code (section 3), so you write maybe a little repo class and maybe a little file class, they don’t do anything yet, but you’ve sort of pushed some classes and some methods into your system, based on what conversation you had in three amigos meeting.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/diagram-1-db.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/diagram-1-db.png" style="width: 50%">
 
 So, this might be easy to visualise. You have a Cucumber Scenario (Gherkin and Step Definition) on the left, that will lead you to write your first class, perhaps the repo class, then the file class, then there will be some persistence somewhere, you need to store this system; our system actually reads it out of Git database, but you know traditionally people use, some kind of relational database, or maybe a document database.  We can now run this scenario and it will exercise all this code. But we don’t go through UI or anything. 
 
- <img src="{{ site.url }}/images/blog/kind-of-green-aslak/with-unit-tests-diagram.png" style="float:right; width:50%">
+ <img src="{{ site.url }}/images/blog/kind-of-green-aslak/with-unit-tests-diagram.png" style="width:50%">
 If you go back to the class on the illustration above, you’ll see that they are empty, so when we flesh out the details of these? Well, that’s when I’d like to do the unit tests (see right). So as soon as I’ve discovered the outside of the system, what are the immediate methods that I need to call for my step definitions, some new methods and objects fall out of that and I fleshed that out with a unit test, using traditional Kent Beck style TDD.
 
 Running this starts to become a bit slow because I have to run against the database all the time and not only is it slow, it’s also difficult, because in order for me to make the tests behave consistently each time I run them, I have to make sure that every time I run a new test, whether it’s unit test or a Cucumber scenario, I need to know exactly what’s in this database; I can’t have any leftovers from a previous test I run. I certainly can’t share this database with anyone else, because they might put stuff in it when I don’t know it and then my test will fail and I won’t know why. 
- <img src="{{ site.url }}/images/blog/kind-of-green-aslak/architecture-with-stub.png" style="float:right; width:50%">
+ <img src="{{ site.url }}/images/blog/kind-of-green-aslak/architecture-with-stub.png" style="width:50%">
 What I really want to do is have  which needs to read and write files, I want it to talk to some kind of stub instead, so from the perspective of the domain logic looks exactly the same, but the implementation is just an in-memory stub implementation. 
 
 And this is something that a lot of people are familiar with this, but they don’t really know how to do it, and also they don’t know how can they trust that the stub works in the same way as the real thing. If I need to read stuff from a database, what confidence can I possibly get by testing my system against something else? I think that’s a mental block that people have in order to adopt this practice and use stubs. 
 
 What we’ve come up with is a way for you to gain that confidence and we call that ‘contract tests’. 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/architecture-contract-tests.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/architecture-contract-tests.png" style="width: 50%">
 
 Think of these two things here as something you can plug into a socket, we call this a port. The thing that sits on the other side doesn’t really need to know what’s on the other side; this green thing here only knows that it’s talking to this port here to store and retrieve stuff, but it doesn’t know what it’s actually going to do on the other side. And we can write a unit test that will talk to this port and we can run that unit test for both the real implementation and for the stub implementation. And that will give us confidence that the stub is just as good as the real thing. And as we go along, we will discover that the stub doesn’t do exactly what the real thing needs to do, but then we just add another test and we make it do that, but that just opens up a whole new universe of nice to deal with automated tests, because you can plug this thing out for most of your testing; you only plug it back in when you actually boot up the system and put it in production.
 
 So your tests, they start looking a bit like this.
 
-<img src="{{ site.url }}/images/blog/kind-of-green-aslak/ports-and-adapters-w-unit-tests.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/ports-and-adapters-w-unit-tests.png" style="width: 50%">
 
 So you have all of this nice business logic sitting inside something that’s completely decoupled from external devices and services. The core business logic doesn’t know *anything* about databases or message queues or web services, because we’ve isolated them through these ports.
 
-And when we want to boot up the system, we just plug in the real thing here 
+ 
 
-***INSERT PICTURE **** and you can have these ports connected to adapters that go out, so this is an adapter for database, adapter for a queue, adapter for a web service. Imagine this is a port for the user interface, how the user interacts. And currently, we’ve only written a little web server here, I can display this in a browser, so you can interact with this system here, whatever it is, through this port, but you can easily imagine that somebody could write a command-line client, and use exactly the same functionality, that would just plug into the same port. And you wouldn’t have to test everything again, because you’ve already tested the business logic works; you just need to test the intersection here for this new port.
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/ui-and-web-services.png" style="width: 50%">
 
-So we can switch these in and out. I’ve added some stuff on the right here ***INSERT PICTURE***. Do any of you use Selenium? Right. Do you love how fast and reliable it is? No, you don’t and that's because what I think most of you do is: you have Cucumber talking to Selenium, talking to a browser, going down through all your business logic and I bet that you didn’t connect stubs up; you probably connected it straight to the database. And that is fine for a very, very tiny fraction of your tests. 
+And when we want to boot up the system, we just plug in the real thing here, you can have these ports connected to adapters that go out, so this is an adapter for database, adapter for a queue, adapter for a web service. Imagine this is a port for the user interface, how the user interacts. And currently, we’ve only written a little web server here, I can display this in a browser, so you can interact with this system here, whatever it is, through this port, but you can easily imagine that somebody could write a command-line client, and use exactly the same functionality, that would just plug into the same port. And you wouldn’t have to test everything again, because you’ve already tested the business logic works; you just need to test the intersection here for this new port.
 
-You need something that goes through the whole depth of your stack, in order to get that confidence. But if all your tests are like that, you’re in a really, really bad place.
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/selenium.png" style="width: 50%">
+
+So we can switch these in and out. I’ve added some stuff at the top here. Do any of you use Selenium? Right. Do you love how fast and reliable it is? No, you don’t and that's because what I think most of you do is: you have Cucumber talking to Selenium, talking to a browser, going down through all your business logic and I bet that you didn’t connect stubs up; you probably connected it straight to the database. And that is fine for a very, very tiny fraction of your tests. 
+
+*You need something that goes through the whole depth of your stack, in order to get that confidence. But if all your tests are like that, you’re in a really, really bad place.*
 
 You’re in a place where if something goes wrong, you can’t diagnose where the problem is because it can be anywhere. I call that diagnostic precision, something doctors talk about, being able to find out what’s wrong. You can’t do that with these sorts of tests. They’re really, really brittle, because if you have a change up here, it’s gonna break all your tests. And where do you think your application changes most often? In the UI! That’s what keeps changing all the time because we need to keep up with the latest UI trends and we need to respond to customer feedback. The business logic tends to change a lot slower. That changes more in the pace of the business strategy, whatever the business is capable of doing. So, you really want to connect the tests to the part of the application that doesn’t change so frequently, so that you can have more easily maintainable tests.
 
-The last thing is speed. ****INSERT**** This here, and imagine if we connected those red ones instead of the grey ones, one of those tests typically take like 5 seconds or more, right? If you test everything like this, we’re talking 2-3 orders of magnitude faster! One test can test something complicated in the business domain – can typically take like 5 milliseconds. Do you know why? Because there’s no Input/Output. All the IO tends to happen outside of these ports. There’s IO when you have a browser involved, there’s IO when you have a database involved or web service – but we’ve stripped all that stuff away. That means we can run thousands of tests in a second, or at least thousands of tests in a minute. 
+<img src="{{ site.url }}/images/blog/kind-of-green-aslak/speed-and-ui.gif" style="width: 50%">
+
+The last thing is speed. This here, and imagine if we connected those red ones instead of the grey ones, one of those tests typically take like 5 seconds or more, right? If you test everything like this, we’re talking 2-3 orders of magnitude faster! One test can test something complicated in the business domain – can typically take like 5 milliseconds. Do you know why? Because there’s no Input/Output. All the IO tends to happen outside of these ports. There’s IO when you have a browser involved, there’s IO when you have a database involved or web service – but we’ve stripped all that stuff away. That means we can run thousands of tests in a second, or at least thousands of tests in a minute. 
 
 <img src="{{ site.url }}/images/blog/kind-of-green-aslak/test-pyramid.png" style="float:right; width:50%">
 
 So what you really want to do – you want to have many different kinds of tests, you want to have many, many unit tests, quite a few tests that don't go through all this heavy infrastructure components, and then you want to have very few ones that go through the UI. This is called the Test Pyramid (see right). This is kind of like the Holy Grail. If you want to do BDD efficiently, you have to be able to decouple your business logic from all of those slow and brittle devices that sit outside of it. So, **ports and adapters**, that’s a pattern - you can also find it under hexagonal architecture – it’s a pattern with two names, it’s the same thing, and those contract tests which basically allows you to gain the confidence that plugging in the stub is just as good as using the real thing. That is the missing link to moving your tests down to these layers. And it’s only when you’ve done that, that you’re able to have lots of feedback really, really quickly.
+
+## Concluding thoughts
 
 So, I’m gonna try to recap a little bit. So ‘**discovery workshops**’ – they are great for getting feedback on your understanding. You can weed out a lot of bad assumptions before you even start developing, if you just put these people in the same room and run this structured conversation. And ‘**three amigos**’ – that’s the people who come to this meeting. You need people with different perspectives because people with different perspectives tend to misunderstand each other and they need to be in the same room. You can’t communicate through JIRA tickets; you have to put them in the same room. **Example Mapping** – that is just a technique that we use when we’re in the ‘three amigos’ meeting to have a structured conversation around breaking user stories down. 
 
