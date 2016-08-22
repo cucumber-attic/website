@@ -116,117 +116,51 @@ section#schedule
   .content
     .wrap
       .schedule
-        h1.date 19 Nov 2015
+        h1.date 19 Nov 2016
         ol.schedule-list
           li.schedule-item
-            .time 08:30 - 09:10
+            .time 08:15 - 08:50
             .talk Registration
           li.schedule-item
-            .time 09:10 - 09:15
+            .time 08:50 - 09:00
             .talk Welcome
-          li.schedule-item
+          li.schedule-item.openable
+            .time 09:00 - 09:15
+            .talk
+              | Delivering software with BDD
+              .speaker Seb Rose
+              .synopsis
+                p Behaviour-Driven Development has dramatically changed the way many organisations deliver software. Tools like Cucumber and techniques like Example Mapping are strengthening ties between IT and business, resulting in more predictable and maintainable software with less bugs. In this short talk, Seb Rose - author of The Cucumber Book and founder of Cucumber Ltd - will outline the fundamentals of BDD, and how your business can benefit. 
             .time 09:15 - 09:45
             .talk
-              | Keynote: Building Quality Into the Process, not the Product
-              .speaker Sharon Robson
+              | How to create your career while building better software.
+              .speaker Shirley Tricker
               .synopsis
-                p Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.
+                p If you're attending this conference, you care about building better software - you're willing to challenge the way that things are done and to try new ways of working.
+                p But do you do the same for your career? This talk is not about software, it's all about you and how to be valuable and employable. It's about how to feel in control of your options and confident about navigating the new ways of working.
           li.schedule-item
             .time 09:45 - 10:00
             .break Break
           li.schedule-item.openable
             .time 10:00 - 10:30
             .talk
-              | Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour Driven Development
-              .speaker John Smart
-              .synopsis
-                p Behaviour Driven Development is a powerful collaboration technique that can empower teams to deliver higher value features to the business faster and more effectively. But although Behaviour Driven Development is based on a number of simple principles, it can go dramatically wrong in a myriad of different ways.
-                p In this talk we discuss twelve BDD anti-patterns we frequently encounter in real-world BDD projects, anti-patterns that can dramatically reduce the effectiveness of BDD as a practice, and that can even cause BDD adoption to fail entirely. Looking at everything from insufficient collaboration practices to poor use of test automation tooling, from teams that test too much to teams that forget the most important scenarios, we will look at the many different ways that BDD can go wrong, and how it should be done.
-                p We will use real-world examples to illustrate each of these anti-patterns. You will learn how to spot these issues in your own projects, and more importantly how to avoid them in the first place.
+            | Testing the Tax Office with BDD and SpecFlow
+            .speaker Andrew Smith
+            .synopsis
+              p The Australian Taxation Office is gradually replacing systems that businesses, their accountants and taxation practitioners have been using for years to lodge obligations and reports. This is a slow-motion train wreck for both the lodging parties and their software providers.
+              p The ATO's "reporting taxonomy" currently supports 63 forms, each with one or more variations (tax returns for instance get a different variation every year). Together they make up 40MB of schemata in 1,469 files. The "definitions taxonomy" on which these forms are based comprises 174MB in 6,095 files.
+              p This talk describes how MYOB addressed the problem of testing this mess. In it, we will try to answer the following questions:
+              p How do you grapple with such a complex and constantly shifting problem domain without going completely insane?
+              p How do you create a testing regime that can be maintained and extended by non-technical domain practitioners but which can also be integrated with a build pipeline?
+              p What have we learned from this approach? What is going right? What is going wrong? What about the alternatives?
+              p Finally, how would you go about applying this approach to other problem domains?
           li.schedule-item
-            .time 10:30 - 11:00
+            .time 10:30 - 10:40
             .break Break
           li.schedule-item.openable
-            .time 11:00 - 12:30
-            .workshops
-              | Workshops
-              .workshop
-                | Example Mapping
-                .speaker Matt Wynne
-                .synopsis
-                  p In this session I'll teach you a simple, practical technique that you can use to break down any user story.
-                  p BDD and ATDD enthusiasts already know how useful it is to have the three amigos - tester, product owner and developer - meet to discuss a new user story before they start development. What many teams don't have is a clear structure for these conversations. Sometimes they can take a long time, or drain the group's energy by going round in circles.
-                  p Over many years of teaching hundreds of people about BDD, I've developed a simple practical technique that will allow you to break down a story in about 25 minutes. All you need is a pack of coloured index cards, some pens, and a curious attitude.
-
-                  p Learning Outcomes:
-                  ul
-                    li the purpose of a three amigos session
-                    li a practical technique for visualising what you know, and don't know about a user story
-                    li the difference between rules and examples
-              .workshop
-                | Backlog Refinement Workshop Simulation (in the context of Large Scale Scrum).
-                .speaker Terry Yin
-                .synopsis
-                  p In this workshop, we’ll explore the requirement refinement practices from the situation of “1 stakeholder + 1 developer” to “several stakeholders + 2~8 teams”. We’ll talk about the situation of “8+ teams working on the same product in theory at the end.
-                  p Cucumber specifications will be used both as a communication tool and the major part of the output of the workshop.
-                  p Definition of PBR in Scrum or Large Scale Scrum:
-                  p Ongoing Product Backlog Refinement (PBR) is needed within each Sprint to refine items to be ready for future Sprints. Key activities of PBR are (1) splitting big items, (2) detailing items until ready, and (3) estimating. In the spirit of empirical process control, Scrum does not say how to do PBR, though suggests that the Team spend no more than 10% of their Sprint capacity on it. It usually happens “mid-Sprint.” (https://less.works/less/framework/product-backlog-refinement.html)
-
-          li.schedule-item
-            .time 12:30 - 13:30
-            .break Lunch
-          li.schedule-item.openable
-            .time 13:30 - 15:00
-            .workshops
-              | Workshops
-              .workshop
-                | BDD in the Key of Design - Integrating DDD and UXD
-                .speaker Paul Rayner
-                .synopsis
-                  p This intense and engaging hands-on workshop will give you the opportunity to learn and practice proven techniques for integrating collaborative design techniques into your practice of BDD.
-                  
-                  p Domain-Driven Design (DDD) and User Experience Design (UXD) are disciplines with tremendous value on their own, but when combined together with BDD are a potent combination for making software development more productive and fulfilling.  In groups we will collaboratively work through an example of applying simple design techniques such as Event Storming and low-fidelity mockups alongside BDD, to show how this can dramatically increase shared understanding and provide a context for doing BDD well. 
-                  
-                  p No laptop is required, and all materials will be provided. Come along willing to participate, collaborate, and learn while having fun doing it.
-              .workshop
-                | BDD Hands On
-                .speaker Tim Myerscough
-                .synopsis
-                  p People do BDD wrong and completely miss the point.
-                  ul
-                    li It’s not about UI testing
-                    li Its not about automation testing
-                    li It’s about defining behaviour, shared understanding and scoping work. Using a combination of full group brainstorming and small group working, attendees will learn how to do BDD properly, taking an initial concept and working to develop and discuss the features and scenarios to automate.
-          li.schedule-item
-            .time 15:00 - 15:15
-            .break Break
-          li.schedule-item.openable
-            .time 15:15 - 15:45
-            .talk
-              | An evolution of BDD and co-creation within a cross-functional team
-              .speaker Adam Taylor
-              .synopsis
-                p Though all teams work differently at ustwo, depending on what works best for them and the context of their project, there’s a workflow that’s becoming popular for projects that result in product delivery. Within this workflow, how we do BDD is something that’s evolved rapidly and has become integral to the way we work not only internally, but also with our clients (who often fulfil the product owner role).
-
-                p Of course the workflow I reference above is the outcome of a great deal of trial and error, and it’s this journey that I’d love to share with everyone, with a strong focus on collaboration (especially between disciplines) and the role BDD plays within that.
-
-                p What you’ll get from this session is insight on our journey and learnings towards building teams and processes that have resulted in products people love.
-
-                p This will be a non-technical talk.
-          li.schedule-item
-            .time 15:45 - 16:00
-            .break Break
-          li.schedule-item.openable
-            .time 16:00 - 16:30
-            .talk
-              | BDD is Dead. Long Live BDD.
-              .speaker Lilly Ryan and Jaksha Shah
-              .synopsis
-                p Behaviour Driven Development has been touted for many years now as the one and only way to develop tested (and testable) software. However, we have found that this approach is not a “one size fits all” solution, and can fail teams in many cases. Nasty test retrofits, scope creep, and additional bottlenecks are all ways in which BDD can throw your beloved project under the bus, without improving the quality of your work one iota.
-                p What, then, is the future of BDD? Taking the time to assess the behaviour of a team itself can often drive the way that team does development, so by moving our view of BDD from development practice to team working practice, we can help teams mature in a way that works for them - and for their end product. We would like to take you on this journey with us by providing some insights into ways that we have seen BDD pass and fail in different teams.
-          li.schedule-item
-            .time 16:30 - Late
-            .talk Pizza and Drinks
+            .time 10:40 - 11:10
+            .talks
+              | Lightning talks
 
         h1.date 20 Nov 2015
         ol.schedule-list
