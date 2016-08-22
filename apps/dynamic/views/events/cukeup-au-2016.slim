@@ -27,9 +27,11 @@ header#leaderboard
       nav.main
         ul
           li
+            a href="#schedule" Schedule
+          li
             a href="#speakers" Speakers
           li
-            a href="https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md" Code of Conduct
+            a href="https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md" Code of conduct
           li
             a href="https://www.getdrip.com/forms/98708717/submissions/new" Newsletter
           li
@@ -110,7 +112,223 @@ section#whatis
 
     p CukeUp is a conference for anyone who wants to get better at BDD.
 
+section#schedule
+  .content
+    .wrap
+      .schedule
+        h1.date 19 Nov 2015
+        ol.schedule-list
+          li.schedule-item
+            .time 08:30 - 09:10
+            .talk Registration
+          li.schedule-item
+            .time 09:10 - 09:15
+            .talk Welcome
+          li.schedule-item
+            .time 09:15 - 09:45
+            .talk
+              | Keynote: Building Quality Into the Process, not the Product
+              .speaker Sharon Robson
+              .synopsis
+                p Sharon will discuss how the various teams she has worked with in the past have integrated quality into the way they are working by using simple and easy process and mindset changes to maximise the quality of their products. She will cover the ideas of code/test ownership, manual testing by developers, cross team ownership of the solution and true understanding of "quality" from the beginning of the work cycle.
+          li.schedule-item
+            .time 09:45 - 10:00
+            .break Break
+          li.schedule-item.openable
+            .time 10:00 - 10:30
+            .talk
+              | Twelve BDD Anti-Patterns: Stories from the Trenches about how NOT to do Behaviour Driven Development
+              .speaker John Smart
+              .synopsis
+                p Behaviour Driven Development is a powerful collaboration technique that can empower teams to deliver higher value features to the business faster and more effectively. But although Behaviour Driven Development is based on a number of simple principles, it can go dramatically wrong in a myriad of different ways.
+                p In this talk we discuss twelve BDD anti-patterns we frequently encounter in real-world BDD projects, anti-patterns that can dramatically reduce the effectiveness of BDD as a practice, and that can even cause BDD adoption to fail entirely. Looking at everything from insufficient collaboration practices to poor use of test automation tooling, from teams that test too much to teams that forget the most important scenarios, we will look at the many different ways that BDD can go wrong, and how it should be done.
+                p We will use real-world examples to illustrate each of these anti-patterns. You will learn how to spot these issues in your own projects, and more importantly how to avoid them in the first place.
+          li.schedule-item
+            .time 10:30 - 11:00
+            .break Break
+          li.schedule-item.openable
+            .time 11:00 - 12:30
+            .workshops
+              | Workshops
+              .workshop
+                | Example Mapping
+                .speaker Matt Wynne
+                .synopsis
+                  p In this session I'll teach you a simple, practical technique that you can use to break down any user story.
+                  p BDD and ATDD enthusiasts already know how useful it is to have the three amigos - tester, product owner and developer - meet to discuss a new user story before they start development. What many teams don't have is a clear structure for these conversations. Sometimes they can take a long time, or drain the group's energy by going round in circles.
+                  p Over many years of teaching hundreds of people about BDD, I've developed a simple practical technique that will allow you to break down a story in about 25 minutes. All you need is a pack of coloured index cards, some pens, and a curious attitude.
 
+                  p Learning Outcomes:
+                  ul
+                    li the purpose of a three amigos session
+                    li a practical technique for visualising what you know, and don't know about a user story
+                    li the difference between rules and examples
+              .workshop
+                | Backlog Refinement Workshop Simulation (in the context of Large Scale Scrum).
+                .speaker Terry Yin
+                .synopsis
+                  p In this workshop, we’ll explore the requirement refinement practices from the situation of “1 stakeholder + 1 developer” to “several stakeholders + 2~8 teams”. We’ll talk about the situation of “8+ teams working on the same product in theory at the end.
+                  p Cucumber specifications will be used both as a communication tool and the major part of the output of the workshop.
+                  p Definition of PBR in Scrum or Large Scale Scrum:
+                  p Ongoing Product Backlog Refinement (PBR) is needed within each Sprint to refine items to be ready for future Sprints. Key activities of PBR are (1) splitting big items, (2) detailing items until ready, and (3) estimating. In the spirit of empirical process control, Scrum does not say how to do PBR, though suggests that the Team spend no more than 10% of their Sprint capacity on it. It usually happens “mid-Sprint.” (https://less.works/less/framework/product-backlog-refinement.html)
+
+          li.schedule-item
+            .time 12:30 - 13:30
+            .break Lunch
+          li.schedule-item.openable
+            .time 13:30 - 15:00
+            .workshops
+              | Workshops
+              .workshop
+                | BDD in the Key of Design - Integrating DDD and UXD
+                .speaker Paul Rayner
+                .synopsis
+                  p This intense and engaging hands-on workshop will give you the opportunity to learn and practice proven techniques for integrating collaborative design techniques into your practice of BDD.
+                  
+                  p Domain-Driven Design (DDD) and User Experience Design (UXD) are disciplines with tremendous value on their own, but when combined together with BDD are a potent combination for making software development more productive and fulfilling.  In groups we will collaboratively work through an example of applying simple design techniques such as Event Storming and low-fidelity mockups alongside BDD, to show how this can dramatically increase shared understanding and provide a context for doing BDD well. 
+                  
+                  p No laptop is required, and all materials will be provided. Come along willing to participate, collaborate, and learn while having fun doing it.
+              .workshop
+                | BDD Hands On
+                .speaker Tim Myerscough
+                .synopsis
+                  p People do BDD wrong and completely miss the point.
+                  ul
+                    li It’s not about UI testing
+                    li Its not about automation testing
+                    li It’s about defining behaviour, shared understanding and scoping work. Using a combination of full group brainstorming and small group working, attendees will learn how to do BDD properly, taking an initial concept and working to develop and discuss the features and scenarios to automate.
+          li.schedule-item
+            .time 15:00 - 15:15
+            .break Break
+          li.schedule-item.openable
+            .time 15:15 - 15:45
+            .talk
+              | An evolution of BDD and co-creation within a cross-functional team
+              .speaker Adam Taylor
+              .synopsis
+                p Though all teams work differently at ustwo, depending on what works best for them and the context of their project, there’s a workflow that’s becoming popular for projects that result in product delivery. Within this workflow, how we do BDD is something that’s evolved rapidly and has become integral to the way we work not only internally, but also with our clients (who often fulfil the product owner role).
+
+                p Of course the workflow I reference above is the outcome of a great deal of trial and error, and it’s this journey that I’d love to share with everyone, with a strong focus on collaboration (especially between disciplines) and the role BDD plays within that.
+
+                p What you’ll get from this session is insight on our journey and learnings towards building teams and processes that have resulted in products people love.
+
+                p This will be a non-technical talk.
+          li.schedule-item
+            .time 15:45 - 16:00
+            .break Break
+          li.schedule-item.openable
+            .time 16:00 - 16:30
+            .talk
+              | BDD is Dead. Long Live BDD.
+              .speaker Lilly Ryan and Jaksha Shah
+              .synopsis
+                p Behaviour Driven Development has been touted for many years now as the one and only way to develop tested (and testable) software. However, we have found that this approach is not a “one size fits all” solution, and can fail teams in many cases. Nasty test retrofits, scope creep, and additional bottlenecks are all ways in which BDD can throw your beloved project under the bus, without improving the quality of your work one iota.
+                p What, then, is the future of BDD? Taking the time to assess the behaviour of a team itself can often drive the way that team does development, so by moving our view of BDD from development practice to team working practice, we can help teams mature in a way that works for them - and for their end product. We would like to take you on this journey with us by providing some insights into ways that we have seen BDD pass and fail in different teams.
+          li.schedule-item
+            .time 16:30 - Late
+            .talk Pizza and Drinks
+
+        h1.date 20 Nov 2015
+        ol.schedule-list
+          li.schedule-item
+            .time 08:30 - 09:10
+            .talk Registration
+          li.schedule-item
+            .time 09:10 - 09:15
+            .talk Welcome Back
+          li.schedule-item.openable
+            .time 09:15 - 09:45
+            .talk
+              | Keynote: When your testing is in a pickle
+              .speaker Anne-Marie Charrett
+          li.schedule-item
+            .time 09:45 - 10:00
+            .break Break
+          li.schedule-item.openable
+            .time 10:00 - 10:30
+            .talk
+              | “BDD and Testing are getting Divorced” - It will be messy, but better for the kids in the long run
+              .speaker Hamish Tedeschi
+              .synopsis
+                p This session will be a lighthearted look at how testing and BDD have commonly been grouped together, why they continue to be (by supposed gurus), why it is a problem and what we can do about it. In this session you will learn how to separate the two and why it will be better for everyone in the long run.
+          li.schedule-item
+            .time 10:30 - 11:00
+            .break Break
+          li.schedule-item.openable
+            .time 11:00 - 12:30
+            .workshops
+              | Workshops
+              .workshop
+                | Fun. Frustration. Agile 101.
+                .speaker Elise Aplin and Jaksha Shah
+                .synopsis
+                  p Every year Thoughtworks trains hundreds of graduate recruits in the principles of Agile software development. While a vast amount of this training involves working in simulated projects we also throw in a healthy dose of collaborative games to drive home the pain of late integration, unknown requirements and unclear quality standards. In this session we will use our experience as trainers at ThoughtWorks University to put you through your Agile paces. At the end of the session you will have ideas on how to run your own workshops to introduce Agile practices to complete newbies. Expect a healthy dose of fun, frustration and edification.
+              .workshop
+                | An introduction to automated acceptance testing with Cucumber and Serenity
+                .speaker John Smart
+          li.schedule-item
+            .time 12:30 - 13:30
+            .break Lunch
+          li.schedule-item.openable
+            .time 13:30 - 15:00
+            .workshops
+              | Workshops
+              .workshop
+                | Impact Mapping, BPP and Giant Squid
+                .speaker Peter Merel
+                .synopsis
+                  p Real product roadmaps are like what you see on google - a landscape of different routes with different assumptions behind them. Except instead of routes, a product exists in a landscape of epics.
+
+                  p We often see product roadmaps that are really just one-way plans. When a roadmap is just a plan you risk delivering a product with good intrinsic quality but poor fit to market. Which is to say, poor impact.
+
+                  p Gojko Adzic's Impact Mapping provide a way for a team to map the epic landscape in terms of quantifiable assumptions. So we can evaluate it breadth-first and iteratively reduce its scope to yield a product plan that represents a global maximum of impact.
+
+                  p BPP adds a set of simple collaborative games to concrete such a plan into BDD scenarios. These games include:
+
+                  ul
+                    li Feature Mapping, which uses themes as categories of acceptance criteria to help a product squad get to closure on a feature set.
+
+                    li Business Bingo, a way to cost and prioritize the mapped features by ROI and COD.
+
+                    li Release Refactoring, which fits feature budgets to capacity, throughput and calendar constraints.
+
+                    li Squad Orchestration, which optimizes the resource profiles of our delivery teams to minimize technical dependency cycles.
+
+                    p This workshop will workshop these techniques in a fun fictional context - a mad scientist working to enable an army of giant squids to take over the world!
+              .workshop
+                | Be the Collaboration Hero Your Agile Team Needs You to Be
+                .speaker Em Campbell-Pretty
+                .synopsis
+                  p Collaboration (and facilitating collaboration) often sound like soft skills to most techies. In truth, they are the secret power that agile heros use to help their teams build better software. 
+                  p In this interactive session, up and coming agile heros will learn why facilitating collaboration is critical to Agile success and become equipped with the super powers needed to run collaborative meetings. Attendees will discover techniques for gathering insights, bringing forth divergence, guiding constructive conflict, moving to convergence and gaining consensus.
+                  p Armed with these practices, attendees will leave with the basics to facilitate brainstorming, hear all voices in a meeting, and gain the strength of team-wide consensus. 
+
+          li.schedule-item
+            .time 15:00 - 15:15
+            .break Break
+          li.schedule-item.openable
+            .time 15:15 - 15:45
+            .talk
+              | The 10 Do’s and 500* Don’ts of Automated Acceptance Testing
+              .speaker Alister Scott
+              .synopsis
+                p Automated acceptance tests/executable specifications are a key part of sustainable software delivery, but most teams struggle to implement these in an efficient, productive way without hindering velocity. Alister will share a few ways to move towards successful automated acceptance testing, and many traps of automated acceptance testing, so you achieve business confidence of every commit in a continuous delivery environment.
+                p
+                  | *Note: talk may or may not include 500 don’ts.
+          li.schedule-item
+            .time 15:45 - 16:00
+            .break Break
+          li.schedule-item
+            .time 16:00 - 16:30
+            .talk
+              | Talk
+              .speaker Matt Wynne
+          li.schedule-item
+            .time 16:30 - 16:45
+            .break Break
+          li.schedule-item
+            .time 16:45 - 17:30
+            .talk Panel Discussion and Goodbye
 
 section#quotes
   .wrap
