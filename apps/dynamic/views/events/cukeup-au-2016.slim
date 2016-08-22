@@ -27,9 +27,11 @@ header#leaderboard
       nav.main
         ul
           li
+            a href="#schedule" Schedule
+          li
             a href="#speakers" Speakers
           li
-            a href="https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md" Code of Conduct
+            a href="https://github.com/cucumber/cucumber/blob/master/CODE_OF_CONDUCT.md" Code of conduct
           li
             a href="https://www.getdrip.com/forms/98708717/submissions/new" Newsletter
           li
@@ -110,7 +112,115 @@ section#whatis
 
     p CukeUp is a conference for anyone who wants to get better at BDD.
 
+section#schedule
+  .content
+    .wrap
+      .schedule
+        h1.date 19 Nov 2016
+        ol.schedule-list
+          li.schedule-item
+            .time 08:15 - 08:50
+            .talk Registration
+          li.schedule-item
+            .time 08:50 - 09:00
+            .talk Welcome
+          li.schedule-item.openable
+            .time 09:00 - 09:15
+            .talk
+              | Delivering software with BDD
+              .speaker Seb Rose
+              .synopsis
+                p Behaviour-Driven Development has dramatically changed the way many organisations deliver software. Tools like Cucumber and techniques like Example Mapping are strengthening ties between IT and business, resulting in more predictable and maintainable software with less bugs. In this short talk, Seb Rose - author of The Cucumber Book and founder of Cucumber Ltd - will outline the fundamentals of BDD, and how your business can benefit. 
+            .time 09:15 - 09:45
+            .talk
+              | How to create your career while building better software.
+              .speaker Shirley Tricker
+              .synopsis
+                p If you're attending this conference, you care about building better software - you're willing to challenge the way that things are done and to try new ways of working.
+                p But do you do the same for your career? This talk is not about software, it's all about you and how to be valuable and employable. It's about how to feel in control of your options and confident about navigating the new ways of working.
+          li.schedule-item
+            .time 09:45 - 10:00
+            .break Break
+          li.schedule-item.openable
+            .time 10:00 - 10:30
+            .talk
+              | Testing the Tax Office with BDD and SpecFlow
+              .speaker Andrew Smith
+              .synopsis
+                p The Australian Taxation Office is gradually replacing systems that businesses, their accountants and taxation practitioners have been using for years to lodge obligations and reports. This is a slow-motion train wreck for both the lodging parties and their software providers.
+                p The ATO's "reporting taxonomy" currently supports 63 forms, each with one or more variations (tax returns for instance get a different variation every year). Together they make up 40MB of schemata in 1,469 files. The "definitions taxonomy" on which these forms are based comprises 174MB in 6,095 files.
+                p This talk describes how MYOB addressed the problem of testing this mess. In it, we will try to answer the following questions:
+                p How do you grapple with such a complex and constantly shifting problem domain without going completely insane?
+                p How do you create a testing regime that can be maintained and extended by non-technical domain practitioners but which can also be integrated with a build pipeline?
+                p What have we learned from this approach? What is going right? What is going wrong? What about the alternatives?
+                p Finally, how would you go about applying this approach to other problem domains?
+          li.schedule-item
+            .time 10:30 - 10:40
+            .break Break
+          li.schedule-item.openable
+            .time 10:40 - 11:10
+            .talk
+              | Lightning talks
+          li.schedule-item
+            .time 11:10 - 11:25
+            .break Break
+          li.schedule-item.openable
+            .time 11:25 - 12:55
+            .workshops
+              | Workshops
+              .workshop
+                | Extreme Leadership
+                .speaker Em Campbell-Pretty
+                .synopsis
+                  p We have diluted the meaning of leadership to such a profound degree that it’s become just another label. But LEADERSHIP is not that easy, so we con ourselves into believing that the WORD is the same as the ACTION.” - Steve Farber
+                  p This workshop is for anyone in any role with any title who wants to have an impact on the world around them. In this 90 minute n this session we will explore the Extreme Leadership Framework from Steve Farber's book The Radical Leap and learn how to put the meaning back into the word leadership. You will learn how to: tap into what you Love about what you do; create Energy around your ideas; inspire Audacity; and provide Proof that your vision is worthwhile. 
+                  p Be prepared to step outside your comfort zone, face your fear and change the world!
+              .workshop
+                | Breaking down user stories
+                .speaker Seb Rose
+          li.schedule-item
+            .time 12:55 - 13:55
+            .break Lunch
+          li.schedule-item.openable
+            .time 13:55 - 15:25
+            .workshops
+              | Workshops
+              .workshop
+                | Coin Game: Working on the right thing the right way.
+                .speaker Kirk Kinne 
+                .synopsis
+                  p More and more teams within enterprise environments are adopting the principles outlined in the Agile Manifesto, and buzzwords popularised by Lean Startup like ‘MVP’, ‘Build, Measure, Learn,’ and ‘Business Model Canvas’ are all the rage across IT departments. 
+                  p However, agility at a team level is not enough. Within traditional organisational structures, emerging and more mature Agile teams are too often hamstrung by mandated processes, procedures and governance outside of their control. Their development efforts are often blocked waiting for senior stakeholders to make key decisions or pass on crucial information. As technology continues its rapid evolution, any delays are increasingly costly.
+                  p The Coin Game will demonstrate the value of introducing lean thinking not only at a team level, but to the whole enterprise. The game will be supported by examples of how lean principles are becoming the default way of thinking for all areas of the organisation across an organisational value chain.
+                .workshop
+                | BDD Warriors, a card game for learning scenarios
+                .speaker Ana Carolina Hermann
+                .synopsis
+                  p BDD Warriors is a print&play card game designed to help beginners think in terms of scenarios and understand the role of collaboration, besides learning basic BDD syntax. For those who already know BDD, it provides an opening to bring the subject to venues that aren't familiar with it yet.
+                li.schedule-item
+                  .time 15:25 - 15:40
+                  .break Break
+                li.schedule-item.opentable
+                  .time 15:40 - 16:10
+                  .talk
+                    | Remote collaboration
+                    .speaker Michele Cross
+                    .synopsis
+                      p This talk will explore how Sandstone Technology - a multi-national fin-tech company - collaborate  across continents. Hear about the practices they use to communicate and collaborative effectively. (Full talk synopsis coming soon).
+                li.schedule-item.opentable
+                  .time 16:10 - 16:40
+                  .talk
+                    | We just want chocolate
+                    .speaker Katrina Clokie
+                    .synopsis
+                      p Have you ever been a part of a team where BDD turned from productive collaboration into nitpicking the specifics of a Given When Then example? Have you seen the focus move from shared understanding to automation? Why does this happen?
+                      p Katrina will share the reasons that she’s seen an initial enthusiasm for BDD turn into a reluctance to participate. Based on her experiences in a variety of agile teams, she will introduce the idea of a BDD lifecycle and explain the actions or behaviours that might trigger a team to move through the stages of her model. She’ll also explain why some teams just want chocolate.
+                      p You’ll leave this session with an understanding of where your current process fits in the model, ideas to drive movement through the lifecycle by creating change in your team, and reassurance to the battle-hardened that you are not alone in your experiences with BDD."
 
+        h1.date 18 Nov 2016
+        ol.schedule-list
+          li.schedule-item
+            .talk Coming soon!
 
 section#quotes
   .wrap
