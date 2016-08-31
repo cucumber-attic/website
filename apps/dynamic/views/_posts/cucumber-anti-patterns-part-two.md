@@ -2,17 +2,17 @@
 layout: post
 author: theo
 title:  "Cucumber anti-patterns (part two)"
-date:   2016-08-24 12:00:00
+date:   2016-08-31 12:00:00
 nav: blog
 ---
 
-If you haven't already, read part one over [here](https://cucumber.io/blog/2016/07/01/cucumber-antipatterns-part-one). There are some heavy-hitting Cucumber anti-patterns to avoid. 
+If you haven't read our first post, start [there](https://cucumber.io/blog/2016/07/01/cucumber-antipatterns-part-one). Some of the examples we use here reference the last post. 
 
 This post is an edited conversation between Steve Tooke, Aslak Hellesøy and Matt Wynne on [The Cucumber Podcast](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4). 
 
-We're focusing on our favourite Cucumber anti-patterns that we see while [training and coaching teams](https://cucumber.io/training) around the world. Along the way, we'll give you some advice on how to avoid them and what you can do instead. 
+We're focusing on the major Cucumber anti-patterns that we see while [training and coaching teams](https://cucumber.io/training) around the world. Along the way, we'll give you some advice on how to avoid them and what you can practice instead. 
 
-You can download and listen to our podcast via [iTunes](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4).
+If you'd rather listen to the podcast, you can download and listen to the episode on [iTunes](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4).
 
 Testing through the UI
 ----------------------
@@ -75,7 +75,7 @@ High-level and vague scenarios
 
 So we've talked already about the end of the spectrum where there's too much detail, where the scenario is boring, and even maybe distracting to read because it's just got loads and loads of irrelevant incidental detail in it. But the other end of the spectrum is that you can't really trust the scenario, or you can't tell what it would actually do if you run it. 
 
-For example 
+For example:
 
 > Given I have an account  
 > When I withdraw some money Then the balance  
