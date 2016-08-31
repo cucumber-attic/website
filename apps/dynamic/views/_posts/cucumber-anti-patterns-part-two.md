@@ -34,7 +34,7 @@ Most useful systems or most interesting systems need to exhibit behavior that is
 
 We all do it, but the scenarios tend to be richer and more accurate when you avoid the personal pronoun.
 
- <img src="{{ site.url }}/images/blog/anti-patterns-2/matt-cukeup.png" style="width:50%">
+ <img src="{{ site.url }}/images/blog/anti-patterns-2/matt-cukeup.jpg" style="width:50%">
 
 Keeping noisy scenarios
 -----------------------
@@ -44,13 +44,13 @@ Most of the time, these kinds of tests that are just obvious. They're just there
 
 Try and delete scenarios because quite often that basic functionality will be covered by others that you write later. You can either just delete those old ones that are now a bit daft, or rephrase them into something slightly more valuable. And if you can't, just get rid of them.
 
- <img src="{{ site.url }}/images/blog/anti-patterns-2/tooky-crowd-cukeup.png" style="width:50%">
+ <img src="{{ site.url }}/images/blog/anti-patterns-2/tooky-crowd-cukeup.jpg" style="width:50%">
 
 Overuse of scenario outlines
 ----------------------------
 Overuse of scenario outlines tends to result in lots of scenarios, because it's really easy to add just another scenario. And this is one of the main things that leads to slow Cucumber tests. Here’s the rule of thumb we practice: if you're using scenario outlines, don't do it with a UI test or anything that's slow.  That of course requires you or the developers to build the system in such a way that it is testable without going through the UI. If you'd like to learn more about this, watch this [talk](https://skillsmatter.com/skillscasts/7361-keynote-kind-of-green).
 
- <img src="{{ site.url }}/images/blog/anti-patterns-2/tooky-cukeup.png" style="width:50%">
+ <img src="{{ site.url }}/images/blog/anti-patterns-2/tooky-cukeup.jpg" style="width:50%">
 
 Developers or testers who write their scenarios without talking to business people
 ------------------------------------------------------------------------
@@ -70,9 +70,9 @@ So we've talked already about the end of the spectrum where there's too much det
 
 For example 
 
->   Given I have an account
->   When I withdraw some money
->   Then the balance should be the original balance minus the amount withdrawn 
+> Given I have an account 
+> When I withdraw some money Then the balance
+> should be the original balance minus the amount withdrawn
 
 There's no concrete value in there. It doesn't say what my balance was, it didn't say how much I withdrew, it’s basically expressing the business rule, but using the "Given, When, Then" format. 
 
