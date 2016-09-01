@@ -10,7 +10,7 @@ This post outlines our favourite Cucumber anti-patterns. There are many ways to 
 
 Along the way we'll also clarify why these patterns can be so damaging and suggest alternatives we've seen work while [training and coaching teams](https://cucumber.io/training) around the world. 
 
-This is a two-part blog post based on a conversation between Steve Tooke, Aslak Hellesøy and Matt Wynne on [The Cucumber Podcast](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635). 
+This is a two-part blog post based on a conversation between Steve Tooke, Aslak Hellesøy and Matt Wynne on [The Cucumber Podcast](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635). You can skip ahead to [part two here](https://cucumber.io/blog/2016/08/31/cucumber-anti-patterns-part-two).
 
 You can download and listen to our podcast via [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635).
 
@@ -96,7 +96,7 @@ Next time
 
 Folks out there, if you're doing  these anti-patterns, don't worry! We've all done them, you live and learn. Share your anti-patterns stories in the comments below. 
 
-Part two of this blog post will be posted next month. Or you can [download the podcast on iTunes](itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635).*
+[Read part two of this blog post](https://cucumber.io/blog/2016/08/31/cucumber-anti-patterns-part-two). Or you can [download the podcast on iTunes](itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635).*
 
 
 *Quick sales pitch. Learn more about how we support large teams implement BDD and Cucumber in a safe and responsible manner through [in-house training and consulting](https://cucumber.io/training). If you're interested in having one of the core-team behind Cucumber visit your offices, [contact us](https://cucumber.typeform.com/to/gUEP2E?source=blog) for more details.*
