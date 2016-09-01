@@ -6,13 +6,13 @@ date:   2016-08-31 12:00:00
 nav: blog
 ---
 
-If you haven't read our first post, start [there](https://cucumber.io/blog/2016/07/01/cucumber-antipatterns-part-one). Some of the examples we use here reference the last post. 
+If you haven't read our first blog post already, start by doing that [over here](https://cucumber.io/blog/2016/07/01/cucumber-antipatterns-part-one). Some of the examples we use in the first post will be referenced below.
 
-This post is an edited conversation between Steve Tooke, Aslak Hellesøy and Matt Wynne on [The Cucumber Podcast](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4). 
+Practicing Cucumber and BDD is often tricky for new teams. There's plenty of information out there, but who to believe? Core to our business is helping teams around the world implement BDD practices into production. In the past few years we've helped hundreds of teams do this successfully through our [in-house](https://cucumber.io/training) and [online training](https://cucumber.io/school). 
 
-We're focusing on the major Cucumber anti-patterns that we see while [training and coaching teams](https://cucumber.io/training) around the world. Along the way, we'll give you some advice on how to avoid them and what you can practice instead. 
+This post is an edited conversation between Cucumber's Steve Tooke, Aslak Hellesøy and Matt Wynne. You can listen to the episode on [iTunes](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4). 
 
-If you'd rather listen to the podcast, you can download and listen to the episode on [iTunes](https://itunes.apple.com/de/podcast/cucumber-podcast-rss/id1078896635?mt=2&ign-mpt=uo=4).
+Let's begin!
 
 Testing through the UI
 ----------------------
