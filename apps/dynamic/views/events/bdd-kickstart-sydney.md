@@ -18,7 +18,11 @@ dtend: 2016-09-02 00:00:00
 ---
 # BDD Kickstart - 2 day BDD training
 
-BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. By the end of this course you will acquire the fundamental technical and non-technical skills required to begin. We've taught this course to hundreds of teams around the world who want to produce clear, predictable and fast software. 
+BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. 
+
+By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
+
+This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 
 
 Both days are led by *Seb Rose*, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. *Hamish Tedeschi*, a seasoned BDD practitioner and MD of MagenTys AU will facilitate the course alongside Seb. 
 
@@ -67,11 +71,14 @@ This day is designed for developers and testers, non-technical people are welcom
 ## About the trainers
 
 *Seb Rose*
-img src="/images/headshots/seb-rose.jpg" alt="Seb Rose"
+
+<img src="/images/headshots/seb-rose.jpg" alt="Seb Rose">
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD.
 Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. [@sebrose](https://twitter.com/sebrose)
 
 *Hamish Tedeschi*
+
+<img src="/images/headshots/hamish-tedeschi.jpg" alt="Hamish Tedeschi" height="42" width="42">
 
 An economist, who became a tester, who became a business owner, who became a husband, who became a dad, who became a devops engineer, who became a software development and testing trainer. The rest is yet to be determined. [@hamomagentys](https://twitter.com/hamomagentys)
