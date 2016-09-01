@@ -24,13 +24,13 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 
 
-Both days are led by *Seb Rose*, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. *Hamish Tedeschi*, a seasoned BDD practitioner and MD of MagenTys AU will facilitate the course alongside Seb. 
+Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU will facilitate the course alongside Seb. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
 ## CukeUp! AU 2016
 
-This is a bolt-on training for [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) taking place on Thursday and Friday at Carriageworks, Sydney. CukeUp! is a fast-paced event for testers, developers and BAs who think differently and are looking for ideas to challenge the status quo. Short talks are combined with workshops and networking to make this a fun, idea-filled couple of days. Tickets can purchased on our [ti.to page](https://ti.to/cukeupau/cukeup-au-2016).
+This is a bolt-on training for [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) taking place on Thursday and Friday in Sydney. CukeUp! is a fast-paced agile event for testers, developers and BAs who think differently and are searching for ideas to challenge the status quo. Short talks are combined with workshops and networking to make this a fun, idea-filled couple of days. Tickets can purchased on our [ti.to page](https://ti.to/cukeupau/cukeup-au-2016).
 
 ## Day 1 - BDD Fundamentals
 
@@ -70,15 +70,16 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## About the trainers
 
-*Seb Rose*
+**Seb Rose**
 
-<img src="/images/headshots/seb-rose.jpg" alt="Seb Rose">
+<img src="{{ site.url }}/images/headshots/seb-rose.jpg" alt="Seb Rose" height="142" width="142">
+
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD.
 Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. [@sebrose](https://twitter.com/sebrose)
 
-*Hamish Tedeschi*
+**Hamish Tedeschi**
 
-<img src="/images/headshots/hamish-tedeschi.jpg" alt="Hamish Tedeschi" height="42" width="42">
+<img src="{{ site.url }}/images/headshots/hamish-tedeschi.jpg" alt="Hamish Tedeschi" height="142" width="142">
 
 An economist, who became a tester, who became a business owner, who became a husband, who became a dad, who became a devops engineer, who became a software development and testing trainer. The rest is yet to be determined. [@hamomagentys](https://twitter.com/hamomagentys)
