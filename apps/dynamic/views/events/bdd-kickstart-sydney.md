@@ -68,11 +68,11 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-## About the trainers
+## Trainers
 
 **Seb Rose**
 
-<img src="{{ site.url }}/images/headshots/seb-rose.jpg" alt="Seb Rose" height="142" width="142">
+<img src="{{ site.url }}/images/headshots/seb-headshot.png" alt="Seb Rose" height="142" width="142">
 
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD.
@@ -80,6 +80,6 @@ Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak.
 
 **Hamish Tedeschi**
 
-<img src="{{ site.url }}/images/headshots/hamish-tedeschi.jpg" alt="Hamish Tedeschi" height="142" width="142">
+<img src="{{ site.url }}/images/headshots/hamish-headshot.png" alt="Hamish Tedeschi" height="142" width="142">
 
 An economist, who became a tester, who became a business owner, who became a husband, who became a dad, who became a devops engineer, who became a software development and testing trainer. The rest is yet to be determined. [@hamomagentys](https://twitter.com/hamomagentys)
