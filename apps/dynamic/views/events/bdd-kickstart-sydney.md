@@ -24,13 +24,13 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 
 
-Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU will facilitate the course alongside Seb. 
+Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU, will facilitate the course alongside Seb. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
 ## CukeUp! AU 2016
 
-This is a bolt-on training for [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) taking place on Thursday and Friday in Sydney. CukeUp! is a fast-paced agile event for testers, developers and BAs who think differently and are searching for ideas to challenge the status quo. Short talks are combined with workshops and networking to make this a fun, idea-filled couple of days. Tickets can purchased on our [ti.to page](https://ti.to/cukeupau/cukeup-au-2016).
+This is a bolt-on training for [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) taking place on Thursday and Friday in Sydney. CukeUp! is a fast-paced agile event for testers, developers and BAs who think differently and are searching for ideas to challenge the status quo. Short, punchy talks weave between non-technical workshops to make this a fun, idea-filled couple of days. Tickets can purchased on our [ti.to page](https://ti.to/cukeupau/cukeup-au-2016).
 
 ## Day 1 - BDD Fundamentals
 
