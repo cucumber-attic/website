@@ -7,7 +7,7 @@ hero:
     link: https://ti.to/cukeupau/cukeup-au-2016
     message: Buy your ticket!
 location:
-  url: 
+  url:
   name: Sydney
 layout: one-column
 nav: events
@@ -18,15 +18,17 @@ dtend: 2016-09-02 00:00:00
 ---
 # BDD Kickstart - 2 day BDD training
 
-BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings. 
+BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
 By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
 
-This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 
+This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU, will facilitate the course alongside Seb. 
+Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU, will facilitate the course alongside Seb.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
+
+<div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
 
 ## CukeUp! AU 2016
 
