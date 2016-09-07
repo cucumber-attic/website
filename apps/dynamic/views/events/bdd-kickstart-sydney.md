@@ -28,6 +28,8 @@ Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https:
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
+<script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+
 ## CukeUp! AU 2016
 
 This is a bolt-on training for [CukeUp! AU](https://cucumber.io/events/cukeup-au-2016) taking place on Thursday and Friday in Sydney. CukeUp! is a fast-paced agile event for testers, developers and BAs who think differently and are searching for ideas to challenge the status quo. Short, punchy talks weave between non-technical workshops to make this a fun, idea-filled couple of days. Tickets can purchased on our [ti.to page](https://ti.to/cukeupau/cukeup-au-2016).
