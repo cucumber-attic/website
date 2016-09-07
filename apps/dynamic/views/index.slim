@@ -232,14 +232,11 @@ section.testimonials
 
 section.newsletter
   .container
-    form.newsletter-form action="http://cucumber.us3.list-manage1.com/subscribe?u=45b545ab379403b3a62708443&id=e3650a477a" method="POST" target="_blank"
+    form.newsletter-form action="https://www.getdrip.com/forms/50389825/submissions" method="post" data-drip-embedded-form="50389825"
       .row
         .col-md-10
           h2 Subscribe to our monthly newsletter
-          input type="email" name="EMAIL" placeholder="Enter your email and stay informed about new events, products and what we are up to."
-          / Spam protection
-          div style="position: absolute; left: -5000px;"
-            input name="b_45b545ab379403b3a62708443_e3650a477a" tabindex="-1" type="text" value=""
+          input type="email" name="fields[email]" placeholder="Enter your email and stay informed about new events, products and what we are up to."
 
         .col-md-2.text-right
           button.btn.btn-newsletter Subscribe
