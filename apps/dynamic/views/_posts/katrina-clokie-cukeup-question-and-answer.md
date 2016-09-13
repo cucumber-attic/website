@@ -42,4 +42,4 @@ Meeting a bunch of new people, catching up with those I know, and listening to s
 
 **Thanks Katrina!**
 
-*For more information about CukeUp! head to to our [event page](https://cucumber.io/events/cukeup-au-2016) or [receive the very latest in inbox](https://www.getdrip.com/forms/98708717/submissions/new).* 
+*For more information about CukeUp! head to to our [event page](https://cucumber.io/events/cukeup-au-2016) or [sign up to our email updates](https://www.getdrip.com/forms/98708717/submissions/new).* 
