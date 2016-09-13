@@ -17,7 +17,7 @@ nav:      blog
 
 Outside of work I am heavily involved in the New Zealand testing community. I co-founded WeTest Workshops 2012, which now runs in two cities with over 1,000 testers in our ranks. I'm the editor of Testing Trapeze magazine, which is a bi-monthly publication featuring two Australian, two Kiwi, and one international contributor. I'm also a frequent speaker, blogger and tweeter.
 
-<img src="https://cucumber.io/images/events/cukeup-au-2016/katrina-clokie-square.jpg" style="float:right; width:50%">
+<img src="https://cucumber.io/images/events/cukeup-au-2016/katrina-clokie-square.jpg" style="float:right; width:30%">
 
 **At the conference last year, Alister Scott made the observation that "an organisation’s culture mimics the domain they operate in". Do you think that's true of banking? How do you think the domain impacts the way you deliver software? And how does that differ from other businesses you've been in?**
 
@@ -42,4 +42,4 @@ Meeting a bunch of new people, catching up with those I know, and listening to s
 
 **Thanks Katrina!**
 
-*For more information about CukeUp! head to to our [event page](https://cucumber.io/events/cukeup-au-2016) or [receive updates in your inbox](https://www.getdrip.com/forms/98708717/submissions/new).* 
+*For more information about CukeUp! head to to our [event page](https://cucumber.io/events/cukeup-au-2016) or [receive the very latest in inbox](https://www.getdrip.com/forms/98708717/submissions/new).* 
