@@ -5,11 +5,13 @@ title:    "Shirley Tricker - CukeUp! AU Q&A"
 date:     2016-09-20 09:00:00
 nav:      blog
 ---
-CukeUp! AU is coming back to Sydney on November 17th-18th. This is our conference for testers, developers and product owners who think differently. Punchy talks and deep-diving workshops dig into how we can build high quality software by encouraging closer collaboration between business and tech. Learn more about CukeUp! AU here.
+We're just under two months away from CukeUp! AU landing in Sydney on November 17th-18th. CukeUp! is a conference for developers, testers and product owners who seek answers to complex software problems. Two days of inspiring talks and workshops about BDD, collaboration, and progressive agile techniques. Learn more about CukeUp! AU [here](https://cucumber.io/events/cukeup-au-2016).
 
-In the build up to the event, we are running a series of quick-fire interviews with our speakers. This week we spoke to Shirley Tricker, a test manager with a varied career in software.
+In the build up to the event, we are running a series of quick-fire interviews with our speakers. This week we spoke to Shirley Tricker, a test manager from New Zealand, who talks to us about her background as a BA, top testing anti-patterns, and clearing up misunderstandings as a test manager.
 
 **CukeUp!: Hey Shirley! Could you tell us a bit about your day job?**
+
+<img src="https://cucumber.io/images/events/cukeup-au-2016/shirley-tricker.jpg" style="float:right; width:30%">
 
 **Shirley Tricker:** For almost 2 years I’ve been running my business (elementum.co.nz) which provides mentoring and career advice to Tech professionals. I also work a few times a year as a contract Test Manager, and am active in the wider tech community where I help to organise the WeTest Auckland MeetUp and annual conference, and I speak to young people and community groups about careers in Tech. 
 
@@ -18,8 +20,6 @@ I’m fascinated with the human side of working in Tech and with ways we can enc
 **You're going to be speaking at CukeUp! this year about how people can manage their own careers. What sparked your interest in this topic?**
 
 The employment landscape has changed a great deal in the last few decades and will continue to do so. People used to work for just a few companies in their lifetime and would often follow a narrow career path, rising up the ranks of seniority. The reality now is that technology offers more opportunities than we had before - we can be employees, we can contract or freelance or create our own portfolio careers, and there are many new roles to choose from. These changes mean we can’t rely on our employers to guide our careers. We need to be in control for ourselves.
-
-<img src="https://cucumber.io/images/events/cukeup-au-2016/shirley-tricker.jpg" style="float:right; width:30%">
 
 **You're one of two New Zealanders on our line-up (alongside Katrina Clokie). There seems to be a growing software community in NZ with lots of meetups and conferences - some of which you're involved in! - how do you think it's evolved in the past few years?**
 
@@ -49,6 +49,6 @@ Great question! I worked with someone who said that BA’s and testers have the 
 
 Coming from a BA role meant I was comfortable working with business stakeholders, I had facilitation and elicitation skills and I had an empathy for end-users. That experience, along with my previous roles in customer support, definitely helped me to be a better tester and test manager. 
 
-*Thanks Shirley, cya at CukeUp! in November. *
+*Thanks Shirley, cya at CukeUp! in November.*
 
 *For more information about CukeUp! head to to our [event page](https://cucumber.io/events/cukeup-au-2016) or [sign up to our email updates](https://www.getdrip.com/forms/98708717/submissions/new).* 
