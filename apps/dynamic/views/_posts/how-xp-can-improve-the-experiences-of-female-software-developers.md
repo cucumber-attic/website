@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "How XP Can Improve the Experiences of Female Software Developers - Cucumber Podcast"
+title:    "How XP can improve the experiences of female developers - Cucumber Podcast"
 date:     2016-09-21 10:00:00
 nav:      blog
 ---
