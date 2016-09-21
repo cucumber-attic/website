@@ -6,7 +6,7 @@ date:     2016-09-21 10:00:00
 nav:      blog
 ---
 
-Can XP improve the experiences of women software developers? Clare Sudbery certainly thinks so. Earlier this year, she wrote an [academic paper](http://link.springer.com/chapter/10.1007%2F978-3-319-33515-5_24) about her own experiences in an XP team and how it impacted her.
+Can XP improve the experiences of women software developers? Clare Sudbery, a developer with 17 years experience in the industry, certainly thinks so. Clare has been involved in traditional waterfall projects and most recently XP.  Earlier this year, she wrote an [academic paper](http://link.springer.com/chapter/10.1007%2F978-3-319-33515-5_24) about her own experiences in an XP team and how it impacted her.
 
 Clare feels many of the difficulties associated with being a minority have subsided since working in an XP environment. "My belief is that XP creates a more conducive environment for women and other minorities within the industry. I believe that XP can – and should – pave the way to making the tech industry a more welcoming and attractive place for women."
 
