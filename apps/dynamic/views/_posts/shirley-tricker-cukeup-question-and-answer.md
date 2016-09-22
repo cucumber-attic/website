@@ -41,7 +41,7 @@ Here are two anti-patterns I’ve noticed, and often it’s been me doing them!
 
 As a Test Manager, much of my time is spent looking out for misunderstandings. It’s easy to miss the subtle cues that show when people aren’t on the same page so I try to help the communication process by listening actively, concentrating and clarifying for whoever is involved. I highlight any differences I notice or I bring the people together to work through the problem until they have a shared understanding. 
 
-I also work hard to build trust and to communicate openly and clearly so we can form a strong relationship. That's is easier said than done.  
+I also work hard to build trust and to communicate openly and clearly so we can form a strong relationship. That's easier said than done.  
 
 **You moved from a Business Analyst role to more of a test focused role. How did your experience as a BA impact your work as a tester and test manager?**
 
