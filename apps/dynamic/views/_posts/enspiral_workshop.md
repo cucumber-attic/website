@@ -24,7 +24,7 @@ A practice used in the workshop, which Kate and Susan told us are also widely us
 
 ## The Dark Economy
 
-This term was used to refer to the work that goes on "behind the scenes" in self-organised groups. This work is done by people who have enough context to know that something needs to be done, and get on with doing it, but it's often under-appreciated by the rest of the group, perhaps even un-seen.
+This term was used to refer to the work that goes on "behind the scenes" in self-organised groups. This work is done by people who have enough context to know that something needs to be done, and get on with doing it, but it's often under-appreciated by the rest of the group, perhaps even unseen.
 
 Enspiral's reaction to this was to use their co-budgeting system to help the whole group decide how resources should be spent, so that more of this important work could be seen and properly valued.
 
@@ -48,7 +48,7 @@ Several people mentioned the seminal 1970 paper by Jo Freeman, _[The tyranny of 
 
 ## Decision-making
 
-Enspiral, who have some roots in the Occupy protest movement, seem to mostly use a consensus-based approach to decision-making. [Loomio](https://www.loomio.org/), on of their ventures, was built directly to service their need to make consensus decisions across a distributed group.
+Enspiral, who have some roots in the Occupy protest movement, seem to mostly use a consensus-based approach to decision-making. [Loomio](https://www.loomio.org/), one of their ventures, was built directly to service their need to make consensus decisions across a distributed group.
 
 So on occasion, if an online discussion in Loomio is getting difficult or emotional, people will just pick up the phone and speak to each other. As Susan eloquently put it:
 
