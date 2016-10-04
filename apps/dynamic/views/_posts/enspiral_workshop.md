@@ -12,23 +12,25 @@ One source of inspiration I came across on this search was [Enspiral](http://ens
 
 When I learned that Enspiral were [opening their doors](http://open.enspiral.com/) to share their culture and methods in a series of half-day workshops, I had to be there.
 
+So this morning I went to their workshop, run by [Susan Basterfield](https://medium.com/@opentogrow) and [Kate Beecroft](https://medium.com/@katebeecroft).
+
 What follows is a fairly haphazard list of things I learned, and references I'd like to follow up on.
 
-## Enlivening edge
+##Enlivening edge
 
 On my way in, I met Pam, who seems well connected with the local London network of other people interested in these ideas. She pointed me towards [Enlivening Edge](http://www.enliveningedge.org/) online magazine and the [Teal for Startups](https://tealstartup.wordpress.com/) working group.
 
-## Check-in / check-out
+##Check-in / check-out
 
 A practice used in the workshop, which Kate and Susan told us are also widely used at Enspiral events, is to briefly check-in with everyone in the room before starting the planned activity. It felt good to do it, and I recognised Kate's story about how it took her a year of working with Enspiral before she relaxed enough to listen to other people during a check-in, rather than just worrying about what she was going to say when it was her turn.
 
-## The Dark Economy
+##The Dark Economy
 
 This term was used to refer to the work that goes on "behind the scenes" in self-organised groups. This work is done by people who have enough context to know that something needs to be done, and get on with doing it, but it's often under-appreciated by the rest of the group, perhaps even unseen.
 
 Enspiral's reaction to this was to use their co-budgeting system to help the whole group decide how resources should be spent, so that more of this important work could be seen and properly valued.
 
-## The tyranny of structurelessness
+##The tyranny of structurelessness
 
 At the workshop we used the collective experience of the group to list all the problems or pain-points that can happen in non-hierarchical organisations.
 
@@ -44,9 +46,9 @@ Here's what we found:
 - budgeting
 - invisible leadership structures / cliques
 
-Several people mentioned the seminal 1970 paper by Jo Freeman, _[The tyranny of Structurelessness](http://struggle.ws/pdfs/tyranny.pdf)_.
+Several people mentioned the seminal 1970 paper by Jo Freeman, _[The tyranny of structurelessness](http://struggle.ws/pdfs/tyranny.pdf)_.
 
-## Decision-making
+##Decision-making
 
 Enspiral, who have some roots in the Occupy protest movement, seem to mostly use a consensus-based approach to decision-making. [Loomio](https://www.loomio.org/), one of their ventures, was built directly to service their need to make consensus decisions across a distributed group.
 
@@ -54,11 +56,11 @@ So on occasion, if an online discussion in Loomio is getting difficult or emotio
 
 > We build tools around our culture, not a culture around the tools
 
-## Liberating structures
+##Liberating structures
 
 Some of the workshop sessions used formats taken from this [website](http://www.liberatingstructures.com/). They were fun and engaging, and look like useful tools for running any kind of workshop. Something I'd love to dig into more when I find the time.
 
-## Stewardship
+##Stewardship
 
 Kate and Susan talked about a recent [retreat](https://medium.com/enspiral-tales/stewardship-at-enspiral-f73baabc5c32#.mjr57tmrt) where they'd investigated the concept of Stewardship, defined as:
 
@@ -68,7 +70,7 @@ They are experimenting with a "stewardship circle" where every member stewards a
 
 I learned about [a book](https://www.amazon.com/Stewardship-Choosing-Service-Over-Interest/dp/1881052869) by Peter Block on the subject.
 
-## Connections
+##Connections
 
 My main goal for this workshop was to connect with Susan, who I'd met online, and to meet more peers who are grappling with the same problems as we are. I only had half an hour at the end of the workshop before I had to dash for the train, but I was inspired to meet so many people who care about the same things, and are making it happen in various ways.
 
