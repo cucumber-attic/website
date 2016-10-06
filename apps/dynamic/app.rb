@@ -64,6 +64,14 @@ module Website
         status 404
         slim :not_found
       end
+
+      # Temporary hack for cpro licences
+      get '/cpro/licence/:file' do |file|
+        base_url = ENV['cpro_licence_base_url']
+        uri = URI.parse("#{base_url}#{file}")
+        attachment
+        Net::HTTP.get(uri)
+      end
     end
   end
 
