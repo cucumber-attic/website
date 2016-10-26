@@ -24,7 +24,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Seb Rose**, author of [The Cucumber for Java Book](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293) and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU, will facilitate the course alongside Seb.
+Both days are led by **Steve Tooke**, co-owner of Cucumber and world renowned BDD expert and practioner. **Hamish Tedeschi**, a seasoned BDD practitioner and MD of MagenTys AU, will facilitate the course alongside Seb.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -72,13 +72,14 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## Trainers
 
-**Seb Rose**
+**Steve Tooke**
 
-<img src="{{ site.url }}/images/headshots/seb-headshot.png" alt="Seb Rose" height="142" width="142">
+<img src="{{ site.url }}/images/events/cukeup-au-2016/steve-tooke.png" alt="Steve Tooke" height="142" width="142">
 
+Steve is a software developer, trainer and coach. Passionate about improving his craft and helping others improve theirs. He specialises in helping teams produce business value continuously through improving communication and keeping their code maintainable. BDD is at the core of this process.
 
-Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD.
-Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. [@sebrose](https://twitter.com/sebrose)
+Steve has been getting paid to build software since 1997. Throughout his career he has worked with renowned organisations like Coach in a Box, the NHS and for a major UK bank.  Steve is a partner of Cucumber Ltd and can be found on Twitter, [@tooky](https://twitter.com/tooky)
+
 
 **Hamish Tedeschi**
 
