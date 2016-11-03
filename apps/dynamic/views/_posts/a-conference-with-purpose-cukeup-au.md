@@ -25,7 +25,7 @@ If you purchase your ticket today or tomorrow, we will enroll you onto Cucumber 
 
 [Book today](https://ti.to/cukeupau/cukeup-au-2016)
 
-Take a look at what happened at CukeUp! AU 2015.
+See what happened at CukeUp! AU 2015.
 
 <script src="//fast.wistia.com/embed/medias/jw69vh3djb.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jw69vh3djb videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
