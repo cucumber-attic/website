@@ -5,8 +5,7 @@ title:    "CukeUp! AU - A conference with a purpose"
 date:     2016-11-03 09:00:00
 nav:      blog
 ---
-
-<img src="/images/blog/matt-crowd.jpg">
+<img src="https://cucumber.io/images/blog/matt-crowd.jpg" style="float:center; width:100%">
 
 We're two weeks away from CukeUp! AU landing in Sydney. It's our second visit to Australia in as many years and we're looking forward to our return. Since 2011, we've been running various CukeUp! conferences around the world; we ran a couple in New York - with another in the works for ‘17 - and each Spring we run the original in London. 
 
