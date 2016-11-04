@@ -12,6 +12,8 @@ We cover Richard’s own background and feed these ideas back into how software 
 
 SHOWNOTES:
 
+ - Try out [Loomio](www.loomio.org/) for distributed decision-making 
+
  - [Richard Bartlett on Twitter](https://twitter.com/richdecibels)
 
  - [Enspiral tales](https://medium.com/enspiral-tales)
