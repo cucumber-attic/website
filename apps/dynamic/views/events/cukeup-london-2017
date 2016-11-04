@@ -4,10 +4,10 @@ hero:
   subtitle: Bridging the communication gap between business and IT.
   dates: Spring 2017
   cta:
-    link: 
+    link: https://www.getdrip.com/forms/3046857/submissions/new
     message: Keep in me in the loop
 location:
-  url:
+  url: 
   name: London
 layout: one-column
 nav: events
