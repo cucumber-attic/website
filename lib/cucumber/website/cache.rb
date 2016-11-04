@@ -3,10 +3,10 @@ require 'pathname'
 module Cucumber
   module Website
 
-    # The code in this module is used to help us call out to third-party APIs during page rendering without 
+    # The code in this module is used to help us call out to third-party APIs during page rendering without
     # taking a performance hit, or making us vulnerable to the reliability of those APIs.
     #
-    # When wrapped by `Cache.wrap` the API's adapter is decorated with a cache that will be automatically 
+    # When wrapped by `Cache.wrap` the API's adapter is decorated with a cache that will be automatically
     # updated by a thread that calls out to the third party API in the background.
     #
     # This should be transparent to the caller, who uses the same methods as if they were using the API's adapter
@@ -139,7 +139,13 @@ module Cucumber
 
         def read
           return @default_data unless @cache_path.exist?
-          YAML::load(File.read(@cache_path))
+          begin
+            YAML::load(File.read(@cache_path))
+          rescue
+            # The cache file is probably corrupt
+            @cache_path.delete
+            @default_data
+          end
         end
 
         def write(data)
