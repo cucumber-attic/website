@@ -2,7 +2,7 @@
 title: CukeUp! London 2017
 hero:
   subtitle: Bridging the communication gap between business and IT.
-  dates: Spring 2017
+  dates: April 13th-14th 2017
   cta:
     link: https://www.getdrip.com/forms/3046857/submissions/new
     message: Keep in me in the loop
