@@ -50,7 +50,7 @@ authors:
     gravatar: fbaa55683cc693c2e95f63431af00ed0
 
 versions:
-  cucumber_jvm: 1.2.4
+  cucumber_jvm: 1.2.5
 
 community:
   max_recent_contributors: 10
