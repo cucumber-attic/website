@@ -11,7 +11,7 @@ location:
   name: London
 layout: one-column
 nav: events
-ical_url: http://lanyrd.com/2017/cukeup/
+ical_url: https://calendar.google.com/calendar/ical/cucumber.pro_49smkc5av6jt6vucv4nqbl4pmg%40group.calendar.google.com/public/basic.ics
 image: /images/blog/matt-crowd.jpg
 dtstart: 2017-04-13 00:00:00
 dtend: 2017-04-14 00:00:00
