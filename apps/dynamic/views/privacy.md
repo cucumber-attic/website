@@ -14,9 +14,9 @@ Like most website operators, Cucumber Limited collects non-personally-identifyin
 
 Cucumber Limited also collects potentially personally-identifying information like Internet Protocol (IP) addresses. Cucumber Limited does not use such information to identify its visitors, however, and does not disclose such information, other than under the same circumstances that it uses and discloses personally-identifying information, as described below.
 
-## Cucumber Pro Appliance Users
+## Cucumber Pro Appliance Customers
 
-We do not collect any information whatsoever about people using the Cucumber Pro Appliance. (Cucumber Pro Appliance runs on our customers' own infrastructure).
+When you purchase a license for a Cucumber Pro appliance, we will store personal information about you in order to be able to contact you about your account, e.g. to send you invoices. All billing data such as credit card information is stored with a third party service. Your specifications themselves are stored on your own infrastructure where you have installed the appliance.
 
 ## Gathering of Personally-Identifying Information
 
