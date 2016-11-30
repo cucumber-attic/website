@@ -16,7 +16,7 @@ Cucumber Limited also collects potentially personally-identifying information li
 
 ## Cucumber Pro Appliance Customers
 
-When you purchase a license for a Cucumber Pro appliance, we will store personal information about you in order to be able to contact you about your account, e.g. to send you invoices. All billing data such as credit card information is stored with a third party service. Your specifications themselves are stored on your own infrastructure where you have installed the appliance.
+When you purchase a license for a Cucumber Pro appliance, we will store personal information about you in order to be able to contact you about your account, e.g. to send you invoices. All billing data such as credit card information is stored with a third party service. Your specifications themselves, and any data about individual users are stored on your own infrastructure where you have installed the appliance.
 
 ## Gathering of Personally-Identifying Information
 
