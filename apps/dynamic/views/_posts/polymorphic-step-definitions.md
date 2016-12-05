@@ -5,7 +5,6 @@ title:  "Polymorphic Step Definitions"
 date:   2015-07-08 01:00:00
 nav: blog
 ---
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"45b545ab379403b3a62708443","lid":"e3650a477a"}) })</script>
 
 If you’re using Cucumber for Java you have to define your step definitions inside
 a class. Keeping all step definitions in a single class quickly becomes impractical,
