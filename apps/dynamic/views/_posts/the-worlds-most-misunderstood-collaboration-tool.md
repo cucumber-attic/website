@@ -5,8 +5,6 @@ title:  "The world's most misunderstood collaboration tool"
 date:   2014-03-03 12:00:00
 nav: blog
 ---
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"45b545ab379403b3a62708443","lid":"e3650a477a"}) })</script>
-
 Cucumber reached a million downloads in the first three years and 5 million downloads 3 years later.
 I'm happy to have created such a popular tool, but saddened to see how it's misused and misunderstood.
 
