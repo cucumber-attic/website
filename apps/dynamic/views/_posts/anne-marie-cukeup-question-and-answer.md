@@ -6,8 +6,6 @@ date:     2015-07-13 09:00:00
 nav:      blog
 ---
 
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"45b545ab379403b3a62708443","lid":"e3650a477a"}) })</script>
-
 *CukeUp! AU is landing in Sydney this November. The two-day conference is made up of educational talks and workshops around delivering software faster with less rework.  For detailed information on CukeUp! find out more on our [website](https://cucumber.io/events/cukeup-australia-2015).*
 
 *In the build up to our first CukeUp! in Australia we'll be running a series of Q&A sessions with our speakers. First up our keynote, Anne-Marie Charrett. Anne-Marie is an experienced tester and currently works at Tyro Payments in Sydney. We caught up to discuss her views on Behaviour-Driven Development and what folks can expect from her first [CukeUp!](https://cucumber.io/events/cukeup-australia-2015) appearance.*
