@@ -12,7 +12,7 @@ This week on the Cucumber Podcast, Matt Wynne speaks to Sal Freudenberg about in
 
 More about the Neurodiversity campaign can be found on the [Lean Agile Scotland website](http://leanagile.scot/workshops/inclusive-collaboration/)
 
-The inclusion collaboration experiments book - [leanpub](leanpub.com/theinclusivecollaborationexperiments) / [lulu](http://www.lulu.com/shop/http://www.lulu.com/shop/sal-freudenberg-and-katherine-kirk/the-inclusive-collaboration-experiments/paperback/product-22927832.html)
+The inclusion collaboration experiments book - [leanpub](https://leanpub.com/theinclusivecollaborationexperiments) / [lulu](http://www.lulu.com/shop/http://www.lulu.com/shop/sal-freudenberg-and-katherine-kirk/the-inclusive-collaboration-experiments/paperback/product-22927832.html)
 
 Twitter
 [@inclusivecollab](https://twitter.com/inclusivecollab) 
