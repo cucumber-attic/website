@@ -48,6 +48,10 @@ authors:
     display_name: Thomas Sundberg
     email: thomas@thinkcode.se
     gravatar: fbaa55683cc693c2e95f63431af00ed0
+  josh:
+    display_name: Josh Chisholm
+    email: josh@featurist.co.uk
+    gravatar: 18fdf4bb392ea27b457cb8cef10d1813
 
 versions:
   cucumber_jvm: 1.2.5
