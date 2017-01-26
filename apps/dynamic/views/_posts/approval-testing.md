@@ -8,7 +8,7 @@ nav:      blog
 
 This month on the Cucumber podcast we speak to Llewellyn Falco. He's best known for two things: approval testing and mob programming. As we've covered mobbing in great detail on the pod lately, we dig into approval testing. 
 
-From the Cucumber team on the podcast are Steve Tooke, Aslak Hellesoy, and Seb Rose. 
+Pitching questions from the Cucumber team are Steve Tooke, Aslak Hellesoy, and Seb Rose. 
 
 You can say hello to Llewellyn on [Twitter](https://twitter.com/LlewellynFalco)
 
