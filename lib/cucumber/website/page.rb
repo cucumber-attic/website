@@ -68,9 +68,10 @@ module Website
       @front_matter['title'] ||= @template_name.split('/')[-1]
     end
 
-    def render(site, no_layout = false)
+    def render(site, request, no_layout = false)
+      raise caller[0..3].inspect if request === true
       locals['site'] = site
-      view_context   = ViewContext.new(@views_dir, @config, locals)
+      view_context   = ViewContext.new(@views_dir, @config, locals, request)
       template_proc  = Proc.new { |template| content }
 
       html = view_context.render(engine, path, template_proc)
@@ -165,7 +166,7 @@ module Website
       url
     end
 
-    def render(site)
+    def render(site, request)
       body
     end
   end

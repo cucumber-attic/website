@@ -56,20 +56,20 @@ module Cucumber::Website
     describe "rendering" do
       let(:page) { Page.new(config, File.join(views, '_posts/mob-programming.md'), views) }
       let(:site) { double }
+      let(:request) { double(session: {}) }
 
       it "gets a blog post as HTML" do
-        rendered_post = page.render(site)
+        rendered_post = page.render(site, request)
         expect(Nokogiri::XML(rendered_post).root.name).to eq "html"
       end
 
       it "gets the XML feed" do
-        rendered_feed = page.render(site, true)
+        rendered_feed = page.render(site, request, true)
         expect(Nokogiri::XML(rendered_feed).root.name).to eq "p"
       end
 
       it "renders the same view multiple times with different layouts" do
-        page.render(site, true)
-        rendered_post = page.render(site)
+        rendered_post = page.render(site, request)
         expect(Nokogiri::XML(rendered_post).root.name).to eq "html"
       end
     end
