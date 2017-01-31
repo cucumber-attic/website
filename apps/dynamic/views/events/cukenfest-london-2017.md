@@ -6,7 +6,7 @@ hero:
   dates: June 2017
   cta:
     link: https://www.getdrip.com/forms/3046857/submissions/new
-    message: Keep in me in the loop
+    message: Register your interest
 location:
   url: 
   name: London
