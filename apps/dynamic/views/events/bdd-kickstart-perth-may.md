@@ -12,7 +12,6 @@ location:
   name: Tech Hub, Perth
 layout: one-column
 nav: events
-ical_url: http://lanyrd.com/2016/bdd-kickstart/
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2016-05-12 00:00:00
 dtend: 2016-05-13 00:00:00

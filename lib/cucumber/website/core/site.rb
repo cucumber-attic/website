@@ -24,7 +24,7 @@ module Cucumber
         def upcoming_events
           pages.select(&:event?).
             select { |page| page.dtstart >= Time.now }.
-            sort { |a, b| b.dtstart <=> a.dtstart }
+            sort { |a, b| a.dtstart <=> b.dtstart }
         end
         
         def past_events

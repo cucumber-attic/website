@@ -12,7 +12,6 @@ location:
   name: Canoo Offices, Basel
 layout: one-column
 nav: events
-ical_url: http://lanyrd.com/2016/cucumberbdd/
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2016-04-04 00:00:00
 dtend: 2016-04-05 00:00:00

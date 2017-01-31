@@ -12,7 +12,6 @@ location:
   name: Stockholm
 layout: one-column
 nav: events
-ical_url: http://lanyrd.com/2016/bddkickstart/
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2016-09-01 00:00:00
 dtend: 2016-09-02 00:00:00
