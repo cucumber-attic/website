@@ -2,7 +2,7 @@ $: << File.dirname(__FILE__) + '/lib'
 
 ENV["RACK_ENV"] ||= "development"
 
-task default: [:spec, :cucumber, :backup_events]
+task default: [:spec, :cucumber]
 task ci: [:spec, :cucumber]
 
 task :spec do
@@ -11,21 +11,6 @@ end
 
 task :cucumber do
   sh 'bundle exec cucumber'
-end
-
-task :backup_events do
-  require 'open-uri'
-  require_relative 'lib/cucumber/website/config'
-  config = Cucumber::Website::Config.new('development')
-  config['calendars'].each do |url|
-    file_name = "event-backup/#{Time.now.strftime('%Y%m%d')}-#{url.gsub(/[:\/]/, '-')}"
-    file_name += '.ics' unless file_name =~ /\.ics/
-    begin
-      File.open(file_name, 'w') { |io| io.write(open(url).read) }
-    rescue OpenURI::HTTPError => e
-      STDERR.puts "\e[31m****** #{url}: #{e.message} ******\e[0m\n"
-    end
-  end
 end
 
 namespace :assets do

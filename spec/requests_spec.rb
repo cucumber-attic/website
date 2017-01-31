@@ -67,11 +67,8 @@ let(:app) { APP }
         views = File.join(File.dirname(__FILE__), "../apps/dynamic/views")
         pages = Cucumber::Website::Page.all(config, views)
 
-        ical = File.dirname(__FILE__) + '/events/lanyrd.ics'
-        calendars = [ Cucumber::Website::FakeCalendar.new(IO.read(ical)) ]
-
         git_hub = Cucumber::Website::GitHub.for(config)
-        Cucumber::Website::Core::Site.new(config, pages, calendars, git_hub)
+        Cucumber::Website::Core::Site.new(config, pages, git_hub)
       end
 
       let(:app) do

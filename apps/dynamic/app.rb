@@ -4,7 +4,6 @@ require 'rollbar/middleware/sinatra'
 require 'cucumber/website/page'
 require 'cucumber/website/config'
 require 'cucumber/website/calendar'
-require 'cucumber/website/events'
 require 'cucumber/website/reference'
 require 'cucumber/website/core/community'
 require 'cucumber/website/core/site'
@@ -20,11 +19,6 @@ module Website
 
       configure :production do
         use Rollbar::Middleware::Sinatra
-      end
-
-      # TODO: This decision isn't a concern of the web app. Where to?
-      if site.config['calendar_refresh_interval']
-        site.events.start(site.config['calendar_refresh_interval'])
       end
 
       configure :test do
@@ -81,10 +75,8 @@ module Website
   pages = Page.all(config, views_dir)
 
   logger = Logger.new($stderr)
-  calendars = config['calendars'].map { |url| Calendar.new(url, logger) }
-
   git_hub = Cache.wrap(GitHub.for(config), 'git_hub', config, logger)
-  site = Core::Site.new(config, pages, calendars, git_hub)
+  site = Core::Site.new(config, pages, git_hub)
 
   App = make_app(site)
 end

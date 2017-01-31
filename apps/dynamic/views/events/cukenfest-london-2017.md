@@ -1,8 +1,9 @@
 ---
-title: CukeUp! London 2017
+title: CukenFest London 2017
+summary: Our five-day festival for the Cucumber community
 hero:
   subtitle: Bridging the communication gap between business and IT.
-  dates: April 13th-14th 2017
+  dates: June 2017
   cta:
     link: https://www.getdrip.com/forms/3046857/submissions/new
     message: Keep in me in the loop

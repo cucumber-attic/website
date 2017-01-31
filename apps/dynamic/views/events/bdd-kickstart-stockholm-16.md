@@ -1,5 +1,6 @@
 ---
 title: BDD Kickstart, Stockholm 2016
+summary: Executable Specifications with Discovery Workshops and Example Mapping
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: September 5th-6th 2016

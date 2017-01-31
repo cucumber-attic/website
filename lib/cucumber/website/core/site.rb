@@ -4,7 +4,7 @@ require 'cucumber/website/core/community'
 module Cucumber
   module Website
     module Core
-      class Site < Value.new(:config, :pages, :calendars, :git_hub)
+      class Site < Value.new(:config, :pages, :git_hub)
 
         def to_liquid
           config
@@ -21,8 +21,16 @@ module Cucumber
             sort { |a, b| b.date <=> a.date }
         end
 
-        def events
-          Cucumber::Website::Events.new(pages.select(&:event?), calendars).sync
+        def upcoming_events
+          pages.select(&:event?).
+            select { |page| page.dtstart >= Time.now }.
+            sort { |a, b| b.dtstart <=> a.dtstart }
+        end
+        
+        def past_events
+          pages.select(&:event?).
+            select { |page| page.dtstart < Time.now }.
+            sort { |a, b| b.dtstart <=> a.dtstart }
         end
       end
     end

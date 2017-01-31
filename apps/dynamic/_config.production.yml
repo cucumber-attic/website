@@ -1,9 +1,4 @@
 url: https://cucumber.io
 
-calendar_refresh_interval: 300
-calendars:
-  - https://calendar.google.com/calendar/ical/cucumber.pro_49smkc5av6jt6vucv4nqbl4pmg%40group.calendar.google.com/public/basic.ics
-  - http://www.meetup.com/BDDLondon/events/ical/
-
 git_hub:
   cache_refresh_interval: 1000

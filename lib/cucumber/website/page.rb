@@ -5,6 +5,8 @@ require_relative 'view_context'
 
 module Cucumber
 module Website
+  PageError = Class.new(StandardError)
+  
   class BasePage
     def initialize(front_matter)
       @front_matter = front_matter
@@ -16,6 +18,10 @@ module Website
 
     def cacheable?
       @front_matter.fetch('cacheable') { true }
+    end
+    
+    def path
+      raise StandardError, "Override me"
     end
 
     def method_missing(name, *args)
@@ -29,6 +35,8 @@ module Website
           end
         end
       end
+    rescue NoMethodError => underlying_error
+      raise PageError, "Unable to load or render page from #{path}: Missing expected frontmatter attribute '#{underlying_error.message}'"
     end
   end
 
@@ -78,6 +86,8 @@ module Website
 
       return html if no_layout
       view_context.render(:slim, "_includes/#{layout}") { html }
+    rescue => underlying_error
+      raise PageError, "Unable to render page from #{path}: '#{underlying_error.class} #{underlying_error.message}'"
     end
 
     def layout

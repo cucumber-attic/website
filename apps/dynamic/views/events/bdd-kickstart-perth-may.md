@@ -1,5 +1,6 @@
 ---
 title: BDD Kickstart, Perth 2016
+summary: Executable Specifications with Discovery Workshops and Example Mapping
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: May 12th-13th 2016

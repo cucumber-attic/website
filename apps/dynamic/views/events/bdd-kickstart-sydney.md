@@ -1,5 +1,6 @@
 ---
 title: BDD Kickstart, Sydney 2016
+summary: Executable Specifications with Discovery Workshops and Example Mapping
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: November 15th-16th 2016

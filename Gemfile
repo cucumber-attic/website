@@ -36,6 +36,8 @@ gem 'rollbar'
 group :development do
   gem 'foreman'
   gem 'launchy'
+  gem 'rerun'
+  gem 'rb-fsevent'
 end
 
 group :test do

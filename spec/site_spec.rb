@@ -11,7 +11,7 @@ module Cucumber::Website::Core
           GitHubEvent.with(contributor: Contributor.with(username: "charlierudolph", avatar_url: "")),
           GitHubEvent.with(contributor: Contributor.with(username: "charlierudolph", avatar_url: ""))
         ])
-        site = Site.new(double, double, double, git_hub)
+        site = Site.new(double, double, git_hub)
         expect(site.community.contributors.length).to eq 1
       end
     end

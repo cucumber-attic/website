@@ -1,5 +1,6 @@
 ---
 title: BDD Kickstart, Basel 2016
+summary: Executable Specifications with Discovery Workshops and Example Mapping
 hero:
   subtitle: Executable Specifications with Discovery Workshops and Example Mapping
   dates: April 4th-5th 2016

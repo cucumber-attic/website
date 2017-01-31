@@ -49,7 +49,11 @@ END:VEVENT
 
       def create_event_page(front_matter)
         default_front_matter = {
+          dtstart: Chronic.parse('1 week ago'),
           timestamp: Chronic.parse('1 week ago'),
+          location: {
+            name: "My place"
+          },
           body: "<h1>#{front_matter.fetch(:title)}</h1>"
         }
         custom_pages << FakeEventPage.new(default_front_matter.merge(front_matter))
@@ -68,11 +72,7 @@ END:VEVENT
 
       private
         def site
-          @site ||= Core::Site.new(config, pages, calendars, git_hub)
-        end
-
-        def calendars
-          @calendars ||= []
+          @site ||= Core::Site.new(config, pages, git_hub)
         end
 
         def git_hub

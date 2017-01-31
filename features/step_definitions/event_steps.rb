@@ -1,17 +1,6 @@
 require 'chronic'
 
-Given(/^a future event "([^"]*)" on Lanyrd$/) do |title|
-  start_time = Chronic.parse('1 week from now')
-  create_event start_time: start_time, title: title
-end
-
-Given(/^a future event "([^"]*)" on Lanyrd with a custom page$/) do |title|
-  start_time = Chronic.parse('1 week from now')
-  create_event start_time: start_time, title: title, ical_url: 'http://lanyrd.com/2015/cucumberbdd/'
-  create_event_page title: title, url: '/events/bdd-analysis-london-2015', ical_url: 'http://lanyrd.com/2015/cucumberbdd/'
-end
-
-Given(/^a future event "([^"]*)" with a custom page but not on Lanyrd$/) do |title|
+Given(/^a future event "([^"]*)" with a custom page$/) do |title|
   create_event_page title: title, url: "/events/#{slugify title}"
 end
 
