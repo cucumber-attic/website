@@ -3,7 +3,3 @@ deployment:
     branch: master
     heroku:
       appname: cucumber-website
-
-test:
-  override:
-    - bundle exec rake ci

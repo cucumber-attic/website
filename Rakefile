@@ -3,7 +3,6 @@ $: << File.dirname(__FILE__) + '/lib'
 ENV["RACK_ENV"] ||= "development"
 
 task default: [:spec, :cucumber]
-task ci: [:spec, :cucumber]
 
 task :spec do
   sh 'bundle exec rspec'
