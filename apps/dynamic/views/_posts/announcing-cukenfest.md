@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "Announcing CukenFest. June 21st-25th, London"
+title:    "Announcing CukenFest London - June 21st-25th"
 date:     2017-02-09 09:00:00
 nav:      blog
 ---
@@ -28,4 +28,4 @@ We've distilled all the beautiful fuzzy amazing weirdness of CukeUp! into a one-
 
 We hope you'll join us for the ride. This next chapter will be exciting.
     
-[Register your interest in CukenFest](https://cucumber.io/events/cukenfest-london-2017). We’ll be launching tickets exclusively through our mailing list very soon.
+[Register your interest in CukenFest](https://www.getdrip.com/forms/3046857/submissions/new). We’ll be launching tickets exclusively through our mailing list very soon.
