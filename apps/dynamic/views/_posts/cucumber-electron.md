@@ -24,7 +24,7 @@ Browser monkey [link](https://github.com/featurist/browser-monkey)
 
 Vinehill - the virtual http adapter [link](https://github.com/featurist/vinehill)
 
-Cucumbers on vine hill - a demo of all the stuff we discussed [link](https://github.com/joshski/cucumbers-on-vine-hill}
+Cucumbers on vine hill - a demo of all the stuff we discussed [link](https://github.com/joshski/cucumbers-on-vine-hill)
 
 Say hi to Josh on Twitter [link](https://twitter.com/joshski)
 
