@@ -6,7 +6,7 @@ date:     2017-02-28 09:00:00
 nav:      blog
 ---
 
-<img src="/images/cucumber-book-second-edition.jpg" style="float:right; width:50%">
+<img src="/images/blog/cucumber-book-second-edition.jpg" style="float:right; width:50%">
 
 The second edition of [The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition) is now in print! Updated for the latest versions of Cucumber, Rails and RSpec. 
 
