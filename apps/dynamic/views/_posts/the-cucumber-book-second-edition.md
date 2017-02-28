@@ -13,8 +13,6 @@ The new edition has been refreshed by Steve Tooke with the help of the original 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So happy to see the 2nd edition of the 5 year old <a href="https://twitter.com/cucumberbdd">@cucumberbdd</a> Book at the prags best sellers list. 19k copies sold so far! <a href="https://t.co/Kf879ItYX0">https://t.co/Kf879ItYX0</a></p>&mdash; Aslak Hellesøy (@aslak_hellesoy) <a href="https://twitter.com/aslak_hellesoy/status/836357554489933824">February 27, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Thanks for all the support!
-
 Here are a few reviews from The Cucumber Book. 
 
 *Few tools have managed to bridge the developer-customer divide as well as Cucumber has. Cucumber is not a tool for testing applications. Cucumber is a philosophy for communicating requirements. This book brings that philosophy to life.*
@@ -30,3 +28,6 @@ J. B. Rainsberger, Author "JUnit Recipes"
 Rachel Davies, Author "Agile Coaching"
 
 You can purchase your copy on [Prags](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)
+
+<img src="https://cucumber.io/images/blog/seb-cucumber-book.jpg" style="float:left; width:50%">
+This post is a great excuse to shine a light back on this photo. The Cucumber for Java author with a few spare copies. I'll upload Steve Tooke's obligatory "author with book" photo when I get it!
