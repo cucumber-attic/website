@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "The Cucumber Book 2nd edition is now available!"
+title:    "The Cucumber Book (2nd edition) is now available!"
 date:     2017-02-28 09:00:00
 nav:      blog
 ---
@@ -30,4 +30,5 @@ Rachel Davies, Author "Agile Coaching"
 You can purchase your copy on [Prags](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)
 
 <img src="https://cucumber.io/images/blog/seb-cucumber-book.jpg" style="float:left; width:50%">
-This post is a great excuse to shine a light back on this photo. The Cucumber for Java author with a few spare copies. I'll upload Steve Tooke's obligatory "author with book" photo when I get it!
+
+Here's The Cucumber for Java Book author Seb Rose posing with his book. Expect Steve Tooke's very own obligatory "author with book" photo very soon.
