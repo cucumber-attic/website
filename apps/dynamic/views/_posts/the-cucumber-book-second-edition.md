@@ -6,6 +6,8 @@ date:     2017-02-28 09:00:00
 nav:      blog
 ---
 
+<img src="/images/cucumber-book-second-edition.jpg" style="float:right; width:50%">
+
 The second edition of [The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition) is now in print! Updated for the latest versions of Cucumber, Rails and RSpec. 
 
 The new edition has been refreshed by Steve Tooke with the help of the original authors Matt Wynne and Aslak Hellesøy. [The Cucumber for Java Book](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book) was published in 2015 authored by Matt, Aslak and Seb Rose. 
@@ -28,7 +30,3 @@ J. B. Rainsberger, Author "JUnit Recipes"
 Rachel Davies, Author "Agile Coaching"
 
 You can purchase your copy on [Prags](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)
-
-<img src="https://cucumber.io/images/blog/seb-cucumber-book.jpg" style="float:left; width:50%">
-
-Here's The Cucumber for Java Book author Seb Rose posing with his book. Expect Steve Tooke's very own obligatory "author with book" photo very soon.
