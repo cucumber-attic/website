@@ -11,7 +11,7 @@ module Redirects
         # redirect initials to homepage for tracking business cards
         # we may want to create personal pages thanking people for chatting with us
         # at these urls
-        r303 %r{^/(ah|jb|mw|sr|st)$}, "/"
+        r303 %r{^/(ah|jb|mw|sr|st|tsr|rm)$}, "/"
 
         # redirect all other api traffic to the legacy site
         # TODO: figure out a better place to host it
