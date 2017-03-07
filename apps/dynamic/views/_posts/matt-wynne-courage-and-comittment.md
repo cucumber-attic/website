@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "Matt Wynne, Q&A for BDD for Busy People"
+title:    "Matt Wynne Q&A: courage and committment in software"
 date:     2017-03-07 09:00:00
 nav:      blog
 ---
