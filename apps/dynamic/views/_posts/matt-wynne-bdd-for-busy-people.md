@@ -2,11 +2,11 @@
 layout:   post
 author:   theo
 title:    "Matt Wynne, Q&A for BDD for Busy People"
-date:     2015-07-13 09:00:00
+date:     2017-03-07 09:00:00
 nav:      blog
 ---
 
-*Next week Matt Wynne will run a half-day BDD workshop for business leaders and execs. Matt spoke to our co-hosts Adventures with Agile to talk about the challenges of adopting BDD in large organisations. We have released an additional 10 tickets for this [workshop](https://www.eventbrite.co.uk/e/behaviour-driven-development-bdd-for-busy-people-with-matt-wynne-registration-31446264624).*
+*Next week Matt Wynne will run a half-day BDD workshop for business leaders and execs in London. Matt sat down with our co-hosts [Adventures with Agile](http://www.adventureswithagile.com/) to talk about the challenges of adopting BDD in large organisations. Earlier this week released an additional handful of tickets for this very popular [workshop](https://www.eventbrite.co.uk/e/behaviour-driven-development-bdd-for-busy-people-with-matt-wynne-registration-31446264624).*
 
 <img src="https://cucumber.io/images/blog/mattwynne-bdd4bp.jpg">
 
@@ -26,6 +26,8 @@ My wife Anna had just graduated after seven years studying to be an Architect so
 I think the biggest barrier I see right now is the way software development is procured at an executive level. Too many organisations still plan for fixed-budget projects, with a fixed, overly-ambitious scope. When both scope and budget are fixed like this, the promise of agile – a codebase that can continue to evolve with the changing needs of the business – is simply impossible to deliver. The constraints of a fixed deadline and scope force teams into short-term decisions that compromise the quality of their work. Essentially they’re not able to do their jobs properly.
 
 We’re seeing much more success where organisations align funding around product-based teams, with investments made toward more flexible business goals or outcomes. This allows teams to plan for the long-term, working at a sustainable pace in partnership with their business stakeholders to prioritise and continuously deliver the most valuable features to meet those goals.
+
+> It takes commitment to make BDD a success in your organisation. You need to invest in people to give them new skills, and you need to invest in codebases.
 
 ****
 #### What has been the industry’s response to BDD?
