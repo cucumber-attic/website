@@ -8,6 +8,8 @@ nav:      blog
 
 *Next week Matt Wynne will run a half-day BDD workshop for business leaders and execs in London. Matt sat down with our co-hosts [Adventures with Agile](http://www.adventureswithagile.com/) to discuss the challenges of adopting Behaviour-Driven Development in a large organisation. Earlier this week we released a further handful of tickets for this very popular [workshop](https://www.eventbrite.co.uk/e/behaviour-driven-development-bdd-for-busy-people-with-matt-wynne-registration-31446264624).*
 
+This was originally posted on the [Adventures with Agile blog](http://www.adventureswithagile.com/2017/03/02/awa-interviews-matt-wynne/)
+
 <img src="https://cucumber.io/images/blog/mattwynne-bdd4bp.jpg">
 
 #### What do you think are are the biggest challenges that organisations face in software development?
