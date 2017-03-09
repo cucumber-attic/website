@@ -4,7 +4,6 @@ author:   theo
 title:    "Matt Wynne Q&A: Courage and committment in software"
 date:     2017-03-07 09:00:00
 nav:      blog
-<link href="http://www.adventureswithagile.com/2017/03/02/awa-interviews-matt-wynne/" rel="canonical" />
 ---
 
 *Next week Matt Wynne will run a half-day BDD workshop for business leaders and execs in London. Matt sat down with our co-hosts [Adventures with Agile](http://www.adventureswithagile.com/) to discuss the challenges of adopting Behaviour-Driven Development in a large organisation. Earlier this week we released a further handful of tickets for this very popular [workshop](https://www.eventbrite.co.uk/e/behaviour-driven-development-bdd-for-busy-people-with-matt-wynne-registration-31446264624).*
