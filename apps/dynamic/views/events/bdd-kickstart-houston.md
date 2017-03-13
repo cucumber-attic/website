@@ -2,7 +2,7 @@
 title: BDD Kickstart, Houston 2017
 summary: 
 hero:
-  subtitle: A world-class BDD training for devs, testers, product owners and BAs
+  subtitle: A world-class BDD training for devs, testers and the business
   dates: May 2nd-3rd 2017
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
