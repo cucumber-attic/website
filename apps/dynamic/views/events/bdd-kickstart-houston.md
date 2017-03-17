@@ -72,7 +72,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Ryan Marsh**
 
-<img src="{{ site.url }}/images/events/ryan-marsh.JPG" alt="Ryan Marsh" height="142" width="142">
+<img src="{{ site.url }}/images/events/ryan-marsh.JPG" alt="Ryan Marsh" height="300" width="200">
 
 Ryan Marsh is an agile coach, programmer and trainer. He loves helping companies get better at making software. At 16 Ryan quit school to program full-time and pursued it with a passion. At 23 he took  a break from software development to jump out of airplanes for the US Army. There he learned to train and lead diverse teams in complex environments. These days he coaches and trains software teams on BDD and Agile. Ryan’s team building experience and love of programming make him a great match for teams who want to grow.
 
