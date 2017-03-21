@@ -12,7 +12,7 @@ location:
   name: Houston
 layout: one-column
 nav: events
-image: /images/matt-wynne-crowd-2.jpg
+image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2017-05-02 00:00:00
 dtend: 2017-05-03 00:00:00
 ---
