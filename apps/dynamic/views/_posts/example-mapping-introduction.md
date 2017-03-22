@@ -139,3 +139,5 @@ You’ll find that rules make natural fault lines for slicing your story. Try to
 ---
 
 _Thanks to Janet Gregory, Aslak Hellesøy and Seb Rose for their feedback on this post, to Theo England for his patience while I perfected it, and to Tom Stuart for [getting me to pull my finger out](https://twitter.com/tomstuart/status/673447106506563584)._
+
+_This article has been translated into [French](http://www.les-traducteurs-agiles.org/2017/03/21/presentation-cartographie-des-exemples.html). Thanks, Nicolas Mereaux!_
