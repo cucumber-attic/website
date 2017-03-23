@@ -11,15 +11,19 @@ Joining him on the podcast this month are Aslak Hellesoy, Matt Wynne and Arti Ma
 
 Show notes:
 
-Mentioned podcast with Emily Webber - https://cucumber.io/blog/2016/08/03/communities-of-practice
+Say hi to Gáspár on Twitter - [link](https://twitter.com/gasparnagy)
 
-Up for Grabs - http://up-for-grabs.net/#/
+Learn more about Specflow - [link](http://specflow.org/)
 
-Specflow public courses in Europe - http://specflow.org/training/
+Mentioned podcast with Emily Webber - [link](https://cucumber.io/blog/2016/08/03/communities-of-practice)
 
-Quality Excites - https://qualityexcites.pl/en/
+Up for Grabs - [link](http://up-for-grabs.net/#/)
 
-CukenFest London, June - https://cucumber.io/events/cukenfest-london-2017
+Specflow public courses in Europe - [link](http://specflow.org/training/)
+
+Quality Excites - [link](https://qualityexcites.pl/en/)
+
+CukenFest London, June - [link](https://cucumber.io/events/cukenfest-london-2017)
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314105564&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
