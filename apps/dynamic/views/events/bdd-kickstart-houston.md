@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: May 2nd-3rd 2017
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Register your interest
+    link: https://ti.to/cucumber/bdd-kickstart-houston
+    message: Book your early-bird ticket
 location:
   url: 
   name: Houston
@@ -16,6 +16,8 @@ image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2017-05-02 00:00:00
 dtend: 2017-05-03 00:00:00
 ---
+
+**Early-bird tickets run until midnight Thursday, April 6th.** 
 
 # BDD Kickstart - 2 day BDD training
 
