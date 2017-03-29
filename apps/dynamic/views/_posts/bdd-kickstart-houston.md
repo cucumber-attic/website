@@ -5,7 +5,7 @@ title:    "Limited tickets for BDD Kickstart, Houston - May 2nd-3rd"
 date:     2017-03-28 09:00:00
 nav:      blog
 ---
-<img src="https://cucumber.io/images/blog/matt-crowd.jpg" style="float:center; width:100%">
+<img src="https://cucumber.io/images/blog/cukeup-au-image.jpg" style="float:center; width:100%">
 
 Today we're announcing a new two-day [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-houston) in Houston, Texas. It's our first public course in the US for a number of years and we're very excited for our return. 
 
