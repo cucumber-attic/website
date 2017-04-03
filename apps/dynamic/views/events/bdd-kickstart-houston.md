@@ -27,7 +27,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Ryan Marsh**, renowned BDD and Cucumber expert and practioner.
+Both days are led by **Ryan Marsh**, renowned BDD and Cucumber expert and practitioner.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
