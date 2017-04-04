@@ -13,7 +13,7 @@ location:
 layout: one-column
 nav: events
 image: /images/matt-wynne-crowd-2.jpg
-dtstart: 2017-06-12 00:00:00
-dtend: 2017-06-12 00:00:00
+dtstart: 2017-06-21 00:00:00
+dtend: 2017-06-25 00:00:00
 ---
 Read the [blog post](https://cucumber.io/blog/2017/02/09/announcing-cukenfest)
