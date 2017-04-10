@@ -6,9 +6,9 @@ date:     2017-04-10 09:00:00
 nav:      blog
 ---
 
-This was originally posted by Simon Powers on the <a href="https://www.adventureswithagile.com/2015/08/27/a-case-study-for-bdd-in-improving-throughput-and-collaboration/" rel="canonical">Adventures with Agile blog</a>.
+This was originally published on the <a href="https://www.adventureswithagile.com/2015/08/27/a-case-study-for-bdd-in-improving-throughput-and-collaboration/" rel="canonical">Adventures with Agile blog</a> by Simon Powers.
 
-<img src="https://cucumber.io/images/blog/mattwynne-bdd4bp.jpg">
+<img src="https://cucumber.io/images/blog/london-shot.jpg">
 
 At a well known global investment bank, I was asked to review several product teams and to find out why the teams could not complete stories at the end of each sprint and why there was so many defects coming into the sprint.
 
@@ -43,4 +43,4 @@ Agility is wholly dependent on automated testing as it gives you the real option
 
 I hope this case study can serve as encouragement to those considering investing in BDD.
 
-*About the author*: Simon Powers is an Agile Coach specialising in large scale transformations and agile adoption. He has a background in very large enterprise architecture which has led on to organisational design and agile process refinement. Simon is the founder of Adventures with Agile.
+**About the author**: Simon Powers is an Agile Coach specialising in large scale transformations and agile adoption. He has a background in very large enterprise architecture which has led on to organisational design and agile process refinement. Simon is the founder of Adventures with Agile.
