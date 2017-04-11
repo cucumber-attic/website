@@ -6,7 +6,7 @@ hero:
   dates: May 2nd-3rd 2017
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-houston
-    message: Book your early-bird ticket
+    message: Book your ticket
 location:
   url: 
   name: Houston
@@ -16,8 +16,6 @@ image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2017-05-02 00:00:00
 dtend: 2017-05-03 00:00:00
 ---
-
-**Early-bird tickets run until midnight Thursday, April 6th.** 
 
 # BDD Kickstart - 2 day BDD training
 
