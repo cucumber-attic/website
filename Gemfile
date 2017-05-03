@@ -3,7 +3,7 @@ ruby '2.3.0'
 
 # Core
 gem 'sinatra', '1.4.7'
-gem 'rack-reverse-proxy'
+gem "rack-reverse-proxy", require: "rack/reverse_proxy"
 gem 'rack-contrib'
 gem 'rack-rewrite'
 gem 'slim', '3.0.6'
