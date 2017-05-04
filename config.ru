@@ -16,7 +16,6 @@ end
 require 'newrelic_rpm'
 
 use Redirects::App
-use SquarespaceProxy::App
 use CucumberEclipse::App
 use Cucumber::Website::Static::App
 run Cucumber::Website::App
