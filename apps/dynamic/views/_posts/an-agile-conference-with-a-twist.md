@@ -26,5 +26,3 @@ CukenSpace (June 24th-25th) - A weekend open-space for experienced practitioners
 Each event has a different flavour but they all have the same focus: helping teams build the right thing.
 
 [Learn more about CukenFest and book your ticket today.](http://cukenfest.cucumber.io/?utm_source=newsletter&utm_medium=email&utm_campaign=blog-post-11-5)
-
-Theo
