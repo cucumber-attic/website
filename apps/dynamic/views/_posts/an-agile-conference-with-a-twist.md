@@ -9,7 +9,7 @@ nav:      blog
 
 ####CukenFest London is happening next month. 
 
-From June 21st-25th we're running three distinctive events for the BDD and agile communities. [The early-bird tickets for all three events end today at midnight.](http://cukenfest.cucumber.io/?utm_source=newsletter&utm_medium=email&utm_campaign=blog-post-11-5)
+From June 21st-25th we're running three distinctive events for the BDD and agile communities. [Book your ticket today](http://cukenfest.cucumber.io/?utm_source=newsletter&utm_medium=email&utm_campaign=blog-post-11-5)
 
 At the end of CukeUp! 2016, drinking at the bar with a few CukeUp! old-timers, we had an impromptu retrospective about how far we'd come. Back in 2011, CukeUp! was a Cucumber conference, with developers packed into a small room, all talking about this new tool. As the community matured, more airtime was given to Behaviour-Driven Development and other collaborative techniques, and we came to realise that we're less interested in the tools we use, and more in the result. CukeUp! today is a progressive agile conference with a strong flavour of BDD and Cucumber.
 
