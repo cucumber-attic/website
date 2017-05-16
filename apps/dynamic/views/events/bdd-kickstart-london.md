@@ -74,7 +74,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## CukenFest London - June 21st-25th
 
-BDD Kickstart is part of CukenFest London, our series of events for the Cucumber community happening in June. The course will be followed by CukeUp! a one-day single track conference brimming with ideas and inspiration, ended with a weekend open-space conference. Learn more about CukenSpace [here](https://content.cucumber.io/cukenfest-2017)
+BDD Kickstart is part of CukenFest London, our series of events for the BDD and Agile community happening in June. The course will be followed by CukeUp! a one-day single track conference brimming with ideas and inspiration, ended with a weekend open-space conference. View the line-up and learn more about CukenFest [here](https://content.cucumber.io/cukenfest-2017)
 
 <!-- Drip -->
 <script type="text/javascript">
