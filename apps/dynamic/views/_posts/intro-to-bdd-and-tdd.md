@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "Introduction to TDD and BDD"
-date:     2017-05-16 09:00:00
+date:     2017-05-15 09:00:00
 nav:      blog
 ---
 
