@@ -8,7 +8,7 @@ nav:      blog
 
 > This is an edited transcript of Seb Rose's recent presentation at ACCU conference. You can watch the 15 minute talk [here](https://www.youtube.com/watch?v=l95DsKm5fbY). 
 > 
-> Seb will be at CukenFest London, a series of events for the BDD, Agile and Cucumber community happening over June 21st-25th. [Read more about events on our website](http://cukenfest.cucumber.io/).
+> Over June 21st-25th, we are running a series of events for the BDD, Agile and Cucumber community. [Read more about events on our website](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu).
 
 # Introduction to TDD and BDD
 There are four subsections to this talk. 
@@ -35,7 +35,8 @@ The third thing is refactor. That’s usually written in blue; I don’t know wh
 
 Those are the three phases of TDD. 
 
-> One thing I just want to dwell on very briefly is the word ‘refactor’ because I talk to a lot of developers in my line of work and ‘refactor’ is often misunderstood. When you’re refactoring, you are not changing the behaviour of the code. You never refactor to add a new piece of functionality. You might refactor to get the codebase into a state where you want it to be so that you can add a new piece of functionality but refactoring, by definition, does not alter the externally observable behaviour of the code.
+One thing I just want to dwell on very briefly is the word ‘refactor’ because I talk to a lot of developers in my line of work and ‘refactor’ is often misunderstood. When you’re refactoring, you are not changing the behaviour of the code. You never refactor to add a new piece of functionality. You might refactor to get the codebase into a state where you want it to be so that you can add a new piece of functionality but:
+> refactoring, by definition, does not alter the externally observable behaviour of the code.
 
 ## What is BDD?
 
@@ -48,7 +49,7 @@ Even so, it’s a lot of words on the page and actually, if you squint a little 
 The first is to get developers, testers and people from the business to talk to each other. That is the beginning of BDD. Anyone who thinks we’re doing BDD because we use ‘Given’, ‘When’, ‘Then’ – we may be doing BDD but the words ‘Given’, ‘When’, ‘Then’ have nothing to do with BDD. BDD stands for Behaviour-Driven Development and the real intent is to try and work out what your customer or business wants from the software before you start working on it. The first way of doing this is to actually **collaborate** with those people. 
 
 The second thing, once we’ve got that collaboration, is to somehow **record** that in a way that is meaningful to anybody reviewing it, who might come around and look at it later, who might want to comment on it. Typically, that gets done using a ubiquitous language. People often use the ‘Given’, ‘When’, ‘Then’ words but that’s not pertinent. The idea is that we’ve collaborated and this is shared understanding. This has made sure there is a collaborative goal that we’re trying to achieve and once we’ve got good at collaborating, it’s worth trying to capture that so that not everybody needs to be in the room at the same time, so that that shared learning can be propagated. 
-Finally, if it’s appropriate to our teams and to our projects, we drive out the behaviour using **automation**. 
+Finally, if it’s appropriate to our teams and to our projects, we **automate** our tests to drive the behaviour.
 
 > We collaborate, we record that collaboration in some form of specification and then we automate that specification to drive out the implementation.
 
@@ -90,14 +91,12 @@ BDD, TDD, ATDD, specification by example – they’re all the same. They work f
 
 All of these things are good.
 
-The relevant question when deciding whether to implement a test, a specification using JUnit or CPP Light or whatever they are, as opposed to a tool that supports natural language processing, such as Cucumber or SpecFlow or even the CPP version of Cucumber, is this:
-
-**Who is interested in reading these tests?** 
+But the relevant question when deciding whether to implement a test is this: *Who* is interested in reading these tests? 
 
 If you want some feedback from your business about something, if it’s a piece of behaviour that is really important to your product and your business is going to say ‘no, it shouldn’t work like that’, ‘yes, it should work like this’, really consider writing those tests in a way that they can read those tests and go ‘that is what we wanted’. Cucumber, SpecFlow, tools that use Gherkin allow you to do that directly in the ubiquitous language. However, you still don’t need to use them, you can write out long sentences within the technical frame that you’re working on and that would generate that readable documentation that you can share with your business. You can do it in JUnit, you can do it in CPP Light, you can do it in all of these tools; there is no problem. 
 
 What you do need to do is make sure that it’s expressed in a way you get the feedback from the people who are interested, the people who have got a stake, have got skin in the game.
 
-> Seb Rose will be at CukenFest London 2017 alongside the rest of the Cucumber team. 
+> CukenFest London is happening on June 21st-25th. Our first event will be a world-class BDD training course for teams ready to learn the fundamentals. 
 
->[Visit our website for the line-up and more details.](http://cukenfest.cucumber.io/)
+>[Visit our website for the line-up and more details.](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu)
