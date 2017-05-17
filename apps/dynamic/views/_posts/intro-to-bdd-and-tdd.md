@@ -10,6 +10,8 @@ nav:      blog
 > 
 > Over June 21st-25th, we are running a series of events for the BDD, Agile and Cucumber community. [Read more about events on our website](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu).
 
+![alt text](https://cucumber.io/images/blog/seb-accu/cukeup-seb.jpg "Seb at CukeUp! London")
+
 # Introduction to TDD and BDD
 There are four subsections to this talk. 
 
