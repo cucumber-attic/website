@@ -25,11 +25,11 @@ BDD Kickstart London is part of CukenFest, our series of events in London over J
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
-By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
+By the end of this course you will acquire the fundamental technical and non-technical skills required to confidently practise BDD.
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days will be led by one of the founders of the Cucumber team. 
+Both days will be led by **Aslak Hellesøy**, the creator of Cucumber and author of The Cucumber Book. A rare opportunity to learn about Cucumber and BDD from the creator himself.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -71,6 +71,16 @@ This day is designed for developers and testers, non-technical people are welcom
 * Backgrounds, Tags, Tables, Scenario Outlines and other Gherkin tricks
 * Domain modelling by Example
 * Costs & benefits of working test-first
+
+## Trainer
+
+<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="142" width="142">
+
+Aslak Hellesøy is the creator of Cucumber and co-founder of Cucumber Limited.
+He is a co-author of The Cucumber Book and an early adopter of XP and BDD.
+
+Aslak works as a programmer, software architect, business owner and trainer in a variety of industries, including finance, telecom and retail.
+
 
 ## CukenFest London - June 21st-25th
 
