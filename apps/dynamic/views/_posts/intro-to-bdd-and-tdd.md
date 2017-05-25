@@ -1,26 +1,22 @@
 ---
 layout:   post
-author:   theo
+author:   seb
 title:    "Introduction to TDD and BDD"
 date:     2017-05-15 09:00:00
 nav:      blog
 ---
 
-> This is an edited transcript of Seb Rose's recent presentation at ACCU conference. You can watch the 15 minute talk [here](https://www.youtube.com/watch?v=l95DsKm5fbY). 
-> 
-> Over June 21st-25th, we are running a series of events for the BDD, Agile and Cucumber community. [Read more about events on our website](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu).
-
 ![alt text](https://cucumber.io/images/blog/seb-accu/cukeup-seb.jpg "Seb at CukeUp! London")
 
 # Introduction to TDD and BDD
-There are four subsections to this talk. 
+There are four subsections to this article. 
 
 - TDD
 - BDD
 - Contradiction. 
 - xDD
 
-We’ll start off with an introduction to TDD. I’ll go through that quite quickly because I sense that most of you are doing that already. Then, I’ll spend a little more time on BDD and then deal with the contradictions or potential contradictions between the two, before getting – if I have enough time – slightly more for the software with XDD. 
+We’ll start off with an introduction to TDD. I’ll go through that quite quickly because I guess most of you reading this are already doing that already. Then, I’ll spend a little more time on BDD and then deal with the contradictions or potential contradictions between the two, before getting slightly more philosophic with XDD. 
 
 ## What is TDD?
 ![alt text](https://cucumber.io/images/blog/seb-accu/write-failing-test.png "Write a failing test")
@@ -33,7 +29,7 @@ This is another way of thinking about it. The three sections are slightly expand
 
 Then, the second step, the idea is to make it pass quickly. The intention is not to design everything perfectly; it’s to get that test passing. Your collection of tests go from failing to all passing and now that all of your tests are passing, it’s safe to refactor. The intention here is not to get the best design; it’s to get them all to green quickly, because now they’re all green, you can look at them and go ‘how do I want to improve this design?’ and you can safely improve the design through the refactor phase.
 
-The third thing is refactor. That’s usually written in blue; I don’t know why I’ve done it in green here. Then again, I don’t know why they do it in blue. The refactor loop in Nat and Steve’s [book](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627) is actually a cycle. You can draw it many other ways, but the idea is you don’t go in and refactor and you’re done; you go in, you look and see ‘what’s this change that I’d like to make’ and you make that change. You make sure the test is still green and you look at it again and say ‘is there another change that I want to do?’ or ‘has that refactoring introduced another thing that I want to do?’. This is a multi-process in itself; it’s not a single step. 
+The third thing is refactor. That’s usually written in blue; I don’t know why I’ve done its in green here. Then again, I don’t know why they do it in blue. The refactor loop in Nat and Steve’s [book](https://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627) is actually a cycle. You can draw it many other ways, but the idea is you don’t go in and refactor and you’re done; you go in, you look and see ‘what’s this change that I’d like to make’ and you make that change. You make sure the test is still green and you look at it again and say ‘is there another change that I want to do?’ or ‘has that refactoring introduced another thing that I want to do?’. This is a multi-process in itself; it’s not a single step. 
 
 Those are the three phases of TDD. 
 
@@ -42,7 +38,7 @@ One thing I just want to dwell on very briefly is the word ‘refactor’ becaus
 
 ## What is BDD?
 
-I showed you a nice little diagram about, I waffled on about it for 3 or 4 minutes but TDD is quite contained. 
+I showed you a nice little diagram about, I defined TDD quite quickly and it's quite contained. 
 BDD, however, is extremely uncontained; it’s sort of weird. No one is quite sure what it means. [Matt Wynne](https://twitter.com/mattwynne) who works with me in Cucumber Limited and has been working BDD for a while, has tried to distill it down and he’s come up with this sentence. 
 >“BDD practitioners explore, discover, define, then drive out the desired behaviour of software using conversations, concrete examples, and automated tests.”
 
@@ -65,11 +61,11 @@ The classic way, using Cucumber and SpecFlow and any other tool that uses a semi
 
 Feature files are just plain text files. They have a semi-structure, there is a syntax, the keywords are in blue. The intent is that anyone from your domain should be able to read your feature files and understand exactly what the intent is of the system – how it is supposed to behave.
 
-The feature file looks something like this. It has a name at the top saying what feature is, it’s got some text which tells you what the behaviour or the acceptance criteria is and then, it has a number of scenarios that show how the system behaves given certain situations. The important thing here is that the examples that you might come up with when you’re collaborating get recorded as the scenarios. The acceptance criteria, which are the rules, the way the system should be behaving are captured in the text at the top and the important thing here is that user stories which a lot of Agile teams get very hung up on are just rubbish at the end of the implementation and should be bent.
+The feature file looks something like it displays above. It has a name at the top saying what feature is, it’s got some text which tells you what the behaviour or the acceptance criteria is and then, it has a number of scenarios that show how the system behaves given certain situations. The important thing here is that the examples that you might come up with when you’re collaborating get recorded as the scenarios. The acceptance criteria, which are the rules, the way the system should be behaving are captured in the text at the top and the important thing here is that user stories which a lot of Agile teams get very hung up on are just rubbish at the end of the implementation and should be bent.
 
 ## TDD and BDD: differences and contradictions
 
-Moving on to the contradiction. We’ve talked about BDD and TDD. People often say ‘what’s the difference between them?’.
+Moving on to the contradiction. We’ve explained both BDD and TDD. People often say ‘what’s the difference between them?’.
 
 People also go on and ask ‘I’ve also heard about acceptance test-driven development. What are they all? When should I use them? Are they different?’. The reality is that you can find websites that will tell you when to use which in which environment and what systems are designed to support. [Liz Keogh](https://twitter.com/lunivore) who works with [Dan North who invented the term BDD](https://dannorth.net/introducing-bdd/) was asked this question – what’s the difference between all these things? 
 >[Her answer](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/) is ‘they’re just called different things’. 
@@ -102,6 +98,9 @@ What you do need to do is make sure that it’s expressed in a way you get the f
 > CukenFest London is happening on June 21st-25th. Our first event will be a world-class BDD training course for teams ready to learn the fundamentals. 
 
 >[Visit our website for the line-up and more details.](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu)
+
+> This is an edited transcript of Seb Rose's recent presentation at ACCU conference. You can watch the 15 minute talk [here](https://www.youtube.com/watch?v=l95DsKm5fbY). 
+
 
 <!-- Drip -->
 <script type="text/javascript">
