@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "Property-Based Testing - Cucumber Podcast"
+title:    "BDD in Banking - Cucumber Podcast"
 date:     2017-05-25 10:00:00
 nav:      blog
 ---
@@ -16,7 +16,7 @@ In just 9 months the defect rate decreased from 34% to 4% and they avoided a ver
 
 Simon's story can also be found on the [Adventures with Agile blog](https://www.adventureswithagile.com/2015/08/27/a-case-study-for-bdd-in-improving-throughput-and-collaboration/)
 
-> Cucumber and Adventures with Agile are teaming up to run BDD Kickstart, London on June 21st-22nd. A two-day public training course for people who want to learn fundamentals of BDD and Cucumber. Aslak Hellesoy - the creator of Cucumber and author of The Cucumber Book - will teach this course. [Learn more][https://cucumber.io/events/bdd-kickstart-london) This BDD course is part of [CukenFest](http://cukenfest.cucumber.io/), our week of events of the BDD and Agile communitiy. 
+> Cucumber and Adventures with Agile are teaming up to run BDD Kickstart, London on June 21st-22nd. A two-day public training course for people who want to learn fundamentals of BDD and Cucumber. Aslak Hellesoy - the creator of Cucumber and author of The Cucumber Book - will teach this course. [Learn more](https://cucumber.io/events/bdd-kickstart-london) This BDD course is part of [CukenFest](http://cukenfest.cucumber.io/), our week of events of the BDD and Agile communitiy. 
 
 You can also listen and download the podcast on [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635) and [Stitcher](http://www.stitcher.com/s?fid=81999&refid=stpr). 
 
