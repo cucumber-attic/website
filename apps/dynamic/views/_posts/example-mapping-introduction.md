@@ -141,3 +141,18 @@ You’ll find that rules make natural fault lines for slicing your story. Try to
 _Thanks to Janet Gregory, Aslak Hellesøy and Seb Rose for their feedback on this post, to Theo England for his patience while I perfected it, and to Tom Stuart for [getting me to pull my finger out](https://twitter.com/tomstuart/status/673447106506563584)._
 
 _This article has been translated into [French](http://www.les-traducteurs-agiles.org/2017/03/21/presentation-cartographie-des-exemples.html). Thanks, Nicolas Mereaux!_
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '7849462';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/7849462.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
