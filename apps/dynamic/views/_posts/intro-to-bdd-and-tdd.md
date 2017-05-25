@@ -102,3 +102,18 @@ What you do need to do is make sure that it’s expressed in a way you get the f
 > CukenFest London is happening on June 21st-25th. Our first event will be a world-class BDD training course for teams ready to learn the fundamentals. 
 
 >[Visit our website for the line-up and more details.](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu)
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '7849462';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/7849462.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
