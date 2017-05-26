@@ -101,7 +101,7 @@ at hand) to get them ready for what to expect. Do this by:
 -   Sending round information about the principles of open-space, and any quotes
     or other communications from previous events.
 
--   Sending round the a [one-page session leader
+-   Sending round a [one-page session leader
     guide](http://agileforall.com/wp-content/uploads/2017/05/OpenSpaceSessionLeaderGuide.pdf)
     with encouragement to lead a session.
 
