@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: "2016-11-17 09:00:00"
+date: "2017-05-26 09:00:00"
 title: "Open Space: Rocket Fuel for your Agile transformation"
 author: matt
 ---
@@ -177,6 +177,27 @@ Then ask them to queue up and present a 30-second pitch to the rest of the
 group, before placing their card on the agenda board in a particular time and
 place.
 
+Work with the space
+--------------------
+
+Another magic ingredient in open-spaces is the spaces themselves. The diverse
+character of the individual spaces can attract and encourage different kinds of
+interaction, so make the most of the different strengths and weaknesses of each
+one. Some will have a screen and be great for presentations or coding
+exercises, some will be more suited to a discussion. Make the attributes of
+each space clear on your agenda board, and try to help people post their
+sessions in the appropriate space. Look for unofficial spaces in corridors that
+could be used for smaller discussion tracks.
+
+Let go
+------
+
+In [Harrison Owen's classic book on open space](https://www.amazon.co.uk/Open-Space-Technology-Agency-Distributed/dp/1576754766), he says:
+
+> To the best of my knowledge, there is exactly one way to absolutely guarantee the failure of an open space event, and that is to try and control it.
+
+Be aware that you will have your own expectations for the event. Try to put your mind at ease and remember _whatever happens is the only thing that could have_.
+
 Closing circle
 --------------
 
@@ -190,18 +211,6 @@ As the facilitator, you can try to use the [focussed
 conversation](https://www.amazon.co.uk/Art-Focused-Conversation-Access-Workplace-x/dp/0865714169)
 method to guide the closing circle towards actions. I like to ask every
 individual to write down one action on a card, and take it away with them.
-
-Work with the space
---------------------
-
-Another magic ingredient in open-spaces is the spaces themselves. The diverse
-character of the individual spaces can attract and encourage different kinds of
-interaction, so make the most of the different strengths and weaknesses of each
-one. Some will have a screen and be great for presentations or coding
-exercises, some will be more suited to a discussion. Make the attributes of
-each space clear on your agenda board, and try to help people post their
-sessions in the appropriate space. Look for unofficial spaces in corridors that
-could be used for smaller discussion tracks.
 
 Attend another open space
 -------------------------
@@ -224,3 +233,5 @@ Further reading
 Here's a [great blog
 post](http://agilecoach.typepad.com/agile-coaching/2010/04/tips-on-organizing-an-agile-open-space.html) from Rachel Davies with more tips on organising open
 spaces.
+
+The [OpenSpaceWorld](http://openspaceworld.org/wp2/explore/facilitator-resources/) website has a wealth of resourece to learn about open space.
