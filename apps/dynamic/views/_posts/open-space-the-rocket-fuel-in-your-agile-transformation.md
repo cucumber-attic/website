@@ -8,7 +8,7 @@ author: matt
 
 I absolutely love open space.
 
-Over the last couple of years, We've been privilidged to be trusted by some of
+Over the last couple of years, we've been privilidged to be trusted by some of
 our best [consulting clients](/training) to run open space events in their
 organisations. I'm now convinved that these events are crucial in powering the
 cultural shift to agile software development.
@@ -167,7 +167,7 @@ Agenda Building
 At an open-space, the agenda is built by the participants themselves. This is
 obviously a crucial part of the event. Make sure you have plenty of paper and
 pens, and ask everyone who wants to lead a session to write up a card or
-post-it with at least:
+post-it with at least the:
 
 - Session title
 - Intended audience / pre-requisites
