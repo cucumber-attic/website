@@ -26,7 +26,7 @@ interested in the topic of your conversation; great insights were shared.
 
 Open space is a meeting structure designed to deliberately harness this energy.
 Using a few simple rules, a large group of people self-organises a dynamic,
-evolving schedule that allows every individual to contibute and learn by
+evolving schedule that allows every individual to contribute and learn by
 following their own enthusiasms and interests.
 
 To give you a flavour, here’s a video produced by our friends at 
