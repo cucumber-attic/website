@@ -6,6 +6,10 @@ date:   2014-01-25 10:32:59
 nav: blog
 ---
 
+> **Please note:** This blog post refers to an earlier version of Cucumber Pro, and describes features that are not part of the current version. Please refer to the [current documentation](https://app.cucumber.pro/projects/cucumber-pro) for up-to-date information about Cucumber Pro's features, and how to join our early-access programme.
+>
+> The post is left here as a historical record. For a trip down memory lane, read on.
+
 Cucumber Pro opened the door ajar for a select few [founder customers]({{ site.url }}/plans) a little over a month ago. Let's take a look at what we have so far:
 
 ## GitHub, Bitbucket and Subversion
