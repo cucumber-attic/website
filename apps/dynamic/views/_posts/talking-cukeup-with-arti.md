@@ -8,7 +8,7 @@ nav:      blog
 
 <img src="https://cucumber.io/images/arti-cukeup.jpg" style="float:center; width:100%">
 
-With just two weeks to go until [CukeUp! London (June 23rd)](http://cukenfest.cucumber.io/) I've spent some time catching up with a few people involved in the conference this year. My first conversation is with Arti Mathanda, who has made an enormous difference to the essence of CukeUp! since joining our programme committee a couple of years ago. 
+With just two weeks to go until [CukeUp! London (June 23rd)](http://cukenfest.cucumber.io/) I've spent some time catching up with a few people involved in the conference this year. My first conversation is with Arti Mathanda, who has made an enormous contribution to CukeUp! since joining our programme committee a couple of years ago. Here goes.
 
 > Hi Arti! We’ve been friends for ages but I’m not sure all of our readers will know you so well. Can you tell us a bit about your background? How did you get into the software industry?
 
