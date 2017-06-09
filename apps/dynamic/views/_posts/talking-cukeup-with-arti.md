@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   matt
-title:    "Talk CukeUp! London with Arti Mathanda"
+title:    "Talking CukeUp with Arti Mathanda"
 date:     2017-06-09 10:00:00
 nav:      blog
 ---
