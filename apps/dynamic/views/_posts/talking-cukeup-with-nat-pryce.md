@@ -8,7 +8,7 @@ nav:      blog
 
 <img src="https://cucumber.io/images/blog/cukeup-people.jpg" style="float:center; width:100%">
 
-This month sees the arrival of [CukeUp! London (June 23rd)](http://cukenfest.cucumber.io/). I've spent some time catching up with a few people involved in the conference this year. Today I spoke to Nat Pryce. We go way back and he's spoken at few CukeUp conferences over the years. Nat's talks are always entertaining as well as informative, so I'm really looking forward to hearing his talk on running fast function tests later this month. 
+This month sees the arrival of [CukenFest London (June 21st-25th)](http://cukenfest.cucumber.io/). I've spent some time catching up with a few people involved in the conference this year. Today I spoke to Nat Pryce. We go way back and he's spoken at few CukeUp conferences over the years. Nat's talks are always entertaining so I'm really looking forward to hearing what he has to say about running fast tests. 
 
 Here's our conversation:
 
@@ -24,7 +24,7 @@ Spoilers!
 
 The crazy magic is the way we designed our test scaffolding.  We can run the same test code against business logic in memory, or against the entire application running on a developer machine, or deployed into the cloud with HTTP services, caches, load balancers, routers, databases and message queues in the mix.  
 
-<img src="https://cucumber.io/images/blog/nat-square.jpg" style="float:left; width:50%">
+<img src="https://cucumber.io/images/blog/nat-square.jpg" style="float:right; width:40%">
 
 So we get super-fast feedback on business logic, and can verify that the user can make use of that business logic when there's a load of technical jibber-jabber between them and it.
 
