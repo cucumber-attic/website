@@ -2,7 +2,7 @@
 layout:   post
 author:   matt
 title:    "Talking CukeUp with Charlie Rudolph"
-date:     2017-06-14 10:00:00
+date:     2017-06-14 01:00:00
 nav:      blog
 ---
 
