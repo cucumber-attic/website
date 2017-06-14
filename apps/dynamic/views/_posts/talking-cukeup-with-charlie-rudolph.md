@@ -6,13 +6,13 @@ date:     2017-06-14 10:00:00
 nav:      blog
 ---
 
-<img src="https://cucumber.io/images/blog/cukeup-table.jpg" style="float:center; width:100%">
+<img src="https://cucumber.io/images/blog/matt-standing-cukeup-2016.jpg" style="float:center; width:100%">
 
-Next week we will run [CukenFest London (June 21st-25th)](http://cukenfest.cucumber.io/). I've spent some time catching up with a few people involved in the conference this year in preparation for the conference. Flying over from the States, Charlie Rudolph gave me a few minutes of his time to discuss what he's looking forward most. Charlie is heavily involved in the Cucumber OSS community and joined us in Copenhagen last year for our first open space. 
+Next week we will run [CukenFest London (June 21st-25th)](http://cukenfest.cucumber.io/). I've spent some time catching up with a few people involved in the conference this year in preparation for the conference. Flying all the way from the States next week is Charlie Rudolph, a core contributor to the Cucumber-JS project. He gave me a few minutes of his time to discuss what he's looking forward to most. 
 
 Here's our conversation:
 
-<img src="https://cucumber.io/images/blog/nat-square.jpg" style="float:right; width:40%">
+<img src="https://cucumber.io/images/blog/charlie-rudolph.jpeg" style="float:right; width:40%">
 
 > Hi Charlie! Can you tell us a bit about your background? How did you first get into programming?
 
