@@ -5,10 +5,10 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: September 18th-19th 2017
   cta:
-    link: https://www.getdrip.com/forms/28240415/submissions/new
-    message: Sign up for updates and offers
+    link: /events/bdd-kickstart-stockholm-17
+    message: Buy your ticket!
 location:
-  url: 
+  url: https://www.google.co.uk/maps/place/Norrtullsgatan+2,+113+29+Stockholm,+Sweden/@59.341659,18.0502359,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d6f7618f9f9:0x7ede496b86a44cc5!8m2!3d59.341659!4d18.0524246
   name: Stockholm
 layout: one-column
 nav: events
@@ -68,13 +68,13 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-## Trainers
+## Trainer
 
 **Thomas Sundberg**
 
-<img src="{{ site.url }}/images/headshots/thomas-headshot.png" alt="Thomas Sundberg" height="300" width="200">
+<img src="{{ site.url }}/images/headshots/thomas-headshot.png" alt="Thomas Sundberg" width="200">
 
-Thomas Sundberg is an independent consultant in Stockholm, Sweden. He has a Masters degree in Computer Science from the Royal Institute of Technology, KTH, in Stockholm. He has been working as a Java developer the last ten years. His first experience with Test-Driven Development was with JUnit the autumn of 2000. He has also worked as a lecturer at KTH teaching programming courses. There he realized that students who solve programming assignments in pairs normally produce better solutions compared to students working alone. Thomas has a passion for automation and has set up and maintained Continuous Integration systems since 2004 at different companies, including Sony Ericsson and H&M.
+Thomas Sundberg is an independent consultant in Stockholm, Sweden. He has a Masters degree in Computer Science from the Royal Institute of Technology, KTH, in Stockholm. He has been working as a Java developer the last fifteen years. His first experience with Test-Driven Development was with JUnit the autumn of 2000. He has also worked as a lecturer at KTH teaching programming courses. There he realized that students who solve programming assignments in pairs normally produce better solutions compared to students working alone. Thomas has a passion for automation and has set up and maintained Continuous Integration systems since 2004 at different companies, including Sony Ericsson and H&M.
 
 Thomas can be found on Twitter, [@thomassundberg](https://twitter.com/thomassundberg)
 
