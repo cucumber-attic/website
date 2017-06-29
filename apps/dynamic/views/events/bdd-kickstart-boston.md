@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: August 22nd-23rd 2017
   cta:
-    link: 
+    link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Stay up to date
 location:
   url: 
