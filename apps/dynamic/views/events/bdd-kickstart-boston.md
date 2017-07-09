@@ -68,7 +68,7 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-## Trainers
+## Trainer
 
 **Ryan Marsh**
 
