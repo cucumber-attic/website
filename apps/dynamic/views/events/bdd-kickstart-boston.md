@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: August 22nd-23rd 2017
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Stay up to date
+    link: https://ti.to/cucumber/bdd-kickstart-boston
+    message: Book your ticket
 location:
   url: https://www.google.de/maps/place/55+Walkers+Brook+Dr,+Reading,+MA+01867,+USA/@42.5176631,-71.0966513,17z/data=!3m1!4b1!4m5!3m4!1s0x89e30ca855b8ab77:0xbde7daf76102f2ce!8m2!3d42.5176631!4d-71.0944626
   name: Boston
