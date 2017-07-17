@@ -8,9 +8,9 @@ author: matt
 
 I absolutely love open space.
 
-Over the last couple of years, we've been privilidged to be trusted by some of
+Over the last couple of years, we've been privileged to be trusted by some of
 our best [consulting clients](/training) to run open space events in their
-organisations. I'm now convinved that these events are crucial in powering the
+organisations. I'm now convinced that these events are crucial in powering the
 cultural shift to agile software development.
 
 In this post I want give you a sense of what open space is like and share some 
