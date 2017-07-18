@@ -80,6 +80,10 @@ Ryan can be found on Twitter, [@ryan_marsh](https://twitter.com/ryan_marsh)
 
 ## Training Location
 
+Both days will be held in the Reading offices of the Eliassen Group: 55 Walkers Brook Dr, Reading, MA 01867, USA.
+
+The training is facility is a 25-minute drive from Logan Airport or downtown Boston. 
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11762.886318051771!2d-71.09951716353757!3d42.51872437599217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f512a46e84109b5!2sEliassen+Group!5e0!3m2!1sen!2sde!4v1500297148041" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <!-- Drip -->
