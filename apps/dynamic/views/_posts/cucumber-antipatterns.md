@@ -10,6 +10,8 @@ Cucumber’s popularity might give the impression it’s an easy tool to master.
 
 We’ll unpick why it’s important to write your gherkin before you write the code, consider if you should ever delete scenarios, and give tips on incorporating your team’s different perspectives into maintainable, predictable cukes!
 
+We also wrote up this conversation into two blog posts. Read [Part 1](https://cucumber.io/blog/2016/07/01/cucumber-antipatterns-part-one) and [Part 2](https://cucumber.io/blog/2016/08/31/cucumber-anti-patterns-part-two). 
+
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/263208968&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 You can also listen and download the podcast on [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635) and [Stitcher](http://www.stitcher.com/s?fid=81999&refid=stpr). 
