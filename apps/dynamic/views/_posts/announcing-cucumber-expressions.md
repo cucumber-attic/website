@@ -51,6 +51,6 @@ Regular Expression support isn't going away. In fact, it 's been improved. If yo
 
 Cucumber will no longer suggest Regular Expressions in snippets - that's going to be Cucumber Expressions from now on.
 
-Cucumber.js has had Cucumber Expressions for a few months already, and we've really enjoyed using them ourselves in Cucumber Pro. Cucumber-Ruby 3.0.0.pre.2 was released today, and it has Cucumber Expressions built-in as well. The Cucumber Expressions library has been implemented in Java, but Cucumber-JVM hasn't been updated to use it yet. Please do get in touch if you want to help us make that happen.
+Cucumber.js has had Cucumber Expressions for a few months already, and we've really enjoyed using them ourselves in Cucumber Pro. Cucumber-Ruby 3.0.0.pre.2 was released today, and it has Cucumber Expressions built-in as well. The Cucumber Expressions library has been implemented in Java, but Cucumber-JVM hasn't been updated to use it yet. Please do get in touch if you want to help us make that happen. The source code for Cucumber Expressions is [here](https://github.com/cucumber/cucumber/tree/master/cucumber-expressions).
 
 Try them out and let us know how you get on and how we can improve them!
