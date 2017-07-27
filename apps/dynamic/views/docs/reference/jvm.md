@@ -54,9 +54,10 @@ Then add a dependency to the snapshot version, for example:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <!--Note that as of 2.0.0 the groupId has changed to io.cucumber -->
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
     <scope>test</scope>
 </dependency>
 ```
