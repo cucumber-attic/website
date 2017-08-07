@@ -6,13 +6,15 @@ date:     2017-08-07 01:00:00
 nav:      blog
 ---
 
+<img src="https://cucumber.io/images/blog/village-underground.jpg" style="float:center; width:100%">
+
 Some exciting news.
 
 All the talks from [CukeUp London](http://cukenfest.cucumber.io/video/) are now on our website. 
 
-At the end of June under the bricked arches of Shoreditch's Village Underground, around 150 of us gathered together for a day of inspiring talks and discussions about building high-quality software by harnessing the power of collaboration. 
+At the end of June under the bricked arches of London's Village Underground, around 150 of us gathered together for a day of inspiring talks and discussions about building high-quality software.  
 
-Throughout the day we witnessed a series of tactical and informative talks from practitioners, business leaders and industry-renowned authors. Talks topics weren't limited to just Cucumber or BDD, instead each focused on how to bridge the communication gap between business and IT teams. 
+Throughout the day we witnessed a series of tactical and informative talks from practitioners, business leaders and industry-renowned authors. Talks topics weren't limited to just Cucumber and BDD, instead there was a broad focus on harnessing collaboration to build great software products.
 
 [You can now watch the talks from CukeUp London.](http://cukenfest.cucumber.io/video/)
 
@@ -24,7 +26,7 @@ If your team are looking to adopt BDD practices, learn how corporate monolith Th
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XAjkc28nUjY" frameborder="0" allowfullscreen></iframe>
 
 **Communities of Practice. Emily Webber**
-Emily demonstrates why a community of practice within a large organisation can be a game-changer when it comes to sharing ideas and fostering collaboration at scale. 
+Emily explains why a community of practice within a large organisation can be a game-changer when it comes to sharing ideas and fostering collaboration at scale. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDIUyBKDmhA" frameborder="0" allowfullscreen></iframe>
 
