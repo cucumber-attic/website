@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "CukeUp London 2017 videos are now available!"
-date:     2017-08-07 09:00:00
+date:     2017-08-07 01:00:00
 nav:      blog
 ---
 
