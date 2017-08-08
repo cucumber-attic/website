@@ -19,8 +19,6 @@ dtend: 2017-08-23 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
-## Early-bird pricing ends on Thursday July 20th at Midnight Eastern. 
-
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
 By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
