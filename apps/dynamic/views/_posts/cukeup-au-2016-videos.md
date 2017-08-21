@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "The CukeUp AU videos have finally arrived!"
-date:     2017-08-18 01:00:00
+date:     2017-08-21 01:00:00
 nav:      blog
 ---
 
@@ -19,16 +19,17 @@ You'll find some golden advice in each talk, but here's a few you should start w
 ### Katrina Clokie: We just want chocolate
 
 Katrina delivered an entertaining talk about how initial enthusiasm for BDD can fizzle out. You'll learn where your current process fits in the model, simple ideas to drive movement through the lifecycle by creating change in your team, and some reassuring words that building high-quality software isn't easy.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x9yKM2ki7Ko&t=0s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=x9yKM2ki7Ko&t=0s" frameborder="0" allowfullscreen></iframe>
 
 ### Michele Playfair and Donella Fardoulis: Amigos Apart
-Michele and Donella share some neat ideas for how your team can collaborate when you're team isn't co-located. 
+Michele and Donella share ideas for collaborating when you're team isn't co-located. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CJr-UgdY5Ho&t=0s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CJr-UgdY5Hot=0s" frameborder="0" allowfullscreen></iframe>
 
 ### Elise Aplin: Can the real MVP please stand up?
-Elise discusses the common mistakes we all make when crafting an MVP and the hurdles that get in the way of us getting it right. She shares the simple things that we can all do to ensure that we aren’t just throwing around a buzzword and instead we’re creating value with our MVPs.
+Elise discusses the common mistakes teams make when crafting a Minimum Viable Product. She outlines the hurdles in the way of getting it right and the simple things that we can all do to ensure that we aren’t just throwing the buzzword around and instead create value.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c-qWJswRX2c&t=0s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=c-qWJswRX2c&t=0s" frameborder="0" allowfullscreen></iframe>
+
 
 Watch all the talks [here](https://www.youtube.com/playlist?list=PLrQMyTCtW0Daafumvs3aajoJoe0X3sgnT).
