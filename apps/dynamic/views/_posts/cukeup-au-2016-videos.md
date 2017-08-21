@@ -10,7 +10,7 @@ nav:      blog
 
 It's taken us a while, but we're pleased to share the CukeUp AU 2016 videos with you. We've had some boring problems getting the files from our AV guy, but that's all behind us now. You can now feast yourself on some high-quality BDD and Cucumber content. 
 
-Watch all the talks on our [YouTube channel.](<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLrQMyTCtW0Daafumvs3aajoJoe0X3sgnT" frameborder="0" allowfullscreen></iframe>)
+Watch all the talks on our [YouTube channel](https://www.youtube.com/playlist?list=PLrQMyTCtW0Daafumvs3aajoJoe0X3sgnT).
 
 Alongside Hamish and the folks at [Mechanical Rock](https://www.mechanicalrock.io/), we organised CukeUp AU, a single-track conference focused on helping teams collaborate. Short talks mix with collaborative workshops designed to bring BAs, developers and testers together to build higher-quality software. 
 
