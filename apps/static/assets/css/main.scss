@@ -66,7 +66,8 @@ p {
 }
 
 .intro-header-talks {
-  background: url(/images/cukeup-2014/CukeUp-7459.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/cukeup-2015/nat-on-stage.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -84,7 +85,9 @@ p {
 
 .intro-message h1 {
   margin: 0;
-  font-size: 90px;
+  font-size: 90pt;
+  font-family: Insignia LT Std;
+  padding: 50px;
 }
 
 .intro-message h2 {
