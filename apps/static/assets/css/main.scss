@@ -42,10 +42,17 @@ p {
   margin-bottom: 30px;
 }
 
-.intro-header-training, .intro-header-school {
+.intro-header-training,
+.intro-header-school,
+.intro-header-talks {
   padding-top: 0; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 0;
   text-align: center;
+
+  .btn-cta {
+    @include btn($brand-orange);
+    margin-right: 10px;
+  }
 }
 
 .intro-header-training {
@@ -54,6 +61,11 @@ p {
 }
 
 .intro-header-school {
+  background: url(/images/cukeup-2014/CukeUp-7459.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.intro-header-talks {
   background: url(/images/cukeup-2014/CukeUp-7459.jpg) no-repeat center center;
   background-size: cover;
 }
