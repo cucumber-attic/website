@@ -1,6 +1,6 @@
 @mixin btn($color) {
   display: inline-block;
-  margin: 20px 0 0;
+  margin: 20px 10px 0 0;
   background: $color;
   border: 1px solid $color;
   color: #fff;
@@ -10,7 +10,9 @@
   & > span {
     margin: 0 8px 0 0;
   }
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background: $body-bg;
     color: $color;
     text-decoration: none;
