@@ -72,7 +72,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Aslak Hellesøy**
 
-<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="200">
+<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="300">
 
 Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
 
