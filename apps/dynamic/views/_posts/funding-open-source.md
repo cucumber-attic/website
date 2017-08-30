@@ -13,9 +13,11 @@ This week on the Cucumber podcast Aslak Hellesøy speaks to Pia Mancini, co-foun
 
 Show notes:
 
-Learn more about Open Collective - https://opencollective.com/
+Learn more about Open Collective - [link](https://opencollective.com/)
 
-Contribute to Cucumber's Open Collective - https://opencollective.com/cucumber
+Contribute to Cucumber's Open Collective - [link](https://opencollective.com/cucumber)
+
+Watch Aslak's talk from CukeUp London 2017 about the Open Collective and our own campaign for Cucumber OSS. [link](https://www.youtube.com/watch?v=TZf_rDz9ESg&feature=youtu.be)
 
 Say hi to [Pia](https://twitter.com/piapmancini) on Twitter
 
