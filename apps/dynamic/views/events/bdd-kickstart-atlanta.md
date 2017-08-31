@@ -6,7 +6,7 @@ hero:
   dates: November 8th-9th 2017
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Book your ticket
+    message: Register your interest
 location:
   url:  https://www.google.com/maps/place/1000+Abernathy+Rd+NE,+Atlanta,+GA+30328/@33.9348279,-84.3567904,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50eaaa5952d21:0x6ac265053c5e917f!8m2!3d33.9348279!4d-84.3546017
   name: Atlanta
@@ -78,17 +78,19 @@ Ryan Marsh is an agile coach, programmer and trainer. He loves helping companies
 
 Ryan can be found on Twitter, [@ryan_marsh](https://twitter.com/ryan_marsh)
 
-## Training Location
-
-Both days will be held in the Atlanta offices of the Matrix Resources Inc: 1000 Abernathy Road, Atlanta, GA, 30328.
-
-The training is facility is a 40-minute drive from Hartsfield-Jackson Atlanta International Airport or 25 minutes from downtown Atlanta. 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.244934948445!2d-84.35679038478798!3d33.93482788063818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50eaaa5952d21%3A0x6ac265053c5e917f!2s1000+Abernathy+Rd+NE%2C+Atlanta%2C+GA+30328!5e0!3m2!1sen!2sus!4v1504189077901" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+## Training Partner and Location
 
 This course is run in partnership with the good people of [Matrix Resources](https://www.matrixres.com/). 
 
 <img src="{{ site.url }}/images/events/matrix-logo.png" alt="Matrix" height="111" width="371">
+
+Both days will be held in their Atlanta offices on 1000 Abernathy Road, Atlanta, GA, 30328.
+
+The training is facility is a 40-minute drive from Hartsfield-Jackson Atlanta International Airport or a 25 minute ride from downtown Atlanta. 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.244934948445!2d-84.35679038478798!3d33.93482788063818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50eaaa5952d21%3A0x6ac265053c5e917f!2s1000+Abernathy+Rd+NE%2C+Atlanta%2C+GA+30328!5e0!3m2!1sen!2sus!4v1504189077901" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Contact sales@cucumber.io if you have any questions.
 
 
 <!-- Drip -->
