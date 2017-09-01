@@ -56,6 +56,9 @@ authors:
     display_name: Seb Rose
     email: seb@cucumber.io
     gravatar: fc5168c8ba5fd8727cd924df4b376052
+  brasmusson:
+    display_name: Björn Rasmusson
+    email: B.Rasmusson@computer.org
 
 versions:
   cucumber_jvm: 1.2.5

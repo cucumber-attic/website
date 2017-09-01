@@ -1,20 +1,20 @@
 ---
-title: BDD Kickstart, Stockholm 2017
+title: BDD Kickstart, Atlanta 2017
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: November 15th-16th 2017
+  dates: November 8th-9th 2017
   cta:
-    link: https://www.getdrip.com/forms/3429383/submissions/new
+    link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Register your interest
 location:
-  url: https://www.google.co.uk/maps/place/Norrtullsgatan+2,+113+29+Stockholm,+Sweden/@59.341659,18.0502359,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d6f7618f9f9:0x7ede496b86a44cc5!8m2!3d59.341659!4d18.0524246
-  name: Stockholm
+  url:  https://www.google.com/maps/place/1000+Abernathy+Rd+NE,+Atlanta,+GA+30328/@33.9348279,-84.3567904,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50eaaa5952d21:0x6ac265053c5e917f!8m2!3d33.9348279!4d-84.3546017
+  name: Atlanta
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2017-11-15 00:00:00
-dtend: 2017-11-16 00:00:00
+dtstart: 2017-11-08 00:00:00
+dtend: 2017-11-09 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
@@ -25,7 +25,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Thomas Sundberg**, experienced BDD and Cucumber practitioner and coach.
+Both days are led by **Ryan Marsh**, renowned BDD and Cucumber expert and practitioner.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -70,13 +70,28 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## Trainer
 
-**Thomas Sundberg**
+**Ryan Marsh**
 
-<img src="{{ site.url }}/images/headshots/thomas-headshot.png" alt="Thomas Sundberg" width="200">
+<img src="{{ site.url }}/images/events/ryan-marsh.JPG" alt="Ryan Marsh" height="300" width="200">
 
-Thomas Sundberg is an independent consultant in Stockholm, Sweden. He has a Masters degree in Computer Science from the Royal Institute of Technology, KTH, in Stockholm. He has been working as a Java developer the last fifteen years. His first experience with Test-Driven Development was with JUnit the autumn of 2000. He has also worked as a lecturer at KTH teaching programming courses. There he realized that students who solve programming assignments in pairs normally produce better solutions compared to students working alone. Thomas has a passion for automation and has set up and maintained Continuous Integration systems since 2004 at different companies, including Sony Ericsson and H&M.
+Ryan Marsh is an agile coach, programmer and trainer. He loves helping companies get better at making software. At 16 Ryan quit school to program full-time and pursued it with a passion. At 23 he took  a break from software development to jump out of airplanes for the US Army. There he learned to train and lead diverse teams in complex environments. These days he coaches and trains software teams on BDD and Agile. Ryan’s team building experience and love of programming make him a great match for teams who want to grow.
 
-Thomas can be found on Twitter, [@thomassundberg](https://twitter.com/thomassundberg)
+Ryan can be found on Twitter, [@ryan_marsh](https://twitter.com/ryan_marsh)
+
+## Training Partner and Location
+
+This course is run in partnership with the good people of [Matrix Resources](https://www.matrixres.com/). 
+
+<img src="{{ site.url }}/images/events/matrix-logo.png" alt="Matrix" height="111" width="371">
+
+Both days will be held in their Atlanta offices on 1000 Abernathy Road, Atlanta, GA, 30328.
+
+The training is facility is a 40-minute drive from Hartsfield-Jackson Atlanta International Airport or a 25 minute ride from downtown Atlanta. 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.244934948445!2d-84.35679038478798!3d33.93482788063818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50eaaa5952d21%3A0x6ac265053c5e917f!2s1000+Abernathy+Rd+NE%2C+Atlanta%2C+GA+30328!5e0!3m2!1sen!2sus!4v1504189077901" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Contact sales@cucumber.io if you have any questions.
+
 
 <!-- Drip -->
 <script type="text/javascript">
