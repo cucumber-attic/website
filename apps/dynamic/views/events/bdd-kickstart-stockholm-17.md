@@ -3,7 +3,7 @@ title: BDD Kickstart, Stockholm 2017
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: November 2017
+  dates: November 15th-16th 2017
   cta:
     link: https://www.getdrip.com/forms/3429383/submissions/new
     message: Register your interest
@@ -13,8 +13,8 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2017-11-01 00:00:00
-dtend: 2017-11-02 00:00:00
+dtstart: 2017-11-15 00:00:00
+dtend: 2017-11-16 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training

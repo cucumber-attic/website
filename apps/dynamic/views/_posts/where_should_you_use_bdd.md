@@ -5,7 +5,7 @@ title:  Where should you use Behaviour-Driven Development?
 date:   2016-07-20 00:00:00
 nav: blog
 ---
-*September 18th-19th 2017, Stockholm: Join Thomas Sundberg for our flagship two-day [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-17). This course has been taught to hundreds of teams who have implemented BDD and Cucumber successfully.*
+*November 15th-16th 2017, Stockholm: Join Thomas Sundberg for our flagship two-day [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-17). This course has been taught to hundreds of teams who have implemented BDD and Cucumber successfully.*
 
 When I was at the <a href="http://europeantestingconference.eu/">European Testing Conference</a> 2016 in Bucharest, 
 a colleague asked for my thoughts on how they should use Behaviour-Driven Development (BDD). I had to run off and didn't get a chance to elaborate on my view, so I decided that I should write it down instead. 
@@ -137,7 +137,7 @@ the behaviour of your system if you find it useful.
 
 I would like to thank Malin Ekholm and Theo England for proof reading. 
 
-Learn how to produce beautiful living documentation and automated tests with Cucumber and Behaviour-Driven Development this September, taught by Thomas Sundberg. Join Thomas for the [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-17) in Stockholm, September 18th-19th.*
+Learn how to produce beautiful living documentation and automated tests with Cucumber and Behaviour-Driven Development this September, taught by Thomas Sundberg. Join Thomas for the [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-17) in Stockholm, November 15th-16th.*
 
 ##References
 
