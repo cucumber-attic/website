@@ -95,10 +95,6 @@ If you want some feedback from your business about something, if it’s a piece 
 
 What you do need to do is make sure that it’s expressed in a way you get the feedback from the people who are interested, the people who have got a stake, have got skin in the game.
 
-> CukenFest London is happening on June 21st-25th. Our first event will be a world-class BDD training course for teams ready to learn the fundamentals. 
-
->[Visit our website for the line-up and more details.](http://cukenfest.cucumber.io/?utm_source=website&utm_medium=blog-post&utm_campaign=seb-accu)
-
 > This is an edited transcript of Seb Rose's recent presentation at ACCU conference. You can watch the 15 minute talk [here](https://www.youtube.com/watch?v=l95DsKm5fbY). 
 
 
