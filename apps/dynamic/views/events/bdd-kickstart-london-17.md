@@ -13,8 +13,8 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2017-12-01 00:00:00
-dtend: 2017-12-02 00:00:00
+dtstart: 2017-12-04 00:00:00
+dtend: 2017-12-05 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
