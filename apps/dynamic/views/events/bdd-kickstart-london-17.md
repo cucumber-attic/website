@@ -86,18 +86,6 @@ Shoreditch is well catered for in terms of accommodation. On the lower-end there
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4081162327166!2d-0.07936668483747375!3d51.52407397963784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb0c877dff1%3A0x4b063d67310deeb0!2sustwo+London!5e0!3m2!1sen!2sus!4v1505137883741" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-section.bdda-policy
-  .container
-    h5.text-uppercase Cancellation policy
-    p
-      | Cucumber Ltd has the right to cancel the event up to <strong>3 weeks prior to the start date of December 4th</strong>.
-      br
-      | If we cancel the course in this period, attendees will receive a 100% refund of their ticket.
-      br
-      |We are not liable for any additional costs of travel, hotels, or other related expenses if we cancel the event or otherwise.
-      br
-      | Tickets can not be cancelled and are non-refundable. However a substitute may attend if we are notified at least a day in advance.
-
 
 <!-- Drip -->
 <script type="text/javascript">
