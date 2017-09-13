@@ -9,7 +9,7 @@ hero:
     message: Register your interest
 location:
   url:  https://www.google.com/maps/place/1000+Abernathy+Rd+NE,+Atlanta,+GA+30328/@33.9348279,-84.3567904,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50eaaa5952d21:0x6ac265053c5e917f!8m2!3d33.9348279!4d-84.3546017
-  name: Atlanta
+  name: Matrix Offices, Atlanta
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
