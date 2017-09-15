@@ -25,7 +25,7 @@ This is the classic TDD cycle, popularized in Nat Pryce and Steve Freeman’s bo
 
 ![alt text](https://cucumber.io/images/blog/seb-accu/tdd-bullet-points.png "TDD")
 
-This is another way of thinking about it. The three sections are slightly expanded here. Typically, you see TDD described as ‘write a failing test’ and while that’s procedurally correct, it’s also rather confusing because that’s not what you’re attempting to do; the idea is not to write a failing test. What you’re trying to do is imagine what the next step you want to make is to evolve the implementation that you need to deliver value. It’s quite often rewritten as ‘writing the next specification’. Essentially, your next test is your next specification of how the software should behave and because you haven’t done that yet, it’s going to fail but you’re not there writing a failing test. 
+Here is another way of thinking about it. While ‘write a failing test’ is procedurally correct, it’s also rather confusing because that’s not what you’re attempting to do; the idea is not to write a failing test. What you’re trying to do is imagine what the next step you want to make is to evolve the implementation that you need to deliver value. It’s quite often rewritten as ‘writing the next specification’. Essentially, your next test is your next specification of how the software should behave and because you haven’t done that yet, it’s going to fail but you’re not there writing a failing test. 
 
 Then, the second step, the idea is to make it pass quickly. The intention is not to design everything perfectly; it’s to get that test passing. Your collection of tests go from failing to all passing and now that all of your tests are passing, it’s safe to refactor. The intention here is not to get the best design; it’s to get them all to green quickly, because now they’re all green, you can look at them and go ‘how do I want to improve this design?’ and you can safely improve the design through the refactor phase.
 
@@ -38,7 +38,7 @@ One thing I just want to dwell on very briefly is the word ‘refactor’ becaus
 
 ## What is BDD?
 
-I showed you a nice little diagram about, I defined TDD quite quickly and it's quite contained. 
+I showed you a nice little diagram, I defined TDD quite quickly and it's quite contained. 
 BDD, however, is extremely uncontained; it’s sort of weird. No one is quite sure what it means. [Matt Wynne](https://twitter.com/mattwynne) who works with me in Cucumber Limited and has been working BDD for a while, has tried to distill it down and he’s come up with this sentence. 
 >“BDD practitioners explore, discover, define, then drive out the desired behaviour of software using conversations, concrete examples, and automated tests.”
 
