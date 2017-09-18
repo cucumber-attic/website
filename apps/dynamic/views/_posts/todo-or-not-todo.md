@@ -6,7 +6,7 @@ title: "TODO or not TODO"
 author: tooky
 ---
 
-Like a lot of teams we've gone back and forth on leaving [`TODO`s
+Like a lot of teams we've gone back and forth on leaving [`TODO`
 comments][todo-comments] in the code.  Are they [useful][todo-useful] or
 [harmful][todo-harmful]. On the one hand we appreciated being able to quickly
 mark something as needing attention without giving it focus now and distracting
