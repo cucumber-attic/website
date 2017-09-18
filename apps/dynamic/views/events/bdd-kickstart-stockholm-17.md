@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: November 15th-16th 2017
   cta:
-    link: https://www.getdrip.com/forms/3429383/submissions/new
-    message: Register your interest
+    link: https://ti.to/cucumber/bdd-kickstart-stockholm-nov-2017
+    message: View ticket options
 location:
   url: https://www.google.co.uk/maps/place/Norrtullsgatan+2,+113+29+Stockholm,+Sweden/@59.341659,18.0502359,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d6f7618f9f9:0x7ede496b86a44cc5!8m2!3d59.341659!4d18.0524246
   name: Stockholm
