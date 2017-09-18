@@ -1,6 +1,14 @@
+---
+layout:   post
+author:   matt
+title:    "Five roles in a healthy mob"
+date:     2017-09-18 00:00:00
+nav:      blog
+---
+
 # Five roles in a healthy mob
 
-The Cucumber Pro product team has been experimenting with mobbing for almost two years now. We’ve had periods where we drifted back to working in pairs, but for the last nine months mobbing as explicitly been our default behaviour as a team.
+The Cucumber Pro product team has been practicing mobbing for almost two years now. We’ve had periods where we drifted back to working in pairs, but for the last nine months mobbing has explicitly been our default behaviour as a team.
 
 I think we’ve learned a lot from that, and I want to share some patterns I’ve noticed. As you read these thoughts, you should be aware that our mob is almost exclusively remote. We do meet up about once a month, but we tend to spend that time around a whiteboard rather than a keyboard.
 
@@ -26,7 +34,7 @@ This is also the person who remembers to hold the team to any rules or agreement
 
 They can also monitor the group for kindness and respect. Sometimes the problems we face as a mob, especially when diagnosing a problem nobody understands, can cause anxiety. Under these circumstances, the facilitator’s role is to notice this and guide the group back to a kind and respectful dynamic.
 
-On our remote mob, the facilitator can also play a great role in live-Slacking the intent, activity and decisions of the mob. By communicating like this, other team members who join the mob later can more easily pick up the context, or even offer suggestions or advice from afar, without interrupting the flow.
+On our remote mob, the facilitator can also play a great role in live-Slacking (or whatever is your instal-message tool of choice) the intent, activity and decisions of the mob. By communicating like this, other team members who join the mob later can more easily pick up the context, or even offer suggestions or advice from afar, without interrupting the flow.
 
 ## The scout
 
@@ -52,8 +60,9 @@ Housekeepers watch the mob and notice places where the code is impeding the flow
 
 ----
 
-Of course it’s important that the mob pays attention to housekeeping, and doesn’t just act like a spoilt teenager leaving mess for someone else to tidy up. Yet this is true of all of these roles: from time to time each of us will wear each of these hats.
+Of course it’s important that the mob pays attention to housekeeping, and doesn’t just act like a spoilt teenager leaving mess for someone else to tidy up. Yet this is true of all of these roles: from time to time each of us will wear these hats.
 
 By acknowledging these roles explicitly I think we can play to people’s strengths and celebrate how our individuality can best contribute to the overall effectiveness and flow of the mob.
 
-What do you think of these roles? Did I miss any that you've seen on your own team?
+What do you think of these roles? Did I miss any?
+
