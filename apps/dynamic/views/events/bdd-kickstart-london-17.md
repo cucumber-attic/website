@@ -3,7 +3,7 @@ title: BDD Kickstart, London 2017
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: December 2017
+  dates: December 4th-5th 2017
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-london-17
     message: View ticket options
