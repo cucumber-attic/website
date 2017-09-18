@@ -3,7 +3,7 @@ layout: post
 nav: blog
 date: "2017-09-18 09:00:00"
 title: "TODO or not TODO"
-author: steve
+author: tooky
 ---
 
 Like a lot of teams we've gone back and forth on leaving [`TODO`s
