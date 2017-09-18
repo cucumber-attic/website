@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: November 8th-9th 2017
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Register your interest
+    link: https://ti.to/cucumber/bdd-kickstart-atlanta
+    message: View ticket options
 location:
   url:  https://www.google.com/maps/place/1000+Abernathy+Rd+NE,+Atlanta,+GA+30328/@33.9348279,-84.3567904,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50eaaa5952d21:0x6ac265053c5e917f!8m2!3d33.9348279!4d-84.3546017
   name: Matrix Offices, Atlanta
