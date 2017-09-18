@@ -8,7 +8,7 @@ nav:      blog
 
 # Five roles in a healthy mob
 
-The Cucumber Pro product team has been practicing mobbing for almost two years now. We’ve had periods where we drifted back to working in pairs, but for the last nine months mobbing has explicitly been our default behaviour as a team.
+The Cucumber Pro product team has been practicing mob programming for almost two years now. We’ve had periods where we drifted back to working in pairs, but for the last nine months mobbing has explicitly been our default behaviour as a team.
 
 I think we’ve learned a lot from that, and I want to share some patterns I’ve noticed. As you read these thoughts, you should be aware that our mob is almost exclusively remote. We do meet up about once a month, but we tend to spend that time around a whiteboard rather than a keyboard.
 
