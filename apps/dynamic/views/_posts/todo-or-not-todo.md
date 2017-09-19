@@ -30,7 +30,7 @@ We noticed this problem during one of our retrospectives and someone suggested
 that it would be great if we could have a way of scoring the codebase based on
 the number of `TODO`s and fail the build if we went over a threshold.
 
-This is where Aslak stepped up and gave us [`bumbailiff`][bumbailiff] &mdash;
+This is where [Aslak][aslak] stepped up and gave us [`bumbailiff`][bumbailiff] &mdash;
 a script that finds the TODOs in your code and uses Git to age them in
 TODO-days. Too many TODO-days and it fails.
 
@@ -56,13 +56,14 @@ at bay.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jp5japiHAs4" frameborder="0" allowfullscreen></iframe>
 
-[technical-debt]: https://www.youtube.com/watch?v=Jp5japiHAs4
+[aslak]: https://twitter.com/aslak_hellesoy
+[broken-windows]: https://en.wikipedia.org/wiki/Broken_windows_theory
+[bumbailiff]: https://gist.github.com/tooky/f4b3ac4072a834fd5914b59a28ae86ff
+[feature-branch]: https://martinfowler.com/bliki/FeatureBranch.html
 [jfdi]: http://www.urbandictionary.com/define.php?term=JFDI
 [pre-push]: https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks
-[bumbailiff]: https://gist.github.com/tooky/f4b3ac4072a834fd5914b59a28ae86ff
-[trunk-based]: https://trunkbaseddevelopment.com/
-[feature-branch]: https://martinfowler.com/bliki/FeatureBranch.html
-[broken-windows]: https://en.wikipedia.org/wiki/Broken_windows_theory
+[technical-debt]: https://www.youtube.com/watch?v=Jp5japiHAs4
+[todo-comments]: http://wiki.c2.com/?TodoComments
 [todo-harmful]: http://wiki.c2.com/?TodoCommentsConsideredHarmful
 [todo-useful]: http://wiki.c2.com/?TodoCommentsConsideredUseful
-[todo-comments]: http://wiki.c2.com/?TodoComments
+[trunk-based]: https://trunkbaseddevelopment.com/
