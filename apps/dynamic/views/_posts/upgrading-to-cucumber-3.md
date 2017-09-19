@@ -18,7 +18,7 @@ Let's see what's changed.
 ## `Transform`
 
 Thanks for 7 or so dutiful years of service. Enjoy the retirement. Sorry, `Transform`
-is no longer with Cucumber. Welcome her replacement - `ParameterType`.
+is no longer with Cucumber. Welcome its replacement - `ParameterType`.
 
 On the surface, `ParameterType` is similar to `Transform` - it lets you transform
 an argument from a string to another type before it's passed to the step definition.
