@@ -6,8 +6,6 @@ date:     2017-07-26 20:00:00
 nav:      blog
 ---
 
-# Announcing Cucumber Expressions
-
 Today I want to share with you a very interesting new feature we've been working on in the past year. Cucumber Expressions!
 
 Last year about 15 Cucumber contributors spent a weekend together in a big house in Copenhagen. Some of use started designing a new expression language. We wanted to replace Regular Expressions with something more user-friendly, but also more powerful.
