@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: "2017-09-18 09:00:00"
+date: "2017-09-19 20:00:00"
 title: "TODO or not TODO"
 author: tooky
 ---
