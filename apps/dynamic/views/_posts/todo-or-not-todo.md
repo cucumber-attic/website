@@ -48,7 +48,7 @@ important thing is that we have to consider the TODO and make a decision.
 
 Except... sometimes we need to keep moving, sometimes it isn't the right time to
 focus on those TODOs. In those cases we get commits raising the `bumbailiff`
-threshold &mdash [extending the loan][technical-debt] and keep the `bumbailiff`
+threshold &mdash; [extending the loan][technical-debt] and keep the `bumbailiff`
 at bay.
 
 > *bum-bailiff* &mdash; a bailiff empowered to collect debts or arrest debtors
