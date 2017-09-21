@@ -1,9 +1,9 @@
 ---
-layout:   post
-author:   aslak
-title:    "Upgrading to Cucumber-Ruby 3.0.0"
-date:     2017-09-21 11:00:00
-nav:      blog
+layout: post
+nav: blog
+date: "2017-09-21 10:00:00"
+title: "Upgrading to Cucumber-Ruby 3.0.0"
+author: aslak
 ---
 
 We hope to release Cucumber-Ruby 3.0.0 in the next few weeks. This major release
@@ -100,7 +100,7 @@ Given(/^I have a( trial)? subscription( with (\d+) days left)?$/) do |trial, wit
 end
 ```
 
-With Cucumber 3.0.0 and beyond will expect only 2 parameters in this case. It
+Cucumber 3.0.0 and beyond will expect only 2 parameters for the example above. It
 only considers the top level capture groups to be parameters, and not the nested
 ones.
 
@@ -164,7 +164,7 @@ Here are some tips about how to translate Regular Expressions to Cucumber Expres
 
 ### Anchors
 
-The gorgeous `^` and `$` you've grown to love are no longer needed. Just get rid of them.
+The gorgeous `^` and `$` you love so much are no longer needed. Just get rid of them.
 
 ### Capture Groups
 
@@ -173,11 +173,10 @@ All capture groups become Cucumber Expression *output parameters*. There are
 
 * `(\d+)` becomes `{int}`
 * Whatever funky pattern you've been using for floats becomes `{float}`
-* `(\w+)` (a word without quotes) becomes `{word}`
+* `(\w+)` becomes `{word}` (a word without quotes)
 * `"([^"]+)"` becomes `{string}` (anything between single or double quotes)
 
-You can also define your own parameter types and use them as output parameters
-in your expressions.
+As we've seen above you can also define your own parameter types and use them as output parameters in your expressions.
 
 ### Optional text
 
