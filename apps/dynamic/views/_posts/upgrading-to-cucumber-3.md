@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: "2017-09-21 10:00:00"
+date: 2017-09-21T09:00:00
 title: "Upgrading to Cucumber-Ruby 3.0.0"
 author: aslak
 ---
