@@ -2,7 +2,7 @@
 layout:   post
 author:   aslak
 title:    "Upgrading to Cucumber-Ruby 3.0.0"
-date:     2017-09-19 20:00:00
+date:     2017-09-21 11:00:00
 nav:      blog
 ---
 
