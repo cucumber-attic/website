@@ -218,7 +218,7 @@ Given('there was/were {int} person/people at the inauguration') do |count|
 end
 ```
 
-This use of a [slash](http://www.thepunctuationguide.com/parentheses.html) is
+This use of a [slash](http://www.thepunctuationguide.com/slash.html) is
 closer to how people actually write.
 
 > Each guest must present his/her ticket prior to entry
