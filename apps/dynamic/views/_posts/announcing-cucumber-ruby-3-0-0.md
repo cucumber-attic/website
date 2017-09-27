@@ -21,7 +21,7 @@ With this release you can say goodbye to regular expressions. Read Aslak's [blog
 
 #### Tag expressions
 
-Similarly, Cucumber has, for a long time, had an obtuse syntax for using tags to express which scenarios to run. That's now been replaced with a new shiny new syntax that actually makes sense to most humans.
+Similarly, Cucumber has, for a long time, had an obtuse syntax for using tags to express which scenarios to run. That's now been replaced with a shiny new syntax that actually makes sense to most humans.
 
 For example, this old expression:
 
@@ -57,7 +57,7 @@ Like a victorian dad, previous versions of Cucumber were opinionated and inflexi
 
 Enjoy the power.
 
-#### Events API
+#### Events API
 
 For people who want to go beyond Cucumber's out-of-the-box features, we've got a [fresh API](http://www.rubydoc.info/github/cucumber/cucumber-ruby/Cucumber/Events) for you to use.
 
@@ -89,7 +89,13 @@ That said, we have plans to start breaking more things...
 Vision for 4.0 and beyond
 -------------------------
 
-TODO
+Cucumber's codebase will be [ten years old next year](https://github.com/cucumber/cucumber-ruby/commit/f3292f4023a707099d02602b2bd6c4ca3cec6820). As maintainers, we're still living with some decisions that were made years ago. We want to be more welcoming and inclusive to new contributors, and that means cleaning up the codebase to make it easy to pick up and understand.
+
+In general, this means slimming down the codebase and simplifying it. The old formatter API will be removed in 4.0, so please if you're maintaining plugins that use that old API, re-write them to use the new events API described above. If you need something that isn't there, let us know and we'll fix it.
+
+We'll be catching up with cucumber-js and adding support for the [new JSON events output](https://github.com/cucumber/cucumber/pull/172).
+
+What else would you like to see us prioritise? Let us know in the comments!
 
 Full change log
 ---------------
