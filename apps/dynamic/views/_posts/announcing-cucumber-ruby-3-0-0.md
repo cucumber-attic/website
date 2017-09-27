@@ -70,10 +70,10 @@ Here's how events fire as your features are run:
 3. As your feature file is compiled into test cases, [StepActivated](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/step_activated_event.feature) events are fired as each test step is "activated" with its matching step definition block.
 4. Now it has a set of compiled test cases, Cucumber fires a [TestRunStarted](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/test_run_started_event.feature) event describing what's about to be run.
 5. For each test case (Gherkin Scenario or Scenario Outline Example), Cucumber fires a [TestCaseStarted](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/test_case_started_event.feature) event before any steps are run.
-6. Now for each test step (including hooks) it fires a [TestStepStarted]() event
+6. Now for each test step (including hooks) it fires a [TestStepStarted](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/test_step_started_event.feature) event
 7. ...and a [TestStepFinished]() event. This contains the result and duration of that step.
-8. One all the steps have run, Cucumber fires a [TestCaseFinished]() event. This contains the overall result of running the test case.
-9. Finally, once all test cases are done, Cucumber fires at [TestRunFinished]() event.
+8. One all the steps have run, Cucumber fires a [TestCaseFinished](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/test_case_finished_event.feature) event. This contains the overall result of running the test case.
+9. Finally, once all test cases are done, Cucumber fires at [TestRunFinished](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/events/test_run_finished_event.feature) event.
 
 Cucumber's own formatters have largely been rewritten to use this new API, though some of them do still remain using the old formatter API for now. More on that below.
 
