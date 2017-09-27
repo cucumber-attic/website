@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: "2017-09-27 22:45:00"
+date: "2017-09-27 00:00:00"
 title: "Announcing Cucumber-Ruby v3.0.0"
 author: mattwynne
 ---
