@@ -80,11 +80,11 @@ Cucumber's own formatters have largely been rewritten to use this new API, thoug
 Breaking changes
 ----------------
 
-The only breaking changes in this release are that we've dropped support for Ruby 1.9 and 2.0.
+We've dropped support for Ruby 1.9 and 2.0.
 
-Transforms are now deprecated in favour of the new [ParameterTypes](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/writing_support_code/parameter_types.feature) that play nicely with Cucumber Expressions.
+Transforms have been removed in favour of the new [ParameterTypes](https://app.cucumber.pro/projects/cucumber-ruby/documents/branch/master/features/docs/writing_support_code/parameter_types.feature) that play nicely with Cucumber Expressions.
 
-That said, we have plans to start breaking more things...
+And we have plans to start breaking more things...
 
 Vision for 4.0 and beyond
 -------------------------
