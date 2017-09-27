@@ -3,7 +3,7 @@ layout: post
 nav: blog
 date: "2017-09-27 00:00:00"
 title: "Announcing Cucumber-Ruby v3.0.0"
-author: mattwynne
+author: matt
 ---
 
 After [over a year in the making](https://github.com/cucumber/cucumber-ruby/commit/f719115c2a52165711425508cccbce82d9eefa73), it's time to release Cucumber-Ruby 3.0.0.
