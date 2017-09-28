@@ -5,9 +5,7 @@ title:    "Agile Adoption - Cucumber Podcast"
 date:     2017-09-28 01:00:00
 nav:      blog
 ---
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340119892&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-* *
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/344388290&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 On the podcast this month, Seb Rose and Steve Tooke speak to Allan Kelly, a well-known agile consultant and long-time friend of the pod. 
 
