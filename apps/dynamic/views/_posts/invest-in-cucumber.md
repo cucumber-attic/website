@@ -33,7 +33,7 @@ Some of the funds might be used to organise events, for example fly some of the 
 
 Any funds invested in the Cucumber open collective will have to be accounted for. Corporate sponsors have several options:
 
-* Take it from the marketing budget. Yearly donation of $1000 or let you place your logo on our website and READMEs on GitHub.
+* Take it from the marketing budget. For a yearly donation of $1000 or more will display your logo on our website and READMEs on GitHub.
 * Take it from the recruitment budget. By showing your support for Cucumber you can attract people with Cucumber skills.
 
 ## What's in it for you
