@@ -6,7 +6,7 @@ title: "Invest in Cucumber"
 author: aslak
 ---
 
-<a href="https://opencollective/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
+<a href="https://opencollective.com/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
 
 Incomplete documentation and unresponsiveness are the top two problems with open source, according to GitHub’s [Open Source Survey](http://opensourcesurvey.org/2017/).
 
@@ -22,7 +22,7 @@ None of these companies pay for Cucumber.
 
 This isn’t a scalable model, and therefore we have launched a crowdfunding initiative that allows companies and individuals to invest in Cucumber.
 
-<a href="https://opencollective/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
+<a href="https://opencollective.com/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
 
 Companies and individuals can pay a regular amount of money to support the collective.
 Core team contributors can submit expenses for their work to the collective. When a team lead approves an expense, the contributor gets reimbursed for their work.
