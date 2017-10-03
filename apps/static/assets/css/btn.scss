@@ -20,6 +20,10 @@
   }
 }
 
+.btn-brand-green {
+  @include btn($brand-green);
+}
+
 .btn-brand-blue {
   @include btn($brand-blue);
 }

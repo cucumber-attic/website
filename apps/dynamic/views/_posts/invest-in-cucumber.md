@@ -6,7 +6,7 @@ title: "Invest in Cucumber"
 author: aslak
 ---
 
-<a href="https://opencollective.com/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
+<a class="btn-brand-green" href="https://opencollective.com/cucumber">Invest in Cucumber</a>
 
 Incomplete documentation and unresponsiveness are the top two problems with open source, according to GitHub’s [Open Source Survey](http://opensourcesurvey.org/2017/).
 
@@ -29,6 +29,8 @@ This isn’t a scalable model, and therefore we have launched a crowdfunding ini
 
 <a href="https://opencollective.com/cucumber"><img src="/images/blog/opencollectivelogo.png" /></a>
 
+<a class="btn-brand-green" href="https://opencollective.com/cucumber">Invest in Cucumber</a>
+
 ## What's in it for you
 
 If you use Cucumber you want it to be good. You want great documentation,
@@ -40,7 +42,7 @@ to make this happen.
 ## How it works
 
 Companies and individuals can pay a regular amount of money to support the collective.
-[Core team members](https://github.com/orgs/cucumber/teams/core/teams) can submit expenses for their work to the collective. When a team lead approves an expense, the contributor gets reimbursed for their work.
+Core team members can submit expenses for their work to the collective. When a team lead approves an expense, the contributor gets reimbursed for their work.
 
 The open collective is a fully transparent ledger. All transactions are public.
 Some of the funds might be used to organise events, for example fly some of the core team members to a meetup or community event.
