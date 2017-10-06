@@ -16,7 +16,7 @@ There are four subsections to this article.
 - Contradiction. 
 - xDD
 
-We’ll start off with an introduction to TDD. I’ll go through that quite quickly because I guess most of you reading this are already doing that. Then, I’ll spend a little more time on BDD and then deal with the contradictions between the two, before getting slightly more philosophic with XDD. 
+We’ll start off with an introduction to TDD. I’ll go through that quite quickly because I guess most of you reading this are already doing that. Then, I’ll spend a little more time on BDD and then deal with the contradictions between the two, before getting slightly more philosophical with xDD. 
 
 ## What is TDD?
 ![alt text](https://cucumber.io/images/blog/seb-accu/write-failing-test.png "Write a failing test")
