@@ -52,7 +52,7 @@ threshold &mdash; [extending the loan][technical-debt] and keep the `bumbailiff`
 at bay.
 
 > *bum-bailiff* &mdash; a bailiff empowered to collect debts or arrest debtors
-> for non-payment [OED online](bailiff)
+> for non-payment [OED online][oed-bailiff]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jp5japiHAs4" frameborder="0" allowfullscreen></iframe>
 
@@ -67,3 +67,5 @@ at bay.
 [todo-harmful]: http://wiki.c2.com/?TodoCommentsConsideredHarmful
 [todo-useful]: http://wiki.c2.com/?TodoCommentsConsideredUseful
 [trunk-based]: https://trunkbaseddevelopment.com/
+[oed-bailiff]: https://en.oxforddictionaries.com/definition/us/bum-bailiff
+
