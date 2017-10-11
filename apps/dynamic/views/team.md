@@ -55,6 +55,10 @@ We work with all sorts of organisations, large and small, in all sectors. Any te
 
 Steve is a software developer, trainer and coach. Passionate about improving his craft and helping others improve theirs. He specialises in helping teams produce business value continuously through improving communication and keeping their code maintainable. BDD is at the core of this process. Steve has been getting paid to build software since 1997. Throughout his career he has worked with renowned organisations like Coach in a Box, the NHS and for a major UK bank. Steve is a partner of Cucumber Ltd.
 
+**What’s your favourite thing about being part of Cucumber Ltd.?** 
+The people - we have a great team that aren’t just great to work with, but great to spend time with in general. Even though we all work remotely, everybody works really hard to build a sense of community that’s sometimes missing for remote workers.
+
+
 ----
 
 Say hello to the team on [Twitter](https://twitter.com/cucumberbdd) or <a href="mailto:hello@cucumber.io?Subject=Hello" target="_top">email us</a>
