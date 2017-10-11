@@ -11,7 +11,7 @@ layout: one-column
 # Team
 
 ##### Matt Wynne - [@mattwynne](https://twitter.com/mattwynne)
-![](https://cucumber.io/images/headshots/matt.jpg)
+<img src="https://cucumber.io/images/headshots/matt.jpg" alt="Matt Wynne" style="width:200px;height:200px;">
 
 Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of The Cucumber Book, Behaviour-Driven Development for Developers and Testers and a co-founder of Cucumber Ltd.
 
