@@ -30,7 +30,7 @@ It gives stakeholders with different roles and backgrounds a shared language for
 ***
 
 ### Julien Biezemans - [@jbpros](https://twitter.com/jbpros)
-<img src="https://cucumber.io/images/headshots/julien-400.jpg" alt="Julien Biezemans" style="width:200px;height:200px;">
+<img src="https://cucumber.io/images/headshots/julien-400.png" alt="Julien Biezemans" style="width:200px;height:200px;">
 
 Julien is the creator of Cucumber.js - Cucumber for JavaScript, Node.js, and
 browsers. Julien has been coaching teams in BDD since 2009 and been building applications written in Ruby, PHP, Perl, and JavaScript since 2005. Julien is a co-founder of Cucumber Ltd.
