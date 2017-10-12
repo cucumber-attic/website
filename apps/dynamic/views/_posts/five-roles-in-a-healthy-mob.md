@@ -33,8 +33,17 @@ It’s important that the navigator is able to communicate intent to the driver,
 The driver is the conduit, the lighting-rod for everyone’s ideas. They help to tease out the ideas from the navigator’s head, and move the codebase forward. It helps if the driver doesn’t think too hard, and mostly works on implementing the next move agreed with the navigator.
 
 ***
+***
+***
+***
+***
+***
+***
+
 
 ## The facilitator
+
+<img src="{{ site.url }}/images/blog/facilitator.png" style="float:right; padding-left: 10px; padding-botton: 20px; width:50%">
 
 While the driver and navigator focus on solving the problem at hand, the facilitator can observe and manage the group’s dynamic and rhythm. When the tests are passing, this is the person who remembers to ask everyone: "Are we happy with the code as it is? Can anyone suggest a refactoring at this point?"
 
@@ -48,7 +57,7 @@ On our remote mob, the facilitator can also play a great role in live-Slacking (
 
 ## The scout
 
-<img src="{{ site.url }}/images/blog/scout-image.png" style="float:left; width:50%">
+<img src="{{ site.url }}/images/blog/scout-image.png" style="float:left; padding-right: 10px; width:50%">
 
 Mobs work best when they know what to do, and are creatively, synergistically generating solutions for how to do it.
 
@@ -66,7 +75,7 @@ Scouting is work people can sometimes feel guilty about, but it’s vital for ke
 
 ## The Housekeeper
 
-<img src="{{ site.url }}/images/blog/Housekeeper.jpg" style="float:right; width:50%">
+<img src="{{ site.url }}/images/blog/Housekeeper.jpg" style="float:right; padding-left: 10px; width:50%">
 
 One of our practices is to note down TODOs in our code during a mobbing session where we know something needs refactoring, but we want to stay focussed on getting to green first. We don’t always get time to come back to these TODOs during that session.
 
