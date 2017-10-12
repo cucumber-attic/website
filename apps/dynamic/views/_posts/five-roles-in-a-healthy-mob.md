@@ -33,6 +33,7 @@ It’s important that the navigator is able to communicate intent to the driver,
 The driver is the conduit, the lighting-rod for everyone’s ideas. They help to tease out the ideas from the navigator’s head, and move the codebase forward. It helps if the driver doesn’t think too hard, and mostly works on implementing the next move agreed with the navigator.
 
 ***
+***
 
 ## The facilitator
 
