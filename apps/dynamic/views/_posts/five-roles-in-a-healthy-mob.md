@@ -18,7 +18,7 @@ Let’s start with those two familiar ones.
 
 ## The navigator
 
-<img src="{{ site.url }}/images/blog/Navigator.png" style="float:right; padding-right: 50px; width:50%">
+<img src="{{ site.url }}/images/blog/Navigator.png" style="float:right; padding-right: 100px; width:50%">
 
 The navigator understands where the group have decided to aim for, and has a plan for how to get there. In a healthy mob, the rest of the group will trust them in that role, and save any questions or challenges for a later moment.
 
@@ -28,15 +28,13 @@ It’s important that the navigator is able to communicate intent to the driver,
 
 ## The driver
 
-<img src="{{ site.url }}/images/blog/driver.png" style="float:left; width:50%">
+<img src="{{ site.url }}/images/blog/driver.png" style="float:left; padding-right: 100px width:50%">
 
 The driver is the conduit, the lighting-rod for everyone’s ideas. They help to tease out the ideas from the navigator’s head, and move the codebase forward. It helps if the driver doesn’t think too hard, and mostly works on implementing the next move agreed with the navigator.
 
-<hr style="height:30pt; visibility:hidden;" />
+***
 
 ## The facilitator
-
-<img src="{{ site.url }}/images/blog/facilitator.png" style="float:right; width:50%">
 
 While the driver and navigator focus on solving the problem at hand, the facilitator can observe and manage the group’s dynamic and rhythm. When the tests are passing, this is the person who remembers to ask everyone: "Are we happy with the code as it is? Can anyone suggest a refactoring at this point?"
 
