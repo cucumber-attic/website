@@ -6,6 +6,8 @@ date:     2017-09-18 00:00:00
 nav:      blog
 ---
 
+<div align="justify">
+
 # Five roles in a healthy mob
 
 The Cucumber Pro product team has been practicing mob programming for almost two years now. We’ve had periods where we drifted back to working in pairs, but for the last nine months mobbing has explicitly been our default behaviour as a team.
@@ -90,4 +92,4 @@ Of course it’s important that the mob pays attention to housekeeping, and does
 By acknowledging these roles explicitly I think we can play to people’s strengths and celebrate how our individuality can best contribute to the overall effectiveness and flow of the mob.
 
 What do you think of these roles? Did I miss any?
-
+</div>
