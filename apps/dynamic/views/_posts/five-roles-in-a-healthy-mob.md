@@ -24,11 +24,15 @@ The navigator understands where the group have decided to aim for, and has a pla
 
 It’s important that the navigator is able to communicate intent to the driver, rather than treating them like Siri and just dictating the code. The driver and navigator need to work together to bring this understanding into the open, and this communication dynamic between driver and navigator is important for maintaining energy levels.
 
+***
+
 ## The driver
 
 <img src="{{ site.url }}/images/blog/driver.png" style="float:left; width:50%">
 
 The driver is the conduit, the lighting-rod for everyone’s ideas. They help to tease out the ideas from the navigator’s head, and move the codebase forward. It helps if the driver doesn’t think too hard, and mostly works on implementing the next move agreed with the navigator.
+
+***
 
 ## The facilitator
 
@@ -42,9 +46,11 @@ They can also monitor the group for kindness and respect. Sometimes the problems
 
 On our remote mob, the facilitator can also play a great role in live-Slacking (or whatever is your instal-message tool of choice) the intent, activity and decisions of the mob. By communicating like this, other team members who join the mob later can more easily pick up the context, or even offer suggestions or advice from afar, without interrupting the flow.
 
+***
+
 ## The scout
 
-<img src="{{ site.url }}/images/blog/scout.png" style="float:left; width:50%">
+<img src="{{ site.url }}/images/blog/scout-image.png" style="float:left; width:50%">
 
 Mobs work best when they know what to do, and are creatively, synergistically generating solutions for how to do it.
 
@@ -57,6 +63,8 @@ The scout is someone who loves to explore. They look at the territory ahead and 
 Scouting can be done by someone who’s present in the mob, but has used [the law of two feet](https://en.wikipedia.org/wiki/Open_Space_Technology#Law_of_two_feet) to make the best use of their time. Or, they check out of the mob for a time and explicitly go and focus on that task. Or, they scout in solo time. Scouts are the pioneers in Simon Stewart’s [pioneers and settlers model](http://blog.rocketpoweredjetpants.com/2014/10/pioneers-and-settlers.html).
 
 Scouting is work people can sometimes feel guilty about, but it’s vital for keeping the mob flowing.
+
+***
 
 ## The Housekeeper
 
