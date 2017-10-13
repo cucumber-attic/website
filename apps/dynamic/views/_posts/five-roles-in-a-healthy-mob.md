@@ -2,7 +2,7 @@
 layout:   post
 author:   matt
 title:    "Five roles in a healthy mob"
-date:     2017-09-18 00:00:00
+date:     2017-10-16 00:00:00
 nav:      blog
 ---
 
