@@ -51,7 +51,7 @@ This is also the person who remembers to hold the team to any rules or agreement
 
 They can also monitor the group for kindness and respect. Sometimes the problems we face as a mob, especially when diagnosing a problem nobody understands, can cause anxiety. Under these circumstances, the facilitator’s role is to notice this and guide the group back to a kind and respectful dynamic.
 
-On our remote mob, the facilitator can also play a great role in live-Slacking (or whatever is your instal-message tool of choice) the intent, activity and decisions of the mob. By communicating like this, other team members who join the mob later can more easily pick up the context, or even offer suggestions or advice from afar, without interrupting the flow.
+On our remote mob, the facilitator can also play a great role in live-Slacking (or whatever is your insta-message tool of choice) the intent, activity and decisions of the mob. By communicating like this, other team members who join the mob later can more easily pick up the context, or even offer suggestions or advice from afar, without interrupting the flow.
 
 ***
 
