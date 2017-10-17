@@ -1,21 +1,23 @@
 ---
-title: BDD Kickstart, Atlanta 2017
+title: BDD Kickstart, USA 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: November 8th-9th 2017
+  dates: 
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-atlanta
-    message: View ticket options
+    link: https://www.getdrip.com/forms/29515959/submissions/new
+    message: Register your interest
 location:
-  url:  https://www.google.com/maps/place/1000+Abernathy+Rd+NE,+Atlanta,+GA+30328/@33.9348279,-84.3567904,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50eaaa5952d21:0x6ac265053c5e917f!8m2!3d33.9348279!4d-84.3546017
-  name: Matrix Offices, Atlanta
+  url:  
+  name: Atlanta
 layout: one-column
-nav: events
+nav:
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2017-11-08 00:00:00
-dtend: 2017-11-09 00:00:00
+dtstart: 
+dtend:
 ---
+
+##This course has been postponed until 2018.
 
 # BDD Kickstart - 2 day BDD training
 
