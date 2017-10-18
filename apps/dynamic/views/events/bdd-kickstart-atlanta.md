@@ -3,7 +3,7 @@ title: BDD Kickstart, USA 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: 
+  dates: 2018
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Register your interest
@@ -13,8 +13,8 @@ location:
 layout: one-column
 nav:
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 
-dtend:
+dtstart: 2018-01-01
+dtend: 2018-01-01
 ---
 
 ##This course has been postponed until 2018.
