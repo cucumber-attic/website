@@ -81,7 +81,7 @@ One of our practices is to note down TODOs in our code during a mobbing session 
 
 The Housekeeper is a bit like the Scout, in that they spend time working around the mob, keeping the flow going by tidying up these little bits of detritus flung out of the mob’s productive core. While the scout looks ahead and breaks down new territory, the housekeeper focusses on making the existing code more habitable, easier to navigate and use.
 
-Housekeepers watch the mob and notice places where the code is impeding the flow. They think about solutions to that and suggest or make refactorings to ease these friction points. Housekeepers are the settlers in Simon Stewart’s [pioneers and settlers model](http://blog.rocketpoweredjetpants.com/2014/10/pioneers-and-settlers.html).
+Housekeepers watch the mob and notice places where the code is impeding the flow. They think about solutions to that and suggest or make refactorings to ease these friction points. Housekeepers are the settlers in Simon Stewart’s [pioneers and settlers model](http://blog.rocketpoweredjetpants.com/2014/10/pioneers-and-settlers.html). My colleague Steve Tooke wrote about [TODO comments](https://cucumber.io/blog/2017/09/19/todo-or-not-todo) on our blog.
 
 ----
 
