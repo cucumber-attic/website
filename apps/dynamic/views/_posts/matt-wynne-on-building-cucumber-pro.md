@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "Matt Wynne on the building Cucumber Pro"
-date:     2017-10-24 10:00:00
+date:     2017-10-24 00:00:00
 nav:      blog
 ---
 
