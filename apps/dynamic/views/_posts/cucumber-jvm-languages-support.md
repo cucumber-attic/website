@@ -1,17 +1,18 @@
 # Cucumber-JVM is dropping support of JVM Languages #
 
 Cucumber JVM is developed by volunteers who are all donating part of their spare time. Currently the core team of Cucumber-JVM consists of 3-4 people. 
-This makes it hard to keep up with current developments in Cucumber such as upgrading Gherkin, adding Tag Expresssions and Cucumber Expressions, while also solving issues and evaluating pull requests.
+This makes it hard to keep up with current developments in Cucumber, such as upgrading Gherkin, adding Tag Expressions and Cucumber Expressions, while also evaluating issues and pull requests.
 
-To be able to keep developing cucumber-jvm we are looking to focus more on new and most used features, by decreasing our workload a little. 
-To this end we started looking at how Cucumber was used. In short, we found that most people are using Java, combined with JUnit or TestNg as a test framework. 
-About half our users don't use a DI-container. The other half uses Picocontainer, Spring or Guice. 
+To be able to keep developing cucumber-jvm, we are looking to focus more on the languages and components that are used the most.  
+W started looking at how Cucumber was used. We found that most people are using Java, combined with JUnit or TestNg as a test framework. 
+About half our users don't use a DI container; the other half uses Picocontainer, Spring or Guice. For more details, see below.
 
-We can also see that many languages aren't used much at all. The language modules are fairly complex and consume a good amount of time, we have decided to stop supporting them. 
-This means that the Scala, Groovy, Clojure, Jython, JRuby, Rhino, and Gosu implementations of Cucumber are no longer supported. 
+We can also see that many languages aren't used much at all. Since the language modules are fairly complex and consume a large amount of time, we have decided to stop supporting them.
+By decreasing our overall workload, we will be able to focus more on those components that used the most. 
+Unfortunately, this means that the Scala, Groovy, Clojure, Jython, JRuby, Rhino, and Gosu implementations of Cucumber are no longer supported. 
 
-While these implementations have been removed from the cucumber-jvm project, they are still available as part of the cucumber project. 
-If you are interested in maintaining any of these implementations, please hop into Slack so we can set you up!
+While these implementations have been removed from the cucumber-jvm project, they are still available as part of the Cucumber project. 
+If you are interested in maintaining any of these implementations, please [contact us](https://cucumber.io/support) so we can set you up!
 
 ## Cucumber Usage  ##
 
@@ -25,7 +26,8 @@ Cucumber-JVM comes in four parts:
 
  * A DI container such as Picocontainer, Spring, or Guice.
 
-Each of these modules costs time and effort to maintain. So we're interested in knowing which are actually used. Below are the statistics for info.cukes[1] from September. 
+Each of these modules costs time and effort to maintain. So we gathered some date on which are actually used. 
+Below are the statistics for info.cukes[1] from September 2017. 
 The number of downloads indicates how often the artifact was downloaded from maven central[2].
 
 ### Core ###
@@ -67,7 +69,7 @@ cucumber-core           202244      102.53%
 Looking at the numbers, there is a large gap between Java and the other JVM languages. There is also a large gap between the runners up (Groovy and Scala) and the rest of the pack. 
 Missing from this table is cucumber-java8. This module depends on cucumber-java and its usage (with 35012 downloads) represents 19.22% of cucumber-java.
 
-Odly enough, the overall downloads total does not equal that of cucumber-core, suggesting there are one or more custom back end implementations (e.g. cukes in space).
+Oddly enough, the overall downloads total does not equal that of cucumber-core, suggesting there are one or more custom back end implementations (e.g. cukes in space).
 
 ### DI Container ###
 
@@ -93,8 +95,9 @@ total                   103506      100.00%
 
 cucumber-core           202244      195.39%
 
-Picocontainer, Spring and Guice are the most used DI containers. However, there is a huge discrepancy with core, which suggests that people either use a custom container or no DI container at all. 
-We don't know why this is. The lack of documentation for DI containers might be part of the reason.
+Picocontainer, Spring and Guice are the most used DI containers. However, there is a huge discrepancy in downloads with core, 
+which suggests that people either use a custom container or no DI container at all. 
+We don't know why this is, although the lack of documentation might have something to do with it.
 
 ### Runner ###
 
@@ -110,7 +113,7 @@ total                   212973      100.00%
 
 cucumber-core           202244      94.96%
 
-Most people use JUnit, some use TestNg. Curiously enough, because the total adds up to more the usage of core, people must be using both together.
+Most people use JUnit, some use TestNg. Curiously enough, some people might be using both together, as the total adds up to more than the usage of core.
 
 Android isn't used much at all. We also don't know why. It might be that people are using Appium in combination with cucumber-java.
 
