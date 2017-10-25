@@ -1,3 +1,10 @@
+---
+layout:   post
+author:   mpkorstanje
+title:    "Cucumber-JVM is dropping support of JVM Languages"
+date:     2016-10-25 09:00:00
+nav:      blog
+---
 # Cucumber-JVM is dropping support of JVM Languages #
 
 Cucumber JVM is developed by volunteers who are all donating part of their spare time. Currently the core team of Cucumber-JVM consists of 3-4 people. 
