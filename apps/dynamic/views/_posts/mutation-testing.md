@@ -5,9 +5,9 @@ title:    "Mutation Testing - Cucumber Podcast"
 date:     2017-10-26 01:00:00
 nav:      blog
 ---
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/344388290&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348664397&amp;color=%2300cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
-On the podcast this month Seb Rose speaks to Henry Coles, the creator of Mutation Testing tool PIT. Here's how they describe Mutation Testing on the [PIT Test website](http://pitest.org/) - "Mutation testing is conceptually quite simple. Faults (or mutations) are automatically seeded into your code, then your tests are run. If your tests fail then the mutation is killed, if your tests pass then the mutation lived. The quality of your tests can be gauged from the percentage of mutations killed."
+On the podcast this month Seb Rose speaks to Henry Coles, the creator of the Mutation Testing tool PIT. Here's how they describe Mutation Testing on the [PIT Test website](http://pitest.org/) - "Mutation testing is conceptually quite simple. Faults (or mutations) are automatically seeded into your code, then your tests are run. If your tests fail then the mutation is killed, if your tests pass then the mutation lived. The quality of your tests can be gauged from the percentage of mutations killed."
 
 ### On the podcast the two discuss: 
 
