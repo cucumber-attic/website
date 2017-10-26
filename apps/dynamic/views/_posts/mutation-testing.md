@@ -23,10 +23,10 @@ On the podcast this month Seb Rose speaks to Henry Coles, the creator of the Mut
 
 ###Shownotes
 
- - [PIT Test](pitest.org/)
+ - [PIT Test](http://pitest.org/)
 
- - [Quick theories, a Property-Based Testing tool](github.com/ncredinburgh/QuickTheories)
- - [Work at NCR](ncredinburgh.com/jobs/)
+ - [Quick theories, a Property-Based Testing tool](http://github.com/ncredinburgh/QuickTheories)
+ - [Work at NCR](http://ncredinburgh.com/jobs/)
 
 You can also listen and download the podcast on [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635) and [Stitcher](http://www.stitcher.com/s?fid=81999&refid=stpr). 
 
