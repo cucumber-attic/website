@@ -11,7 +11,7 @@ Cucumber JVM is developed by volunteers who are all donating part of their spare
 This makes it hard to keep up with current developments in Cucumber, such as upgrading Gherkin, adding Tag Expressions and Cucumber Expressions, while also evaluating issues and pull requests.
 
 To be able to keep developing cucumber-jvm, we are looking to focus more on the languages and components that are used the most.  
-W started looking at how Cucumber was used. We found that most people are using Java, combined with JUnit or TestNg as a test framework. 
+We started looking at how Cucumber was used. We found that most people are using Java, combined with JUnit or TestNg as a test framework. 
 About half our users don't use a DI container; the other half uses Picocontainer, Spring or Guice. For more details, see below.
 
 We can also see that many languages aren't used much at all. Since the language modules are fairly complex and consume a large amount of time, we have decided to stop supporting them.
