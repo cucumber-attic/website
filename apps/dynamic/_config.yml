@@ -59,6 +59,10 @@ authors:
   brasmusson:
     display_name: Björn Rasmusson
     email: B.Rasmusson@computer.org
+  mpkorstanje:
+    display_name: M.P. Korstanje
+    email: rien.korstanje@gmail.com
+    gravatar: bc7a840257b5609850cabee995c052c3
 
 versions:
   cucumber_jvm: 1.2.5
