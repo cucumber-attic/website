@@ -85,7 +85,9 @@ nav: training
 <div class="learn-row">
   <div class="container">
     <div class="row">
+    
       <div class="max-970">
+      
         <h2>Our Training Products</h2>
         <div class="row">
           <div class="col-md-3">
@@ -97,13 +99,14 @@ nav: training
               No computers, this one-day training is for all the team,  focussed on teaching the collaborative practices used in BDD.
             </p>
             <ul class="learn-bullets">
-              <li>Break down big user stories using examples </li>
-              <li>Example Mapping</li>
-              <li>Describe examples using Gherkin</li>
+              <li>Break down big user stories using examples</li>
+              <li>Example Mapping</li>
+              <li>Describe examples using Gherkin</li>
               <li>Roles of the team</li>  
             </ul>
           </div>
         </div>
+      
         <div class="row row--reverse-order">
           <div class="col-md-3">
             image
@@ -114,11 +117,12 @@ nav: training
               This hands-on day for technical testers and developers teaches the skills to:
             </p>
             <ul class="learn-bullets">
-              <li>Test automation </li>
+              <li>Test automation</li>
               <li>Practice the BDD/TDD cycle</li>
             </ul>
           </div>
         </div>
+        
         <div class="row">
           <div class="col-md-3">
             image
@@ -129,11 +133,12 @@ nav: training
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
             </p>
             <ul class="learn-bullets">
-              <li>Bullet Point 1</li>
-              <li>Bullet Point 2</li>
+              <li>Bullet 1</li>
+              <li>Bullet 2</li>
             </ul>
           </div>
         </div>
+        
         <div class="row row--reverse-order">
           <div class="col-md-3">
             image
@@ -144,11 +149,11 @@ nav: training
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
             </p>
             <ul class="learn-bullets">
-              <li>Hands-on course to learn the ports & adapters architecture</li>
-              <li>Bullet Point 2</li>
+              <li>Hands-on course to learn the ports-and-adapters architecture</li>
             </ul>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-3">
             image
@@ -159,15 +164,16 @@ nav: training
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
             </p>
             <ul class="learn-bullets">
-              <li>Brown bag / lunch ‘n’ learn sessions   </li>
-              <li>Building communities of practice</li>
-              <li>Facilitating internal conferences / open spaces</li>
-              <li>Keynote talks</li>
-              <li>Seminars with senior leadership</li>
-              <li>Guidance on overall adoption strategy, metrics etc</li>      
+              <li>Brown bag / lunch'n'learn sessions</li>
+              <li>Building communities of practice</li>
+              <li>Facilitating internal conferences / open spaces</li>
+              <li>Keynote talks</li>
+              <li>Seminars with senior leadership</li>
+              <li>Guidance on overall adoption strategy, metrics etc.</li>
             </ul>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
