@@ -2,7 +2,7 @@
 layout: post
 author: matt
 title:  "CukenFest call for proposals"
-date:   2017-11-02 00:00:00
+date:   2017-11-01 00:00:00
 nav: blog
 ---
 
