@@ -18,4 +18,4 @@ Learn more about the CfP and what we're looking for on the [CukenFest website](h
 
 If you have a theme or idea you want explored at the conference, please write to us in the comments or jump into the [Cucumber Slack Cukenfestees channel](https://cucumberbdd-slack-invite.herokuapp.com/) 
 
-* *We will also celebrate with song and cake.*  
+*We will also celebrate with song and cake.
