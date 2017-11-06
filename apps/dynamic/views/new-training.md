@@ -8,11 +8,11 @@ nav: training
     <div class="row">
       <div class="col-lg-12">
         <div class="learn-intro-message">
-          <img alt="BDD Kickstart" class="img-responsive" src="/images/bdd-kickstart-white-256.png"><br>
+          <img alt="BDD Kickstart" src="/images/bdd-kickstart-white.svg"><br>
             <h2>
               Learn BDD and Cucumber from the world's leading experts
             </h2>
-            <a class="btn-brand-blue" href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire now</a><a class="btn-brand-blue" href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Download BDD Kickstart white paper</a>
+            <a class="btn btn--rounded btn--learn-primary" href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire now</a><a class="btn btn--rounded btn--learn-primary" href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Learn More</a>
         </div>
       </div>
     </div>
@@ -34,30 +34,54 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <div class="col-sm-6">
-          <div class="card card--negative-top">
-            <img src="" class="card-image" alt="Lightbulb" />
-            <div class="card-block">
-              <h3 class="card-title">Inspire your team</h3>
-              <ul class="card-text">
-                <li>Get confidence to try BDD</li>
-                <li>Our hand-picked group of trainers are world experts with years of practical experience</li>
-                <li>The training course has been refined in hundreds of classes</li>
-              </ul>
-            </div>
+        <div class="card card--negative-top">
+          <div class="card-image-wrap">
+            <img src="/images/learn/icon-lightbulb.png" class="card-image" alt="Lightbulb" />
+          </div>  
+          <div class="card-block">
+            <h3 class="card-title">Inspire your team</h3>
+            <ul class="card-text">
+              <li>Get confidence to try BDD</li>
+              <li>Our hand-picked group of trainers are world experts with years of practical experience</li>
+              <li>The training course has been refined in hundreds of classes</li>
+            </ul>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card card--negative-top">
-            <img src="" class="card-image" alt="Lightbulb" />
-            <div class="card-block">
-              <h3 class="card-title">Interactive and fun learning</h3>
-              <ul class="card-text">
-                <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
-                <li>92% of our attendees give us 4-5 stars</li>
-              </ul>
-            </div>
+        <div class="card card--negative-top">
+          <div class="card-image-wrap">
+            <img src="/images/learn/icon-pro.png" class="card-image" alt="Pro" />
           </div>
+          <div class="card-block">
+            <h3 class="card-title">Interactive and fun learning</h3>
+            <ul class="card-text">
+              <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
+              <li>92% of our attendees give us 4-5 stars</li>
+            </ul>
+          </div>        
+        </div>
+        <div class="card card--negative-top">
+          <div class="card-image-wrap">
+            <img src="/images/learn/icon-target.png" class="card-image" alt="Target" />
+          </div>
+          <div class="card-block">
+            <h3 class="card-title">Focussed on your content</h3>
+            <ul class="card-text">
+              <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
+              <li>92% of our attendees give us 4-5 stars</li>
+            </ul>
+          </div>        
+        </div>
+        <div class="card card--negative-top">
+          <div class="card-image-wrap">
+            <img src="/images/learn/icon-laptop.png" class="card-image" alt="Laptop" />
+          </div>
+          <div class="card-block">
+            <h3 class="card-title">More than test automation</h3>
+            <ul class="card-text">
+              <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
+              <li>92% of our attendees give us 4-5 stars</li>
+            </ul>
+          </div>        
         </div>
       </div>  
     </div>
@@ -76,8 +100,8 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded" href="#">Enquire Now</a>
-        <a class="btn btn--rounded" href="#">Learn More</a>
+        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-primary" href="#">Learn More</a>
       </div>
     </div>
   </div>
@@ -85,9 +109,9 @@ nav: training
 <div class="learn-row">
   <div class="container">
     <div class="row">
-    
+
       <div class="max-970">
-      
+
         <h2>Our Training Products</h2>
         <div class="row">
           <div class="col-md-3">
@@ -106,7 +130,7 @@ nav: training
             </ul>
           </div>
         </div>
-      
+
         <div class="row row--reverse-order">
           <div class="col-md-3">
             image
@@ -122,7 +146,7 @@ nav: training
             </ul>
           </div>
         </div>
-        
+
         <div class="row">
           <div class="col-md-3">
             image
@@ -138,7 +162,7 @@ nav: training
             </ul>
           </div>
         </div>
-        
+
         <div class="row row--reverse-order">
           <div class="col-md-3">
             image
@@ -173,7 +197,7 @@ nav: training
             </ul>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -197,7 +221,7 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
       </div>
     </div>
   </div>
@@ -240,7 +264,7 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
       </div>
     </div>
   </div>

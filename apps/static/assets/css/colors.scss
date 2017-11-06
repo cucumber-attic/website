@@ -9,6 +9,8 @@ $brand-purple:        #3E10AF;
 $brand-black:         #1B1D1E;
 $brand-gray:          #65696B;
 $brand-blue:          #004FFF;
+$brand-lime-green:   #cef257;
+$brand-charcoal:      #2f3437;
 
 // Secondary colours
 
@@ -22,6 +24,7 @@ $brand-blue-dark:     darken($brand-blue, 8%);
 
 // Bootstrap Overrides - mostly in variables.less
 $body-bg:             #fff !default;
+$white:               $body-bg;
 $gray-base:           $brand-black;
 $gray-darker:         lighten($gray-base, 20%);
 $gray-dark:           lighten($gray-base, 40%);
@@ -81,3 +84,6 @@ $blockquote-border-color: $brand-gray;
 .bg-blue {
   background: $brand-blue;
 }
+
+// Learn (New Training)
+$gray-lightest:   #f7f7f7;
