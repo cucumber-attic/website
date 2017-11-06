@@ -30,9 +30,9 @@ nav: training
     </div>
   </div>
 </div>
-<div class="learn-row learn-row--alt">
+<div class="learn-row learn-row--alt learn-row--cards">
   <div class="container">
-    <div class="row learn-row--cards">
+    <div class="row">
       <div class="max-970">
         <div class="card card--negative-top">
           <div class="card-image-wrap">
@@ -89,9 +89,9 @@ nav: training
     </div>
   </div>
 </div>
-<div class="learn-row">
+<div class="learn-row learn-row--cards">
   <div class="container">
-    <div class="row learn-row--cards">
+    <div class="row">
       <div class="max-970">
         <h2>Companies we've worked with</h2>
         <img class="company-logo" src="/images/learn/logos/logo-bbc.svg" alt="BBC logo" width="175" height="50" />
@@ -116,18 +116,18 @@ nav: training
     </div>
   </div>
 </div>  
-<div class="learn-row">
+<div class="learn-row learn-row--products">
   <div class="container">
     <div class="row">
 
       <div class="max-970">
 
-        <h2>Our Training Products</h2>
-        <div class="row">
-          <div class="col-md-3">
-            image
+        <h2 class="title-center">Our Training Products</h2>
+        <div class="product-row">
+          <div class="product-image">
+            <img src="/images/learn/products/product-fundamentals.jpg" class="card-image" alt="BDD Fundamentals" />
           </div>
-          <div class="col-md-7">
+          <div class="product-content">
             <h3>BDD Fundamentals</h3>
             <p>
               No computers, this one-day training is for all the team, focussed on teaching the collaborative practices used in BDD.
@@ -141,11 +141,11 @@ nav: training
           </div>
         </div>
 
-        <div class="row row--reverse-order">
-          <div class="col-md-3">
-            image
+        <div class="product-row product-row--reverse-order">
+          <div class="product-image">
+            <img src="/images/learn/products/product-cucumber.jpg" class="card-image" alt="BDD Cucumber" />
           </div>
-          <div class="col-md-7">
+          <div class="product-content">
             <h3>BDD with Cucumber</h3>
             <p>
               This hands-on day for technical testers and developers teaches the skills to:
@@ -157,11 +157,11 @@ nav: training
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-3">
-            image
+        <div class="product-row">
+          <div class="product-image">
+            <img src="/images/learn/products/product-coaching.jpg" class="card-image" alt="Coaching" />
           </div>
-          <div class="col-md-7">
+          <div class="product-content">
             <h3>Coaching</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
@@ -173,11 +173,11 @@ nav: training
           </div>
         </div>
 
-        <div class="row row--reverse-order">
-          <div class="col-md-3">
-            image
+        <div class="product-row product-row--reverse-order">
+          <div class="product-image">
+            <img src="/images/learn/products/product-testable.jpg" class="card-image" alt="Testable Architecture" />
           </div>
-          <div class="col-md-7">
+          <div class="product-content">
             <h3>Testable Architecture</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
@@ -188,11 +188,11 @@ nav: training
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-3">
-            image
+        <div class="product-row">
+          <div class="product-image">
+            <img src="/images/learn/products/product-enterprise.jpg" class="card-image" alt="Enterprise transformation" />
           </div>
-          <div class="col-md-7">
+          <div class="product-content">
             <h3>Enterprise transformation</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
