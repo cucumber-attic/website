@@ -66,8 +66,8 @@ nav: training
           <div class="card-block">
             <h3 class="card-title">Focussed on your content</h3>
             <ul class="card-text">
-              <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
-              <li>92% of our attendees give us 4-5 stars</li>
+              <li>We'll work with you before our visit to tailor our course to your organisation's unique needs.</li>
+              <li>Cucumber works on any programming language platform and so do we.</li>
             </ul>
           </div>        
         </div>
@@ -78,8 +78,10 @@ nav: training
           <div class="card-block">
             <h3 class="card-title">More than test automation</h3>
             <ul class="card-text">
-              <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
-              <li>92% of our attendees give us 4-5 stars</li>
+              <li>Cucumber and BDD are tools for collaboration.</li>
+              <li>Point 2.</li>
+              <li>Point 3.</li>
+              <li>Point 4.</li>
             </ul>
           </div>        
         </div>
@@ -91,17 +93,17 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        Logo grid in here
+        <h2>Companies we've worked with</h2>
       </div>
     </div>
   </div>
-</div>      
+</div>
 <div class="learn-row learn-row--cta">
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
-        <a class="btn btn--rounded btn--learn-primary" href="#">Learn More</a>
+        <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-secondary" href="#">Learn More</a>
       </div>
     </div>
   </div>
@@ -120,7 +122,7 @@ nav: training
           <div class="col-md-7">
             <h3>BDD Fundamentals</h3>
             <p>
-              No computers, this one-day training is for all the team,  focussed on teaching the collaborative practices used in BDD.
+              No computers, this one-day training is for all the team, focussed on teaching the collaborative practices used in BDD.
             </p>
             <ul class="learn-bullets">
               <li>Break down big user stories using examples</li>
@@ -221,7 +223,7 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
       </div>
     </div>
   </div>
@@ -264,7 +266,7 @@ nav: training
   <div class="container">
     <div class="row">
       <div class="max-970">
-        <a class="btn btn--rounded btn--learn-primary" href="#">Enquire Now</a>
+        <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
       </div>
     </div>
   </div>

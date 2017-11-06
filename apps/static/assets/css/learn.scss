@@ -39,23 +39,32 @@
   background: $gray-lightest;
 }
 
+.learn-row--cta {
+  background: $brand-lime-green;
+  text-align: center;
+  padding-bottom: 40px;
+}
 
 // Buttons
 .btn--rounded {
   border-radius: 100px;
+  text-transform: uppercase;
+  min-width: 200px;
+  text-align: center;
+  font-weight: 500;
+  margin: 15px;
 }
 
 .btn--learn-primary {
   padding: 15px 25px;
   background: $brand-lime-green;
   color: $brand-charcoal;
-  text-transform: uppercase;
-  min-width: 200px;
-  text-align: center;
-  font-weight: 500;
-  + .btn--learn-primary {
-    margin-top: 20px;
-  }
+}
+
+.btn--learn-secondary {
+  padding: 15px 25px;
+  background: $brand-charcoal;
+  color: $white;
 }
 
 
@@ -94,6 +103,11 @@
 .card {
   background: $white;
   padding: 40px;
+  max-width: 470px;
+  margin: 0 auto;
+
+  //display: inline-block;
+  //vertical-align: top;
 }
 
 .card--negative-top {
@@ -122,4 +136,5 @@
 
 .card-text {
   padding: 0 0 0 1em;
+  font-size: 1.9rem;
 }
