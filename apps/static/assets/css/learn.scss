@@ -45,6 +45,11 @@
   padding-bottom: 40px;
 }
 
+.learn-row--cards,
+.learn-row--logos {
+  text-align: center;
+}
+
 // Buttons
 .btn--rounded {
   border-radius: 100px;
@@ -105,14 +110,14 @@
   padding: 40px;
   max-width: 470px;
   margin: 0 auto;
-
-  //display: inline-block;
-  //vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .card--negative-top {
   margin-top: 110px;
-  margin-bottom: 140px;
+  margin-bottom: 40px;
 }
 
 .card-image-wrap {
@@ -137,4 +142,11 @@
 .card-text {
   padding: 0 0 0 1em;
   font-size: 1.9rem;
+}
+
+// Client Logos
+.company-logo {
+  opacity: .5;
+  margin: 20px;
+  display: inline-block;
 }

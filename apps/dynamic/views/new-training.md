@@ -32,7 +32,7 @@ nav: training
 </div>
 <div class="learn-row learn-row--alt">
   <div class="container">
-    <div class="row">
+    <div class="row learn-row--cards">
       <div class="max-970">
         <div class="card card--negative-top">
           <div class="card-image-wrap">
@@ -91,9 +91,17 @@ nav: training
 </div>
 <div class="learn-row">
   <div class="container">
-    <div class="row">
+    <div class="row learn-row--cards">
       <div class="max-970">
         <h2>Companies we've worked with</h2>
+        <img class="company-logo" src="/images/learn/logos/logo-bbc.svg" alt="BBC logo" width="175" height="50" />
+        <img class="company-logo" src="/images/learn/logos/logo-canon.svg" alt="Canon" width="188" height="39" />
+        <img class="company-logo" src="/images/learn/logos/logo-credit-suisse.svg" alt="Credit Suisse logo" width="176" height="39" />
+        <img class="company-logo" src="/images/learn/logos/logo-sky.svg" alt="Sky logo" width="98" height="59" />
+        <img class="company-logo" src="/images/learn/logos/logo-vanguard.svg" alt="Vanguard logo" width="173" height="48" />
+        <img class="company-logo" src="/images/learn/logos/logo-dyson.svg" alt="Dyson logo" width="150" height="56" />
+        <img class="company-logo" src="/images/learn/logos/logo-typeform.svg" alt="Typeform logo" width="175" height="46" />
+        <img class="company-logo" src="/images/learn/logos/logo-honeycomb.svg" alt="Honeycomb logo" width="106" height="70" />
       </div>
     </div>
   </div>
