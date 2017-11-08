@@ -15,6 +15,7 @@
 }
 
 // Global Control
+
 .learn-wrap {
   h1, h2, h3,
   h4, h5, h6 {
@@ -30,13 +31,18 @@
     text-transform: uppercase;
     min-width: 200px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     margin: 15px;
+    padding: 15px 25px;
     text-decoration: none;
+    @media screen and (min-width: $screen-sm-min) {
+      padding: 17px 25px;
+      font-size: 1.9rem;
+      min-width: 225px;
+    }
   }
 
   .btn--learn-primary {
-    padding: 15px 25px;
     background: $brand-lime-green;
     color: $brand-charcoal;
     transition: all 0.25s ease-in-out;
@@ -47,7 +53,6 @@
   }
 
   .btn--learn-secondary {
-    padding: 15px 25px;
     background: $brand-charcoal;
     color: $white;
     transition: all 0.25s ease-in-out;
@@ -57,12 +62,30 @@
     }
   }
 
-  .heading--sub {
+  .btn--courses {
+    margin: 0;
+    background: $brand-orange;
+    color: $white;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: $white;
+      background: darken( $brand-orange, 50% );
+    }
+  }
+
+
+
+  .heading--sub,
+  .heading-intro {
     font-weight: 300;
   }
 
   .blank-card h4 {
     font-weight: 400;
+  }
+
+  .heading-intro {
+    font-size: 3.1rem;
   }
 
 }
@@ -71,6 +94,18 @@
 .intro-header-learn {
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
+  background: url(/images/learn/learn-hero.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
   text-align: center;
   color: $white;
 
@@ -78,12 +113,30 @@
     @include btn($brand-orange);
     margin-right: 10px;
   }
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $brand-charcoal;
+    opacity: .7;
+    z-index: 1;
+  }
 }
 
-.intro-header-learn {
-  background: url(/images/cukeup-2014/CukeUp-7477.jpg) no-repeat center center;
-  background-size: cover;
+.learn-intro-message {
+  position: relative;
+  z-index: 2;
 }
+
+.heading-intro {
+  opacity: .85;
+}
+
 
 // Rows
 .learn-row {
@@ -102,6 +155,12 @@
 .learn-row--cta {
   background: $brand-lime-green;
   text-align: center;
+  @media screen and (min-width: $screen-sm-min) {
+    .btn {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .learn-row--cards,
@@ -144,18 +203,27 @@
 
 .heading-reverse {
   text-align: center;
-  font-size: 4.3rem;
+  font-size: 3.3rem;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 4.3rem;
+  }
 }
 
 .heading--sub {
   opacity: .65;
   margin: -.25em 0 1em 0;
-  font-size: 2.9rem;
+  font-size: 2.1rem;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 2.9rem;
+  }
 }
 
 .paragraph-reverse {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.9rem;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 2.3rem;
+  }
   margin-bottom: 2em;
 }
 
@@ -176,6 +244,9 @@
 
 .learn-blockquote {
   font-size: 160%;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 3.9rem;
+  }
   font-weight: 500;
   font-style: normal;
   border: none;
@@ -186,8 +257,11 @@
     margin-top: -.5em;
     color: $brand-charcoal;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 70%;
+    @media screen and (min-width: $screen-sm-min) {
+      font-size: 2.1rem;
+    }
     opacity: .6;
     &:before {
       content: '';
@@ -207,13 +281,21 @@
 .card {
   background: $white;
   padding: 40px;
-  max-width: 470px;
+  max-width: 460px;
   margin: 0 auto;
   text-align: left;
   display: inline-block;
   vertical-align: top;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease-in;
+  &:hover, .hover {
+    box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.08);
+    top: -4px;
+  }
+
   @media screen and (min-width: $screen-sm-min) {
-    margin: 0 5px;
+    margin: 0 10px;
     min-height: 360px;
   }
 }
@@ -273,8 +355,10 @@
   opacity: .5;
   margin: 20px;
   display: inline-block;
+  max-width: 100px;
   @media screen and (min-width: $screen-md-min) {
     margin: 30px 40px;
+    max-width: 1000px;
   }
 }
 
@@ -337,5 +421,28 @@
     .product-content {
       padding: 0 30px 0 0;
     }
+  }
+}
+
+// Courses panel
+.heading-courses {
+  font-size: 2.9rem;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 3.9rem;
+  }
+}
+
+.paragraph-courses {
+  font-size: 1.9rem;
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 2.9rem;
+  }
+  opacity: .65;
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .col--button-align {
+    padding-top: 90px;
+    text-align: right;
   }
 }

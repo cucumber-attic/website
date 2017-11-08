@@ -8,9 +8,9 @@ nav: training
       <div class="row">
         <div class="col-lg-12">
           <div class="learn-intro-message">
-            <img alt="BDD Kickstart" src="/images/bdd-kickstart-white.svg"><br>
-              <h2>
-                Learn BDD and Cucumber from the world's leading experts
+            <img width="532" height="109" alt="BDD Kickstart" src="/images/bdd-kickstart-white.svg"><br>
+              <h2 class="heading-intro">
+                Get Training from our Behaviour Driven Development Experts
               </h2>
               <a class="btn btn--rounded btn--learn-primary" href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire now</a><a class="btn btn--rounded btn--learn-primary" href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Learn More</a>
           </div>
@@ -317,16 +317,16 @@ nav: training
       </div>
     </div>
   </div>
-  <div class="learn-row">
+  <div class="learn-row learn-row--courses">
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <div class="col-md-6">
-          <h3>Looking for online courses?</h3>
+          <div class="col-md-8">
+          <h3 class="heading-courses">Looking for online courses?</h3>
           <p class="paragraph-courses">If you'd like to learn Cucumber and BDD at your own pace, check out our Cucumber School online training.</p>
           </div>
-          <div class="col-md-4">
-            <a class="btn btn--courses" href="#">View Online Courses</a>
+          <div class="col-md-4 col--button-align">
+            <a class="btn btn--rounded btn--courses" href="#">View Online Courses</a>
           </div>
         </div>
       </div>
