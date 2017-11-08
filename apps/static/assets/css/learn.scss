@@ -9,6 +9,14 @@
   max-width: 970px;
 }
 
+// Headings
+.learn-wrap {
+  h1, h2, h3,
+  h4, h5, h6 {
+    font-weight: 500;
+  }
+}
+
 
 .intro-header-learn {
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -64,12 +72,22 @@
   padding: 15px 25px;
   background: $brand-lime-green;
   color: $brand-charcoal;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    color: $brand-charcoal;
+    background: darken( $brand-lime-green, 15% );
+  }
 }
 
 .btn--learn-secondary {
   padding: 15px 25px;
   background: $brand-charcoal;
   color: $white;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    color: $white;
+    background: darken( $brand-charcoal, 50% );
+  }
 }
 
 
@@ -165,13 +183,50 @@
 }
 
 .product-row {
-  margin-top: 30px;
+  margin-top: 50px;
+  @media screen and (min-width: $screen-sm-min) {
+    padding-bottom: 20px;
+  }
 }
 
-.product-content h3 {
-  text-align: center;
+.product-content {
+  h3 {
+    text-align: center;
+  }
+  ul {
+    margin: -.75em 0 0 0;
+    padding: 0 0 0 1.15em;
+  }
 }
 
 .product-image {
   border-radius: 100%;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .product-content,
+  .product-image {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .product-image {
+    width: 170px;
+  }
+  .product-content {
+    padding: 0 0 0 30px;
+    h3 {
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+  .product-row--reverse-order {
+    direction: rtl;
+    .product-content,
+    .product-image {
+      direction: ltr;
+    }
+    .product-content {
+      padding: 0 30px 0 0;
+    }
+  }
 }
