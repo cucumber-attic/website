@@ -4,17 +4,67 @@
   max-width: 670px;
 }
 
+.max-770 {
+  margin: 0 auto;
+  max-width: 770px;
+}
+
 .max-970 {
   margin: 0 auto;
   max-width: 970px;
 }
 
-// Headings
+// Global Control
 .learn-wrap {
   h1, h2, h3,
   h4, h5, h6 {
     font-weight: 500;
   }
+  a {
+    color: $brand-lime-green;
+    text-decoration: underline;
+  }
+  // Buttons
+  .btn--rounded {
+    border-radius: 100px;
+    text-transform: uppercase;
+    min-width: 200px;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px;
+    text-decoration: none;
+  }
+
+  .btn--learn-primary {
+    padding: 15px 25px;
+    background: $brand-lime-green;
+    color: $brand-charcoal;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: $brand-charcoal;
+      background: darken( $brand-lime-green, 15% );
+    }
+  }
+
+  .btn--learn-secondary {
+    padding: 15px 25px;
+    background: $brand-charcoal;
+    color: $white;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: $white;
+      background: darken( $brand-charcoal, 50% );
+    }
+  }
+
+  .heading--sub {
+    font-weight: 300;
+  }
+
+  .blank-card h4 {
+    font-weight: 400;
+  }
+
 }
 
 
@@ -38,9 +88,11 @@
 // Rows
 .learn-row {
   padding-top: 45px;
-  padding-bottom: 25px;
-  //padding-top: 75px;
-  //padding-bottom: 75px;
+  padding-bottom: 45px;
+  @media screen and (min-width: $screen-sm-min) {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 }
 
 .learn-row--alt {
@@ -50,7 +102,6 @@
 .learn-row--cta {
   background: $brand-lime-green;
   text-align: center;
-  padding-bottom: 40px;
 }
 
 .learn-row--cards,
@@ -58,35 +109,65 @@
   text-align: center;
 }
 
-// Buttons
-.btn--rounded {
-  border-radius: 100px;
-  text-transform: uppercase;
-  min-width: 200px;
-  text-align: center;
-  font-weight: 500;
-  margin: 15px;
-}
+// Background image row
 
-.btn--learn-primary {
-  padding: 15px 25px;
-  background: $brand-lime-green;
-  color: $brand-charcoal;
-  transition: all 0.25s ease-in-out;
-  &:hover {
-    color: $brand-charcoal;
-    background: darken( $brand-lime-green, 15% );
+.learn-row--image {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: $white;
+  background-color: $brand-charcoal;
+  @media screen and (min-width: $screen-sm-min) {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $brand-charcoal;
+    opacity: .7;
+    z-index: 1;
+  }
+  .row {
+    position: relative;
+    z-index: 2;
   }
 }
 
-.btn--learn-secondary {
-  padding: 15px 25px;
-  background: $brand-charcoal;
-  color: $white;
-  transition: all 0.25s ease-in-out;
-  &:hover {
-    color: $white;
-    background: darken( $brand-charcoal, 50% );
+.heading-reverse {
+  text-align: center;
+  font-size: 4.3rem;
+}
+
+.heading--sub {
+  opacity: .65;
+  margin: -.25em 0 1em 0;
+  font-size: 2.9rem;
+}
+
+.paragraph-reverse {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 2em;
+}
+
+.learn-row--resources {
+  background-image: url(/images/learn/learning-resources.jpg);
+}
+
+.learn-row--public {
+  background-image: url(/images/learn/public-courses.jpg);
+  background-position: center left;
+  @media screen and (min-width: $screen-md-min) {
+    background-position: center center;
   }
 }
 
@@ -160,6 +241,27 @@
 .card-text {
   padding: 0 0 0 1em;
   font-size: 1.9rem;
+}
+
+.blank-card {
+  a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid $brand-lime-green;
+  }
+  h4 {
+    font-size: 2.3rem;
+    margin-bottom: .75em;
+  }
+}
+
+.blank-card__time {
+  font-size: 1.7rem;
+  opacity: .5;
+  display: block;
+  margin-top: -.45em;
+  margin-bottom: .75em;
+  font-weight: 400;
 }
 
 // Client Logos

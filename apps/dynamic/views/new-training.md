@@ -236,7 +236,7 @@ nav: training
       </div>
     </div>
   </div>
-  <div class="learn-row learn-row--image">
+  <div class="learn-row learn-row--image learn-row--resources">
     <div class="container">
       <div class="row">
         <div class="max-970">
@@ -279,13 +279,13 @@ nav: training
       </div>
     </div>
   </div>
-  <div class="learn-row learn-row--image">
+  <div class="learn-row learn-row--image learn-row--public">
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <h3 class="heading-reverse">Learning resources</h3>
-          <h4 class="heading-reverse heading--sub">Real world accounts of our training</h4>
-          <p class="paragraph-reverse">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
+          <h3 class="heading-reverse">Public Courses</h3>
+          <h4 class="heading-reverse heading--sub">Get a taste of how it works</h4>
+          <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
           <div class="col-md-4">
             <div class="blank-card">
               <h4><a href="#">BDD Kickstart, Stockholm</a></h4>
