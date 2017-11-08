@@ -132,13 +132,13 @@ nav: training
             <div class="product-content">
               <h3>BDD Fundamentals</h3>
               <p>
-                No computers, this one-day training is for all the team, focussed on teaching the collaborative practices used in BDD.
+                No computers, this one-day training teaches the whole team the collaborative practices used in BDD.
               </p>
               <ul class="learn-bullets">
                 <li>Break down big user stories using examples</li>
-                <li>Example Mapping</li>
+                <li>Run an Example Mapping workshop</li>
                 <li>Describe examples using Gherkin</li>
-                <li>Roles of the team</li>  
+                <li>Roles on a Behaviour-Driven Team</li>
               </ul>
             </div>
           </div>
@@ -150,11 +150,13 @@ nav: training
             <div class="product-content">
               <h3>BDD with Cucumber</h3>
               <p>
-                This hands-on day for technical testers and developers teaches the skills to:
+                This hands-on day gives developers and technical testers the practical grounding to use Cucumber to validate requirements.
               </p>
               <ul class="learn-bullets">
-                <li>Test automation</li>
-                <li>Practice the BDD/TDD cycle</li>
+                <li>Learn the structure of a Cucumber test suite</li>
+                <li>Practice expressing requirements as Gherkin scenarios</li>
+                <li>Use the BDD cycle to guide your coding using Cucumber</li>
+                <li>Discuss the costs and benefits of test automation</li>
               </ul>
             </div>
           </div>
@@ -166,11 +168,13 @@ nav: training
             <div class="product-content">
               <h3>Coaching</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
+                When you want to learn a new technique, having regular contact with an expert coach is the proven way to do it.
               </p>
               <ul class="learn-bullets">
-                <li>Bullet 1</li>
-                <li>Bullet 2</li>
+                <li>Create a realistic and achievable plan for adopting BDD</li>
+                <li>Hold teams accountable for sticking to that plan</li>
+                <li>Get regular support and advice as the rubber hits the road</li>
+                <li>Capitalize on investment in training by creating long-term changes in team performance</li>
               </ul>
             </div>
           </div>
@@ -182,10 +186,13 @@ nav: training
             <div class="product-content">
               <h3>Testable Architecture</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
+                To live with automated tests in the long term, you need an architecture that supports testing. This one-day training teaches experienced developers and test engineers the secrets.
               </p>
               <ul class="learn-bullets">
-                <li>Hands-on course to learn the ports-and-adapters architecture</li>
+                <li>Tackle slow, unreliable tests</li>
+                <li>Stop testing everything through the UI</li>
+                <li>Get lighting-fast feedback from tests for the code you change every day</li>
+                <li>Understand & apply ports and adapters / hexagonal architecture</li>
               </ul>
             </div>
           </div>
