@@ -212,6 +212,10 @@
   text-align: left;
   display: inline-block;
   vertical-align: top;
+  @media screen and (min-width: $screen-sm-min) {
+    margin: 0 5px;
+    min-height: 360px;
+  }
 }
 
 .card--negative-top {
@@ -269,6 +273,9 @@
   opacity: .5;
   margin: 20px;
   display: inline-block;
+  @media screen and (min-width: $screen-md-min) {
+    margin: 30px 40px;
+  }
 }
 
 // Title Center
