@@ -24,7 +24,8 @@ nav: training
         <div class="max-670">
           <blockquote class="learn-blockquote learn-blockquote--lead">
             <p>"Transitioning to BDD is one of the best things we've done at Vanguard."</p>
-            <footer><cite title="Source Title">Sheetal Patel</cite>, speaking at CukeUp London 2017</footer>
+            <footer>
+              <cite title="Source Title">Sheetal Patel</cite>, <a href="https://www.youtube.com/watch?v=XAjkc28nUjY">speaking at CukeUp London 2017</a></footer>
           </blockquote>
         </div>  
       </div>
