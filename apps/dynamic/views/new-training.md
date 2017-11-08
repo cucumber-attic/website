@@ -38,13 +38,13 @@ nav: training
           <div class="card card--negative-top">
             <div class="card-image-wrap">
               <img src="/images/learn/icon-lightbulb.png" class="card-image" alt="Lightbulb" />
-            </div>  
+            </div>    
             <div class="card-block">
-              <h3 class="card-title">Inspire your team</h3>
+              <h3 class="card-title">Inspire confidence</h3>
               <ul class="card-text">
-                <li>Get confidence to try BDD</li>
-                <li>Our hand-picked group of trainers are world experts with years of practical experience</li>
-                <li>The training course has been refined in hundreds of classes</li>
+                <li>We are world experts with years of practical experience in BDD and Agile</li>
+                <li>Training proven in hundreds of organisations worldwide</li>
+                <li>No question too tough for our trainers</li>
               </ul>
             </div>
           </div>
@@ -53,9 +53,10 @@ nav: training
               <img src="/images/learn/icon-pro.png" class="card-image" alt="Pro" />
             </div>
             <div class="card-block">
-              <h3 class="card-title">Interactive and fun learning</h3>
+              <h3 class="card-title">Interactive and fun</h3>
               <ul class="card-text">
-                <li>Our learner-led training makes the days fly by and creates a memorable and meaningful experience for everyone.</li>
+                <li>Learner-led training makes the days fly</li>
+                <li>Memorable and meaningful experience that builds the team</li>
                 <li>92% of our attendees give us 4-5 stars</li>
               </ul>
             </div>        
@@ -65,10 +66,11 @@ nav: training
               <img src="/images/learn/icon-target.png" class="card-image" alt="Target" />
             </div>
             <div class="card-block">
-              <h3 class="card-title">Focussed on your content</h3>
+              <h3 class="card-title">Focussed on your context</h3>
               <ul class="card-text">
-                <li>We'll work with you before our visit to tailor our course to your organisation's unique needs.</li>
-                <li>Cucumber works on any programming language platform and so do we.</li>
+                <li>We tailor each course to your needs</li>
+                <li>Use any programming language: Java, C#, JavaScript, Ruby, PHP</li>
+                <li>Practice with stories from your backlog</li>
               </ul>
             </div>        
           </div>
@@ -77,12 +79,11 @@ nav: training
               <img src="/images/learn/icon-laptop.png" class="card-image" alt="Laptop" />
             </div>
             <div class="card-block">
-              <h3 class="card-title">More than test automation</h3>
+              <h3 class="card-title">Beyond test automation</h3>
               <ul class="card-text">
-                <li>Cucumber and BDD are tools for collaboration.</li>
-                <li>Point 2.</li>
-                <li>Point 3.</li>
-                <li>Point 4.</li>
+                <li>Understand the core principles behind BDD</li>
+                <li>Transform the way your team collaborates on requirements</li>
+                <li>Break down any user story into manageable size</li>
               </ul>
             </div>        
           </div>
