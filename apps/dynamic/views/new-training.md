@@ -124,7 +124,7 @@ nav: training
 
         <div class="max-970">
 
-          <h2 class="title-center">Our Training Products</h2>
+          <h2 class="title-center">Our Products</h2>
           <div class="product-row">
             <div class="product-image">
               <img src="/images/learn/products/product-fundamentals.jpg" class="card-image" alt="BDD Fundamentals" />
@@ -150,7 +150,7 @@ nav: training
             <div class="product-content">
               <h3>BDD with Cucumber</h3>
               <p>
-                This hands-on day gives developers and technical testers the practical grounding to use Cucumber to validate requirements.
+                This hands-on day gives developers and test engineers the practical grounding to use Cucumber to validate requirements.
               </p>
               <ul class="learn-bullets">
                 <li>Learn the structure of a Cucumber test suite</li>
@@ -204,15 +204,14 @@ nav: training
             <div class="product-content">
               <h3>Enterprise transformation</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero.
+                Making the transition to BDD across an enterprise can be daunting. We've been there, and can provide you with guidance.
               </p>
               <ul class="learn-bullets">
-                <li>Brown bag / lunch'n'learn sessions</li>
-                <li>Building communities of practice</li>
-                <li>Facilitating internal conferences / open spaces</li>
-                <li>Keynote talks</li>
+                <li>Developing your strategy</li>
                 <li>Seminars with senior leadership</li>
-                <li>Guidance on overall adoption strategy, metrics etc.</li>
+                <li>Success metrics and case studies</li>
+                <li>Facilitating internal conferences & open space events</li>
+                <li>Keynote talks</li>
               </ul>
             </div>
           </div>
