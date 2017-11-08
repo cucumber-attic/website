@@ -1,4 +1,4 @@
-nav.navbar.navbar-default.navbar-fixed-top.community-nav class=(locals['nav'])
+nav.navbar.navbar-default.navbar-fixed-top.community-nav class=(nav)
   .container
     .navbar-header
       button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse"
@@ -7,24 +7,24 @@ nav.navbar.navbar-default.navbar-fixed-top.community-nav class=(locals['nav'])
         span.icon-bar
         span.icon-bar
       a.navbar-brand href="/"
-        img src="/images/cucumber-mark-white.svg" alt="Cucumber" title="cucumber.io"
+        img src=(locals.fetch('brand_image', '/images/cucumber-mark-white.svg')) alt="Cucumber" title="cucumber.io"
     .collapse.navbar-collapse#main-nav-collapse
       ul.nav.navbar-nav
         li
-          a class=(nav_class(locals['nav'], 'docs')) href="/docs" Docs
+          a class=(nav_class(nav, 'docs')) href="/docs" Docs
         li
-          a class=(nav_class(locals['nav'], 'blog')) href="/blog" Blog
+          a class=(nav_class(nav, 'blog')) href="/blog" Blog
         li
-          a class=(nav_class(locals['nav'], 'events')) href="/events" Events
+          a class=(nav_class(nav, 'events')) href="/events" Events
         li
-          a class=(nav_class(locals['nav'], 'talks')) href="/talks" Talks
+          a class=(nav_class(nav, 'talks')) href="/talks" Talks
         li
-          a class=(nav_class(locals['nav'], 'school')) href="/school" Videos
+          a class=(nav_class(nav, 'school')) href="/school" Videos
         li
-          a class=(nav_class(locals['nav'], 'training')) href="/training" Learn BDD
+          a class=(nav_class(nav, 'training')) href="/training" Learn BDD
         li
-          a class=(nav_class(locals['nav'], 'pro')) href="/pro" Cucumber Pro
+          a class=(nav_class(nav, 'pro')) href="/pro" Cucumber Pro
         li
-          a class=(nav_class(locals['nav'], 'support')) href="/support" Support
+          a class=(nav_class(nav, 'support')) href="/support" Support
         li
-          a class=(nav_class(locals['nav'], 'swag')) href="https://cucumberbdd.threadless.com/" Swag
+          a class=(nav_class(nav, 'swag')) href="https://cucumberbdd.threadless.com/" Swag

@@ -1,6 +1,7 @@
 ---
 title: BDD Kickstart
 nav: training
+brand_image: /images/cucumber-mark-grey.svg
 ---
 <div class="learn-wrap">
   <div class="intro-header-learn">
