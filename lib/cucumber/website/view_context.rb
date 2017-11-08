@@ -29,8 +29,8 @@ module Website
       HTMLEntities.new.encode(html)
     end
 
-    def nav_class(slug, name)
-      slug == name ? 'active' : nil
+    def nav_class(name)
+      @locals['nav'] == name ? 'active' : nil
     end
 
     def edit_url template_path
