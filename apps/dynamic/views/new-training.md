@@ -253,25 +253,25 @@ brand_image: /images/cucumber-mark-grey.svg
           <h4 class="heading-reverse heading--sub">Real world accounts of our training</h4>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="#">ustwo</a></h4>
+              <h4><a href="https://cucumber.io/blog/2015/12/08/example-mapping-introduction">Example Mapping</a></h4>
               <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+                A simple technique we've developed to break down user stories before any code is written.
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="#">Vanguard</a></h4>
+              <h4><a href="https://cucumber.io/blog/2015/07/01/bdd-in-the-financial-sector">BDD in Finance</a></h4>
               <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+                Learn why more and more financial firms are turning to BDD to deliver high-quality software.
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="#">Learning Resource</a></h4>
+              <h4><a href="https://www.youtube.com/watch?v=XAjkc28nUjY">BDD at Vanguard</a></h4>
               <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+                How one of the world's most valuable companies rolled out BDD and Cucumber to 200 teams.
               </p>
             </div>
           </div>
