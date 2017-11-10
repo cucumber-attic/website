@@ -2,7 +2,7 @@
 title: CukenFest London 2018
 summary: An intimate conference in London for the Cucumber, BDD, and agile community 
 hero:
-  subtitle: Bridging the communication gap between business and IT.
+  subtitle: A BDD and Agile conference focused on building shared understanding
   dates: April 2018
   cta:
     link: https://cukenfest.cucumber.io/
