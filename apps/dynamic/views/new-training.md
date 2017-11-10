@@ -38,7 +38,7 @@ brand_image: /images/cucumber-mark-grey.svg
         <div class="max-970">
           <div class="card card--negative-top">
             <div class="card-image-wrap">
-              <img src="/images/learn/icon-lightbulb.png" class="card-image" alt="Lightbulb" />
+              <img src="/images/learn/icon-lightbulb.png" class="card-image" srcset="/images/learn/icon-lightbulb.png 1x, /images/learn/icon-lightbulb@2x.png 2x" alt="Lightbulb" />
             </div>    
             <div class="card-block">
               <h3 class="card-title">Inspire confidence</h3>
@@ -51,7 +51,7 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="card card--negative-top">
             <div class="card-image-wrap">
-              <img src="/images/learn/icon-pro.png" class="card-image" alt="Pro" />
+              <img src="/images/learn/icon-pro.png" class="card-image" srcset="/images/learn/icon-pro.png 1x, /images/learn/icon-pro@2x.png 2x" alt="Pro" />
             </div>
             <div class="card-block">
               <h3 class="card-title">Interactive and fun</h3>
@@ -64,7 +64,7 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="card card--negative-top">
             <div class="card-image-wrap">
-              <img src="/images/learn/icon-target.png" class="card-image" alt="Target" />
+              <img src="/images/learn/icon-target.png" srcset="/images/learn/icon-target.png 1x, /images/learn/icon-target@2x.png 2x" class="card-image" alt="Target" />
             </div>
             <div class="card-block">
               <h3 class="card-title">Focussed on your context</h3>
@@ -77,7 +77,7 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="card card--negative-top">
             <div class="card-image-wrap">
-              <img src="/images/learn/icon-laptop.png" class="card-image" alt="Laptop" />
+              <img src="/images/learn/icon-laptop.png" srcset="/images/learn/icon-laptop.png 1x, /images/learn/icon-laptop@2x.png 2x" class="card-image" alt="Laptop" />
             </div>
             <div class="card-block">
               <h3 class="card-title">Beyond test automation</h3>
@@ -295,33 +295,25 @@ brand_image: /images/cucumber-mark-grey.svg
           <h3 class="heading-reverse">Public Courses</h3>
           <h4 class="heading-reverse heading--sub">Get a taste of how it works</h4>
           <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="#">BDD Kickstart, Stockholm</a></h4>
-              <time class="blank-card__time">November 2017</time>
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-stockholm-17">BDD Kickstart, Stockholm</a></h4>
+              <time class="blank-card__time">November 15th-16th 2017</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="#">BDD Kickstart, London</a></h4>
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-london-17">BDD Kickstart, London</a></h4>
               <time class="blank-card__time">December 2017</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="blank-card">
-              <h4><a href="#">BDD Kickstart, Stockholm</a></h4>
-              <time class="blank-card__time">January 2018</time>
-              <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
-              </p>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -335,7 +327,7 @@ brand_image: /images/cucumber-mark-grey.svg
           <p class="paragraph-courses">If you'd like to learn Cucumber and BDD at your own pace, check out our Cucumber School online training.</p>
           </div>
           <div class="col-md-4 col--button-align">
-            <a class="btn btn--rounded btn--courses" href="#">View Online Courses</a>
+            <a class="btn btn--rounded btn--courses" href="/school">View Online Courses</a>
           </div>
         </div>
       </div>
