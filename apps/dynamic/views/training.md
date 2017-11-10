@@ -67,7 +67,7 @@ brand_image: /images/cucumber-mark-grey.svg
               <img src="/images/learn/icon-target.png" srcset="/images/learn/icon-target.png 1x, /images/learn/icon-target@2x.png 2x" class="card-image" alt="Target" />
             </div>
             <div class="card-block">
-              <h3 class="card-title">Focussed on your context</h3>
+              <h3 class="card-title">Focused on your context</h3>
               <ul class="card-text">
                 <li>We tailor each course to your needs</li>
                 <li>Use any programming language: Java, C#, JavaScript, Ruby, PHP</li>
