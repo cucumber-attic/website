@@ -225,12 +225,17 @@ brand_image: /images/cucumber-mark-grey.svg
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <img src="" alt="Stars" />
+          <img class="image-center" src="/images/learn/stars.svg" width="230" alt="Stars" />
           <h2 class="heading-enlarged">92% of our attendees give us 4-5 stars</h2>
-          <blockquote class="learn-blockquote learn-blockquote--lead">
-            <img class="blockquote__avatar" src="" alt="" />
-            <p>Quote in here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi a nisl tincidunt bibendum vitae sit amet libero lorem ipsum.</p>
-            <footer><cite title="Quote Source in here">Quote Source in here</cite></footer>
+          <blockquote class="learn-blockquote learn-blockquote--testimonial">
+            <div class="blockquote__avatar-wrap">
+              <img class="blockquote__avatar" width="169" height="169" src="/images/learn/quotes/jeremy.jpg" alt="Jeremy" />
+            </div>
+            <div class="blockquote__content-wrap">
+              <p>Small class size, good practical exercises on the second day, and our trainer was very easy to approach and ask questions to. I would absolutely recommend this course - the concepts of BDD were well explained with solid, easy to understand examples.</p>
+              <footer>
+                <cite title="Source Title">Jeremy Gallagher</cite>, Blue State Digital</footer>
+              </div>  
           </blockquote>
         </div>  
       </div>
