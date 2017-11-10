@@ -542,7 +542,6 @@
 
 
 // Nav
-/*
 .community-nav.training {
   background: $brand-lime-green;
   .navbar-nav > li > a {
@@ -553,5 +552,8 @@
     background: $brand-charcoal;
     color: $white;
   }
+  .navbar-collapse,
+  .navbar-form {
+    border-color: lighten( $brand-charcoal, 50% );
+  }
 }
-*/
