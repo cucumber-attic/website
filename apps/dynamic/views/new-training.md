@@ -67,7 +67,7 @@ brand_image: /images/cucumber-mark-grey.svg
               <img src="/images/learn/icon-target.png" class="card-image" alt="Target" />
             </div>
             <div class="card-block">
-              <h3 class="card-title">Focused on your context</h3>
+              <h3 class="card-title">Focussed on your context</h3>
               <ul class="card-text">
                 <li>We tailor each course to your needs</li>
                 <li>Use any programming language: Java, C#, JavaScript, Ruby, PHP</li>
@@ -114,7 +114,7 @@ brand_image: /images/cucumber-mark-grey.svg
       <div class="row">
         <div class="max-970">
           <a class="btn btn--rounded btn--learn-secondary"  href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire Now</a>
-          <a class="btn btn--rounded btn--learn-secondary" href="#">Learn More</a>
+          <a class="btn btn--rounded btn--learn-secondary"  href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Learn More</a>
         </div>
       </div>
     </div>
