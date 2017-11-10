@@ -113,7 +113,7 @@ brand_image: /images/cucumber-mark-grey.svg
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
+          <a class="btn btn--rounded btn--learn-secondary"  href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire Now</a>
           <a class="btn btn--rounded btn--learn-secondary" href="#">Learn More</a>
         </div>
       </div>
@@ -240,7 +240,7 @@ brand_image: /images/cucumber-mark-grey.svg
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
+          <a class="btn btn--rounded btn--learn-secondary"  href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire Now</a>
         </div>
       </div>
     </div>
@@ -283,7 +283,7 @@ brand_image: /images/cucumber-mark-grey.svg
     <div class="container">
       <div class="row">
         <div class="max-970">
-          <a class="btn btn--rounded btn--learn-secondary" href="#">Enquire Now</a>
+          <a class="btn btn--rounded btn--learn-secondary"  href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire Now</a>
         </div>
       </div>
     </div>
