@@ -25,7 +25,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Aslak Hellesøy**, the creator of Cucumber and author of The Cucumber Book.
+Both days are led by **Aslak Hellesøy**, the creator of Cucumber and author of The Cucumber Book and **Joe Wright**, an experienced BDD and agile consultant. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -68,7 +68,7 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-## Trainer
+## Trainers
 
 **Aslak Hellesøy**
 
@@ -77,6 +77,16 @@ This day is designed for developers and testers, non-technical people are welcom
 Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
 
 Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
+
+**Joe Wright**
+
+<img src="{{ site.url }}/images/headshots/joe-wright.jpg" alt="Joe Wright" height="300" width="300">
+
+Joe Wright is a tech lead who specialises in helping legacy teams with monolithic codebases. He targets the culture of teams, removing anything that they fear while improving their technical capabilities.
+
+Joe is an ex-ThoughtWorker, organiser of the CodeCraft conference and the Nevergreen open source project.
+
+Joe can be found on Twitter, [@joe_jag](https://twitter.com/joe_jag)
 
 ## Location
 
