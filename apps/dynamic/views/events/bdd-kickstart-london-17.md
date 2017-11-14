@@ -80,7 +80,7 @@ Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_helle
 
 **Joe Wright**
 
-<img src="{{ site.url }}/images/headshots/joe-wright.jpg" alt="Joe Wright" height="300" width="300">
+<img src="{{ site.url }}/images/headshots/joe_wright.jpg" alt="Joe Wright" height="300" width="300">
 
 Joe Wright is a tech lead who specialises in helping legacy teams with monolithic codebases. He targets the culture of teams, removing anything that they fear while improving their technical capabilities.
 
