@@ -81,7 +81,7 @@ As a facilitator, you need to emphasise this element of personal responsibility.
 If each individual does their best to maximise their own learning and
 contribution, the overall event is bound to be a success.
 
-Tips for a facilitator
+How to facilitate an unconference
 ======================
 
 Facilitating an unconference can be a wonderful experience, but it does require
