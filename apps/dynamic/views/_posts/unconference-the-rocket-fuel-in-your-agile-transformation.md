@@ -2,21 +2,23 @@
 layout: post
 nav: blog
 date: "2017-05-26 09:00:00"
-title: "Open Space: Rocket Fuel for your Agile transformation"
+title: "Unconference: Rocket Fuel for your Agile transformation"
 author: matt
 ---
 
-I absolutely love open space.
+I absolutely love unconferences.
 
 Over the last couple of years, we've been privileged to be trusted by some of
-our best [consulting clients](/training) to run open space events in their
+our best [consulting clients](/training) to run unconferences in their
 organisations. I'm now convinced that these events are crucial in powering the
 cultural shift to agile software development.
 
-In this post I want give you a sense of what open space is like and share some 
-practical advice about how to run your own open space event.
+An unconference can also be referred to as an open-space.
 
-What is open space?
+In this post I want give you a sense of what an unconference is like and share some 
+practical advice about how to run your own unconference.
+
+What is an unconference?
 ====================
 
 Have you ever been to a conference, and discovered that your most enduring
@@ -24,26 +26,26 @@ memory was not in one of the timetabled sessions, but in the hallway *in
 between* the sessions? You found yourself in a small group, all passionately
 interested in the topic of your conversation; great insights were shared.
 
-Open space is a meeting structure designed to deliberately harness this energy.
+Unconference is a meeting structure designed to deliberately harness this energy.
 Using a few simple rules, a large group of people self-organises a dynamic,
 evolving schedule that allows every individual to contribute and learn by
 following their own enthusiasms and interests.
 
 To give you a flavour, here’s a video produced by our friends at 
 [Liberty IT](https://www.liberty-it.co.uk/) in Belfast, where we recently 
-ran a two-day open-space for about 120 people:
+ran a two-day unconference for about 120 people:
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/337ibHDA7gU" frameborder="0"
 allowfullscreen></iframe>
 
-The open space format works at almost any scale, from a dozen people meeting for a half-day 
+The unconference format works at almost any scale, from a dozen people meeting for a half-day 
 through to an entire division of hundreds of people organising a multi-day off-site.
 
-The rules
+The rules of unconference
 ==========
 
-The self-organisation of open space needs some boundaries to work. These are
+The self-organisation of unconference needs some boundaries to work. These are
 often described as _five principles, and one law_. The five principles are:
 
 -   **Whoever comes are the right people**. Whether you have 80 people at your
@@ -82,10 +84,10 @@ contribution, the overall event is bound to be a success.
 Tips for a facilitator
 ======================
 
-Facilitating an open space can be a wonderful experience, but it does require
+Facilitating an unconference can be a wonderful experience, but it does require
 some careful preparation.
 
-Although stating the rules is an important part of making an open-space event
+Although stating the rules is an important part of making an unconference
 work, there are a few other fundamental tips for a facilitator to be aware of to
 make the event a success.
 
@@ -98,7 +100,7 @@ at hand) to get them ready for what to expect. Do this by:
 -   Inviting people who wish to attend to make an 'application' by answering a series of
     topic-related questions.
 
--   Sending round information about the principles of open-space, and any quotes
+-   Sending round information about the principles of unconference, and any quotes
     or other communications from previous events.
 
 -   Sending round a [one-page session leader
@@ -124,7 +126,7 @@ pre-work.
 Create a sense of safety
 -------------------------
 
-The magic that makes an open space event work is when people there feel
+The magic that makes an unconference work is when people there feel
 psychologically safe to speak their minds and follow their hears about where
 they can offer the most meaningful contribution.
 
@@ -147,7 +149,7 @@ people to feel more relaxed, even if they never take you up on it.
 
 If you're seriously concerned that psychological safety may be an issue,
 you could consider asking managers or senior executives to exclude themselves from your first 
-event. Ultimately, open space events can be a great way to build trust between
+event. Ultimately, an unconference can be a great way to build trust between
 these groups, but you may want to build up to that gradudally.
 
 Warm up
@@ -165,7 +167,7 @@ one expectation or hope for the event, or some other topic-related question.
 Agenda Building
 ---------------
 
-At an open-space, the agenda is built by the participants themselves. This is
+At an unconference, the agenda is built by the participants themselves. This is
 obviously a crucial part of the event. Make sure you have plenty of paper and
 pens, and ask everyone who wants to lead a session to write up a card or
 post-it with at least the:
@@ -181,7 +183,7 @@ place.
 Work with the space
 --------------------
 
-Another magic ingredient in open-spaces is the spaces themselves. The diverse
+Another magic ingredient in unconferences is the spaces themselves. The diverse
 character of the individual spaces can attract and encourage different kinds of
 interaction, so make the most of the different strengths and weaknesses of each
 one. Some will have a screen and be great for presentations or coding
@@ -195,7 +197,7 @@ Let go
 
 In [Harrison Owen's classic book on open space](https://www.amazon.co.uk/Open-Space-Technology-Agency-Distributed/dp/1576754766), he says:
 
-> To the best of my knowledge, there is exactly one way to absolutely guarantee the failure of an open space event, and that is to try and control it.
+> To the best of my knowledge, there is exactly one way to absolutely guarantee the failure of an unconference, and that is to try and control it.
 
 Be aware that you will have your own expectations for the event. Try to put your mind at ease and remember _whatever happens is the only thing that could have_.
 
@@ -213,16 +215,16 @@ conversation](https://www.amazon.co.uk/Art-Focused-Conversation-Access-Workplace
 method to guide the closing circle towards actions. I like to ask every
 individual to write down one action on a card, and take it away with them.
 
-Attend another open space
+Attend another unconference
 -------------------------
 
-Open space is much easier to understand through experience than by reading
+Unconference is much easier to understand through experience than by reading
 these words. The agile community organise lots of these events, such as
 [CITCON](http://citconf.com/), [Agile Coach
 Camp](http://agilecoachcamp.org/tiki-index.php) and our very own
-[CukenSpace](http://cukenfest.cucumber.io) coming next month.
+[CukenSpace](http://cukenfest.cucumber.io) coming up in April 2018.
 
-I encourage you to attend one of these events and experience open space for
+I encourage you to attend one of these events and experience open-space for
 yourself. I can guarantee it'll be a memorable experience.
 
 Of course, if you would like an experienced faciliator to run an event for you,
@@ -232,7 +234,6 @@ Further reading
 ===============
 
 Here's a [great blog
-post](http://agilecoach.typepad.com/agile-coaching/2010/04/tips-on-organizing-an-agile-open-space.html) from Rachel Davies with more tips on organising open
-spaces.
+post](http://agilecoach.typepad.com/agile-coaching/2010/04/tips-on-organizing-an-agile-open-space.html) from Rachel Davies with more tips on organising an unconference.
 
 The [OpenSpaceWorld](http://openspaceworld.org/wp2/explore/facilitator-resources/) website has a wealth of resourece to learn about open space.
