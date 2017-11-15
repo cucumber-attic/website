@@ -127,7 +127,7 @@ Create a sense of safety
 -------------------------
 
 The magic that makes an unconference work is when people there feel
-psychologically safe to speak their minds and follow their hears about where
+psychologically safe to speak their minds and follow their hearts about where
 they can offer the most meaningful contribution.
 
 Many people do not start out their typical working day feeling in such a
@@ -150,7 +150,7 @@ people to feel more relaxed, even if they never take you up on it.
 If you're seriously concerned that psychological safety may be an issue,
 you could consider asking managers or senior executives to exclude themselves from your first 
 event. Ultimately, an unconference can be a great way to build trust between
-these groups, but you may want to build up to that gradudally.
+these groups, but you may want to build up to that gradually.
 
 Warm up
 --------
@@ -227,7 +227,7 @@ Camp](http://agilecoachcamp.org/tiki-index.php) and our very own
 I encourage you to attend one of these events and experience open-space for
 yourself. I can guarantee it'll be a memorable experience.
 
-Of course, if you would like an experienced faciliator to run an event for you,
+Of course, if you would like an experienced faciliator to run a open-space event for you,
 we'd be [happy to help](https://cucumber.typeform.com/to/gUEP2E?).
 
 Further reading
@@ -236,4 +236,4 @@ Further reading
 Here's a [great blog
 post](http://agilecoach.typepad.com/agile-coaching/2010/04/tips-on-organizing-an-agile-open-space.html) from Rachel Davies with more tips on organising an unconference.
 
-The [OpenSpaceWorld](http://openspaceworld.org/wp2/explore/facilitator-resources/) website has a wealth of resourece to learn about open space.
+The [OpenSpaceWorld](http://openspaceworld.org/wp2/explore/facilitator-resources/) website has a wealth of resources to learn about open space.
