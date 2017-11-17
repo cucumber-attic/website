@@ -227,16 +227,53 @@ brand_image: /images/cucumber-mark-grey.svg
         <div class="max-970">
           <img class="image-center" src="/images/learn/stars.svg" width="230" alt="Stars" />
           <h2 class="heading-enlarged">92% of our attendees give us 4-5 stars</h2>
-          <blockquote class="learn-blockquote learn-blockquote--testimonial">
-            <div class="blockquote__avatar-wrap">
-              <img class="blockquote__avatar" width="169" height="169" src="/images/learn/quotes/jeremy.jpg" alt="Jeremy" />
-            </div>
-            <div class="blockquote__content-wrap">
-              <p>Small class size, good practical exercises on the second day, and our trainer was very easy to approach and ask questions to. I would absolutely recommend this course - the concepts of BDD were well explained with solid, easy to understand examples.</p>
-              <footer>
-                <cite title="Source Title">Jeremy Gallagher</cite>, Blue State Digital</footer>
-              </div>  
-          </blockquote>
+          <div id="testimonial-hold"></div>
+           <script>
+              'use strict';
+              // Write out the blockquote template
+              document.getElementById('testimonial-hold').innerHTML = '<blockquote class="learn-blockquote learn-blockquote--testimonial"><div class="blockquote__avatar-wrap"><img id="testimonial-image" class="blockquote__avatar" width="169" height="169" src="" alt="" /></div><div class="blockquote__content-wrap"><p id="testimonial-quote"></p><footer id="testimonial-footer"></footer></div></blockquote>';
+                  // Load a random testimonial on page load from this array
+                  var testimonials = [{
+                      quote: "Small class size, good practical exercises on the second day, and our trainer was very easy to approach and ask questions to. I would absolutely recommend this course - the concepts of BDD were well explained with solid, easy to understand examples.",
+                      footer: "<cite>Jeremy Gallagher</cite>, Blue State Digital",
+                      image: "/images/learn/quotes/jeremy.jpg",
+                      alt: "Jeremy"
+                  }, {
+                      quote: "The way the course was tailored to us was terrific - Seb continually asked if we were going in the right direction and flexed the course to account for our feedback. You could almost say it was iterative :-) I can't think of anything I'd suggest to improve the course.",
+                      footer: "<cite>Toby Dykes</cite>, Zone Digital",
+                      image: "/images/learn/quotes/toby.jpg",
+                      alt: "Toby"
+                  }, {
+                      quote: "Having Aslak Hellesøy teach us was amazing! A real treasure-trove of insight and experience combined with delightful discussions.",
+                      footer: "<cite>Trond Strømme</cite>, Elhub",
+                      image: "/images/learn/quotes/trond.jpg",
+                      alt: "Trond"
+                  }];
+
+
+                  // Calculate array length and pick a random number from that length
+                  var randomTestimonial = Math.floor(Math.random() * testimonials.length)
+
+                  // Fill up the blockquote
+                  document.getElementById('testimonial-quote').innerHTML = testimonials[randomTestimonial].quote;
+                  document.getElementById('testimonial-footer').innerHTML = testimonials[randomTestimonial].footer;
+                  document.getElementById('testimonial-image').src = testimonials[randomTestimonial].image;
+                  document.getElementById('testimonial-image').alt = testimonials[randomTestimonial].alt;
+
+              </script>
+              <noscript>
+                <blockquote class="learn-blockquote learn-blockquote--testimonial">
+                  <div class="blockquote__avatar-wrap">
+                    <img class="blockquote__avatar" width="169" height="169" src="/images/learn/quotes/jeremy.jpg" alt="Jeremy" />
+                  </div>
+                  <div class="blockquote__content-wrap">
+                    <p>Small class size, good practical exercises on the second day, and our trainer was very easy to approach and ask questions to. I would absolutely recommend this course - the concepts of BDD were well explained with solid, easy to understand examples.</p>
+                      <footer>
+                        <cite>Jeremy Gallagher</cite>, Blue State Digital
+                      </footer>
+                    </div>  
+                </blockquote>
+              </noscript>
         </div>  
       </div>
     </div>
