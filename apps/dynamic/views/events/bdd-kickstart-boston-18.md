@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: February 27th-28th 2018
   cta:
-    link: 
-    message: Book your ticket
+    link: https://www.getdrip.com/forms/29515959/submissions/new
+    message: Sign up for updates
 location:
   url: 
   name: Boston
@@ -19,15 +19,13 @@ dtend: 2017-02-28 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
-BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
+Next February we're back on the East Coast to run our flagship BDD Kickstart training. Our main focus is on helping large organizations transition to BDD and often they start by attending a public class. As an attendee, you will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
-By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
+This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 92% of attendees in 2017 scored the class 4/5 or 5/5.
 
-This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
+Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*.
 
-Both days are led by **Seb Rose**, well-known BDD expert and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*.
-
-Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
+Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
 
@@ -72,12 +70,13 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Seb Rose**
 
-<img src="{{ site.url }}/images/headshots/sebrose-headshot.jpg" alt="Seb Rose" height="300" width="200">
+<img src="{{ site.url }}/images/headshots/sebrose-headshot.jpg" alt="Seb Rose" height="400" width="400">
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
+Have a question about the course? <a href="mailto:someone@example.com">Email us</a>. 
 
 <!-- Drip -->
 <script type="text/javascript">
