@@ -19,11 +19,13 @@ dtend: 2017-02-28 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
-Next February we're back on the East Coast to run our flagship BDD Kickstart training. Our main focus is on helping large organizations transition to BDD and often they start by attending a public class. As an attendee, you will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
+Next February we're back on the East Coast to run our flagship BDD Kickstart training. You will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
-This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 92% of attendees in 2017 scored the class 4/5 or 5/5.
+This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 92% of attendees score the class 4/5 or 5/5.
 
-Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*.
+If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
+
+Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*. 
 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
@@ -70,7 +72,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Seb Rose**
 
-<img src="{{ site.url }}/images/headshots/sebrose-headshot.jpg" alt="Seb Rose" height="400" width="400">
+<img src="{{ site.url }}/images/headshots/seb-headshot.png" alt="Seb Rose" height="200" width="200">
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
