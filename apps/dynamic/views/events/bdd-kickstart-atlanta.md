@@ -12,7 +12,7 @@ location:
 layout: one-column
 nav:
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-01-01 00:00:00
+dtstart: 2017-11-01 00:00:00
 ---
 
 ##This course has been postponed until 2018.
