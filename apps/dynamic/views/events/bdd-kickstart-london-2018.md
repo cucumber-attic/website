@@ -17,11 +17,9 @@ dtstart: 2018-04-17 00:00:00
 dtend: 2018-04-18 00:00:00
 ---
 
-### BDD Kickstart London is part of CukenFest London, our series of events in London over April 17th-20th. [Learn more](http://cukenfest.cucumber.io/)
+## BDD Kickstart - 2 day BDD training 
 
-[Contact us](<mailto:sales@cucumber.io>) if you have any questions. 
-
-# BDD Kickstart - 2 day BDD training 
+**BDD Kickstart London will precede [CukenFest London](http://cukenfest.cucumber.io/), our BDD and Agile conference on April 19th-20th.** 
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -73,9 +71,9 @@ This day is designed for developers and testers, non-technical people are welcom
 * Costs & benefits of working test-first
 
 
-## CukenFest London - April 17th-20th
+## CukenFest London - April 19th-20th
 
-BDD Kickstart is part of CukenFest London, our series of events for the BDD and Agile community happening in April. Learn more about CukenFest [here](https://content.cucumber.io/cukenfest-2017)
+BDD Kickstart is one part of CukenFest London, our BDD and Agile conference taking place in April. Learn more about CukenFest [here](http://cukenfest.cucumber.io/)
 
 <!-- Drip -->
 <script type="text/javascript">
