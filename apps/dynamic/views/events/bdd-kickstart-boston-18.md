@@ -72,7 +72,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Seb Rose**
 
-<img src="{{ site.url }}/images/headshots/seb-headshot.png" alt="Seb Rose" height="200" width="200">
+<img src="{{ site.url }}/images/headshots/seb-square.png" alt="Seb Rose" height="200" width="200">
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
