@@ -90,9 +90,11 @@ Joe is an ex-ThoughtWorker, organiser of the CodeCraft conference and the Neverg
 
 Joe can be found on Twitter, [@joe_jag](https://twitter.com/joe_jag)
 
-## Location
+## Location + Timings
 
 We will host the training at the ustwo offices in Shoreditch, London on 62 Shoreditch High St, London E1 6JJ, UK. The venue is a 35-45 minute journey from London's major airport. The nearest tube station is Liverpool Street and is also a few moments walk from Shoreditch High Street overground. 
+
+We will open doors at 9 AM and you'll have a chance to grab a coffee before we begin. Each day will finish around 4 PM with 45 mins - hour lunch. 
 
 Shoreditch is well catered for in terms of accommodation. On the lower-end there is a Holiday Inn near Old Street station or within a stones throw are [Citizen M](https://www.google.com/maps/place/citizenM+London+Shoreditch+hotel/@51.5252483,-0.0799741,17z/data=!4m5!3m4!1s0x48761cb0e9fb8e05:0xb68b6777d93e000e!8m2!3d51.5241135!4d-0.0785901) or the [Ace Hotel](https://www.google.com/maps/place/Ace+Hotel+London+Shoreditch/@51.5253782,-0.0794768,17z/data=!3m1!4b1!4m5!3m4!1s0x48761cba08de2267:0x18ea9064b8cb94ba!8m2!3d51.5253782!4d-0.0772881). 
 
