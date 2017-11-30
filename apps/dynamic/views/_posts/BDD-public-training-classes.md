@@ -17,7 +17,7 @@ It is, in short, a difficult sell.
 
 But one way we've found teams can bridge this gap is to attend one of our public courses. By experiencing BDD in a classroom environment with peers in a similar position, you can start to get answers to the questions you and your organisation have. 
 
-This training is perfect for developers, testers or anyone from the business who wants to learn the fundamentals of BDD, meet others in a similar situation, and confidently explain the benefits of BDD to a colleague and superior.
+This training is perfect for developers, testers or anyone from the business who wants to learn the fundamentals of BDD, meet others in a similar situation, and confidently explain the benefits of BDD to a colleague or superior.
 
 Our trainers include the creator of Cucumber, the authors of the must-read literature on BDD, and the core team behind Cucumber Ltd.
 
