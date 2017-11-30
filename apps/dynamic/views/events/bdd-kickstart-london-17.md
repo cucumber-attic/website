@@ -19,6 +19,8 @@ dtend: 2017-12-05 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
+This training course is now sold-out. Our next European course will take place in April 2018 as a part of CukenFest London. [Learn more here](https://cucumber.io/events/bdd-kickstart-london-2018).
+
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
 By the end of this course you will acquire the fundamental technical and non-technical skills required to begin.
