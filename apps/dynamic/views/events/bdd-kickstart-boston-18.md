@@ -78,7 +78,7 @@ Seb is a software developer, trainer and coach. He specialises in working with t
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
-Have a question about the course? <a href="mailto:someone@example.com">Email us</a>. 
+Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
 <!-- Drip -->
 <script type="text/javascript">
