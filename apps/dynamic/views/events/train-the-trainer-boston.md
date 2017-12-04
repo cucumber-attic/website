@@ -1,5 +1,5 @@
 ---
-title: Train the Trainer, BDD Kickstart Boston 2018
+title: Train the Trainer, BDD Kickstart
 summary: 
 hero:
   subtitle: A one-day workshop for aspiring Cucumber Limited trainers
@@ -19,9 +19,9 @@ dtend: 2017-03-01 00:00:00
 
 ## BDD Kickstart - Train the Trainer
 
-The demand for our BDD training and coaching the US is growing year-on-year. To deliver the highest possible quality of training, we work with a small pool of trusted trainers. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon to deliver training for our clients. 
+The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we work with a small pool of trusted trainers. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon to deliver our BDD training. 
 
-This course costs $150. Included in this price is a seat on our BDD Kickstart course and this one-day workshop. Your place on this course is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
+This course costs $150. Included in the price is a seat on our BDD Kickstart course and this one-day workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
 
 
 ## Coach
@@ -34,7 +34,7 @@ Seb is a software developer, trainer and coach. He specialises in working with t
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
-Have a question about the course? <a href="mailto:someone@example.com">Email us</a>. 
+Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
 <!-- Drip -->
 <script type="text/javascript">
