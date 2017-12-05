@@ -21,7 +21,7 @@ dtend: 2017-03-01 00:00:00
 
 The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we entrust a small pool of trainers to use our materials. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon. 
 
-This application fee is $150. If you are accepted, you will be invited to attend our BDD Kickstart course and a one-day trainers workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
+The application fee is $150. If you are accepted, you will be invited to attend our BDD Kickstart course and a one-day trainers workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
 
 
 ## Coach
