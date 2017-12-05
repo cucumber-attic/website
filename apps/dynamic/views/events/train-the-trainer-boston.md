@@ -3,7 +3,7 @@ title: Train the Trainer, BDD Kickstart
 summary: 
 hero:
   subtitle: A one-day workshop for aspiring Cucumber Limited trainers
-  dates: February 27th-28th 2018
+  dates: February 27th- March 1st 2018
   cta:
     link: https://cucumber.typeform.com/to/wlhmKk?code=xxxxx
     message: Apply
@@ -13,15 +13,15 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-03-01 00:00:00
+dtstart: 2018-02-27 00:00:00
 dtend: 2017-03-01 00:00:00
 ---
 
 ## BDD Kickstart - Train the Trainer
 
-The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we work with a small pool of trusted trainers. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon to deliver our BDD training. 
+The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we entrust a small pool of trainers to use our materials. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon. 
 
-This course costs $150. Included in the price is a seat on our BDD Kickstart course and this one-day workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
+This application fee is $150. If you are accepted, you will be invited to attend our BDD Kickstart course and a one-day trainers workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
 
 
 ## Coach
@@ -34,7 +34,7 @@ Seb is a software developer, trainer and coach. He specialises in working with t
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
-Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
+Please <a href="mailto:hello@cucumber.io">email us</a> if you have a question. 
 
 <!-- Drip -->
 <script type="text/javascript">
