@@ -1,14 +1,14 @@
 ---
-title: Train the Trainer, BDD Kickstart
-summary: 
+title: Approved Trainer Program, BDD Kickstart
+summary:
 hero:
-  subtitle: A one-day workshop for aspiring Cucumber Limited trainers
-  dates: February 27th- March 1st 2018
+  subtitle: The first stage of the Approved Trainer Program
+  dates: February 27th - March 1st 2018
   cta:
-    link: https://cucumber.typeform.com/to/wlhmKk?code=xxxxx
+    link: https://cucumber.typeform.com/to/wlhmKk?code=Boston2017
     message: Apply
 location:
-  url: 
+  url:
   name: Boston
 layout: one-column
 nav: events
@@ -17,11 +17,11 @@ dtstart: 2018-02-27 00:00:00
 dtend: 2017-03-01 00:00:00
 ---
 
-## BDD Kickstart - Train the Trainer
+## BDD Kickstart - Approved Trainer Program
 
-The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we entrust a small pool of trainers to use our materials. Our intention with this one-day workshop is to introduce and teach the BDD Kickstart training to a new group of trainers who we can call upon. 
+The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we are building a small pool of approved trainers to use our materials. Attending this 3-day workshop is the first stage in our Approved Trainer Program. Read the [description of the program](https://cucumber.io/training/ApprovedTrainerProgramDescription.pdf) to see if it's something you are interested in.
 
-The application fee is $150. If you are accepted, you will be invited to attend our BDD Kickstart course and a one-day trainers workshop. Your place is not guaranteed and you must apply via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=xxxxx). 
+If you would like to apply to join the program, please complete the [application form](https://cucumber.io/training/ApprovedTrainerProgramApplication.pdf) and upload it, along with your resumé, via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=Boston2017). The application fee is $150, which is non-refundable. If you are accepted, you will be given a free invitation to attend our BDD Kickstart course followed by a one-day trainers workshop.
 
 
 ## Coach
@@ -34,17 +34,17 @@ Seb is a software developer, trainer and coach. He specialises in working with t
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
-Please <a href="mailto:hello@cucumber.io">email us</a> if you have a question. 
+Please <a href="mailto:hello@cucumber.io">email us</a> if you have a question.
 
 <!-- Drip -->
 <script type="text/javascript">
   var _dcq = _dcq || [];
-  var _dcs = _dcs || {}; 
+  var _dcs = _dcs || {};
   _dcs.account = '7849462';
-  
+
   (function() {
     var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true; 
+    dc.type = 'text/javascript'; dc.async = true;
     dc.src = '//tag.getdrip.com/7849462.js';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(dc, s);
