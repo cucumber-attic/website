@@ -245,7 +245,7 @@ brand_image: /images/cucumber-mark-grey.svg
                       alt: "Toby"
                   }, {
                       quote: "It is difficult to measure just how much I learned in the BDD Kickstart course. This training is a perfect way to understand the value of living documentation in your agile transformation process.",
-                      footer: "<cite>Bruno Boucard</cite>, "42skillz",
+                      footer: "<cite>Bruno Boucard</cite>, 42skillz",
                       image: "/images/learn/quotes/bruno.jpg",
                       alt: "Bruno"
                   }, {
