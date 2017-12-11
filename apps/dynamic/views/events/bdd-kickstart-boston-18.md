@@ -3,7 +3,7 @@ title: BDD Kickstart, Boston 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: February 27th-28th 2018
+  dates: March 20th-22nd 2018
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Sign up for updates
@@ -13,13 +13,13 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-02-27 00:00:00
-dtend: 2017-02-28 00:00:00
+dtstart: 2018-03-20 00:00:00
+dtend: 2018-03-22 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
 
-Next February we're back on the East Coast to run our flagship BDD Kickstart training. You will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
+Next March we're back on the East Coast to run our flagship BDD Kickstart training. You will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. 92% of attendees score the class 4/5 or 5/5.
 
