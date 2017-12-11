@@ -9,7 +9,7 @@ hero:
     message: Apply
 location:
   url:
-  name: Boston
+  name: San Francisco
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -21,7 +21,7 @@ dtend: 2018-08-16 00:00:00
 
 The demand for our BDD training and coaching in the US is growing year-on-year. To deliver the highest possible quality of training, we are building a small pool of approved trainers to use our materials. Attending this 3-day workshop is the first stage in our Approved Trainer Program. Read the [description of the program](https://cucumber.io/training/ApprovedTrainerProgramDescription.pdf) to see if it's something you are interested in.
 
-If you would like to apply to join the program, please complete the [application form](https://cucumber.io/training/ApprovedTrainerProgramApplication.pdf) and upload it, along with your resumé, via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=Boston2017). The application fee is $150, which is non-refundable. If you are accepted, you will be given a free invitation to attend our BDD Kickstart course followed by a one-day trainers workshop.
+If you would like to apply to join the program, please complete the [application form](https://cucumber.io/training/ApprovedTrainerProgramApplication.pdf) and upload it, along with your resumé, via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=SF2018). The application fee is $150, which is non-refundable. If you are accepted, you will be given a free invitation to attend our BDD Kickstart course followed by a one-day trainers workshop.
 
 
 ## Coach
