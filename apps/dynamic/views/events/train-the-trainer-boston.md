@@ -3,7 +3,7 @@ title: Approved Trainer Program, BDD Kickstart
 summary:
 hero:
   subtitle: The first stage of the Approved Trainer Program
-  dates: February 27th - March 1st 2018
+  dates: March 20th - March 22nd 2018
   cta:
     link: https://cucumber.typeform.com/to/wlhmKk?code=Boston2017
     message: Apply
@@ -13,8 +13,8 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-02-27 00:00:00
-dtend: 2017-03-01 00:00:00
+dtstart: 2018-03-20 00:00:00
+dtend: 2017-03-22 00:00:00
 ---
 
 ## BDD Kickstart - Approved Trainer Program
