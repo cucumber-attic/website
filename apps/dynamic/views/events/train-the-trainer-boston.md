@@ -14,7 +14,7 @@ layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2018-03-20 00:00:00
-dtend: 2017-03-22 00:00:00
+dtend: 2018-03-22 00:00:00
 ---
 
 ## BDD Kickstart - Approved Trainer Program
