@@ -8,8 +8,8 @@ hero:
     link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Sign up for updates
 location:
-  url: 
-  name: Boston
+  url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
+  name: SmartBear HQ, Boston
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -79,6 +79,14 @@ This day is designed for developers and testers, non-technical people are welcom
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
+
+## Training Location 
+
+Both days will be held in the [SmartBear](https://smartbear.com/) offices on 450 Artisan Way, Somerville, MA 02145. 
+
+The training is facility is a 15-minute drive from Logan Airport or downtown Boston and is easily accessible on public transport.  
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.514041092434!2d-71.08108398466419!3d42.395497779184524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316a31ac335f7%3A0xa5fa6e1929085ea2!2sSmartBear+Software!5e0!3m2!1sen!2sde!4v1513160205710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
