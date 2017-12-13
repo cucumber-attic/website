@@ -84,7 +84,7 @@ Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
 Both days will be held in the [SmartBear](https://smartbear.com/) offices on 450 Artisan Way, Somerville, MA 02145. 
 
-The training is facility is a 15-minute drive from Logan Airport or downtown Boston and is easily accessible on public transport.  
+The training facility is a 15-minute drive from Logan Airport or downtown Boston and is easily accessible on public transport.  
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.514041092434!2d-71.08108398466419!3d42.395497779184524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316a31ac335f7%3A0xa5fa6e1929085ea2!2sSmartBear+Software!5e0!3m2!1sen!2sde!4v1513160205710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
