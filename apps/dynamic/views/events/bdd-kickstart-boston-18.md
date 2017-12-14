@@ -6,7 +6,7 @@ hero:
   dates: March 20th-22nd 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-boston-2018
-    message: Tickets on sale 12/14, 10 AM EST
+    message: View ticket options
 location:
   url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
   name: SmartBear HQ, Boston
