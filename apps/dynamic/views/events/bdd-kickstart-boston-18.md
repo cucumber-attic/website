@@ -3,7 +3,7 @@ title: BDD Kickstart, Boston 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: March 20th-22nd 2018
+  dates: March 20th-21nd 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-boston-2018
     message: View ticket options
