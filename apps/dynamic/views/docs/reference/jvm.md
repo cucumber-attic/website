@@ -15,9 +15,10 @@ common to all Cucumber implementations.
 
 ## Languages
 
-Cucumber-JVM supports the following JVM languages:
+Cucumber-JVM currently supports [Java](#java).
 
-* [Java](#java)
+There are also implementations for the following JVM languages, but as of version 2.1.0, they are unsupported:
+
 * [Groovy](#groovy)
 * [Scala](#scala)
 * [Clojure](#clojure)
@@ -28,7 +29,7 @@ Cucumber-JVM supports the following JVM languages:
 
 ## Installation
 
-Cucumber-JVM consists of several modules (jars) that you can download from the [public maven repo](http://repo1.maven.org/maven2/info/cukes/).
+Cucumber-JVM consists of several modules (jars) that you can download from the [public maven repo](http://repo1.maven.org/maven2/io/cucumber/).
 There is no "setup" program for Cucumber-JVM---just jar files.
 
 What jar files to add to your project classpath depends on what programming language you are using. If you
@@ -36,7 +37,7 @@ are using Java, you may want to add one of the jars for [dependency injection](/
 
 ### Snapshot releases
 
-If you want to take advantage of functionality that has been committed to the git master branch, but hasn't been released to the public maven repo yet, you can use `SNAPSHOT` builds from the [sonatype snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/info/cukes/).
+If you want to take advantage of functionality that has been committed to the git master branch, but hasn't been released to the public maven repo yet, you can use `SNAPSHOT` builds from the [sonatype snapshot repo](https://oss.sonatype.org/content/repositories/snapshots/io/cucumber/).
 
 Just add the following to your `pom.xml`:
 
@@ -96,7 +97,7 @@ To use the JUnit runner you need to add the following dependencies:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -236,7 +237,7 @@ Definitions, you need:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java8</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -247,7 +248,7 @@ Otherwise, to write them using annotated methods, you need:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -338,93 +339,97 @@ In this case, the `DataTable` is automatically flattened to a `List<String>`
 by Cucumber (using `DataTable.asList(String.class)`) before invoking the step
 definition.
 
-## Groovy
+## Other JVM Languages
 
-### {groovy-}Dependency
+Note that as of version 2.1.0, the implementations of Cucumber for these JVM languages are no longer supported. The latest version for these is {{ site.versions.unsupported_jvm_languages }}.
+
+### Groovy
+
+#### {groovy-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-groovy</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## Scala
+### Scala
 
-### {scala-}Dependency
+#### {scala-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-scala</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## Clojure
+### Clojure
 
-### {clojure-}Dependency
+#### {clojure-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-clojure</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## Jython
+### Jython
 
-### {jython-}Dependency
+#### {jython-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-jython</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## JRuby
+### JRuby
 
-### {jruby-}Dependency
+#### {jruby-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-jruby</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## Rhino JavaScript
+### Rhino JavaScript
 
-### {rhino-}Dependency
+#### {rhino-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-rhino</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
 
-## Gosu
+### Gosu
 
-### {gosu-}Dependency
+#### {gosu-}Dependency
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-gosu</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.unsupported_jvm_languages }}</version>
     <scope>test</scope>
 </dependency>
 ```
