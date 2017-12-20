@@ -65,7 +65,14 @@ authors:
     gravatar: bc7a840257b5609850cabee995c052c3
 
 versions:
-  cucumber_jvm: 1.2.5
+  cucumber_jvm: 2.3.1
+  cucumber_groovy: 2.0.1
+  cucumber_scala: 2.0.1
+  cucumber_clojure: 2.0.1
+  cucumber_jython: 2.0.1
+  cucumber_jruby: 2.0.1
+  cucumber_rhino: 2.0.1
+  cucumber_gosu: 2.0.1
 
 community:
   max_recent_contributors: 10
