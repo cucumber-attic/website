@@ -29,7 +29,7 @@ The available Dependency Injection modules are:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-picocontainer</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -44,7 +44,7 @@ Sorry no docs yet, but the code is on [GitHub](https://github.com/cucumber/cucum
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-spring</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -59,7 +59,7 @@ Sorry no docs yet, but the code is on [GitHub](https://github.com/cucumber/cucum
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-guice</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -74,7 +74,7 @@ Sorry no docs yet, but the code is on [GitHub](https://github.com/cucumber/cucum
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-openejb</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -89,7 +89,7 @@ Sorry no docs yet, but the code is on [GitHub](https://github.com/cucumber/cucum
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-weld</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -104,7 +104,7 @@ Sorry no docs yet, but the code is on [GitHub](https://github.com/cucumber/cucum
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-needle</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>

@@ -96,7 +96,7 @@ To use the JUnit runner you need to add the following dependencies:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -236,7 +236,7 @@ Definitions, you need:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java8</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -247,7 +247,7 @@ Otherwise, to write them using annotated methods, you need:
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>{{ site.versions.cucumber_jvm }}</version>
     <scope>test</scope>
@@ -344,9 +344,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-groovy</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_groovy }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -357,9 +357,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-scala</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_scala }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -370,9 +370,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-clojure</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_clojure }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -383,9 +383,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-jython</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_jython }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -396,9 +396,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-jruby</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_jruby }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -409,9 +409,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-rhino</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_rhino }}</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -422,9 +422,9 @@ definition.
 
 ```xml
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-gosu</artifactId>
-    <version>{{ site.versions.cucumber_jvm }}</version>
+    <version>{{ site.versions.cucumber_gosu }}</version>
     <scope>test</scope>
 </dependency>
 ```
