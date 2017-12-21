@@ -26,13 +26,13 @@ This is a great listen for those who are interested in building customer-centric
 
 ### Shownotes
 
-- [Sebastian's blog](serialseb.com/serials/vest-redux/)
+- [Sebastian's blog](https://serialseb.com/serials/vest-redux/)
 
-- [Agile Anarchy podcast](cucumber.io/blog/2016/02/16/agile-anarchy)
+- [Agile Anarchy podcast](https://cucumber.io/blog/2016/02/16/agile-anarchy)
 
-- [Kind of Green - Aslak's post about how we are building Cucumber Pro](sdjournal.org/bdd-like-jazz/)
+- [Kind of Green - Aslak's post about how we are building Cucumber Pro](https://sdjournal.org/bdd-like-jazz/)
 
-Find [Seb](twitter.com/serialseb) and [Marcin](twitter.com/mfloryan) on Twitter.
+Find [Seb](https://twitter.com/serialseb) and [Marcin](https://twitter.com/mfloryan) on Twitter.
 
 
 
