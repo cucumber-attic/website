@@ -23,7 +23,7 @@ Next March we're back on the East Coast to run our flagship BDD Kickstart traini
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. We continue to improve and interate on the course material and the feedback we receive is consistently positive with 92% of our 2017 attendees scoring the class 4/5 out of 5.
 
-If you are considering implementing Behavior-Driven Development practices into your team, this is the ideal course for you. 
+If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
 
 In the US, BDD is often referred to as ATDD (Acceptance Test-Driven Development), we see both techniques as the same thing. 
 
@@ -38,7 +38,7 @@ Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn m
 
 The first day is applicable to "the whole team".  (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
 
-Day 1 will give a thorough introduction to Behavior-Driven Development, which is the process that Cucumber supports. There is no automation on this day; the focus is on analysis and collaboration techniques.
+Day 1 will give a thorough introduction to Behaviour-Driven Development, which is the process that Cucumber supports. There is no automation on this day; the focus is on analysis and collaboration techniques.
 
 We’ll teach you [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
 
