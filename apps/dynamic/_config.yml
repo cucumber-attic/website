@@ -3,7 +3,7 @@ description: Cucumber. Simple, Human Collaboration
 author: Cucumber Limited
 copyright: Cucumber Limited
 edit_url: https://github.com/cucumber/website/edit/master/apps/dynamic/views
-show_ribbon: true
+show_ribbon: false
 
 git_hub:
   token: <%= ENV['GIT_HUB_TOKEN'] %>
