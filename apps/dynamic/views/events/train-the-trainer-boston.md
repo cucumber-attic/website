@@ -23,6 +23,8 @@ The demand for our BDD training and coaching in the US is growing year-on-year. 
 
 If you would like to apply to join the program, please complete the [application form](https://cucumber.io/training/ApprovedTrainerProgramApplication.pdf) and upload it, along with your resumé, via our [Typeform](https://cucumber.typeform.com/to/wlhmKk?code=Boston2017). The application fee is $150, which is non-refundable. If you are accepted, you will be given a free invitation to attend our BDD Kickstart course followed by a one-day trainers workshop.
 
+The submission deadline is January 31st 2018. 
+
 
 ## Coach
 
