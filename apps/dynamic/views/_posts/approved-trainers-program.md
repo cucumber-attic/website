@@ -1,8 +1,8 @@
 ---
 layout:   post
 author:   theo
-title:    "BDD public training classes"
-date:     2017-11-28 01:00:00
+title:    "Apply to our Approved Trainers Program in Boston"
+date:     2018-01-08 01:00:00
 nav:      blog
 ---
 
