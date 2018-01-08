@@ -21,5 +21,9 @@ This training is perfect for developers, testers or anyone from the business who
 
 Our trainers include the creator of Cucumber, the authors of the must-read literature on BDD, and the core team behind Cucumber Ltd.
 
-Our final course of the year in London has now sold-out. But you can sign-up for updates for our [Boston course in February](https://cucumber.io/events/bdd-kickstart-boston-18) or secure your seat at our [London course in April.](https://cucumber.io/events/bdd-kickstart-london-2018)
+### Here are our training dates for 2018
 
+ - [Boston](https://cucumber.io/events/bdd-kickstart-boston-18) - March 20th-21st
+ - [London](https://cucumber.io/events/bdd-kickstart-london-2018) - April 17th-18th
+ - [Stockholm](https://cucumber.io/events/bdd-kickstart-stockholm-18) - May 7th-8th
+ - [San Francisco](https://cucumber.io/events/bdd-kickstart-san-francisco-18) - August 14th-15th
