@@ -8,7 +8,7 @@ nav:      blog
 
 I just got home from a week-long retreat with the rest of the team from Cucumber, along with a special guest [@salfreudenberg](https://twitter.com/SalFreudenberg). We started the meetup by reflecting on and sharing the values and motivations that have brought us all together, trying to sum them up into one short, memorable statement of purpose that expresses our shared mission.
 
-<img src="https://cucumber.io/images/blog/thelonghouse.jpeg" style="float:center; width:100%">
+<img src="https://cucumber.io/images/thelonghouse.jpeg" style="float:center; width:100%">
 
 We covered the walls and windows with hand-drawn posters showing various attempts at distilling into words the meaning behind the stories we told each other. We couldn’t quite find the words to do those stories justice.
 
