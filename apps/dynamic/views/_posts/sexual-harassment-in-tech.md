@@ -11,9 +11,6 @@ On the podcast this month we discuss sexual harassment in tech. It's a subject t
 
 Your host Matt Wynne is joined by Sal Freudenberg, Arti Mathanda, Liz Keogh and Melissa Perri.
 
-Share your thoughts on [Twitter](https://twitter.com/cucumberbdd)
-
-
 You can also listen and download the podcast on [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635) and [Stitcher](http://www.stitcher.com/s?fid=81999&refid=stpr). 
 
 Share your thoughts in the comments or on [Twitter](https://twitter.com/cucumberbdd)
