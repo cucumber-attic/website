@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: August 14th-15th 2018
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Sign up for updates
+    link: https://ti.to/cucumber/bdd-kickstart-san-francisco-2018
+    message: Tickets go on sale 1/30 at 10 AM PT
 location:
   url: 
   name: San Francisco
