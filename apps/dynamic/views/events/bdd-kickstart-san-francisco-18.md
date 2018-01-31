@@ -25,7 +25,7 @@ This course is based on proven and practical techniques, which we've taught to h
 
 If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
 
-Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*. 
+Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*. He will be joined by **Sam Hatoum**, an experienced Agile and BDD trainer and coach, founder of [Xolv.io](http://xolv.io/)
 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
@@ -68,7 +68,7 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-## Trainer
+## Trainers
 
 **Seb Rose**
 
@@ -77,6 +77,16 @@ This day is designed for developers and testers, non-technical people are welcom
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
+
+<img src="{{ site.url }}/images/headshots/sam-hatoum.jpg" alt="Sam Hatoum" height="200" width="200">
+
+Sam is a software delivery consultant with over 14 years of experience. He has helped organizations such as the BBC and Audi of America speed up their delivery and improve quality through culture, process and tooling changes.
+
+He draws his methods from his experience in Lean, Agile, Systems Thinking and industry best practices, and focuses them on making the most impactful changes that an organization needs.
+
+Sam is an active open source contributor. He is the author of Chimp.js, a modern acceptance testing framework, and is also the author of The Meteor Testing Manual.
+
+Sam can be found on Twitter, [@sam_hatoum](https://twitter.com/sam_hatoum)
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
