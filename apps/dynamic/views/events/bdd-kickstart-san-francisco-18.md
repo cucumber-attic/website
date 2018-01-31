@@ -6,7 +6,7 @@ hero:
   dates: August 14th-15th 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-san-francisco-2018
-    message: Tickets go on sale 1/30 at 10 AM PT
+    message: View ticket options
 location:
   url: 
   name: San Francisco
