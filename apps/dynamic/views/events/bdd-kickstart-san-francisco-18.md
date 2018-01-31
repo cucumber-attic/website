@@ -78,7 +78,7 @@ Seb is a software developer, trainer and coach. He specialises in working with t
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
-<img src="{{ site.url }}/images/headshots/sam-hatoum.jpg" alt="Sam Hatoum" height="200" width="200">
+<img src="{{ site.url }}/images/headshots/sam-hatoum.jpeg" alt="Sam Hatoum" height="200" width="200">
 
 Sam is a software delivery consultant with over 14 years of experience. He has helped organizations such as the BBC and Audi of America speed up their delivery and improve quality through culture, process and tooling changes.
 
