@@ -17,6 +17,8 @@ Share your thoughts in the comments or on [Twitter](https://twitter.com/cucumber
 
 Full transcript below. 
 
+Sexual Harassment Podcast
+
 Matt:		Welcome to the Cucumber Podcast! It’s been a while since I’ve done this, so I can’t really remember what I’m supposed to say in the introduction. I’m Matt Wynne. I’m one of the founders of the Cucumber Company and one of the early members of the Cucumber OSS project and I’m here with Liz Keogh, Sallyann Freudenberg, Arti Mathanda and Melissa Perri. We’re here to talk about the topic of sexual harassment, I think specifically within the context of the software industry because that’s where we’re all from, but maybe a bit more broadly than that. I asked these four friends of Cucumber onto the podcast to talk about this subject because it’s been a lot in the news recently and I think that it’s important to hear the voices of women who’ve either been through these things or just hear the experiences of women. I think there’s a lot of talk from men on this podcast and it’s probably about time to turn the microphone around. Hopefully, you’ll hear as little as possible of my voice and as much as possible of their voice and their perspective on this topic. I wonder if we should get a little introduction so everybody knows who each of you are. Would that be alright? Arti is shaking her head at me. Just say your name and what your favourite film is or something.
 Arti:		Hi! I’m Arti. My favourite movie right now is “Serenity”.
 Liz:		Hi! I’m Liz. My favourite film is “Watership Down” which is a film about rabbits and it’s a cartoon and you definitely should not show it to your kids or they’ll all become goths.
@@ -93,6 +95,8 @@ Melissa:	Thanks, Matt!
 Matt:		Thanks, everyone! See you next time!
 Liz:		Cheers, Matt! Bye!
 Arti:		Thanks, everyone! Bye!
+
+
 
 
 
