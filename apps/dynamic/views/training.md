@@ -344,7 +344,7 @@ brand_image: /images/cucumber-mark-grey.svg
           <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-boston-18">BDD Kickstart, Boston</a></h4>
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-boston-18">BDD Kickstart, Boston - Sold out</a></h4>
               <time class="blank-card__time">March 20th-21st 2018</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
