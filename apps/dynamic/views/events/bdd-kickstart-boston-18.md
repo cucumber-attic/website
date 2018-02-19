@@ -19,7 +19,7 @@ dtend: 2018-03-22 00:00:00
 
 # BDD Kickstart - 2 day BDD training
 
-This course has now reached capacity. You can sign up to join our [waiting list](https://ti.to/cucumber/bdd-kickstart-boston-2018) or check out our [next course in San Francisco.](https://cucumber.io/events/bdd-kickstart-san-francisco-18) 
+This course has now sold-out. You can sign up to join our [waiting list](https://ti.to/cucumber/bdd-kickstart-boston-2018) or check out our [next course in San Francisco.](https://cucumber.io/events/bdd-kickstart-san-francisco-18) 
 
 By the end of our BDD Kickstart training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
