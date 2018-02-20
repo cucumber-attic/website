@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: June 2018
   cta:
-    link: 
+    link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Express your interest
 location:
   url: 
@@ -16,6 +16,8 @@ image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2018-06-01 00:00:00
 dtend: 2018-06-02 00:00:00
 ---
+
+After the popularity of our BDD Kickstart course in Boston and previously hosting in Atlanta, Houston, SF and we want to run a course in the Midwest. Our chosen destination is Chicago. Let us know you're interested and we'll let you know if there is enough interest to run it. 
 
 # BDD Kickstart - 2 day BDD training
 
@@ -66,8 +68,6 @@ This day is designed for developers and testers, non-technical people are welcom
 
 Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.514041092434!2d-71.08108398466419!3d42.395497779184524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316a31ac335f7%3A0xa5fa6e1929085ea2!2sSmartBear+Software!5e0!3m2!1sen!2sde!4v1513160205710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
