@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: December 4th-5th 2017
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-london-17
-    message: View ticket options
+    link: https://cucumber.io/events
+    message: View upcoming BDD Kickstart courses
 location: 
   url: https://www.google.com/maps/place/ustwo+London/@51.524074,-0.0793667,17z/data=!3m1!4b1!4m5!3m4!1s0x48761cb0c877dff1:0x4b063d67310deeb0!8m2!3d51.524074!4d-0.077178
   name: ustwo offices, London
