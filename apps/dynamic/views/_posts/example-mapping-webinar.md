@@ -10,7 +10,7 @@ author: theo
 
 In the past couple of years, lots of software teams have been using a simple collaborative technique called Example Mapping to break down user stories. It was conceived co-founder of Cucumber, Matt Wynne, who wrote the seminal [post introducing the practice](https://cucumber.io/blog/2015/12/08/example-mapping-introduction).
 
-In this recorded webinar the creator of Cucumber, Aslak Hellesøy, introduces Example Mapping and runs a Q&A with Steve Tooke. 
+In this recorded webinar the creator of Cucumber, Aslak Hellesøy, introduces Example Mapping and answers a few questions with colleague Steve Tooke at the end. 
 
 [Watch the recording on our YouTube channel.](https://www.youtube.com/watch?v=VwvrGfWmG_U) 
 
