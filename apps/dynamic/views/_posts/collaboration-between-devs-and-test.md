@@ -6,7 +6,9 @@ date:     2018-03-01 01:00:00
 nav:      blog
 ---
 
-This month Matt Wynne speaks to Maaret Pyhäjärvi and Franziska Sauerwein about collaboration between developers and testers. It’s a subject we think about a lot and this conversation will give you a few tips to try in your own team. 
+The history of testers and developers working together is a bumpy road. Throughout the evolution of software development, testers have struggled to be treated as equals and developers have lacked the understanding of why they should care. Yet some teams do it well - both roles have a good experience and the resulting software benefits from the different perspectives. 
+
+In this podcast, Franziska and Maaret speak to Matt Wynne to share some tips on how to improve this in your team.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/407073783&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
