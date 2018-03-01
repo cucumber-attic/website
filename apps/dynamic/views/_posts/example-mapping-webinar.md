@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: 2018-01-27 01:00:00
+date: 2018-02-27 01:00:00
 title: Example Mapping Webinar
 author: theo
 ---
@@ -16,7 +16,11 @@ In this recorded webinar the creator of Cucumber, Aslak Hellesøy, introduces Ex
 
 As Matt puts it, "Example Mapping helps you zoom in and focus on the smallest pieces of behaviour inside your story. By mapping it out you can tease apart the rules, find the core of the behaviour you want, and defer the rest until later. With this level of scrutiny, example mapping acts like a filter, preventing big fat stories from getting into your sprint and exploding."
 
-[Join us on Slack](https://cucumber.io/support#slack) to discuss Example Mapping in more detail. We train and coach teams in Example Mapping and Behaviour-Driven Development globally. Check out our [training page](https://cucumber.io/training) for more details. 
+### Shownotes
+
+ - The train booking system is from Emily Bache - https://github.com/emilybache/KataTrainReservation
+ - [Join us on Slack](https://cucumber.io/support#slack) to discuss Example Mapping in more detail. 
+ - We train and coach teams in Example Mapping and Behaviour-Driven Development globally. Check out our [training page](https://cucumber.io/training) for more details. 
 
 
 <!-- Drip -->
