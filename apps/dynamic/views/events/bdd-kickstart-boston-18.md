@@ -86,6 +86,8 @@ Both days will be held in the [SmartBear](https://smartbear.com/) offices on 450
 
 The training facility is a 15-minute drive from Logan Airport or downtown Boston and is easily accessible on public transport. 
 
+Full directions and car parking can be found [here](https://smartbear.com/SmartBear/media/pdfs/Directions-to-SmartBear.pdf). 
+
 Supporting more than six million software professionals and over 22,000 companies in 194 countries, SmartBear is the leader in software quality tools for teams. The company’s products help deliver the highest quality and best performing software possible while helping teams ship code at nearly impossible velocities. With products for API testing, UI testing, code review and performance monitoring across mobile, web and desktop applications, SmartBear equips every development, testing and operations team member with the tools to ensure quality at every stage of the software cycle. For more information, visit: [smartbear.com](http://smartbear.com), or for the SmartBear community, go to: [LinkedIn](https://www.linkedin.com/company/smartbear-software/), [Twitter](https://twitter.com/smartbear) or [Facebook](https://www.facebook.com/smartbear).
 
 Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
