@@ -70,6 +70,16 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
+## Trainers
+
+**Aslak Hellesøy**
+
+<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="300">
+
+Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
+
+Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
+
 
 ## CukenFest London - April 19th-20th
 
