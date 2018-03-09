@@ -23,7 +23,7 @@ By the end of our BDD Kickstart training you will have a strong understanding of
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
 
-Both days are led by **Hamish Tedeschi**, an accomplished BDD practitoner and coach and CEO of Mechancial Rock. 
+Both days are led by **Hamish Tedeschi**, an accomplished BDD practitoner and coach and CEO of [Mechancial Rock.](https://www.mechanicalrock.io/#/) 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
@@ -69,12 +69,12 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Hamish Tedeschi**
 
-Hamish Tedschi is an accomplished BDD practitoner, coach and CEO of Mechanical Rock. He can be found on [Twitter](https://twitter.com/HamoDonk)
+Hamish Tedschi is an accomplished BDD practitoner, coach and CEO of [Mechanical Rock](https://www.mechanicalrock.io/#/). He can be found on [Twitter](https://twitter.com/HamoDonk)
 
 ## Training Location + Times
 
 
-Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
+Each day will start at 9 AM and finish at 4 PM. 
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
