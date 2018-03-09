@@ -69,6 +69,8 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Hamish Tedeschi**
 
+<img src="{{ site.url }}/images/headshots/hamish-headshot.png" alt="Hamish Tedeschi" height="300" width="300">
+
 Hamish Tedschi is an accomplished BDD practitoner, coach and CEO of [Mechanical Rock](https://www.mechanicalrock.io/#/). He can be found on [Twitter](https://twitter.com/HamoDonk)
 
 ## Training Location + Times
