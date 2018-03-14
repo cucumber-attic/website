@@ -1,8 +1,8 @@
 ---
 layout:   post
 author:   theo
-title:    "CukenFest London - How to convince your boss"
-date:     2018-03-13 09:00:00
+title:    "How to convince your boss to send you to CukenFest London"
+date:     2018-03-14 09:00:00
 nav:      blog
 ---
 <img src="https://cucumber.io/images/blog/cukenfest-charlie.jpg" style="float:center; width:100%">
