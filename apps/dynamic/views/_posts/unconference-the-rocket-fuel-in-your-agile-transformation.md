@@ -222,7 +222,7 @@ Unconference is much easier to understand through experience than by reading
 these words. The agile community organise lots of these events, such as
 [CITCON](http://citconf.com/), [Agile Coach
 Camp](http://agilecoachcamp.org/tiki-index.php) and our very own
-[CukenSpace](http://cukenfest.cucumber.io) coming up in April 2018.
+[CukenFest](http://cukenfest.cucumber.io) coming up in April 2018.
 
 I encourage you to attend one of these events and experience open-space for
 yourself. I can guarantee it'll be a memorable experience.
