@@ -80,6 +80,13 @@ Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Drive
 
 Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
 
+**Jon Jagger**
+
+<img src="{{ site.url }}/images/headshots/jon-jagger-square.png" alt="Jon Jagger" height="300" width="300">
+
+Jon is a self-employed software consultant specialising in practice, process, TDD, and complex-adaptive systems-thinking. He's worked with Accenture, Aviva, Cisco, Ericsson, Friends Provident, HP, Microsoft, Ordnance Survey, RBS, Reuters, Renault F1, Schlumberger, Tandberg and many many more. He's 33 years old (hex) and loved software since 10 (decimal). Jon lives in Somerset in England and married to the beautiful Natalie and dad to Ellie, Penny and Patrick. He loves coarse fishing and salmon fishing. He's the ex ACCU conference chairman. He's had some C# books published. He's the co-author with Olve Maudal of the Deep C/C++ slide deck with over 1,000,000 views). He built cyber-dojo.org to promote deliberate practice for software developers.
+
+Jon can be found on Twitter, [@JonJagger](https://twitter.com/jonjagger)
 
 ## CukenFest London - April 19th-20th
 
