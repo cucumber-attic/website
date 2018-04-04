@@ -8,8 +8,8 @@ hero:
     link: https://ti.to/cucumber/cukenfest-london-2018
     message: Book your ticket
 location:
-  url: 
-  name: London
+  url: https://goo.gl/maps/DQdY5xd4jrK2 
+  name: Huckletree Shoreditch, London
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -27,7 +27,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days will be led by **Aslak Hellesøy**, the creator of Cucumber and author of The Cucumber Book. A rare opportunity to learn about Cucumber and BDD from the creator himself.
+Both days will be led by **Aslak Hellesøy**, the creator of Cucumber and author of The Cucumber Book. A rare opportunity to learn about Cucumber and BDD from the creator himself. **Jon Jagger**, an experienced Agile coach and author will co-teach the course.
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
