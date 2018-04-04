@@ -3,21 +3,23 @@ title: BDD Kickstart, Chicago 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: June 2018
+  dates: June 4th-5th 2018
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Express your interest
 location:
-  url: 
-  name: Chicago
+  url: https://goo.gl/maps/q8Y7w1Pa3jE2
+  name: 8th Light, Chicago Offices
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-06-01 00:00:00
-dtend: 2018-06-02 00:00:00
+dtstart: 2018-06-04 00:00:00
+dtend: 2018-06-05 00:00:00
 ---
 
-After the popularity of our BDD Kickstart course in Boston and previously hosting in Atlanta, Houston, SF and we want to run a course in the Midwest. Our chosen destination is Chicago. Let us know you're interested and we'll let you know if there is enough interest to run it. 
+We've been developing and teaching this training course for more than 5 years, incorporating our experiences as practitioners, coaches, and trainers. Attend our public training course to learn the fundamentals of Behaviour-Driven Development so you can deliver higher-quality software.
+
+You will be taught by the creator of Cucumber, Aslak Hellesøy. Aslak is also the author of The Cucumber Book and co-founder of Cucumber Ltd. 
 
 # BDD Kickstart - 2 day BDD training
 
@@ -66,7 +68,22 @@ This day is designed for developers and testers, non-technical people are welcom
 * Domain modelling by Example
 * Costs & benefits of working test-first
 
-Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
+## Trainer
+
+**Aslak Hellesøy**
+
+<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="300">
+
+Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
+
+Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
+
+
+## Training Location + Times
+
+Both days will be held in the [8th Light](https://8thlight.com) offices on 25 E Washington St #509, Chicago, IL 60602. 
+
+Each day will start at 9 AM and finish at 4 PM.
 
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
