@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: June 4th-5th 2018
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Express your interest
+    link: https://cucumber.io/events/bdd-kickstart-chicago-2018
+    message: Book your ticket
 location:
   url: https://goo.gl/maps/q8Y7w1Pa3jE2
   name: 8th Light, Chicago Offices
