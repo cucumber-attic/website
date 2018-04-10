@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: June 4th-5th 2018
   cta:
-    link: https://cucumber.io/events/bdd-kickstart-chicago-2018
+    link: https://ti.to/cucumber/bdd-kickstart-chicago-2018
     message: Book your ticket
 location:
   url: https://goo.gl/maps/q8Y7w1Pa3jE2
