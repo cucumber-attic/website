@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   aslak
-title:    "Why we do this"
+title:    "Open Source Day"
 date:     2018-04-11 00:00:00
 nav:      blog
 ---
