@@ -14,11 +14,13 @@ module Redirects
         r303 %r{^/(ah|jb|mw|sr|st|tsr|rm)$}, "/"
 
         # redirect all other api traffic to the legacy site
-        # TODO: figure out a better place to host it
-
         r301 %r{(/api/.+)}, "http://cucumber.github.io$1"
 
+        # podcast feed
         r302 %r{/podcast/feed.xml}, "http://feeds.soundcloud.com/users/soundcloud:users:181591133/sounds.rss"
+
+        # redirect old docs links
+        r301 %r{/docs}, "https://docs.cucumber.io"
       end
     end
   end
