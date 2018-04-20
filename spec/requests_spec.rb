@@ -19,7 +19,6 @@ let(:app) { APP }
     "/training",
     "/school",
     "/blog",
-    "/docs/reference",
     "/assets/main.css",
     "/fonts/cucumber-glyphs.eot",
     "/bdd-kickstart.pdf",
