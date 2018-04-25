@@ -25,6 +25,8 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
+Both days will be led by **Matt Wynne**, co-founder of Cucumber Ltd and author of The Cucumber Book. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment with one of the founding members of the Cucumber team and an experienced BDD trainer, coach and practitioner. 
+
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
@@ -65,6 +67,17 @@ This day is designed for developers and testers, non-technical people are welcom
 * Backgrounds, Tags, Tables, Scenario Outlines and other Gherkin tricks
 * Domain modelling by Example
 * Costs & benefits of working test-first
+
+## Trainers
+
+**Matt Wynne**
+
+<img src="{{ site.url }}/images/headshots/matt.jpg" alt="Matt Wynne" height="300" width="300">
+
+Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was as invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of The Cucumber Book, Behaviour-Driven Development for Developers and Testers and a co-founder of Cucumber Ltd, the company behind Cucumber.
+
+Matt can be found on Twitter, [@mattwynne](https://twitter.com/mattwynne)
+
 
 <!-- Drip -->
 <script type="text/javascript">
