@@ -19,7 +19,7 @@ dtend: 2018-06-05 00:00:00
 
 We've been developing and teaching this training course for more than 5 years, incorporating our experiences as practitioners, coaches, and trainers. Attend our public training course to learn the fundamentals of Behaviour-Driven Development so you can deliver higher-quality software.
 
-You will be taught by the creator of Cucumber, Aslak Hellesøy. Aslak is also the author of The Cucumber Book and co-founder of Cucumber Ltd. 
+You will be taught by the creator of Cucumber, Aslak Hellesøy. Aslak is also the author of The Cucumber Book and co-founder of Cucumber Ltd. Aslak will be joined by Ed Snodgrass, an experienced software developer and coach.
 
 # BDD Kickstart - 2 day BDD training
 
@@ -78,7 +78,8 @@ Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Drive
 
 Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
 
-**Ed Snodgrass*
+
+**Ed Snodgrass**
 
 <img src="{{ site.url }}/images/headshots/ed-snodgrass.jpeg" alt="Ed Snodgrass" height="300" width="300">
 
