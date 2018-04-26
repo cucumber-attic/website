@@ -83,7 +83,7 @@ Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_helle
 
 Both days will be held in the [8th Light](https://8thlight.com) offices on 25 E Washington St #509, Chicago, IL 60602. 
 
-Each day will start at 9 AM and finish at 4 PM.
+Each day will start at 9 AM and finish at 4.30 PM.
 
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
