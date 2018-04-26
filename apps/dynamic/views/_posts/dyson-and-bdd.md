@@ -38,7 +38,7 @@ BDD has enabled the team to validate with the product owner that we understand t
 Now that the Award application is live we are in a position, with comprehensive automated testing coverage built in, to release new features to production more frequently than has ever been possible at Dyson. 
 
 
-*Cucumber run on-site and public classes for teams who want to truly benefit from BDD. Here are a few upcoming BDD Kickstart classes in 2018. For a full list, visit our [events page.](https://cucumber.io/events)
+*Cucumber run on-site and public classes for teams who want to truly benefit from BDD. Here are a few upcoming BDD Kickstart classes in 2018. For a full list, visit our [events page.](https://cucumber.io/events)*
 
  - [Stockholm](https://cucumber.io/events/bdd-kickstart-stockholm-18) - May 7th-8th
  - [London](https://cucumber.io/events/bdd-kickstart-london-may-2018) - May 24th-25th
