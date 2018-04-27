@@ -83,8 +83,7 @@ Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_helle
 
 <img src="{{ site.url }}/images/headshots/ed-snodgrass.jpeg" alt="Ed Snodgrass" height="300" width="300">
 
-Ed is a Senior Software Engineer at Proxibid. During his 13 years of experience he has built applications in the DoD space as well as in the public sector. Ed is an advocate of professional development, agile practices, and XP practices. He recently has become excited about BDD and enjoys bridging the gaps between product folks, testers, and developers.   
-
+Ed is a Senior Software Engineer at Proxibid, Inc. During his 13 years of experience he has built applications in the DoD space as well as in the public sector. Ed is an advocate of professional development, Agile principles, and XP practices. He recently has become excited about BDD and enjoys bridging the gaps between product folks, testers, and developers. 
 
 
 ## Training Location + Times
