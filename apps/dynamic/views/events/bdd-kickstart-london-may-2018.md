@@ -3,10 +3,10 @@ title: BDD Kickstart, London 2018
 summary: 
 hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
-  dates: May 24th-25th 2018
+  dates: Summer 2018
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-london-may-2018
-    message: Book your ticket
+    link: https://www.getdrip.com/forms/3429383/submissions/new
+    message: Register your interest
 location:
   url: https://goo.gl/maps/DQdY5xd4jrK2 
   name: London
