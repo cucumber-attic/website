@@ -13,11 +13,13 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-05-24 00:00:00
-dtend: 2018-05-25 00:00:00
+dtstart: 2018-06-21 00:00:00
+dtend: 2018-06-22 00:00:00
 ---
 
 ## BDD Kickstart - 2 day BDD training 
+
+This course is to be confirmed. We're hoping to run late June, 2018.
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
