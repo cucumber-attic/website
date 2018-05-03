@@ -6,7 +6,7 @@ date:     2018-04-26 01:00:00
 nav:      blog
 ---
 
-<img src="https://cucumber.io/images/blog/matt-standing-cukeup-2016.jpg" style="float:center; width:100%">
+<img src="https://cucumber.io/images/events/cukenfest-unconference.jpg" style="float:center; width:100%">
 
 
 ### Dyson digital and BDD: one team’s path to building the right thing
