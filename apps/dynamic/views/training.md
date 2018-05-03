@@ -353,8 +353,8 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-london-may-2018">BDD Kickstart, London</a></h4>
-              <time class="blank-card__time">May 24th-25th 2018</time>
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-london-18">BDD Kickstart, London</a></h4>
+              <time class="blank-card__time">June 2018</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
