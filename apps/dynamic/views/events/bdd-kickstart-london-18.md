@@ -3,7 +3,7 @@ title: BDD Kickstart, London 2018
 summary: 
 hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
-  dates: Summer 2018
+  dates: June 2018
   cta:
     link: https://www.getdrip.com/forms/3429383/submissions/new
     message: Register your interest
@@ -27,7 +27,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days will be led by **Matt Wynne**, co-founder of Cucumber Ltd and author of The Cucumber Book. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment with one of the founding members of the Cucumber team and an experienced BDD trainer, coach and practitioner. 
+Both days will be led by **Aslak Hellesøy**, creator of Cucumber, co-founder of Cucumber Ltd, and author of The Cucumber Book. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment the creator of Cucumber and an experienced BDD trainer, coach and practitioner. 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
 
@@ -72,14 +72,23 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## Trainers
 
-**Matt Wynne**
+**Aslak Hellesøy**
 
-<img src="{{ site.url }}/images/headshots/matt.jpg" alt="Matt Wynne" height="300" width="300">
+<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="300">
 
-Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was as invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of The Cucumber Book, Behaviour-Driven Development for Developers and Testers and a co-founder of Cucumber Ltd, the company behind Cucumber.
+Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
 
-Matt can be found on Twitter, [@mattwynne](https://twitter.com/mattwynne)
+Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
 
+**Sal Freudenberg**
+
+<img src="{{ site.url }}/images/headshots/sal.png" alt="Sal Freudenberg" height="300" width="300">
+
+Dr. Sallyann Freudenberg is an agile consultant and trainer who assists companies in transitioning to more nimble, customer-centric and human(e) ways of working. She holds a PhD in the Psychology of Collaborative Software Development and since parenting an autistic son has developed an interest in neuro-diversity.
+
+Through re-assessing her own traits and neurology, and considering the extra-ordinary people with whom she has worked over her 25+ years in tech, Sal is raising awareness of the benefits of having diversity in our organisations and is helping the industry to begin to understand how to support and nurture every kind of brain.
+
+Sal can be found on Twitter, [@SalFreudenberg](https://twitter.com/SalFreudenberg)
 
 <!-- Drip -->
 <script type="text/javascript">
