@@ -24,27 +24,6 @@ for several the less used languages.
 You can use Cucumber Expressions as [described on the new docs site](https://docs.cucumber.io/cucumber/cucumber-expressions/). 
 To add custom parameters you have to implement `cucumber.api.Configuration`.
 
-```java
-public class ParameterTypes implements Configuration {
-
-    @Override
-    public Locale locale() {
-        return ENGLISH;
-    }
-
-    @Override
-    public void configureTypeRegistry(TypeRegistry typeRegistry) {
-        typeRegistry.defineParameterType(new ParameterType<>(
-            "iso-date",
-            "\\d{4}-\\d{2}-\\d{2}",
-            Date.class,
-            (String s) -> new SimpleDateFormat("yyyy-mm-dd").parse(s)
-        ));
-    }
-}
-
-```
-
 ## Data Tables ##
 
 Most importantly `DataTable` has moved from `cucumber.api.DataTable` to `io.cucumber.datatable.DataTable` and its API has
@@ -90,7 +69,7 @@ typeRegistry.defineDataTableType(new DataTableType(
 
 ## XStream ##
 
-XStream has been removed from Cucumber. This means that `@Format`, `@Transformer`, `@XStreamConverter`, 
+XStream has been removed from Cucumber. This means that `@Delimiter`, `@Format`, `@Transformer`, `@XStreamConverter`, 
 `@XStreamConverters`and any other annotations from XStream will no longer work. These must be replaced by
 `DataTableType` or `ParameterType`.
 
