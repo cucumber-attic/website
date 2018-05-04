@@ -19,7 +19,7 @@ dtend: 2018-04-18 00:00:00
 
 ## BDD Kickstart - 2 day BDD training 
 
-**The next BDD Kickstart London will take place on May 24th-25th. [Click here for details](https://cucumber.io/events/bdd-kickstart-london-may-2018).** 
+**The next BDD Kickstart London will take place in late June. [Click here for details](https://cucumber.io/events/bdd-kickstart-london-18).** 
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
