@@ -16,12 +16,12 @@ We set some money aside to hire [Samuel Wright](https://github.com/plaindocs), a
 
 It's been a mamoth, painstaking task, going through old wiki pages, previous versions of the docs, and pulling all of that together into something coherent. An additional challenge is the number of languages Cucumber supports. When we write a [tutorial](http://docs.cucumber.io/guides/10-minute-tutorial/), it needs to make sense in at least Java, JavaScript and Ruby. This means the authoring team need input from people with all those language skills.
 
-The community have rallied around the project, particularly [Marit van Dijk](https://github.com/mlvandijk) who has been instrumental in writing new content and recycling the old stuff. We owe a massive thankyou to Marit, Sam, Aslak and everyone else who has contributed to this. 🌈❤️💐
+The community have rallied around the project, particularly [Marit van Dijk](https://github.com/mlvandijk) who has been instrumental in writing new content and recycling the old stuff. We owe a massive 🌈❤️💐 to Marit, Sam, Aslak and everyone else who has contributed to this.
 
-## Some links may have broken, sorry
+##Some links may have broken, sorry
 
 In the end, we took the decision that trying to route all old URLs for the documentation would not be worth the effort, and that it was better to get the new site out there as the authoratative source. The old wiki is closed for edits but still stands for now. We'll be replacing each page with signposts to the relevant place on the new site over the next few weeks.
 
-## We'd love your help
+##We'd love your help
 
 We'd love your feedback on the new docs, and if you have time, your help in authoring more content. You can find the docs team in Slack [here](https://cucumberbdd.slack.com/messages/C6TUESD7B/) - you'll need to sign up [here](https://cucumberbdd-slack-invite.herokuapp.com/) to get in.
