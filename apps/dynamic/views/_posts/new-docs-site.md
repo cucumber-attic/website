@@ -14,7 +14,7 @@ We want Cucumber to be a welcoming and inclusive experience for everyone, so thi
 
 We set some money aside to hire [Samuel Wright](https://github.com/plaindocs), a professional documentation author to work part-time to drive the project forward. Aslak built a new platform using [hugo](https://gohugo.io/) and [netlify](https://www.netlify.com/) to migrate all the documentation onto, and the work began.
 
-It's been a mamoth, painstaking task, going through old wiki pages, previous versions of the docs, and pulling all of that together into something coherent. An additional challenge is the number of languages Cucumber supports. When we write a [tutorial](http://docs.cucumber.io/guides/10-minute-tutorial/), it needs to make sense in at least Java, JavaScript and Ruby. This means the authoring team need input from people with all those language skills.
+It's been a mammoth, painstaking task, going through old wiki pages, previous versions of the docs, and pulling all of that together into something coherent. An additional challenge is the number of languages Cucumber supports. When we write a [tutorial](http://docs.cucumber.io/guides/10-minute-tutorial/), it needs to make sense in at least Java, JavaScript and Ruby. This means the authoring team need input from people with all those language skills.
 
 The community have rallied around the project, particularly [Marit van Dijk](https://github.com/mlvandijk) who has been instrumental in writing new content and recycling the old stuff. We owe a massive 🌈❤️💐 to Marit, Sam, Aslak and everyone else who has contributed to this.
 
