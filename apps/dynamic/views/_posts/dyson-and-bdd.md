@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "Dyson Digital and BDD"
-date:     2018-04-26 01:00:00
+date:     2018-05-04 01:00:00
 nav:      blog
 ---
 
