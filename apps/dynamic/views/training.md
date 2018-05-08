@@ -300,9 +300,9 @@ brand_image: /images/cucumber-mark-grey.svg
           <h4 class="heading-reverse heading--sub">Real world accounts of our training</h4>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/blog/2015/12/08/example-mapping-introduction">Example Mapping</a></h4>
+              <h4><a href="https://cucumber.io/blog/2018/05/08/dyson-and-bdd">BDD at Dyson</a></h4>
               <p>
-                A simple technique we've developed to break down user stories before any code is written.
+                A case study of how Dyson use BDD to reduce misunderstandings and time spent on regression testing.
               </p>
             </div>
           </div>
@@ -344,15 +344,6 @@ brand_image: /images/cucumber-mark-grey.svg
           <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-stockholm-18">BDD Kickstart, Stockholm</a></h4>
-              <time class="blank-card__time">May 7th-8th 2018</time>
-              <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blank-card">
               <h4><a href="https://cucumber.io/events/bdd-kickstart-london-18">BDD Kickstart, London</a></h4>
               <time class="blank-card__time">June 2018</time>
               <p>
@@ -362,8 +353,8 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-perth-2018">BDD Kickstart, Perth</a></h4>
-              <time class="blank-card__time">May 24th-25th 2018</time>
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-perth-18">BDD Kickstart, Perth</a></h4>
+              <time class="blank-card__time">May 24th-25th</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
@@ -373,6 +364,15 @@ brand_image: /images/cucumber-mark-grey.svg
             <div class="blank-card">
               <h4><a href="https://cucumber.io/events/bdd-kickstart-chicago-2018">BDD Kickstart, Chicago</a></h4>
               <time class="blank-card__time">June 4th-5th 2018</time>
+              <p>
+                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blank-card">
+              <h4><a href="https://cucumber.io/events/bdd-kickstart-san-francisco-18">BDD Kickstart, San Francisco</a></h4>
+              <time class="blank-card__time">August 14th-15th 2018</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
