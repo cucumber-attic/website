@@ -1,18 +1,17 @@
 ---
 layout:   post
 author:   theo
-title:    "Dyson Digital and BDD"
-date:     2018-05-04 01:00:00
+title:    "Dyson and BDD"
+date:     2018-05-08 01:00:00
 nav:      blog
 ---
 
 <img src="https://cucumber.io/images/events/cukenfest-unconference.jpg" style="float:center; width:100%">
 
 
-### Dyson digital and BDD: one team’s path to building the right thing
+### Dyson and BDD: one team’s path to building the right thing
 
-*This is a guest post from Tom Hall, a Digital Quality Lead at Dyson Digital.*
-
+*This is a guest post from Tom Hall, Digital Quality Lead at Dyson*
 
 When Dyson’s digital team decided to bring Behaviour-Driven Development into our ways of working, it was to address two problems that were severely hampering our ability to deliver working software: 
 
