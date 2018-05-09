@@ -39,8 +39,7 @@ Now that the Award application is live we are in a position, with comprehensive 
 
 *Cucumber run on-site and public classes for teams who want to truly benefit from BDD. Here are a few upcoming BDD Kickstart classes in 2018. For a full list, visit our [events page.](https://cucumber.io/events)*
 
- - [Stockholm](https://cucumber.io/events/bdd-kickstart-stockholm-18) - May 7th-8th
  - [Perth, AU](https://cucumber.io/events/bdd-kickstart-perth-2018) - May 24th-25th
- - [Chicago](https://cucumber.io/events/bdd-kickstart-chicago-2018) - June 7th-8th
+ - [Chicago](https://cucumber.io/events/bdd-kickstart-chicago-2018) - June 7th-8th - SOLD OUT
  - [London](https://cucumber.io/events/bdd-kickstart-london-18) - Late June
  - [San Francisco](https://cucumber.io/events/bdd-kickstart-san-francisco-18) - August 14th-15th
