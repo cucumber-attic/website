@@ -6,7 +6,7 @@ hero:
   dates: June 4th-5th 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-chicago-2018
-    message: Book your ticket
+    message: Join the waiting list
 location:
   url: https://goo.gl/maps/q8Y7w1Pa3jE2
   name: 8th Light, Chicago Offices
@@ -16,6 +16,8 @@ image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2018-06-04 00:00:00
 dtend: 2018-06-05 00:00:00
 ---
+
+This course has now sold out. Join the [waiting list](https://ti.to/cucumber/bdd-kickstart-chicago-2018) in case a seat comes free. The next course in the US will be in [San Francisco in August.](https://cucumber.io/events/bdd-kickstart-san-francisco-18)
 
 We've been developing and teaching this training course for more than 5 years, incorporating our experiences as practitioners, coaches, and trainers. Attend our public training course to learn the fundamentals of Behaviour-Driven Development so you can deliver higher-quality software.
 
