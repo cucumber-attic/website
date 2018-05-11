@@ -17,9 +17,10 @@ Notable Changes
 
 ## Cucumber Expressions ##
 
-Cucumber expressions have been implemented! This required a fairly involved refactoring that necessitated the removal 
-of XStream and prompted a rewrite of Data Tables. It was also one of the reasons that has prompted us to drop support 
-for several the less used languages.
+Cucumber expressions have been implemented! Cucumber Expressions 
+[were introduced](https://cucumber.io/blog/2017/07/26/announcing-cucumber-expressions) nearly a year ago in Cucumber.rb 
+and Cucumber.js. Introducing them to cucumber-jvm required a fairly involved redesign that prompted a rewrite of 
+Data Tables. It was also one of the reasons that has motivated us to drop support for several the less used languages. 
 
 You can use Cucumber Expressions as [described on the new docs site](https://docs.cucumber.io/cucumber/cucumber-expressions/). 
 To add custom parameters you have to implement `cucumber.api.Configuration`.
@@ -59,7 +60,7 @@ This may look a bit tedious. But you can also use your favourite object mapper i
 
 
 ```java
-ObjectMapper objectMapper = new ObjectMapper();
+ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
 
 typeRegistry.defineDataTableType(new DataTableType(
     Grocery.class,
@@ -69,17 +70,21 @@ typeRegistry.defineDataTableType(new DataTableType(
 
 ## XStream ##
 
-XStream has been removed from Cucumber. This means that `@Delimiter`, `@Format`, `@Transformer`, `@XStreamConverter`, 
-`@XStreamConverters`and any other annotations from XStream will no longer work. These must be replaced by
-`DataTableType` or `ParameterType`.
+Cucumber 1.x and 2.x used a library called XStream as a central building block for both data tables and type conversion.
 
-Prior to Cucumber Expressions XStream was used internally to handle all conversions from Strings to Objects. However the
-usage of XStream in combination with Cucumber was poorly documented and it didn't allow for the use of other Object
-Mappers (e.g. Jackson) which made it impossible to reuse domain objects. As XStream is not compatible with Java 9 it
-also problem in term.
+However the usage of XStream in combination with Cucumber was poorly documented and it did not allow for the use of other 
+Object Mappers (e.g. Jackson) which made it impossible to reuse domain objects. As XStream is not compatible with Java 9
+it was also problem in long term.
 
-With the introduction of Cucumber Expressions half of the usecase for XStream disapeared. It wasn't realistic to use
+With the introduction of Cucumber Expressions half of the use case for XStream disappeared. It  was not realistic to use
 both systems next to each other so now was a good time to remove it entirely.
+
+As such XStream has been removed from Cucumber. This means that `@Delimiter`, `@Format`, `@Transformer`, 
+`@XStreamConverter`, `@XStreamConverters`and any other annotations from XStream will no longer work. These must be 
+replaced by `DataTableType` or `ParameterType`.
+
+We're not providing a migration guide in this blog post. If you have a specific question about how to migrate, please
+[contact us](https://cucumber.io/support) and we'll update the documentation accordingly.
 
 
 ## Before and After Step Hooks ## 
@@ -90,12 +95,12 @@ The hooks have 'invoke around' semantics. Meaning that if a before step hook is 
 be executed regardless of the result of the step. If a step did not pass, the following step and its hooks will be
 skipped.
 
-To support the invoke around semantics the TestStep event has been replaced with an interface. And it's concrete
+To support the invoke around semantics the TestStep event has been replaced with an interface. Its concrete
 implementation split into HookTestStep and PickleStepTestStep. All subclass specific methods in TestStep have been
 deprecated.
 
-When doing a dry run all hooks will be reported. In prior implementations the before and after scenario hooks were 
-unskippable and simply not included. These have been made skippable but will only be skipped on a dry run.
+During a dry run all hooks will be reported as skipped. In prior implementations the before and after scenario hooks
+were unskippable and were simply not included in a dry run.  
 
 
 Full change log
