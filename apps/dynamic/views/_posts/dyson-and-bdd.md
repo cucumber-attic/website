@@ -41,5 +41,5 @@ Now that the Award application is live we are in a position, with comprehensive 
 
  - [Perth, AU](https://cucumber.io/events/bdd-kickstart-perth-2018) - May 24th-25th
  - [Chicago](https://cucumber.io/events/bdd-kickstart-chicago-2018) - June 7th-8th - SOLD OUT
- - [London](https://cucumber.io/events/bdd-kickstart-london-18) - Late June
+ - [London](https://cucumber.io/events/bdd-kickstart-london-18) - Early August
  - [San Francisco](https://cucumber.io/events/bdd-kickstart-san-francisco-18) - August 14th-15th
