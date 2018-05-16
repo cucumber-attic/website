@@ -3,7 +3,7 @@ title: BDD Kickstart, London 2018
 summary: 
 hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
-  dates: June 2018
+  dates: August 2nd-3rd 2018
   cta:
     link: https://www.getdrip.com/forms/3429383/submissions/new
     message: Register your interest
@@ -13,13 +13,13 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-06-21 00:00:00
-dtend: 2018-06-22 00:00:00
+dtstart: 2018-08-02 00:00:00
+dtend: 2018-08-03 00:00:00
 ---
 
 ## BDD Kickstart - 2 day BDD training 
 
-We're finalising the details for this course. We're hoping to run this in late June 2018. [Register your interest](https://www.getdrip.com/forms/3429383/submissions/new) and we'll let you know once we've sorted things.
+We're finalising the details for this course. We're hoping to run this on August 2nd-3rd 2018. [Register your interest](https://www.getdrip.com/forms/3429383/submissions/new) and we'll let you know once we've sorted things.
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -72,13 +72,13 @@ This day is designed for developers and testers, non-technical people are welcom
 
 ## Trainers
 
-**Aslak Hellesøy**
+**Matt Wynne**
 
-<img src="{{ site.url }}/images/headshots/aslak.jpg" alt="Aslak Hellesøy" height="300" width="300">
+<img src="{{ site.url }}/images/headshots/matt.jpg" alt="Matt Wynne" height="300" width="300">
 
-Aslak is the creator of Cucumber. He co-wrote The Cucumber Book, Behaviour-Driven Development for Developers and Testers with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
+Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of The Cucumber Book, Behaviour-Driven Development for Developers and Testers and a co-founder of Cucumber Ltd.
 
-Aslak can be found on Twitter, [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
+Aslak can be found on Twitter, [@mattwynne](https://twitter.com/mattwynne)
 
 **Sal Freudenberg**
 
