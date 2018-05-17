@@ -101,7 +101,6 @@ brand_image: /images/cucumber-mark-grey.svg
           <img class="company-logo" src="/images/learn/logos/logo-canon.svg" alt="Canon" width="188" height="39" />
           <img class="company-logo" src="/images/learn/logos/logo-credit-suisse.svg" alt="Credit Suisse logo" width="176" height="39" />
           <img class="company-logo" src="/images/learn/logos/logo-sky.svg" alt="Sky logo" width="98" height="59" />
-          <img class="company-logo" src="/images/learn/logos/logo-vanguard.svg" alt="Vanguard logo" width="173" height="48" />
           <img class="company-logo" src="/images/learn/logos/logo-dyson.svg" alt="Dyson logo" width="150" height="56" />
           <img class="company-logo" src="/images/learn/logos/logo-typeform.svg" alt="Typeform logo" width="175" height="46" />
           <img class="company-logo" src="/images/learn/logos/logo-honeycomb.svg" alt="Honeycomb logo" width="106" height="70" />
