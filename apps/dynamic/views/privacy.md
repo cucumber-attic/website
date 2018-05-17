@@ -47,7 +47,7 @@ If you are a resident of the EEA, you have the following data protection rights:
 
  - In addition, you can object to the processing of your personal information, ask us to restrict the processing of your personal information, or request portability of your personal information. Again, you can exercise these rights by emailing privacy@cucumber.io
 
- - You have the right to opt-out of marketing communications we send you at any time. You can exercise this right by updating your subscription preferences in your account or you can click "unsubscribe" or "opt-out" link in the marketing emails we send you. To opt-out of other forms of marketing, please contact us by emailing privacy@cucumber.com.
+ - You have the right to opt-out of marketing communications we send you at any time. You can exercise this right by updating your subscription preferences in your account or you can click "unsubscribe" or "opt-out" link in the marketing emails we send you. To opt-out of other forms of marketing, please contact us by emailing privacy@cucumber.io.
 
  - Similarly, if we have collected and processed your personal information with your consent, then you can withdraw your consent at any time.  Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
@@ -56,7 +56,5 @@ If you are a resident of the EEA, you have the following data protection rights:
  - We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws.
 
  - If you unsubscribe, we may still contact you for informational, transactional, account-related, or similar purposes.
-Many browsers have an option for disabling cookies, which may prevent your browser from accepting new cookies or enable selective use of cookies. Please note that, if you choose not to accept cookies, some features and the personalization of our Services may no longer work for you. You will continue to receive advertising material but it will not be tailored to your interests.
-
 
 [![Creative Commons License](https://creativecommons.org/images/public/somerights20)](http://creativecommons.org/licenses/by-sa/3.0/) **Creative Commons Sharealike** license, parts taken from [WordPress.com](http://www.wordpress.com/) Privacy Policy.
