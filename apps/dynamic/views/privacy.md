@@ -28,14 +28,35 @@ Cucumber Limited may collect statistics about the behaviour of visitors to its w
 
 ## Protection of Certain Personally-Identifying Information
 
-Cucumber Limited discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors, and affiliated organisations that (i) need to know that information in order to process it on Cucumber Limited’s behalf or to provide services available at Cucumber Limited, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organisations may be located outside of your home country; by using Cucumber Limited, you consent to the transfer of such information to them. Cucumber Limited will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors, and affiliated organisations, as described above, Cucumber Limited discloses potentially personally-identifying and personally-identifying information only when required to do so by law, or when Cucumber Limited believes in good faith that disclosure is reasonably necessary to protect the property or rights of Cucumber Limited, third parties, or the public at large. If you are a registered user of a Cucumber Limited website and have supplied your email address, Cucumber Limited may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with Cucumber Limited and our products. We primarily use our blog to communicate this type of information, so we expect to keep this type of email to a minimum. If you send us a request (for example via a support email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Cucumber Limited takes all measures reasonably necessary to protect against the unauthorised access, use, alteration, or destruction of potentially personally-identifying and personally-identifying information.
+Cucumber Limited discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors, and affiliated organisations that (i) need to know that information in order to process it on Cucumber Limited’s behalf or to provide services available at Cucumber Limited, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organisations may be located outside of your home country; by using Cucumber Limited, you consent to the transfer of such information to them. Cucumber Limited will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors, and affiliated organisations, as described above, Cucumber Limited discloses potentially personally-identifying and personally-identifying information only when required to do so by law, or when Cucumber Limited believes in good faith that disclosure is reasonably necessary to protect the property or rights of Cucumber Limited, third parties, or the public at large. If you send us a request (for example via a support email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Cucumber Limited takes all measures reasonably necessary to protect against the unauthorised access, use, alteration, or destruction of potentially personally-identifying and personally-identifying information.
 
 ## Cookies
 
 A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Cucumber Limited uses cookies to help Cucumber Limited identify and track visitors, their usage of Cucumber Limited, and their website access preferences. Cucumber Limited visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using Cucumber Limited’s websites, with the drawback that certain features of Cucumber Limited’s websites may not function properly without the aid of cookies.
+You will continue to receive advertising material but it will not be tailored to your interests.
 
 ## Privacy Policy Changes
 
 Although most changes are likely to be minor, Cucumber Limited may change its Privacy Policy from time to time, and in Cucumber Limited’s sole discretion. Cucumber Limited encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
+
+## Your Data Protection Rights Under The General Data Protection Regulation (GDPR)
+
+If you are a resident of the EEA, you have the following data protection rights:
+
+ - If you wish to access, correct, update, or request deletion of your personal information, you can do so at any time by emailing privacy@cucumber.io
+
+ - In addition, you can object to the processing of your personal information, ask us to restrict the processing of your personal information, or request portability of your personal information. Again, you can exercise these rights by emailing privacy@cucumber.io
+
+ - You have the right to opt-out of marketing communications we send you at any time. You can exercise this right by updating your subscription preferences in your account or you can click "unsubscribe" or "opt-out" link in the marketing emails we send you. To opt-out of other forms of marketing, please contact us by emailing privacy@cucumber.com.
+
+ - Similarly, if we have collected and processed your personal information with your consent, then you can withdraw your consent at any time.  Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+
+ - If you have any concerns regarding our collection and use of your personal information you can contact your local data protection authority.
+
+ - We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws.
+
+ - If you unsubscribe, we may still contact you for informational, transactional, account-related, or similar purposes.
+Many browsers have an option for disabling cookies, which may prevent your browser from accepting new cookies or enable selective use of cookies. Please note that, if you choose not to accept cookies, some features and the personalization of our Services may no longer work for you. You will continue to receive advertising material but it will not be tailored to your interests.
+
 
 [![Creative Commons License](https://creativecommons.org/images/public/somerights20)](http://creativecommons.org/licenses/by-sa/3.0/) **Creative Commons Sharealike** license, parts taken from [WordPress.com](http://www.wordpress.com/) Privacy Policy.
