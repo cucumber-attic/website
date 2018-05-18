@@ -23,18 +23,18 @@ and Cucumber.js. Introducing them to cucumber-jvm required a fairly involved red
 Data Tables. It was also one of the reasons that has motivated us to drop support for several the less used languages. 
 
 You can use Cucumber Expressions as [described on the new docs site](https://docs.cucumber.io/cucumber/cucumber-expressions/). 
-To add custom parameters you have to implement `cucumber.api.Configuration`.
+To add custom parameters you have to place an implementation of `cucumber.api.TypeRegistryConfigurer` on the glue path.
 
 ## Data Tables ##
 
 Most importantly `DataTable` has moved from `cucumber.api.DataTable` to `io.cucumber.datatable.DataTable` and its API has
 changed significantly. You can use the custom data table types as 
 [described in the project README](https://github.com/cucumber/cucumber/tree/master/datatable).
-To add custom data table types you have to implement `cucumber.api.Configuration`.
+To add custom data table types you have to place an implementation of `cucumber.api.TypeRegistryConfigurer` on the glue path.
 
 
 ```java
-public class ParameterTypes implements Configuration {
+public class TypeRegistryConfiguration implements TypeRegistryConfigurer {
 
     @Override
     public Locale locale() {
@@ -50,13 +50,11 @@ public class ParameterTypes implements Configuration {
                 Price.fromString(row.get("price"))
             )
         ));
-
-     
     }
 }
 ```
 
-This may look a bit tedious. But you can also use your favourite object mapper instead.
+This may look a bit tedious. But you can also use your favourite object mapper library instead.
 
 
 ```java
