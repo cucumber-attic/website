@@ -1,8 +1,8 @@
 ---
 layout: post
-nav: blog
-date: "2018-05-04 09:00:00"
-title: "Announcing Cucumber-JVM v3.0.0"
+nav:    blog
+date:   2018-05-21 09:00:00
+title:  "Announcing Cucumber-JVM v3.0.0"
 author: mpkorstanje
 ---
 
@@ -20,7 +20,7 @@ Notable Changes
 Cucumber expressions have been implemented! Cucumber Expressions 
 [were introduced](https://cucumber.io/blog/2017/07/26/announcing-cucumber-expressions) nearly a year ago in Cucumber.rb 
 and Cucumber.js. Introducing them to cucumber-jvm required a fairly involved redesign that prompted a rewrite of 
-Data Tables. It was also one of the reasons that has motivated us to drop support for several the less used languages. 
+Data Tables. It was also one of the reasons that has motivated us to [drop support for several the less used languages](https://cucumber.io/blog/2018/05/21/cucumber-jvm-languages-support). 
 
 You can use Cucumber Expressions as [described on the new docs site](https://docs.cucumber.io/cucumber/cucumber-expressions/). 
 To add custom parameters you have to place an implementation of `cucumber.api.TypeRegistryConfigurer` on the glue path.
