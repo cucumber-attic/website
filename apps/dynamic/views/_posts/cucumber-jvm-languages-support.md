@@ -121,5 +121,5 @@ DI container; the other half uses Picocontainer, Spring or Guice.
 Footnotes:
  * <a name="1"></a>1 : With 2.0.0 the groupId has changed to io.cucumber but due to to its recent release these numbers 
    are not representative yet.
- * <a name="2"></a>2 : This is not a completely accurate representation of use. Many coroporate environments use a cache
+ * <a name="2"></a>2 : This is not a completely accurate representation of use. Many corporate environments use a cache
   to avoid overloading maven central. It is however the best we have.
