@@ -85,7 +85,7 @@ We're not providing a migration guide in this blog post. If you have a specific 
 [contact us](https://cucumber.io/support) and we'll update the documentation accordingly.
 
 
-## Before and After Step Hooks ## 
+## Before and After Step Hooks ##
 
 Adds hooks that are invoked before and after a step.
 

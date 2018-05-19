@@ -28,7 +28,7 @@ are no longer supported.
 While these implementations have been removed from the cucumber-jvm project, they are still available as part of the Cucumber project. 
 If you are interested in maintaining any of these implementations, please [contact us](https://cucumber.io/support) so we can set you up!
 
-## Cucumber Usage  ##
+## Cucumber Usage ##
 
 Cucumber-JVM comes in four parts: 
 
