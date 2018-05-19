@@ -50,7 +50,7 @@ cucumber-core was downloaded 202244 times in a single month.
 
 ### Backend ###
 
-
+```
 |Artifact               |  Downloads |   % of total  |
 |-----------------------|-----------:|--------------:|
 |cucumber-java          |   182103   |      92.31%   |
@@ -67,7 +67,7 @@ cucumber-core was downloaded 202244 times in a single month.
 |-----------------------|------------|---------------|
 |total                  |   197263   |     100.00%   |
 |cucumber-core          |   202244   |     102.53%   |
-
+```
 
 Looking at the numbers, there is a large gap between Java and the other JVM languages. There is also a large gap between
 the runners up (Groovy and Scala) and the rest of the pack. 
@@ -79,6 +79,7 @@ backend implementations (e.g. cukes in space).
 
 ### DI Container ###
 
+```
 |Artifact               | Downloads |  % of total   |  
 |-----------------------|----------:|--------------:|
 |cucumber-picocontainer |  63194    |  61.05%       |
@@ -91,6 +92,7 @@ backend implementations (e.g. cukes in space).
 |-----------------------|-----------|---------------|
 |total                  | 103506    |  100.00%      |
 |cucumber-core          | 202244    |  195.39%      |
+```
 
 Picocontainer, Spring and Guice are the most used DI containers. However, there is a huge discrepancy in downloads with
 core, which suggests that people either use a custom container or no DI container at all. 
@@ -98,6 +100,7 @@ We don't know why this is, although the lack of documentation might have somethi
 
 ### Runner ###
 
+```
 |Artifact               | Downloads  |  % of total   |  
 |-----------------------|-----------:|--------------:|
 |cucumber-junit         |   176769   |   83.00%      |
@@ -106,6 +109,7 @@ We don't know why this is, although the lack of documentation might have somethi
 |-----------------------|------------|---------------|
 |total                  |   212973   |   100.00%     |
 |cucumber-core          |   202244   |    94.96%     |
+```
 
 Most people use JUnit, some use TestNg. Curiously enough, some people might be using both together, as the total adds up
 to more than the usage of core.
