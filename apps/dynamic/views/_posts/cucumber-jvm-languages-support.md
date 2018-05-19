@@ -2,7 +2,7 @@
 layout: post
 author: mpkorstanje
 title:  "Cucumber-JVM is dropping support of JVM Languages"
-date:   2018-05-21 09:00:00
+date:   2018-05-19 09:00:00
 nav:    blog
 ---
 # Cucumber-JVM is dropping support of JVM Languages #
