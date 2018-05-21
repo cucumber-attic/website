@@ -5,8 +5,8 @@ hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
   dates: August 2nd-3rd 2018
   cta:
-    link: https://www.getdrip.com/forms/3429383/submissions/new
-    message: Register your interest
+    link: https://ti.to/cucumber/bdd-kickstart-london-18
+    message: View ticket options
 location:
   url: https://goo.gl/maps/DQdY5xd4jrK2 
   name: London
@@ -19,7 +19,6 @@ dtend: 2018-08-03 00:00:00
 
 ## BDD Kickstart - 2 day BDD training 
 
-We're finalising the details for this course. We're hoping to run this on August 2nd-3rd 2018. [Register your interest](https://www.getdrip.com/forms/3429383/submissions/new) and we'll let you know once we've sorted things.
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -91,6 +90,10 @@ Dr. Sallyann Freudenberg is an agile consultant and trainer who assists companie
 Through re-assessing her own traits and neurology, and considering the extra-ordinary people with whom she has worked over her 25+ years in tech, Sal is raising awareness of the benefits of having diversity in our organisations and is helping the industry to begin to understand how to support and nurture every kind of brain.
 
 Sal can be found on Twitter, [@SalFreudenberg](https://twitter.com/SalFreudenberg)
+
+## Venue
+
+TBC
 
 <!-- Drip -->
 <script type="text/javascript">
