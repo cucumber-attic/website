@@ -59,10 +59,10 @@ title: Contact preferences
     </p>
     <p>
         <input type="checkbox" name="fields[eu_consent]" id="drip-eu-consent" value="granted">
-        <label for="drip-eu-consent">I understand and agree to our [Privacy Policy](https://cucumber.io/privacy)</a></label>
+        <label for="drip-eu-consent">I understand and agree to our <a href="https://cucumber.io/privacy">Privacy Policy</a></label>
     </p>
     <p>
-        <input type="hidden" name="fields[eu_consent_message]" value="I understand and agree to our [Privacy Policy](https://cucumber.io/privacy)">
+        <input type="hidden" name="fields[eu_consent_message]" value="I understand and agree to our Privacy Policy (https://cucumber.io/privacy)">
     </p>
     <p>
     <div class="g-recaptcha" data-sitekey="6LfQp1kUAAAAACBmoyERumB2x0eoDAwmYxta-Wbz"></div>
