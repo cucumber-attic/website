@@ -6,7 +6,7 @@ hero:
   dates: May 24th-25th 2018
   cta:
     link: https://ti.to/public-bdd-kickstart/bdd-kickstart-may-2018
-    message: Buy your ticket
+    message: Join the waiting list
 location:
   url: 
   name: Perth
@@ -16,6 +16,8 @@ image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2018-05-24 00:00:00
 dtend: 2018-05-25 00:00:00
 ---
+
+This course has sold out. Join the [waiting list](https://ti.to/public-bdd-kickstart/bdd-kickstart-may-2018)
 
 # BDD Kickstart - 2 day BDD training
 
