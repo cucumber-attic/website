@@ -62,7 +62,7 @@ title: Contact preferences
         <label for="drip-eu-consent">I consent to receive marketing emails from Cucumber Ltd. Full <a href="https://cucumber.io/privacy">Privacy Policy</a></label>
     </p>
     <p>
-        <input type="hidden" name="fields[eu_consent_message]" value="I consent to receive marketing emails from Cucumber Ltd. Full Privacy Policy (https://cucumber.io/privacy)">
+        <input type="hidden" name="fields[eu_consent_message]" value="I understand and agree to our [Privacy Policy](https://cucumber.io/privacy)">
     </p>
     <p>
     <div class="g-recaptcha" data-sitekey="6LfQp1kUAAAAACBmoyERumB2x0eoDAwmYxta-Wbz"></div>
