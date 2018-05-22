@@ -4,7 +4,7 @@ nav: docs
 layout: one-column
 ---
 
-# Cucumber Limited Privacy Policy
+# Cucumber Limited - Privacy Policy
 
 Cucumber Limited websites (collectively “Cucumber Limited” in this document) refer to sites hosted on the cucumber.io, cucumber.pro and other related domains and subdomains thereof.
 
