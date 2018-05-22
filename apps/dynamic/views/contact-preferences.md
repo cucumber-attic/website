@@ -59,7 +59,7 @@ title: Contact preferences
     </p>
     <p>
         <input type="checkbox" name="fields[eu_consent]" id="drip-eu-consent" value="granted">
-        <label for="drip-eu-consent">I consent to receive marketing emails from Cucumber Ltd. Full <a href="https://cucumber.io/privacy">Privacy Policy</a></label>
+        <label for="drip-eu-consent">I understand and agree to our [Privacy Policy](https://cucumber.io/privacy)</a></label>
     </p>
     <p>
         <input type="hidden" name="fields[eu_consent_message]" value="I understand and agree to our [Privacy Policy](https://cucumber.io/privacy)">
