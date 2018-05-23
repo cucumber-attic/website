@@ -12,7 +12,7 @@ Example Mapping is a simple but powerful tool. It can frame the conversations th
 
 If you haven’t heard of Example Mapping before, Matt’s post [Introducing Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) is a great place to start. Alternatively, if you prefer video you can watch [Aslak’s Example Mapping webinar.](https://cucumber.io/blog/2018/02/27/example-mapping-webinar)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VwvrGfWmG_U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VwvrGfWmG_U" style="float:center; frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Both of those resources, and many others online and at conferences, are a great way to understand how Example Mapping works and why it’s useful.
@@ -37,4 +37,4 @@ But how do you get started with your first Example Mapping session for you team?
 
 Have fun, and please do let us know how it went!
 
-This blog post was originally posted on [Tooky's Medium blog.](https://medium.com/@tooky/your-first-example-mapping-session-a1800bf15cef). 
+This blog post was originally posted on [my Medium blog.](https://medium.com/@tooky/your-first-example-mapping-session-a1800bf15cef)
