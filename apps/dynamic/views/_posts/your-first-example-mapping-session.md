@@ -8,7 +8,7 @@ nav:      blog
 
 <img src="https://cucumber.io/images/blog/example-mapping-cukeup.jpg" style="float:center; width:100%">
 
-Example Mapping is a simple but powerful tool. It can frame the conversations that help your team to build a shared understanding about what you are trying to build. It was discovered and popularised by [Matt Wynne](https://twitter.com/mattwynne]
+Example Mapping is a simple but powerful tool. It can frame the conversations that help your team to build a shared understanding about what you are trying to build. It was discovered and popularised by [Matt Wynne](https://twitter.com/mattwynne)
 
 If you haven’t heard of Example Mapping before, Matt’s post [Introducing Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) is a great place to start. Alternatively, if you prefer video you can watch [Aslak’s Example Mapping webinar.](https://cucumber.io/blog/2018/02/27/example-mapping-webinar)
 
