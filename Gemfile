@@ -42,7 +42,7 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'nokogiri', '1.6.7.2'
+  gem 'nokogiri'
   gem 'cucumber'
   gem 'chronic'
   gem 'capybara'
