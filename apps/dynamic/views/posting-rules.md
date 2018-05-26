@@ -1,7 +1,6 @@
 ---
 title: Posting Rules
 nav: support
-renderer: Cucumber::Website::Reference
 ---
 
 # Posting Rules
