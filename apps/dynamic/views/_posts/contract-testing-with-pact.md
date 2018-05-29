@@ -15,7 +15,7 @@ This month on the Cucumber Podcast we speak to [Beth Skurrie](https://twitter.co
 
 Learn more about Pact - [Link](https://docs.pact.io/)
 
-Integration Tests are a Scam by JB Rainsberger - [Link](http://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam)
+Integrated Tests are a Scam by JB Rainsberger - [Link](http://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam)
 
 What is Pact good for? What is Pact not good for? - [Link](https://docs.pact.io/documentation/what_is_pact_good_for.html)
 
