@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: July 23rd-24th 2018
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-boston-2018
-    message: Join the waiting list
+    link: https://ti.to/cucumber/bdd-kickstart-exton1
+    message: Register
 location:
   url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
   name: SmartBear HQ, Boston
@@ -91,8 +91,7 @@ The training is facility is a 40-minute drive from Philadelphia International Ai
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.423526733442!2d-75.6783492488122!3d40.06596398471984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c68ad320cb0161%3A0x24731d24789ccc11!2s707+Eagleview+Blvd%2C+Exton%2C+PA+19341!5e0!3m2!1sen!2sus!4v1525521487954" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
-Contact info@springhouse.com if you have any questions.
-
+Have a question about the course? <a href="mailto:info@springhouse.com">Email Springhouse</a>.
 
 <!-- Drip -->
 <script type="text/javascript">
