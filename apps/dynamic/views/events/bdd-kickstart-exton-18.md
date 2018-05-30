@@ -66,8 +66,7 @@ This day is a solid introduction to test-driven development (TDD) with Cucumber.
 ## Trainer
 
 **Dr. Charles Suscheck**
-
-Add a picture here
+<img src="{{ site.url }}/images/headshots/chuck.png" alt="Chuck Suscheck" height="300" width="300">
 
 Dr.Suscheck specializes in agile software development methodologies, and project management.  He is one of the first Cucumber Approved Trainers in the US and one of only 6 people in the world certified to teach the entire scrum.org curriculum. He has over 25 years of professional experience in information technology, beginning his career as a software developer.  Dr. Suscheck holds a Doctorate, Masters, and Bachelors in Computer Science. He holds multiple certifications in agile and management.  An educator at heart, he has over 30 published articles, has taught over 1000 students software development and is a highly respected conference speaker. 
 
