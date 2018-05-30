@@ -15,7 +15,7 @@ nav: events
 image: /images/training/bdd-analysis-cover.jpg
 dtstart: 2018-07-23 00:00:00
 dtend: 2018-07-24 00:00:00
-
+---
 # BDD Kickstart - 2 day BDD Training 7/23 - 7/24 2018
 
 ####[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406)
