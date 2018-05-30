@@ -1,21 +1,22 @@
 ---
-title: BDD Kickstart, Exton USA 2018
+title: BDD Kickstart, Exton
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: July 23rd-24th 2018
+  dates: July 20th-21st 2018
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-boston-2018
-    message: Register
+    link: https://ti.to/cucumber/bdd-kickstart-exton1
+    message: Join the waiting list
 location:
   url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
   name: SmartBear HQ, Boston
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-07-23 00:00:00
-dtend: 2018-07-24 00:00:00
+dtstart: 2018-07-20 00:00:00
+dtend: 2018-07-22 00:00:00
 ---
+
 # BDD Kickstart - 2 day BDD  Training 7/23 - 7/24 2018
 
 ####[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406)
