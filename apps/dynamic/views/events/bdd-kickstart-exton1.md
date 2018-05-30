@@ -6,7 +6,6 @@ hero:
   cta:
     link: http://www.springhouse.com/course-catalog/secsbdd001
     message: Register Here
-    
 location:
 url: http://www.springhouse.com/   
 name: Springhouse Education and Consulting Services
