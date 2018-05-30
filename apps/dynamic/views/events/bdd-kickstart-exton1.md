@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: July 23rd-24th 2018
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-exton1
+    link: https://ti.to/cucumber/bdd-kickstart-boston-2018
     message: Register
 location:
   url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
