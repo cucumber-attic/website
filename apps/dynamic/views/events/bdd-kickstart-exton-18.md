@@ -8,8 +8,8 @@ hero:
     link: http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406
     message: Register Here
 location:
-  url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.423526733442!2d-75.6783492488122!3d40.06596398471984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c68ad320cb0161%3A0x24731d24789ccc11!2s707+Eagleview+Blvd%2C+Exton%2C+PA+19341!5e0!3m2!1sen!2sus!4v1525521487954
-  name: Springhouse Education and Consulting Services in Exton (Philadelphia) PA
+  url: http://www.springhouse.com
+  name: Exton (Greater Philadelphia Area) PA
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -66,6 +66,7 @@ This day is a solid introduction to test-driven development (TDD) with Cucumber.
 ## Trainer
 
 **Dr. Charles Suscheck**
+
 <img src="{{ site.url }}/images/headshots/chuck.png" alt="Chuck Suscheck" height="300" width="300">
 
 Dr.Suscheck specializes in agile software development methodologies, and project management.  He is one of the first Cucumber Approved Trainers in the US and one of only 6 people in the world certified to teach the entire scrum.org curriculum. He has over 25 years of professional experience in information technology, beginning his career as a software developer.  Dr. Suscheck holds a Doctorate, Masters, and Bachelors in Computer Science. He holds multiple certifications in agile and management.  An educator at heart, he has over 30 published articles, has taught over 1000 students software development and is a highly respected conference speaker. 
@@ -76,7 +77,8 @@ More about Chuck can be found on Linkedin at [www.suscheck.com](http://www.susch
 
 This course is available at [Springhouse Education and Consulting Services](http://www.springhouse.com/). 
 
-Both days will be held in their Exton, PA offices at   Eagleview Corporate Park  
+Both days will be held in their Exton, PA (Philadelphia area) offices at   
+Eagleview Corporate Park  
 707 Eagleview Boulevard
 Suite 207  
 Exton, PA 1934  
