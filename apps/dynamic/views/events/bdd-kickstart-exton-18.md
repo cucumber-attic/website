@@ -17,7 +17,7 @@ dtstart: 2018-07-23 00:00:00
 dtend: 2018-07-24 00:00:00
 ---
 
-####[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406)
+[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406).
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -67,16 +67,15 @@ This day is a solid introduction to test-driven development (TDD) with Cucumber.
 
 **Dr. Charles Suscheck**
 
-<img src="{{ site.url }}/images/headshots/chuck.png" alt="Chuck Suscheck" height="200" width="200">
-
+Add a picture here
 
 Dr.Suscheck specializes in agile software development methodologies, and project management.  He is one of the first Cucumber Approved Trainers in the US and one of only 6 people in the world certified to teach the entire scrum.org curriculum. He has over 25 years of professional experience in information technology, beginning his career as a software developer.  Dr. Suscheck holds a Doctorate, Masters, and Bachelors in Computer Science. He holds multiple certifications in agile and management.  An educator at heart, he has over 30 published articles, has taught over 1000 students software development and is a highly respected conference speaker. 
 
-More about Chuck can be found on Linkedin at [www.suscheck.com](https://www.suscheck.com)
+More about Chuck can be found on Linkedin at [www.suscheck.com](http://www.suscheck.com)
 
 ## Training Partner and Location
 
-This course is available at [Springhouse Education and Consulting Services](https://www.springhouse.com/). 
+This course is available at [Springhouse Education and Consulting Services](http://www.springhouse.com/). 
 
 Both days will be held in their Exton, PA offices at   Eagleview Corporate Park  
 707 Eagleview Boulevard
@@ -84,7 +83,7 @@ Suite 207
 Exton, PA 1934  
 Phone: 610-321-3500
 
-####[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406)
+[Register Here](http://www.springhouse.com/registration?EventId=f7c7449a-aa44-e811-87a2-00155d0a1406)
 
 The training is facility is a 40-minute drive from Philadelphia International Airport and downtown Philadelphia. 
 
