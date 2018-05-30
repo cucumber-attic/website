@@ -3,7 +3,7 @@ title: BDD Kickstart, Boston2 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: March 20th-21st 2018
+  dates: Sept 20th-21st 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-boston2-2018
     message: Join the waiting list
@@ -13,13 +13,11 @@ location:
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-03-20 00:00:00
-dtend: 2018-03-22 00:00:00
+dtstart: 2018-09-20 00:00:00
+dtend: 2018-09-22 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
-
-This course has now sold-out. You can sign up to join our [waiting list](https://ti.to/cucumber/bdd-kickstart-boston-2018) or check out our [next course in San Francisco.](https://cucumber.io/events/bdd-kickstart-san-francisco-18) 
 
 By the end of our BDD Kickstart training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
