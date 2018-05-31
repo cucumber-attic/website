@@ -50,11 +50,10 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 
 ### Delegates will benefit from
 
-* Increased confidence, due to extensive praccal
-exercises
-* Deeper understanding, through guided discussions
-* Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
-* Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
+- Increased confidence, due to extensive practical exercises
+- Deeper understanding, through guided discussions
+- Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
+- Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
 
 
 ## BDD with Cucumber (Further online training)
