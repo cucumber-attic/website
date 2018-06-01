@@ -18,12 +18,12 @@ dtend: 2018-11-01 00:00:00
 ---
 
 # BDD Fundamentals - 2 day BDD training
- 
+<!-- 
 
 By the end of our BDD Fundamentals training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
-<!--
+
 Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*. 
 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
@@ -49,6 +49,7 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 * Using Example Mapping and Discovery Workshops to achieve shared understanding
 * Roles and responsibilities on a BDD team
 -->
+
 ### Delegates will benefit from
 
 * Increased confidence, due to extensive practical exercises
