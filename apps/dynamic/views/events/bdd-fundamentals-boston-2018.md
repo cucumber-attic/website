@@ -33,9 +33,9 @@ Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn m
 
 ## BDD Fundamentals - Day 1 and 2
 
-We involve the whole team (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
+This training is suitable for the whole team (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
 
-In this module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these day; the focus is on analysis and collaboration techniques. 
+In this two-day module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these days; the focus is on analysis and collaboration techniques. 
 
 We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
 
@@ -60,7 +60,7 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 
 ## BDD with Cucumber (Further online training)
 
-Each attendee of our BDD Fundamentals class will also receive access to our online training module, BDD with Cucumber, including a detailed workbook with exercises you can practice at your own pace. 
+Each attendee of our BDD Fundamentals class will also receive access to our online training module, BDD with Cucumber, including a detailed workbook with exercises you can practice at your own pace after the course has finished. 
 
 This module is a solid introduction to Behaviour-Driven Development (BDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
 
@@ -83,13 +83,14 @@ This online training is designed for developers and testers, non-technical peopl
 
 <img src="{{ site.url }}/images/headshots/seb-square.png" alt="Seb Rose" height="200" width="200">
 
-
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
 ## Training Location + Times
+
 <img src="{{ site.url }}/images/SmartBear.png" alt="SmartBear" height="52" width="400">
+
 Both days will be held in the [SmartBear](https://smartbear.com/) offices on 450 Artisan Way, Somerville, MA 02145. 
 
 The training facility is a 15-minute drive from Logan Airport or downtown Boston and is easily accessible on public transport. 
