@@ -30,8 +30,6 @@ Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn m
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
 
--->
-
 ## BDD Fundamentals - Day 1 and 2
 
 We involve the whole team (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
@@ -100,6 +98,7 @@ Supporting more than six million software professionals and over 22,000 companie
 
 Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
 
+-->
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.514041092434!2d-71.08108398466419!3d42.395497779184524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316a31ac335f7%3A0xa5fa6e1929085ea2!2sSmartBear+Software!5e0!3m2!1sen!2sde!4v1513160205710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
  
