@@ -18,6 +18,7 @@ dtend: 2018-11-01 00:00:00
 ---
 
 # BDD Fundamentals - 2 day BDD training
+<!-- 
 
 By the end of our BDD Fundamentals training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
@@ -78,14 +79,13 @@ This online training is designed for developers and testers, non-technical peopl
 ## Trainer
 
 **Seb Rose**
-<!-- 
 <img src="{{ site.url }}/images/headshots/seb-square.png" alt="Seb Rose" height="200" width="200">
 
 
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
--->
+
 
 ## Training Location + Times
 <img src="{{ site.url }}/images/SmartBear.png" alt="SmartBear" height="52" width="400">
@@ -104,7 +104,7 @@ Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at th
  
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
-
+-->
 <!-- Drip -->
 <script type="text/javascript">
   var _dcq = _dcq || [];
