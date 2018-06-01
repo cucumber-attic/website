@@ -63,6 +63,7 @@ Each attendee of our BDD Fundamentals class will also receive access to our onli
 This module is a solid introduction to Behaviour-Driven Development (BDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
 
 This online training is designed for developers and testers, non-technical people are welcome, but they may find things start to get beyond their comfort zone.
+-->
 
 ### Learning outcomes
 * Installing Cucumber and setting up your development environment
@@ -84,7 +85,7 @@ This online training is designed for developers and testers, non-technical peopl
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
--->
+<!--    -->
 
 ## Training Location + Times
 <img src="{{ site.url }}/images/SmartBear.png" alt="SmartBear" height="52" width="400">
