@@ -38,6 +38,7 @@ We involve the whole team (BAs, product owners, domain experts, UX designers, de
 In this module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these day; the focus is on analysis and collaboration techniques. 
 
 We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
+-->
 
 ### Learning outcomes
 
@@ -55,7 +56,7 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 - Deeper understanding, through guided discussions
 - Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
 - Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
--->
+<!--    -->
 
 ## BDD with Cucumber (Further online training)
 
@@ -64,7 +65,6 @@ Each attendee of our BDD Fundamentals class will also receive access to our onli
 This module is a solid introduction to Behaviour-Driven Development (BDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
 
 This online training is designed for developers and testers, non-technical people are welcome, but they may find things start to get beyond their comfort zone.
-<!--    -->
 
 ### Learning outcomes
 * Installing Cucumber and setting up your development environment
