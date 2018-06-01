@@ -37,6 +37,7 @@ We involve the whole team (BAs, product owners, domain experts, UX designers, de
 In this module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these day; the focus is on analysis and collaboration techniques. 
 
 We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
+-->
 
 ### Learning outcomes
 
@@ -54,7 +55,6 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 - Deeper understanding, through guided discussions
 - Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
 - Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
--->
 
 ## BDD with Cucumber (Further online training)
 
