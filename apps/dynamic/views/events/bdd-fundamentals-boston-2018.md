@@ -17,9 +17,9 @@ dtstart: 2018-10-31 00:00:00
 dtend: 2018-11-01 00:00:00
 ---
 
-<!--    -->
 
 # BDD Fundamentals - 2 day BDD training
+<!-- 
 
 By the end of our BDD Fundamentals training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
 
@@ -30,7 +30,7 @@ Both days are led by **Seb Rose**, an accomplished trainer, coaching and author 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
-<!-- 
+-->
 
 ## BDD Fundamentals - Day 1 and 2
 
@@ -39,7 +39,6 @@ We involve the whole team (BAs, product owners, domain experts, UX designers, de
 In this module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these day; the focus is on analysis and collaboration techniques. 
 
 We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
--->
 
 ### Learning outcomes
 
