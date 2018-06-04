@@ -5,7 +5,6 @@ title:  Where should you use Behaviour-Driven Development?
 date:   2016-07-20 00:00:00
 nav: blog
 ---
-*November 15th-16th 2017, Stockholm: Join Thomas Sundberg for our flagship two-day [BDD Kickstart training](https://cucumber.io/events/bdd-kickstart-stockholm-17). This course has been taught to hundreds of teams who have implemented BDD and Cucumber successfully.*
 
 When I was at the <a href="http://europeantestingconference.eu/">European Testing Conference</a> 2016 in Bucharest, 
 a colleague asked for my thoughts on how they should use Behaviour-Driven Development (BDD). I had to run off and didn't get a chance to elaborate on my view, so I decided that I should write it down instead. 
@@ -148,3 +147,18 @@ Learn how to produce beautiful living documentation and automated tests with Cuc
     <li><a href="http://www.thinkcode.se/blog/category/Cucumber">Cucumber</a> - My other posts about Cucumber</li>
     <li><a href="http://www.thinkcode.se/blog/about">Thomas Sundberg</a> - The author</li>
 </ul>
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '7849462';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/7849462.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
