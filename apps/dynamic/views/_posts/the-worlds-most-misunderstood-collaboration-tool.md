@@ -92,3 +92,18 @@ This is part of the reason why I co-founded Cucumber Ltd and our flagship produc
 We also offer [training](https://cucumber.io/training) for teams who want to learn how to apply BDD and Specification by Example.
 
 I am very excited about the future of Cucumber. I hope more teams will start to use it the way it was intended to be used.
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '7849462';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/7849462.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
