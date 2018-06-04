@@ -38,3 +38,18 @@ But how do you get started with your first Example Mapping session for you team?
 Have fun, and please do let us know how it went!
 
 This blog post was originally posted on [my Medium blog.](https://medium.com/@tooky/your-first-example-mapping-session-a1800bf15cef)
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '7849462';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/7849462.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
