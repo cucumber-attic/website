@@ -38,7 +38,7 @@ In this two-day module we give an in-depth introduction to BDD, which is the pro
 We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
 
 
-### Learning outcomes
+### BDD Fundamentals Learning outcomes
 
 * The fundamental principles and practices of BDD
 * The importance of Rules and Examples
@@ -63,7 +63,7 @@ This module is a solid introduction to Behaviour-Driven Development (BDD) with C
 
 This online training is designed for developers and testers, non-technical people are welcome, but they may find things start to get beyond their comfort zone.
 
-### Learning outcomes
+### BDD with Cucumber Learning outcomes
 * Installing Cucumber and setting up your development environment
 * The TDD / BDD cycle
 * Writing your first scenario
