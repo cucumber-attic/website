@@ -6,7 +6,11 @@ date:     2018-06-01 01:00:00
 nav:      blog
 ---
 
+![The Mob in Wavre]({{ site.url }}/images/blog/mobbing-team.png)
+
+
 *This experience report was written by Sal Freudenberg and Matt Wynne, first published on the [Agile Alliance](https://www.agilealliance.org/resources/experience-reports/the-surprisingly-inclusive-benefits-of-mob-programming/) site after XP 2018 in Porto.*
+
 
 Mob-programming is a young practice, only starting to be embraced by agile teams. Remote mob programming even more so; it is rarely practiced and so far only poorly understood. This experience report describes the way the Cucumber team, who are fully remote, practice mob programming and the surprising benefits we have discovered.
 
@@ -62,6 +66,9 @@ Here’s a story Sal tells that shows how that first mobbing session felt:
 Mobbing first in person may well have made the transition to remote mobbing more seamless. Sal has long advocated that remote teams first work colocated if they can, to iron out any tricky issues which may be harder to address remotely. Through mobbing in person, we provided time to get accustomed not only to each other, but to some of the tools the team commonly use when mobbing. We agreed on using WebStorm as an IDE and used that during the sessions; we used a timer to ensure that each member of the mob was only in the driver’s seat for ten minutes at a time; we used the same general process and tools as we would when mobbing.
 
 ### 4.     Mobbing Remotely
+
+![Remote Mobbing]({{ site.url }}/images/blog/remote-mobbing.png)
+
 The team currently uses Zoom to host the remote mobbing sessions. The driver shares their screen. A Slack channel is also used as a back-channel for sharing information, code, links, etc.
 
 The ten-minute timer not only ensures everyone takes a turn driving, and stops that session of driving from being too daunting, it also keeps us honest about baby steps. The need to commit and push code at the end of ten-minutes so that the next driver can pull it down to work on forces us to work in small, bite-sized chunks in a very disciplined way. Of course, sometimes we cheat (if we are just about to finish off something when the timer goes and need a few more minutes to get it into a committable state), but mostly we do not.
