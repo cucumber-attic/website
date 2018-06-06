@@ -23,10 +23,6 @@ Find the transcript of this conversation below
 
 [Cucumber on Twitter](https://twitter.com/cucumberbdd)
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/454595694&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-### Shownotes
-
-
 You can also listen and download the podcast on [iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635), [Stitcher](http://www.stitcher.com/s?fid=81999&refid=stpr) or wherever you get your podcasts. 
 
 Join us in our [Slack channel](https://cucumber.io/support#slack) or on [Twitter](https://twitter.com/cucumberbdd)
