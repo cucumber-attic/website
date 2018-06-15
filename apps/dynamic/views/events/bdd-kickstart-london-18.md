@@ -94,7 +94,7 @@ Sal can be found on Twitter, [@SalFreudenberg](https://twitter.com/SalFreudenber
 
 ## Venue
 
-TBC
+We're finalising the details for the venue for this course. Our expectation is we will host in central or central/east London with easy access to the transport network. 
 
 <!-- Drip -->
 <script type="text/javascript">
