@@ -6,7 +6,7 @@ hero:
   dates: August 2nd-3rd 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-london-18
-    message: View ticket options
+    message: Book your early-bird ticket
 location:
   url: https://goo.gl/maps/DQdY5xd4jrK2 
   name: London
@@ -19,6 +19,7 @@ dtend: 2018-08-03 00:00:00
 
 ## BDD Kickstart - 2 day BDD training 
 
+*Early-bird tickets run until Friday, June 22nd!*
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
