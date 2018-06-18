@@ -13,7 +13,7 @@ brand_image: /images/cucumber-mark-grey.svg
               <h2 class="heading-intro">
                 Get Training from our Behaviour Driven Development Experts
               </h2>
-              <a class="btn btn--rounded btn--learn-primary" href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire now</a><a class="btn btn--rounded btn--learn-primary" href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Learn More</a>
+              <a class="btn btn--rounded btn--learn-primary" href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire now</a><a class="btn btn--rounded btn--learn-primary" href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Download White Paper</a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ brand_image: /images/cucumber-mark-grey.svg
       <div class="row">
         <div class="max-970">
           <a class="btn btn--rounded btn--learn-secondary"  href="https://cucumber.typeform.com/to/gUEP2E?" onclick="ga('send', 'event', 'Enquiries', 'Contact', 'Private Training');">Enquire Now</a>
-          <a class="btn btn--rounded btn--learn-secondary"  href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Learn More</a>
+          <a class="btn btn--rounded btn--learn-secondary"  href="https://www.getdrip.com/forms/58258421/submissions/new" onclick="ga('send', 'event', 'White Paper', 'Download', 'Private Training');">Download White Paper</a>
         </div>
       </div>
     </div>
