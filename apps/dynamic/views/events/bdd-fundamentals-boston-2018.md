@@ -23,7 +23,7 @@ By the end of our BDD Fundamentals training you will have a strong understanding
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
 
-Both days are led by **Seb Rose**, an accomplished trainer, coaching and author of *[The Cucumber Book for Java](https://pragprog.com/book/srjcuc/the-cucumber-for-java-book)* and *[Discovery](https://leanpub.com/bddbooks-discovery)*. 
+Both days are led by **Matt Wynne**, an accomplished trainer, coach and co-author of *[The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)* and co-founder of Cucumber Ltd. 
 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
@@ -76,13 +76,13 @@ This online training is designed for developers and testers, non-technical peopl
 
 ## Trainer
 
-**Seb Rose**
+**Matt Wynne**
 
-<img src="{{ site.url }}/images/headshots/seb-square.png" alt="Seb Rose" height="200" width="200">
+<img src="{{ site.url }}/images/headshots/matt.jpg" alt="Matt Wynne" height="200" width="200">
 
-Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
+Matt is one of the world's leading BDD practitioners. A programmer, coach, trainer and popular international speaker, he was invited to join the Cucumber core team in 2009. Together with Aslak Hellesøy, he's co-author of [The Cucumber Book, Behaviour-Driven Development for Developers and Testers](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition) and a co-founder of Cucumber Ltd.
 
-Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
+Matt can be found on Twitter, [@mattwynne](https://twitter.com/mattwynne)
 
 ## Training Location + Times
 
