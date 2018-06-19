@@ -1,6 +1,6 @@
 ---
 layout:   post
-author:   sal
+author:   matt
 title:    "The Surprisingly Inclusive Benefits of Mob Programming"
 date:     2018-06-01 01:00:00
 nav:      blog
