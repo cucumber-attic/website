@@ -63,6 +63,11 @@ authors:
     display_name: M.P. Korstanje
     email: rien.korstanje@gmail.com
     gravatar: bc7a840257b5609850cabee995c052c3
+  sal:
+    display_name: Sal Freudenberg
+    email: sal@cucumber.io
+    gravatar: 1d2149409cfca90886c0dc1765740177
+   
 
 versions:
   cucumber_jvm: 2.3.1
