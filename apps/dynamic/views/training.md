@@ -352,28 +352,28 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-perth-18">BDD Kickstart, Perth SOLD-OUT</a></h4>
-              <time class="blank-card__time">May 24th-25th</time>
-              <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-chicago-2018">BDD Kickstart, Chicago SOLD OUT</a></h4>
-              <time class="blank-card__time">June 4th-5th 2018</time>
-              <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blank-card">
               <h4><a href="https://cucumber.io/events/bdd-kickstart-san-francisco-18">BDD Kickstart, San Francisco</a></h4>
               <time class="blank-card__time">August 14th-15th 2018</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blank-card">
+              <h4><a href="https://cucumber.io/events/bdd-fundamentals-boston-2018">BDD Fundamentals, Boston</a></h4>
+              <time class="blank-card__time">October 31st-November 1st 2018</time>
+              <p>
+                Two-day BDD training for developers, testers, BAs and product owners with a focus on the discovery stage.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blank-card">
+              <h4><a href="https://cucumber.io/events/train-the-trainer-sf">Approved Trainer Program San Francisco</a></h4>
+              <time class="blank-card__time">August 14th-16th 2018</time>
+              <p>
+                As demand grows for our BDD training and coaching in the US, we're looking for skilled coaches to join our ranks.
               </p>
             </div>  
             
