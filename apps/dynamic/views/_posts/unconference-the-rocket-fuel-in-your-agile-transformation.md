@@ -2,23 +2,23 @@
 layout: post
 nav: blog
 date: "2017-05-26 09:00:00"
-title: "Unconference: Rocket Fuel for your Agile transformation"
+title: "Open Space: Rocket Fuel for your Agile transformation"
 author: matt
 ---
 
-I absolutely love unconferences.
+I absolutely love open space.
 
 Over the last couple of years, we've been privileged to be trusted by some of
-our best [consulting clients](/training) to run unconferences in their
+our best [transformative coaching clients](/training) to run open space events in their
 organisations. I'm now convinced that these events are crucial in powering the
-cultural shift to agile software development.
+cultural shift towards true agility in software development.
 
-An unconference can also be referred to as an open-space.
+In this post I want give you a sense of what an open space is like and share some 
+practical advice about how to run your own open space event.
 
-In this post I want give you a sense of what an unconference is like and share some 
-practical advice about how to run your own unconference.
+Open space is sometimes also referred to as an unconference.
 
-What is an unconference?
+What is an Open Space?
 ====================
 
 Have you ever been to a conference, and discovered that your most enduring
@@ -26,26 +26,26 @@ memory was not in one of the timetabled sessions, but in the hallway *in
 between* the sessions? You found yourself in a small group, all passionately
 interested in the topic of your conversation; great insights were shared.
 
-Unconference is a meeting structure designed to deliberately harness this energy.
+Open space is a meeting structure designed to deliberately harness this energy.
 Using a few simple rules, a large group of people self-organises a dynamic,
 evolving schedule that allows every individual to contribute and learn by
 following their own enthusiasms and interests.
 
 To give you a flavour, here’s a video produced by our friends at 
 [Liberty IT](https://www.liberty-it.co.uk/) in Belfast, where we recently 
-ran a two-day unconference for about 120 people:
+ran a two-day open space for about 120 people:
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/337ibHDA7gU" frameborder="0"
 allowfullscreen></iframe>
 
-The unconference format works at almost any scale, from a dozen people meeting for a half-day 
+The open space format works at almost any scale, from a dozen people meeting for a half-day 
 through to an entire division of hundreds of people organising a multi-day off-site.
 
-The rules of unconference
+The rules of open space
 ==========
 
-The self-organisation of unconference needs some boundaries to work. These are
+The self-organisation of open space needs some boundaries to work. These are
 often described as _five principles, and one law_. The five principles are:
 
 -   **Whoever comes are the right people**. Whether you have 80 people at your
@@ -81,13 +81,13 @@ As a facilitator, you need to emphasise this element of personal responsibility.
 If each individual does their best to maximise their own learning and
 contribution, the overall event is bound to be a success.
 
-How to facilitate an unconference
+How to facilitate an open space
 ======================
 
-Facilitating an unconference can be a wonderful experience, but it does require
+Facilitating an open space can be a wonderful experience, but it does require
 some careful preparation.
 
-Although stating the rules is an important part of making an unconference
+Although stating the rules and law is an important part of making an open space
 work, there are a few other fundamental tips for a facilitator to be aware of to
 make the event a success.
 
@@ -111,7 +111,7 @@ Use a theme
 ------------
 
 Having an ambitious or provocative framing question such as _"How can we make
-continuous delivery a reality in our organisation by 2018?"_ helps people
+continuous delivery a reality in our organisation by next January?"_ helps people
 beforehand when thinking about proposing sessions, and also helps to keep the
 session topics somewhat coherent.
 
@@ -126,7 +126,7 @@ pre-work.
 Create a sense of safety
 -------------------------
 
-The magic that makes an unconference work is when people there feel
+The magic that makes an open space work is when people there feel
 psychologically safe to speak their minds and follow their hearts about where
 they can offer the most meaningful contribution.
 
@@ -167,7 +167,7 @@ one expectation or hope for the event, or some other topic-related question.
 Agenda Building
 ---------------
 
-At an unconference, the agenda is built by the participants themselves. This is
+At an open space, the agenda is built by the participants themselves. This is
 obviously a crucial part of the event. Make sure you have plenty of paper and
 pens, and ask everyone who wants to lead a session to write up a card or
 post-it with at least the:
@@ -183,7 +183,7 @@ place.
 Work with the space
 --------------------
 
-Another magic ingredient in unconferences is the spaces themselves. The diverse
+Another magic ingredient in open space is the spaces themselves. The diverse
 character of the individual spaces can attract and encourage different kinds of
 interaction, so make the most of the different strengths and weaknesses of each
 one. Some will have a screen and be great for presentations or coding
@@ -215,10 +215,10 @@ conversation](https://www.amazon.co.uk/Art-Focused-Conversation-Access-Workplace
 method to guide the closing circle towards actions. I like to ask every
 individual to write down one action on a card, and take it away with them.
 
-Attend another unconference
+Attend another open space
 -------------------------
 
-Unconference is much easier to understand through experience than by reading
+Open space is much easier to understand through experience than by reading
 these words. The agile community organise lots of these events, such as
 [CITCON](http://citconf.com/), [Agile Coach
 Camp](http://agilecoachcamp.org/tiki-index.php) and our very own
