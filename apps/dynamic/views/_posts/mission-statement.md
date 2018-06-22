@@ -2,7 +2,7 @@
 layout: post
 author: sal
 title:  "How we created our Company Mission Statement"
-date:   2018-06-22 10:16
+date:   2018-06-22 00:16
 nav: blog
 ---
 
