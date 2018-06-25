@@ -132,7 +132,7 @@ brand_image: /images/cucumber-mark-grey.svg
             <div class="product-content">
               <h3>BDD Fundamentals</h3>
               <p>
-                No computers, this one-day training teaches the whole team the collaborative practices used in BDD.
+                No computers, this two-day training teaches the whole team the collaborative practices used in BDD.
               </p>
               <ul class="learn-bullets">
                 <li>Break down big user stories using examples</li>
