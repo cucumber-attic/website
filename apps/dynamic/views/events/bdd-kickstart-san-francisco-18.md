@@ -8,8 +8,8 @@ hero:
     link: https://ti.to/cucumber/bdd-kickstart-san-francisco-2018
     message: View ticket options
 location:
-  url: 
-  name: San Francisco
+  url: https://goo.gl/maps/XXTTfSwvHwL2
+  name: Bleacher Report, San Francisco
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -77,6 +77,16 @@ This day is designed for developers and testers, non-technical people are welcom
 Seb is a software developer, trainer and coach. He specialises in working with teams adopting and refining their agile practices, with a particular focus on delivering software through the use of examples using BDD and TDD. Seb is the co-author of The Cucumber for Java Book together with Matt and Aslak. He has worked with many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Aegon. Seb is a partner of Cucumber Ltd.
 
 Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
+
+## Training Location + Times
+
+Both days will be held in the [Bleacher Report](https://bleacherreport.com) offices on 153 Kearny St, San Francisco, CA 94108. 
+
+The training facility is a 30-minute ride from San Francisco International Airport located in downtown San Francisco. 
+
+Each day will start at 9 AM and finish at 4.30 PM. 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.022576364662!2d-122.40617174933631!3d37.78951067965742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858062ca8299c7%3A0x5b7d490b13aa2c25!2sBleacher+Report!5e0!3m2!1sen!2sde!4v1529940448465" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
