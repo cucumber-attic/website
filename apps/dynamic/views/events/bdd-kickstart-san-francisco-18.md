@@ -80,11 +80,16 @@ Seb can be found on Twitter, [@sebrose](https://twitter.com/sebrose)
 
 ## Training Location + Times
 
+<img src="{{ site.url }}/images/br-logo.png" alt="Bleacher Report" height="188" width="300">
+
+
 Both days will be held in the [Bleacher Report](https://bleacherreport.com) offices on 153 Kearny St, San Francisco, CA 94108. 
 
 The training facility is a 30-minute ride from San Francisco International Airport located in downtown San Francisco. 
 
 Each day will start at 9 AM and finish at 4.30 PM. 
+
+Bleacher Report is the premier digital destination for millennial sports fans creating and collaborating on the culture of sports for the next generation of fans. Its vision for making sports bigger than games has led to unmatched engagement on social media, where it consistently ranks as a top publisher on each platform. Bleacher Report also provides an industry-leading fan experience on mobile devices through Bleacher Report, the top-rated smartphone and tablet app. Find Bleacher Report at www.bleacherreport.com and on Instagram @BleacherReport. Bleacher Report is a division of Turner Sports.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.022576364662!2d-122.40617174933631!3d37.78951067965742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858062ca8299c7%3A0x5b7d490b13aa2c25!2sBleacher+Report!5e0!3m2!1sen!2sde!4v1529940448465" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
