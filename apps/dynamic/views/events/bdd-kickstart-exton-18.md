@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: September 6-7 2018
   cta:
-    link: http://www.springhouse.com/registration?EventId=fc29eeba-aa44-e811-87a2-00155d0a1406
+    link: http://www.springhouse.com/course-catalog/SECSBDD001
     message: Register Here
 location:
   url: http://www.springhouse.com
@@ -17,7 +17,7 @@ dtstart: 2018-09-06 00:00:00
 dtend: 2018-09-07 00:00:00
 ---
 
-[Register Here](http://www.springhouse.com/registration?EventId=fc29eeba-aa44-e811-87a2-00155d0a1406).
+[Register Here](http://www.springhouse.com/course-catalog/SECSBDD001).
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -84,7 +84,7 @@ Suite 207
 Exton, PA 1934  
 Phone: 610-321-3500
 
-[Register Here](http://www.springhouse.com/registration?EventId=fc29eeba-aa44-e811-87a2-00155d0a1406)
+[Register Here](http://www.springhouse.com/course-catalog/SECSBDD001)
 
 The training is facility is a 40-minute drive from Philadelphia International Airport and downtown Philadelphia. 
 
