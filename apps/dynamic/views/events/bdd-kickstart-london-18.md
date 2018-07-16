@@ -25,7 +25,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days will be led by **Matt Wynne**, CEO of Cucumber Ltd, and author of The Cucumber Book. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment a founding member of the Cucumber team and an experienced BDD practitioner and coach. 
+Both days will be led by **Matt Wynne**, CEO of Cucumber Ltd, and author of The Cucumber Book. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment from a founding member of the Cucumber team and an experienced BDD practitioner and coach. 
 
 Matt will be joined by **Sal Freudenberg**, an agile coach and trainer who has recently joined Cucumber Ltd as a developer and director.
 
