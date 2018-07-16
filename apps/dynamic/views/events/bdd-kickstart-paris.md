@@ -5,7 +5,7 @@ hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
   dates: October 11th-12th 2018
   cta:
-    link: https://ti.to/cucumber/bdd-kickstart-london-18
+    link: https://www.getdrip.com/forms/3429383/submissions/new
     message: Sign up for updates
 location:
   url:  
@@ -27,7 +27,7 @@ This course is based on proven and practical techniques, which we've taught to h
 
 Both days will be led by **Julien Biezemans**, co-founder of Cucumber Ltd, and originator of Cucumber JS. This is a rare opportunity to learn about Cucumber and BDD in a classroom environment from a founding member of the Cucumber team and an experienced BDD practitioner and coach. 
 
-Julien will be joined by Bruno Boucard, an experienced Agile, BDD and DDD coach and consultant. 
+Julien will be joined by **Bruno Boucard**, an experienced Agile, BDD and DDD coach and consultant. 
 
 
 Discover how BDD can help your organisation by downloading our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf).
@@ -75,7 +75,7 @@ This day is designed for developers and testers, non-technical people are welcom
 
 **Julien Biezemans**
 
-<img src="{{ site.url }}/images/headshots/matt.jpg" alt="Julien Biezemans" height="300" width="300">
+<img src="{{ site.url }}/images/headshots/julien.jpg" alt="Julien Biezemans" height="300" width="300">
 
 Julien is the creator of Cucumber.js - Cucumber for JavaScript, Node.js, and browsers. Julien has been coaching teams in BDD since 2009 and been building applications written in Ruby, PHP, Perl, and JavaScript since 2005. Julien is a co-founder of Cucumber Ltd.
 
@@ -85,22 +85,20 @@ Julien can be found on Twitter, [@jbpros](https://twitter.com/jbpros)
 
 <img src="{{ site.url }}/images/headshots/bruno-headshot.jpg" alt="Bruno Boucard" height="300" width="300">
 
-Co-founder 42 Skillz, developer, trainer, agile coach, speaker, organizer of BDD Paris user group. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he still is coding java with a C# accent ;-)
+Co-founder 42 Skillz, developer, trainer, agile coach, speaker, organizer of BDD Paris user group. He loves to explain with concrete examples with live-coding, if needed. He is a long-time Microsoft MVP, but he still is coding Java with a C# accent ;-)
 
 His company 42skillz which aims to help organizations to make software and to work differently, he provides trainings, coaching, consulting about TDD, BDD, legacy code refactoring techniques and DDD with an extra soul.
 
 
 Bruno can be found on Twitter, [@brunoboucard](https://twitter.com/brunoboucard)
 
-## Venue
+## Venue / Timings / Lanagues
 
-We will host the training at the ustwo offices in Shoreditch, London on 62 Shoreditch High St, London E1 6JJ, UK. The venue is a 35-45 minute journey from London's major airport. The nearest tube station is Liverpool Street and is also a few moments walk from Shoreditch High Street overground. 
+We're finalising the details of the venue. 
 
-Shoreditch is well catered for in terms of accommodation.  [Point A](https://www.pointahotels.com/our-hotels/shoreditch/), [Citizen M](https://www.google.com/maps/place/citizenM+London+Shoreditch+hotel/@51.5252483,-0.0799741,17z/data=!4m5!3m4!1s0x48761cb0e9fb8e05:0xb68b6777d93e000e!8m2!3d51.5241135!4d-0.0785901) and the [Ace Hotel](https://www.google.com/maps/place/Ace+Hotel+London+Shoreditch/@51.5253782,-0.0794768,17z/data=!3m1!4b1!4m5!3m4!1s0x48761cba08de2267:0x18ea9064b8cb94ba!8m2!3d51.5253782!4d-0.0772881) are all nearby. 
+The course will run from 9.30 to 16.30 on both days and taught in French. 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4081162327166!2d-0.07936668483747375!3d51.52407397963784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb0c877dff1%3A0x4b063d67310deeb0!2sustwo+London!5e0!3m2!1sen!2sus!4v1505137883741" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-The course will run from 9.30 to 16.30 on both days. 
+On the second day, you will work through some hands-on exercises. You'll be able to choose your preferred programming language from JavaScript, C#, Ruby or Java. 
 
 <!-- Drip -->
 <script type="text/javascript">
