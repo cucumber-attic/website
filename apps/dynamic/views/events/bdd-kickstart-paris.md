@@ -8,8 +8,8 @@ hero:
     link: https://www.getdrip.com/forms/3429383/submissions/new
     message: Sign up for updates
 location:
-  url:  
-  name: Paris
+  url:  https://goo.gl/maps/DeWvA2JK8i72
+  name: La Française Group, Paris
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
@@ -98,7 +98,7 @@ We're finalising the details of the venue.
 
 The course will run from 9.30 to 16.30 on both days and taught in French. 
 
-On the second day, you will work through some hands-on exercises. You'll be able to choose your preferred programming language from JavaScript, C#, Ruby or Java. 
+On the second day, you will work through some hands-on exercises. You can choose your preferred programming language from JavaScript, C#, Ruby or Java. 
 
 <!-- Drip -->
 <script type="text/javascript">
