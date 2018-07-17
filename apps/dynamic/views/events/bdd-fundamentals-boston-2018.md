@@ -19,9 +19,11 @@ dtend: 2018-11-01 00:00:00
 
 # BDD Fundamentals - 2 day BDD training
 
-By the end of our BDD Fundamentals training you will have a strong understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
+BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
-This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world. If you are considering implementing Behaviour-Driven Development practices into your team, this is the ideal course for you. 
+By the end of this course you will acquire the fundamental technical and non-technical skills required to confidently practise BDD.
+
+This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
 Both days are led by **Matt Wynne**, an accomplished trainer, coach and co-author of *[The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)* and co-founder of Cucumber Ltd. 
 
@@ -29,16 +31,15 @@ Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn m
 
 <div class="row"><div class="col-md-6 col-md-offset-3"><script src="//fast.wistia.com/embed/medias/953ry8h08l.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_953ry8h08l videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div></div></div>
 
-## BDD Fundamentals - Day 1 and 2
+## Day 1 - BDD Fundamentals
 
-This training is suitable for the whole team (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
+The first day is applicable to "the whole team".  (BAs, product owners, domain experts, UX designers, developers, testers, and any other important stakeholders).
 
-In this two-day module we give an in-depth introduction to BDD, which is the process that Cucumber supports. There is no automation on these days; the focus is on analysis and collaboration techniques. 
+Day 1 will give a thorough introduction to BDD, which is the process that Cucumber supports. There is no automation on this day; the focus is on analysis and collaboration techniques.
 
-We’ll teach you Example Mapping - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
+We’ll teach you [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) - a powerful technique we have developed to help business, IT and QA break requirements down into concrete examples. This exposes misunderstandings early and will help you write better executable specifications and automated tests later.
 
-
-### BDD Fundamentals Learning outcomes
+### {day-1-}Learning outcomes
 
 * The fundamental principles and practices of BDD
 * The importance of Rules and Examples
@@ -48,22 +49,14 @@ We’ll teach you Example Mapping - a powerful technique we have developed to he
 * Using Example Mapping and Discovery Workshops to achieve shared understanding
 * Roles and responsibilities on a BDD team
 
-### Delegates will benefit from
 
-* Increased confidence, due to extensive practical exercises
-* Deeper understanding, through guided discussions
-* Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
-* Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
+## Day 2 - BDD with Cucumber
 
-## BDD with Cucumber (Further online training)
+This day is a solid introduction to test-driven development (TDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
 
-Each attendee of our BDD Fundamentals class will also receive access to our online training module, BDD with Cucumber, including a detailed workbook with exercises you can practice at your own pace after the course has finished. 
+This day is designed for developers and testers, non-technical people are welcome, but they may find things start to get beyond their comfort zone.
 
-This module is a solid introduction to Behaviour-Driven Development (BDD) with Cucumber. You will learn to write executable specifications with Gherkin - Cucumber’s plain-text format for automated tests. You will also learn how to use Cucumber to drive the development of a system, and see the design of the system gradually emerge. You’ll end up with a system that does the right thing, and is easy to test.
-
-This online training is designed for developers and testers, non-technical people are welcome, but they may find things start to get beyond their comfort zone.
-
-### BDD with Cucumber Learning outcomes
+### {day-2-}Learning outcomes
 * Installing Cucumber and setting up your development environment
 * The TDD / BDD cycle
 * Writing your first scenario
@@ -73,6 +66,13 @@ This online training is designed for developers and testers, non-technical peopl
 * Backgrounds, Tags, Tables, Scenario Outlines and other Gherkin tricks
 * Domain modelling by Example
 * Costs & benefits of working test-first
+
+### Delegates will benefit from
+
+* Increased confidence, due to extensive practical exercises
+* Deeper understanding, through guided discussions
+* Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
+* Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
 
 ## Trainer
 
