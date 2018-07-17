@@ -17,7 +17,7 @@ dtstart: 2018-10-31 00:00:00
 dtend: 2018-11-01 00:00:00
 ---
 
-# BDD Fundamentals - 2 day BDD training
+# BDD Kickstart - 2 day BDD training
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
@@ -96,7 +96,7 @@ Full directions and car parking can be found [here](https://smartbear.com/SmartB
 
 Supporting more than six million software professionals and over 22,000 companies in 194 countries, SmartBear is the leader in software quality tools for teams. The company’s products help deliver the highest quality and best performing software possible while helping teams ship code at nearly impossible velocities. With products for API testing, UI testing, code review and performance monitoring across mobile, web and desktop applications, SmartBear equips every development, testing and operations team member with the tools to ensure quality at every stage of the software cycle. For more information, visit: [smartbear.com](http://smartbear.com), or for the SmartBear community, go to: [LinkedIn](https://www.linkedin.com/company/smartbear-software/), [Twitter](https://twitter.com/smartbear) or [Facebook](https://www.facebook.com/smartbear).
 
-Each day will start at 9 AM and finish at 4 PM. There will be a happy hour at the end of the first day.
+Each day will start at 9 AM and finish at 4.30 PM. There will be a happy hour at the end of the first day.
 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.514041092434!2d-71.08108398466419!3d42.395497779184524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316a31ac335f7%3A0xa5fa6e1929085ea2!2sSmartBear+Software!5e0!3m2!1sen!2sde!4v1513160205710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
