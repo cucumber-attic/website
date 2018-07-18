@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: "2017-07-17 11:58:00"
+date: "2018-07-17 11:58:00"
 title: "Announcing Cucumber.ml 1.0.0"
 author: cyocum
 ---
