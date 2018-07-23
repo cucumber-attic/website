@@ -6,7 +6,7 @@ hero:
   dates: October 31st - November 1st 2018
   cta:
     link: https://ti.to/cucumber/bdd-kickstart-boston-18
-    message: Register your interest
+    message: Buy your ticket
 location:
   url: https://www.google.de/maps/place/SmartBear+Software/@42.3954978,-71.081084,17z/data=!3m1!4b1!4m5!3m4!1s0x89e316a31ac335f7:0xa5fa6e1929085ea2!8m2!3d42.3954978!4d-71.0788953
   name: SmartBear HQ, Boston
@@ -18,8 +18,6 @@ dtend: 2018-11-01 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
-
-Tickets will go on sale in late July. Contact us if you are interested in sending a group. 
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
