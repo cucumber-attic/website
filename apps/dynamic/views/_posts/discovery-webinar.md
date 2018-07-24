@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: 2018-07-23 01:00:00
+date: 2018-07-24 01:00:00
 title: Discovery - The first practice of BDD [Webinar]
 author: theo
 ---
