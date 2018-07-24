@@ -2,13 +2,13 @@
 layout: post
 nav: blog
 date: 2018-07-23 01:00:00
-title: Discovery Webinar
+title: Discovery - The first practice of BDD [Webinar]
 author: theo
 ---
 
 <img src="{{ site.url }}/images/events/cukenfest-seb-rose.jpg" style="width: 100%">
 
-The first practice of Behaviour-Driven Development is discovery. At this stage, while bugs are cheap, you can air out differences and misunderstandings with representatives from business, dev, and test. On August 22nd, [Seb Rose](https://twitter.com/sebrose), co-author of [Discovery](http://bddbooks.com/discovery), will deliver a short webinar on simple tactics you can use to build higher-quality software. 
+The first practice of Behaviour-Driven Development is discovery. At this stage, while bugs are cheap, you can air out differences and misunderstandings with representatives from business, dev, and test. On August 22nd, [Seb Rose](https://twitter.com/sebrose), co-author of [Discovery](http://bddbooks.com/discovery), will deliver a short webinar on simple tactics you can harness to build higher-quality software. 
 
 Seb will stick around after for a short Q&A. 
 
