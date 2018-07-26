@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "BDD and BDD - Cucumber Podcast"
+title:    "BDD and DDD - Cucumber Podcast"
 date:     2018-07-26 01:00:00
 nav:      blog
 ---
