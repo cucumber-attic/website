@@ -7,7 +7,7 @@ nav:      blog
 ---
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/477003636&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-This month on the Cucumber podcast, Aslak Hellesoy and Steve Tooke speak to Kenny Bass and Bruno Boucard about the relationship between Domain-Driven Design (DDD) and Behaviour-Driven Development (BDD). 
+This month on the Cucumber podcast, Aslak Hellesøy and Steve Tooke speak to Kenny Baas and Bruno Boucard about the relationship between Domain-Driven Design (DDD) and Behaviour-Driven Development (BDD). 
 
 While both share many similarities, there isn't a great deal of crossover between the two communities. Our two guests want to change that by demonstrating that both practices and communities have more in common than they may think. 
 
@@ -15,13 +15,13 @@ While both share many similarities, there isn't a great deal of crossover betwee
 
 [Kenny's article about DDD<>BDD](http://blog.xebia.com/combining-domain-driven-design-and-behaviour-driven-development/)
 
-[Bruno on Twitter]https://twitter.com/brunoboucard / [Kenny on Twitter](https://twitter.com/kenny_baas)
+[Bruno on Twitter](https://twitter.com/brunoboucard)/ [Kenny on Twitter](https://twitter.com/kenny_baas)
 
 [DDD conference in Denver, Sept 2018](http://exploreddd.com/)
 
 [Event Storming introduction](http://ziobrando.blogspot.com/2013/11/introducing-event-storming.html)
 
-[Example Mapping introduction(https://cucumber.io/blog/2015/12/08/example-mapping-introduction)
+[Example Mapping introduction](https://cucumber.io/blog/2015/12/08/example-mapping-introduction)
 
 [Kanddinsky Conference, Berlin, October 2018](https://kandddinsky.de/)
 
