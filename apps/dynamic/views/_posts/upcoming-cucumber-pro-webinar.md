@@ -1,14 +1,14 @@
 ---
 layout: post
 nav: blog
-date: 2018-08-03 01:00:00
+date: 2018-08-02 01:00:00
 title: Cucumber Pro Demo - August 9th
 author: matt
 ---
 
-<img src="{{ site.url }}/images/events/cukenfest-seb-rose.jpg" style="width: 100%">
+<img src="{{ site.url }}/images/events/cukenfest-matt-2018.jpg" style="width: 100%">
 
-On August 9th at 4PM BST, I’m going to talk through the purpose of Cucumber Pro: what problem we want it to solve, and who we’re building it for.
+On August 9th at 4PM BST, I’m going to talk through the purpose of Cucumber Pro: what problem we want it to solve, and who we’re building it for. [You can sign up here.](https://zoom.us/webinar/register/8115332004838/WN_Aydr3t39TgiRTcfnnxpDYw)
 
 I’ll talk a little bit about the team behind it, then I’ll give you a demo.
 
@@ -30,6 +30,8 @@ You should attend if you:
 - have the clout to access the necessary infrastructure to set up an appliance: a Linux server/VM, SMTP & LDAP access, firewall configuration etc.
 
 So if you’re already practising BDD and think your team will improve from this feature set, join us on August 9th for this webinar.
+
+[Sign up today](https://zoom.us/webinar/register/8115332004838/WN_Aydr3t39TgiRTcfnnxpDYw)
 
 PS - We'll be recording this webinar and will send it to all sign-ups the next day.
 
