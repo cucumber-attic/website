@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: blog
-date: 2018-08-02 01:00:00
+date: 2018-08-03 01:00:00
 title: Cucumber Pro Demo - August 9th
 author: matt
 ---
