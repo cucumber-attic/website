@@ -5,7 +5,7 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: October 2018
   cta:
-    link: <div class="cf-cta-snippet cta17371" website-id="3212" cta-id="17371"></div>
+    link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Sign up for updates
 location:
   url: 
