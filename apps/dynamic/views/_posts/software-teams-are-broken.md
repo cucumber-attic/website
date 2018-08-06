@@ -1,8 +1,8 @@
 ---
 layout:   post
-author:   akshita
+author:   theo
 title:    "Software Teams are Broken – Learn the Fix with Shifting Test Left"
-date:     2018-07-17 00:00:00
+date:     2018-08-07 00:00:00
 nav:      blog
 ---
 
