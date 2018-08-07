@@ -54,3 +54,5 @@ Whether it is the “M” in M-PWR or another component, collaboration is the un
 
 Follow the author [@AkshitaDP](https://twitter.com/AkshitaDP)
 
+On October 31st-November we will host our flagship [BDD Kickstart class](https://cucumber.io/events/bdd-kickstart-boston-2018) in the SmartBear offices in Boston. This course will be led by Matt Wynne who will also speak at [SmartBear Connect.](https://smartbear.com/connect-2018/)
+
