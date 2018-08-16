@@ -48,7 +48,7 @@ All of these things may seem small and insignificant when you look at them in is
 
 ## How About Writing Of Another Type?
 
-If documentation isn't your thing or you'd prefer to help in another way, why not do what I'm doing here and [elsewhere](and/blogs) write about something? It could be a tutorial, it could be a recap of something you did/used at your job, or something else. You could chronicle your journey of learning a new tool for others to follow along with for instance. Learn a new trick that you think others could benefit from? You know what to do. **Write about it!** Answer a question for someone? Chances are likely they're not the only person who has or had will have that question, so share the knowledge you have.
+If documentation isn't your thing or you'd prefer to help in another way, why not do what I'm doing here and [elsewhere](https://jayson.codes/and/blogs/) write about something? It could be a tutorial, it could be a recap of something you did/used at your job, or something else. You could chronicle your journey of learning a new tool for others to follow along with for instance. Learn a new trick that you think others could benefit from? You know what to do. **Write about it!** Answer a question for someone? Chances are likely they're not the only person who has or had will have that question, so share the knowledge you have.
 
 The available topics are near limitless, you've just gotta decide what you want to do!
 
