@@ -3,18 +3,18 @@ title: BDD Kickstart, Austin 2018
 summary: 
 hero:
   subtitle: A world-class BDD training for devs, testers and the business
-  dates: October 2018
+  dates: October 18th-19th 2018
   cta:
     link: https://www.getdrip.com/forms/29515959/submissions/new
     message: Sign up for updates
 location:
   url: 
-  name: Austin
+  name: Austin, ESO Solutions
 layout: one-column
 nav: events
 image: /images/training/bdd-analysis-cover.jpg
-dtstart: 2018-10-15 00:00:00
-dtend: 2018-10-16 00:00:00
+dtstart: 2018-10-18 00:00:00
+dtend: 2018-10-19 00:00:00
 ---
 
 # BDD Kickstart - 2 day BDD training
@@ -86,9 +86,15 @@ Ryan can be found on Twitter, [@ryan_marsh](https://twitter.com/ryan_marsh)
 
 ## Training Location + Times
 
-Training location TBC. We are looking for a venue downtown. If your company want to host, <a href="mailto:hello@cucumber.io">drop us a line</a>. 
+The training will take place at the ESO Solutions offices in The Domain. 
 
-Each day will start at 9.30 AM and finish at 4.30 PM. 
+Both days will be held in the ESO Solutions offices in The Domain at 11500 Alterra Pkwy #100, Austin, TX 78758. 
+
+The training location is a 30-minute drive from Austin–Bergstrom International Airport or a 20-minute drive from downtown Austin. 
+
+Each day will start at 9.30 AM and finish at 4.30 PM.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.2378971783496!2d-97.72359818541914!3d30.400991581753875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb627246a785%3A0xae1e5791bf3df268!2sESO+Solutions!5e0!3m2!1sen!2sde!4v1534425092311" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 Have a question about the course? <a href="mailto:hello@cucumber.io">Email us</a>. 
 
