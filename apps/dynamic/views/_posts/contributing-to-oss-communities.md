@@ -69,4 +69,6 @@ If you've been wanting to help contribute to a project but have been stuck, try 
 
 Thanks for reading!
 
-[Jayson](https://twitter.com/thatengjayson)
+Jayson
+
+A version of this post originally appeared on [Jayson's website](https://jayson.codes/and/blogs/2018/08/contributing-to-oss/). You can also follow him on Twitter [here](https://twitter.com/thatengjayson)
