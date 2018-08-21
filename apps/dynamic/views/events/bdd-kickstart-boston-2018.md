@@ -25,7 +25,7 @@ By the end of this course you will acquire the fundamental technical and non-tec
 
 This course is based on proven and practical techniques, which we've taught to hundreds of ambitious teams around the world.
 
-Both days are led by **Matt Wynne**, an accomplished trainer, coach and co-author of *[The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)* and co-founder of Cucumber Ltd. 
+Both days are led by **Ed Snodgrass** and **Matt Wynne**. Ed is an experienced software developer and coach, specalizing in helping teams effectively collaborate. Matt is an accomplished trainer, coach and co-author of *[The Cucumber Book](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition)* and co-founder of Cucumber Ltd. 
 
 Download our [BDD Benefits PDF](https://cucumber.io/bdd-benefits.pdf) to learn more about how BDD can impact your business.
 
@@ -74,7 +74,14 @@ This day is designed for developers and testers, non-technical people are welcom
 * Smoother collaboration, by building an understanding of how BDD practices can best be incorporated into their own development process
 * Improved productivity, from experiencing and overcoming common obstacles before returning to the workplace
 
-## Trainer
+## Trainers
+
+**Ed Snodgrass**
+
+<img src="{{ site.url }}/images/headshots/ed-snodgrass.jpeg" alt="Ed Snodgrass" height="300" width="300">
+
+Ed is a Senior Software Engineer at Proxibid, Inc. During his 13 years of experience he has built applications in the DoD space as well as in the public sector. Ed is an advocate of professional development, Agile principles, and XP practices. He recently has become excited about BDD and enjoys bridging the gaps between product folks, testers, and developers. 
+
 
 **Matt Wynne**
 
