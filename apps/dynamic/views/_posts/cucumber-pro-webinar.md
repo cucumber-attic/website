@@ -8,7 +8,7 @@ author: theo
 
 A few weeks back, Matt Wynne and Steve Tooke presented a webinar on Cucumber Pro, the enterprise product we're building to empower Product Owners and Business Analysts to harness the power of examples, making everyone part of the conversation.
 
-<img src="https://cucumber.io/blog/cucumberproscreengrab.png" style="float:right; width:50%">
+<img src="https://cucumber.io/images/blog/cucumberproscreengrab.png" style="float:right; width:50%">
 
 
 [Watch the recording on our YouTube channel.](https://www.youtube.com/watch?v=wNBadMEeoEY) 
