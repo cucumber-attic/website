@@ -6,7 +6,7 @@ title: Cucumber Pro Webinar
 author: theo
 ---
 
-<img src="{{ site.url }}images//blog/cucumberproscreengrab.png" style="width: 100%">
+<img src="{{ site.url }}/images/blog/cucumberproscreengrab.png" style="width: 100%">
 
 A few weeks back, Matt Wynne and Steve Tooke presented a webinar on Cucumber Pro, the enterprise product we're building to empower Product Owners and Business Analysts to harness the power of examples, making everyone part of the conversation.
 
