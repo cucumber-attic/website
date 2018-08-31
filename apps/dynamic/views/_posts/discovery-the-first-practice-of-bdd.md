@@ -10,15 +10,11 @@ author: theo
 
 Seb Rose argues Behaviour-Driven Development is made of three separate practices; discovery, formulation, automation. The first practice, *Discovery*, is the subject of his [latest book](http://bddbooks.com/discovery). 
 
-Many teams who use Cucumber miss out the discovery practice all together and lose out on the benefits of discovering bugs and misunderstandings early, often before any code is even written. In this webinar recording, Seb Rose talks about the first practice of BDD and describes our preferred approach.
+Many teams who use Cucumber miss out the discovery practice all together and don't benefit from discovering bugs and misunderstandings early on, often before any code is even written. In this talk, Seb Rose talks about the first practice of BDD and describes our preferred approach.
 
-You can watch a recording of this webinar on our [YouTube channel](https://www.youtube.com/watch?v=JuWEQsE7Hlo). 
+You can watch a recording of this talk on our [YouTube channel](https://www.youtube.com/watch?v=JuWEQsE7Hlo). 
 
 If you're interested in having one of our team visit your team, learn about our [training and coaching services](https://cucumber.io/training).
-
-
-[Watch the recording on our YouTube channel.](https://www.youtube.com/watch?v=wNBadMEeoEY) 
-
 
 
 <!-- Drip -->
