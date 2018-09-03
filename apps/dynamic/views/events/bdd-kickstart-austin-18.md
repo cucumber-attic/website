@@ -5,8 +5,8 @@ hero:
   subtitle: A world-class BDD training for devs, testers and the business
   dates: October 18th-19th 2018
   cta:
-    link: https://www.getdrip.com/forms/29515959/submissions/new
-    message: Sign up for updates
+    link: https://ti.to/cucumber/bdd-kickstart-austin-2018
+    message: Buy your ticket
 location:
   url: 
   name: Austin, ESO Solutions
