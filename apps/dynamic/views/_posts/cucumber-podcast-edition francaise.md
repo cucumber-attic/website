@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "édition française - Cucumber Podcast"
+title:    "French Edition - Cucumber Podcast"
 date:     2018-09-07 00:00:00
 nav:      blog
 ---
