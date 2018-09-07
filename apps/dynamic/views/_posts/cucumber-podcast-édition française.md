@@ -2,7 +2,7 @@
 layout:   post
 author:   theo
 title:    "édition française - Cucumber Podcast"
-date:     2018-09-07 01:00:00
+date:     2018-09-07 00:00:00
 nav:      blog
 ---
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/496504419&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
