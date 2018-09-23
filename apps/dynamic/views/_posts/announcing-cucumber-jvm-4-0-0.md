@@ -1,7 +1,7 @@
 ---
 layout: post
 nav:    blog
-date:   2018-09-13 09:00:00
+date:   2018-09-24 09:00:00
 title:  "Announcing Cucumber-JVM v4.0.0"
 author: mpkorstanje
 ---
@@ -19,7 +19,7 @@ Cucumber-JVM now supports parallel execution of Pickles[1] across threads! See t
 documentation for each runner on how to enable this[2][3][4]. This was made possible 
 by some serious help from Kiel Boatman. Thanks!
 
-While executing in parallel each thread will have it's own seperate test context. 
+While executing in parallel each thread will have it's own separate test context. 
 If you are currently using static variables to share state between steps please 
 refactor to using dependency injection first.
 
@@ -30,17 +30,17 @@ Implementations of `ConcurrentEventListener` will receive events as they happen.
 concurrent event listners handle concurrent events all `TestCaseEvents` now also include 
 the `TestCase` of which they're part.
 
-1. A Pickle is a compiled Gherkin Scenario. A Scenario with Examples results in multiple Pickles, one for each Scenario.
-2. JUnit. Unfortunately due to framework limitations JUnit4 can only execute features in parallel. 
-3. TestNG
-4. Commandline.
+1. A Pickle is a compiled Gherkin Scenario. A Scenario with Examples results in multiple Pickles, one for each example.
+2. [JUnit](https://github.com/cucumber/cucumber-jvm/tree/v4.0.0/junit). Unfortunately due to framework limitations JUnit4 can only execute features in parallel. 
+3. [TestNG](https://github.com/cucumber/cucumber-jvm/tree/v4.0.0/testng)
+4. [CLI](https://github.com/cucumber/cucumber-jvm/blob/v4.0.0/core/src/main/resources/cucumber/api/cli/USAGE.txt).
 
 
 ## Data Tables ##
 
 With help from Łukasz Susk support was added to configure a default converter that
 will handle all types for which no converter has been defined. This should safe some 
-drudgery. The example below uses Jacksons Object mapper.
+drudgery. The example below uses Jacksons object mapper.
 
 
 ```java
@@ -121,6 +121,8 @@ src/test/java
   |  |- CommonPicoFactoryConfiguration.java
   |  |- CommonTypeRegistryConfiguration.java
 ```
+
+
 
 ## Internal Refactoring ##
 
