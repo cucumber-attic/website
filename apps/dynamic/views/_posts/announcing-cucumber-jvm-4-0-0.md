@@ -30,8 +30,10 @@ Implementations of `ConcurrentEventListener` will receive events as they happen.
 concurrent event listners handle concurrent events all `TestCaseEvents` now also include 
 the `TestCase` of which they're part.
 
-1. A Pickle is a compiled Gherkin Scenario. A Scenario with Examples results in multiple Pickles, one for each example.
-2. [JUnit](https://github.com/cucumber/cucumber-jvm/tree/v4.0.0/junit). Unfortunately due to framework limitations JUnit4 can only execute features in parallel. 
+1. A Pickle is a compiled Gherkin scenario, a feature consists of several scenarios. A scenario with examples results 
+   in multiple Pickles, one for each example.
+2. [JUnit](https://github.com/cucumber/cucumber-jvm/tree/v4.0.0/junit). Unfortunately due to framework limitations 
+   JUnit4 can only execute features in parallel. 
 3. [TestNG](https://github.com/cucumber/cucumber-jvm/tree/v4.0.0/testng)
 4. [CLI](https://github.com/cucumber/cucumber-jvm/blob/v4.0.0/core/src/main/resources/cucumber/api/cli/USAGE.txt).
 
