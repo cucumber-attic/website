@@ -1,7 +1,7 @@
 ---
 layout: post
 nav:    blog
-date:   2018-09-24 09:00:00
+date:   2018-09-24 07:00:00
 title:  "Announcing Cucumber-JVM v4.0.0"
 author: mpkorstanje
 ---
