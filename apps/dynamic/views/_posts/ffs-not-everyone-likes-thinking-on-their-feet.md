@@ -8,9 +8,9 @@ author: theo
 
 <img src="{{ site.url }}/images/blog/ffs-not-everyone-talk.png" style="width: 100%">
 
-A quick warning that this talk includes a heavy dose of swear words, most regularly the F word. 
+A quick warning that this talk includes a heavy dose of swearing. 
 
-Sal Freudenberg first delivered this talk at FFS Conf on September 19th 2018 in London. 
+Sal Freudenberg first delivered this talk at [FFS Conf](https://ffstechconf.org) on September 19th 2018 in London. 
 
 Listen to the recording on our [YouTube Channel](https://youtu.be/FtHzBPmB8Ao)
 
