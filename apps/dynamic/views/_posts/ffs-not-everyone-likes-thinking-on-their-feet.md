@@ -6,7 +6,7 @@ title: FFS Not everyone likes “thinking on their feet”.
 author: theo
 ---
 
-<img src="{{ site.url }}/images/blog/example-mapping/title.jpg" style="width: 100%">
+<img src="{{ site.url }}/images/blog/ffs-not-everyone-talk.png" style="width: 100%">
 
 A quick warning that this talk includes a heavy dose of swear words, most regularly the F word. 
 
@@ -187,20 +187,3 @@ And nowadays with hindsight I can see that Shit!
 It’s all about fucking context too.
 Because some days you’re actually just like me.
 And I’m you.
-
-
-
-<!-- Drip -->
-<script type="text/javascript">
-  var _dcq = _dcq || [];
-  var _dcs = _dcs || {}; 
-  _dcs.account = '7849462';
-  
-  (function() {
-    var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true; 
-    dc.src = '//tag.getdrip.com/7849462.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(dc, s);
-  })();
-</script>
