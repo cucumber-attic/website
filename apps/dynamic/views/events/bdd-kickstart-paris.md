@@ -5,8 +5,8 @@ hero:
   subtitle: A WORLD-CLASS BDD TRAINING FOR DEVS, TESTERS AND THE BUSINESS
   dates: October 11th-12th 2018
   cta:
-    link: https://www.getdrip.com/forms/3429383/submissions/new
-    message: Sign up for updates
+    link: https://ti.to/cucumber/bdd-kickstart-paris-18
+    message: Buy your ticket today
 location:
   url:  https://goo.gl/maps/DeWvA2JK8i72
   name: La Française Group, Paris
@@ -18,6 +18,8 @@ dtend: 2018-10-12 00:00:00
 ---
 
 ## BDD Kickstart - 2 day BDD training 
+
+*This course will be taught in French.*
 
 BDD Kickstart is a two-day training in the fundamentals of Behaviour-Driven Development (BDD) and Cucumber. Thousands of agile teams are benefiting from clearer understanding and greater collaboration between business and IT that BDD brings.
 
