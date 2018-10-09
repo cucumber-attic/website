@@ -2,7 +2,7 @@
 layout:   post
 author:   matt
 title:    "Celebrating Cucumber's 10th birthday with a 9.5 hour mob programming session"
-date:     2018-10-04 09:00:00
+date:     2018-10-10 09:00:00
 nav:      blog
 ---
 <img src="/images/blog/10-year-mobathon.jpg" style="float:center; width:100%">
