@@ -15,7 +15,7 @@ We started at 4pm GMT and finished around 1:30am GTM. We were joined by 11 peopl
 
 * Aslak Hellesøy (London, UK)
 * Matt Wynne (Lochgoilhead, Scotland) 
-* Eric K (Ohio, USA)
+* Eric Kessler (Ohio, USA)
 * Marit van Dijk (Amstelveen, Netherlands)
 * Björn Rasmusson (Linköping, Sweden) 
 * Ed Snodgrass (Iowa, USA)
