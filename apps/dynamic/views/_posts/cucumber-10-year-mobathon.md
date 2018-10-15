@@ -13,7 +13,7 @@ This weekend marked the 10th anniversary of [Cucumber's first release](https://r
 
 We started at 4pm GMT and finished around 1:30am GTM. We were joined by 11 people over the course of the evening: 
 
-* Aslak Hellesøy (London, USA)
+* Aslak Hellesøy (London, UK)
 * Matt Wynne (Lochgoilhead, Scotland) 
 * Eric K (Ohio, USA)
 * Marit van Dijk (Amstelveen, Netherlands)
