@@ -39,7 +39,7 @@ Having a goal for the session helped a great deal, and we quickly reached agreem
 
 We had plenty of experts on hand - Aslak and Björn for example were invaluable in sharing their deep knowledge of the codebase and the direction it's headed in.
 
-> The anniversary mobathon was an absolutely fantastic time and I would love to do it more! Driving the code changes while having the guidance of folks already familiar with the code enabled me to do things for the first time (like release various Cucumber Ruby gems) that I wouldn't have been able to on my own. What a wonderful experience in so many ways! -- [Jason Smith](https://github.com/jaysonesmith)
+> The anniversary mobathon was an absolutely fantastic time and I would love to do it more! Driving the code changes while having the guidance of folks already familiar with the code enabled me to do things for the first time (like release various Cucumber Ruby gems) that I wouldn't have been able to on my own. What a wonderful experience in so many ways! -- [Jayson Smith](https://github.com/jaysonesmith)
 
 Driving was a great experience for me. I'm rusty with my OSS contributions, and I've never written any Go before. It was fun trying it out with so many experts around to guide me, and in such a friendly supportive and fun atmosphere.
 
