@@ -13,7 +13,7 @@ Growing new practices in your teams is a lot like growing plants: you need to cr
 That wasn’t the basil plant’s fault.
 
 
-<img src="https://cucumber.io/images/blog/basil-plant.jpg" style="float:right; width:50%">
+<img src="https://cucumber.io/images/blog/basil-plant.jpeg" style="float:right; width:50%">
 
 In a similar way, there are some systemic impediments we see organisations put in the way of their teams making a success of BDD. Let’s have a look at some of the most common ones.
 
