@@ -6,6 +6,8 @@ title: "Open Space: Rocket Fuel for your Agile transformation"
 author: matt
 ---
 
+We will be running our very own Behaviour-Driven Development open space in Charlotte NC in December. Check out our [event page](https://cucumber.io/events/2018/12/12/cukenspace-charlotte) for full details. 
+
 I absolutely love open space.
 
 Over the last couple of years, we've been privileged to be trusted by some of
@@ -222,7 +224,7 @@ Open space is much easier to understand through experience than by reading
 these words. The agile community organise lots of these events, such as
 [CITCON](http://citconf.com/), [Agile Coach
 Camp](http://agilecoachcamp.org/tiki-index.php) and our very own
-[CukenFest](http://cukenfest.cucumber.io) coming up in April 2018.
+[CukenSpace](https://cucumber.io/events/2018/12/12/cukenspace-charlotte) coming up in December 2018.
 
 I encourage you to attend one of these events and experience open-space for
 yourself. I can guarantee it'll be a memorable experience.
