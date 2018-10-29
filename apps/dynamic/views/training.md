@@ -343,8 +343,8 @@ brand_image: /images/cucumber-mark-grey.svg
           <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-austin-18">BDD Kickstart, Austin</a></h4>
-              <time class="blank-card__time">October 18th-19th 2018</time>
+              <h4><a href="https://cucumber.io/events/2018/12/11/bdd-kickstart-charlotte">BDD Kickstart, Charlotte</a></h4>
+              <time class="blank-card__time">December 11th-12th 2018</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
@@ -352,17 +352,17 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-paris">BDD Kickstart, Paris</a></h4>
-              <time class="blank-card__time">October 11th-12th 2018 </time>
+              <h4><a href="https://cucumber.io/events/2018/12/12/cukenspace-charlotte">CukenSpace Charlotte</a></h4>
+              <time class="blank-card__time">December 12th-13th </time>
               <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
+                A BDD open space conference for the whole team w/ Ellen Gottesdiener as keynote!
               </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/bdd-kickstart-boston-2018">BDD Kickstart, Boston</a></h4>
-              <time class="blank-card__time">October 31st-November 1st 2018</time>
+              <h4><a href="https://cucumber.io/events/2018/12/bdd-kickstart-london">BDD Kickstart, London</a></h4>
+              <time class="blank-card__time">January TBC</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
