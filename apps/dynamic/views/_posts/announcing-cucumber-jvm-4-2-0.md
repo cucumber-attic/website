@@ -6,17 +6,15 @@ title:  "Announcing Cucumber-JVM v4.2.0"
 author: mpkorstanje
 ---
 
-Cucumber-JVM v4.2.0 has been released. There have been several smaller releases
-since the announcement of v4.0.0 but this one worth some extra attention. As
-always the full change log can be found in the repository [here](https://github.com/cucumber/cucumber-jvm/blob/master/CHANGELOG.md).
+We've released Cucumber-JVM v4.2.0! There have been several smaller releases
+since the announcement of v4.0.0, but this one is worth some extra attention. As
+always, the full changelog can be found in [the repository.](https://github.com/cucumber/cucumber-jvm/blob/master/CHANGELOG.md)
 
 ## Anonymous Parameter Types ##
 
-In Cucumber-JVM 2.x it was possible to capture any `String` and have it converted 
-to a an instance of some type. This functionality relied on XStream which has been
-removed with the introduction of Cucumber Expressions in Cucumber 3.0. Now it is
-coming back. By installing an object mapper (Jackson in this example) the following step
-definitions can be used:
+In Cucumber-JVM 2.x, it was possible to capture any string and have it converted to a
+type instance. With the release of Cucumber Expressions in Cucumber 3.0, we removed XStream, which also removed the ability to keep that behavior. We're happy to announce that this behavior is back! By installing an object mapper (Jackson in this example) the following step
+definitions can are usable:
 
 ```java
 Given("^there is some date (.*)$", (Date a) -> { })
@@ -95,9 +93,8 @@ When matching a step to a Cucumber expression, Cucumber inspects the parameter
 types of the step definition method and replaces the identity transform 
 `s -> s` with `s -> transform(s, type)`. 
 
-Additionally when using a regular expression with a capture group that does not have
-a predefined parameter type, a new anonymous parameter type will be created
-for that capture group. As such the following step definitions can also be used:
+Additionally, when using a regular expression with a capture group that does not have
+a predefined parameter type, a new anonymous parameter type will be created for that capture group. As such the following step definitions can also are usable:
 
 ```java
 Given("^there is some date ([0-9]{4}-[0-9]{2}-[0-9]{2})$", (Date a) -> { })
@@ -111,12 +108,12 @@ Given("^there is some type (RED|GREEN|YELLOW)$", (TypeEnum a) -> { })
 
 While recommended, it is not required to install an object mapper.
 
-Cucumber comes with a built in object mapper that can handle most basic types. 
+Cucumber comes with a built-in object mapper that can handle most basic types. 
 Aside from `Enum` it supports conversion to `String`, `BigInteger`, 
 `BigDecimal`, `Byte`, `Short`, `Integer`, `Long`, `Float`, `Double` and 
 `String`.
 
-Full change log
+Full changelog
 ---------------
 
 See [CHANGELOG.md](https://github.com/cucumber/cucumber-jvm/blob/master/CHANGELOG.md).
