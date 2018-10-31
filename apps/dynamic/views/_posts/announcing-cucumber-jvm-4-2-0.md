@@ -12,11 +12,11 @@ always the full change log can be found in the repository [here](https://github.
 
 ## Anonymous Parameter Types ##
 
-In Cucumber-JVM 2.x it was possible to capture any string and have it converted to a
-type instance. This functionality relied on XStream which has been removed with
-the introduction of Cucumber Expressions in Cucumber 3.0. Now it is coming
-back. After installing an object mapper these step definitions should mostly
-just work:
+In Cucumber-JVM 2.x it was possible to capture any `String` and have it converted 
+to a an instance of some type. This functionality relied on XStream which has been
+removed with the introduction of Cucumber Expressions in Cucumber 3.0. Now it is
+coming back. By installing an object mapper (Jackson in this example) the following step
+definitions can be used:
 
 ```java
 Given("^there is some date (.*)$", (Date a) -> { })
@@ -76,7 +76,6 @@ public class ParameterTypes implements TypeRegistryConfigurer {
 }
 ```
 
-
 ### Implicit Anonymous Parameter Types ###
 
 
@@ -96,10 +95,9 @@ When matching a step to a Cucumber expression, Cucumber inspects the parameter
 types of the step definition method and replaces the identity transform 
 `s -> s` with `s -> transform(s, type)`. 
 
-Additionally when using a regular expression with a capture group without a
-predefined parameter type, a new anonymous parameter type will be
-created for that capture group. As such, after installing an object mapper
-these step definitions should also mostly just work:
+Additionally when using a regular expression with a capture group that does not have
+a predefined parameter type, a new anonymous parameter type will be created
+for that capture group. As such the following step definitions can also be used:
 
 ```java
 Given("^there is some date ([0-9]{4}-[0-9]{2}-[0-9]{2})$", (Date a) -> { })
