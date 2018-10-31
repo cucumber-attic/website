@@ -12,7 +12,7 @@ always the full change log can be found in the repository [here](https://github.
 
 ## Anonymous Parameter Types ##
 
-In Cucumber-JVM 2.x it was possible to capture any string have it converted to a
+In Cucumber-JVM 2.x it was possible to capture any string and have it converted to a
 type instance. This functionality relied on XStream which has been removed with
 the introduction of Cucumber Expressions in Cucumber 3.0. Now it is coming
 back. After installing an object mapper these step definitions should mostly
@@ -36,7 +36,7 @@ Given("there is some transaction {} {}", (BigDecimal a, Currency b) -> { })
 Given("there is some type {}", (TypeEnum a) -> { })
 ```
 
-For Cucumber-JVM the object mapper can be installed  by placing an
+For Cucumber-JVM the object mapper can be installed by placing an
 implementation of `TypeRegistryConfigurer` on the glue path.
 
 ```java
@@ -92,13 +92,13 @@ ParameterType(
 )
 ```
 
-When matching a step to a Cucumber expression Cucumber inspects the parameter
-types of the step definition method and replaces the the identity transform 
+When matching a step to a Cucumber expression, Cucumber inspects the parameter
+types of the step definition method and replaces the identity transform 
 `s -> s` with `s -> transform(s, type)`. 
 
 Additionally when using a regular expression with a capture group without a
-predefined parameter type, a new anonymous parameter type will will be
-created for that capture group. As such after installing an object mapper
+predefined parameter type, a new anonymous parameter type will be
+created for that capture group. As such, after installing an object mapper
 these step definitions should also mostly just work:
 
 ```java
@@ -111,7 +111,7 @@ Given("^there is some type (RED|GREEN|YELLOW)$", (TypeEnum a) -> { })
 
 ### Built in Object Mapper ###
 
-While recommended it is not required to install an object mapper.
+While recommended, it is not required to install an object mapper.
 
 Cucumber comes with a built in object mapper that can handle most basic types. 
 Aside from `Enum` it supports conversion to `String`, `BigInteger`, 
