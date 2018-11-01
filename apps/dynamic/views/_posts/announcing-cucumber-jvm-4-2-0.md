@@ -14,7 +14,7 @@ always, the full changelog can be found in [the repository.](https://github.com/
 
 In Cucumber-JVM 2.x, it was possible to capture any string and have it converted to a
 type instance. With the release of Cucumber Expressions in Cucumber 3.0, we removed XStream, which also removed the ability to keep that behavior. We're happy to announce that this behavior is back! By installing an object mapper (Jackson in this example) the following step
-definitions can are usable:
+definitions are usable:
 
 ```java
 Given("^there is some date (.*)$", (Date a) -> { })
@@ -94,7 +94,7 @@ types of the step definition method and replaces the identity transform
 `s -> s` with `s -> transform(s, type)`. 
 
 Additionally, when using a regular expression with a capture group that does not have
-a predefined parameter type, a new anonymous parameter type will be created for that capture group. As such the following step definitions can also are usable:
+a predefined parameter type, a new anonymous parameter type will be created for that capture group. As such the following step definitions are also usable:
 
 ```java
 Given("^there is some date ([0-9]{4}-[0-9]{2}-[0-9]{2})$", (Date a) -> { })
