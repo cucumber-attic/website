@@ -5,7 +5,7 @@ title:    "Agility in a BIG Organisation - Cucumber Podcast"
 date:     2018-11-11 01:00:00
 nav:      blog
 ---
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/477003636&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/526569183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 What happens when you transition to agile practices at a big organisation? How can you do agile software development at scale? This month Sinead Shackley [(@smshackley)](https://twitter.com/smshackley) and Dave Anderson [(@davidand393)](https://twitter.com/davidand393?) from Liberty IT and Paul Shepheard [(@HamletArable)](https://twitter.com/HamletArable) from Deutsche Bank share their stories.
 
