@@ -1,7 +1,7 @@
 ---
 layout:   post
 author:   theo
-title:    "Agility in a big Organisation - Cucumber Podcast"
+title:    "Agility in a BIG Organisation - Cucumber Podcast"
 date:     2018-11-08 01:00:00
 nav:      blog
 ---
