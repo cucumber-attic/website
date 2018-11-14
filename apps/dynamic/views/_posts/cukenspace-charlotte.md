@@ -20,6 +20,9 @@ Our keynote session will come from [Ellen Gottesdiener](https://twitter.com/elle
 When the conference is over and we've picked up the all sticky notes and pens, you will leave with a strong sense about how you can deliver higher-quality software with a new set of techniques which have proven to reduce misunderstandings and costly
 production bugs. You'll also acquire a strong network of other practitioners facing the same challenges which you can draw upon, long after the conference doors close. CukenSpace is a great place to catch your breath, find innoative ways to tackle some of the hardest problems in software and head back to the office with a renewed sense of what is possible.
 
+> CukenSpace is a very friendly and collaborative conference, not your standard corporate event where you are just spoken to.”
+> — Kim Bilida, Trov
+
 There will be sessions on how you can use techniques like [Example Mapping](https://cucumber.io/blog/2015/12/08/example-mapping-introduction) to break down your user stories, how to priortise your product backlog through structured conversations, how BDD practices can be applied in legacy systems and why the values of agile software development and BDD are more important than ever.
 
 Just prior to CukenSpace, we will host a two-day [BDD Kickstart training class](https://cucumber.io/events/2018/12/11/bdd-kickstart-charlotte) which will teach you all the technical and non-technical skills you need to start practising in your own context.
