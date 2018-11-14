@@ -2,7 +2,7 @@
 layout: post
 nav: blog
 date: 2018-11-14 01:00:00
-title: CukenSpace Charlotte. December 12-13 2018
+title: CukenSpace Charlotte. December 12th-13th 2018
 author: theo
 ---
 
