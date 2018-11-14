@@ -9,11 +9,11 @@ author: theo
 It's just a little under a month until we host our not for profit Behaviour-Driven Development
 conference, [CukenSpace Charlotte](https://cucumber.io/events/2018/12/12/cukenspace-charlotte).
 
-Since 2011 we've run a similar much-loved event in London which will now cross the pond. We all know the benefits of when testers, developers, and business analysts work together well. The team discovers misunderstandings early, avoiding costly bugs later on, the team relies on the skills of the whole team, things aren't just lumped with one side of the silo. Teams which practice BDD effectively end up delivering higher-quality software which arrives to the customer on time and in budget. CukenSpace is a conference which brings together the diverse mix of a modern agile software team to explore innovative ways to crack complex software problems.
-
+Since 2011 we've run a similar much-loved event in London which will now cross the pond. We all know the benefits of when testers, developers, and business analysts work well together; the team discovers misunderstandings early, avoid costly bugs later on, and rely less on the individual. Problems aren't just lumped on one side of the silo. Intead teams which practice BDD effectively end up delivering higher-quality software that arrives to the customer on time and in budget. CukenSpace is a conference which brings together the diverse mix of a modern agile software team to explore innovative ways to crack complex software problems.
+<p>&nbsp;</p>
 <img src="https://cucumber.io/images/blog/open-space-cukenfest.jpg" style="float:left; width:100%">
-
-We deliberately cap attendance to allow conversations and inspired thoughts to drift easily through the room. There's no talking down to, no enterprise sales demos, and no stale sandwiches. CukenSpace will be a comfortable and welcoming space for those curious about the possibilities BDD can bring to their organization. 
+<p>&nbsp;</p>
+Attendance is deliberately capped to allow conversations and ideas to drift easily through the room. There's no talking down to, no enterprise sales demos, and no stale sandwiches. CukenSpace will be a comfortable and welcoming space for those curious about the possibilities BDD can bring to their organization. 
 
 Our keynote session will come from [Ellen Gottesdiener](https://twitter.com/ellengott), author of [Discover to Deliver](http://www.discovertodeliver.com/), while [Matt Wynne](https://twitter.com/mattwynne), [Steve Tooke](https://twitter.com/@tooky), [Marlena Compton](https://twitter.com/marlenac), [George Dinwiddie](https://twitter.com/gdinwiddie) are just some of the names to be running and attending sessions.
 
