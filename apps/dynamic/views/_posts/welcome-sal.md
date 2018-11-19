@@ -2,7 +2,7 @@
 layout: post
 nav: blog
 date: 2018-11-09 01:00:00
-title: Sal Freudenberg is a Cuke
+title: Sal Freudenberg is a Cucumber
 author: matt
 ---
 This April, Dr Sallyann Freudenberg joined Aslak Hellesøy, Julien Biezemans, Steve Tooke Seb Rose and I as a co-founder of Cucumber Ltd. I’m afraid, yes, it’s taken me this long to write the blog post.
