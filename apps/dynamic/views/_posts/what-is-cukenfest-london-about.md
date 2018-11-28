@@ -6,19 +6,19 @@ title: What is CukenFest London about and who it is for. My reply.
 author: theo
 ---
 
-Jo, a colleague of mine who will help me build [CukenFest London 2019](http://cukenfest.cucumber.io), asked for a paragraph or two about what CukenFest is and who it is for. She also asked if we set a theme this year, to which I replied, BRB [I'll ask](https://twitter.com/cukenfest/status/1067784288400232448). 
+Jo, a colleague of mine who will help me build [CukenFest London 2019](http://cukenfest.cucumber.io), asked for a paragraph or two about what CukenFest is and who it is for. She also asked if we set a theme for 2019, to which I replied, BRB [I'll ask](https://twitter.com/cukenfest/status/1067784288400232448). 
 
 ---
 
-In any case, this is my reply to the first bit.
+In any case, this is my response to the first part:
 
-CukenFest London is a conference we would like to go to. It's filled with a diverse mix of people who are interested in meaningful collaboration, building quality software, and finding lasting solutions to complicated problems.
+CukenFest London is a conference we would like to go to. It's filled with a diverse mix of people who are interested in meaningful collaboration, building quality software, and finding lasting solutions to complex problems.
 
 It's small, deliberately so, friendly and welcoming. We champion new voices from under-represented backgrounds as well as BDD practitioners who have been waving the flag for many years.
 
-Keynotes are short, talks even shorter. We build in breaks and activities to make sure everyone has the space to connect, but also the time and space to breath, to have a moment.
+Keynotes are short, talks even shorter. We build in breaks and activities to make sure everyone has the space to connect, but also the room to breath, to have a quiet moment.
 
-We believe learning isn't just done by sitting down with eyes faced front. CukenFest includes talks but also discussions, mini-workshops, corridor sessions and attendee-led agenda setting.
+We believe learning isn't just achieved by sitting down, eyes faced front. CukenFest includes talks but also discussions, mini-workshops, corridor sessions and attendee-led agenda setting.
 
 We're doing this conference for all the people who believe great software is built by those who value collaboration. Attendees will come away with new practices to try, new ideas to share, and new connections to learn from.
 
