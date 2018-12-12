@@ -7,7 +7,7 @@ nav:      blog
 ---
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/543830436&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-This month on the Cucumber Podcast we speak to Stefan Hofer about Domain Modelling. Stefan describes Domain Modelling as "a workshop format which helps people have a conversation about their domain; the idea is that domain experts tell stories that explain how people and software systems work together."
+This month on the Cucumber Podcast we speak to Stefan Hofer about Domain Storytelling. Stefan describes Domain Storytelling as "a workshop format which helps people have a conversation about their domain; the idea is that domain experts tell stories that explain how people and software systems work together."
 
 Although well known and celebrated in the Domain Driven Design community, Domain Storytelling is starting to be discovered by software teams wanting to find innovative ways to build shared understanding.
 
