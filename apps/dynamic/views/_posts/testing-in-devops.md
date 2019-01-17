@@ -16,11 +16,11 @@ Asking the questions from Cucumber is Matt Wynne, Sallyann Freudenberg, and Stev
 
 Janet & Lisa's website - [Link](https://agiletester.ca/)
 
-Agile Testing - [Link](https://www.amazon.com/Agile-Testing-Practical-Guide-Testers/dp/0321534468/ref=sr_1_3?s=books&ie=UTF8&qid=1547738499&sr=1-3&keywords=agile+testing)
+Agile Testing (Book) - [Link](https://www.amazon.com/Agile-Testing-Practical-Guide-Testers/dp/0321534468/ref=sr_1_3?s=books&ie=UTF8&qid=1547738499&sr=1-3&keywords=agile+testing)
 
-More Agile Testing - [Link](https://www.amazon.com/More-Agile-Testing-Addison-Wesley-Signature/dp/0321967054/ref=sr_1_2?s=books&ie=UTF8&qid=1547739142&sr=1-2&keywords=more+agile+testing)
+More Agile Testing (Book) - [Link](https://www.amazon.com/More-Agile-Testing-Addison-Wesley-Signature/dp/0321967054/ref=sr_1_2?s=books&ie=UTF8&qid=1547739142&sr=1-2&keywords=more+agile+testing)
 
-Agile Testing Essentials - [Link](https://www.oreilly.com/library/view/agile-testing-essentials/9780134683287/)
+Agile Testing Essentials (Lisa and Janet's new online class) - [Link](https://www.oreilly.com/library/view/agile-testing-essentials/9780134683287/)
 
 On Twitter:
 
