@@ -352,7 +352,7 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/2018/12/12/cukenspace-charlotte">CukenFest London</a></h4>
+              <h4><a href="https://cukenfest.cucumber.io">CukenFest London</a></h4>
               <time class="blank-card__time">April 4th-5th 2019</time>
               <p>
                 Our annual low-key BDD conference for just 120 people.
