@@ -343,8 +343,8 @@ brand_image: /images/cucumber-mark-grey.svg
           <p class="paragraph-reverse max-770">We run public training events around the world. This is a great way to train a small number of people, or to sample our training before rolling it out to a larger team or department.</p>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/2018/12/11/bdd-kickstart-charlotte">BDD Kickstart, Charlotte</a></h4>
-              <time class="blank-card__time">December 11th-12th 2018</time>
+              <h4><a href="https://cucumber.io/events/2019/04/bdd-kickstart-london">BDD Kickstart, London</a></h4>
+              <time class="blank-card__time">April 2nd-3rd 2019</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
@@ -352,17 +352,17 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/2018/12/12/cukenspace-charlotte">CukenSpace Charlotte</a></h4>
-              <time class="blank-card__time">December 12th-13th </time>
+              <h4><a href="https://cucumber.io/events/2018/12/12/cukenspace-charlotte">CukenFest London</a></h4>
+              <time class="blank-card__time">April 4th-5th 2019</time>
               <p>
-                A BDD open space conference for the whole team w/ Ellen Gottesdiener as keynote!
+                Our annual low-key BDD conference for just 120 people.
               </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/events/2018/12/bdd-kickstart-london">BDD Kickstart, London</a></h4>
-              <time class="blank-card__time">January TBC</time>
+              <h4><a href="https://cucumber.io/events/">BDD Kickstart, Chicago</a></h4>
+              <time class="blank-card__time">March 2019 TBC</time>
               <p>
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
