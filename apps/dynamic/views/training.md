@@ -367,14 +367,7 @@ brand_image: /images/cucumber-mark-grey.svg
                 Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
               </p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blank-card">
-              <h4><a href="https://cucumber.io/school/">Cucumber School, online training</a></h4>              
-              <p>
-                Our flagship two-day BDD and Cucumber training for developers, testers, BAs and product owners.
-              </p>
-            </div>  
+          </div> 
             
           </div>
 
