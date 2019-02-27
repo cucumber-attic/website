@@ -2,13 +2,13 @@
 layout: post
 nav: blog
 date: 2019-02-07 01:00:00
-title: CukenFest Asks: Marit van Dijk
+title: CukenFest London Asks. Marit van Dijk
 author: theo
 ---
 
 In the build up to our annual BDD conference, CukenFest London, we've spoken to a few of our speakers about software development, BDD, and their upcoming session in April. 
 
-Our first interview is with [Marit van Dijk](https://twitter.com/MaritvanDijk77). Marit is a core contributer to the Cucumber OSS and a software and test engineer at bol.com. Marit will speak at CukenFest London on "Collaborating on Open Source". You can read more about her talk and others [here](http://cukenfest.cucumber.io#talks).
+Our first interview is with [Marit van Dijk](https://twitter.com/MaritvanDijk77). Marit is a core contributer to the Cucumber OSS and a software and test engineer at [bol.com](https://bol.com). Marit will speak at CukenFest London on "Collaborating on Open Source". You can read more about her talk and others [here](http://cukenfest.cucumber.io#talks).
 
 > What I like about open source is that it offers the opportunity to actually help improve the tools we all use at work.
 
