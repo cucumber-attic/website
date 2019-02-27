@@ -10,8 +10,6 @@ In the build up to our annual BDD conference, CukenFest London, we've spoken to 
 
 Our first interview is with [Marit van Dijk](https://twitter.com/MaritvanDijk77). Marit is a core contributer to the Cucumber OSS and a software and test engineer at [bol.com](https://bol.com). Marit will speak at CukenFest London on "Collaborating on Open Source". You can read more about her talk and others [here](http://cukenfest.cucumber.io#talks).
 
-> What I like about open source is that it offers the opportunity to actually help improve the tools we all use at work.
-
 **How long have you been working in software? What inspired you to be involved?**
 
 I've been working in software development for about 15 years. In that time I've had many different roles in different companies. My roles have included information analysis, project management and test automation engineer. Over the years, I've gradually moved into more technical roles. At the moment I do test automation and software development.
@@ -24,6 +22,8 @@ At the same time, making sure to build it right can be quite a challenge to buil
 **What drove you to first start contributing to an OSS project?**
 
 Due to a reorganisation at the company I was working for, I had to relearn (Java) programming. I started doing coding challenges, but after a while I wanted to work on an actual project and maybe do something useful. After switching employers, I started using Cucumber and really liked it, so I figured I'd see if I could contribute. When I first started, everyone was very helpful and welcoming - which is a big part of why I stayed so active. I love the feeling of being part of a community, doing things that help other people. And I've also learned lots of different things that are helpful in my day job.
+
+> What I like about open source is that it offers the opportunity to actually help improve the tools we all use at work.
 
 **If you were to give one piece of advice to someone willing to contribute to OSS, what would it?**
 
@@ -40,3 +40,5 @@ What I like about open source is that it offers the opportunity to actually help
 **What are you most looking forward to at CukenFest London?**
 
 The people! Last year I got to meet a bunch of people I'd previously only collaborated with online. This year I look forward to seeing them again, and meeting new people! (And of course, if I can get anyone interested in collaborating with us, that would be a big bonus).
+
+Join Marit and 120 other BDD enthusiasts for [CukenFest London](http://cukenfest.cucumber.io). 
