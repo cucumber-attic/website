@@ -17,7 +17,7 @@ I've been working in software development for about 15 years. In that time I've 
 **What common anti-patterns do you see software delivery teams making?**
 
 The main challenge I have noticed in my career, is making sure to build the right thing and focus on the things that are important to your product or client. It can be quite hard to really understand your domain, and to translate that to software that provides the most value to the users. 
-At the same time, making sure to build it right can be quite a challenge to build them right. Especially when there is a high focus on delivering features and maybe not enough time to lower technical debt.
+At the same time, making sure to build it right can be quite a challenge. Especially when there is a high focus on delivering features and maybe not enough time to lower technical debt.
 
 **What drove you to first start contributing to an OSS project?**
 
@@ -35,7 +35,7 @@ Sometimes I work Cucumber-jvm, but mainly I work on the documentation. There are
 
 **What excites you about the future of OSS?**
 
-What I like about open source is that it offers the opportunity to actually help improve the tools we all use at work. If you find a bug or want an additional feature, you can build it. But mainly, I love the community around open source, of people who want to make things just a little bit better, a little bit at the time. What I love most, is people who stop by to contribute from fixing typos or dead links, or doing reviews, to building entire new features. It makes me really happy. 
+What I like about open source is that it offers the opportunity to actually help improve the tools we all use at work. If you find a bug or want an additional feature, you can build it. But mainly, I love the community around open source, of people who want to make things just a little bit better, a little bit at a time. What I love most, is people who stop by to contribute from fixing typos or dead links, or doing reviews, to building entire new features. It makes me really happy. 
 
 **What are you most looking forward to at CukenFest London?**
 
