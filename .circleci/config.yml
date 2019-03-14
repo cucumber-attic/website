@@ -10,11 +10,12 @@ jobs:
       - run:
           name: Bundle Install
           command: |
+            gem install bundle
             bundle install --path vendor/bundle
       - save_cache:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
           paths:
-            - ~/website/vendor/bundle
+            - ~/project/vendor/bundle
       - run:
           name: Rake
           command: |
