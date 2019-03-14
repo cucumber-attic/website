@@ -1,7 +1,19 @@
 version: 2
 jobs:
-  build:
-    ...
+  test:
+    docker:
+      - circleci/ruby:2.3
+    steps:
+      - checkout
+      - run:
+          name: Bundle Install
+          command: |
+            bundle install
+      - run:
+          name: Rake
+          command: |
+            bundle exec install
+
   deploy:
     docker:
       - image: buildpack-deps:trusty
@@ -16,7 +28,7 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build
+      - test
       - deploy:
           requires:
             - build
