@@ -38,27 +38,6 @@ let(:app) { APP }
     end
   end
 
-  describe "blog" do
-    it "renders blog pages just like any other page" do
-      get '/blog/2015/01/31/cucumber-ruby-rc-3-released'
-      expect(last_response).to be_ok
-    end
-
-    describe "rss feed" do
-      it "exists" do
-        get "/feed.xml"
-        expect(last_response).to be_ok
-        expect(last_response.headers['Content-Type']).to eq 'application/rss+xml'
-      end
-
-      it "has 10 entries" do
-        get "/feed.xml"
-        feed = Nokogiri::XML(last_response.body)
-        expect(feed.xpath('//rss/channel/item').length).to eq 10
-      end
-    end
-  end
-
   describe "events" do
     describe "rss feed" do
       let(:site) do

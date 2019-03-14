@@ -2,17 +2,23 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.3
+      - image: circleci/ruby:2.3.8
     steps:
       - checkout
+      - restore_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
       - run:
           name: Bundle Install
           command: |
-            bundle install
+            bundle install --path vendor/bundle
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - ~/website/vendor/bundle
       - run:
           name: Rake
           command: |
-            bundle exec install
+            bundle exec rake
 
   deploy:
     docker:
