@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.3.8
+      - image: circleci/ruby:2.3.8-node
     steps:
       - checkout
       - restore_cache:
