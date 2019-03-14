@@ -1,7 +1,26 @@
 version: 2
 jobs:
-  build:
-    ...
+  test:
+    docker:
+      - image: circleci/ruby:2.3.8-node
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Bundle Install
+          command: |
+            gem install bundle
+            bundle install --path vendor/bundle
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - ~/project/vendor/bundle
+      - run:
+          name: Rake
+          command: |
+            bundle exec rake
+
   deploy:
     docker:
       - image: buildpack-deps:trusty
@@ -16,10 +35,10 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build
+      - test
       - deploy:
           requires:
-            - build
+            - test
           filters:
             branches:
               only: master
