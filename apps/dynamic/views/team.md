@@ -19,7 +19,7 @@ These are the organisations who are now discovering that they need to up their g
 
 ***
 
-### Aslak Hellesøy - [@aslak_hellesoy](https://twitter.com/aslak_hellesøy)
+### Aslak Hellesøy - [@aslak_hellesoy](https://twitter.com/aslak_hellesoy)
 <img src="https://cucumber.io/images/headshots/aslak.jpg" alt="Aslak Hellesøy" style="width:200px;height:200px;">
 
 Aslak is the creator of Cucumber. He co-wrote [The Cucumber Book, Behaviour-Driven Development for Developers and Testers](https://pragprog.com/book/hwcuc2/the-cucumber-book-second-edition) with Matt Wynne. During his career Aslak has worked with both small and large organisations in several industries such as telecom, trading, banking, retail, insurance, car manufacturing, education and government. Aslak is a co-founder of Cucumber Ltd, the company behind Cucumber.
