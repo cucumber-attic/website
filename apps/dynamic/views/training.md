@@ -307,7 +307,7 @@ brand_image: /images/cucumber-mark-grey.svg
           </div>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/blog/2015/07/01/bdd-in-the-financial-sector">BDD at Canon</a></h4>
+              <h4><a href="https://cucumber.io/training/canon-case-study.pdf">BDD at Canon</a></h4>
               <p>
                 How BDD techniques helped the Canon team trust that they were building the right thing for the business.
               </p>
