@@ -299,17 +299,17 @@ brand_image: /images/cucumber-mark-grey.svg
           <h4 class="heading-reverse heading--sub">Real world accounts of our training</h4>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/blog/2018/05/08/dyson-and-bdd">BDD at Dyson</a></h4>
+              <h4><a href="https://cucumber.io/training/consorsbank-case-study.pdf">BDD at Consorsbank</a></h4>
               <p>
-                A case study of how Dyson use BDD to reduce misunderstandings and time spent on regression testing.
+                How Consorsbank broke down damaging silos using Cucumber and Behaviour-Driven Development.
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="blank-card">
-              <h4><a href="https://cucumber.io/blog/2015/07/01/bdd-in-the-financial-sector">BDD in Finance</a></h4>
+              <h4><a href="https://cucumber.io/training/canon-case-study.pdf">BDD at Canon</a></h4>
               <p>
-                Learn why more and more financial firms are turning to BDD to deliver high-quality software.
+                How BDD techniques helped the Canon team trust that they were building the right thing for the business.
               </p>
             </div>
           </div>
