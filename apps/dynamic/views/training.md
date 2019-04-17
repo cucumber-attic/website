@@ -319,20 +319,7 @@ brand_image: /images/cucumber-mark-grey.svg
               <p>
                 How one of the world's most valuable companies rolled out BDD and Cucumber to 200 teams.
           <div class="col-md-4">
-            <div class="blank-card">
-              <h4><a href="https://www.youtube.com/watch?v=XAjkc28nUjY">BDD at Vanguard</a></h4>
-              <p>
-                How one of the world's most valuable companies rolled out BDD and Cucumber to 200 teams.
-          <div class="col-md-4">
-            <div class="blank-card">
-              <h4><a href="https://www.youtube.com/watch?v=XAjkc28nUjY">BDD at Vanguard</a></h4>
-              <p>
-                How one of the world's most valuable companies rolled out BDD and Cucumber to 200 teams.
-          <div class="col-md-4">
-            <div class="blank-card">
-              <h4><a href="https://www.youtube.com/watch?v=XAjkc28nUjY">BDD at Vanguard</a></h4>
-              <p>
-                How one of the world's most valuable companies rolled out BDD and Cucumber to 200 teams.                
+            <div class="blank-card">               
               </p>
             </div>
           </div>
