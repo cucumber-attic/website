@@ -17,6 +17,8 @@ dtstart: 2018-08-14 00:00:00
 dtend: 2018-08-15 00:00:00
 ---
 
+Our next BDD Kickstart class will take place on June 27th-28th 2019. [Find out more here](https://cucumber.io/events/2019/05/bdd-kickstart-san-francisco).
+
 # BDD Kickstart - 2 day BDD training
 
 It's been a few years since our last public course on the West Coast and we're returning to deliver our flagship Behaviour-Driven Development training, BDD Kickstart. You will gain a fundamental understanding of the techniques and tools associated with BDD and be able to explain the benefits to your colleagues. 
